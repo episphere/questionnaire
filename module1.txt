@@ -470,7 +470,7 @@ Or, if it is easier to remember the year, enter that here:
 (146477090) Type 1
 (573635975) Type 2
 (178420302) Don’t know
-< #NR -> D_301679110 >
+< -> D_301679110 >
 
 [D_301679110?,displayif=equals(D_900541533,158044532)] How old were you when a doctor or other health professional <b>first</b> told you that you have or had diabetes?
 |__|__|xor=DM2 id=D_861769692 min=0 max=isDefined(D_150344905,age)| Age at diagnosis
@@ -1113,8 +1113,7 @@ Which one of these figures most closely resembles your hair pattern at <b>age 40
 
 [D_769668224?] Have you ever used medication to treat <b>thinning hair or hair loss</b>?
 (353358909) Yes -> D_814664694
-(104430631) No
-< -> D_283634623 >
+(104430631) No -> D_283634623
 
 [D_814664694?] What medication did you use to treat thinning hair or hair loss? Select all that apply.
 [903825143] Rogaine®, Minoxidil, or Loniten®
