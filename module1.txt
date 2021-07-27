@@ -38,7 +38,7 @@ Age: |__|__|min=40 max=70|
 [586825330] Native Hawaiian or other Pacific Islander -> D_115616118
 [412790539] White -> D_797626610
 [807835037] None of these fully describe me: Please describe [text box:D_747350323]
-[116984232] Prefer not to answer
+[116984232*] Prefer not to answer
 < #NR -> D_588212264 >
 
 [D_362270886?,displayif=equals(D_384191091,583826374)] Which of these categories describes you best? Select all that apply.
@@ -46,7 +46,7 @@ Age: |__|__|min=40 max=70|
 [530063091] Alaska Native
 [643489668] Central or South American Indian
 [923311241] None of these fully describe me: Please describe [text box: D_650100414]
-[780524998] Prefer not to answer
+[780524998*] Prefer not to answer
 < #NR -> D_525535977 >
 
 [D_525535977?,displayif=equals(D_384191091,636411467)] Which of these categories describes you best? Select all that apply.
@@ -60,7 +60,7 @@ Age: |__|__|min=40 max=70|
 [571633051] Pakistani
 [964924704] Vietnamese
 [946150260] None of these fully describe me: Please describe [text box:D_396618548]
-[271443268] Prefer not to answer
+[271443268*] Prefer not to answer
 < #NR -> D_976808005 >
 
 [D_976808005?,displayif=equals(D_384191091,458435048)] Which of these categories describes you best? Select all that apply.
@@ -76,7 +76,7 @@ Age: |__|__|min=40 max=70|
 [304643362] Somali
 [151821009] South African
 [456125070] None of these fully describe me: Please describe [text box:D_852296096]
-[822663722] Prefer not to answer
+[822663722*] Prefer not to answer
 < #NR -> D_308014437 >
 
 [D_308014437?,displayif=equals(D_384191091,706998638)] Which of these categories describes you best? Select all that apply.
@@ -90,7 +90,7 @@ Age: |__|__|min=40 max=70|
 [988121468] Salvadoran
 [773342525] Spanish
 [751755704] None of these fully describe me: Please describe [text box:D_440307926]
-[128026114] Prefer not to answer
+[128026114*] Prefer not to answer
 < #NR -> D_351657815 >
 
 [D_351657815?,displayif=equals(D_384191091,973565052)] Which of these categories describes you best? Select all that apply.
@@ -105,7 +105,7 @@ Age: |__|__|min=40 max=70|
 [336596477] Syrian
 [380583570] Tunisian
 [508525427] None of these fully describe me: Please describe [text box: D_576646485]
-[836224975] Prefer not to answer
+[836224975*] Prefer not to answer
 < #NR -> D_115616118 >
 
 [D_115616118?,displayif=equals(D_384191091,586825330)] Which of these categories describes you best? Select all that apply.
@@ -119,7 +119,7 @@ Age: |__|__|min=40 max=70|
 [167028305] Tahitian
 [345861266] Tongan
 [578896602] None of these fully describe me: Please describe [text box: D_403180970]
-[244187388] Prefer not to answer
+[244187388*] Prefer not to answer
 < #NR -> D_797626610 >
 
 [D_797626610?,displayif=equals(D_384191091,412790539)] Which of these categories describes you best? Select all that apply.
@@ -135,7 +135,7 @@ Age: |__|__|min=40 max=70|
 [704661219] Scottish
 [147281305] Spanish
 [175204935] None of these fully describe me: Please describe [text box:D_774928994]
-[871278927] Prefer not to answer
+[871278927*] Prefer not to answer
 < #NR -> D_588212264 >
 
 [D_588212264?] When you were a child, what language(s) did you <b>first</b> learn at home? Select all that apply.
@@ -199,7 +199,7 @@ What was your biological sex assigned at birth?
 
 [D_555481393?] Do you think of yourself as:
 (271882746) Straight or heterosexual
-(903084185) Lesbian, gay, or homosexual
+(903084185) Lesbian, gay, or homosexual 
 (999994434) Bisexual
 (481662922) Something else: Please describe [text box:D_979809707]
 (746038746) Prefer not to answer
@@ -221,7 +221,7 @@ Has a doctor or other health professional ever told you that you have or had <b>
 [D_508846529?] What type(s) of skin cancer did a doctor or other health professional tell you that you have or had? Select all that apply.
 [864052438] Basal cell
 [323177352]Squamous cell
-[426285737] Don’t know
+[426285737*] Don’t know
 < #NR -> D_904550680 >
 
 [D_904550680?] How old were you when a doctor or other health professional <b>first</b> told you that you have or had skin cancer?
@@ -247,7 +247,7 @@ Has a doctor or other health professional ever told you that you have or had any
 [693851465] High Blood Pressure (Hypertension) |displayif=or(equals(D_407056417,536341288),equals(D_407056417,576796184))|Please do not include hypertension during pregnancy.| -> D_884793537
 [512012656] Blood Clots (Deep Vein Thrombosis, Pulmonary Embolism) -> D_460062034
 [619337095] Stroke -> D_110652436
-[535003378] I have <b>not</b> had any of these conditions -> D_894259747
+[535003378*] I have <b>not</b> had any of these conditions -> D_894259747
 < #NR -> D_894259747 >
 
 [D_965917116?,displayif=equals(D_167101091,698944820)] How old were you when a doctor or other health professional <b>first</b> told you that you have or had <b>vitamin B-12 deficiency (pernicious anemia)</b>?
@@ -334,7 +334,7 @@ Has a doctor or other health professional ever told you that you have or had any
 [359025642] Chronic lung disease (Emphysema, Chronic Bronchitis, or Chronic Obstructive Pulmonary Disease (COPD)) -> D_448722126
 [407340134] Asthma -> D_201449164
 [427219143] Hay Fever (Allergic to pollen or Allergic Rhinitis) -> D_436333358
-[445446905] I have <b>not</b> had any of these conditions -> D_180961306
+[445446905*] I have <b>not</b> had any of these conditions -> D_180961306
 < #NR -> D_180961306 >
 
 [D_448722126?,displayif=equals(D_894259747,359025642)] How old were you when you a doctor or other health professional <b>first</b> told you that you have or had <b>chronic lung disease (emphysema, chronic bronchitis, or chronic obstructive pulmonary disease (COPD))</b>?
@@ -372,7 +372,7 @@ Has a doctor or other health professional ever told you that you have or had any
 [545628561] Gallstones (Biliary Stones) -> D_980403315
 [709786039] Liver Cirrhosis -> D_936039586
 [984479578] Pancreatitis -> D_430472084
-[473901019] I have <b>not</b> had any of these conditions -> D_900541533
+[473901019*] I have <b>not</b> had any of these conditions -> D_900541533
 < #NR -> D_900541533 >
 
 [D_554782332?,displayif=equals(D_180961306,406890409)] How old were you when a doctor or other health professional <b>first</b> told you that you have or had <b>esophageal acid reflux (GERD)</b>?
@@ -456,7 +456,7 @@ Or, if it is easier to remember the year, enter that here:
 [726539692] Thyroid Disorder (Overactive or Underactive Thyroid) -> D_139655599
 [158044532] Diabetes -> D_494032093
 [943054522] Graves’ Disease -> D_810918716
-[599063442] I have <b>not</b> had any of these conditions -> D_874046190
+[599063442*] I have <b>not</b> had any of these conditions -> D_874046190
 < #NR -> D_874046190 >
 
 [D_139655599?,displayif=equals(D_900541533,726539692)] How old were you when a doctor or other health professional <b>first</b> told you that you have or had a <b>thyroid disorder (overactive or underactive thyroid)</b>?
@@ -490,7 +490,7 @@ Or, if it is easier to remember the year, enter that here:
 Has a doctor or other health professional ever told you that you have or had any of these conditions? Select all that apply.
 [827542780] Kidney Stones -> D_989016875
 [167238688] Chronic Kidney Disease (Also Known as Chronic Kidney Failure) -> D_878094302
-[870244556] I have <b>not</b> had any of these conditions -> D_543728565
+[870244556*] I have <b>not</b> had any of these conditions -> D_543728565
 < #NR -> D_543728565 >
 
 [D_989016875?,displayif=equals(D_874046190,827542780)] How old were you when a doctor or other health professional <b>first</b> told you that you have or had <b>kidney stones</b>?
@@ -512,8 +512,8 @@ Or, if it is easier to remember the year, enter that here:
 [636030086] Rheumatoid Arthritis -> D_173101988
 [239687183] Lupus -> D_245861186
 [134592375] Gout -> D_420423416
-[251231642] I have <b>not</b> had any of these conditions -> INTROSTD
-< #NR -> INTROSTD >
+[251231642*] I have <b>not</b> had any of these conditions -> D_874709643
+< #NR -> D_874709643 >
 
 [D_173101988?,displayif=equals(D_543728565,636030086)] How old were you when a doctor or other health professional <b>first</b> told you that you have or had <b>rheumatoid arthritis</b>?
 |__|__|xor=RA id=D_162655918 min=0 max=isDefined(D_150344905,age)| Age at diagnosis
@@ -551,7 +551,7 @@ The following questions ask about conditions that may affect your reproductive s
 [155874194] Genital Warts -> D_393598235
 [880962432] HPV -> D_491936871
 [691450854] HIV/AIDS -> D_926855303
-[572909251] I have <b>not</b> had any of these conditions -> D_725626004
+[572909251*] I have <b>not</b> had any of these conditions -> D_725626004
 < #NR -> D_725626004 >
 
 [D_915230886?,displayif=equals(D_874709643,164910211)] How old were you when a doctor or other health professional <b>first</b> told you that you have or had <b>“mono” or “kissing disease” (infectious mononucleosis)</b>?
@@ -639,7 +639,7 @@ Has a doctor or other health professional ever told you that you have or had any
 
 [854945381] Ductal  Carcinoma <i>in situ</i> (DCIS)
 
-[522161060] I have <b>not</b> had any of these conditions -> DEPRESSINTRO
+[522161060*] I have <b>not</b> had any of these conditions -> DEPRESSINTRO
 
 < #NR -> DEPRESSINTRO >
 
@@ -655,7 +655,7 @@ Or, if it is easier to remember the year, enter that here:
 
 Or, if it is easier to remember the year, enter that here:
 |__|__|__|__|xor=ENDO id=D_627561788 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Year of diagnosis
-< #NR -> D_266847650 >
+<-> D_266847650 >
 
 [D_266847650?,displayif=equals(D_725626004,863286658)]  Was your endometriosis confirmed by surgery?
 (353358909) Yes
@@ -681,21 +681,21 @@ Or, if it is easier to remember the year, enter that here:
 
 Or, if it is easier to remember the year, enter that here:
 |__|__|__|__|xor=BREASTDIS id=D_138780721 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Year of diagnosis
-< #NR -> D_134642404 >
+< -> D_134642404 >
 
 [D_134642404?,displayif=equals(D_725626004,746542057)] When you were told that you have fibrocystic breasts, or other benign breast disease, was it <b>confirmed by biopsy</b>?
 (353358909) Yes
 (104430631) No
-< #NR -> D_219956652 >
+< -> D_219956652 >
 
 [D_219956652?,displayif=equals(D_725626004,854945381)] How old were you when a doctor or other health professional first told you that you have or had ductal carcinoma <i>in situ</i> of the breast?
 |__|__|id=D_440662483 min=0 max=isDefined(D_150344905,age)| Age at diagnosis
 
 Or, if it is easier to remember the year, enter that here:
 |__|__|__|__|id=D_551017973 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Year of diagnosis
-< #NR -> D_125124512 >
+< -> D_852236900 >
 
-[D_125124512?,displayif=equals(D_725626004,854945381)] When you were told that you have or had ductal carcinoma <i>in situ</i> of the breast, was it confirmed by biopsy?
+[D_852236900?,displayif=equals(D_725626004,854945381)] When you were told that you have or had ductal carcinoma <i>in situ</i> of the breast, was it confirmed by biopsy?
 (353358909) Yes
 (104430631) No
 < #NR -> DEPRESSINTRO >
@@ -731,8 +731,8 @@ The next questions ask about certain surgical procedures you may have had.
 [532603425,displayif=or(equals(D_407056417,654207589),equals(D_750420077,751402477))] Removal of one or both testicles (orchiectomy or orchidectomy) -> D_946504570
 [733236542,displayif=or(equals(D_407056417,654207589),equals(D_750420077,700100953))] Prostate removed (prostatectomy) -> D_107060069
 [961987554,displayif=or(equals(D_407056417,654207589),equals(D_750420077,582784267))] Penis removed (penectomy) -> D_527057404
-[668434958] I have <b>not</b> had any of these surgeries -> D_453252072
-< #NR -> D_453252072 >
+[668434958*] I have <b>not</b> had any of these surgeries 
+< -> D_453252072 > 
 
 [D_367884741?,displayif=equals(D_624179836,797189152)] How old were you when you had your <b>tonsils removed (tonsillectomy)</b>?
 |__|__|xor=TONSILS id=D_300754548 min=0 max=isDefined(D_150344905,age)| Age at diagnosis
@@ -770,32 +770,32 @@ Or, if it is easier to remember the year, enter that here:
 < #NR -> D_517307064 >
 
 [D_517307064?,displayif=equals(D_624179836,533491176)] Which of these <b>breast surgeries</b> have you had? Please do not include a biopsy. Select all that apply.
-[752953170] Breast implants (augmentation surgery) 
-[325506683] Breast lift surgery (mastopexy) 
-[335563082] Breast reconstruction surgery 
-[955881350] Breast reduction (reduction mammaplasty) 
-[492902023] Removal of a part of my breast tissue (breast-conserving surgery (BCS),  lumpectomy, partial mastectomy, or segmental mastectomy) 
-[256196714] Removal of one breast (mastectomy) 
-[802859122] Removal of both breasts (double or bilateral mastectomy) 
-[520432394] Surgery for a breast abscess (such as incision and draining) 
-[667901971] Removal of a lactiferous or milk duct (microdochectomy) 
-[894430838] Other: Please describe [text box: D_942347130] 
-[875057149] None of the above -> D_150352141
-< #NR -> D_150352141 >
+[752953170] Breast implants (augmentation surgery) -> D_867314445
+[325506683] Breast lift surgery (mastopexy) -> D_867314445
+[335563082] Breast reconstruction surgery -> D_867314445
+[955881350] Breast reduction (reduction mammaplasty) -> D_867314445
+[492902023] Removal of a part of my breast tissue (breast-conserving surgery (BCS),  lumpectomy, partial mastectomy, or segmental mastectomy) -> D_867314445
+[256196714] Removal of one breast (mastectomy) -> D_867314445
+[802859122] Removal of both breasts (double or bilateral mastectomy) -> D_867314445
+[520432394] Surgery for a breast abscess (such as incision and draining) -> D_867314445
+[667901971] Removal of a lactiferous or milk duct (microdochectomy) -> D_867314445
+[894430838] Other: Please describe [text box: D_942347130] -> D_867314445
+[875057149*] None of the above 
 
-[D_867314445?,displayif=equals(D_624179836,533491176)] How old were you when you had breast surgery? If you have had more than one procedure, at what age did you <b>last</b> have this procedure?
+
+[D_867314445?,displayif=and(equals(D_624179836,533491176),and(greaterThan(isDefined(D_517307064,-1),-1),lessThan(isDefined(D_517307064,-1),88)))] How old were you when you had breast surgery? If you have had more than one procedure, at what age did you <b>last</b> have this procedure?
 |__|__|xor=BREASTSUR2 id=D_326574941 min=0 max=isDefined(D_150344905,age)| Age at diagnosis
 
 Or, if it is easier to remember the year, enter that here:
 |__|__|__|__|xor=BREASTSUR2 id=D_560915680 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Year of diagnosis
-< #NR -> D_150352141 >
+
 
 [D_150352141?,displayif=equals(D_624179836,220755749)] How old were you when you had your <b>uterus removed (hysterectomy)</b>?
 |__|__|xor=HYSTER id=D_861162777 min=0 max=isDefined(D_150344905,age)| Age at diagnosis
 
 Or, if it is easier to remember the year, enter that here:
 |__|__|__|__|xor=HYSTER id=D_223433842 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Year of diagnosis
-< #NR -> D_150352141 >
+
 
 [D_122887481?,displayif=equals(D_624179836,465318416)] How old were you when you had your <b>tubes tied (tubal ligation)</b>?
 |__|__|xor=TUBLIG id=D_232595513 min=0 max=isDefined(D_150344905,age)| Age at diagnosis
@@ -805,30 +805,30 @@ Or, if it is easier to remember the year, enter that here:
 < #NR -> D_378892977 >
 
 [D_378892977?,displayif=equals(D_624179836,630100221)] Which of these best describes the type of <b>ovary removal surgery</b> that you had?
-(333647143) I had surgery to remove one ovary
-(109972911) I had surgery to remove both ovaries
-(398561594) None of the above -> D_224791140
-< #NR -> D_224791140 >
+(333647143) I had surgery to remove one ovary -> D_534007917
+(109972911) I had surgery to remove both ovaries -> D_534007917
+(398561594) None of the above 
 
-[D_534007917?,displayif=equals(D_624179836,630100221)] How old were you when you had one or both ovaries removed (oophorectomy)? If you have had more than one procedure, at what age did you <b>last</b> have this procedure?
+
+[D_534007917?,displayif=and(equals(D_624179836,630100221),and(greaterThan(isDefined(D_378892977,-1),-1),lessThan(isDefined(D_378892977,-1),88)))] How old were you when you had one or both ovaries removed (oophorectomy)? If you have had more than one procedure, at what age did you <b>last</b> have this procedure?
 |__|__|xor=OVARYREM2 id=D_382585565 min=0 max=isDefined(D_150344905,age)| Age at diagnosis
 
 Or, if it is easier to remember the year, enter that here:
 |__|__|__|__|xor=OVARYREM2 id=D_792079466 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Year of diagnosis
-< #NR -> D_224791140 >
 
-[D_224791140?,displayif=equals(D_624179836,692881833)] Which of these best describes the type of <b>fallopian tube removal surgery</b> that you had?
-(448068764) I had surgery to remove one fallopian tube
-(537173119) I had surgery to remove both fallopian tubes
-(398561594) None of the above -> D_518750011
-< #NR -> D_518750011 >
 
-[D_752636038?,displayif=equals(D_624179836,692881833)] How old were you when you had one or both fallopian tubes removed (salpingectomy)? If you have had more than one procedure, at what age did you <b>last</b> have this procedure?
+[D_224791140?,displayif=and(equals(D_624179836,692881833)] Which of these best describes the type of <b>fallopian tube removal surgery</b> that you had?
+(448068764) I had surgery to remove one fallopian tube -> D_752636038
+(537173119) I had surgery to remove both fallopian tubes -> D_752636038
+(398561594) None of the above 
+
+
+[D_752636038?,displayif=and(equals(D_624179836,692881833),and(greaterThan(isDefined(D_224791140,-1),-1),lessThan(isDefined(D_224791140,-1),88)))] How old were you when you had one or both fallopian tubes removed (salpingectomy)? If you have had more than one procedure, at what age did you <b>last</b> have this procedure?
 |__|__|xor=FTREM2 id=D_145109012 min=0 max=isDefined(D_150344905,age)| Age at diagnosis
 
 Or, if it is easier to remember the year, enter that here:
 |__|__|__|__|xor=FTREM2 id=D_317830774 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Year of diagnosis
-< #NR -> D_518750011 >
+
 
 [D_518750011?,displayif=equals(D_624179836,654450030)] How old were you when you had a <b>vasectomy</b>?
 |__|__|xor=VASEC id=D_928298652 min=0 max=isDefined(D_150344905,age)| Age at diagnosis
@@ -841,7 +841,7 @@ Or, if it is easier to remember the year, enter that here:
 (770550588) I had surgery to remove one testicle
 (970716952) I had surgery to remove both testicles
 (398561594) None of the above
-< #NR -> D_275770221 >
+< -> D_275770221 >
 
 [D_275770221?,displayif=equals(D_624179836,532603425)] How old were you when you had one or both testicles removed (orchiectomy or orchidectomy)? If you have had more than one procedure, at what age did you <b>last</b> have this procedure?
 |__|__|xor=TESTREM2 id=D_996533518 min=0 max=isDefined(D_150344905,age)| Age at diagnosis
@@ -851,17 +851,17 @@ Or, if it is easier to remember the year, enter that here:
 < #NR -> D_107060069 >
 
 [D_107060069?,displayif=equals(D_624179836,733236542)] Which of these best describes the type of <b>prostate removal surgery</b> that you had?
-(524029283) I had surgery to remove part of my prostate
-(500023550) I had surgery to remove my whole prostate
-(398561594) None of the above -> D_527057404
-< #NR -> D_527057404 >
+(524029283) I had surgery to remove part of my prostate -> D_882152987
+(500023550) I had surgery to remove my whole prostate  -> D_882152987
+(398561594) None of the above 
 
-[D_882152987?,displayif=equals(D_624179836,733236542)] How old were you when you had part or all of your prostate removed (prostatectomy)? If you have had more than one procedure, at what age did you <b>last</b> have this procedure?
+
+[D_882152987?,displayif=and(equals(D_624179836,733236542),and(greaterThan(isDefined(D_107060069,-1),-1),lessThan(isDefined(D_107060069,-1),88)))] How old were you when you had part or all of your prostate removed (prostatectomy)? If you have had more than one procedure, at what age did you <b>last</b> have this procedure?
 |__|__|xor=PROSREM2 id=D_331285390 min=0 max=isDefined(D_150344905,age)| Age at diagnosis
 
 Or, if it is easier to remember the year, enter that here:
 |__|__|__|__|xor=PROSREM2 id=D_614994823 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Year of diagnosis
-< #NR -> D_527057404 >
+
 
 [D_527057404?,displayif=equals(D_624179836,961987554)] How old were you when you had your <b>penis removed (penectomy)</b>?
 |__|__|xor=PENREM id=D_453820144 min=0 max=isDefined(D_150344905,age)| Age at diagnosis
@@ -873,25 +873,25 @@ Or, if it is easier to remember the year, enter that here:
 Have you ever had a <b>blood transfusion</b>?
 (353358909) Yes -> D_795940097
 (104430631) No -> D_875208305
-< #NR -> D_875208305 >
+<#NR -> D_875208305>
 
 [D_795940097?] How many blood transfusions have you had in total?
 |__|__| min=1| # of transfusions
-< #NR -> D_406011084 >
+<#NR -> D_406011084 >
 
 [D_406011084?,displayif=greaterThanOrEqual(D_795940097,1)] How old were you when you had your <b>first</b> blood transfusion?
 |__|__|xor=BLDTRANS3 id=D_380275309 min=0 max=isDefined(D_150344905,age)| Age at first transfusion
 
 Or, if it is easier to remember the year, enter that here:
 |__|__|__|__|xor=BLDTRANS3 id=D_197994844 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Year at first transfusion
-< #NR -> D_593017220 >
+<#NR -> D_593017220 >
 
 [D_593017220?,displayif=greaterThan(D_795940097,1)] How old were you when you had your <b>last</b> blood transfusion?
 |__|__|xor=BLDTRANS4 id=D_434556295 min=isDefined(D_380275309,0) max=isDefined(D_150344905,age)| Age at last transfusion
 
 Or, if it is easier to remember the year, enter that here:
 |__|__|__|__|xor=BLDTRANS4 id=D_106010694 minval=isDefined(D_197994844,difference(difference(#currentYear,isDefined(AGE,age)),1)) max=#currentYear| Year at last transfusion
-< #NR -> D_875208305 >
+
 
 [D_875208305?]<b>General Health</b>
 
@@ -943,7 +943,7 @@ Over the <b>past three months</b>, have you felt any physical pain on most days?
 < #NR -> D_677262300 >
 
 [D_677262300?] How old were you when you reached your adult height? If you are not sure, please make your best guess.
-|__|__|min=0 max=isDefined(D_150344905,age) id=ABCDEFG| Age
+|__|__|min=0 max=isDefined(D_150344905,age)| Age
 < #NR -> D_650399623 >
 
 [D_650399623?] When you were about 10 years old, compared to average, would you describe yourself as…
@@ -1113,7 +1113,8 @@ Which one of these figures most closely resembles your hair pattern at <b>age 40
 
 [D_769668224?] Have you ever used medication to treat <b>thinning hair or hair loss</b>?
 (353358909) Yes -> D_814664694
-(104430631) No -> D_283634623
+(104430631) No
+< -> D_283634623 >
 
 [D_814664694?] What medication did you use to treat thinning hair or hair loss? Select all that apply.
 [903825143] Rogaine®, Minoxidil, or Loniten®
@@ -1179,12 +1180,12 @@ Is your biological mother still living?
 
 [D_354326265?] How old is your mother today?
 |__|__|__|id=D_378988419 minval=max(isDefined(D_150344905,age),5) max=125| Mother’s age
-[178420302] Don’t know
+[178420302*] Don’t know
 < -> D_276353712 >
 
 [D_422714611?] At what age did your mother die?
 |__|__|__|id=D_807765962 min=5 max=125| Mother’s age
-[178420302] Don’t know
+[178420302*] Don’t know
 < #NR -> D_276353712 >
 
 [D_276353712?] |displayif=equals(D_170440011,353358909)|Has a doctor or other health professional ever said that your mother has or had any type of <b>cancer</b>?| |displayif=or(equals(D_170440011,104430631),or(equals(D_170440011,178420302),equals(D_170440011,undefined)))|Did a doctor or other health professional ever say that your mother had any type of <b>cancer</b>?|
@@ -1216,7 +1217,7 @@ Is your biological mother still living?
 [139822395] Thyroid -> D_838564850
 [723614811] Uterine (endometrial) -> D_633764113
 [618107598] Another type of cancer: Please describe [text box: D_677702321] -> D_882263738
-[660424548] I know they had cancer, but don’t know what type -> D_671308090
+[660424548*] I know they had cancer, but don’t know what type -> D_671308090
 < #NR -> D_367374606 >
 
 [D_259397450?,displayif=equals(D_814510313,939782495)] How old was your mother when they were <b>first</b> told by a doctor or other health professional that they have or had <b>anal cancer</b>?
@@ -1388,12 +1389,12 @@ Or, if it is easier to remember the year, enter that here:
 
 [D_178774803?] How old is your father today?
 |__|__|__|id=D_334956961 minval=max(isDefined(D_150344905,age),5) max=125| Father’s age
-[178420302] Don’t know
+[178420302*] Don’t know
 < -> D_659784914 >
 
 [D_628078826?] At what age did your father die?
 |__|__|__|id=D_517670352 min=5 max=125| Father’s age
-[178420302] Don’t know
+[178420302*] Don’t know
 < #NR -> D_659784914 >
 
 [D_659784914?] |displayif=equals(D_367374606,353358909)|Has a doctor or other health professional ever said that your father has or had any type of <b>cancer</b>?||displayif=or(equals(D_367374606,104430631),or(equals(D_367374606,178420302),equals(D_367374606,undefined)))|Did a doctor or other health professional ever say that your father  had any type of <b>cancer</b>?|
@@ -1424,7 +1425,7 @@ Or, if it is easier to remember the year, enter that here:
 [248374037] Testicular -> D_359291056
 [311662905] Thyroid -> D_968841976
 [191104654] Another type of cancer: Please describe [text box: D_195093589] -> D_864981804
-[967938316] I know they had cancer, but don’t know what type -> D_499434567
+[967938316*] I know they had cancer, but don’t know what type -> D_499434567
 
 [D_345146692?,displayif=equals(D_173240848,516207605)] How old was your father when they were <b>first</b> told by a doctor or other health professional that they have or had <b>anal cancer</b>?
 |__|__|__|xor=DADCANC3A id=D_120646060 min=0 max=125| Age at diagnosis
@@ -1620,11 +1621,11 @@ If this is <b>not</b> correct, please select the “Back” button to update you
 
 [D_869387390?] How old is |displayif=equals(isNotDefined(D_406098499,false),false)|{$D_406098499}||displayif=doesNotEqual(isNotDefined(D_406098499,false),false)|your sibling| today?
 |__|__|__|id=D_478706011 min=0 max=125| Sibling’s age
-[178420302] Don’t know
+[178420302*] Don’t know
 
 [D_537137982?] How old was |displayif=equals(isNotDefined(D_406098499,false),false)|{$D_406098499}||displayif=doesNotEqual(isNotDefined(D_406098499,false),false)|your sibling| when they died?
 |__|__|__|id=D_338020179 min=0 max=125| Sibling’s age
-[178420302] Don’t know
+[178420302*] Don’t know
 
 [D_607773106?]|displayif=equals(D_890637099,353358909)|Has||displayif=doesNotEqual(D_890637099,353358909)|Did| a doctor or other health professional ever |displayif=equals(D_890637099,353358909)|told||displayif=doesNotEqual(D_890637099,353358909)|tell| |displayif=equals(isNotDefined(D_406098499,false),false)|{$D_406098499}||displayif=doesNotEqual(isNotDefined(D_406098499,false),false)|your sibling| that they |displayif=equals(D_890637099,353358909)|have or |had any type of <b>cancer</b>?
 (104430631) No -> _CONTINUE
@@ -1657,7 +1658,7 @@ If this is <b>not</b> correct, please select the “Back” button to update you
 [966947727] Thyroid -> D_216840563
 [639029928] Uterine (endometrial) -> D_514034680
 [698581196] Another type of cancer: Please describe [text box: D_957429734] -> D_247160067
-[178035206] I know my sibling had cancer, but don’t know what type -> D_312545873
+[178035206*] I know my sibling had cancer, but don’t know what type -> D_312545873
 < -> _CONTINUE >
 
 [D_384881609?,displayif=equals(D_578895128,247280146)] How old was |displayif=equals(isNotDefined(D_406098499,false),false)|{$D_406098499}||displayif=doesNotEqual(isNotDefined(D_406098499,false),false)|your sibling| when they were <b>first</b> told by a doctor or other health professional that they have or had <b>anal cancer</b>?
@@ -1845,12 +1846,12 @@ If this is <b>not</b> correct, please select the “Back” button to update you
 [D_640010727?] How old is |displayif=equals(isNotDefined(D_714001034,false),false)|{$D_714001034}||displayif=doesNotEqual(isNotDefined(D_714001034,false),false)|your child| today?
 |__|__|id=D_299300933 min=1 max=125| Child’s age
 [958239616] Less than 1 year old
-[178420302] Don’t know
+[178420302*] Don’t know
 
 [D_236590500?] How old was |displayif=equals(isNotDefined(D_714001034,false),false)|{$D_714001034}||displayif=doesNotEqual(isNotDefined(D_714001034,false),false)|your child| when |displayif=equals(D_887697329,654207589)|he||displayif=equals(D_887697329,536341288)|she||displayif=or(equals(D_887697329,576796184),or(equals(D_887697329,178420302),equals(D_887697329,undefined)))|they| died?
 |__|__|id=D_182786508 min=1 max=125| Child’s age
 [958239616] Less than 1 year old
-[178420302] Don’t know
+[178420302*] Don’t know
 
 
 [D_718867914?]|displayif=equals(D_418392907,353358909)|Has||displayif=doesNotEqual(D_418392907,353358909)|Did| a doctor or other health professional ever |displayif=equals(D_418392907,353358909)|told||displayif=doesNotEqual(D_418392907,353358909)|tell| |displayif=equals(isNotDefined(D_714001034,false),false)|{$D_714001034}||displayif=doesNotEqual(isNotDefined(D_714001034,false),false)|your child| that they |displayif=equals(D_418392907,353358909)|have or |had any type of <b>cancer</b>?
@@ -1884,7 +1885,7 @@ If this is <b>not</b> correct, please select the “Back” button to update you
 [179559655] Thyroid -> D_969177591
 [525998037] Uterine (endometrial) -> D_116065851
 [511202456] Another type of cancer: Please describe [text box: D_933110091] -> D_278159347
-[698908929] I know my child had cancer, but don’t know what type -> D_845219872
+[698908929*] I know my child had cancer, but don’t know what type -> D_845219872
 < -> _CONTINUE >
 
 [D_900939817?,displayif=equals(D_812370563,541893218)] How old was |displayif=equals(isNotDefined(D_714001034,false),false)|{$D_714001034}||displayif=doesNotEqual(isNotDefined(D_714001034,false),false)|your child| when they were <b>first</b> told by a doctor or other health professional that they have or had <b>anal cancer</b>?
@@ -1946,12 +1947,10 @@ Or, if it is easier to remember the year, enter that here:   |__|__|__|__| xor=C
 Or, if it is easier to remember the year, enter that here:   |__|__|__|__| xor=CHILDCANC3I id=D_954022335 minval=difference(difference(#currentYear,isDefined(D_299300933,isDefined(CHILDDEATH_NUM,125))),1) max=#currentYear|Year of diagnosis
 
 
-
 [D_483735587?,displayif=equals(D_812370563,742312655)]  How old was |displayif=equals(isNotDefined(D_714001034,false),false)|{$D_714001034}||displayif=doesNotEqual(isNotDefined(D_714001034,false),false)|your child| when they were <b>first</b> told by a doctor or other health professional that they have or had <b>leukemia</b>?
 |__|__|__|__|xor=CHILDCANC3J id=D_711224139 min=0 max=125| Age at diagnosis
 
 Or, if it is easier to remember the year, enter that here:   |__|__|__|__| xor=CHILDCANC3J id=D_640489106 minval=difference(difference(#currentYear,isDefined(D_299300933,isDefined(CHILDDEATH_NUM,125))),1) max=#currentYear|Year of diagnosis
-
 
 
 [D_331759900?,displayif=equals(D_812370563,924966896)] How old was |displayif=equals(isNotDefined(D_714001034,false),false)|{$D_714001034}||displayif=doesNotEqual(isNotDefined(D_714001034,false),false)|your child| when they were <b>first</b> told by a doctor or other health professional that they have or had <b>liver cancer</b>?
@@ -2099,7 +2098,7 @@ The following questions ask for more background information about you, including
 [751475124] Military
 [308286913] A shipyard
 [745065357] Some other type of business [text box:D_923333992]
-[362104337] Don’t Know
+[362104337*] Don’t Know
 < -> D_868232409 >
 
 [D_868232409?] What products were made, or services provided, by this employer?  If multiple, please provide the product/services related to your work unit. For example: automotive parts, residential home construction, accounting services, pharmaceutical research.
@@ -2144,7 +2143,7 @@ The following questions ask for more background information about you, including
 [454263183] Military
 [274169783] A shipyard
 [883468127] Some other type of business [text box:D_739237614]
-[427583219] Don’t Know
+[427583219*] Don’t Know
 < -> D_233198706 >
 
 [D_233198706?] What products were made, or services provided, by this employer? If multiple, please provide the product/services related to your work unit. For example: automotive parts, residential home construction, accounting services, pharmaceutical research.
@@ -2179,7 +2178,7 @@ The following questions ask for more background information about you, including
 
 [D_641651634?] How many people currently live in your household? Please include yourself in the total number. (Include students living away at school, deployed military, etc.)
 |__|__|id=D_173508724 min=0 max=99| #People living in household
-(363470193) Prefer not to answer
+[363470193*] Prefer not to answer
 
 [INTROCNT] <b>Other Contact Information</b>
 

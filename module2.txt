@@ -1,4 +1,4 @@
-{"name":"Module2"} [INTROM2] In this set of questions we ask about a few topics that affect your health. These topics include your current and past use of medications, your physical activity (including exercise), and your sleep habits.
+{"name":"D_745268907"} [INTROM2] In this set of questions we ask about a few topics that affect your health. These topics include your current and past use of medications, your physical activity (including exercise), and your sleep habits.
 
 |displayif=or(equals(D_407056417,536341288),and(equals(D_407056417,576796184),or(equals(D_750420077,578416151),equals(D_750420077,434651539))))|We also ask some questions about your reproductive health. These questions will focus mainly on your menstrual periods, pregnancies, and if you have used any hormonal medications.|
 
@@ -17,10 +17,10 @@ Have you ever taken any of these medications at least <b>4 times a month for 6 m
 [800410166|naproxen] Naproxen (such as Naprosyn®, Anaprox®, or Aleve®)  -> D_234177873
 [221645137|celecoxib] Celebrex® (Celecoxib)  -> D_248599913
 [974248369|painReliever] Prescription pain relievers containing opioids (such as hydrocodone (such as Vicodin®, Lorcet®, Lortab®, or Norco®), oxycodone (such as OxyContin® or Percocet®), morphine (such as Kadian® or Avinza®), Fentanyl, codeine,tramadol, methadone, oxymorphone, hydromorphone (Dilaudid®), or meperidine (Demerol®))  -> D_697661603
-[808714782] None of the above
+[808714782*] None of the above
 < -> D_414005872 >
 
-[D_861838892?] During the time(s) that you were taking <b>baby or low-dose aspirin (81 mg or less)</b>, about how many <b>days per week OR per month</b> did you take it? 
+[D_861838892?] During the time(s) that you were taking <b>baby or low-dose aspirin (81 mg or less)</b>, about how many <b>days per week OR per month</b> did you take it?
 
  #Days PER Week |__|__|xor=PAINREL2_1 id=D_765748316 min=1 max=7|
 Or, if it is easier to remember days per month, enter that here:
@@ -31,7 +31,7 @@ Or, if it is easier to remember days per month, enter that here:
 [D_596961796?] On the days that you took baby or low-dose aspirin (81 mg or less), about how many pills did you take <b>per day</b>, on most days?
 
 #Pills per day |__|__|id=D_101317072 min=1 max=99|
-(495230752) Don’t know
+[495230752*] Don’t know
 < -> D_113681507 >
 
 [D_113681507?] About how many years did you take baby or low-dose aspirin (81 mg or less)?
@@ -60,7 +60,7 @@ Or, if it is easier to remember days per month, enter that here:
 [191656389] Muscle or joint pain, joint or bone injuries, sprains, or strains
 [558504672] Toothache
 
-[D_837412550?] During the time(s) that you were taking <b>regular or extra strength aspirin</b>, about how many <b>days per week OR per month</b> did you take it? 
+[D_837412550?] During the time(s) that you were taking <b>regular or extra strength aspirin</b>, about how many <b>days per week OR per month</b> did you take it?
 
  #Days PER Week |__|__|xor=PAINREL2_2 id=D_317527310 min=1 max=7|
 Or, if it is easier to remember days per month, enter that here:
@@ -71,7 +71,7 @@ Or, if it is easier to remember days per month, enter that here:
 [D_825189914?] On the days that you took regular or extra strength aspirin, about how many pills did you take <b>per day</b>, on most days?
 
 #Pills per day |__|__|id=D_506631184 min=1 max=99|
-(495230752) Don’t know
+[495230752*] Don’t know
 < -> D_615979584 >
 
 [D_615979584?] About how many years did you take regular or extra strength aspirin?
@@ -100,7 +100,7 @@ Or, if it is easier to remember days per month, enter that here:
 [191656389] Muscle or joint pain, joint or bone injuries, sprains, or strains
 [558504672] Toothache
 
-[D_388804810?] During the time(s) that you were taking <b>ibuprofen</b>, about how many <b>days per week OR per month</b> did you take it? 
+[D_388804810?] During the time(s) that you were taking <b>ibuprofen</b>, about how many <b>days per week OR per month</b> did you take it?
 
  #Days PER Week |__|__|xor=PAINREL2_3 id=D_576558862 min=1 max=7|
 Or, if it is easier to remember days per month, enter that here:
@@ -111,7 +111,7 @@ Or, if it is easier to remember days per month, enter that here:
 [D_753416375?] On the days that you took ibuprofen, about how many pills did you take <b>per day</b>, on most days?
 
 #Pills per day |__|__|id=D_377507430 min=1 max=99|
-(495230752) Don’t know
+[495230752*] Don’t know
 < -> D_771526486 >
 
 [D_771526486?] About how many years did you take ibuprofen?
@@ -140,7 +140,7 @@ Or, if it is easier to remember days per month, enter that here:
 [191656389] Muscle or joint pain, joint or bone injuries, sprains, or strains
 [558504672] Toothache
 
-[D_614446276?] During the time(s) that you were taking <b>acetaminophen</b>, about how many <b>days per week OR per month</b> did you take it? 
+[D_614446276?] During the time(s) that you were taking <b>acetaminophen</b>, about how many <b>days per week OR per month</b> did you take it?
 
  #Days PER Week |__|__|xor=PAINREL2_4 id=D_166789083 min=1 max=7|
 Or, if it is easier to remember days per month, enter that here:
@@ -151,7 +151,7 @@ Or, if it is easier to remember days per month, enter that here:
 [D_646042915?] On the days that you took acetaminophen, about how many pills did you take <b>per day</b>, on most days?
 
 #Pills per day |__|__|id=D_267187069 min=1 max=99|
-(495230752) Don’t know
+[495230752*] Don’t know
 < -> D_270254670 >
 
 [D_270254670?] About how many years did you take acetaminophen?
@@ -180,7 +180,7 @@ Or, if it is easier to remember days per month, enter that here:
 [191656389] Muscle or joint pain, joint or bone injuries, sprains, or strains
 [558504672] Toothache
 
-[D_234177873?] During the time(s) that you were taking <b>naproxen</b>, about how many <b>days per week OR per month</b> did you take it? 
+[D_234177873?] During the time(s) that you were taking <b>naproxen</b>, about how many <b>days per week OR per month</b> did you take it?
 
  #Days PER Week |__|__|xor=PAINREL2_5 id=D_857680243 min=1 max=7|
 Or, if it is easier to remember days per month, enter that here:
@@ -191,7 +191,7 @@ Or, if it is easier to remember days per month, enter that here:
 [D_799338907?] On the days that you took naproxen, about how many pills did you take <b>per day</b>, on most days?
 
 #Pills per day |__|__|id=D_784516299 min=1 max=99|
-(495230752) Don’t know
+[495230752*] Don’t know
 < -> D_376720409 >
 
 [D_376720409?] About how many years did you take naproxen?
@@ -220,7 +220,7 @@ Or, if it is easier to remember days per month, enter that here:
 [191656389] Muscle or joint pain, joint or bone injuries, sprains, or strains
 [558504672] Toothache
 
-[D_248599913?] During the time(s) that you were taking <b>Celebrex® (celecoxib)</b>, about how many <b>days per week OR per month</b> did you take it? 
+[D_248599913?] During the time(s) that you were taking <b>Celebrex® (celecoxib)</b>, about how many <b>days per week OR per month</b> did you take it?
 
  #Days PER Week |__|__|xor=PAINREL2_6 id=D_376091473 min=1 max=7|
 Or, if it is easier to remember days per month, enter that here:
@@ -231,7 +231,7 @@ Or, if it is easier to remember days per month, enter that here:
 [D_893965588?] On the days that you took Celebrex® (celecoxib), about how many pills did you take <b>per day</b>, on most days?
 
 #Pills per day |__|__|id=D_563606905 min=1 max=99|
-(495230752) Don’t know
+[495230752*] Don’t know
 < -> D_439072744>
 
 [D_439072744?] About how many years did you take Celebrex® (celecoxib)?
@@ -260,7 +260,7 @@ Or, if it is easier to remember days per month, enter that here:
 [191656389] Muscle or joint pain, joint or bone injuries, sprains, or strains
 [558504672] Toothache
 
-[D_697661603?] During the time(s) that you were taking <b>prescription pain relievers containing opioids</b>, about how many <b>days per week OR per month</b> did you take it? 
+[D_697661603?] During the time(s) that you were taking <b>prescription pain relievers containing opioids</b>, about how many <b>days per week OR per month</b> did you take it?
 
  #Days PER Week |__|__|xor=PAINREL2_7 id=D_427336386 min=1 max=7|
 Or, if it is easier to remember days per month, enter that here:
@@ -271,7 +271,7 @@ Or, if it is easier to remember days per month, enter that here:
 [D_438682764?] On the days that you took prescription pain relievers containing opioids, about how many pills did you take <b>per day</b>, on most days?
 
 #Pills per day |__|__|id=D_770097917 min=1 max=99|
-(495230752) Don’t know
+[495230752*] Don’t know
 < -> D_445571225 >
 
 [D_445571225?] About how many years did you take prescription pain relievers containing opioids?
@@ -312,13 +312,13 @@ Or, if it is easier to remember days per month, enter that here:
 Have you ever taken any of these medications at least <b>4 times a month for 6 months or longer</b>? Select all that apply.
 [480724806|statin] Cholesterol or lipid lowering drugs/Statins (such as atorvastatin (Lipitor®), fluvastatin (such as Lescol® or Lescol® XL), lovastatin (such as Mevacor® or Altoprev®), pravastatin (Pravachol®), rosuvastatin (Crestor®), simvastatin (Zocor), or pitavastatin (Livalo®)) -> D_731790154
 [819373917|hbp] Drugs used to treat high blood pressure (hypertension) (such as Bumetanide (Bumex®), Chlorthalidone (Hygroton®), Chlorothiazide (Diuril®), Ethacrynate (Edecrin®), Furosemide (Lasix®), Hydrochlorothiazide HCTZ (such as Esidrix®, Hydrodiuril®, or Microzide®), Indapamide (Lozol®), Methyclothiazide (Enduron®), Metolazone (such as Mykroz® or Zaroxolyn®), or Torsemide (Demadex®))  -> D_305292465
-[277004502] None of the above
+[277004502*] None of the above
 < -> D_112024853 >
 
-[D_731790154?] During the time(s) that you were taking <b>statins/cholesterol or lipid lowering drugs</b>, about how many <b>days per week OR per month</b> did you take it? 
+[D_731790154?] During the time(s) that you were taking <b>statins/cholesterol or lipid lowering drugs</b>, about how many <b>days per week OR per month</b> did you take it?
 
  #Days PER Week |__|__|xor=CHOLHTN2_1 id=D_259022344 min=1 max=7|
- 
+
 Or, if it is easier to remember days per month, enter that here:
 #Days PER Month |__|__| xor=CHOLHTN2_1 id=D_944872953 min=1 max=31|
 
@@ -327,7 +327,7 @@ Or, if it is easier to remember days per month, enter that here:
 [D_550092533?] On the days that you took statins/cholesterol or lipid lowering drugs, about how many pills did you take <b>per day</b>, on most days?
 
 #Pills per day |__|__|id=D_307414105 min=1 max=99|
-(495230752) Don’t know
+[495230752*] Don’t know
 < -> D_163057677 >
 
 [D_163057677?] About how many years did you take statins/cholesterol or lipid lowering drugs?
@@ -346,7 +346,7 @@ Or, if it is easier to remember days per month, enter that here:
 #Years ago |__|__|min=1 max=99|
 
 
-[D_305292465?] During the time(s) that you were taking <b>anti-hypertensive medication/drugs used to treat hypertension (high blood pressure)</b>, about how many <b>days per week OR per month</b> did you take it? 
+[D_305292465?] During the time(s) that you were taking <b>anti-hypertensive medication/drugs used to treat hypertension (high blood pressure)</b>, about how many <b>days per week OR per month</b> did you take it?
 
  #Days PER Week |__|__|xor=CHOLHTN2_2 id=D_399077240 min=1 max=7|
 Or, if it is easier to remember days per month, enter that here:
@@ -358,7 +358,7 @@ Or, if it is easier to remember days per month, enter that here:
 [D_901498441?] On the days that you took anti-hypertensive medication/drugs used to treat hypertension (high blood pressure), about how many pills did you take <b>per day</b>, on most days?
 
 #Pills per day |__|__|id=D_406453342 min=1 max=99|
-(495230752) Don’t know
+[495230752*] Don’t know
 < -> D_147792229 >
 
 [D_147792229?] About how many years did you take anti-hypertensive medication/drugs used to treat hypertension (high blood pressure)?
@@ -384,7 +384,7 @@ Have you ever taken <b>metformin</b> (such as Glucophage®, Glumetza®, Riomet®
 (104430631) No -> D_982448213
 < #NR -> D_982448213 >
 
-[D_694817520?] During the time(s) that you were taking <b>metformin</b>, about how many <b>days per week OR per month</b> did you take it? 
+[D_694817520?] During the time(s) that you were taking <b>metformin</b>, about how many <b>days per week OR per month</b> did you take it?
 
  #Days PER Week |__|__|xor=METFOR2_1 id=D_112601935 min=1 max=7|
 Or, if it is easier to remember days per month, enter that here:
@@ -395,7 +395,7 @@ Or, if it is easier to remember days per month, enter that here:
 [D_991622246?] On the days that you took metformin, about how many milligrams did you take <b>per day</b>, on most days?
 
 #Milligrams per day |__|__|id=D_685483563 min=0 max=1000|
-(920765381) Don’t know
+[920765381*] Don’t know
 < -> D_450131058 >
 
 [D_450131058?] About how many years did you take metformin?
@@ -420,7 +420,7 @@ Have you ever taken <b>insulin</b> at least <b>4 times a month for 6 months or l
 (353358909) No -> D_643361372
 < #NR -> D_643361372 >
 
-[D_745223146?] During the time(s) that you were taking insulin, about how many <b>days per week OR per month</b> did you take it? 
+[D_745223146?] During the time(s) that you were taking insulin, about how many <b>days per week OR per month</b> did you take it?
 
  #Days PER Week |__|__|xor=INSULIN2_1 id=D_864142365 min=1 max=7|
 Or, if it is easier to remember days per month, enter that here:
@@ -431,7 +431,7 @@ Or, if it is easier to remember days per month, enter that here:
 [D_273218182?] On the days that you took insulin, about how many units did you take <b>per day</b>, on most days?
 
 #Units per day |__|__|id=D_189226716 min=1 max=99|
-(495230752) Don’t know
+[495230752*] Don’t know
 < -> D_850202336 >
 
 [D_850202336?] On the days that you took insulin, what concentration did you take?
@@ -463,10 +463,10 @@ Have you ever taken any of these medications at least <b>4 times a month for 6 m
 [933374659|prespump] Prescription proton pump inhibitors (such as omeprazole (such as Prilosec® or Zegerid®), esomeprazole (Nexium®), lansoprazole (Prevacid®), rabeprazole (AcipHex), pantoprazole (Protonix®), or dexlansoprazole (Dexilant®)) -> D_172234651
 [920460744|otcpump] Over-the-counter proton pump inhibitors (such as esomeprazole (Nexium®), omeprazole (Prilosec® OTC), omeprazole with sodium bicarbonate (Zegerid®), or lansoprazole (Prevacid® 24HR))  -> D_416865817
 [449861632|otcblkr] Over-the-counter H2 receptor blockers (such as famotidine (Pepcid®, Zantac®, or Tagamet®)) -> D_266752903
-[711076451] None of the above
+[711076451*] None of the above
 < -> SECTION2_SKIPPED >
 
-[D_172234651?,displayif=equals(D_643361372,933374659)] During the time(s) that you were taking <b>prescription proton pump inhibitors</b>, about how many <b>days per week OR per month</b> did you take it? 
+[D_172234651?,displayif=equals(D_643361372,933374659)] During the time(s) that you were taking <b>prescription proton pump inhibitors</b>, about how many <b>days per week OR per month</b> did you take it?
 
  #Days PER Week |__|__|xor=ACIDSUP2_1 id=D_715378651 min=1 max=7|
 Or, if it is easier to remember days per month, enter that here:
@@ -477,7 +477,7 @@ Or, if it is easier to remember days per month, enter that here:
 [D_753610471?,displayif=equals(D_643361372,933374659)] On the days that you took prescription proton pump inhibitors, about how many pills did you take <b>per day</b>, on most days?
 
 #Pills per day |__|__|id=D_188269730 min=1 max=99|
-(495230752) Don’t know
+[495230752*] Don’t know
 < -> D_424183977 >
 
 [D_424183977?,displayif=equals(D_643361372,933374659)] About how many years did you take prescription proton pump inhibitors?
@@ -496,7 +496,7 @@ Or, if it is easier to remember days per month, enter that here:
 #Years ago |__|__|
 
 
-[D_416865817?,displayif=equals(D_643361372,920460744)] During the time(s) that you were taking <b>over-the-counter proton pump inhibitors</b>, about how many <b>days per week OR per month</b> did you take it? 
+[D_416865817?,displayif=equals(D_643361372,920460744)] During the time(s) that you were taking <b>over-the-counter proton pump inhibitors</b>, about how many <b>days per week OR per month</b> did you take it?
 
  #Days PER Week |__|__|xor=ACIDSUP2_2 id=D_315967343 min=1 max=7|
 Or, if it is easier to remember days per month, enter that here:
@@ -507,7 +507,7 @@ Or, if it is easier to remember days per month, enter that here:
 [D_803968511?,displayif=equals(D_643361372,920460744)] On the days that you took over-the-counter proton pump inhibitors, about how many pills did you take <b>per day</b>, on most days?
 
 #Pills per day |__|__|id=D_344344097 min=1 max=99|
-(495230752) Don’t know
+[495230752*] Don’t know
 < -> D_378572291 >
 
 [D_378572291?,displayif=equals(D_643361372,920460744)] About how many years did you take over-the-counter proton pump inhibitors?
@@ -525,7 +525,7 @@ Or, if it is easier to remember days per month, enter that here:
 
 #Years ago |__|__|
 
-[D_266752903?,displayif=equals(D_643361372,449861632)] During the time(s) that you were taking <b>over-the-counter H2 receptor blockers</b>, about how many <b>days per week OR per month</b> did you take it? 
+[D_266752903?,displayif=equals(D_643361372,449861632)] During the time(s) that you were taking <b>over-the-counter H2 receptor blockers</b>, about how many <b>days per week OR per month</b> did you take it?
 
  #Days PER Week |__|__|xor=ACIDSUP2_3 id=D_944586769 min=1 max=7|
 Or, if it is easier to remember days per month, enter that here:
@@ -536,7 +536,7 @@ Or, if it is easier to remember days per month, enter that here:
 [D_618427836?,displayif=equals(D_643361372,449861632)] On the days that you took over-the-counter H2 receptor blockers, about how many pills did you take <b>per day</b>, on most days?
 
 #Pills per day |__|__|id=D_825488116 min=1 max=99|
-(495230752) Don’t know
+[495230752*] Don’t know
 < -> D_774514900 >
 
 [D_774514900?,displayif=equals(D_643361372,449861632)] About how many years did you take over-the-counter H2 receptor blockers?
@@ -580,8 +580,8 @@ First, we ask you some questions about your menstrual health.
 [D_930232115?]
 How old were you when you had your <b>first</b> menstrual period? Please make your best guess if you are not sure.
 
-Age |__|__|id=D_969451837 min=0 max=sum(isDefined(D_150344905,age),1)| 
-(249502933) I have never had a menstrual period -> PREG
+Age |__|__|id=D_969451837 min=0 max=sum(isDefined(D_150344905,age),1)|
+[249502933*] I have never had a menstrual period -> PREG
 < #NR -> PREG >
 
 [D_167997205?] How long after your first menstrual period did your periods become regular? By regular, we mean that you could predict the start of your next period within a few days.
@@ -652,7 +652,7 @@ Age |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
 < -> PREGCONFIRM >
 
 [PREGWARNING,displayif=equals(isDefined(D_405571048,-1),-1)] You told us that you have been pregnant, or are pregnant now. Click ‘back’ to enter the number of pregnancies you have had, or click next to skip this question.
-< -> PREGCONINTRO >
+< -> FERT1 >
 
 [PREGCONFIRM,displayif=greaterThan(isDefined(D_405571048,-1),-1)] You told us that you have been pregnant {$D_405571048} time|displayif=greaterThan(D_405571048,1)|s|, including all live births, as well as pregnancies that ended as stillbirths, miscarriages, ectopic or tubal pregnancies, or termination.
 
@@ -708,7 +708,7 @@ Outcome of pregnancy: |displayif=equals(D_391951010,223216393)|Live birth: singl
 </loop>
 
 
-[PREGCONINTRO]The next few questions will ask about pregnancy-related health issues that you may have or had in the past.
+[PREGCONINTRO,displayif=greaterThan(isDefined(D_405571048,-1),-1)]The next few questions will ask about pregnancy-related health issues that you may have or had in the past.
 
 [D_779052408?,displayif=or(equals(D_391951010_1_1,223216393),or(equals(D_391951010_1_1,628445697),equals(D_391951010_1_1,419220239)))]
 Has a doctor or other health professional ever told you that you have or had <b>gestational diabetes</b>?
@@ -779,7 +779,7 @@ Select all that apply.
 [372219003|serophene] Serophene® -> D_538349354
 [743731422|synarel] Synarel® nasal solution -> D_767785846
 [390100691|Other] Other medication: Please describe |__|id=D_762700622| -> D_466346054
-[418579198] None of the above
+[418579198*] None of the above
 < -> D_111082535 >
 
 [D_139673389?] In total, how many months or cycles did you take <b>Clomid®</b>?
@@ -831,7 +831,7 @@ The next few questions ask about your use of hormone medications and/or contrace
 [205223932|copIud] Copper IUD (such as Paraguard® intrauterine device) -> D_901154649
 [817131019|horIud] Hormonal IUD (such as Mirena® intrauterine device) -> D_404596261
 [541818367|other] Other: Please describe |__|id=D_684201296| -> D_583012139
-[303273276] None of the above
+[303273276*] None of the above
 < -> MENOHOR >
 
 [D_880331901?]
@@ -1078,7 +1078,7 @@ In the next set of questions, we ask you about your use of hormones. Some common
 [515434780|ring] Vaginal ring (Femring®), vaginal cream (Estrace®), or vaginal tablet (Vagifem®) estrogen-only medication
 [674148137|estSkin] Estrogen-only skin gel, cream, or spray-on medication (such as Divigel®, Elestrin®, or EstroGel®)
 [266011986|other] Any other type of estrogen-only medication: Please describe |__|id=D_640559281|
-[206737681] None of the above
+[206737681*] None of the above
 < #NR -> D_800943768 >
 
 [D_856627601?,displayif=equals(D_668834883,246843973)]
@@ -1213,7 +1213,7 @@ Or, if it is easier to remember years, enter that here:
 Have you ever taken any of these types of <b>progestin-only prescription hormones</b>? Select all that apply.
 [687050279|oralMed] Oral progestin-only medication (such as Provera® or Prometrium®)
 [636984303|oralEst]    Any other type of progestin/progesterone-only medication: Please describe: |__|id=D_235516216|
-[259904995] None of the above
+[259904995*] None of the above
 < #NR -> D_263785082 >
 
 [D_590329439?,displayif=equals(D_800943768,687050279)]
@@ -1290,7 +1290,7 @@ How many <b>days per cycle</b> did you use this progestin/progesterone-only pres
 [837393880|combined] Combined oral estrogen plus progestin pill (such as Prempro®, Activella®, Femhrt®, or PREFEST®)
 [944874693|twoPill] Two separate pills, one estrogen and one progestin pill
 [364744868|anyComEst] Any other type of combined estrogen plus progestin prescription hormones (such as the patch (Climara-Pro®), other pills, or creams): Please describe:|__|id=D_542108835|
-[803579011] None of the above -> TESTTHER_INTRO
+[803579011*] None of the above -> TESTTHER_INTRO
 < #NR -> TESTTHER_INTRO >
 
 [D_824165133?,displayif=equals(D_263785082,837393880)]
@@ -1531,7 +1531,7 @@ During the <b>past 12 months</b>, about how often did you do each of these house
 [797221287] Moderate outdoor chores (such as weeding, raking, or mowing the lawn) -> D_442059084
 [500744195] Vigorous outdoor chores (such as digging, carrying lumber, or snow shoveling) -> D_829749579
 [383015037] Home repair (such as painting, plumbing, or replacing carpeting) -> D_618482103
-[256626602] I did <b>not</b> do any of these activities
+[256626602*] I did <b>not</b> do any of these activities
 < -> D_517976064 >
 
 [D_442059084?,displayif=equals(D_204421360,797221287)] In which season(s) did you do these <b>moderate outdoor chores (such as weeding, raking, or mowing the lawn)</b>? Select all that apply.
@@ -1627,7 +1627,7 @@ During the <b>past 12 months</b>, did you do any of these exercise or recreation
 [371531887] Surf or bodyboard -> D_262305264
 [423631576] High-intensity circuit training (such as P90x® or CrossFit®) -> D_409324592
 [769125260] Other exercise -> D_895837106
-[300663476] I did <b>not</b> do any of these activities
+[300663476*] I did <b>not</b> do any of these activities
 < -> SECTION4 >
 
 [D_894610280?,displayif=equals(D_517976064,904954920)] In which season(s) did you <b>walk or hike for exercise</b>? Select all that apply.
@@ -2201,7 +2201,7 @@ Has a doctor or other health professional ever told you that you have any of the
 [495144424] Insomnia
 [728393970] Restless legs
 [531811052] Narcolepsy
-[681218703] None of the above
+[681218703*] None of the above
 < -> D_674976924 >
 
 [D_629010195?,displayif=equals(D_479628567,370923702)] Which of these treatments do you use or once used for your <b>sleep apnea</b>? Select all that apply.
@@ -2209,14 +2209,14 @@ Has a doctor or other health professional ever told you that you have any of the
 [959572576] Dental (oral) device
 [576852249] Throat/Uvula surgery
 [260993037] Other: Please describe [text box:D_654253676]
-[453959731] No treatment
+[453959731*] No treatment
 
 [D_674976924?]<b>Shift Work</b>
 
 Have you worked as a |popup|shift worker|Shift work is work that takes place on a schedule different from the traditional 9:00AM – 5:00PM schedule. Employers that need 24-hour coverage often rely on shift work.|?
 (958538953) Yes, in the past 3 months -> D_195662769
 (274062548) Yes, more than 3 months ago -> D_195662769
-(104430631) No 
+(104430631) No
 < -> END >
 
 // should these be drop-down increments? currently drop down isn't supported
@@ -2252,7 +2252,7 @@ Age |__|__|id=D_863007380 min=0 max=99|
 
 Or, if it is easier to remember the year, enter that here:
 Year |__|__|__|__|id=D_120485458|
-    
+
 
 
 [END,end]  Thank you for completing this section of the questionnaire.
