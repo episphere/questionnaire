@@ -512,8 +512,8 @@ Or, if it is easier to remember the year, enter that here:
 [636030086] Rheumatoid Arthritis -> D_173101988
 [239687183] Lupus -> D_245861186
 [134592375] Gout -> D_420423416
-[251231642*] I have <b>not</b> had any of these conditions -> D_874709643
-< #NR -> D_874709643 >
+[251231642*] I have <b>not</b> had any of these conditions -> INTROSTD
+< #NR -> INTROSTD >
 
 [D_173101988?,displayif=equals(D_543728565,636030086)] How old were you when a doctor or other health professional <b>first</b> told you that you have or had <b>rheumatoid arthritis</b>?
 |__|__|xor=RA id=D_162655918 min=0 max=isDefined(D_150344905,age)| Age at diagnosis
