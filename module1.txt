@@ -781,7 +781,7 @@ Or, if it is easier to remember the year, enter that here:
 [667901971] Removal of a lactiferous or milk duct (microdochectomy)
 [894430838] Other: Please describe [text box: D_942347130]
 [875057149*] None of the above -> D_150352141
-< #NR -> D_867314445>
+< -> D_867314445>
 
 
 [D_867314445?,displayif=equals(D_624179836,533491176)] How old were you when you had breast surgery? If you have had more than one procedure, at what age did you <b>last</b> have this procedure?
