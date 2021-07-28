@@ -811,7 +811,7 @@ Or, if it is easier to remember the year, enter that here:
 (398561594) None of the above 
 < #NR -> D_224791140>
 
-[D_534007917?,displayif=and(equals(D_624179836,630100221),and(greaterThan(isDefined(D_378892977,-1),-1),lessThan(isDefined(D_378892977,-1),88)))] How old were you when you had one or both ovaries removed (oophorectomy)? If you have had more than one procedure, at what age did you <b>last</b> have this procedure?
+[D_534007917?,displayif=equals(D_624179836,630100221)] How old were you when you had one or both ovaries removed (oophorectomy)? If you have had more than one procedure, at what age did you <b>last</b> have this procedure?
 |__|__|xor=OVARYREM2 id=D_382585565 min=0 max=isDefined(D_150344905,age)| Age at diagnosis
 
 Or, if it is easier to remember the year, enter that here:
