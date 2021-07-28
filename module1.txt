@@ -722,7 +722,7 @@ The next questions ask about certain surgical procedures you may have had.
 [866002271] Appendix removed (appendectomy) -> D_550075233
 [118789503] Liposuction -> D_860920332
 [715563991] Bariatric surgery (lap band, gastric bypass) -> D_986613440
-[533491176] Breast surgery -> D_517307064
+[533491176] Breast surgery 1 -> D_517307064
 [220755749,displayif=or(equals(D_407056417,536341288),and(equals(D_407056417,576796184),equals(D_750420077,578416151)))] Uterus removed (a hysterectomy) -> D_150352141
 [465318416,displayif=or(equals(D_407056417,536341288),and(equals(D_407056417,576796184),equals(D_750420077,108025529)))] Tubes tied (tubal ligation) -> D_122887481
 [630100221,displayif=or(equals(D_407056417,536341288),and(equals(D_407056417,576796184),equals(D_750420077,434651539)))] Removal of one or both ovaries (oophorectomy) -> D_378892977
@@ -780,7 +780,7 @@ Or, if it is easier to remember the year, enter that here:
 [520432394] Surgery for a breast abscess (such as incision and draining) -> D_867314445
 [667901971] Removal of a lactiferous or milk duct (microdochectomy) -> D_867314445
 [894430838] Other: Please describe [text box: D_942347130] -> D_867314445
-[875057149*] None of the above 
+[875057149*] None of the above -> D_867314445
 < -> D_867314445>
 
 
@@ -809,7 +809,7 @@ Or, if it is easier to remember the year, enter that here:
 (333647143) I had surgery to remove one ovary -> D_534007917
 (109972911) I had surgery to remove both ovaries -> D_534007917
 (398561594) None of the above 
-
+< #NR -> D_224791140>
 
 [D_534007917?,displayif=and(equals(D_624179836,630100221),and(greaterThan(isDefined(D_378892977,-1),-1),lessThan(isDefined(D_378892977,-1),88)))] How old were you when you had one or both ovaries removed (oophorectomy)? If you have had more than one procedure, at what age did you <b>last</b> have this procedure?
 |__|__|xor=OVARYREM2 id=D_382585565 min=0 max=isDefined(D_150344905,age)| Age at diagnosis
