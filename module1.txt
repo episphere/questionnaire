@@ -819,10 +819,10 @@ Or, if it is easier to remember the year, enter that here:
 
 
 [D_224791140?,displayif=and(equals(D_624179836,692881833)] Which of these best describes the type of <b>fallopian tube removal surgery</b> that you had?
-(448068764) I had surgery to remove one fallopian tube -> D_752636038
-(537173119) I had surgery to remove both fallopian tubes -> D_752636038
-(398561594) None of the above 
-
+(448068764) I had surgery to remove one fallopian tube
+(537173119) I had surgery to remove both fallopian tubes
+(398561594) None of the above -> D_518750011
+< -> D_752636038>
 
 [D_752636038?,displayif=and(equals(D_624179836,692881833),and(greaterThan(isDefined(D_224791140,-1),-1),lessThan(isDefined(D_224791140,-1),88)))] How old were you when you had one or both fallopian tubes removed (salpingectomy)? If you have had more than one procedure, at what age did you <b>last</b> have this procedure?
 |__|__|xor=FTREM2 id=D_145109012 min=0 max=isDefined(D_150344905,age)| Age at diagnosis
