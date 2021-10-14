@@ -1,3 +1,19 @@
+// This file was transformed using the mapping data in testDict-2021-10-13-12-34-56.json.
+
+// JSON ERROR --> Concept ID collision for ID: 206625031 | there are collisions between Textbox code(s): [SIBCANC3E_AGE, CHLA_AGE, HEARTVALV_AGE, SIBCANC3O_AGE, MOMCANC3J_AGE, CHILDCANC3N_AGE, SIBCANC3Q_AGE, ARRHYT_AGE, PCOS_AGE, CHILDCANC3W_AGE, ENDO_AGE, HBVHCV_AGE, ANEMIA_AGE, MONO_AGE, CHILDCANC3M_AGE, DADCANC3E_AGE, HPV_AGE, UC_AGE, GERD_AGE, ASTHMA_AGE, DADCANC3U_AGE, LIVCIRR_AGE, SIBCANC3J_AGE, HEARTATT_AGE, TUBLIG_AGE, DADCANC3A_AGE, DADCANC3T_AGE, MOMCANC3M_AGE, GOUT_AGE, CHILDCANC3U_AGE, CHILDCANC3P_AGE, MOMCANC3L_AGE, MOMCANC3G_AGE, CCD_AGE, GALL_AGE, SHINGLES_AGE, ENLGPROS_AGE, CHILDCANC3E_AGE, DADCANC3C_AGE, SIBCANC3S_AGE, CHOL_AGE, SIBCANC3I_AGE, CHILDCANC3S_AGE, MOMCANC3U_AGE, MOMCANC3C_AGE, SIBCANC3M_AGE, MOMCANC3N_AGE, CD_AGE, PENREM_AGE, CHILDCANC3Y_AGE, CHF_AGE, STROKE_AGE, CHILDCANC3G_AGE, CHILDCANC3D_AGE, CHILDCANC3J_AGE, CHILDCANC3H_AGE, CHILDCANC3X_AGE, MOMCANC3H_AGE, CKD_AGE, GONORR_AGE, DADCANC3B_AGE, MOMCANC3A_AGE, DADCANC3P_AGE, DADCANC3V_AGE, TRICH_AGE, MOMCANC3Q_AGE, SIBCANC3L_AGE, DEPRESS2_AGE, MOMCANC3E_AGE, HTN_AGE, KIDNEY_AGE, SIBCANC3U_AGE, BLDTRANS4_AGE, BARESO_AGE, SIBCANC3W_AGE, DADCANC3G_AGE, SIBCANC3P_AGE, DADCANC3R_AGE, OVARYREM2_AGE, GRAVES_AGE, DADCANC3N_AGE, GALLREM_AGE, SIBCANC3F_AGE, BREASTDIS_AGE, DADCANC3H_AGE, BARSUR_AGE, DM2_AGE, MOMCANC3O_AGE, SIBCANC3A_AGE, MOMCANC3R_AGE, SIBCANC3T_AGE, HYSTER_AGE, MOMCANC3B_AGE, MOMCANC3F_AGE, CHILDCANC3C_AGE, RA_AGE, LUPUS_AGE, VASEC_AGE, HIVAIDS_AGE, UF_AGE, DADCANC3K_AGE, IBS_AGE, PANCREA_AGE, LIPOSUCT_AGE, CHESTPAIN_AGE, MOMCANC3S_AGE, SIBCANC3G_AGE, SIBCANC3Y_AGE, TESTREM2_AGE, APPEND_AGE, CHILDCANC3K_AGE, DCIS_AGE, CHILDCANC3B_AGE, DADCANC3D_AGE, FTREM2_AGE, MOMCANC3T_AGE, MOMCANC3W_AGE, PROSREM2_AGE, CHILDCANC3V_AGE, MOMCANC3D_AGE, CHILDCANC3F_AGE, MOMCANC3I_AGE, COPD_AGE, DADCANC3F_AGE, SIBCANC3R_AGE, CHILDCANC3O_AGE, DADCANC3M_AGE, CHILDCANC3Q_AGE, SIBCANC3D_AGE, CHILDCANC3A_AGE, TONSILS_AGE, DADCANC3S_AGE, MOMCANC3K_AGE, SIBCANC3B_AGE, SYPH_AGE, CVD_AGE, DADCANC3I_AGE, DADCANC3O_AGE, DIVERT_AGE, SIBCANC3V_AGE, SIBCANC3K_AGE, SIBCANC3N_AGE, GENWARTS_AGE, MOMCANC3P_AGE, HAYFEVER_AGE, SIBCANC3X_AGE, CHILDCANC3L_AGE, BLDTRANS3_AGE, CHILDCANC3T_AGE, SIBCANC3H_AGE, BLOODCLOT_AGE, DADCANC3Q_AGE, CHILDCANC3R_AGE, DADCANC3J_AGE, THYROID_AGE, SKINCANC3_AGE, SIBCANC3C_AGE, DADCANC3L_AGE, MOMCANC3V_AGE, IBD_AGE, CHILDCANC3I_AGE]
+// JSON ERROR --> Concept ID collision for ID: 261863326 | there are collisions between Textbox code(s): [OVARYREM2_YEAR, SIBCANC3Q_YEAR, SHINGLES_YEAR, CHILDCANC3C_YEAR, LUPUS_YEAR, DADCANC3T_YEAR, DADCANC3S_YEAR, CCD_YEAR, MOMCANC3W_YEAR, CHILDCANC3T_YEAR, BARSUR_YEAR, DADCANC3H_YEAR, FTREM2_YEAR, MOMCANC3I_YEAR, BLDTRANS3_YEAR, CHILDCANC3H_YEAR, DADCANC3M_YEAR, SIBCANC3J_YEAR, SIBCANC3U_YEAR, DADCANC3J_YEAR, SIBCANC3L_YEAR, TUBLIG_YEAR, IBS_YEAR, SIBCANC3I_YEAR, GERD_YEAR, APPEND_YEAR, THYROID_YEAR, SKINCANC3_YEAR, UC_YEAR, MOMCANC3F_YEAR, TONSILS_YEAR, KIDNEY_YEAR, DCIS_YEAR, PROSREM2_YEAR, GOUT_YEAR, ASTHMA_YEAR, TRICH_YEAR, BLOODCLOT_YEAR, MOMCANC3U_YEAR, DADCANC3O_YEAR, STROKE_YEAR, HEARTVALV_YEAR, HYSTER_YEAR, DADCANC3Q_YEAR, SIBCANC3G_YEAR, LIVCIRR_YEAR, MOMCANC3V_YEAR, DADCANC3A_YEAR, DADCANC3U_YEAR, DADCANC3K_YEAR, CHILDCANC3F_YEAR, HPV_YEAR, CHILDCANC3Q_YEAR, SIBCANC3O_YEAR, SIBCANC3C_YEAR, SIBCANC3N_YEAR, PENREM_YEAR, DEPRESS2_YEAR, SIBCANC3S_YEAR, MOMCANC3L_YEAR, MOMCANC3J_YEAR, PCOS_YEAR, SIBCANC3D_YEAR, CD_YEAR, CHESTPAIN_YEAR, SIBCANC3A_YEAR, DADCANC3I_YEAR, CHILDCANC3V_YEAR, DADCANC3D_YEAR, COPD_YEAR, DADCANC3V_YEAR, HIVAIDS_YEAR, CHILDCANC3K_YEAR, MOMCANC3E_YEAR, CHILDCANC3J_YEAR, CHILDCANC3W_YEAR, CHILDCANC3P_YEAR, MOMCANC3Q_YEAR, CVD_YEAR, CHILDCANC3M_YEAR, CHILDCANC3S_YEAR, BARESO_YEAR, DADCANC3R_YEAR, SIBCANC3Y_YEAR, GRAVES_YEAR, CHILDCANC3A_YEAR, MOMCANC3R_YEAR, SIBCANC3B_YEAR, CHILDCANC3U_YEAR, CHILDCANC3L_YEAR, SIBCANC3K_YEAR, GALLREM_YEAR, MOMCANC3P_YEAR, BLDTRANS4_YEAR, CHOL_YEAR, HTN_YEAR, MOMCANC3M_YEAR, DADCANC3P_YEAR, CHILDCANC3N_YEAR, MOMCANC3S_YEAR, CHILDCANC3X_YEAR, CHILDCANC3E_YEAR, MOMCANC3A_YEAR, SIBCANC3F_YEAR, MOMCANC3H_YEAR, SYPH_YEAR, HBVHCV_YEAR, GENWARTS_YEAR, MOMCANC3T_YEAR, TESTREM2_YEAR, HEARTATT_YEAR, SIBCANC3M_YEAR, SIBCANC3P_YEAR, CHLA_YEAR, DADCANC3N_YEAR, CHILDCANC3I_YEAR, CHILDCANC3R_YEAR, MOMCANC3C_YEAR, DM2_YEAR, DADCANC3E_YEAR, SIBCANC3R_YEAR, CHILDCANC3D_YEAR, CHILDCANC3O_YEAR, GALL_YEAR, PANCREA_YEAR, DADCANC3B_YEAR, UF_YEAR, DADCANC3F_YEAR, MOMCANC3K_YEAR, ENLGPROS_YEAR, CKD_YEAR, BREASTDIS_YEAR, MOMCANC3B_YEAR, CHILDCANC3B_YEAR, ARRHYT_YEAR, MONO_YEAR, CHF_YEAR, SIBCANC3T_YEAR, CHILDCANC3Y_YEAR, ENDO_YEAR, DADCANC3C_YEAR, SIBCANC3V_YEAR, SIBCANC3W_YEAR, RA_YEAR, SIBCANC3E_YEAR, MOMCANC3G_YEAR, DADCANC3G_YEAR, CHILDCANC3G_YEAR, VASEC_YEAR, HAYFEVER_YEAR, MOMCANC3N_YEAR, DADCANC3L_YEAR, IBD_YEAR, SIBCANC3X_YEAR, MOMCANC3D_YEAR, ANEMIA_YEAR, SIBCANC3H_YEAR, LIPOSUCT_YEAR, MOMCANC3O_YEAR, DIVERT_YEAR, GONORR_YEAR]
+// JSON ERROR --> Concept ID collision for ID: 623218391 | there are collisions between Textbox code(s): [BREASTRECON_AGE, BREASTDBLREM_AGE, BREASTIMPLANTS_AGE, BREASTLACTREM_AGE, BREASTABSS_AGE, BREASTPARTREM_AGE, BREASTOTH_AGE, BREASTLIFT_AGE, BREASTREM_AGE, BREASTREDN_AGE]
+// JSON ERROR --> Concept ID collision for ID: 802622485 | there are collisions between Textbox code(s): [BREASTABSS_YEAR, BREASTPARTREM_YEAR, BREASTLACTREM_YEAR, BREASTREM_YEAR, BREASTLIFT_YEAR, BREASTOTH_YEAR, BREASTRECON_YEAR, BREASTDBLREM_YEAR, BREASTREDN_YEAR, BREASTIMPLANTS_YEAR]
+
+// JSON ERROR --> grid_SLHABIT3 | Quest IDs must begin with a letter and contain only uppercase letters, digits, and underscores
+// JSON ERROR --> 77 | occurs under parent quest id THMAR9A | Quest IDs must begin with a letter and contain only uppercase letters, digits, and underscores
+// JSON ERROR --> 77 | occurs under parent quest id THMAR9C | Quest IDs must begin with a letter and contain only uppercase letters, digits, and underscores
+// JSON ERROR --> 77 | occurs under parent quest id EAMAR9A | Quest IDs must begin with a letter and contain only uppercase letters, digits, and underscores
+// JSON ERROR --> 77 | occurs under parent quest id EAMAR9C | Quest IDs must begin with a letter and contain only uppercase letters, digits, and underscores
+
+
+
+//This file was last modified on Thu Oct 14 10:35:13 2021 -0400 (short timestamp = 2021-10-14-14-35-13)
 {"name":"D_726699695"} [INTROM1] Welcome, {$u:firstName}! This survey is split into sections. Each section has questions that ask you about a wide range of topics. Our goal is to collect information about your medical history, family, work, and health behaviors. You can answer all of the questions in each survey section at one time, or answer some questions, pause, and return to answer the rest later. If you pause, your answers will be saved and you can pick up where you left off. You can also skip any questions that you do not want to answer.
 For some questions, you may see a word or phrase that appears as a button. Clicking the button will show more information that might help you answer the question. Here is an |popup|example.|example|This is an example of how additional information will be displayed.|
 Let’s get started.
@@ -770,24 +786,79 @@ Or, if it is easier to remember the year, enter that here:
 < #NR -> D_517307064 >
 
 [D_517307064?,displayif=equals(D_624179836,533491176)] Which of these <b>breast surgeries</b> have you had? Please do not include a biopsy. Select all that apply.
-[752953170] Breast implants (augmentation surgery) -> D_867314445
-[325506683] Breast lift surgery (mastopexy) -> D_867314445
-[335563082] Breast reconstruction surgery -> D_867314445
-[955881350] Breast reduction (reduction mammaplasty) -> D_867314445
-[492902023] Removal of a part of my breast tissue (breast-conserving surgery (BCS),  lumpectomy, partial mastectomy, or segmental mastectomy) -> D_867314445
-[256196714] Removal of one breast (mastectomy) -> D_867314445
-[802859122] Removal of both breasts (double or bilateral mastectomy) -> D_867314445
-[520432394] Surgery for a breast abscess (such as incision and draining) -> D_867314445
-[667901971] Removal of a lactiferous or milk duct (microdochectomy) -> D_867314445
-[807835037] Other: Please describe |__|id=D_942347130| -> D_867314445
+[752953170] Breast implants (augmentation surgery) -> D_477690298
+[325506683] Breast lift surgery (mastopexy) -> D_176453768
+[335563082] Breast reconstruction surgery -> D_145786416
+[955881350] Breast reduction (reduction mammaplasty) -> D_287605131
+[492902023] Removal of a part of my breast tissue (breast-conserving surgery (BCS), lumpectomy, partial mastectomy, or segmental mastectomy) -> D_701157499
+[256196714] Removal of one breast (mastectomy) -> D_428639167
+[802859122] Removal of both breasts (double or bilateral mastectomy) -> D_282355641
+[520432394] Surgery for a breast abscess (such as incision and draining) -> D_539301647
+[667901971] Removal of a lactiferous or milk duct (microdochectomy) -> D_579225381
+[807835037] Other: Please describe |__|id=D_942347130| -> D_891214661
 [535003378*] None of the above
 
 
-[D_867314445?,displayif=and(equals(D_624179836,533491176),or(equals(D_517307064,325506683),or(equals(D_517307064,752953170),or(equals(D_517307064,335563082),or(equals(D_517307064,955881350),or(equals(D_517307064,492902023),or(equals(D_517307064,256196714),or(equals(D_517307064,802859122),or(equals(D_517307064,520432394),or(equals(D_517307064,667901971),equals(D_517307064,807835037)))))))))))] How old were you when you had breast surgery? If you have had more than one procedure, at what age did you <b>last</b> have this procedure?
-|__|__|xor=BREASTSUR2 id=D_206625031 min=0 max=isDefined(D_150344905,age)| Age at diagnosis
+[D_477690298?,displayif=and(equals(D_624179836,533491176),(equals(D_517307064,752953170)] How old were you when you had breast implants surgery (augmentation surgery)? 
+|__|__|xor=BREASTSUR0 id=D_623218391 min=0 max=isDefined(D_150344905,age)| Age at surgery
 
 Or, if it is easier to remember the year, enter that here:
-|__|__|__|__|xor=BREASTSUR2 id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Year of diagnosis
+|__|__|__|__|xor=BREASTSUR0 id=D_802622485 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Year of surgery
+
+[D_176453768?,displayif=and(equals(D_624179836,533491176),(equals(D_517307064,325506683)] How old were you when you had breast lift surgery (mastopexy)? 
+|__|__|xor=BREASTSUR1 id=D_623218391 min=0 max=isDefined(D_150344905,age)| Age at surgery
+
+Or, if it is easier to remember the year, enter that here:
+|__|__|__|__|xor=BREASTSUR1 id=D_802622485 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Year of surgery
+
+[D_145786416?,displayif=and(equals(D_624179836,533491176),(equals(D_517307064,335563082)] How old were you when you had breast reconstruction surgery? 
+|__|__|xor=BREASTSUR2 id=D_623218391 min=0 max=isDefined(D_150344905,age)| Age at surgery
+
+Or, if it is easier to remember the year, enter that here:
+|__|__|__|__|xor=BREASTSUR2 id=D_802622485 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Year of surgery
+
+[D_287605131?,displayif=and(equals(D_624179836,533491176),(equals(D_517307064,955881350)] How old were you when you had breast reduction surgery (reduction mammaplasty)? 
+|__|__|xor=BREASTSUR3 id=D_623218391 min=0 max=isDefined(D_150344905,age)| Age at surgery
+
+Or, if it is easier to remember the year, enter that here:
+|__|__|__|__|xor=BREASTSUR3 id=D_802622485 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Year of surgery
+
+[D_701157499?,displayif=and(equals(D_624179836,533491176),(equals(D_517307064,492902023)] How old were you when you had surgery for removal of a part of your breast tissue (breast-conserving surgery (BCS), lumpectomy, partial mastectomy, or segmental mastectomy)? 
+|__|__|xor=BREASTSUR4 id=D_623218391 min=0 max=isDefined(D_150344905,age)| Age at surgery
+
+Or, if it is easier to remember the year, enter that here:
+|__|__|__|__|xor=BREASTSUR4 id=D_802622485 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Year of surgery
+
+[D_428639167?,displayif=and(equals(D_624179836,533491176),(equals(D_517307064,256196714)] How old were you when you had surgery for removal of one breast (mastectomy)? 
+|__|__|xor=BREASTSUR5 id=D_623218391 min=0 max=isDefined(D_150344905,age)| Age at surgery
+
+Or, if it is easier to remember the year, enter that here:
+|__|__|__|__|xor=BREASTSUR5 id=D_802622485 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Year of surgery
+
+[D_282355641?,displayif=and(equals(D_624179836,533491176),(equals(D_517307064,802859122)] How old were you when you had surgery for removal of both breasts (double or bilateral mastectomy)? 
+|__|__|xor=BREASTSUR6 id=D_623218391 min=0 max=isDefined(D_150344905,age)| Age at surgery
+
+Or, if it is easier to remember the year, enter that here:
+|__|__|__|__|xor=BREASTSUR6 id=D_802622485 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Year of surgery
+
+[D_539301647?,displayif=and(equals(D_624179836,533491176),(equals(D_517307064,520432394)] How old were you when you had surgery for a breast abscess (such as incision and draining)? 
+|__|__|xor=BREASTSUR7 id=D_623218391 min=0 max=isDefined(D_150344905,age)| Age at surgery
+
+Or, if it is easier to remember the year, enter that here:
+|__|__|__|__|xor=BREASTSUR7 id=D_802622485 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Year of surgery
+
+[D_579225381?,displayif=and(equals(D_624179836,533491176),(equals(D_517307064,667901971)] How old were you when you had surgery for removal of a lactiferous or milk duct (microdochectomy)?
+|__|__|xor=BREASTSUR8 id=D_623218391 min=0 max=isDefined(D_150344905,age)| Age at surgery
+
+Or, if it is easier to remember the year, enter that here:
+|__|__|__|__|xor=BREASTSUR8 id=D_802622485 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Year of surgery
+
+[D_891214661?,displayif=and(equals(D_624179836,533491176),(equals(D_517307064,807835037)] How old were you when you had |displayif=exists("BREASTSUR_TB")|{$D_942347130}||displayif=equals(D_942347130,"")|another type of breast surgery|?
+|__|__|xor=BREASTSUR9 id=D_623218391 min=0 max=isDefined(D_150344905,age)| Age at surgery
+
+Or, if it is easier to remember the year, enter that here:
+|__|__|__|__|xor=BREASTSUR9 id=D_802622485 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Year of surgery
+
 
 
 [D_150352141?,displayif=equals(D_624179836,220755749)] How old were you when you had your <b>uterus removed (hysterectomy)</b>?
@@ -1112,9 +1183,9 @@ Which one of these figures most closely resembles your hair pattern at <b>age 40
 < -> D_769668224 >
 
 [D_769668224?] Have you ever used medication to treat <b>thinning hair or hair loss</b>?
-(353358909) Yes
+(353358909) Yes 
 (104430631) No -> D_283634623
-< #NR -> D_283634623 >
+<#NR -> D_283634623 >
 
 [D_814664694?] What medication did you use to treat thinning hair or hair loss? Select all that apply.
 [903825143] Rogaine®, Minoxidil, or Loniten®
@@ -2223,3 +2294,4 @@ Email
 (275706407) Completed by someone else on behalf of study participant
 
 [END,end]  Thank you for completing the questionnaire.
+
