@@ -11,6 +11,7 @@
 // JSON ERROR --> 77 | occurs under parent quest id EAMAR9A | Quest IDs must begin with a letter and contain only uppercase letters, digits, and underscores
 // JSON ERROR --> 77 | occurs under parent quest id EAMAR9C | Quest IDs must begin with a letter and contain only uppercase letters, digits, and underscores
 
+//Brian Change -> line 857 -> changed BREASTSUR_TB to D_942347130 (question is D_891214661)
 
 
 //This file was last modified on Thu Oct 14 10:35:13 2021 -0400 (short timestamp = 2021-10-14-14-35-13)
@@ -853,7 +854,7 @@ Or, if it is easier to remember the year, enter that here:
 Or, if it is easier to remember the year, enter that here:
 |__|__|__|__|xor=BREASTSUR8 id=D_802622485 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Year of surgery
 
-[D_891214661?,displayif=and(equals(D_624179836,533491176),(equals(D_517307064,807835037)] How old were you when you had |displayif=exists("BREASTSUR_TB")|{$D_942347130}||displayif=equals(D_942347130,"")|another type of breast surgery|?
+[D_891214661?,displayif=and(equals(D_624179836,533491176),(equals(D_517307064,807835037)] How old were you when you had |displayif=exists("D_942347130")|{$D_942347130}||displayif=equals(D_942347130,"")|another type of breast surgery|?
 |__|__|xor=BREASTSUR9 id=D_623218391 min=0 max=isDefined(D_150344905,age)| Age at surgery
 
 Or, if it is easier to remember the year, enter that here:
