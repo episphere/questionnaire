@@ -9,6 +9,6 @@ Please enter your Social Security number. This will be used for identification p
 
 [SOCIALSECUR2?]Your Social Security number will help us match information from sources like health registries to you in the future. Only a small number of Connect team members will have access to information that can identify you, including your Social Security number. We protect your privacy every time we ask for information about you from other sources.
 
-Please enter the last <b>four digits</b> of your Social Security number.|SSNsm|
+Please enter the last <b>four digits</b> of your Social Security number. |SSNsm|
 
 [END,end]  Thank you for completing this section of the questionnaire.
