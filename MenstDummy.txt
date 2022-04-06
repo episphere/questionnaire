@@ -1,5 +1,5 @@
 {"name":"D_912367929"}
-[INTRO_MENS] Hormones and other signals in the body change throughout the menstrual cycle.
+[INTRO_MENS] Intro
 
 [SrvBlU_MENS1_v1r0?] Has your next menstrual period started?
 (104430631) No
