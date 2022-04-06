@@ -2,8 +2,8 @@
 [INTRO] Welcome
 
 [BIO_TEST?] Do you love this survey?
-(Option 1)
-(Option 2)
+(999999999) Option 1
+(888888888) Option 2
 
 [END, end] Thanks
 
