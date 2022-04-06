@@ -1,7 +1,9 @@
 {"name":"D_299215535"}
 [INTRO] Welcome
 
-[BIO_TEST] Do you love this survey?
+[BIO_TEST?] Do you love this survey?
+(Option 1)
+(Option 2)
 
 [END, end] Thanks
 
