@@ -1,10 +1,13 @@
-// This file was transformed using the mapping data in Quest-2022-03-08-03-53-03_Transformation.json.
+// This file was transformed using the mapping data in Quest-2022-04-04-15-14-48_Transformation.json.
 
 // JSON WARNING --> Concept ID 101310722 with concept "# Pills per day" is shared between these Textbox codes: [ACIDSUP3_1A, ACIDSUP3_2A, ACIDSUP3_3A, CHOLHTN3_1A, CHOLHTN3_2A, INSULIN3_1A, METFOR3_1A, PAINREL3_1A, PAINREL3_2A, PAINREL3_3A, PAINREL3_4A, PAINREL3_5A, PAINREL3_6A, PAINREL3_7A]
 // JSON WARNING --> Concept ID 206625031 with concept "Age at diagnosis" is shared between these Textbox codes: [ANEMIA_AGE, APPEND_AGE, ARRHYT_AGE, ASTHMA_AGE, BARESO_AGE, BARSUR_AGE, BLDTRANS3_AGE, BLDTRANS4_AGE, BLOODCLOT_AGE, BREASTDIS_AGE, CCD_AGE, CD_AGE, CHESTPAIN_AGE, CHF_AGE, CHILDCANC3A_AGE, CHILDCANC3B_AGE, CHILDCANC3C_AGE, CHILDCANC3D_AGE, CHILDCANC3E_AGE, CHILDCANC3F_AGE, CHILDCANC3G_AGE, CHILDCANC3H_AGE, CHILDCANC3I_AGE, CHILDCANC3J_AGE, CHILDCANC3K_AGE, CHILDCANC3L_AGE, CHILDCANC3M_AGE, CHILDCANC3N_AGE, CHILDCANC3O_AGE, CHILDCANC3P_AGE, CHILDCANC3Q_AGE, CHILDCANC3R_AGE, CHILDCANC3S_AGE, CHILDCANC3T_AGE, CHILDCANC3U_AGE, CHILDCANC3V_AGE, CHILDCANC3W_AGE, CHILDCANC3X_AGE, CHILDCANC3Y_AGE, CHLA_AGE, CHOL_AGE, CKD_AGE, COPD_AGE, CVD_AGE, DADCANC3A_AGE, DADCANC3B_AGE, DADCANC3C_AGE, DADCANC3D_AGE, DADCANC3E_AGE, DADCANC3F_AGE, DADCANC3G_AGE, DADCANC3H_AGE, DADCANC3I_AGE, DADCANC3J_AGE, DADCANC3K_AGE, DADCANC3L_AGE, DADCANC3M_AGE, DADCANC3N_AGE, DADCANC3O_AGE, DADCANC3P_AGE, DADCANC3Q_AGE, DADCANC3R_AGE, DADCANC3S_AGE, DADCANC3T_AGE, DADCANC3U_AGE, DADCANC3V_AGE, DCIS_AGE, DEPRESS2_AGE, DIVERT_AGE, DM2_AGE, ENDO_AGE, ENLGPROS_AGE, FTREM2_AGE, GALLREM_AGE, GALL_AGE, GENWARTS_AGE, GERD_AGE, GONORR_AGE, GOUT_AGE, GRAVES_AGE, HAYFEVER_AGE, HBVHCV_AGE, HEARTATT_AGE, HEARTVALV_AGE, HIVAIDS_AGE, HPV_AGE, HTN_AGE, HYSTER_AGE, IBD_AGE, IBS_AGE, KIDNEY_AGE, LIPOSUCT_AGE, LIVCIRR_AGE, LUPUS_AGE, MOMCANC3A_AGE, MOMCANC3B_AGE, MOMCANC3C_AGE, MOMCANC3D_AGE, MOMCANC3E_AGE, MOMCANC3F_AGE, MOMCANC3G_AGE, MOMCANC3H_AGE, MOMCANC3I_AGE, MOMCANC3J_AGE, MOMCANC3K_AGE, MOMCANC3L_AGE, MOMCANC3M_AGE, MOMCANC3N_AGE, MOMCANC3O_AGE, MOMCANC3P_AGE, MOMCANC3Q_AGE, MOMCANC3R_AGE, MOMCANC3S_AGE, MOMCANC3T_AGE, MOMCANC3U_AGE, MOMCANC3V_AGE, MOMCANC3W_AGE, MONO_AGE, OVARYREM2_AGE, PANCREA_AGE, PCOS_AGE, PENREM_AGE, PROSREM2_AGE, RA_AGE, SHINGLES_AGE, SIBCANC3A_AGE, SIBCANC3B_AGE, SIBCANC3C_AGE, SIBCANC3D_AGE, SIBCANC3E_AGE, SIBCANC3F_AGE, SIBCANC3G_AGE, SIBCANC3H_AGE, SIBCANC3I_AGE, SIBCANC3J_AGE, SIBCANC3K_AGE, SIBCANC3L_AGE, SIBCANC3M_AGE, SIBCANC3N_AGE, SIBCANC3O_AGE, SIBCANC3P_AGE, SIBCANC3Q_AGE, SIBCANC3R_AGE, SIBCANC3S_AGE, SIBCANC3T_AGE, SIBCANC3U_AGE, SIBCANC3V_AGE, SIBCANC3W_AGE, SIBCANC3X_AGE, SIBCANC3Y_AGE, SKINCANC3_AGE, STROKE_AGE, SYPH_AGE, TESTREM2_AGE, THYROID_AGE, TONSILS_AGE, TRICH_AGE, TUBLIG_AGE, UC_AGE, UF_AGE, VASEC_AGE]
 // JSON WARNING --> Concept ID 261863326 with concept "Year at diagnosis" is shared between these Textbox codes: [ANEMIA_YEAR, APPEND_YEAR, ARRHYT_YEAR, ASTHMA_YEAR, BARESO_YEAR, BARSUR_YEAR, BLDTRANS3_YEAR, BLDTRANS4_YEAR, BLOODCLOT_YEAR, BREASTDIS_YEAR, CCD_YEAR, CD_YEAR, CHESTPAIN_YEAR, CHF_YEAR, CHILDCANC3A_YEAR, CHILDCANC3B_YEAR, CHILDCANC3C_YEAR, CHILDCANC3D_YEAR, CHILDCANC3E_YEAR, CHILDCANC3F_YEAR, CHILDCANC3G_YEAR, CHILDCANC3H_YEAR, CHILDCANC3I_YEAR, CHILDCANC3J_YEAR, CHILDCANC3K_YEAR, CHILDCANC3L_YEAR, CHILDCANC3M_YEAR, CHILDCANC3N_YEAR, CHILDCANC3O_YEAR, CHILDCANC3P_YEAR, CHILDCANC3Q_YEAR, CHILDCANC3R_YEAR, CHILDCANC3S_YEAR, CHILDCANC3T_YEAR, CHILDCANC3U_YEAR, CHILDCANC3V_YEAR, CHILDCANC3W_YEAR, CHILDCANC3X_YEAR, CHILDCANC3Y_YEAR, CHLA_YEAR, CHOL_YEAR, CKD_YEAR, COPD_YEAR, CVD_YEAR, DADCANC3A_YEAR, DADCANC3B_YEAR, DADCANC3C_YEAR, DADCANC3D_YEAR, DADCANC3E_YEAR, DADCANC3F_YEAR, DADCANC3G_YEAR, DADCANC3H_YEAR, DADCANC3I_YEAR, DADCANC3J_YEAR, DADCANC3K_YEAR, DADCANC3L_YEAR, DADCANC3M_YEAR, DADCANC3N_YEAR, DADCANC3O_YEAR, DADCANC3P_YEAR, DADCANC3Q_YEAR, DADCANC3R_YEAR, DADCANC3S_YEAR, DADCANC3T_YEAR, DADCANC3U_YEAR, DADCANC3V_YEAR, DCIS_YEAR, DEPRESS2_YEAR, DIVERT_YEAR, DM2_YEAR, ENDO_YEAR, ENLGPROS_YEAR, FTREM2_YEAR, GALLREM_YEAR, GALL_YEAR, GENWARTS_YEAR, GERD_YEAR, GONORR_YEAR, GOUT_YEAR, GRAVES_YEAR, HAYFEVER_YEAR, HBVHCV_YEAR, HEARTATT_YEAR, HEARTVALV_YEAR, HIVAIDS_YEAR, HPV_YEAR, HTN_YEAR, HYSTER_YEAR, IBD_YEAR, IBS_YEAR, KIDNEY_YEAR, LIPOSUCT_YEAR, LIVCIRR_YEAR, LUPUS_YEAR, MOMCANC3A_YEAR, MOMCANC3B_YEAR, MOMCANC3C_YEAR, MOMCANC3D_YEAR, MOMCANC3E_YEAR, MOMCANC3F_YEAR, MOMCANC3G_YEAR, MOMCANC3H_YEAR, MOMCANC3I_YEAR, MOMCANC3J_YEAR, MOMCANC3K_YEAR, MOMCANC3L_YEAR, MOMCANC3M_YEAR, MOMCANC3N_YEAR, MOMCANC3O_YEAR, MOMCANC3P_YEAR, MOMCANC3Q_YEAR, MOMCANC3R_YEAR, MOMCANC3S_YEAR, MOMCANC3T_YEAR, MOMCANC3U_YEAR, MOMCANC3V_YEAR, MOMCANC3W_YEAR, MONO_YEAR, OVARYREM2_YEAR, PANCREA_YEAR, PCOS_YEAR, PENREM_YEAR, PROSREM2_YEAR, RA_YEAR, SHINGLES_YEAR, SIBCANC3A_YEAR, SIBCANC3B_YEAR, SIBCANC3C_YEAR, SIBCANC3D_YEAR, SIBCANC3E_YEAR, SIBCANC3F_YEAR, SIBCANC3G_YEAR, SIBCANC3H_YEAR, SIBCANC3I_YEAR, SIBCANC3J_YEAR, SIBCANC3K_YEAR, SIBCANC3L_YEAR, SIBCANC3M_YEAR, SIBCANC3N_YEAR, SIBCANC3O_YEAR, SIBCANC3P_YEAR, SIBCANC3Q_YEAR, SIBCANC3R_YEAR, SIBCANC3S_YEAR, SIBCANC3T_YEAR, SIBCANC3U_YEAR, SIBCANC3V_YEAR, SIBCANC3W_YEAR, SIBCANC3X_YEAR, SIBCANC3Y_YEAR, SKINCANC3_YEAR, STROKE_YEAR, SYPH_YEAR, TESTREM2_YEAR, THYROID_YEAR, TONSILS_YEAR, TRICH_YEAR, TUBLIG_YEAR, UC_YEAR, UF_YEAR, VASEC_YEAR]
+// JSON WARNING --> Concept ID 314198277 with concept "Last spent time at this address, year" is shared between these Textbox codes: [SEASADDYRS2_10_YEAR, SEASADDYRS2_1_YEAR, SEASADDYRS2_2_YEAR, SEASADDYRS2_3_YEAR, SEASADDYRS2_4_YEAR, SEASADDYRS2_5_YEAR, SEASADDYRS2_6_YEAR, SEASADDYRS2_7_YEAR, SEASADDYRS2_8_YEAR, SEASADDYRS2_9_YEAR]
 // JSON WARNING --> Concept ID 408696162 with concept "Age started using on regular basis" is shared between these Textbox codes: [CIG3_AGE, HOOKAH3_AGE, PIPE3_AGE, REGALCOHOL_AGE, REGCHEW_AGE, REGCIGAR_AGE, REGEAMAR_AGE, REGELMAR_AGE, REGSMMAR_AGE, REGTHMAR_AGE, REGTOMAR_AGE, REGVAPE_AGE]
 // JSON WARNING --> Concept ID 434243220 with concept "Months used" is shared between these Textbox codes: [ANYCOMESTMONTH, COMBINEDMONTH, COPIUDMONTH, DEPROPROVMONTH, ESTOTHERMONTH, ESTSKINMONTH, HORCOMPILLMONTH, HORIUDMONTH, HORMEDOTHERMONTH, HORMEDPATCHMONTH, HORMEDRINGMONTH, MINIPILLMONTH, NORPLANTMONTH, ORALESTMONTH, ORALMEDMONTH, PATCHESTMONTH, PRESHOR2MONTH, PROESTMONTH, RINGMONTH, TWOPILLMONTH]
+// JSON WARNING --> Concept ID 451310566 with concept "Months at address" is shared between these Textbox codes: [MONTHADD1, MONTHADD10, MONTHADD2, MONTHADD3, MONTHADD4, MONTHADD5, MONTHADD6, MONTHADD7, MONTHADD8, MONTHADD9]
+// JSON WARNING --> Concept ID 544692849 with concept "2-Previous State/Province" is shared between these Textbox codes: [ST2, ST2_FOLLOWUP]
 // JSON WARNING --> Concept ID 623218391 with concept "Age at surgery" is shared between these Textbox codes: [BREASTABSS_AGE, BREASTDBLREM_AGE, BREASTIMPLANTS_AGE, BREASTLACTREM_AGE, BREASTLIFT_AGE, BREASTOTH_AGE, BREASTPARTREM_AGE, BREASTRECON_AGE, BREASTREDN_AGE, BREASTREM_AGE]
 // JSON WARNING --> Concept ID 707805344 with concept "# of Hours" is shared between these Textbox codes: [FALLASLEEPHOURS, LAYINBEDHRS, NONWORKAWAKEBEFOREUPHOURS, NONWORKFALLASLEEPHOURS, OUTSIDEHOURS, WORKDAYOUTSIDEHOURS]
 // JSON WARNING --> Concept ID 765748316 with concept "Days per week" is shared between these Textbox codes: [ACETWEEK, ACIDSUP2_1WK, ACIDSUP2_2WK, ACIDSUP2_3WK, BABYASPRINWEEK, CELECOXIBWEEK, CHOLHTN2_1WK, CHOLHTN2_2WK, IBUPROFENWEEK, INSULIN2_1WK, METFOR2_1WK, NAPROXENWEEK, PAINRELWEEK, REGASPRINWEEK]
@@ -12,9 +15,10 @@
 // JSON WARNING --> Concept ID 802622485 with concept "Year at surgery" is shared between these Textbox codes: [BREASTABSS_YEAR, BREASTDBLREM_YEAR, BREASTIMPLANTS_YEAR, BREASTLACTREM_YEAR, BREASTLIFT_YEAR, BREASTOTH_YEAR, BREASTPARTREM_YEAR, BREASTRECON_YEAR, BREASTREDN_YEAR, BREASTREM_YEAR]
 // JSON WARNING --> Concept ID 810608313 with concept "# Servings per day" is shared between these Textbox codes: [EAMAR9ANUM, EAMAR9CNUM, THMAR9ANUM, THMAR9CNUM]
 // JSON WARNING --> Concept ID 850393641 with concept "# of Minutes" is shared between these Textbox codes: [FALLASLEEPMIN, LAYINBEDMIN, NONWORKAWAKEBEFOREUPMIN, NONWORKFALLASLEEPMIN, OUTSIDEMIN, WORKDAYOUTSIDEMIN]
+// JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Thu Mar 10 13:29:54 2022 -0500 (short timestamp = 2022-03-10-18-29-54)
+//This file was last modified on Fri Apr 8 16:45:59 2022 -0400 (short timestamp = 2022-04-08-20-45-59)
 {"name":"D_745268907"} [INTROM2] In this set of questions we ask about a few topics that affect your health. These topics include your current and past use of medications, your physical activity (including exercise), and your sleep habits.
 
 |displayif=or(equals(D_407056417,536341288),and(equals(D_407056417,576796184),or(equals(D_750420077,578416151),equals(D_750420077,434651539))))|We also ask some questions about your reproductive health. These questions will focus mainly on your menstrual periods, pregnancies, and if you have used any hormonal medications.|
@@ -332,7 +336,7 @@ Have you ever taken any of these medications at least <b>4 times a month for 6 m
 [535003378*] None of the above
 < -> D_112024853 >
 
-[D_731790154?] During the time(s) that you were taking <b>statins/cholesterol or lipid lowering drugs</b>, about how many <b>days per week OR per month</b> did you take it? Please fill out either days per week or days per month. 
+[D_731790154?] During the time(s) that you were taking <b>statins/cholesterol or lipid lowering drugs</b>, about how many <b>days per week OR per month</b> did you take it? Please fill out either days per week or days per month.
 
 #Days PER Week |__|__|xor=CHOLHTN2_1 id=D_765748316 min=1 max=7|
 Or
@@ -362,7 +366,7 @@ Or
 #Years ago |__|__|min=1 max=sum(isDefined(D_150344905,age),1)|
 
 
-[D_305292465?] During the time(s) that you were taking <b>anti-hypertensive medication/drugs used to treat hypertension (high blood pressure)</b>, about how many <b>days per week OR per month</b> did you take it? Please fill out either days per week or days per month. 
+[D_305292465?] During the time(s) that you were taking <b>anti-hypertensive medication/drugs used to treat hypertension (high blood pressure)</b>, about how many <b>days per week OR per month</b> did you take it? Please fill out either days per week or days per month.
 
 #Days PER Week |__|__|xor=CHOLHTN2_2 id=D_765748316 min=1 max=7|
 Or
@@ -512,7 +516,7 @@ Or
 #Years ago |__|__|max=sum(isDefined(D_150344905,age),1)|
 
 
-[D_416865817?,displayif=equals(D_643361372,920460744)] During the time(s) that you were taking <b>over-the-counter proton pump inhibitors</b>, about how many <b>days per week OR per month</b> did you take it? Please fill out either days per week or days per month. 
+[D_416865817?,displayif=equals(D_643361372,920460744)] During the time(s) that you were taking <b>over-the-counter proton pump inhibitors</b>, about how many <b>days per week OR per month</b> did you take it? Please fill out either days per week or days per month.
 
 #Days PER Week |__|__|xor=ACIDSUP2_2 id=D_765748316 min=1 max=7|
 Or
@@ -541,7 +545,7 @@ Or
 
 #Years ago |__|__|max=sum(isDefined(D_150344905,age),1)|
 
-[D_266752903?,displayif=equals(D_643361372,449861632)] During the time(s) that you were taking <b>over-the-counter H2 receptor blockers</b>, about how many <b>days per week OR per month</b> did you take it? Please fill out either days per week or days per month. 
+[D_266752903?,displayif=equals(D_643361372,449861632)] During the time(s) that you were taking <b>over-the-counter H2 receptor blockers</b>, about how many <b>days per week OR per month</b> did you take it? Please fill out either days per week or days per month.
 
 #Days PER Week |__|__|xor=ACIDSUP2_3 id=D_765748316 min=1 max=7|
 Or
@@ -576,7 +580,7 @@ Or
 <b>Testosterone & Other Hormone Therapy</b>
 < -> D_111235606 >
 
-[SECTION2] <b>Reproductive Health</b> 
+[SECTION2] <b>Reproductive Health</b>
 
  In the next set of questions, we ask about your reproductive health. Remember, we protect your privacy. We remove information that can identify you from your survey answers before we share them with researchers.
 
@@ -723,14 +727,14 @@ What was the outcome of this pregnancy?
 
 [D_779052408?,displayif=greaterThanOrEqual(D_405571048,#loop)]
 Did a doctor or other health professional tell you that you have or had <b>gestational diabetes</b> during this pregnancy?
-(353358909) Yes 
-(104430631) No 
+(353358909) Yes
+(104430631) No
 
 
 [D_133297530?,displayif=greaterThanOrEqual(D_405571048,#loop)]
 Did a doctor or other health professional tell you that you have or had |popup|<b>eclampsia or pre-eclampsia</b>|Eclampsia or Pre-eclampsia|A related medical condition is HELLP Syndrome. If a doctor or other health professional has ever told you that you have HELLP Syndrome, answer yes| during this pregnancy?
-(353358909) Yes 
-(104430631) No 
+(353358909) Yes
+(104430631) No
 
 
 [PREGSUMMARY,displayif=greaterThanOrEqual(D_405571048,#loop)] Here’s a summary of the information you shared about this pregnancy. If any of the information is incorrect, please select the “Back” button to update your responses. If all of the information is correct, please select the “Next” button to move forward.
@@ -1500,13 +1504,11 @@ Many of the questions in this section ask you to share the amount of time you sp
 
 [WORKACT,displayif=equals(D_613744428,353358909)]<b>Physical Activity at Work</b>
 
-During the <b>past 12 months</b>, about how much time do you usually spend doing these activities while you are <b>at work?</b> For your answers, please think about the time you spend at your job, <b>not counting time traveling to and from work.</b> If you exercise during your workday (such a going on walks or working out during breaks), please <b>include</b> those activities.
+|grid?|id="D_392658845",displayif=equals(D_613744428,353358909)|During the <b>past 12 months</b>, about how much time do you usually spend doing these activities while you are <b>at work?</b> For your answers, please think about the time you spend at your job, <b>not counting time traveling to and from work.</b> If you exercise during your workday (such a going on walks or working out during breaks), please <b>include</b> those activities.|[
 
-|grid?|id="D_392658845",displayif=equals(D_613744428,353358909)|Typical time per WORKDAY|[
-
-[D_699101535] Sitting with small arm movements (for example, desk or computer work, light assembly, driving, etc.); 
-[D_652561589] Standing with some walking (for example, as a store clerk, filing, making copies, walking to/from meetings, working on an assembly line, etc.); 
-[D_589522790] Walking and carrying materials weighing less than 50 pounds (for example, delivering mail, waiting tables, light construction, janitorial work, etc.); 
+[D_699101535] Sitting with small arm movements (for example, desk or computer work, light assembly, driving, etc.);
+[D_652561589] Standing with some walking (for example, as a store clerk, filing, making copies, walking to/from meetings, working on an assembly line, etc.);
+[D_589522790] Walking and carrying materials weighing less than 50 pounds (for example, delivering mail, waiting tables, light construction, janitorial work, etc.);
 [D_239572239] Walking and heavy manual work often working with materials weighing over 50 pounds (for example, digging and shoveling, chopping wood, laying bricks, stacking hay, or other heavy manual labor, etc.);]|
 
 (503218834:None)
@@ -1559,13 +1561,13 @@ During the <b>past 12 months</b>, about how often did you do each of these house
 |grid?|id="D_128705365" displayif=or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(equals(D_980120253_1,1),equals(D_980120253_2,1)),equals(D_980120253_3,1)),equals(D_980120253_4,1)),equals(D_980120253_5,1)),equals(D_980120253_6,1)),equals(D_993029890_1,1)),equals(D_993029890_2,1)),equals(D_993029890_3,1)),equals(D_993029890_4,1)),equals(D_993029890_5,1)),equals(D_993029890_6,1)),equals(D_980196073_1,1)),equals(D_980196073_2,1)),equals(D_980196073_3,1)),equals(D_980196073_4,1)),equals(D_980196073_5,1)),equals(D_980196073_6,1)),equals(D_115422925_1,1)),equals(D_115422925_2,1)),equals(D_115422925_3,1)),equals(D_115422925_4,1)),equals(D_115422925_5,1)),equals(D_115422925_6,1)),equals(D_151161693_1,1)),equals(D_151161693_2,1)),equals(D_151161693_3,1)),equals(D_151161693_4,1)),equals(D_151161693_5,1)),equals(D_151161693_6,1)) |On the days that you did these household or shopping activities, about how much time per day did you spend doing each activity? |[
 
     [D_607323377,displayif=or(or(or(or(or(equals(D_980120253_1,1),equals(D_980120253_2,1)),equals(D_980120253_3,1)),equals(D_980120253_4,1)),equals(D_980120253_5,1)),equals(D_980120253_6,1))] Light household chores (cooking, cleaning up, laundry, dusting, etc.);
-    
+
     [D_491484323,displayif=or(or(or(or(or(equals(D_993029890_1,1),equals(D_993029890_2,1)),equals(D_993029890_3,1)),equals(D_993029890_4,1)),equals(D_993029890_5,1)),equals(D_993029890_6,1))] Moderate to vigorous household chores (vacuuming, sweeping, etc.);
-    
+
     [D_588637585,displayif=or(or(or(or(or(equals(D_980196073_1,1),equals(D_980196073_2,1)),equals(D_980196073_3,1)),equals(D_980196073_4,1)),equals(D_980196073_5,1)),equals(D_980196073_6,1))] Caring for pets (walking dogs, feeding, playing, grooming);
-    
+
     [D_199039940,displayif=or(or(or(or(or(equals(D_115422925_1,1),equals(D_115422925_2,1)),equals(D_115422925_3,1)),equals(D_115422925_4,1)),equals(D_115422925_5,1)),equals(D_115422925_6,1))] Caring for children or adults (pushing stroller or wheelchair, lifting, bathing);
-    
+
     [D_986476579,displayif=or(or(or(or(or(equals(D_151161693_1,1),equals(D_151161693_2,1)),equals(D_151161693_3,1)),equals(D_151161693_4,1)),equals(D_151161693_5,1)),equals(D_151161693_6,1))] Walking while shopping or doing errands (Do not count walking for exercise);
 ]|
     (428999623: 15 minutes or less)
@@ -1593,7 +1595,7 @@ During the <b>past 12 months</b>, about how often did you do each of these house
 [690018400] Fall
 < -> D_992022740 >
 
-[D_992022740?,displayif=equals(D_204421360,797221287)] During the season|displayif=doesNotEqual(numberOfChoicesSelected(D_442059084,917302906),1)|s| in the <b>past 12 months</b> that you did moderate outdoor chores (such as weeding, raking, or mowing the lawn), about how often did you do these chores |displayif=equals(isDefined(D_613744428,353358909),1)|outside of work|?
+[D_992022740?,displayif=equals(D_204421360,797221287)] During the season|displayif=doesNotEqual(numberOfChoicesSelected(D_442059084,0),1)|s| in the <b>past 12 months</b> that you did moderate outdoor chores (such as weeding, raking, or mowing the lawn), about how often did you do these chores |displayif=equals(isDefined(D_613744428,353358909),1)|outside of work|?
 (239152340) Once a month or less
 (582006876) 2 to 3 days a month
 (645894551) 1 to 2 days a week
@@ -1618,7 +1620,7 @@ During the <b>past 12 months</b>, about how often did you do each of these house
 [690018400] Fall
 < -> D_888313306 >
 
-[D_888313306?,displayif=equals(D_204421360,500744195)] During the season|displayif=doesNotEqual(numberOfChoicesSelected(D_829749579,917302906),1)|s| in the <b>past 12 months</b> that you did these vigorous outdoor chores (such as digging, carrying lumber, or snow shoveling), about how often did you do these chores |displayif=equals(isDefined(D_613744428,353358909),1)|outside of work|?
+[D_888313306?,displayif=equals(D_204421360,500744195)] During the season|displayif=doesNotEqual(numberOfChoicesSelected(D_829749579,0),1)|s| in the <b>past 12 months</b> that you did these vigorous outdoor chores (such as digging, carrying lumber, or snow shoveling), about how often did you do these chores |displayif=equals(isDefined(D_613744428,353358909),1)|outside of work|?
 (239152340) Once a month or less
 (582006876) 2 to 3 days a month
 (645894551) 1 to 2 days a week
@@ -1643,7 +1645,7 @@ During the <b>past 12 months</b>, about how often did you do each of these house
 [690018400] Fall
 < -> D_352531133 >
 
-[D_352531133?,displayif=equals(D_204421360,383015037)] During the season|displayif=doesNotEqual(numberOfChoicesSelected(D_618482103,917302906),1)|s| in the <b>past 12 months</b> that you did these home repairs (such as painting, plumbing, or replacing carpeting), about how often did you do these repairs |displayif=equals(isDefined(D_613744428,353358909),1)|outside of work|?
+[D_352531133?,displayif=equals(D_204421360,383015037)] During the season|displayif=doesNotEqual(numberOfChoicesSelected(D_618482103,0),1)|s| in the <b>past 12 months</b> that you did these home repairs (such as painting, plumbing, or replacing carpeting), about how often did you do these repairs |displayif=equals(isDefined(D_613744428,353358909),1)|outside of work|?
 (239152340) Once a month or less
 (582006876) 2 to 3 days a month
 (645894551) 1 to 2 days a week
@@ -1689,7 +1691,7 @@ During the <b>past 12 months</b>, did you do any of these exercise or recreation
 [690018400] Fall
 < ->  D_267122668>
 
-[D_267122668?,displayif=equals(D_517976064,904954920)] During the season|displayif=doesNotEqual(numberOfChoicesSelected(D_894610280,917302906),1)|s| in the <b>past 12 months</b> that you walked or hiked for exercise, about how often did you do this activity?
+[D_267122668?,displayif=equals(D_517976064,904954920)] During the season|displayif=doesNotEqual(numberOfChoicesSelected(D_894610280,0),1)|s| in the <b>past 12 months</b> that you walked or hiked for exercise, about how often did you do this activity?
 (239152340) Once a month or less
 (582006876) 2 to 3 days a month
 (645894551) 1 to 2 days a week
@@ -1714,7 +1716,7 @@ During the <b>past 12 months</b>, did you do any of these exercise or recreation
 [690018400] Fall
 < ->  D_953510929>
 
-[D_953510929?,displayif=equals(D_517976064,619501806)] During the season|displayif=doesNotEqual(numberOfChoicesSelected(D_222110888,917302906),1)|s| in the <b>past 12 months</b> that you went jogging or running, about how often did you do this activity?
+[D_953510929?,displayif=equals(D_517976064,619501806)] During the season|displayif=doesNotEqual(numberOfChoicesSelected(D_222110888,0),1)|s| in the <b>past 12 months</b> that you went jogging or running, about how often did you do this activity?
 (239152340) Once a month or less
 (582006876) 2 to 3 days a month
 (645894551) 1 to 2 days a week
@@ -1739,7 +1741,7 @@ During the <b>past 12 months</b>, did you do any of these exercise or recreation
 [690018400] Fall
 < -> D_411788467>
 
-[D_411788467?,displayif=equals(D_517976064,203192394)] During the season|displayif=doesNotEqual(numberOfChoicesSelected(D_564242877,917302906),1)|s| in the <b>past 12 months</b> that you played tennis, squash, or racquetball, about how often did you do this activity?
+[D_411788467?,displayif=equals(D_517976064,203192394)] During the season|displayif=doesNotEqual(numberOfChoicesSelected(D_564242877,0),1)|s| in the <b>past 12 months</b> that you played tennis, squash, or racquetball, about how often did you do this activity?
 (239152340) Once a month or less
 (582006876) 2 to 3 days a month
 (645894551) 1 to 2 days a week
@@ -1764,7 +1766,7 @@ During the <b>past 12 months</b>, did you do any of these exercise or recreation
 [690018400] Fall
 < -> D_184448791>
 
-[D_184448791?,displayif=equals(D_517976064,261267696)] During the season|displayif=doesNotEqual(numberOfChoicesSelected(D_635874413,917302906),1)|s| in the <b>past 12 months</b> that you played golf, about how often did you do this activity?
+[D_184448791?,displayif=equals(D_517976064,261267696)] During the season|displayif=doesNotEqual(numberOfChoicesSelected(D_635874413,0),1)|s| in the <b>past 12 months</b> that you played golf, about how often did you do this activity?
 (239152340) Once a month or less
 (582006876) 2 to 3 days a month
 (645894551) 1 to 2 days a week
@@ -1789,7 +1791,7 @@ During the <b>past 12 months</b>, did you do any of these exercise or recreation
 [690018400] Fall
 < -> D_944699052>
 
-[D_944699052?,displayif=equals(D_517976064,926584500)] During the season|displayif=doesNotEqual(numberOfChoicesSelected(D_371748514,917302906),1)|s| in the <b>past 12 months</b> that you swam laps, about how often did you do this activity?
+[D_944699052?,displayif=equals(D_517976064,926584500)] During the season|displayif=doesNotEqual(numberOfChoicesSelected(D_371748514,0),1)|s| in the <b>past 12 months</b> that you swam laps, about how often did you do this activity?
 (239152340) Once a month or less
 (582006876) 2 to 3 days a month
 (645894551) 1 to 2 days a week
@@ -1814,7 +1816,7 @@ During the <b>past 12 months</b>, did you do any of these exercise or recreation
 [690018400] Fall
 < -> D_849399881>
 
-[D_849399881?,displayif=equals(D_517976064,420058896)] During the season|displayif=doesNotEqual(numberOfChoicesSelected(D_858525957,917302906),1)|s| in the <b>past 12 months</b> that you rode a bicycle (including a stationary bike), about how often did you do this activity?
+[D_849399881?,displayif=equals(D_517976064,420058896)] During the season|displayif=doesNotEqual(numberOfChoicesSelected(D_858525957,0),1)|s| in the <b>past 12 months</b> that you rode a bicycle (including a stationary bike), about how often did you do this activity?
 (239152340) Once a month or less
 (582006876) 2 to 3 days a month
 (645894551) 1 to 2 days a week
@@ -1839,7 +1841,7 @@ During the <b>past 12 months</b>, did you do any of these exercise or recreation
 [690018400] Fall
 < -> D_689956879>
 
-[D_689956879?,displayif=equals(D_517976064,868685663)] During the season|displayif=doesNotEqual(numberOfChoicesSelected(D_787591805,917302906),1)|s| in the <b>past 12 months</b> that you did strengthening exercises such as weightlifting, using weight machines, or calisthenics (such as sit-ups or push-ups), about how often did you do this activity?
+[D_689956879?,displayif=equals(D_517976064,868685663)] During the season|displayif=doesNotEqual(numberOfChoicesSelected(D_787591805,0),1)|s| in the <b>past 12 months</b> that you did strengthening exercises such as weightlifting, using weight machines, or calisthenics (such as sit-ups or push-ups), about how often did you do this activity?
 (239152340) Once a month or less
 (582006876) 2 to 3 days a month
 (645894551) 1 to 2 days a week
@@ -1864,7 +1866,7 @@ During the <b>past 12 months</b>, did you do any of these exercise or recreation
 [690018400] Fall
 < -> D_255761998>
 
-[D_255761998?,displayif=equals(D_517976064,760484278)] During the season|displayif=doesNotEqual(numberOfChoicesSelected(D_900299856,917302906),1)|s| in the <b>past 12 months</b> that you did Yoga, Pilates, or Tai Chi, about how often did you do this activity?
+[D_255761998?,displayif=equals(D_517976064,760484278)] During the season|displayif=doesNotEqual(numberOfChoicesSelected(D_900299856,0),1)|s| in the <b>past 12 months</b> that you did Yoga, Pilates, or Tai Chi, about how often did you do this activity?
 (239152340) Once a month or less
 (582006876) 2 to 3 days a month
 (645894551) 1 to 2 days a week
@@ -1889,7 +1891,7 @@ During the <b>past 12 months</b>, did you do any of these exercise or recreation
 [690018400] Fall
 < -> D_167966775>
 
-[D_167966775?,displayif=equals(D_517976064,345916806)] During the season|displayif=doesNotEqual(numberOfChoicesSelected(D_149884127,917302906),1)|s| in the <b>past 12 months</b> that you did Martial Arts (such as Karate or Judo), about how often did you do this activity?
+[D_167966775?,displayif=equals(D_517976064,345916806)] During the season|displayif=doesNotEqual(numberOfChoicesSelected(D_149884127,0),1)|s| in the <b>past 12 months</b> that you did Martial Arts (such as Karate or Judo), about how often did you do this activity?
 (239152340) Once a month or less
 (582006876) 2 to 3 days a month
 (645894551) 1 to 2 days a week
@@ -1914,7 +1916,7 @@ During the <b>past 12 months</b>, did you do any of these exercise or recreation
 [690018400] Fall
 < -> D_612068433>
 
-[D_612068433?,displayif=equals(D_517976064,936042582)] During the season|displayif=doesNotEqual(numberOfChoicesSelected(D_845164425,917302906),1)|s| in the <b>past 12 months</b> that you danced, about how often did you do this activity?
+[D_612068433?,displayif=equals(D_517976064,936042582)] During the season|displayif=doesNotEqual(numberOfChoicesSelected(D_845164425,0),1)|s| in the <b>past 12 months</b> that you danced, about how often did you do this activity?
 (239152340) Once a month or less
 (582006876) 2 to 3 days a month
 (645894551) 1 to 2 days a week
@@ -1939,7 +1941,7 @@ During the <b>past 12 months</b>, did you do any of these exercise or recreation
 [690018400] Fall
 < -> D_865200503>
 
-[D_865200503?,displayif=equals(D_517976064,182827107)] During the season|displayif=doesNotEqual(numberOfChoicesSelected(D_187772368,917302906),1)|s| in the <b>past 12 months</b> that you did downhill skiing or snowboarding, about how often did you do this activity?
+[D_865200503?,displayif=equals(D_517976064,182827107)] During the season|displayif=doesNotEqual(numberOfChoicesSelected(D_187772368,0),1)|s| in the <b>past 12 months</b> that you did downhill skiing or snowboarding, about how often did you do this activity?
 (239152340) Once a month or less
 (582006876) 2 to 3 days a month
 (645894551) 1 to 2 days a week
@@ -1964,7 +1966,7 @@ During the <b>past 12 months</b>, did you do any of these exercise or recreation
 [690018400] Fall
 < -> D_981509686>
 
-[D_981509686?,displayif=equals(D_517976064,734860227)] During the season|displayif=doesNotEqual(numberOfChoicesSelected(D_815229596,917302906),1)|s| in the <b>past 12 months</b> that you did cross-country skiing, about how often did you do this activity?
+[D_981509686?,displayif=equals(D_517976064,734860227)] During the season|displayif=doesNotEqual(numberOfChoicesSelected(D_815229596,0),1)|s| in the <b>past 12 months</b> that you did cross-country skiing, about how often did you do this activity?
 (239152340) Once a month or less
 (582006876) 2 to 3 days a month
 (645894551) 1 to 2 days a week
@@ -1989,7 +1991,7 @@ During the <b>past 12 months</b>, did you do any of these exercise or recreation
 [690018400] Fall
 < -> D_214750556>
 
-[D_214750556?,displayif=equals(D_517976064,371531887)] During the season|displayif=doesNotEqual(numberOfChoicesSelected(D_262305264,917302906),1)|s| in the <b>past 12 months</b> that you did surfing or bodyboarding, about how often did you do this activity?
+[D_214750556?,displayif=equals(D_517976064,371531887)] During the season|displayif=doesNotEqual(numberOfChoicesSelected(D_262305264,0),1)|s| in the <b>past 12 months</b> that you did surfing or bodyboarding, about how often did you do this activity?
 (239152340) Once a month or less
 (582006876) 2 to 3 days a month
 (645894551) 1 to 2 days a week
@@ -2014,7 +2016,7 @@ During the <b>past 12 months</b>, did you do any of these exercise or recreation
 [690018400] Fall
 < -> D_775324618>
 
-[D_775324618?,displayif=equals(D_517976064,423631576)] During the season|displayif=doesNotEqual(numberOfChoicesSelected(D_409324592,917302906),1)|s| in the <b>past 12 months</b> that you did high-intensity circuit training (such as P90x® or CrossFit®), about how often did you do this activity?
+[D_775324618?,displayif=equals(D_517976064,423631576)] During the season|displayif=doesNotEqual(numberOfChoicesSelected(D_409324592,0),1)|s| in the <b>past 12 months</b> that you did high-intensity circuit training (such as P90x® or CrossFit®), about how often did you do this activity?
 (239152340) Once a month or less
 (582006876) 2 to 3 days a month
 (645894551) 1 to 2 days a week
@@ -2039,7 +2041,7 @@ During the <b>past 12 months</b>, did you do any of these exercise or recreation
 [690018400] Fall
 < -> D_522949496>
 
-[D_522949496?,displayif=equals(D_517976064,181769837)] During the season|displayif=doesNotEqual(numberOfChoicesSelected(D_895837106,917302906),1)|s| in the <b>past 12 months</b> that you did other exercise, about how often did you do this activity?
+[D_522949496?,displayif=equals(D_517976064,181769837)] During the season|displayif=doesNotEqual(numberOfChoicesSelected(D_895837106,0),1)|s| in the <b>past 12 months</b> that you did other exercise, about how often did you do this activity?
 (239152340) Once a month or less
 (582006876) 2 to 3 days a month
 (645894551) 1 to 2 days a week
@@ -2336,3 +2338,4 @@ Year |__|__|__|__|xor=SHIFTWORK10 id=D_120485458|
 
 
 [END,end]  Thank you for completing this section of the survey.
+
