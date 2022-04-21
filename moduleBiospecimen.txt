@@ -2,8 +2,8 @@
 [INTRO] Welcome
 
 [D_112151599?] Have you had a menstrual period in the last 60 days??
-(353358909) Yes
 (104430631) No
+(353358909) Yes
 
 [END, end] Thanks
 
