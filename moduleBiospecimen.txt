@@ -1,9 +1,9 @@
 {"name":"D_299215535"}
 [INTRO] Welcome
 
-[BIO_TEST?] Do you love this survey?
-(999999999) Option 1
-(888888888) Option 2
+[D_112151599?] Have you had a menstrual period in the last 60 days??
+(353358909) Yes
+(104430631) No
 
 [END, end] Thanks
 
