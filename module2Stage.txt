@@ -1,10 +1,10 @@
-// This file was transformed using the mapping data in Quest-2022-04-04-15-14-48_Transformation.json.
+// This file was transformed using the mapping data in Quest-2022-05-05-13-20-13_Transformation.json.
 
 // JSON WARNING --> Concept ID 101310722 with concept "# Pills per day" is shared between these Textbox codes: [ACIDSUP3_1A, ACIDSUP3_2A, ACIDSUP3_3A, CHOLHTN3_1A, CHOLHTN3_2A, INSULIN3_1A, METFOR3_1A, PAINREL3_1A, PAINREL3_2A, PAINREL3_3A, PAINREL3_4A, PAINREL3_5A, PAINREL3_6A, PAINREL3_7A]
 // JSON WARNING --> Concept ID 206625031 with concept "Age at diagnosis" is shared between these Textbox codes: [ANEMIA_AGE, APPEND_AGE, ARRHYT_AGE, ASTHMA_AGE, BARESO_AGE, BARSUR_AGE, BLDTRANS3_AGE, BLDTRANS4_AGE, BLOODCLOT_AGE, BREASTDIS_AGE, CCD_AGE, CD_AGE, CHESTPAIN_AGE, CHF_AGE, CHILDCANC3A_AGE, CHILDCANC3B_AGE, CHILDCANC3C_AGE, CHILDCANC3D_AGE, CHILDCANC3E_AGE, CHILDCANC3F_AGE, CHILDCANC3G_AGE, CHILDCANC3H_AGE, CHILDCANC3I_AGE, CHILDCANC3J_AGE, CHILDCANC3K_AGE, CHILDCANC3L_AGE, CHILDCANC3M_AGE, CHILDCANC3N_AGE, CHILDCANC3O_AGE, CHILDCANC3P_AGE, CHILDCANC3Q_AGE, CHILDCANC3R_AGE, CHILDCANC3S_AGE, CHILDCANC3T_AGE, CHILDCANC3U_AGE, CHILDCANC3V_AGE, CHILDCANC3W_AGE, CHILDCANC3X_AGE, CHILDCANC3Y_AGE, CHLA_AGE, CHOL_AGE, CKD_AGE, COPD_AGE, CVD_AGE, DADCANC3A_AGE, DADCANC3B_AGE, DADCANC3C_AGE, DADCANC3D_AGE, DADCANC3E_AGE, DADCANC3F_AGE, DADCANC3G_AGE, DADCANC3H_AGE, DADCANC3I_AGE, DADCANC3J_AGE, DADCANC3K_AGE, DADCANC3L_AGE, DADCANC3M_AGE, DADCANC3N_AGE, DADCANC3O_AGE, DADCANC3P_AGE, DADCANC3Q_AGE, DADCANC3R_AGE, DADCANC3S_AGE, DADCANC3T_AGE, DADCANC3U_AGE, DADCANC3V_AGE, DCIS_AGE, DEPRESS2_AGE, DIVERT_AGE, DM2_AGE, ENDO_AGE, ENLGPROS_AGE, FTREM2_AGE, GALLREM_AGE, GALL_AGE, GENWARTS_AGE, GERD_AGE, GONORR_AGE, GOUT_AGE, GRAVES_AGE, HAYFEVER_AGE, HBVHCV_AGE, HEARTATT_AGE, HEARTVALV_AGE, HIVAIDS_AGE, HPV_AGE, HTN_AGE, HYSTER_AGE, IBD_AGE, IBS_AGE, KIDNEY_AGE, LIPOSUCT_AGE, LIVCIRR_AGE, LUPUS_AGE, MOMCANC3A_AGE, MOMCANC3B_AGE, MOMCANC3C_AGE, MOMCANC3D_AGE, MOMCANC3E_AGE, MOMCANC3F_AGE, MOMCANC3G_AGE, MOMCANC3H_AGE, MOMCANC3I_AGE, MOMCANC3J_AGE, MOMCANC3K_AGE, MOMCANC3L_AGE, MOMCANC3M_AGE, MOMCANC3N_AGE, MOMCANC3O_AGE, MOMCANC3P_AGE, MOMCANC3Q_AGE, MOMCANC3R_AGE, MOMCANC3S_AGE, MOMCANC3T_AGE, MOMCANC3U_AGE, MOMCANC3V_AGE, MOMCANC3W_AGE, MONO_AGE, OVARYREM2_AGE, PANCREA_AGE, PCOS_AGE, PENREM_AGE, PROSREM2_AGE, RA_AGE, SHINGLES_AGE, SIBCANC3A_AGE, SIBCANC3B_AGE, SIBCANC3C_AGE, SIBCANC3D_AGE, SIBCANC3E_AGE, SIBCANC3F_AGE, SIBCANC3G_AGE, SIBCANC3H_AGE, SIBCANC3I_AGE, SIBCANC3J_AGE, SIBCANC3K_AGE, SIBCANC3L_AGE, SIBCANC3M_AGE, SIBCANC3N_AGE, SIBCANC3O_AGE, SIBCANC3P_AGE, SIBCANC3Q_AGE, SIBCANC3R_AGE, SIBCANC3S_AGE, SIBCANC3T_AGE, SIBCANC3U_AGE, SIBCANC3V_AGE, SIBCANC3W_AGE, SIBCANC3X_AGE, SIBCANC3Y_AGE, SKINCANC3_AGE, STROKE_AGE, SYPH_AGE, TESTREM2_AGE, THYROID_AGE, TONSILS_AGE, TRICH_AGE, TUBLIG_AGE, UC_AGE, UF_AGE, VASEC_AGE]
 // JSON WARNING --> Concept ID 261863326 with concept "Year at diagnosis" is shared between these Textbox codes: [ANEMIA_YEAR, APPEND_YEAR, ARRHYT_YEAR, ASTHMA_YEAR, BARESO_YEAR, BARSUR_YEAR, BLDTRANS3_YEAR, BLDTRANS4_YEAR, BLOODCLOT_YEAR, BREASTDIS_YEAR, CCD_YEAR, CD_YEAR, CHESTPAIN_YEAR, CHF_YEAR, CHILDCANC3A_YEAR, CHILDCANC3B_YEAR, CHILDCANC3C_YEAR, CHILDCANC3D_YEAR, CHILDCANC3E_YEAR, CHILDCANC3F_YEAR, CHILDCANC3G_YEAR, CHILDCANC3H_YEAR, CHILDCANC3I_YEAR, CHILDCANC3J_YEAR, CHILDCANC3K_YEAR, CHILDCANC3L_YEAR, CHILDCANC3M_YEAR, CHILDCANC3N_YEAR, CHILDCANC3O_YEAR, CHILDCANC3P_YEAR, CHILDCANC3Q_YEAR, CHILDCANC3R_YEAR, CHILDCANC3S_YEAR, CHILDCANC3T_YEAR, CHILDCANC3U_YEAR, CHILDCANC3V_YEAR, CHILDCANC3W_YEAR, CHILDCANC3X_YEAR, CHILDCANC3Y_YEAR, CHLA_YEAR, CHOL_YEAR, CKD_YEAR, COPD_YEAR, CVD_YEAR, DADCANC3A_YEAR, DADCANC3B_YEAR, DADCANC3C_YEAR, DADCANC3D_YEAR, DADCANC3E_YEAR, DADCANC3F_YEAR, DADCANC3G_YEAR, DADCANC3H_YEAR, DADCANC3I_YEAR, DADCANC3J_YEAR, DADCANC3K_YEAR, DADCANC3L_YEAR, DADCANC3M_YEAR, DADCANC3N_YEAR, DADCANC3O_YEAR, DADCANC3P_YEAR, DADCANC3Q_YEAR, DADCANC3R_YEAR, DADCANC3S_YEAR, DADCANC3T_YEAR, DADCANC3U_YEAR, DADCANC3V_YEAR, DCIS_YEAR, DEPRESS2_YEAR, DIVERT_YEAR, DM2_YEAR, ENDO_YEAR, ENLGPROS_YEAR, FTREM2_YEAR, GALLREM_YEAR, GALL_YEAR, GENWARTS_YEAR, GERD_YEAR, GONORR_YEAR, GOUT_YEAR, GRAVES_YEAR, HAYFEVER_YEAR, HBVHCV_YEAR, HEARTATT_YEAR, HEARTVALV_YEAR, HIVAIDS_YEAR, HPV_YEAR, HTN_YEAR, HYSTER_YEAR, IBD_YEAR, IBS_YEAR, KIDNEY_YEAR, LIPOSUCT_YEAR, LIVCIRR_YEAR, LUPUS_YEAR, MOMCANC3A_YEAR, MOMCANC3B_YEAR, MOMCANC3C_YEAR, MOMCANC3D_YEAR, MOMCANC3E_YEAR, MOMCANC3F_YEAR, MOMCANC3G_YEAR, MOMCANC3H_YEAR, MOMCANC3I_YEAR, MOMCANC3J_YEAR, MOMCANC3K_YEAR, MOMCANC3L_YEAR, MOMCANC3M_YEAR, MOMCANC3N_YEAR, MOMCANC3O_YEAR, MOMCANC3P_YEAR, MOMCANC3Q_YEAR, MOMCANC3R_YEAR, MOMCANC3S_YEAR, MOMCANC3T_YEAR, MOMCANC3U_YEAR, MOMCANC3V_YEAR, MOMCANC3W_YEAR, MONO_YEAR, OVARYREM2_YEAR, PANCREA_YEAR, PCOS_YEAR, PENREM_YEAR, PROSREM2_YEAR, RA_YEAR, SHINGLES_YEAR, SIBCANC3A_YEAR, SIBCANC3B_YEAR, SIBCANC3C_YEAR, SIBCANC3D_YEAR, SIBCANC3E_YEAR, SIBCANC3F_YEAR, SIBCANC3G_YEAR, SIBCANC3H_YEAR, SIBCANC3I_YEAR, SIBCANC3J_YEAR, SIBCANC3K_YEAR, SIBCANC3L_YEAR, SIBCANC3M_YEAR, SIBCANC3N_YEAR, SIBCANC3O_YEAR, SIBCANC3P_YEAR, SIBCANC3Q_YEAR, SIBCANC3R_YEAR, SIBCANC3S_YEAR, SIBCANC3T_YEAR, SIBCANC3U_YEAR, SIBCANC3V_YEAR, SIBCANC3W_YEAR, SIBCANC3X_YEAR, SIBCANC3Y_YEAR, SKINCANC3_YEAR, STROKE_YEAR, SYPH_YEAR, TESTREM2_YEAR, THYROID_YEAR, TONSILS_YEAR, TRICH_YEAR, TUBLIG_YEAR, UC_YEAR, UF_YEAR, VASEC_YEAR]
 // JSON WARNING --> Concept ID 314198277 with concept "Last spent time at this address, year" is shared between these Textbox codes: [SEASADDYRS2_10_YEAR, SEASADDYRS2_1_YEAR, SEASADDYRS2_2_YEAR, SEASADDYRS2_3_YEAR, SEASADDYRS2_4_YEAR, SEASADDYRS2_5_YEAR, SEASADDYRS2_6_YEAR, SEASADDYRS2_7_YEAR, SEASADDYRS2_8_YEAR, SEASADDYRS2_9_YEAR]
-// JSON WARNING --> Concept ID 408696162 with concept "Age started using on regular basis" is shared between these Textbox codes: [CIG3_AGE, HOOKAH3_AGE, PIPE3_AGE, REGALCOHOL_AGE, REGCHEW_AGE, REGCIGAR_AGE, REGEAMAR_AGE, REGELMAR_AGE, REGSMMAR_AGE, REGTHMAR_AGE, REGTOMAR_AGE, REGVAPE_AGE]
+// JSON WARNING --> Concept ID 408696162 with concept "Age started using on regular basis" is shared between these Textbox codes: [CIG3_AGE, HOOKAH3_AGE, PIPE3_AGE, REGCHEW_AGE, REGCIGAR_AGE, REGEAMAR_AGE, REGELMAR_AGE, REGSMMAR_AGE, REGTHMAR_AGE, REGTOMAR_AGE, REGVAPE_AGE]
 // JSON WARNING --> Concept ID 434243220 with concept "Months used" is shared between these Textbox codes: [ANYCOMESTMONTH, COMBINEDMONTH, COPIUDMONTH, DEPROPROVMONTH, ESTOTHERMONTH, ESTSKINMONTH, HORCOMPILLMONTH, HORIUDMONTH, HORMEDOTHERMONTH, HORMEDPATCHMONTH, HORMEDRINGMONTH, MINIPILLMONTH, NORPLANTMONTH, ORALESTMONTH, ORALMEDMONTH, PATCHESTMONTH, PRESHOR2MONTH, PROESTMONTH, RINGMONTH, TWOPILLMONTH]
 // JSON WARNING --> Concept ID 451310566 with concept "Months at address" is shared between these Textbox codes: [MONTHADD1, MONTHADD10, MONTHADD2, MONTHADD3, MONTHADD4, MONTHADD5, MONTHADD6, MONTHADD7, MONTHADD8, MONTHADD9]
 // JSON WARNING --> Concept ID 544692849 with concept "2-Previous State/Province" is shared between these Textbox codes: [ST2, ST2_FOLLOWUP]
@@ -18,7 +18,7 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Fri Apr 8 16:45:59 2022 -0400 (short timestamp = 2022-04-08-20-45-59)
+//This file was last modified on Thu Apr 28 15:30:01 2022 -0400 (short timestamp = 2022-04-28-19-30-01)
 {"name":"D_745268907"} [INTROM2] In this set of questions we ask about a few topics that affect your health. These topics include your current and past use of medications, your physical activity (including exercise), and your sleep habits.
 
 |displayif=or(equals(D_407056417,536341288),and(equals(D_407056417,576796184),or(equals(D_750420077,578416151),equals(D_750420077,434651539))))|We also ask some questions about your reproductive health. These questions will focus mainly on your menstrual periods, pregnancies, and if you have used any hormonal medications.|
@@ -420,7 +420,7 @@ Or
 
 [D_450131058?] About how many years did you take metformin?
 
-#Years |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
+#Years |__|__|min=1 max=sum(isDefined(D_150344905,age),1)|
 < -> D_991873978 >
 
 [D_991873978?] When was the <b>last</b> time you took metformin?
@@ -484,7 +484,7 @@ Have you ever taken any of these medications at least <b>4 times a month for 6 m
 [920460744|otcpump] Over-the-counter proton pump inhibitors (such as esomeprazole (Nexium®), omeprazole (Prilosec® OTC), omeprazole with sodium bicarbonate (Zegerid®), or lansoprazole (Prevacid® 24HR))  -> D_416865817
 [449861632|otcblkr] Over-the-counter H2 receptor blockers (such as famotidine (Pepcid®, Zantac®, or Tagamet®)) -> D_266752903
 [535003378*] None of the above
-< -> SECTION2_SKIPPED >
+< -> SECTION2 >
 
 [D_172234651?,displayif=equals(D_643361372,933374659)] During the time(s) that you were taking <b>prescription proton pump inhibitors</b>, about how many <b>days per week OR per month</b> did you take it? Please fill out either days per week or days per month.
 
@@ -574,12 +574,6 @@ Or
 
 #Years ago |__|__|max=sum(isDefined(D_150344905,age),1)|
 
-// duplicating the start of Testosterone Therapy to do a skip instead of adding this displayif to every question in section 2
-// see squish issue #34 for why this was added
-[SECTION2_SKIPPED,displayif=or(and(equals(D_407056417,654207589),or(equals(D_289664241,654207589),or(equals(D_289664241,746038746),equals(isDefined(D_289664241,-1),-1)))),and(equals(D_407056417,576796184),and(doesNotEqual(D_750420077,578416151),doesNotEqual(D_750420077,434651539))))]
-<b>Testosterone & Other Hormone Therapy</b>
-< -> D_111235606 >
-
 [SECTION2] <b>Reproductive Health</b>
 
  In the next set of questions, we ask about your reproductive health. Remember, we protect your privacy. We remove information that can identify you from your survey answers before we share them with researchers.
@@ -590,7 +584,13 @@ Or
 (104430631) No
 (200323667) Yes, I used hormones or other medications to make my body look more feminine in the past
 (249673703) Yes, I am currently using hormones or other medications to make my body look more feminine
-< -> SECTION3 >
+
+// duplicating the start of Testosterone Therapy to do a skip instead of adding this displayif to every question in section 2
+// see squish issue #34 for why this was added
+// PTH - recoded SECTION2_SKIPPED to account for changes in the updated Quex, so all males are skipped to TESTTHER
+[SECTION2_SKIPPED,displayif=or(equals(D_407056417,654207589),and(equals(D_407056417,576796184),and(doesNotEqual(D_750420077,578416151),doesNotEqual(D_750420077,434651539))))]
+<b>Testosterone & Other Hormone Therapy</b>
+< -> D_111235606 >
 
 [INTROWH,displayif=or(equals(D_407056417,536341288),and(equals(D_407056417,576796184),or(equals(D_750420077,434651539),equals(D_750420077,578416151))))]This section asks about your menstrual history, past or current pregnancies and your use of hormone medications.
 
@@ -662,7 +662,8 @@ Age |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
 [386152189]Bleeding after menopause
 [535003378*]I have <b>not</b> experienced any of the above
 
-[PREG]<b>Pregnancies</b> Next, we will ask you some questions about pregnancies that you may have had.
+[PREG]<b>Pregnancies</b>
+Next, we will ask you some questions about pregnancies that you may have had.
 
 [D_849945160?]Are you currently pregnant?
 (353358909) Yes -> D_405571048
@@ -689,10 +690,10 @@ If this is <b>not</b> correct, please select the “Back” button to update you
 
 <loop max=25>
 [D_968816827?,displayif=greaterThanOrEqual(D_405571048,#loop)]
-How old were you when your #loop|displayif=or(equals(#loop,1),equals(#loop,21))|st||displayif=or(equals(#loop,2),equals(#loop,22))|nd||displayif=or(equals(#loop,3),equals(#loop,23))|rd||displayif=and(greaterThanOrEqual(#loop,4),and(doesNotEqual(#loop,21),and(doesNotEqual(#loop,22),doesNotEqual(#loop,23))))|th| pregnancy began?
+How old were you when your {##} pregnancy began?
 Age |__|__|min=isDefined(D_969451837,0) max=sum(isDefined(D_150344905,age),1)|
 
-[D_391951010?,displayif=greaterThanOrEqual(D_405571048,#loop)]
+[D_391951010?,displayif=or(and(equals(D_849945160,353358909),greaterThan(D_405571048,#loop)),and(doesNotEqual(D_849945160,353358909),greaterThanOrEqual(D_405571048,#loop)))]
 What was the outcome of this pregnancy?
 (223216393) Live birth: single infant -> D_771528780
 (628445697) Live birth: twins, triplets, or higher multiples -> D_281494550
@@ -704,34 +705,34 @@ What was the outcome of this pregnancy?
 (746038746) Prefer not to answer -> PREGSUMMARY
 < #NR -> PREGSUMMARY >
 
-[D_281494550?,displayif=greaterThanOrEqual(D_405571048,#loop)]
+[D_281494550?,displayif=or(and(equals(D_849945160,353358909),greaterThan(D_405571048,#loop)),and(doesNotEqual(D_849945160,353358909),greaterThanOrEqual(D_405571048,#loop)))]
 |displayif=equals(D_391951010,628445697)|How many infants were delivered?||displayif=equals(D_391951010,306890578)|How many infants were delivered? Include live births and stillbirths in your response.|
 (582602017) Two (Twins)
 (105727261) Three (Triplets)
 (720288326) Four or more
 
-[D_771528780?,displayif=greaterThanOrEqual(D_405571048,#loop)?] What was the method of delivery?
+[D_771528780?,displayif=or(and(equals(D_849945160,353358909),greaterThan(D_405571048,#loop)),and(doesNotEqual(D_849945160,353358909),greaterThanOrEqual(D_405571048,#loop)))] What was the method of delivery?
 (660308254) Cesarean
 (936573532) Vaginal
 
-[D_486574018?,displayif=greaterThanOrEqual(D_405571048,#loop)]
+[D_486574018?,displayif=or(and(equals(D_849945160,353358909),greaterThan(D_405571048,#loop)),and(doesNotEqual(D_849945160,353358909),greaterThanOrEqual(D_405571048,#loop)))]
 |displayif=or(equals(D_391951010,223216393),equals(D_391951010,628445697))|Did you |popup|breastfeed|breastfeed|Using a breast pump to express breastmilk, sometimes called "exclusively pumping," counts as breastfeeding.| ||displayif=equals(D_391951010,223216393)|this child||displayif=equals(D_391951010,628445697)|these children||displayif=or(equals(D_391951010,223216393),equals(D_391951010,628445697))|? If you are currently breastfeeding, select yes.| |displayif=equals(D_391951010,306890578)|Did you breastfeed? If you are currently breastfeeding, select yes.|
 (353358909) Yes -> D_278277373
 (104430631) No -> D_779052408
 < #NR -> D_779052408 >
 
-[D_278277373?,displayif=greaterThanOrEqual(D_405571048,#loop)]
+[D_278277373?,displayif=or(and(equals(D_849945160,353358909),greaterThan(D_405571048,#loop)),and(doesNotEqual(D_849945160,353358909),greaterThanOrEqual(D_405571048,#loop)))]
 |displayif=or(equals(D_391951010,223216393),equals(D_391951010,628445697))|How many months did you breastfeed ||displayif=equals(D_391951010,223216393)|this child||displayif=equals(D_391951010,628445697)|these children||displayif=or(equals(D_391951010,223216393),equals(D_391951010,628445697))|? If you are currently breastfeeding, please tell us the number of months you have been breastfeeding so far.| |displayif=equals(D_391951010,306890578)|How many months did you breastfeed? If you are currently breastfeeding, please tell us the number of months you have been breastfeeding so far.|
 #Months breastfed |__|__|min=0 max=99|
 
 
-[D_779052408?,displayif=greaterThanOrEqual(D_405571048,#loop)]
+[D_779052408?,displayif=or(and(equals(D_849945160,353358909),greaterThan(D_405571048,#loop)),and(doesNotEqual(D_849945160,353358909),greaterThanOrEqual(D_405571048,#loop)))]
 Did a doctor or other health professional tell you that you have or had <b>gestational diabetes</b> during this pregnancy?
 (353358909) Yes
 (104430631) No
 
 
-[D_133297530?,displayif=greaterThanOrEqual(D_405571048,#loop)]
+[D_133297530?,displayif=or(and(equals(D_849945160,353358909),greaterThan(D_405571048,#loop)),and(doesNotEqual(D_849945160,353358909),greaterThanOrEqual(D_405571048,#loop)))]
 Did a doctor or other health professional tell you that you have or had |popup|<b>eclampsia or pre-eclampsia</b>|Eclampsia or Pre-eclampsia|A related medical condition is HELLP Syndrome. If a doctor or other health professional has ever told you that you have HELLP Syndrome, answer yes| during this pregnancy?
 (353358909) Yes
 (104430631) No
@@ -741,7 +742,7 @@ Did a doctor or other health professional tell you that you have or had |popup|<
 
 Pregnancy number: #loop
 Age when pregnancy began: {$D_968816827}
-Outcome of pregnancy: |displayif=equals(D_391951010,223216393)|Live birth: single infant||displayif=equals(D_391951010,628445697)|Live birth: twins, triplets, or higher multiples||displayif=equals(D_391951010,419220239)|Stillbirth||displayif=equals(D_391951010,306890578)|Live birth and stillbirth (loss of one or more of multiples)||displayif=equals(D_391951010,858244199)|Miscarriage (pregnancy loss before 20 weeks)||displayif=equals(D_391951010,434041171)|Termination||displayif=equals(D_391951010,550615107)|Ectopic or tubal pregnancy (fertilized egg implants outside of the uterus)||displayif=equals(D_391951010,746038746)|Prefer not to answer|
+|displayif=or(and(equals(D_849945160,353358909),greaterThan(D_405571048,#loop)),and(doesNotEqual(D_849945160,353358909),greaterThanOrEqual(D_405571048,#loop)))|Outcome of pregnancy: ||displayif=equals(D_391951010,223216393)|Live birth: single infant||displayif=equals(D_391951010,628445697)|Live birth: twins, triplets, or higher multiples||displayif=equals(D_391951010,419220239)|Stillbirth||displayif=equals(D_391951010,306890578)|Live birth and stillbirth (loss of one or more of multiples)||displayif=equals(D_391951010,858244199)|Miscarriage (pregnancy loss before 20 weeks)||displayif=equals(D_391951010,434041171)|Termination||displayif=equals(D_391951010,550615107)|Ectopic or tubal pregnancy (fertilized egg implants outside of the uterus)||displayif=equals(D_391951010,746038746)|Prefer not to answer|
 |displayif=or(equals(D_391951010,628445697),equals(D_391951010,306890578))|Number of infants:||displayif=equals(D_281494550,582602017)| Two (Twins)||displayif=equals(D_281494550,105727261)| Three (Triplets)||displayif=equals(D_281494550,720288326)| Four or more|
 |displayif=or(equals(D_391951010,223216393),or(equals(D_391951010,628445697),equals(D_391951010,306890578)))|Method of delivery:||displayif=equals(D_771528780,660308254)| Cesarean||displayif=equals(D_771528780,936573532)| Vaginal|
 |displayif=or(equals(D_391951010,223216393),or(equals(D_391951010,628445697),equals(D_391951010,306890578)))|Did you breastfeed: ||displayif=equals(D_486574018,353358909)| Yes||displayif=equals(D_486574018,104430631)| No|
