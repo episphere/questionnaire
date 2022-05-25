@@ -1,67 +1,4 @@
-// This file was transformed using the mapping data in Quest-2022-04-20-16-58-20_Transformation.json.
-
-// JSON ERROR --> Concept ID collision for ID: 813989715 | there are collisions between Quest ID(s): [GRID_SRVBLU_COV23A_V1R0, GRID_SRVBLU_COV23B_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 407056417 | there are collisions between Quest ID(s): [SEX, SRVBIO_SEX_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 749956170 | there are collisions between Quest ID(s): [GRID_SRVBLU_COV24A_V1R0, SRVBLU]
-// JSON ERROR --> Concept ID collision for ID: 311897929 | there are collisions between Quest ID(s): [SRVBLU_COV19B2_V1R0, SRVBLU_COV20A10_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 214734819 | there are collisions between Quest ID(s): [SRVBLU_COV19B3_V1R0, SRVBLU_COV20A11_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 303278227 | there are collisions between Quest ID(s): [SRVBLU_COV19B4_V1R0, SRVBLU_COV20A12_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 104084564 | there are collisions between Quest ID(s): [SRVBLU_COV19B5_V1R0, SRVBLU_COV20A13_V1R0, SRVBLU_COV23B4_V1R0, SRVBLU_COV24A10_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 260316992 | there are collisions between Quest ID(s): [SRVBLU_COV19C4_V1R0, SRVBLU_COV20A15_V1R0, SRVBLU_COV23B6_V1R0, SRVBLU_COV24A12_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 368469776 | there are collisions between Quest ID(s): [SRVBLU_COV19C5_V1R0, SRVBLU_COV20A16_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 953776504 | there are collisions between Quest ID(s): [SRVBLU_COV19A1_V1R0, SRVBLU_COV20A1_V1R0, SRVBLU_COV23A1_V1R0, SRVBLU_COV24A1_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 144384751 | there are collisions between Quest ID(s): [SRVBLU_COV19A3_V1R0, SRVBLU_COV20A2_V1R0, SRVBLU_COV23A3_V1R0, SRVBLU_COV24A3_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 153166371 | there are collisions between Quest ID(s): [SRVBLU_COV19A4_V1R0, SRVBLU_COV20A3_V1R0, SRVBLU_COV23A4_V1R0, SRVBLU_COV24A4_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 639639385 | there are collisions between Quest ID(s): [SRVBLU_COV19A5_V1R0, SRVBLU_COV20A4_V1R0, SRVBLU_COV23A5_V1R0, SRVBLU_COV24A5_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 402501336 | there are collisions between Quest ID(s): [SRVBLU_COV19A6_V1R0, SRVBLU_COV20A5_V1R0, SRVBLU_COV23A6_V1R0, SRVBLU_COV24A6_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 570020767 | there are collisions between Quest ID(s): [SRVBLU_COV19A2_V1R0, SRVBLU_COV20A6_V1R0, SRVBLU_COV23A2_V1R0, SRVBLU_COV24A2_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 146078807 | there are collisions between Quest ID(s): [SRVBLU_COV19C1_V1R0, SRVBLU_COV20A7_V1R0, SRVBLU_COV23B1_V1R0, SRVBLU_COV24A7_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 324030618 | there are collisions between Quest ID(s): [SRVBLU_COV19C2_V1R0, SRVBLU_COV20A8_V1R0, SRVBLU_COV23B2_V1R0, SRVBLU_COV24A8_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 731533223 | there are collisions between Quest ID(s): [SRVBLU_COV19B1_V1R0, SRVBLU_COV20A9_V1R0, SRVBLU_COV23B3_V1R0, SRVBLU_COV24A9_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 912213972 | there are collisions between Quest ID(s): [SRVBLU_COV23B7_V1R0, SRVBLU_COV24A13_V1R0]
-
-// JSON ERROR --> GRID_SRVBLU_COV23B_V1R0 conceptId 813989715 already maps to Quest code: GRID_SRVBLU_COV23A_V1R0 | conceptId collision
-// JSON ERROR --> SRVBIO_SEX_V1R0 conceptId 407056417 already maps to Quest code: SEX | conceptId collision
-// JSON ERROR --> SRVBLU conceptId 749956170 already maps to Quest code: GRID_SRVBLU_COV24A_V1R0 | conceptId collision
-// JSON ERROR --> SRVBLU_COV20A10_V1R0 conceptId 311897929 already maps to Quest code: SRVBLU_COV19B2_V1R0 | conceptId collision
-// JSON ERROR --> SRVBLU_COV20A11_V1R0 conceptId 214734819 already maps to Quest code: SRVBLU_COV19B3_V1R0 | conceptId collision
-// JSON ERROR --> SRVBLU_COV20A12_V1R0 conceptId 303278227 already maps to Quest code: SRVBLU_COV19B4_V1R0 | conceptId collision
-// JSON ERROR --> SRVBLU_COV20A13_V1R0 conceptId 104084564 already maps to Quest code: SRVBLU_COV19B5_V1R0 | conceptId collision
-// JSON ERROR --> SRVBLU_COV20A15_V1R0 conceptId 260316992 already maps to Quest code: SRVBLU_COV19C4_V1R0 | conceptId collision
-// JSON ERROR --> SRVBLU_COV20A16_V1R0 conceptId 368469776 already maps to Quest code: SRVBLU_COV19C5_V1R0 | conceptId collision
-// JSON ERROR --> SRVBLU_COV20A1_V1R0 conceptId 953776504 already maps to Quest code: SRVBLU_COV19A1_V1R0 | conceptId collision
-// JSON ERROR --> SRVBLU_COV20A2_V1R0 conceptId 144384751 already maps to Quest code: SRVBLU_COV19A3_V1R0 | conceptId collision
-// JSON ERROR --> SRVBLU_COV20A3_V1R0 conceptId 153166371 already maps to Quest code: SRVBLU_COV19A4_V1R0 | conceptId collision
-// JSON ERROR --> SRVBLU_COV20A4_V1R0 conceptId 639639385 already maps to Quest code: SRVBLU_COV19A5_V1R0 | conceptId collision
-// JSON ERROR --> SRVBLU_COV20A5_V1R0 conceptId 402501336 already maps to Quest code: SRVBLU_COV19A6_V1R0 | conceptId collision
-// JSON ERROR --> SRVBLU_COV20A6_V1R0 conceptId 570020767 already maps to Quest code: SRVBLU_COV19A2_V1R0 | conceptId collision
-// JSON ERROR --> SRVBLU_COV20A7_V1R0 conceptId 146078807 already maps to Quest code: SRVBLU_COV19C1_V1R0 | conceptId collision
-// JSON ERROR --> SRVBLU_COV20A8_V1R0 conceptId 324030618 already maps to Quest code: SRVBLU_COV19C2_V1R0 | conceptId collision
-// JSON ERROR --> SRVBLU_COV20A9_V1R0 conceptId 731533223 already maps to Quest code: SRVBLU_COV19B1_V1R0 | conceptId collision
-// JSON ERROR --> SRVBLU_COV23A1_V1R0 conceptId 953776504 already maps to Quest code: SRVBLU_COV19A1_V1R0 | conceptId collision
-// JSON ERROR --> SRVBLU_COV23A2_V1R0 conceptId 570020767 already maps to Quest code: SRVBLU_COV19A2_V1R0 | conceptId collision
-// JSON ERROR --> SRVBLU_COV23A3_V1R0 conceptId 144384751 already maps to Quest code: SRVBLU_COV19A3_V1R0 | conceptId collision
-// JSON ERROR --> SRVBLU_COV23A4_V1R0 conceptId 153166371 already maps to Quest code: SRVBLU_COV19A4_V1R0 | conceptId collision
-// JSON ERROR --> SRVBLU_COV23A5_V1R0 conceptId 639639385 already maps to Quest code: SRVBLU_COV19A5_V1R0 | conceptId collision
-// JSON ERROR --> SRVBLU_COV23A6_V1R0 conceptId 402501336 already maps to Quest code: SRVBLU_COV19A6_V1R0 | conceptId collision
-// JSON ERROR --> SRVBLU_COV23B1_V1R0 conceptId 146078807 already maps to Quest code: SRVBLU_COV19C1_V1R0 | conceptId collision
-// JSON ERROR --> SRVBLU_COV23B2_V1R0 conceptId 324030618 already maps to Quest code: SRVBLU_COV19C2_V1R0 | conceptId collision
-// JSON ERROR --> SRVBLU_COV23B3_V1R0 conceptId 731533223 already maps to Quest code: SRVBLU_COV19B1_V1R0 | conceptId collision
-// JSON ERROR --> SRVBLU_COV23B4_V1R0 conceptId 104084564 already maps to Quest code: SRVBLU_COV19B5_V1R0 | conceptId collision
-// JSON ERROR --> SRVBLU_COV23B6_V1R0 conceptId 260316992 already maps to Quest code: SRVBLU_COV19C4_V1R0 | conceptId collision
-// JSON ERROR --> SRVBLU_COV23B8A_V1R0] | Quest IDs must begin with a letter and contain only uppercase letters, digits, and underscores
-// JSON ERROR --> SRVBLU_COV24A10_V1R0 conceptId 104084564 already maps to Quest code: SRVBLU_COV19B5_V1R0 | conceptId collision
-// JSON ERROR --> SRVBLU_COV24A12_V1R0 conceptId 260316992 already maps to Quest code: SRVBLU_COV19C4_V1R0 | conceptId collision
-// JSON ERROR --> SRVBLU_COV24A13_V1R0 conceptId 912213972 already maps to Quest code: SRVBLU_COV23B7_V1R0 | conceptId collision
-// JSON ERROR --> SRVBLU_COV24A1_V1R0 conceptId 953776504 already maps to Quest code: SRVBLU_COV19A1_V1R0 | conceptId collision
-// JSON ERROR --> SRVBLU_COV24A2_V1R0 conceptId 570020767 already maps to Quest code: SRVBLU_COV19A2_V1R0 | conceptId collision
-// JSON ERROR --> SRVBLU_COV24A3_V1R0 conceptId 144384751 already maps to Quest code: SRVBLU_COV19A3_V1R0 | conceptId collision
-// JSON ERROR --> SRVBLU_COV24A4_V1R0 conceptId 153166371 already maps to Quest code: SRVBLU_COV19A4_V1R0 | conceptId collision
-// JSON ERROR --> SRVBLU_COV24A5_V1R0 conceptId 639639385 already maps to Quest code: SRVBLU_COV19A5_V1R0 | conceptId collision
-// JSON ERROR --> SRVBLU_COV24A6_V1R0 conceptId 402501336 already maps to Quest code: SRVBLU_COV19A6_V1R0 | conceptId collision
-// JSON ERROR --> SRVBLU_COV24A7_V1R0 conceptId 146078807 already maps to Quest code: SRVBLU_COV19C1_V1R0 | conceptId collision
-// JSON ERROR --> SRVBLU_COV24A8_V1R0 conceptId 324030618 already maps to Quest code: SRVBLU_COV19C2_V1R0 | conceptId collision
-// JSON ERROR --> SRVBLU_COV24A9_V1R0 conceptId 731533223 already maps to Quest code: SRVBLU_COV19B1_V1R0 | conceptId collision
+// This file was transformed using the mapping data in Quest-2022-05-05-13-20-13_Transformation.json.
 
 // JSON WARNING --> Concept ID 101310722 with concept "# Pills per day" is shared between these Textbox codes: [ACIDSUP3_1A, ACIDSUP3_2A, ACIDSUP3_3A, CHOLHTN3_1A, CHOLHTN3_2A, INSULIN3_1A, METFOR3_1A, PAINREL3_1A, PAINREL3_2A, PAINREL3_3A, PAINREL3_4A, PAINREL3_5A, PAINREL3_6A, PAINREL3_7A]
 // JSON WARNING --> Concept ID 206625031 with concept "Age at diagnosis" is shared between these Textbox codes: [ANEMIA_AGE, APPEND_AGE, ARRHYT_AGE, ASTHMA_AGE, BARESO_AGE, BARSUR_AGE, BLDTRANS3_AGE, BLDTRANS4_AGE, BLOODCLOT_AGE, BREASTDIS_AGE, CCD_AGE, CD_AGE, CHESTPAIN_AGE, CHF_AGE, CHILDCANC3A_AGE, CHILDCANC3B_AGE, CHILDCANC3C_AGE, CHILDCANC3D_AGE, CHILDCANC3E_AGE, CHILDCANC3F_AGE, CHILDCANC3G_AGE, CHILDCANC3H_AGE, CHILDCANC3I_AGE, CHILDCANC3J_AGE, CHILDCANC3K_AGE, CHILDCANC3L_AGE, CHILDCANC3M_AGE, CHILDCANC3N_AGE, CHILDCANC3O_AGE, CHILDCANC3P_AGE, CHILDCANC3Q_AGE, CHILDCANC3R_AGE, CHILDCANC3S_AGE, CHILDCANC3T_AGE, CHILDCANC3U_AGE, CHILDCANC3V_AGE, CHILDCANC3W_AGE, CHILDCANC3X_AGE, CHILDCANC3Y_AGE, CHLA_AGE, CHOL_AGE, CKD_AGE, COPD_AGE, CVD_AGE, DADCANC3A_AGE, DADCANC3B_AGE, DADCANC3C_AGE, DADCANC3D_AGE, DADCANC3E_AGE, DADCANC3F_AGE, DADCANC3G_AGE, DADCANC3H_AGE, DADCANC3I_AGE, DADCANC3J_AGE, DADCANC3K_AGE, DADCANC3L_AGE, DADCANC3M_AGE, DADCANC3N_AGE, DADCANC3O_AGE, DADCANC3P_AGE, DADCANC3Q_AGE, DADCANC3R_AGE, DADCANC3S_AGE, DADCANC3T_AGE, DADCANC3U_AGE, DADCANC3V_AGE, DCIS_AGE, DEPRESS2_AGE, DIVERT_AGE, DM2_AGE, ENDO_AGE, ENLGPROS_AGE, FTREM2_AGE, GALLREM_AGE, GALL_AGE, GENWARTS_AGE, GERD_AGE, GONORR_AGE, GOUT_AGE, GRAVES_AGE, HAYFEVER_AGE, HBVHCV_AGE, HEARTATT_AGE, HEARTVALV_AGE, HIVAIDS_AGE, HPV_AGE, HTN_AGE, HYSTER_AGE, IBD_AGE, IBS_AGE, KIDNEY_AGE, LIPOSUCT_AGE, LIVCIRR_AGE, LUPUS_AGE, MOMCANC3A_AGE, MOMCANC3B_AGE, MOMCANC3C_AGE, MOMCANC3D_AGE, MOMCANC3E_AGE, MOMCANC3F_AGE, MOMCANC3G_AGE, MOMCANC3H_AGE, MOMCANC3I_AGE, MOMCANC3J_AGE, MOMCANC3K_AGE, MOMCANC3L_AGE, MOMCANC3M_AGE, MOMCANC3N_AGE, MOMCANC3O_AGE, MOMCANC3P_AGE, MOMCANC3Q_AGE, MOMCANC3R_AGE, MOMCANC3S_AGE, MOMCANC3T_AGE, MOMCANC3U_AGE, MOMCANC3V_AGE, MOMCANC3W_AGE, MONO_AGE, OVARYREM2_AGE, PANCREA_AGE, PCOS_AGE, PENREM_AGE, PROSREM2_AGE, RA_AGE, SHINGLES_AGE, SIBCANC3A_AGE, SIBCANC3B_AGE, SIBCANC3C_AGE, SIBCANC3D_AGE, SIBCANC3E_AGE, SIBCANC3F_AGE, SIBCANC3G_AGE, SIBCANC3H_AGE, SIBCANC3I_AGE, SIBCANC3J_AGE, SIBCANC3K_AGE, SIBCANC3L_AGE, SIBCANC3M_AGE, SIBCANC3N_AGE, SIBCANC3O_AGE, SIBCANC3P_AGE, SIBCANC3Q_AGE, SIBCANC3R_AGE, SIBCANC3S_AGE, SIBCANC3T_AGE, SIBCANC3U_AGE, SIBCANC3V_AGE, SIBCANC3W_AGE, SIBCANC3X_AGE, SIBCANC3Y_AGE, SKINCANC3_AGE, STROKE_AGE, SYPH_AGE, TESTREM2_AGE, THYROID_AGE, TONSILS_AGE, TRICH_AGE, TUBLIG_AGE, UC_AGE, UF_AGE, VASEC_AGE]
@@ -81,7 +18,7 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Wed Apr 13 12:34:28 2022 -0400 (short timestamp = 2022-04-13-16-34-28)
+//This file was last modified on Tue May 24 16:46:03 2022 -0400 (short timestamp = 2022-05-24-20-46-03)
 {"name":"D_716117817"}
 
 [INTROM4] The questions in this section are about places where you have lived and worked. Where we live and our daily commute to and from our homes, work, and school can affect our health in a number of ways.
@@ -117,7 +54,7 @@ Country: |displayif=exists("D_831127170")| {$D_831127170}|
 [178420302*] Don't know
 
 
-[D_804504024?,displayif=and(or(isNotDefined(D_255248624,false),isNotDefined(D_945532934,false)),or(or(equals(isNotDefined(D_303500597,false),false),equals(isNotDefined(D_195068098,false),false)),or(equals(isNotDefined(D_202784871,false),false),equals(isNotDefined(D_831127170,false),false))))] Please provide the cross streets of the intersection closest to this address:
+[D_804504024?,displayif=noneExist("D_255248624","D_945532934") and someExist("D_725583683","D_917021073","D_970000442","D_500100435","D_303500597","D_195068098","D_202784871","D_831127170")] Please provide the cross streets of the intersection closest to this address:
 
 Full Street name #1 |__|id=D_105043152|
 Full Street name #2 |__|id=D_543135391|
@@ -125,7 +62,7 @@ Full Street name #2 |__|id=D_543135391|
 < -> HOMEADD4_1 >
 
 [HOMEADD4_1] Here is the information you gave us for this location:
-|displayif=or(equals(isNotDefined(D_255248624,""),false),or(equals(isNotDefined(D_945532934,""),false),or(equals(isNotDefined(D_469838242,""),false),or(equals(isNotDefined(D_303500597,""),false),or(equals(isNotDefined(D_725583683,""),false),or(equals(isNotDefined(D_195068098,""),false),or(equals(isNotDefined(D_917021073,""),false),or(equals(isNotDefined(D_202784871,""),false),or(equals(isNotDefined(D_970000442,""),false),or(equals(isNotDefined(D_831127170,""),false),equals(isNotDefined(D_500100435,""),false)))))))))))|{$D_255248624} {$D_945532934} {$D_469838242} {$D_303500597} {$D_725583683}{$D_195068098} {$D_917021073} {$D_202784871} {$D_970000442} {$D_831127170} {$D_500100435}|
+|displayif=or(equals(isNotDefined(D_255248624,""),false),or(equals(isNotDefined(D_945532934,""),false),or(equals(isNotDefined(D_469838242,""),false),or(equals(isNotDefined(D_303500597,""),false),or(equals(isNotDefined(D_725583683,""),false),or(equals(isNotDefined(D_195068098,""),false),or(equals(isNotDefined(D_917021073,""),false),or(equals(isNotDefined(D_202784871,""),false),or(equals(isNotDefined(D_970000442,""),false),or(equals(isNotDefined(D_831127170,""),false),equals(isNotDefined(D_500100435,""),false)))))))))))|{$D_255248624} {$D_945532934} {$D_469838242} {$D_303500597} {$D_725583683} {$D_195068098} {$D_917021073} {$D_202784871} {$D_970000442} {$D_831127170} {$D_500100435}|
 |displayif=noneExist("D_255248624","D_945532934","D_469838242","D_303500597","D_725583683","D_195068098","D_917021073","D_202784871","D_970000442","D_831127170","D_500100435")|Current Address|
 
 
@@ -137,7 +74,7 @@ If this information is <b>not</b> correct, please click the “Back” button to
 (104430631) No -> D_869829679
 < #NR-> D_869829679 >
 
-[D_574985342?] What is the full street address of the place you lived before you lived at |displayif=or(equals(isNotDefined(D_255248624,""),false),or(equals(isNotDefined(D_945532934,""),false),or(equals(isNotDefined(D_469838242,""),false),or(equals(isNotDefined(D_303500597,""),false),or(equals(isNotDefined(D_725583683,""),false),or(equals(isNotDefined(D_195068098,""),false),or(equals(isNotDefined(D_917021073,""),false),or(equals(isNotDefined(D_202784871,""),false),or(equals(isNotDefined(D_970000442,""),false),or(equals(isNotDefined(D_831127170,""),false),equals(isNotDefined(D_500100435,""),false)))))))))))|{$D_255248624} {$D_945532934} {$D_469838242} {$D_303500597} {$D_725583683}{$D_195068098} {$D_917021073} {$D_202784871} {$D_970000442} {$D_831127170} {$D_500100435}|
+[D_574985342?] What is the full street address of the place you lived before you lived at |displayif=or(equals(isNotDefined(D_255248624,""),false),or(equals(isNotDefined(D_945532934,""),false),or(equals(isNotDefined(D_469838242,""),false),or(equals(isNotDefined(D_303500597,""),false),or(equals(isNotDefined(D_725583683,""),false),or(equals(isNotDefined(D_195068098,""),false),or(equals(isNotDefined(D_917021073,""),false),or(equals(isNotDefined(D_202784871,""),false),or(equals(isNotDefined(D_970000442,""),false),or(equals(isNotDefined(D_831127170,""),false),equals(isNotDefined(D_500100435,""),false)))))))))))|{$D_255248624} {$D_945532934} {$D_469838242} {$D_303500597} {$D_725583683} {$D_195068098} {$D_917021073} {$D_202784871} {$D_970000442} {$D_831127170} {$D_500100435}|
 |displayif=noneExist("D_255248624","D_945532934","D_469838242","D_303500597","D_725583683","D_195068098","D_917021073","D_202784871","D_970000442","D_831127170","D_500100435")|Current Address|? Please only include addresses where you have lived for <b>at least two years</b>.
 
 Street number |__|__|id=D_985267931 min=0 max=999999|
@@ -164,7 +101,7 @@ Country: |displayif=exists("D_368486703")| {$D_368486703}|
 
 
 
-[D_398762737?,displayif=and(or(isNotDefined(D_985267931,false),isNotDefined(D_111275683,false)),or(or(equals(isNotDefined(D_536516743,false),false),equals(isNotDefined(D_283900560,false),false)),or(equals(isNotDefined(D_467947502,false),false),equals(isNotDefined(D_368486703,false),false))))] Please provide the cross streets of the intersection closest to this address:
+[D_398762737?,displayif=displayif=noneExist("D_985267931","D_111275683") and someExist("D_288498031","D_195845897","D_936129960","D_924583345","D_536516743","D_283900560","D_467947502","D_368486703")] Please provide the cross streets of the intersection closest to this address:
 
 Full Street name #1 |__|id=D_553357862|
 Full Street name #2 |__|id=D_474541595|
@@ -212,7 +149,7 @@ Country: |displayif=exists("D_337088272")| {$D_337088272}|
 
 
 
-[D_961572487?,displayif=and(or(isNotDefined(D_875706715,false),isNotDefined(D_645150792,false)),or(or(equals(isNotDefined(D_588699608,false),false),equals(isNotDefined(D_544692849,false),false)),or(equals(isNotDefined(D_335435992,false),false),equals(isNotDefined(D_337088272,false),false))))] Please provide the cross streets of the intersection closest to this address:
+[D_961572487?,displayif=noneExist("D_875706715","D_645150792") and someExist("D_648495207","D_544692849","D_649864362","D_723108194","D_588699608","D_544692849","D_335435992","D_337088272")] Please provide the cross streets of the intersection closest to this address:
 
 Full Street name #1 |__|id=D_469679476|
 Full Street name #2 |__|id=D_216954796|
@@ -221,7 +158,7 @@ Full Street name #2 |__|id=D_216954796|
 
 [HOMEADD4_3] Here is the information you gave us for this location:
 
-|displayif=noneExist("D_875706715","D_645150792","D_585360350","D_588699608","D_648495207","D_544692849","D_544692849","D_335435992","D_649864362","D_337088272","D_723108194")|3rd Address:||displayif=or(equals(isNotDefined(D_875706715,""),false),or(equals(isNotDefined(D_645150792,""),false),or(equals(isNotDefined(D_585360350,""),false),or(equals(isNotDefined(D_588699608,""),false),or(equals(isNotDefined(D_648495207,""),false),or(equals(isNotDefined(D_544692849,""),false),or(equals(isNotDefined(D_544692849,""),false),or(equals(isNotDefined(D_335435992,""),false),or(equals(isNotDefined(D_649864362,""),false),or(equals(isNotDefined(D_337088272,""),false),equals(isNotDefined(D_723108194,""),false)))))))))))|{$D_875706715} {$D_645150792} {$D_585360350} {$D_588699608} {$D_648495207}{$D_544692849} {$D_544692849} {$D_335435992} {$D_649864362} {$D_337088272} {$D_723108194}|
+|displayif=noneExist("D_875706715","D_645150792","D_585360350","D_588699608","D_648495207","D_544692849","D_544692849","D_335435992","D_649864362","D_337088272","D_723108194")|3rd Address:||displayif=or(equals(isNotDefined(D_875706715,""),false),or(equals(isNotDefined(D_645150792,""),false),or(equals(isNotDefined(D_585360350,""),false),or(equals(isNotDefined(D_588699608,""),false),or(equals(isNotDefined(D_648495207,""),false),or(equals(isNotDefined(D_544692849,""),false),or(equals(isNotDefined(D_544692849,""),false),or(equals(isNotDefined(D_335435992,""),false),or(equals(isNotDefined(D_649864362,""),false),or(equals(isNotDefined(D_337088272,""),false),equals(isNotDefined(D_723108194,""),false)))))))))))|{$D_875706715} {$D_645150792} {$D_585360350} {$D_588699608} {$D_648495207} {$D_544692849} {$D_544692849} {$D_335435992} {$D_649864362} {$D_337088272} {$D_723108194}|
 
 If this information is <b>not</b> correct, please click the “Back” button to edit your answers before moving on.
 
@@ -260,7 +197,7 @@ Country: |displayif=exists("D_728704613")| {$D_728704613}|
 
 
 
-[D_746604821?,displayif=and(or(isNotDefined(D_130174162,false),isNotDefined(D_563832508,false)),or(or(equals(isNotDefined(D_930511603,false),false),equals(isNotDefined(D_756548442,false),false)),or(equals(isNotDefined(D_455968200,false),false),equals(isNotDefined(D_728704613,false),false))))] Please provide the cross streets of the intersection closest to this address:
+[D_746604821?,displayif=noneExist("D_130174162","D_563832508") and someExist("D_931999203","D_486511102","D_267027102","D_734345879","D_930511603","D_756548442","D_455968200","D_728704613")] Please provide the cross streets of the intersection closest to this address:
 Full Street name #1 |__|id=D_423713680|
 Full Street name #2 |__|id=D_555767576|
 [178420302*] Don't know
@@ -268,7 +205,7 @@ Full Street name #2 |__|id=D_555767576|
 
 [HOMEADD4_4] Here is the information you gave us for this location:
 
-|displayif=noneExist("D_130174162","D_563832508","D_817839081","D_930511603","D_931999203","D_756548442","D_486511102","D_455968200","D_267027102","D_728704613","D_734345879")|4th Address:||displayif=or(equals(isNotDefined(D_130174162,""),false),or(equals(isNotDefined(D_563832508,""),false),or(equals(isNotDefined(D_817839081,""),false),or(equals(isNotDefined(D_930511603,""),false),or(equals(isNotDefined(D_931999203,""),false),or(equals(isNotDefined(D_756548442,""),false),or(equals(isNotDefined(D_486511102,""),false),or(equals(isNotDefined(D_455968200,""),false),or(equals(isNotDefined(D_267027102,""),false),or(equals(isNotDefined(D_728704613,""),false),equals(isNotDefined(D_734345879,""),false)))))))))))|{$D_130174162} {$D_563832508} {$D_817839081} {$D_930511603} {$D_931999203}{$D_756548442} {$D_486511102} {$D_455968200} {$D_267027102} {$D_728704613} {$D_734345879}|
+|displayif=noneExist("D_130174162","D_563832508","D_817839081","D_930511603","D_931999203","D_756548442","D_486511102","D_455968200","D_267027102","D_728704613","D_734345879")|4th Address:||displayif=or(equals(isNotDefined(D_130174162,""),false),or(equals(isNotDefined(D_563832508,""),false),or(equals(isNotDefined(D_817839081,""),false),or(equals(isNotDefined(D_930511603,""),false),or(equals(isNotDefined(D_931999203,""),false),or(equals(isNotDefined(D_756548442,""),false),or(equals(isNotDefined(D_486511102,""),false),or(equals(isNotDefined(D_455968200,""),false),or(equals(isNotDefined(D_267027102,""),false),or(equals(isNotDefined(D_728704613,""),false),equals(isNotDefined(D_734345879,""),false)))))))))))|{$D_130174162} {$D_563832508} {$D_817839081} {$D_930511603} {$D_931999203} {$D_756548442} {$D_486511102} {$D_455968200} {$D_267027102} {$D_728704613} {$D_734345879}|
 
 If this information is <b>not</b> correct, please click the “Back” button to edit your answers before moving on.
 < -> D_983592172 >
@@ -278,7 +215,7 @@ If this information is <b>not</b> correct, please click the “Back” button to
 (104430631) No -> D_869829679
 < #NR-> D_869829679 >
 
-[D_274189667?] What is the full street address of the place you lived before you lived at|displayif=noneExist("D_130174162","D_563832508","D_817839081","D_930511603","D_931999203","D_756548442","D_486511102","D_455968200","D_267027102","D_728704613","D_734345879")| 4th Address||displayif=or(equals(isNotDefined(D_130174162,""),false),or(equals(isNotDefined(D_563832508,""),false),or(equals(isNotDefined(D_817839081,""),false),or(equals(isNotDefined(D_930511603,""),false),or(equals(isNotDefined(D_931999203,""),false),or(equals(isNotDefined(D_756548442,""),false),or(equals(isNotDefined(D_486511102,""),false),or(equals(isNotDefined(D_455968200,""),false),or(equals(isNotDefined(D_267027102,""),false),or(equals(isNotDefined(D_728704613,""),false),equals(isNotDefined(D_734345879,""),false)))))))))))| {$D_130174162} {$D_563832508} {$D_817839081} {$D_930511603} {$D_931999203}{$D_756548442} {$D_486511102} {$D_455968200} {$D_267027102} {$D_728704613} {$D_734345879}|? Please only include addresses where you have lived for <b>at least two years</b>.
+[D_274189667?] What is the full street address of the place you lived before you lived at|displayif=noneExist("D_130174162","D_563832508","D_817839081","D_930511603","D_931999203","D_756548442","D_486511102","D_455968200","D_267027102","D_728704613","D_734345879")| 4th Address||displayif=or(equals(isNotDefined(D_130174162,""),false),or(equals(isNotDefined(D_563832508,""),false),or(equals(isNotDefined(D_817839081,""),false),or(equals(isNotDefined(D_930511603,""),false),or(equals(isNotDefined(D_931999203,""),false),or(equals(isNotDefined(D_756548442,""),false),or(equals(isNotDefined(D_486511102,""),false),or(equals(isNotDefined(D_455968200,""),false),or(equals(isNotDefined(D_267027102,""),false),or(equals(isNotDefined(D_728704613,""),false),equals(isNotDefined(D_734345879,""),false)))))))))))| {$D_130174162} {$D_563832508} {$D_817839081} {$D_930511603} {$D_931999203} {$D_756548442} {$D_486511102} {$D_455968200} {$D_267027102} {$D_728704613} {$D_734345879}|? Please only include addresses where you have lived for <b>at least two years</b>.
 
 Street number |__|__|id=D_838725845 min=0 max=999999|
 Full Street name |__|id=D_565515774|
@@ -303,7 +240,7 @@ Country: |displayif=exists("D_819429013")| {$D_819429013}|
 [178420302*] Don't know
 
 
-[D_298296694?,displayif=and(or(isNotDefined(D_838725845,false),isNotDefined(D_565515774,false)),or(or(equals(isNotDefined(D_742177990,false),false),equals(isNotDefined(D_843508307,false),false)),or(equals(isNotDefined(D_554901696,false),false),equals(isNotDefined(D_819429013,false),false))))] Please provide the cross streets of the intersection closest to this address:
+[D_298296694?,displayif=noneExist("D_838725845","D_565515774") and someExist("D_445867902","D_348049244","D_684217044","D_600319581","D_742177990","D_843508307","D_554901696","D_819429013")] Please provide the cross streets of the intersection closest to this address:
 Full Street name #1 |__|id=D_915527263|
 Full Street name #2 |__|id=D_325919807|
 [178420302*] Don't know
@@ -311,7 +248,7 @@ Full Street name #2 |__|id=D_325919807|
 
 [HOMEADD4_5] Here is the information you gave us for this location:
 
-|displayif=noneExist("D_838725845","D_565515774","D_848348504","D_742177990","D_445867902","D_843508307","D_348049244","D_554901696","D_684217044","D_819429013","D_600319581")|5th Address:||displayif=or(equals(isNotDefined(D_838725845,""),false),or(equals(isNotDefined(D_565515774,""),false),or(equals(isNotDefined(D_848348504,""),false),or(equals(isNotDefined(D_742177990,""),false),or(equals(isNotDefined(D_445867902,""),false),or(equals(isNotDefined(D_843508307,""),false),or(equals(isNotDefined(D_348049244,""),false),or(equals(isNotDefined(D_554901696,""),false),or(equals(isNotDefined(D_684217044,""),false),or(equals(isNotDefined(D_819429013,""),false),equals(isNotDefined(D_600319581,""),false)))))))))))|{$D_838725845} {$D_565515774} {$D_848348504} {$D_742177990} {$D_445867902}{$D_843508307} {$D_348049244} {$D_554901696} {$D_684217044} {$D_819429013} {$D_600319581}|
+|displayif=noneExist("D_838725845","D_565515774","D_848348504","D_742177990","D_445867902","D_843508307","D_348049244","D_554901696","D_684217044","D_819429013","D_600319581")|5th Address:||displayif=or(equals(isNotDefined(D_838725845,""),false),or(equals(isNotDefined(D_565515774,""),false),or(equals(isNotDefined(D_848348504,""),false),or(equals(isNotDefined(D_742177990,""),false),or(equals(isNotDefined(D_445867902,""),false),or(equals(isNotDefined(D_843508307,""),false),or(equals(isNotDefined(D_348049244,""),false),or(equals(isNotDefined(D_554901696,""),false),or(equals(isNotDefined(D_684217044,""),false),or(equals(isNotDefined(D_819429013,""),false),equals(isNotDefined(D_600319581,""),false)))))))))))|{$D_838725845} {$D_565515774} {$D_848348504} {$D_742177990} {$D_445867902} {$D_843508307} {$D_348049244} {$D_554901696} {$D_684217044} {$D_819429013} {$D_600319581}|
 
 If this information is <b>not</b> correct, please click the “Back” button to edit your answers before moving on.
 
@@ -323,7 +260,7 @@ If this information is <b>not</b> correct, please click the “Back” button to
 < #NR-> D_869829679 >
 
 [D_113930886?] What is the full street address of the place you lived before you lived at
-|displayif=noneExist("D_838725845","D_565515774","D_848348504","D_742177990","D_445867902","D_843508307","D_348049244","D_554901696","D_684217044","D_819429013","D_600319581")| 5th Address||displayif=or(equals(isNotDefined(D_838725845,""),false),or(equals(isNotDefined(D_565515774,""),false),or(equals(isNotDefined(D_848348504,""),false),or(equals(isNotDefined(D_742177990,""),false),or(equals(isNotDefined(D_445867902,""),false),or(equals(isNotDefined(D_843508307,""),false),or(equals(isNotDefined(D_348049244,""),false),or(equals(isNotDefined(D_554901696,""),false),or(equals(isNotDefined(D_684217044,""),false),or(equals(isNotDefined(D_819429013,""),false),equals(isNotDefined(D_600319581,""),false)))))))))))|{$D_838725845} {$D_565515774} {$D_848348504} {$D_742177990} {$D_445867902}{$D_843508307} {$D_348049244} {$D_554901696} {$D_684217044} {$D_819429013} {$D_600319581}|? Please only include addresses where you have lived for <b>at least two years</b>.
+|displayif=noneExist("D_838725845","D_565515774","D_848348504","D_742177990","D_445867902","D_843508307","D_348049244","D_554901696","D_684217044","D_819429013","D_600319581")| 5th Address||displayif=or(equals(isNotDefined(D_838725845,""),false),or(equals(isNotDefined(D_565515774,""),false),or(equals(isNotDefined(D_848348504,""),false),or(equals(isNotDefined(D_742177990,""),false),or(equals(isNotDefined(D_445867902,""),false),or(equals(isNotDefined(D_843508307,""),false),or(equals(isNotDefined(D_348049244,""),false),or(equals(isNotDefined(D_554901696,""),false),or(equals(isNotDefined(D_684217044,""),false),or(equals(isNotDefined(D_819429013,""),false),equals(isNotDefined(D_600319581,""),false)))))))))))|{$D_838725845} {$D_565515774} {$D_848348504} {$D_742177990} {$D_445867902} {$D_843508307} {$D_348049244} {$D_554901696} {$D_684217044} {$D_819429013} {$D_600319581}|? Please only include addresses where you have lived for <b>at least two years</b>.
 
 Street number |__|__|id=D_306805272 min=0 max=999999|
 Full Street name |__|id=D_819844467|
@@ -349,7 +286,7 @@ Country: |displayif=exists("D_882731998")| {$D_882731998}|
 
 
 
-[D_205492848?,displayif=and(or(isNotDefined(D_306805272,false),isNotDefined(D_819844467,false)),or(or(equals(isNotDefined(D_418702418,false),false),equals(isNotDefined(D_101219440,false),false)),or(equals(isNotDefined(D_127963610,false),false),equals(isNotDefined(D_882731998,false),false))))] Please provide the cross streets of the intersection closest to this address:
+[D_205492848?,displayif=displayif=noneExist("D_306805272","D_819844467") and someExist("D_218334768","D_394294282","D_803526907","D_941168091","D_418702418","D_101219440","D_127963610","D_882731998")] Please provide the cross streets of the intersection closest to this address:
 Full Street name #1 |__|id=D_756458580|
 Full Street name #2 |__|id=D_481599610|
 [178420302*] Don't know
@@ -357,7 +294,7 @@ Full Street name #2 |__|id=D_481599610|
 
 [HOMEADD4_6] Here is the information you gave us for this location:
 
-|displayif=noneExist("D_306805272","D_819844467","D_164233037","D_418702418","D_218334768","D_101219440","D_394294282","D_127963610","D_803526907","D_882731998","D_941168091")|6th Address:||displayif=or(equals(isNotDefined(D_306805272,""),false),or(equals(isNotDefined(D_819844467,""),false),or(equals(isNotDefined(D_164233037,""),false),or(equals(isNotDefined(D_418702418,""),false),or(equals(isNotDefined(D_218334768,""),false),or(equals(isNotDefined(D_101219440,""),false),or(equals(isNotDefined(D_394294282,""),false),or(equals(isNotDefined(D_127963610,""),false),or(equals(isNotDefined(D_803526907,""),false),or(equals(isNotDefined(D_882731998,""),false),equals(isNotDefined(D_941168091,""),false)))))))))))|{$D_306805272} {$D_819844467} {$D_164233037} {$D_418702418} {$D_218334768}{$D_101219440} {$D_394294282} {$D_127963610} {$D_803526907} {$D_882731998} {$D_941168091}|
+|displayif=noneExist("D_306805272","D_819844467","D_164233037","D_418702418","D_218334768","D_101219440","D_394294282","D_127963610","D_803526907","D_882731998","D_941168091")|6th Address:||displayif=or(equals(isNotDefined(D_306805272,""),false),or(equals(isNotDefined(D_819844467,""),false),or(equals(isNotDefined(D_164233037,""),false),or(equals(isNotDefined(D_418702418,""),false),or(equals(isNotDefined(D_218334768,""),false),or(equals(isNotDefined(D_101219440,""),false),or(equals(isNotDefined(D_394294282,""),false),or(equals(isNotDefined(D_127963610,""),false),or(equals(isNotDefined(D_803526907,""),false),or(equals(isNotDefined(D_882731998,""),false),equals(isNotDefined(D_941168091,""),false)))))))))))|{$D_306805272} {$D_819844467} {$D_164233037} {$D_418702418} {$D_218334768} {$D_101219440} {$D_394294282} {$D_127963610} {$D_803526907} {$D_882731998} {$D_941168091}|
 
 
 If this information is <b>not</b> correct, please click the “Back” button to edit your answers before moving on.
@@ -368,7 +305,7 @@ If this information is <b>not</b> correct, please click the “Back” button to
 (104430631) No -> D_869829679
 < #NR-> D_869829679 >
 
-[D_809728747?] What is the full street address of the place you lived before you lived at |displayif=noneExist("D_306805272","D_819844467","D_164233037","D_418702418","D_218334768","D_101219440","D_394294282","D_127963610","D_803526907","D_882731998","D_941168091")| 6th Address||displayif=or(equals(isNotDefined(D_306805272,""),false),or(equals(isNotDefined(D_819844467,""),false),or(equals(isNotDefined(D_164233037,""),false),or(equals(isNotDefined(D_418702418,""),false),or(equals(isNotDefined(D_218334768,""),false),or(equals(isNotDefined(D_101219440,""),false),or(equals(isNotDefined(D_394294282,""),false),or(equals(isNotDefined(D_127963610,""),false),or(equals(isNotDefined(D_803526907,""),false),or(equals(isNotDefined(D_882731998,""),false),equals(isNotDefined(D_941168091,""),false)))))))))))|{$D_306805272} {$D_819844467} {$D_164233037} {$D_418702418} {$D_218334768}{$D_101219440} {$D_394294282} {$D_127963610} {$D_803526907} {$D_882731998} {$D_941168091}|? Please only include addresses where you have lived for <b>at least two years</b>?.
+[D_809728747?] What is the full street address of the place you lived before you lived at |displayif=noneExist("D_306805272","D_819844467","D_164233037","D_418702418","D_218334768","D_101219440","D_394294282","D_127963610","D_803526907","D_882731998","D_941168091")| 6th Address||displayif=or(equals(isNotDefined(D_306805272,""),false),or(equals(isNotDefined(D_819844467,""),false),or(equals(isNotDefined(D_164233037,""),false),or(equals(isNotDefined(D_418702418,""),false),or(equals(isNotDefined(D_218334768,""),false),or(equals(isNotDefined(D_101219440,""),false),or(equals(isNotDefined(D_394294282,""),false),or(equals(isNotDefined(D_127963610,""),false),or(equals(isNotDefined(D_803526907,""),false),or(equals(isNotDefined(D_882731998,""),false),equals(isNotDefined(D_941168091,""),false)))))))))))|{$D_306805272} {$D_819844467} {$D_164233037} {$D_418702418} {$D_218334768} {$D_101219440} {$D_394294282} {$D_127963610} {$D_803526907} {$D_882731998} {$D_941168091}|? Please only include addresses where you have lived for <b>at least two years</b>?.
 
 Street number  |__|__|id=D_351559015 min=0 max=999999|
 Full Street name |__|id=D_903490632|
@@ -394,7 +331,7 @@ Country: |displayif=exists("D_915222355")| {$D_915222355}|
 
 
 
-[D_581231591?,displayif=and(or(isNotDefined(D_351559015,false),isNotDefined(D_903490632,false)),or(or(equals(isNotDefined(D_703944664,false),false),equals(isNotDefined(D_390463636,false),false)),or(equals(isNotDefined(D_256790385,false),false),equals(isNotDefined(D_915222355,false),false))))] Please provide the cross streets of the intersection closest to this address:
+[D_581231591?,displayif=noneExist("D_351559015","D_903490632") and someExist("D_476697171","D_605344820","D_814644814","D_627992821","D_703944664","D_390463636","D_256790385","D_915222355")] Please provide the cross streets of the intersection closest to this address:
 Full Street name #1 |__|id=D_732107715|
 Full Street name #2 |__|id=D_803219073|
 [178420302*] Don't know
@@ -402,7 +339,7 @@ Full Street name #2 |__|id=D_803219073|
 
 [HOMEADD4_7] Here is the information you gave us for this location:
 
-|displayif=noneExist("D_351559015","D_903490632","D_906119853","D_703944664","D_476697171","D_390463636","D_605344820","D_256790385","D_814644814","D_915222355","D_627992821")|7th Address:||displayif=or(equals(isNotDefined(D_351559015,""),false),or(equals(isNotDefined(D_903490632,""),false),or(equals(isNotDefined(D_906119853,""),false),or(equals(isNotDefined(D_703944664,""),false),or(equals(isNotDefined(D_476697171,""),false),or(equals(isNotDefined(D_390463636,""),false),or(equals(isNotDefined(D_605344820,""),false),or(equals(isNotDefined(D_256790385,""),false),or(equals(isNotDefined(D_814644814,""),false),or(equals(isNotDefined(D_915222355,""),false),equals(isNotDefined(D_627992821,""),false)))))))))))|{$D_351559015} {$D_903490632} {$D_906119853} {$D_703944664} {$D_476697171}{$D_390463636} {$D_605344820} {$D_256790385} {$D_814644814} {$D_915222355} {$D_627992821}|
+|displayif=noneExist("D_351559015","D_903490632","D_906119853","D_703944664","D_476697171","D_390463636","D_605344820","D_256790385","D_814644814","D_915222355","D_627992821")|7th Address:||displayif=or(equals(isNotDefined(D_351559015,""),false),or(equals(isNotDefined(D_903490632,""),false),or(equals(isNotDefined(D_906119853,""),false),or(equals(isNotDefined(D_703944664,""),false),or(equals(isNotDefined(D_476697171,""),false),or(equals(isNotDefined(D_390463636,""),false),or(equals(isNotDefined(D_605344820,""),false),or(equals(isNotDefined(D_256790385,""),false),or(equals(isNotDefined(D_814644814,""),false),or(equals(isNotDefined(D_915222355,""),false),equals(isNotDefined(D_627992821,""),false)))))))))))|{$D_351559015} {$D_903490632} {$D_906119853} {$D_703944664} {$D_476697171} {$D_390463636} {$D_605344820} {$D_256790385} {$D_814644814} {$D_915222355} {$D_627992821}|
 
 If this information is <b>not</b> correct, please click the “Back” button to edit your answers before moving on.
 < -> D_647612167 >
@@ -412,7 +349,7 @@ If this information is <b>not</b> correct, please click the “Back” button to
 (104430631) No -> D_869829679
 < #NR-> D_869829679 >
 
-[D_539057792?] What is the full street address of the place you lived before you lived at|displayif=noneExist("D_351559015","D_903490632","D_906119853","D_703944664","D_476697171","D_390463636","D_605344820","D_256790385","D_814644814","D_915222355","D_627992821")| 7th Address||displayif=or(equals(isNotDefined(D_351559015,""),false),or(equals(isNotDefined(D_903490632,""),false),or(equals(isNotDefined(D_906119853,""),false),or(equals(isNotDefined(D_703944664,""),false),or(equals(isNotDefined(D_476697171,""),false),or(equals(isNotDefined(D_390463636,""),false),or(equals(isNotDefined(D_605344820,""),false),or(equals(isNotDefined(D_256790385,""),false),or(equals(isNotDefined(D_814644814,""),false),or(equals(isNotDefined(D_915222355,""),false),equals(isNotDefined(D_627992821,""),false)))))))))))| {$D_351559015} {$D_903490632} {$D_906119853} {$D_703944664} {$D_476697171}{$D_390463636} {$D_605344820} {$D_256790385} {$D_814644814} {$D_915222355} {$D_627992821}|? Please only include addresses where you have lived for <b>at least two years</b>.
+[D_539057792?] What is the full street address of the place you lived before you lived at|displayif=noneExist("D_351559015","D_903490632","D_906119853","D_703944664","D_476697171","D_390463636","D_605344820","D_256790385","D_814644814","D_915222355","D_627992821")| 7th Address||displayif=or(equals(isNotDefined(D_351559015,""),false),or(equals(isNotDefined(D_903490632,""),false),or(equals(isNotDefined(D_906119853,""),false),or(equals(isNotDefined(D_703944664,""),false),or(equals(isNotDefined(D_476697171,""),false),or(equals(isNotDefined(D_390463636,""),false),or(equals(isNotDefined(D_605344820,""),false),or(equals(isNotDefined(D_256790385,""),false),or(equals(isNotDefined(D_814644814,""),false),or(equals(isNotDefined(D_915222355,""),false),equals(isNotDefined(D_627992821,""),false)))))))))))| {$D_351559015} {$D_903490632} {$D_906119853} {$D_703944664} {$D_476697171} {$D_390463636} {$D_605344820} {$D_256790385} {$D_814644814} {$D_915222355} {$D_627992821}|? Please only include addresses where you have lived for <b>at least two years</b>.
 
 Street number |__|__|id=D_893639464 min=0 max=999999|
 Full Street name |__|id=D_438475588|
@@ -438,7 +375,7 @@ Country: |displayif=exists("D_489019597")| {$D_489019597}|
 
 
 
-[D_123104885?,displayif=and(or(isNotDefined(D_893639464,false),isNotDefined(D_438475588,false)),or(or(equals(isNotDefined(D_744290061,false),false),equals(isNotDefined(D_516936572,false),false)),or(equals(isNotDefined(D_673034401,false),false),equals(isNotDefined(D_489019597,false),false))))] Please provide the cross streets of the intersection closest to this address:
+[D_123104885?,displayif=noneExist("D_893639464","D_438475588") and someExist("D_280877371","D_463064782","D_865310914","D_900377581","D_744290061","D_516936572","D_673034401","D_489019597")] Please provide the cross streets of the intersection closest to this address:
 Full Street name #1 |__|id=D_707276214|
 Full Street name #2 |__|id=D_462701424|
 [178420302*] Don't know
@@ -446,7 +383,7 @@ Full Street name #2 |__|id=D_462701424|
 
 [HOMEADD4_8] Here is the information you gave us for this location:
 
-|displayif=noneExist("D_893639464","D_438475588","D_194165243","D_744290061","D_280877371","D_516936572","D_463064782","D_673034401","D_865310914","D_489019597","D_900377581")|8th Address:||displayif=or(equals(isNotDefined(D_893639464,""),false),or(equals(isNotDefined(D_438475588,""),false),or(equals(isNotDefined(D_194165243,""),false),or(equals(isNotDefined(D_744290061,""),false),or(equals(isNotDefined(D_280877371,""),false),or(equals(isNotDefined(D_516936572,""),false),or(equals(isNotDefined(D_463064782,""),false),or(equals(isNotDefined(D_673034401,""),false),or(equals(isNotDefined(D_865310914,""),false),or(equals(isNotDefined(D_489019597,""),false),equals(isNotDefined(D_900377581,""),false)))))))))))|{$D_893639464} {$D_438475588} {$D_194165243} {$D_744290061} {$D_280877371}{$D_516936572} {$D_463064782} {$D_673034401} {$D_865310914} {$D_489019597} {$D_900377581}|
+|displayif=noneExist("D_893639464","D_438475588","D_194165243","D_744290061","D_280877371","D_516936572","D_463064782","D_673034401","D_865310914","D_489019597","D_900377581")|8th Address:||displayif=or(equals(isNotDefined(D_893639464,""),false),or(equals(isNotDefined(D_438475588,""),false),or(equals(isNotDefined(D_194165243,""),false),or(equals(isNotDefined(D_744290061,""),false),or(equals(isNotDefined(D_280877371,""),false),or(equals(isNotDefined(D_516936572,""),false),or(equals(isNotDefined(D_463064782,""),false),or(equals(isNotDefined(D_673034401,""),false),or(equals(isNotDefined(D_865310914,""),false),or(equals(isNotDefined(D_489019597,""),false),equals(isNotDefined(D_900377581,""),false)))))))))))|{$D_893639464} {$D_438475588} {$D_194165243} {$D_744290061} {$D_280877371} {$D_516936572} {$D_463064782} {$D_673034401} {$D_865310914} {$D_489019597} {$D_900377581}|
 
 If this information is <b>not</b> correct, please click the “Back” button to edit your answers before moving on.
 < -> D_532944666 >
@@ -456,7 +393,7 @@ If this information is <b>not</b> correct, please click the “Back” button to
 (104430631) No -> D_869829679
 < #NR-> D_869829679 >
 
-[D_537011756?] What is the full street address of the place you lived before you lived at|displayif=noneExist("D_893639464","D_438475588","D_194165243","D_744290061","D_280877371","D_516936572","D_463064782","D_673034401","D_865310914","D_489019597","D_900377581")| 8th Address||displayif=or(equals(isNotDefined(D_893639464,""),false),or(equals(isNotDefined(D_438475588,""),false),or(equals(isNotDefined(D_194165243,""),false),or(equals(isNotDefined(D_744290061,""),false),or(equals(isNotDefined(D_280877371,""),false),or(equals(isNotDefined(D_516936572,""),false),or(equals(isNotDefined(D_463064782,""),false),or(equals(isNotDefined(D_673034401,""),false),or(equals(isNotDefined(D_865310914,""),false),or(equals(isNotDefined(D_489019597,""),false),equals(isNotDefined(D_900377581,""),false)))))))))))| {$D_893639464} {$D_438475588} {$D_194165243} {$D_744290061} {$D_280877371}{$D_516936572} {$D_463064782} {$D_673034401} {$D_865310914} {$D_489019597} {$D_900377581}|? Please only include addresses where you have lived for <b>at least two years</b>.
+[D_537011756?] What is the full street address of the place you lived before you lived at|displayif=noneExist("D_893639464","D_438475588","D_194165243","D_744290061","D_280877371","D_516936572","D_463064782","D_673034401","D_865310914","D_489019597","D_900377581")| 8th Address||displayif=or(equals(isNotDefined(D_893639464,""),false),or(equals(isNotDefined(D_438475588,""),false),or(equals(isNotDefined(D_194165243,""),false),or(equals(isNotDefined(D_744290061,""),false),or(equals(isNotDefined(D_280877371,""),false),or(equals(isNotDefined(D_516936572,""),false),or(equals(isNotDefined(D_463064782,""),false),or(equals(isNotDefined(D_673034401,""),false),or(equals(isNotDefined(D_865310914,""),false),or(equals(isNotDefined(D_489019597,""),false),equals(isNotDefined(D_900377581,""),false)))))))))))| {$D_893639464} {$D_438475588} {$D_194165243} {$D_744290061} {$D_280877371} {$D_516936572} {$D_463064782} {$D_673034401} {$D_865310914} {$D_489019597} {$D_900377581}|? Please only include addresses where you have lived for <b>at least two years</b>.
 
 Street number |__|__|id=D_988266183 min=0 max=999999|
 Full Street name |__|id=D_709374950|
@@ -482,7 +419,7 @@ Country: |displayif=exists("D_202104231")| {$D_202104231}|
 
 
 
-[D_890661849?,displayif=and(or(isNotDefined(D_988266183,false),isNotDefined(D_709374950,false)),or(or(equals(isNotDefined(D_351559021,false),false),equals(isNotDefined(D_290370013,false),false)),or(equals(isNotDefined(D_453691095,false),false),equals(isNotDefined(D_202104231,false),false))))] Please provide the cross streets of the intersection closest to this address:
+[D_890661849?,displayif=noneExist("D_988266183","D_709374950") and someExist("D_548773158","D_487043303","D_659122266","D_388427546","D_351559021","D_290370013","D_453691095","D_202104231")] Please provide the cross streets of the intersection closest to this address:
 Full Street name #1 |__|id=D_174111872|
 Full Street name #2 |__|id=D_735022625|
 [178420302*] Don't know
@@ -490,7 +427,7 @@ Full Street name #2 |__|id=D_735022625|
 
 [HOMEADD4_9] Here is the information you gave us for this location:
 
-|displayif=noneExist("D_988266183","D_709374950","D_853931010","D_351559021","D_548773158","D_290370013","D_487043303","D_453691095","D_659122266","D_202104231","D_388427546")|9th Address:||displayif=or(equals(isNotDefined(D_988266183,""),false),or(equals(isNotDefined(D_709374950,""),false),or(equals(isNotDefined(D_853931010,""),false),or(equals(isNotDefined(D_351559021,""),false),or(equals(isNotDefined(D_548773158,""),false),or(equals(isNotDefined(D_290370013,""),false),or(equals(isNotDefined(D_487043303,""),false),or(equals(isNotDefined(D_453691095,""),false),or(equals(isNotDefined(D_659122266,""),false),or(equals(isNotDefined(D_202104231,""),false),equals(isNotDefined(D_388427546,""),false)))))))))))|{$D_988266183} {$D_709374950} {$D_853931010} {$D_351559021} {$D_548773158}{$D_290370013} {$D_487043303} {$D_453691095} {$D_659122266} {$D_202104231} {$D_388427546}|
+|displayif=noneExist("D_988266183","D_709374950","D_853931010","D_351559021","D_548773158","D_290370013","D_487043303","D_453691095","D_659122266","D_202104231","D_388427546")|9th Address:||displayif=or(equals(isNotDefined(D_988266183,""),false),or(equals(isNotDefined(D_709374950,""),false),or(equals(isNotDefined(D_853931010,""),false),or(equals(isNotDefined(D_351559021,""),false),or(equals(isNotDefined(D_548773158,""),false),or(equals(isNotDefined(D_290370013,""),false),or(equals(isNotDefined(D_487043303,""),false),or(equals(isNotDefined(D_453691095,""),false),or(equals(isNotDefined(D_659122266,""),false),or(equals(isNotDefined(D_202104231,""),false),equals(isNotDefined(D_388427546,""),false)))))))))))|{$D_988266183} {$D_709374950} {$D_853931010} {$D_351559021} {$D_548773158} {$D_290370013} {$D_487043303} {$D_453691095} {$D_659122266} {$D_202104231} {$D_388427546}|
 
 If this information is <b>not</b> correct, please click the “Back” button to edit your answers before moving on.
 < -> D_548863580 >
@@ -500,7 +437,7 @@ If this information is <b>not</b> correct, please click the “Back” button to
 (104430631) No -> D_869829679
 < #NR-> D_869829679 >
 
-[D_171937884?] What is the full street address of the place you lived before you lived at |displayif=noneExist("D_988266183","D_709374950","D_853931010","D_351559021","D_548773158","D_290370013","D_487043303","D_453691095","D_659122266","D_202104231","D_388427546")| 9th Address||displayif=or(equals(isNotDefined(D_988266183,""),false),or(equals(isNotDefined(D_709374950,""),false),or(equals(isNotDefined(D_853931010,""),false),or(equals(isNotDefined(D_351559021,""),false),or(equals(isNotDefined(D_548773158,""),false),or(equals(isNotDefined(D_290370013,""),false),or(equals(isNotDefined(D_487043303,""),false),or(equals(isNotDefined(D_453691095,""),false),or(equals(isNotDefined(D_659122266,""),false),or(equals(isNotDefined(D_202104231,""),false),equals(isNotDefined(D_388427546,""),false)))))))))))| {$D_988266183} {$D_709374950} {$D_853931010} {$D_351559021} {$D_548773158}{$D_290370013} {$D_487043303} {$D_453691095} {$D_659122266} {$D_202104231} {$D_388427546}|? Please only include addresses where you have lived for <b>at least two years</b>.
+[D_171937884?] What is the full street address of the place you lived before you lived at |displayif=noneExist("D_988266183","D_709374950","D_853931010","D_351559021","D_548773158","D_290370013","D_487043303","D_453691095","D_659122266","D_202104231","D_388427546")| 9th Address||displayif=or(equals(isNotDefined(D_988266183,""),false),or(equals(isNotDefined(D_709374950,""),false),or(equals(isNotDefined(D_853931010,""),false),or(equals(isNotDefined(D_351559021,""),false),or(equals(isNotDefined(D_548773158,""),false),or(equals(isNotDefined(D_290370013,""),false),or(equals(isNotDefined(D_487043303,""),false),or(equals(isNotDefined(D_453691095,""),false),or(equals(isNotDefined(D_659122266,""),false),or(equals(isNotDefined(D_202104231,""),false),equals(isNotDefined(D_388427546,""),false)))))))))))| {$D_988266183} {$D_709374950} {$D_853931010} {$D_351559021} {$D_548773158} {$D_290370013} {$D_487043303} {$D_453691095} {$D_659122266} {$D_202104231} {$D_388427546}|? Please only include addresses where you have lived for <b>at least two years</b>.
 
 Street number |__|__|id=D_264707783 min=0 max=999999|
 Full Street name |__|id=D_666011940|
@@ -526,7 +463,7 @@ Country: |displayif=exists("D_886247195")| {$D_886247195}|
 
 
 
-[D_902193418?,displayif=and(or(isNotDefined(D_264707783,false),isNotDefined(D_666011940,false)),or(or(equals(isNotDefined(D_282089547,false),false),equals(isNotDefined(D_612617245,false),false)),or(equals(isNotDefined(D_674024553,false),false),equals(isNotDefined(D_886247195,false),false))))] Please provide the cross streets of the intersection closest to this address:
+[D_902193418?,displayif=noneExist("D_264707783","D_666011940") and someExist("D_891573875","D_862255177","D_972332937","D_429200007","D_282089547","D_612617245","D_674024553","D_886247195")] Please provide the cross streets of the intersection closest to this address:
 Full Street name #1 |__|id=D_633590687|
 Full Street name #2 |__|id=D_857265979|
 [178420302*] Don't know
@@ -534,7 +471,7 @@ Full Street name #2 |__|id=D_857265979|
 
 [HOMEADD4_10] Here is the information you gave us for this location:
 
-|displayif=noneExist("D_264707783","D_666011940","D_981594981","D_282089547","D_891573875","D_612617245","D_862255177","D_674024553","D_972332937","D_886247195","D_429200007")|10th Address||displayif=or(equals(isNotDefined(D_264707783,""),false),or(equals(isNotDefined(D_666011940,""),false),or(equals(isNotDefined(D_981594981,""),false),or(equals(isNotDefined(D_282089547,""),false),or(equals(isNotDefined(D_891573875,""),false),or(equals(isNotDefined(D_612617245,""),false),or(equals(isNotDefined(D_862255177,""),false),or(equals(isNotDefined(D_674024553,""),false),or(equals(isNotDefined(D_972332937,""),false),or(equals(isNotDefined(D_886247195,""),false),equals(isNotDefined(D_429200007,""),false)))))))))))|{$D_264707783} {$D_666011940} {$D_981594981} {$D_282089547} {$D_891573875}{$D_612617245} {$D_862255177} {$D_674024553} {$D_972332937} {$D_886247195} {$D_429200007}|
+|displayif=noneExist("D_264707783","D_666011940","D_981594981","D_282089547","D_891573875","D_612617245","D_862255177","D_674024553","D_972332937","D_886247195","D_429200007")|10th Address||displayif=or(equals(isNotDefined(D_264707783,""),false),or(equals(isNotDefined(D_666011940,""),false),or(equals(isNotDefined(D_981594981,""),false),or(equals(isNotDefined(D_282089547,""),false),or(equals(isNotDefined(D_891573875,""),false),or(equals(isNotDefined(D_612617245,""),false),or(equals(isNotDefined(D_862255177,""),false),or(equals(isNotDefined(D_674024553,""),false),or(equals(isNotDefined(D_972332937,""),false),or(equals(isNotDefined(D_886247195,""),false),equals(isNotDefined(D_429200007,""),false)))))))))))|{$D_264707783} {$D_666011940} {$D_981594981} {$D_282089547} {$D_891573875} {$D_612617245} {$D_862255177} {$D_674024553} {$D_972332937} {$D_886247195} {$D_429200007}|
 
 If this information is <b>not</b> correct, please click the “Back” button to edit your answers before moving on.
 < -> D_124320444 >
@@ -544,7 +481,7 @@ If this information is <b>not</b> correct, please click the “Back” button to
 (104430631) No -> D_869829679
 < #NR-> D_869829679 >
 
-[D_828766803?] What is the full street address of the place you lived before you lived at|displayif=noneExist("D_264707783","D_666011940","D_981594981","D_282089547","D_891573875","D_612617245","D_862255177","D_674024553","D_972332937","D_886247195","D_429200007")| 10th Address:||displayif=or(equals(isNotDefined(D_264707783,""),false),or(equals(isNotDefined(D_666011940,""),false),or(equals(isNotDefined(D_981594981,""),false),or(equals(isNotDefined(D_282089547,""),false),or(equals(isNotDefined(D_891573875,""),false),or(equals(isNotDefined(D_612617245,""),false),or(equals(isNotDefined(D_862255177,""),false),or(equals(isNotDefined(D_674024553,""),false),or(equals(isNotDefined(D_972332937,""),false),or(equals(isNotDefined(D_886247195,""),false),equals(isNotDefined(D_429200007,""),false)))))))))))| {$D_264707783} {$D_666011940} {$D_981594981} {$D_282089547} {$D_891573875}{$D_612617245} {$D_862255177} {$D_674024553} {$D_972332937} {$D_886247195} {$D_429200007}|? Please only include addresses where you have lived for <b>at least two years</b>.
+[D_828766803?] What is the full street address of the place you lived before you lived at|displayif=noneExist("D_264707783","D_666011940","D_981594981","D_282089547","D_891573875","D_612617245","D_862255177","D_674024553","D_972332937","D_886247195","D_429200007")| 10th Address:||displayif=or(equals(isNotDefined(D_264707783,""),false),or(equals(isNotDefined(D_666011940,""),false),or(equals(isNotDefined(D_981594981,""),false),or(equals(isNotDefined(D_282089547,""),false),or(equals(isNotDefined(D_891573875,""),false),or(equals(isNotDefined(D_612617245,""),false),or(equals(isNotDefined(D_862255177,""),false),or(equals(isNotDefined(D_674024553,""),false),or(equals(isNotDefined(D_972332937,""),false),or(equals(isNotDefined(D_886247195,""),false),equals(isNotDefined(D_429200007,""),false)))))))))))| {$D_264707783} {$D_666011940} {$D_981594981} {$D_282089547} {$D_891573875} {$D_612617245} {$D_862255177} {$D_674024553} {$D_972332937} {$D_886247195} {$D_429200007}|? Please only include addresses where you have lived for <b>at least two years</b>.
 
 Street number  |__|__|id=D_622968789 min=0 max=999999|
 Full Street name |__|id=D_696874548|
@@ -570,7 +507,7 @@ Country: |displayif=exists("D_780298998")| {$D_780298998}|
 
 
 
-[D_440597740?,displayif=and(or(isNotDefined(D_622968789,false),isNotDefined(D_696874548,false)),or(or(equals(isNotDefined(D_309461541,false),false),equals(isNotDefined(D_789637860,false),false)),or(equals(isNotDefined(D_795253129,false),false),equals(isNotDefined(D_780298998,false),false))))] Please provide the cross streets of intersection closest to this address:
+[D_440597740?,displayif=noneExist("D_622968789","D_696874548") and someExist("D_706592013","D_585473282","D_814137809","D_876521406","D_309461541","D_789637860","D_795253129","D_780298998")] Please provide the cross streets of intersection closest to this address:
 Full Street name #1 |__|id=D_573998459|
 Full Street name #2 |__|id=D_760197341|
 [178420302*] Don't know
@@ -578,7 +515,7 @@ Full Street name #2 |__|id=D_760197341|
 
 [HOMEADD4_11] Here is the information you gave us for this location:
 
-|displayif=noneExist("D_622968789","D_696874548","D_450630128","D_309461541","D_706592013","D_789637860","D_585473282","D_795253129","D_814137809","D_780298998","D_876521406")|11th Address:||displayif=or(equals(isNotDefined(D_622968789,""),false),or(equals(isNotDefined(D_696874548,""),false),or(equals(isNotDefined(D_450630128,""),false),or(equals(isNotDefined(D_309461541,""),false),or(equals(isNotDefined(D_706592013,""),false),or(equals(isNotDefined(D_789637860,""),false),or(equals(isNotDefined(D_585473282,""),false),or(equals(isNotDefined(D_795253129,""),false),or(equals(isNotDefined(D_814137809,""),false),or(equals(isNotDefined(D_780298998,""),false),equals(isNotDefined(D_876521406,""),false)))))))))))|{$D_622968789} {$D_696874548} {$D_450630128} {$D_309461541} {$D_706592013}{$D_789637860} {$D_585473282} {$D_795253129} {$D_814137809} {$D_780298998} {$D_876521406}|
+|displayif=noneExist("D_622968789","D_696874548","D_450630128","D_309461541","D_706592013","D_789637860","D_585473282","D_795253129","D_814137809","D_780298998","D_876521406")|11th Address:||displayif=or(equals(isNotDefined(D_622968789,""),false),or(equals(isNotDefined(D_696874548,""),false),or(equals(isNotDefined(D_450630128,""),false),or(equals(isNotDefined(D_309461541,""),false),or(equals(isNotDefined(D_706592013,""),false),or(equals(isNotDefined(D_789637860,""),false),or(equals(isNotDefined(D_585473282,""),false),or(equals(isNotDefined(D_795253129,""),false),or(equals(isNotDefined(D_814137809,""),false),or(equals(isNotDefined(D_780298998,""),false),equals(isNotDefined(D_876521406,""),false)))))))))))|{$D_622968789} {$D_696874548} {$D_450630128} {$D_309461541} {$D_706592013} {$D_789637860} {$D_585473282} {$D_795253129} {$D_814137809} {$D_780298998} {$D_876521406}|
 
 If this information is <b>not</b> correct, please click the “Back” button to edit your answers before moving on.
 < -> D_869829679 >
@@ -762,6 +699,7 @@ Year moved out |__|__|__|__|id=D_943813942 minval=difference(difference(#current
 [678602069*] I still live here
 
 [D_790359238?,displayif=or(equals(D_548863580,353358909),or(equals(isNotDefined(D_264707783,""),false),or(equals(isNotDefined(D_666011940,""),false),or(equals(isNotDefined(D_981594981,""),false),or(equals(isNotDefined(D_282089547,""),false),or(equals(isNotDefined(D_891573875,""),false),or(equals(isNotDefined(D_612617245,""),false),or(equals(isNotDefined(D_862255177,""),false),or(equals(isNotDefined(D_674024553,""),false),or(equals(isNotDefined(D_972332937,""),false),or(equals(isNotDefined(D_886247195,""),false),equals(isNotDefined(D_429200007,""),false))))))))))))] What year did you move into |displayif=noneExist("D_264707783","D_666011940","D_981594981","D_282089547","D_891573875","D_612617245","D_862255177","D_674024553","D_972332937","D_886247195","D_429200007")|10th   Address||displayif=or(equals(isNotDefined(D_264707783,""),false),or(equals(isNotDefined(D_666011940,""),false),or(equals(isNotDefined(D_981594981,""),false),or(equals(isNotDefined(D_282089547,""),false),or(equals(isNotDefined(D_891573875,""),false),or(equals(isNotDefined(D_612617245,""),false),or(equals(isNotDefined(D_862255177,""),false),or(equals(isNotDefined(D_674024553,""),false),or(equals(isNotDefined(D_972332937,""),false),or(equals(isNotDefined(D_886247195,""),false),equals(isNotDefined(D_429200007,""),false)))))))))))|: {$D_264707783} {$D_666011940} {$D_981594981} {$D_282089547} {$D_891573875} {$D_612617245} {$D_862255177} {$D_674024553} {$D_972332937} {$D_886247195} {$D_429200007}|?
+
 Year moved in |__|__|__|__|minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear|
 
 < #NR -> D_812161236>
@@ -1163,7 +1101,7 @@ Country: |displayif=exists("D_477319994")| {$D_477319994}|
 [178420302*] Don't know
 
 
-[D_200086909?,displayif=and(or(isNotDefined(D_234037089,false),isNotDefined(D_416862112,false)),or(or(equals(isNotDefined(D_556576930,false),false),equals(isNotDefined(D_304326324,false),false)),or(equals(isNotDefined(D_812433386,false),false),equals(isNotDefined(D_477319994,false),false))))] Please provide the cross streets of the intersection closest to this address:
+[D_200086909?,displayif=noneExist("D_234037089","D_416862112") and someExist("D_416620941","D_915859406","D_354833686","D_661148931","D_556576930","D_304326324","D_812433386","D_477319994")] Please provide the cross streets of the intersection closest to this address:
 
 Full Street name #1 |__|id=D_351319555|
 Full Street name #2 |__|id=D_154163153|
@@ -1172,7 +1110,7 @@ Full Street name #2 |__|id=D_154163153|
 
 [SEASADD4_1] Here is the information you gave us for this location:
 
-|displayif=noneExist("D_234037089","D_416862112","D_671149035","D_556576930","D_416620941","D_304326324","D_915859406","D_812433386","D_354833686","D_477319994","D_661148931")|1st Address||displayif=or(equals(isNotDefined(D_234037089,""),false),or(equals(isNotDefined(D_416862112,""),false),or(equals(isNotDefined(D_671149035,""),false),or(equals(isNotDefined(D_556576930,""),false),or(equals(isNotDefined(D_416620941,""),false),or(equals(isNotDefined(D_304326324,""),false),or(equals(isNotDefined(D_915859406,""),false),or(equals(isNotDefined(D_812433386,""),false),or(equals(isNotDefined(D_354833686,""),false),or(equals(isNotDefined(D_477319994,""),false),equals(isNotDefined(D_661148931,""),false)))))))))))| {$D_234037089} {$D_416862112} {$D_671149035} {$D_556576930} {$D_416620941}{$D_304326324} {$D_915859406} {$D_812433386} {$D_354833686} {$D_477319994} {$D_661148931}|
+|displayif=noneExist("D_234037089","D_416862112","D_671149035","D_556576930","D_416620941","D_304326324","D_915859406","D_812433386","D_354833686","D_477319994","D_661148931")|1st Address||displayif=or(equals(isNotDefined(D_234037089,""),false),or(equals(isNotDefined(D_416862112,""),false),or(equals(isNotDefined(D_671149035,""),false),or(equals(isNotDefined(D_556576930,""),false),or(equals(isNotDefined(D_416620941,""),false),or(equals(isNotDefined(D_304326324,""),false),or(equals(isNotDefined(D_915859406,""),false),or(equals(isNotDefined(D_812433386,""),false),or(equals(isNotDefined(D_354833686,""),false),or(equals(isNotDefined(D_477319994,""),false),equals(isNotDefined(D_661148931,""),false)))))))))))| {$D_234037089} {$D_416862112} {$D_671149035} {$D_556576930} {$D_416620941} {$D_304326324} {$D_915859406} {$D_812433386} {$D_354833686} {$D_477319994}  {$D_661148931}|
 
 If this information is <b>not</b> correct, please click the “Back” button to edit your answers before moving on.
 < -> D_576956950>
@@ -1206,7 +1144,7 @@ Country: |displayif=exists("D_440796912")| {$D_440796912}|
 [178420302*] Don't know
 
 
-[D_509526051?,displayif=and(or(isNotDefined(D_476938134,false),isNotDefined(D_561635035,false)),or(or(equals(isNotDefined(D_715370929,false),false),equals(isNotDefined(D_109991481,false),false)),or(equals(isNotDefined(D_494380686,false),false),equals(isNotDefined(D_440796912,false),false))))] Please provide the cross streets of the intersection closest to this address:
+[D_509526051?,displayif=noneExist("D_476938134","D_561635035") and someExist("D_726739712","D_149514187","D_845446624","D_677739650","D_715370929","D_109991481","D_494380686","D_440796912")] Please provide the cross streets of the intersection closest to this address:
 
 Full Street name #1 |__|id=D_542763783|
 Full Street name #2 |__|id=D_351069956|
@@ -1215,7 +1153,7 @@ Full Street name #2 |__|id=D_351069956|
 
 [SEASADD4_2] Here is the information you gave us for this location:
 
-|displayif=noneExist("D_476938134","D_561635035","D_134210521","D_715370929","D_726739712","D_109991481","D_149514187","D_494380686","D_845446624","D_440796912","D_677739650")|2nd  Address||displayif=or(equals(isNotDefined(D_476938134,""),false),or(equals(isNotDefined(D_561635035,""),false),or(equals(isNotDefined(D_134210521,""),false),or(equals(isNotDefined(D_715370929,""),false),or(equals(isNotDefined(D_726739712,""),false),or(equals(isNotDefined(D_109991481,""),false),or(equals(isNotDefined(D_149514187,""),false),or(equals(isNotDefined(D_494380686,""),false),or(equals(isNotDefined(D_845446624,""),false),or(equals(isNotDefined(D_440796912,""),false),equals(isNotDefined(D_677739650,""),false)))))))))))| {$D_476938134} {$D_561635035} {$D_134210521} {$D_715370929} {$D_726739712}{$D_109991481} {$D_149514187} {$D_494380686} {$D_845446624} {$D_440796912} {$D_677739650}|
+|displayif=noneExist("D_476938134","D_561635035","D_134210521","D_715370929","D_726739712","D_109991481","D_149514187","D_494380686","D_845446624","D_440796912","D_677739650")|2nd  Address||displayif=or(equals(isNotDefined(D_476938134,""),false),or(equals(isNotDefined(D_561635035,""),false),or(equals(isNotDefined(D_134210521,""),false),or(equals(isNotDefined(D_715370929,""),false),or(equals(isNotDefined(D_726739712,""),false),or(equals(isNotDefined(D_109991481,""),false),or(equals(isNotDefined(D_149514187,""),false),or(equals(isNotDefined(D_494380686,""),false),or(equals(isNotDefined(D_845446624,""),false),or(equals(isNotDefined(D_440796912,""),false),equals(isNotDefined(D_677739650,""),false)))))))))))| {$D_476938134} {$D_561635035} {$D_134210521} {$D_715370929} {$D_726739712} {$D_109991481} {$D_149514187} {$D_494380686}  {$D_845446624} {$D_440796912} {$D_677739650}|
 
 If this information is <b>not</b> correct, please click the “Back” button to edit your answers before moving on.
 < -> D_463952618 >
@@ -1251,7 +1189,7 @@ Country: |displayif=exists("D_733365745")| {$D_733365745}|
 
 
 
-[D_370121390?,displayif=and(or(isNotDefined(D_119483547,false),isNotDefined(D_194338739,false)),or(or(equals(isNotDefined(D_113352592,false),false),equals(isNotDefined(D_768114466,false),false)),or(equals(isNotDefined(D_938180781,false),false),equals(isNotDefined(D_733365745,false),false))))] Please provide the cross streets of the intersection closest to this address:
+[D_370121390?,displayif=noneExist("D_119483547","D_194338739") and someExist("D_148846635","D_192663941","D_245044197","D_261025083","D_113352592","D_768114466","D_938180781","D_733365745")] Please provide the cross streets of the intersection closest to this address:
 
 Full Street name #1 |__|id=D_580185896|
 Full Street name #2 |__|id=D_599607007|
@@ -1260,7 +1198,7 @@ Full Street name #2 |__|id=D_599607007|
 
 [SEASADD4_3] Here is the information you gave us for this location:
 
-|displayif=noneExist("D_119483547","D_194338739","D_387077376","D_113352592","D_148846635","D_768114466","D_192663941","D_938180781","D_245044197","D_733365745","D_261025083")|3rd Address||displayif=or(equals(isNotDefined(D_119483547,""),false),or(equals(isNotDefined(D_194338739,""),false),or(equals(isNotDefined(D_387077376,""),false),or(equals(isNotDefined(D_113352592,""),false),or(equals(isNotDefined(D_148846635,""),false),or(equals(isNotDefined(D_768114466,""),false),or(equals(isNotDefined(D_192663941,""),false),or(equals(isNotDefined(D_938180781,""),false),or(equals(isNotDefined(D_245044197,""),false),or(equals(isNotDefined(D_733365745,""),false),equals(isNotDefined(D_261025083,""),false)))))))))))| {$D_119483547} {$D_194338739} {$D_387077376} {$D_113352592} {$D_148846635}{$D_768114466} {$D_192663941} {$D_938180781} {$D_245044197} {$D_733365745} {$D_261025083}|
+|displayif=noneExist("D_119483547","D_194338739","D_387077376","D_113352592","D_148846635","D_768114466","D_192663941","D_938180781","D_245044197","D_733365745","D_261025083")|3rd Address||displayif=or(equals(isNotDefined(D_119483547,""),false),or(equals(isNotDefined(D_194338739,""),false),or(equals(isNotDefined(D_387077376,""),false),or(equals(isNotDefined(D_113352592,""),false),or(equals(isNotDefined(D_148846635,""),false),or(equals(isNotDefined(D_768114466,""),false),or(equals(isNotDefined(D_192663941,""),false),or(equals(isNotDefined(D_938180781,""),false),or(equals(isNotDefined(D_245044197,""),false),or(equals(isNotDefined(D_733365745,""),false),equals(isNotDefined(D_261025083,""),false)))))))))))| {$D_119483547} {$D_194338739} {$D_387077376} {$D_113352592} {$D_148846635} {$D_768114466} {$D_192663941} {$D_938180781}  {$D_245044197} {$D_733365745} {$D_261025083}|
 
 If this information is <b>not</b> correct, please click the “Back” button to edit your answers before moving on.
 < -> D_959488634 >
@@ -1296,7 +1234,7 @@ Country: |displayif=exists("D_497260033")| {$D_497260033}|
 
 
 
-[D_192184336?,displayif=and(or(isNotDefined(D_785588454,false),isNotDefined(D_419659205,false)),or(or(equals(isNotDefined(D_733619119,false),false),equals(isNotDefined(D_843680322,false),false)),or(equals(isNotDefined(D_716343828,false),false),equals(isNotDefined(D_497260033,false),false))))] Please provide the cross streets of the intersection closest to this address:
+[D_192184336?,displayif=noneExist("D_785588454","D_419659205") and someExist("D_571926996","D_645589113","D_701056236","D_398249766","D_733619119","D_843680322","D_716343828","D_497260033")] Please provide the cross streets of the intersection closest to this address:
 
 Full Street name #1 |__|id=D_117544868|
 Full Street name #2 |__|id=D_868650023|
@@ -1305,7 +1243,7 @@ Full Street name #2 |__|id=D_868650023|
 
 [SEASADD4_4] Here is the information you gave us for this location:
 
-|displayif=noneExist("D_785588454","D_419659205","D_653181757","D_733619119","D_571926996","D_843680322","D_645589113","D_716343828","D_701056236","D_497260033","D_398249766")|4th  Address||displayif=or(equals(isNotDefined(D_785588454,""),false),or(equals(isNotDefined(D_419659205,""),false),or(equals(isNotDefined(D_653181757,""),false),or(equals(isNotDefined(D_733619119,""),false),or(equals(isNotDefined(D_571926996,""),false),or(equals(isNotDefined(D_843680322,""),false),or(equals(isNotDefined(D_645589113,""),false),or(equals(isNotDefined(D_716343828,""),false),or(equals(isNotDefined(D_701056236,""),false),or(equals(isNotDefined(D_497260033,""),false),equals(isNotDefined(D_398249766,""),false)))))))))))| {$D_785588454} {$D_419659205} {$D_653181757} {$D_733619119} {$D_571926996}{$D_843680322} {$D_645589113} {$D_716343828} {$D_701056236} {$D_497260033} {$D_398249766}|
+|displayif=noneExist("D_785588454","D_419659205","D_653181757","D_733619119","D_571926996","D_843680322","D_645589113","D_716343828","D_701056236","D_497260033","D_398249766")|4th  Address||displayif=or(equals(isNotDefined(D_785588454,""),false),or(equals(isNotDefined(D_419659205,""),false),or(equals(isNotDefined(D_653181757,""),false),or(equals(isNotDefined(D_733619119,""),false),or(equals(isNotDefined(D_571926996,""),false),or(equals(isNotDefined(D_843680322,""),false),or(equals(isNotDefined(D_645589113,""),false),or(equals(isNotDefined(D_716343828,""),false),or(equals(isNotDefined(D_701056236,""),false),or(equals(isNotDefined(D_497260033,""),false),equals(isNotDefined(D_398249766,""),false)))))))))))| {$D_785588454} {$D_419659205} {$D_653181757} {$D_733619119} {$D_571926996} {$D_843680322} {$D_645589113} {$D_716343828}  {$D_701056236} {$D_497260033} {$D_398249766}|
 
 If this information is <b>not</b> correct, please click the “Back” button to edit your answers before moving on.
 < -> D_696017690 >
@@ -1341,7 +1279,7 @@ Country: |displayif=exists("D_452103273")| {$D_452103273}|
 
 
 
-[D_763354979?,displayif=and(or(isNotDefined(D_275244758,false),isNotDefined(D_688216428,false)),or(or(equals(isNotDefined(D_570311888,false),false),equals(isNotDefined(D_557852952,false),false)),or(equals(isNotDefined(D_970217879,false),false),equals(isNotDefined(D_452103273,false),false))))] Please provide the cross streets of the intersection closest to this address:
+[D_763354979?,displayif=displayif=noneExist("D_275244758","D_688216428") and someExist("D_101804763","D_502068619","D_787391994","D_540340377","D_570311888","D_557852952","D_970217879","D_452103273")] Please provide the cross streets of the intersection closest to this address:
 
 Full Street name #1 |__|id=D_677922318|
 Full Street name #2 |__|id=D_424347938|
@@ -1350,7 +1288,7 @@ Full Street name #2 |__|id=D_424347938|
 
 [SEASADD4_5] Here is the information you gave us for this location:
 
-|displayif=noneExist("D_275244758","D_688216428","D_843674851","D_570311888","D_101804763","D_557852952","D_502068619","D_970217879","D_787391994","D_452103273","D_540340377")|5th  Address||displayif=or(equals(isNotDefined(D_275244758,""),false),or(equals(isNotDefined(D_688216428,""),false),or(equals(isNotDefined(D_843674851,""),false),or(equals(isNotDefined(D_570311888,""),false),or(equals(isNotDefined(D_101804763,""),false),or(equals(isNotDefined(D_557852952,""),false),or(equals(isNotDefined(D_502068619,""),false),or(equals(isNotDefined(D_970217879,""),false),or(equals(isNotDefined(D_787391994,""),false),or(equals(isNotDefined(D_452103273,""),false),equals(isNotDefined(D_540340377,""),false)))))))))))| {$D_275244758} {$D_688216428} {$D_843674851} {$D_570311888} {$D_101804763}{$D_557852952} {$D_502068619} {$D_970217879} {$D_787391994} {$D_452103273} {$D_540340377}|
+|displayif=noneExist("D_275244758","D_688216428","D_843674851","D_570311888","D_101804763","D_557852952","D_502068619","D_970217879","D_787391994","D_452103273","D_540340377")|5th  Address||displayif=or(equals(isNotDefined(D_275244758,""),false),or(equals(isNotDefined(D_688216428,""),false),or(equals(isNotDefined(D_843674851,""),false),or(equals(isNotDefined(D_570311888,""),false),or(equals(isNotDefined(D_101804763,""),false),or(equals(isNotDefined(D_557852952,""),false),or(equals(isNotDefined(D_502068619,""),false),or(equals(isNotDefined(D_970217879,""),false),or(equals(isNotDefined(D_787391994,""),false),or(equals(isNotDefined(D_452103273,""),false),equals(isNotDefined(D_540340377,""),false)))))))))))| {$D_275244758} {$D_688216428} {$D_843674851} {$D_570311888} {$D_101804763} {$D_557852952} {$D_502068619} {$D_970217879}  {$D_787391994} {$D_452103273} {$D_540340377}|
 
 If this information is <b>not</b> correct, please click the “Back” button to edit your answers before moving on.
 < -> D_424272506 >
@@ -1386,7 +1324,7 @@ Country: |displayif=exists("D_932828568")| {$D_932828568}|
 
 
 
-[D_355179190?,displayif=and(or(isNotDefined(D_666445636,false),isNotDefined(D_398622449,false)),or(or(equals(isNotDefined(D_888514303,false),false),equals(isNotDefined(D_905002640,false),false)),or(equals(isNotDefined(D_687407917,false),false),equals(isNotDefined(D_932828568,false),false))))] Please provide the cross streets of the intersection closest to this address:
+[D_355179190?,displayif=noneExist("D_666445636","D_398622449") and someExist("D_686611963","D_900950849","D_103689435","D_659457234","D_888514303","D_905002640","D_687407917","D_932828568")] Please provide the cross streets of the intersection closest to this address:
 
 Full Street name #1 |__|id=D_115195973|
 Full Street name #2 |__|id=D_706861475|
@@ -1395,7 +1333,7 @@ Full Street name #2 |__|id=D_706861475|
 
 [SEASADD4_6] Here is the information you gave us for this location:
 
-|displayif=noneExist("D_666445636","D_398622449","D_521925072","D_888514303","D_686611963","D_905002640","D_900950849","D_687407917","D_103689435","D_932828568","D_659457234")|6th  Address||displayif=or(equals(isNotDefined(D_666445636,""),false),or(equals(isNotDefined(D_398622449,""),false),or(equals(isNotDefined(D_521925072,""),false),or(equals(isNotDefined(D_888514303,""),false),or(equals(isNotDefined(D_686611963,""),false),or(equals(isNotDefined(D_905002640,""),false),or(equals(isNotDefined(D_900950849,""),false),or(equals(isNotDefined(D_687407917,""),false),or(equals(isNotDefined(D_103689435,""),false),or(equals(isNotDefined(D_932828568,""),false),equals(isNotDefined(D_659457234,""),false)))))))))))| {$D_666445636} {$D_398622449} {$D_521925072} {$D_888514303} {$D_686611963}{$D_905002640} {$D_900950849} {$D_687407917} {$D_103689435} {$D_932828568} {$D_659457234}|
+|displayif=noneExist("D_666445636","D_398622449","D_521925072","D_888514303","D_686611963","D_905002640","D_900950849","D_687407917","D_103689435","D_932828568","D_659457234")|6th  Address||displayif=or(equals(isNotDefined(D_666445636,""),false),or(equals(isNotDefined(D_398622449,""),false),or(equals(isNotDefined(D_521925072,""),false),or(equals(isNotDefined(D_888514303,""),false),or(equals(isNotDefined(D_686611963,""),false),or(equals(isNotDefined(D_905002640,""),false),or(equals(isNotDefined(D_900950849,""),false),or(equals(isNotDefined(D_687407917,""),false),or(equals(isNotDefined(D_103689435,""),false),or(equals(isNotDefined(D_932828568,""),false),equals(isNotDefined(D_659457234,""),false)))))))))))| {$D_666445636} {$D_398622449} {$D_521925072} {$D_888514303} {$D_686611963} {$D_905002640} {$D_900950849} {$D_687407917}  {$D_103689435} {$D_932828568} {$D_659457234}|
 
 If this information is <b>not</b> correct, please click the “Back” button to edit your answers before moving on.
 < -> D_484550481 >
@@ -1430,7 +1368,7 @@ Country: |displayif=exists("D_525778327")| {$D_525778327}|
 [178420302*] Don't know
 
 
-[D_851731394?,displayif=and(or(isNotDefined(D_199489170,false),isNotDefined(D_605155921,false)),or(or(equals(isNotDefined(D_384403974,false),false),equals(isNotDefined(D_585153023,false),false)),or(equals(isNotDefined(D_248996395,false),false),equals(isNotDefined(D_525778327,false),false))))] Please provide the cross streets of the intersection closest to this address:
+[D_851731394?,displayif=noneExist("D_199489170","D_605155921") and someExist("D_860984191","D_892150843","D_230376384","D_526462982","D_384403974","D_585153023","D_248996395","D_525778327")] Please provide the cross streets of the intersection closest to this address:
 
 Full Street name #1 |__|id=D_993557817|
 Full Street name #2 |__|id=D_110516520|
@@ -1439,7 +1377,7 @@ Full Street name #2 |__|id=D_110516520|
 
 [SEASADD4_7] Here is the information you gave us for this location:
 
-|displayif=noneExist("D_199489170","D_605155921","D_300476868","D_384403974","D_860984191","D_585153023","D_892150843","D_248996395","D_230376384","D_525778327","D_526462982")|7th  Address||displayif=or(equals(isNotDefined(D_199489170,""),false),or(equals(isNotDefined(D_605155921,""),false),or(equals(isNotDefined(D_300476868,""),false),or(equals(isNotDefined(D_384403974,""),false),or(equals(isNotDefined(D_860984191,""),false),or(equals(isNotDefined(D_585153023,""),false),or(equals(isNotDefined(D_892150843,""),false),or(equals(isNotDefined(D_248996395,""),false),or(equals(isNotDefined(D_230376384,""),false),or(equals(isNotDefined(D_525778327,""),false),equals(isNotDefined(D_526462982,""),false)))))))))))| {$D_199489170} {$D_605155921} {$D_300476868} {$D_384403974} {$D_860984191}{$D_585153023} {$D_892150843} {$D_248996395} {$D_230376384} {$D_525778327} {$D_526462982}|
+|displayif=noneExist("D_199489170","D_605155921","D_300476868","D_384403974","D_860984191","D_585153023","D_892150843","D_248996395","D_230376384","D_525778327","D_526462982")|7th  Address||displayif=or(equals(isNotDefined(D_199489170,""),false),or(equals(isNotDefined(D_605155921,""),false),or(equals(isNotDefined(D_300476868,""),false),or(equals(isNotDefined(D_384403974,""),false),or(equals(isNotDefined(D_860984191,""),false),or(equals(isNotDefined(D_585153023,""),false),or(equals(isNotDefined(D_892150843,""),false),or(equals(isNotDefined(D_248996395,""),false),or(equals(isNotDefined(D_230376384,""),false),or(equals(isNotDefined(D_525778327,""),false),equals(isNotDefined(D_526462982,""),false)))))))))))| {$D_199489170} {$D_605155921} {$D_300476868} {$D_384403974} {$D_860984191} {$D_585153023} {$D_892150843} {$D_248996395}  {$D_230376384} {$D_525778327} {$D_526462982}|
 
 If this information is <b>not</b> correct, please click the “Back” button to edit your answers before moving on.
 < -> D_773680071 >
@@ -1475,7 +1413,7 @@ Country: |displayif=exists("D_298170847")| {$D_298170847}|
 
 
 
-[D_172669345?,displayif=and(or(isNotDefined(D_295693777,false),isNotDefined(D_646099557,false)),or(or(equals(isNotDefined(D_367684056,false),false),equals(isNotDefined(D_389478638,false),false)),or(equals(isNotDefined(D_949478044,false),false),equals(isNotDefined(D_298170847,false),false))))] Please provide the cross streets of the intersection closest to this address:
+[D_172669345?,displayif=noneExist("D_295693777","D_646099557") and someExist("D_599753334","D_467126157","D_421779583","D_587765197","D_367684056","D_389478638","D_949478044","D_298170847")] Please provide the cross streets of the intersection closest to this address:
 
 Full Street name #1 |__|id=D_520630754|
 Full Street name #2 |__|id=D_142318726|
@@ -1484,7 +1422,7 @@ Full Street name #2 |__|id=D_142318726|
 
 [SEASADD4_8] Here is the information you gave us for this location:
 
-|displayif=noneExist("D_295693777","D_646099557","D_886284650","D_367684056","D_599753334","D_389478638","D_467126157","D_949478044","D_421779583","D_298170847","D_587765197")|8th  Address||displayif=or(equals(isNotDefined(D_295693777,""),false),or(equals(isNotDefined(D_646099557,""),false),or(equals(isNotDefined(D_886284650,""),false),or(equals(isNotDefined(D_367684056,""),false),or(equals(isNotDefined(D_599753334,""),false),or(equals(isNotDefined(D_389478638,""),false),or(equals(isNotDefined(D_467126157,""),false),or(equals(isNotDefined(D_949478044,""),false),or(equals(isNotDefined(D_421779583,""),false),or(equals(isNotDefined(D_298170847,""),false),equals(isNotDefined(D_587765197,""),false)))))))))))| {$D_295693777} {$D_646099557} {$D_886284650} {$D_367684056} {$D_599753334}{$D_389478638} {$D_467126157} {$D_949478044} {$D_421779583} {$D_298170847} {$D_587765197}|
+|displayif=noneExist("D_295693777","D_646099557","D_886284650","D_367684056","D_599753334","D_389478638","D_467126157","D_949478044","D_421779583","D_298170847","D_587765197")|8th  Address||displayif=or(equals(isNotDefined(D_295693777,""),false),or(equals(isNotDefined(D_646099557,""),false),or(equals(isNotDefined(D_886284650,""),false),or(equals(isNotDefined(D_367684056,""),false),or(equals(isNotDefined(D_599753334,""),false),or(equals(isNotDefined(D_389478638,""),false),or(equals(isNotDefined(D_467126157,""),false),or(equals(isNotDefined(D_949478044,""),false),or(equals(isNotDefined(D_421779583,""),false),or(equals(isNotDefined(D_298170847,""),false),equals(isNotDefined(D_587765197,""),false)))))))))))| {$D_295693777} {$D_646099557} {$D_886284650} {$D_367684056} {$D_599753334} {$D_389478638} {$D_467126157} {$D_949478044}  {$D_421779583} {$D_298170847} {$D_587765197}|
 
 If this information is <b>not</b> correct, please click the “Back” button to edit your answers before moving on.
 < -> D_348817644 >
@@ -1519,7 +1457,7 @@ Country: |displayif=exists("D_603853574")| {$D_603853574}|
 [178420302*] Don't know
 
 
-[D_921998144?,displayif=and(or(isNotDefined(D_143093472,false),isNotDefined(D_746619983,false)),or(or(equals(isNotDefined(D_711881258,false),false),equals(isNotDefined(D_390941579,false),false)),or(equals(isNotDefined(D_737885885,false),false),equals(isNotDefined(D_603853574,false),false))))] Please provide the cross streets of the intersection closest to this address:
+[D_921998144?,displayif=noneExist("D_143093472","D_746619983") and someExist("D_450433102","D_181005197","D_855530921","D_589689090","D_711881258","D_390941579","D_737885885","D_603853574")] Please provide the cross streets of the intersection closest to this address:
 
 Full Street name #1 |__|id=D_872527709|
 Full Street name #2 |__|id=D_686647703|
@@ -1528,7 +1466,7 @@ Full Street name #2 |__|id=D_686647703|
 
 [SEASADD4_9] Here is the information you gave us for this location:
 
-|displayif=noneExist("D_143093472","D_746619983","D_911964974","D_711881258","D_450433102","D_390941579","D_181005197","D_737885885","D_855530921","D_603853574","D_589689090")|9th  Address||displayif=or(equals(isNotDefined(D_143093472,""),false),or(equals(isNotDefined(D_746619983,""),false),or(equals(isNotDefined(D_911964974,""),false),or(equals(isNotDefined(D_711881258,""),false),or(equals(isNotDefined(D_450433102,""),false),or(equals(isNotDefined(D_390941579,""),false),or(equals(isNotDefined(D_181005197,""),false),or(equals(isNotDefined(D_737885885,""),false),or(equals(isNotDefined(D_855530921,""),false),or(equals(isNotDefined(D_603853574,""),false),equals(isNotDefined(D_589689090,""),false)))))))))))| {$D_143093472} {$D_746619983} {$D_911964974} {$D_711881258} {$D_450433102}{$D_390941579} {$D_181005197} {$D_737885885} {$D_855530921} {$D_603853574} {$D_589689090}|
+|displayif=noneExist("D_143093472","D_746619983","D_911964974","D_711881258","D_450433102","D_390941579","D_181005197","D_737885885","D_855530921","D_603853574","D_589689090")|9th  Address||displayif=or(equals(isNotDefined(D_143093472,""),false),or(equals(isNotDefined(D_746619983,""),false),or(equals(isNotDefined(D_911964974,""),false),or(equals(isNotDefined(D_711881258,""),false),or(equals(isNotDefined(D_450433102,""),false),or(equals(isNotDefined(D_390941579,""),false),or(equals(isNotDefined(D_181005197,""),false),or(equals(isNotDefined(D_737885885,""),false),or(equals(isNotDefined(D_855530921,""),false),or(equals(isNotDefined(D_603853574,""),false),equals(isNotDefined(D_589689090,""),false)))))))))))| {$D_143093472} {$D_746619983} {$D_911964974} {$D_711881258} {$D_450433102} {$D_390941579} {$D_181005197} {$D_737885885}  {$D_855530921} {$D_603853574} {$D_589689090}|
 
 If this information is <b>not</b> correct, please click the “Back” button to edit your answers before moving on.
 
@@ -1564,7 +1502,7 @@ Country: |displayif=exists("D_807127029")| {$D_807127029}|
 
 
 
-[D_670316988?,displayif=and(or(isNotDefined(D_143093472,false),isNotDefined(D_734790700,false)),or(or(equals(isNotDefined(D_160188014,false),false),equals(isNotDefined(D_596751155,false),false)),or(equals(isNotDefined(D_624226136,false),false),equals(isNotDefined(D_807127029,false),false))))] Please provide the cross streets of the intersection closest to this address:
+[D_670316988?,displayif=noneExist("D_117703279","D_734790700") and someExist("D_983038259","D_313586037","D_158186064","D_274940131","D_160188014","D_596751155","D_624226136","D_807127029")] Please provide the cross streets of the intersection closest to this address:
 
 Full Street name #1 |__|id=D_306092529|
 Full Street name #2 |__|id=D_258544530|
@@ -1573,7 +1511,7 @@ Full Street name #2 |__|id=D_258544530|
 
 [SEASADD4_10] Here is the information you gave us for this location:
 
-|displayif=noneExist("D_117703279","D_734790700","D_278164536","D_160188014","D_983038259","D_596751155","D_313586037","D_624226136","D_158186064","D_807127029","D_274940131")|10th  Address||displayif=or(equals(isNotDefined(D_117703279,""),false),or(equals(isNotDefined(D_734790700,""),false),or(equals(isNotDefined(D_278164536,""),false),or(equals(isNotDefined(D_160188014,""),false),or(equals(isNotDefined(D_983038259,""),false),or(equals(isNotDefined(D_596751155,""),false),or(equals(isNotDefined(D_313586037,""),false),or(equals(isNotDefined(D_624226136,""),false),or(equals(isNotDefined(D_158186064,""),false),or(equals(isNotDefined(D_807127029,""),false),equals(isNotDefined(D_274940131,""),false)))))))))))| {$D_117703279} {$D_734790700} {$D_278164536} {$D_160188014} {$D_983038259}{$D_596751155} {$D_313586037} {$D_624226136} {$D_158186064} {$D_807127029} {$D_274940131}|
+|displayif=noneExist("D_117703279","D_734790700","D_278164536","D_160188014","D_983038259","D_596751155","D_313586037","D_624226136","D_158186064","D_807127029","D_274940131")|10th  Address||displayif=or(equals(isNotDefined(D_117703279,""),false),or(equals(isNotDefined(D_734790700,""),false),or(equals(isNotDefined(D_278164536,""),false),or(equals(isNotDefined(D_160188014,""),false),or(equals(isNotDefined(D_983038259,""),false),or(equals(isNotDefined(D_596751155,""),false),or(equals(isNotDefined(D_313586037,""),false),or(equals(isNotDefined(D_624226136,""),false),or(equals(isNotDefined(D_158186064,""),false),or(equals(isNotDefined(D_807127029,""),false),equals(isNotDefined(D_274940131,""),false)))))))))))| {$D_117703279} {$D_734790700} {$D_278164536} {$D_160188014} {$D_983038259} {$D_596751155} {$D_313586037}  {$D_624226136} {$D_158186064} {$D_807127029} {$D_274940131}|
 
 If this information is <b>not</b> correct, please click the “Back” button to edit your answers before moving on.
 
@@ -1586,31 +1524,31 @@ Once you move on from this screen, you will <b>not</b> be able to add another ad
 |displayif=noneExist("D_234037089","D_416862112","D_671149035","D_556576930","D_416620941","D_304326324","D_915859406","D_812433386","D_354833686","D_477319994","D_661148931") and valueEquals("D_342677547",353358909)| 1st Address||displayif=or(equals(isNotDefined(D_234037089,""),false),or(equals(isNotDefined(D_416862112,""),false),or(equals(isNotDefined(D_671149035,""),false),or(equals(isNotDefined(D_556576930,""),false),or(equals(isNotDefined(D_416620941,""),false),or(equals(isNotDefined(D_304326324,""),false),or(equals(isNotDefined(D_915859406,""),false),or(equals(isNotDefined(D_812433386,""),false),or(equals(isNotDefined(D_354833686,""),false),or(equals(isNotDefined(D_477319994,""),false),equals(isNotDefined(D_661148931,""),false)))))))))))| {$D_234037089} {$D_416862112} {$D_671149035} {$D_556576930} {$D_416620941} {$D_304326324} {$D_915859406} {$D_812433386} {$D_354833686} {$D_477319994} {$D_661148931}|
 
 
-|displayif=noneExist("D_476938134","D_561635035","D_134210521","D_715370929","D_726739712","D_109991481","D_149514187","D_494380686","D_845446624","D_440796912","D_677739650") and valueEquals("D_576956950",353358909)| 2nd  Address||displayif=or(equals(isNotDefined(D_476938134,""),false),or(equals(isNotDefined(D_561635035,""),false),or(equals(isNotDefined(D_134210521,""),false),or(equals(isNotDefined(D_715370929,""),false),or(equals(isNotDefined(D_726739712,""),false),or(equals(isNotDefined(D_109991481,""),false),or(equals(isNotDefined(D_149514187,""),false),or(equals(isNotDefined(D_494380686,""),false),or(equals(isNotDefined(D_845446624,""),false),or(equals(isNotDefined(D_440796912,""),false),equals(isNotDefined(D_677739650,""),false)))))))))))| {$D_476938134} {$D_561635035} {$D_134210521} {$D_715370929} {$D_726739712} {$D_109991481} {$D_149514187} {$D_494380686} {$D_845446624} {$D_440796912} {$D_677739650}|
+|displayif=noneExist("D_476938134","D_561635035","D_134210521","D_715370929","D_726739712","D_109991481","D_149514187","D_494380686","D_845446624","D_440796912","D_677739650") and valueEquals("D_576956950",353358909)| 2nd  Address||displayif=or(equals(isNotDefined(D_476938134,""),false),or(equals(isNotDefined(D_561635035,""),false),or(equals(isNotDefined(D_134210521,""),false),or(equals(isNotDefined(D_715370929,""),false),or(equals(isNotDefined(D_726739712,""),false),or(equals(isNotDefined(D_109991481,""),false),or(equals(isNotDefined(D_149514187,""),false),or(equals(isNotDefined(D_494380686,""),false),or(equals(isNotDefined(D_845446624,""),false),or(equals(isNotDefined(D_440796912,""),false),equals(isNotDefined(D_677739650,""),false)))))))))))| {$D_476938134} {$D_561635035} {$D_134210521} {$D_715370929} {$D_726739712} {$D_109991481} {$D_149514187} {$D_494380686}  {$D_845446624} {$D_440796912} {$D_677739650}|
 
 
-|displayif=noneExist("D_119483547","D_194338739","D_387077376","D_113352592","D_148846635","D_768114466","D_192663941","D_938180781","D_245044197","D_733365745","D_261025083") and valueEquals("D_463952618",353358909)| 3rd   Address||displayif=or(equals(isNotDefined(D_119483547,""),false),or(equals(isNotDefined(D_194338739,""),false),or(equals(isNotDefined(D_387077376,""),false),or(equals(isNotDefined(D_113352592,""),false),or(equals(isNotDefined(D_148846635,""),false),or(equals(isNotDefined(D_768114466,""),false),or(equals(isNotDefined(D_192663941,""),false),or(equals(isNotDefined(D_938180781,""),false),or(equals(isNotDefined(D_245044197,""),false),or(equals(isNotDefined(D_733365745,""),false),equals(isNotDefined(D_261025083,""),false)))))))))))| {$D_119483547} {$D_194338739} {$D_387077376} {$D_113352592} {$D_148846635} {$D_768114466} {$D_192663941} {$D_938180781} {$D_245044197} {$D_733365745} {$D_261025083}|
+|displayif=noneExist("D_119483547","D_194338739","D_387077376","D_113352592","D_148846635","D_768114466","D_192663941","D_938180781","D_245044197","D_733365745","D_261025083") and valueEquals("D_463952618",353358909)| 3rd   Address||displayif=or(equals(isNotDefined(D_119483547,""),false),or(equals(isNotDefined(D_194338739,""),false),or(equals(isNotDefined(D_387077376,""),false),or(equals(isNotDefined(D_113352592,""),false),or(equals(isNotDefined(D_148846635,""),false),or(equals(isNotDefined(D_768114466,""),false),or(equals(isNotDefined(D_192663941,""),false),or(equals(isNotDefined(D_938180781,""),false),or(equals(isNotDefined(D_245044197,""),false),or(equals(isNotDefined(D_733365745,""),false),equals(isNotDefined(D_261025083,""),false)))))))))))| {$D_119483547} {$D_194338739} {$D_387077376} {$D_113352592} {$D_148846635} {$D_768114466} {$D_192663941} {$D_938180781}  {$D_245044197} {$D_733365745} {$D_261025083}|
 
 
-|displayif=noneExist("D_785588454","D_419659205","D_653181757","D_733619119","D_571926996","D_843680322","D_645589113","D_716343828","D_701056236","D_497260033","D_398249766") and valueEquals("D_959488634",353358909)| 4th Address||displayif=or(equals(isNotDefined(D_785588454,""),false),or(equals(isNotDefined(D_419659205,""),false),or(equals(isNotDefined(D_653181757,""),false),or(equals(isNotDefined(D_733619119,""),false),or(equals(isNotDefined(D_571926996,""),false),or(equals(isNotDefined(D_843680322,""),false),or(equals(isNotDefined(D_645589113,""),false),or(equals(isNotDefined(D_716343828,""),false),or(equals(isNotDefined(D_701056236,""),false),or(equals(isNotDefined(D_497260033,""),false),equals(isNotDefined(D_398249766,""),false)))))))))))| {$D_785588454} {$D_419659205} {$D_653181757} {$D_733619119} {$D_571926996} {$D_843680322} {$D_645589113} {$D_716343828} {$D_701056236} {$D_497260033} {$D_398249766}|
+|displayif=noneExist("D_785588454","D_419659205","D_653181757","D_733619119","D_571926996","D_843680322","D_645589113","D_716343828","D_701056236","D_497260033","D_398249766") and valueEquals("D_959488634",353358909)| 4th Address||displayif=or(equals(isNotDefined(D_785588454,""),false),or(equals(isNotDefined(D_419659205,""),false),or(equals(isNotDefined(D_653181757,""),false),or(equals(isNotDefined(D_733619119,""),false),or(equals(isNotDefined(D_571926996,""),false),or(equals(isNotDefined(D_843680322,""),false),or(equals(isNotDefined(D_645589113,""),false),or(equals(isNotDefined(D_716343828,""),false),or(equals(isNotDefined(D_701056236,""),false),or(equals(isNotDefined(D_497260033,""),false),equals(isNotDefined(D_398249766,""),false)))))))))))| {$D_785588454} {$D_419659205} {$D_653181757} {$D_733619119} {$D_571926996} {$D_843680322} {$D_645589113} {$D_716343828}  {$D_701056236} {$D_497260033} {$D_398249766}|
 
 
-|displayif=noneExist("D_275244758","D_688216428","D_843674851","D_570311888","D_101804763","D_557852952","D_502068619","D_970217879","D_787391994","D_452103273","D_540340377") and valueEquals("D_696017690",353358909)| 5th Address||displayif=or(equals(isNotDefined(D_275244758,""),false),or(equals(isNotDefined(D_688216428,""),false),or(equals(isNotDefined(D_843674851,""),false),or(equals(isNotDefined(D_570311888,""),false),or(equals(isNotDefined(D_101804763,""),false),or(equals(isNotDefined(D_557852952,""),false),or(equals(isNotDefined(D_502068619,""),false),or(equals(isNotDefined(D_970217879,""),false),or(equals(isNotDefined(D_787391994,""),false),or(equals(isNotDefined(D_452103273,""),false),equals(isNotDefined(D_540340377,""),false)))))))))))| {$D_275244758} {$D_688216428} {$D_843674851} {$D_570311888} {$D_101804763} {$D_557852952} {$D_502068619} {$D_970217879} {$D_787391994} {$D_452103273} {$D_540340377}|
+|displayif=noneExist("D_275244758","D_688216428","D_843674851","D_570311888","D_101804763","D_557852952","D_502068619","D_970217879","D_787391994","D_452103273","D_540340377") and valueEquals("D_696017690",353358909)| 5th Address||displayif=or(equals(isNotDefined(D_275244758,""),false),or(equals(isNotDefined(D_688216428,""),false),or(equals(isNotDefined(D_843674851,""),false),or(equals(isNotDefined(D_570311888,""),false),or(equals(isNotDefined(D_101804763,""),false),or(equals(isNotDefined(D_557852952,""),false),or(equals(isNotDefined(D_502068619,""),false),or(equals(isNotDefined(D_970217879,""),false),or(equals(isNotDefined(D_787391994,""),false),or(equals(isNotDefined(D_452103273,""),false),equals(isNotDefined(D_540340377,""),false)))))))))))| {$D_275244758} {$D_688216428} {$D_843674851} {$D_570311888} {$D_101804763} {$D_557852952} {$D_502068619} {$D_970217879}  {$D_787391994} {$D_452103273} {$D_540340377}|
 
 
-|displayif=noneExist("D_666445636","D_398622449","D_521925072","D_888514303","D_686611963","D_905002640","D_900950849","D_687407917","D_103689435","D_932828568","D_659457234") and valueEquals("D_424272506",353358909)| 6th Address||displayif=or(equals(isNotDefined(D_666445636,""),false),or(equals(isNotDefined(D_398622449,""),false),or(equals(isNotDefined(D_521925072,""),false),or(equals(isNotDefined(D_888514303,""),false),or(equals(isNotDefined(D_686611963,""),false),or(equals(isNotDefined(D_905002640,""),false),or(equals(isNotDefined(D_900950849,""),false),or(equals(isNotDefined(D_687407917,""),false),or(equals(isNotDefined(D_103689435,""),false),or(equals(isNotDefined(D_932828568,""),false),equals(isNotDefined(D_659457234,""),false)))))))))))| {$D_666445636} {$D_398622449} {$D_521925072} {$D_888514303} {$D_686611963} {$D_905002640} {$D_900950849} {$D_687407917} {$D_103689435} {$D_932828568} {$D_659457234}|
+|displayif=noneExist("D_666445636","D_398622449","D_521925072","D_888514303","D_686611963","D_905002640","D_900950849","D_687407917","D_103689435","D_932828568","D_659457234") and valueEquals("D_424272506",353358909)| 6th Address||displayif=or(equals(isNotDefined(D_666445636,""),false),or(equals(isNotDefined(D_398622449,""),false),or(equals(isNotDefined(D_521925072,""),false),or(equals(isNotDefined(D_888514303,""),false),or(equals(isNotDefined(D_686611963,""),false),or(equals(isNotDefined(D_905002640,""),false),or(equals(isNotDefined(D_900950849,""),false),or(equals(isNotDefined(D_687407917,""),false),or(equals(isNotDefined(D_103689435,""),false),or(equals(isNotDefined(D_932828568,""),false),equals(isNotDefined(D_659457234,""),false)))))))))))| {$D_666445636} {$D_398622449} {$D_521925072} {$D_888514303} {$D_686611963} {$D_905002640} {$D_900950849} {$D_687407917}  {$D_103689435} {$D_932828568} {$D_659457234}|
 
 
-|displayif=noneExist("D_199489170","D_605155921","D_300476868","D_384403974","D_860984191","D_585153023","D_892150843","D_248996395","D_230376384","D_525778327","D_526462982") and valueEquals("D_484550481",353358909)| 7th Address||displayif=or(equals(isNotDefined(D_199489170,""),false),or(equals(isNotDefined(D_605155921,""),false),or(equals(isNotDefined(D_300476868,""),false),or(equals(isNotDefined(D_384403974,""),false),or(equals(isNotDefined(D_860984191,""),false),or(equals(isNotDefined(D_585153023,""),false),or(equals(isNotDefined(D_892150843,""),false),or(equals(isNotDefined(D_248996395,""),false),or(equals(isNotDefined(D_230376384,""),false),or(equals(isNotDefined(D_525778327,""),false),equals(isNotDefined(D_526462982,""),false)))))))))))| {$D_199489170} {$D_605155921} {$D_300476868} {$D_384403974} {$D_860984191} {$D_585153023} {$D_892150843} {$D_248996395} {$D_230376384} {$D_525778327} {$D_526462982}|
+|displayif=noneExist("D_199489170","D_605155921","D_300476868","D_384403974","D_860984191","D_585153023","D_892150843","D_248996395","D_230376384","D_525778327","D_526462982") and valueEquals("D_484550481",353358909)| 7th Address||displayif=or(equals(isNotDefined(D_199489170,""),false),or(equals(isNotDefined(D_605155921,""),false),or(equals(isNotDefined(D_300476868,""),false),or(equals(isNotDefined(D_384403974,""),false),or(equals(isNotDefined(D_860984191,""),false),or(equals(isNotDefined(D_585153023,""),false),or(equals(isNotDefined(D_892150843,""),false),or(equals(isNotDefined(D_248996395,""),false),or(equals(isNotDefined(D_230376384,""),false),or(equals(isNotDefined(D_525778327,""),false),equals(isNotDefined(D_526462982,""),false)))))))))))| {$D_199489170} {$D_605155921} {$D_300476868} {$D_384403974} {$D_860984191} {$D_585153023} {$D_892150843} {$D_248996395}  {$D_230376384} {$D_525778327} {$D_526462982}|
 
 
-|displayif=noneExist("D_295693777","D_646099557","D_886284650","D_367684056","D_599753334","D_389478638","D_467126157","D_949478044","D_421779583","D_298170847","D_587765197") and valueEquals("D_773680071",353358909)| 8th Address||displayif=or(equals(isNotDefined(D_295693777,""),false),or(equals(isNotDefined(D_646099557,""),false),or(equals(isNotDefined(D_886284650,""),false),or(equals(isNotDefined(D_367684056,""),false),or(equals(isNotDefined(D_599753334,""),false),or(equals(isNotDefined(D_389478638,""),false),or(equals(isNotDefined(D_467126157,""),false),or(equals(isNotDefined(D_949478044,""),false),or(equals(isNotDefined(D_421779583,""),false),or(equals(isNotDefined(D_298170847,""),false),equals(isNotDefined(D_587765197,""),false)))))))))))| {$D_295693777} {$D_646099557} {$D_886284650} {$D_367684056} {$D_599753334} {$D_389478638} {$D_467126157} {$D_949478044} {$D_421779583} {$D_298170847} {$D_587765197}|
+|displayif=noneExist("D_295693777","D_646099557","D_886284650","D_367684056","D_599753334","D_389478638","D_467126157","D_949478044","D_421779583","D_298170847","D_587765197") and valueEquals("D_773680071",353358909)| 8th Address||displayif=or(equals(isNotDefined(D_295693777,""),false),or(equals(isNotDefined(D_646099557,""),false),or(equals(isNotDefined(D_886284650,""),false),or(equals(isNotDefined(D_367684056,""),false),or(equals(isNotDefined(D_599753334,""),false),or(equals(isNotDefined(D_389478638,""),false),or(equals(isNotDefined(D_467126157,""),false),or(equals(isNotDefined(D_949478044,""),false),or(equals(isNotDefined(D_421779583,""),false),or(equals(isNotDefined(D_298170847,""),false),equals(isNotDefined(D_587765197,""),false)))))))))))| {$D_295693777} {$D_646099557} {$D_886284650} {$D_367684056} {$D_599753334} {$D_389478638} {$D_467126157} {$D_949478044}  {$D_421779583} {$D_298170847} {$D_587765197}|
 
 
-|displayif=noneExist("D_143093472","D_746619983","D_911964974","D_711881258","D_450433102","D_390941579","D_181005197","D_737885885","D_855530921","D_603853574","D_589689090") and valueEquals("D_348817644",353358909)| 9th Address||displayif=or(equals(isNotDefined(D_143093472,""),false),or(equals(isNotDefined(D_746619983,""),false),or(equals(isNotDefined(D_911964974,""),false),or(equals(isNotDefined(D_711881258,""),false),or(equals(isNotDefined(D_450433102,""),false),or(equals(isNotDefined(D_390941579,""),false),or(equals(isNotDefined(D_181005197,""),false),or(equals(isNotDefined(D_737885885,""),false),or(equals(isNotDefined(D_855530921,""),false),or(equals(isNotDefined(D_603853574,""),false),equals(isNotDefined(D_589689090,""),false)))))))))))| {$D_143093472} {$D_746619983} {$D_911964974} {$D_711881258} {$D_450433102} {$D_390941579} {$D_181005197} {$D_737885885} {$D_855530921} {$D_603853574} {$D_589689090}|
+|displayif=noneExist("D_143093472","D_746619983","D_911964974","D_711881258","D_450433102","D_390941579","D_181005197","D_737885885","D_855530921","D_603853574","D_589689090") and valueEquals("D_348817644",353358909)| 9th Address||displayif=or(equals(isNotDefined(D_143093472,""),false),or(equals(isNotDefined(D_746619983,""),false),or(equals(isNotDefined(D_911964974,""),false),or(equals(isNotDefined(D_711881258,""),false),or(equals(isNotDefined(D_450433102,""),false),or(equals(isNotDefined(D_390941579,""),false),or(equals(isNotDefined(D_181005197,""),false),or(equals(isNotDefined(D_737885885,""),false),or(equals(isNotDefined(D_855530921,""),false),or(equals(isNotDefined(D_603853574,""),false),equals(isNotDefined(D_589689090,""),false)))))))))))| {$D_143093472} {$D_746619983} {$D_911964974} {$D_711881258} {$D_450433102} {$D_390941579} {$D_181005197} {$D_737885885}  {$D_855530921} {$D_603853574} {$D_589689090}|
 
 
-|displayif=noneExist("D_117703279","D_734790700","D_278164536","D_160188014","D_983038259","D_596751155","D_313586037","D_624226136","D_158186064","D_807127029","D_274940131") and valueEquals("D_800194290",353358909)| 10th Address||displayif=or(equals(isNotDefined(D_117703279,""),false),or(equals(isNotDefined(D_734790700,""),false),or(equals(isNotDefined(D_278164536,""),false),or(equals(isNotDefined(D_160188014,""),false),or(equals(isNotDefined(D_983038259,""),false),or(equals(isNotDefined(D_596751155,""),false),or(equals(isNotDefined(D_313586037,""),false),or(equals(isNotDefined(D_624226136,""),false),or(equals(isNotDefined(D_158186064,""),false),or(equals(isNotDefined(D_807127029,""),false),equals(isNotDefined(D_274940131,""),false)))))))))))| {$D_117703279} {$D_734790700} {$D_278164536}{$D_160188014} {$D_983038259} {$D_596751155} {$D_313586037} {$D_624226136} {$D_158186064} {$D_807127029} {$D_274940131}|
+|displayif=noneExist("D_117703279","D_734790700","D_278164536","D_160188014","D_983038259","D_596751155","D_313586037","D_624226136","D_158186064","D_807127029","D_274940131") and valueEquals("D_800194290",353358909)| 10th Address||displayif=or(equals(isNotDefined(D_117703279,""),false),or(equals(isNotDefined(D_734790700,""),false),or(equals(isNotDefined(D_278164536,""),false),or(equals(isNotDefined(D_160188014,""),false),or(equals(isNotDefined(D_983038259,""),false),or(equals(isNotDefined(D_596751155,""),false),or(equals(isNotDefined(D_313586037,""),false),or(equals(isNotDefined(D_624226136,""),false),or(equals(isNotDefined(D_158186064,""),false),or(equals(isNotDefined(D_807127029,""),false),equals(isNotDefined(D_274940131,""),false)))))))))))| {$D_117703279} {$D_734790700} {$D_278164536}{$D_160188014} {$D_983038259} {$D_596751155} {$D_313586037}  {$D_624226136} {$D_158186064} {$D_807127029} {$D_274940131}|
 
 /* not final address exists */(180583933,displayif=and(equals(isNotDefined(D_117703279,""),true),and(equals(isNotDefined(D_734790700,""),true),and(equals(isNotDefined(D_278164536,""),true),and(equals(isNotDefined(D_160188014,""),true),and(equals(isNotDefined(D_983038259,""),true),and(equals(isNotDefined(D_596751155,""),true),and(equals(isNotDefined(D_313586037,""),true),and(equals(isNotDefined(D_624226136,""),true),and(equals(isNotDefined(D_158186064,""),true),and(equals(isNotDefined(D_807127029,""),true),equals(isNotDefined(D_274940131,""),true)))))))))))) Yes, this list is complete -> D_379754686
 
@@ -2204,9 +2142,9 @@ Full Street name #2 |__|id=D_204186397|
 [178420302*] Don't know
 < -> CHILDADD4>
 
-[CHILDADD4] Here is the information you gave us for |displayif=or(or(equals(isNotDefined(D_284547539,""),false),or(equals(isNotDefined(D_802585033,""),false),or(equals(isNotDefined(D_746533238,""),false),or(equals(isNotDefined(D_128827522,""),false),or(equals(isNotDefined(D_890792569,""),false),or(equals(isNotDefined(D_439447560,""),false),or(equals(isNotDefined(D_451394598,""),false),or(equals(isNotDefined(D_286781627,""),false),or(equals(isNotDefined(D_984908796,""),false),or(equals(isNotDefined(D_733929451,""),false),equals(isNotDefined(D_847327251,""),false))))))))))),doesNotEqual(isDefined(D_720221117,-1),-1))|this location:||displayif=and(and(equals(isNotDefined(D_284547539,""),true),and(equals(isNotDefined(D_802585033,""),true),and(equals(isNotDefined(D_746533238,""),true),and(equals(isNotDefined(D_128827522,""),true),and(equals(isNotDefined(D_890792569,""),true),and(equals(isNotDefined(D_439447560,""),true),and(equals(isNotDefined(D_451394598,""),true),and(equals(isNotDefined(D_286781627,""),true),and(equals(isNotDefined(D_984908796,""),true),and(equals(isNotDefined(D_733929451,""),true),equals(isNotDefined(D_847327251,""),true))))))))))),equals(isDefined(D_720221117,-1),-1))|your childhood home.|
+[CHILDADD4] Here is the information you gave us for this location:
 
-|displayif=noneExist("D_284547539","D_802585033","D_746533238","D_128827522","D_890792569","D_439447560","D_451394598","D_286781627","D_984908796","D_733929451","D_847327251") and valueEquals("D_277348878",751569137)|Childhood Address||displayif=or(equals(isNotDefined(D_284547539,""),false),or(equals(isNotDefined(D_802585033,""),false),or(equals(isNotDefined(D_746533238,""),false),or(equals(isNotDefined(D_128827522,""),false),or(equals(isNotDefined(D_890792569,""),false),or(equals(isNotDefined(D_439447560,""),false),or(equals(isNotDefined(D_451394598,""),false),or(equals(isNotDefined(D_286781627,""),false),or(equals(isNotDefined(D_984908796,""),false),or(equals(isNotDefined(D_733929451,""),false),equals(isNotDefined(D_847327251,""),false)))))))))))|{$D_284547539} {$D_802585033} {$D_746533238} {$D_128827522} {$D_890792569}{$D_439447560} {$D_451394598} {$D_286781627} {$D_984908796} {$D_733929451} {$D_847327251}|
+|displayif=noneExist("D_284547539","D_802585033","D_746533238","D_128827522","D_890792569","D_439447560","D_451394598","D_286781627","D_984908796","D_733929451","D_847327251") and valueEquals("D_277348878",751569137)|your childhood home||displayif=or(equals(isNotDefined(D_284547539,""),false),or(equals(isNotDefined(D_802585033,""),false),or(equals(isNotDefined(D_746533238,""),false),or(equals(isNotDefined(D_128827522,""),false),or(equals(isNotDefined(D_890792569,""),false),or(equals(isNotDefined(D_439447560,""),false),or(equals(isNotDefined(D_451394598,""),false),or(equals(isNotDefined(D_286781627,""),false),or(equals(isNotDefined(D_984908796,""),false),or(equals(isNotDefined(D_733929451,""),false),equals(isNotDefined(D_847327251,""),false)))))))))))|{$D_284547539} {$D_802585033} {$D_746533238} {$D_128827522} {$D_890792569}{$D_439447560} {$D_451394598} {$D_286781627} {$D_984908796} {$D_733929451} {$D_847327251}|
 
 |displayif=equals(D_720221117,658491312)|Current Address: {$D_255248624} {$D_945532934} {$D_469838242} {$D_303500597} {$D_725583683} {$D_195068098} {$D_917021073} {$D_202784871} {$D_970000442} {$D_831127170} {$D_500100435}|
 |displayif=equals(D_720221117,351928156)|2nd Address: {$D_985267931} {$D_111275683} {$D_129226572} {$D_536516743} {$D_288498031} {$D_283900560} {$D_195845897} {$D_467947502} {$D_936129960} {$D_368486703} {$D_924583345}|
@@ -2224,7 +2162,7 @@ If this information is <b>not</b> correct, please click the “Back” button to
 
 < #NR-> D_191221569>
 
-[D_191221569?] What year did you move into |displayif=or(equals(isNotDefined(D_284547539,""),false),or(equals(isNotDefined(D_802585033,""),false),or(equals(isNotDefined(D_746533238,""),false),or(equals(isNotDefined(D_128827522,""),false),or(equals(isNotDefined(D_890792569,""),false),or(equals(isNotDefined(D_439447560,""),false),or(equals(isNotDefined(D_451394598,""),false),or(equals(isNotDefined(D_286781627,""),false),or(equals(isNotDefined(D_984908796,""),false),or(equals(isNotDefined(D_733929451,""),false),equals(isNotDefined(D_847327251,""),false)))))))))))|{$D_284547539} {$D_802585033} {$D_746533238} {$D_128827522} {$D_890792569} {$D_439447560} {$D_451394598} {$D_286781627} {$D_984908796} {$D_733929451} {$D_847327251}||displayif=noneExist("D_284547539","D_802585033","D_746533238","D_128827522","D_890792569","D_439447560","D_451394598","D_286781627","D_984908796","D_733929451","D_847327251") and valueEquals("D_277348878",751569137)|Childhood Address|
+[D_191221569?] What year did you move into |displayif=or(equals(isNotDefined(D_284547539,""),false),or(equals(isNotDefined(D_802585033,""),false),or(equals(isNotDefined(D_746533238,""),false),or(equals(isNotDefined(D_128827522,""),false),or(equals(isNotDefined(D_890792569,""),false),or(equals(isNotDefined(D_439447560,""),false),or(equals(isNotDefined(D_451394598,""),false),or(equals(isNotDefined(D_286781627,""),false),or(equals(isNotDefined(D_984908796,""),false),or(equals(isNotDefined(D_733929451,""),false),equals(isNotDefined(D_847327251,""),false)))))))))))|{$D_284547539} {$D_802585033} {$D_746533238} {$D_128827522} {$D_890792569} {$D_439447560} {$D_451394598} {$D_286781627} {$D_984908796} {$D_733929451} {$D_847327251}||displayif=noneExist("D_284547539","D_802585033","D_746533238","D_128827522","D_890792569","D_439447560","D_451394598","D_286781627","D_984908796","D_733929451","D_847327251") and valueEquals("D_277348878",751569137)|your childhood home|
 |displayif=equals(D_720221117,658491312)|Current Address: {$D_255248624} {$D_945532934} {$D_469838242} {$D_303500597} {$D_725583683} {$D_195068098} {$D_917021073} {$D_202784871} {$D_970000442} {$D_831127170} {$D_500100435}|
 |displayif=equals(D_720221117,351928156)|2nd Address: {$D_985267931} {$D_111275683} {$D_129226572} {$D_536516743} {$D_288498031} {$D_283900560} {$D_195845897} {$D_467947502} {$D_936129960} {$D_368486703} {$D_924583345}|
 |displayif=equals(D_720221117,510681016)|3rd Addresss: {$D_875706715} {$D_645150792} {$D_585360350} {$D_588699608} {$D_648495207} {$D_544692849} {$D_544692849} {$D_335435992} {$D_649864362} {$D_337088272} {$D_723108194}|
@@ -2243,7 +2181,7 @@ Year moved in |__|__|__|__|id=D_948416598 minval=difference(difference(#currentY
 [178420302*] Don’t know
 < #NR -> D_752015272>
 
-[D_752015272?] What year did you |popup|move out|Informational Text|If you moved from this home to go to college and did not live here again for more than 6 months at a time, enter the year that you went to college.| of |displayif=or(equals(isNotDefined(D_284547539,""),false),or(equals(isNotDefined(D_802585033,""),false),or(equals(isNotDefined(D_746533238,""),false),or(equals(isNotDefined(D_128827522,""),false),or(equals(isNotDefined(D_890792569,""),false),or(equals(isNotDefined(D_439447560,""),false),or(equals(isNotDefined(D_451394598,""),false),or(equals(isNotDefined(D_286781627,""),false),or(equals(isNotDefined(D_984908796,""),false),or(equals(isNotDefined(D_733929451,""),false),equals(isNotDefined(D_847327251,""),false)))))))))))|{$D_284547539} {$D_802585033} {$D_746533238} {$D_128827522} {$D_890792569} {$D_439447560} {$D_451394598} {$D_286781627} {$D_984908796} {$D_733929451} {$D_847327251}||displayif=noneExist("D_284547539","D_802585033","D_746533238","D_128827522","D_890792569","D_439447560","D_451394598","D_286781627","D_984908796","D_733929451","D_847327251") and valueEquals("D_277348878",751569137)|Childhood Address|
+[D_752015272?] What year did you |popup|move out|Informational Text|If you moved from this home to go to college and did not live here again for more than 6 months at a time, enter the year that you went to college.| of |displayif=or(equals(isNotDefined(D_284547539,""),false),or(equals(isNotDefined(D_802585033,""),false),or(equals(isNotDefined(D_746533238,""),false),or(equals(isNotDefined(D_128827522,""),false),or(equals(isNotDefined(D_890792569,""),false),or(equals(isNotDefined(D_439447560,""),false),or(equals(isNotDefined(D_451394598,""),false),or(equals(isNotDefined(D_286781627,""),false),or(equals(isNotDefined(D_984908796,""),false),or(equals(isNotDefined(D_733929451,""),false),equals(isNotDefined(D_847327251,""),false)))))))))))|{$D_284547539} {$D_802585033} {$D_746533238} {$D_128827522} {$D_890792569} {$D_439447560} {$D_451394598} {$D_286781627} {$D_984908796} {$D_733929451} {$D_847327251}||displayif=noneExist("D_284547539","D_802585033","D_746533238","D_128827522","D_890792569","D_439447560","D_451394598","D_286781627","D_984908796","D_733929451","D_847327251") and valueEquals("D_277348878",751569137)|your childhood home|
 |displayif=equals(D_720221117,658491312)|Current Address: {$D_255248624} {$D_945532934} {$D_469838242} {$D_303500597} {$D_725583683} {$D_195068098} {$D_917021073} {$D_202784871} {$D_970000442} {$D_831127170} {$D_500100435}|
 |displayif=equals(D_720221117,351928156)|2nd Address: {$D_985267931} {$D_111275683} {$D_129226572} {$D_536516743} {$D_288498031} {$D_283900560} {$D_195845897} {$D_467947502} {$D_936129960} {$D_368486703} {$D_924583345}|
 |displayif=equals(D_720221117,510681016)|3rd Addresss: {$D_875706715} {$D_645150792} {$D_585360350} {$D_588699608} {$D_648495207} {$D_544692849} {$D_544692849} {$D_335435992} {$D_649864362} {$D_337088272} {$D_723108194}|
@@ -2265,7 +2203,7 @@ Year moved out |__|__|__|__|id=D_943813942 minval=difference(difference(#current
 
 
 
-[D_714365367?] What was the source of water to |displayif=or(equals(isNotDefined(D_284547539,""),false),or(equals(isNotDefined(D_802585033,""),false),or(equals(isNotDefined(D_746533238,""),false),or(equals(isNotDefined(D_128827522,""),false),or(equals(isNotDefined(D_890792569,""),false),or(equals(isNotDefined(D_439447560,""),false),or(equals(isNotDefined(D_451394598,""),false),or(equals(isNotDefined(D_286781627,""),false),or(equals(isNotDefined(D_984908796,""),false),or(equals(isNotDefined(D_733929451,""),false),equals(isNotDefined(D_847327251,""),false)))))))))))|{$D_284547539} {$D_802585033} {$D_746533238} {$D_128827522} {$D_890792569} {$D_439447560} {$D_451394598} {$D_286781627} {$D_984908796} {$D_733929451} {$D_847327251}||displayif=noneExist("D_284547539","D_802585033","D_746533238","D_128827522","D_890792569","D_439447560","D_451394598","D_286781627","D_984908796","D_733929451","D_847327251") and valueEquals("D_277348878",751569137)|Childhood Address|
+[D_714365367?] What was the source of water to |displayif=or(equals(isNotDefined(D_284547539,""),false),or(equals(isNotDefined(D_802585033,""),false),or(equals(isNotDefined(D_746533238,""),false),or(equals(isNotDefined(D_128827522,""),false),or(equals(isNotDefined(D_890792569,""),false),or(equals(isNotDefined(D_439447560,""),false),or(equals(isNotDefined(D_451394598,""),false),or(equals(isNotDefined(D_286781627,""),false),or(equals(isNotDefined(D_984908796,""),false),or(equals(isNotDefined(D_733929451,""),false),equals(isNotDefined(D_847327251,""),false)))))))))))|{$D_284547539} {$D_802585033} {$D_746533238} {$D_128827522} {$D_890792569} {$D_439447560} {$D_451394598} {$D_286781627} {$D_984908796} {$D_733929451} {$D_847327251}||displayif=noneExist("D_284547539","D_802585033","D_746533238","D_128827522","D_890792569","D_439447560","D_451394598","D_286781627","D_984908796","D_733929451","D_847327251") and valueEquals("D_277348878",751569137)|your childhood home|
 |displayif=equals(D_720221117,658491312)|Current Address: {$D_255248624} {$D_945532934} {$D_469838242} {$D_303500597} {$D_725583683} {$D_195068098} {$D_917021073} {$D_202784871} {$D_970000442} {$D_831127170} {$D_500100435}|
 |displayif=equals(D_720221117,351928156)|2nd Address: {$D_985267931} {$D_111275683} {$D_129226572} {$D_536516743} {$D_288498031} {$D_283900560} {$D_195845897} {$D_467947502} {$D_936129960} {$D_368486703} {$D_924583345}|
 |displayif=equals(D_720221117,510681016)|3rd Addresss: {$D_875706715} {$D_645150792} {$D_585360350} {$D_588699608} {$D_648495207} {$D_544692849} {$D_544692849} {$D_335435992} {$D_649864362} {$D_337088272} {$D_723108194}|
@@ -2284,7 +2222,7 @@ Year moved out |__|__|__|__|id=D_943813942 minval=difference(difference(#current
 (178420302) Don’t know
 < #NR -> D_665593888>
 
-[D_665593888?] What was the main source of water that you drank at |displayif=or(equals(isNotDefined(D_284547539,""),false),or(equals(isNotDefined(D_802585033,""),false),or(equals(isNotDefined(D_746533238,""),false),or(equals(isNotDefined(D_128827522,""),false),or(equals(isNotDefined(D_890792569,""),false),or(equals(isNotDefined(D_439447560,""),false),or(equals(isNotDefined(D_451394598,""),false),or(equals(isNotDefined(D_286781627,""),false),or(equals(isNotDefined(D_984908796,""),false),or(equals(isNotDefined(D_733929451,""),false),equals(isNotDefined(D_847327251,""),false)))))))))))|{$D_284547539} {$D_802585033} {$D_746533238} {$D_128827522} {$D_890792569} {$D_439447560} {$D_451394598} {$D_286781627} {$D_984908796} {$D_733929451} {$D_847327251}||displayif=noneExist("D_284547539","D_802585033","D_746533238","D_128827522","D_890792569","D_439447560","D_451394598","D_286781627","D_984908796","D_733929451","D_847327251") and valueEquals("D_277348878",751569137)|Childhood Address|
+[D_665593888?] What was the main source of water that you drank at |displayif=or(equals(isNotDefined(D_284547539,""),false),or(equals(isNotDefined(D_802585033,""),false),or(equals(isNotDefined(D_746533238,""),false),or(equals(isNotDefined(D_128827522,""),false),or(equals(isNotDefined(D_890792569,""),false),or(equals(isNotDefined(D_439447560,""),false),or(equals(isNotDefined(D_451394598,""),false),or(equals(isNotDefined(D_286781627,""),false),or(equals(isNotDefined(D_984908796,""),false),or(equals(isNotDefined(D_733929451,""),false),equals(isNotDefined(D_847327251,""),false)))))))))))|{$D_284547539} {$D_802585033} {$D_746533238} {$D_128827522} {$D_890792569} {$D_439447560} {$D_451394598} {$D_286781627} {$D_984908796} {$D_733929451} {$D_847327251}||displayif=noneExist("D_284547539","D_802585033","D_746533238","D_128827522","D_890792569","D_439447560","D_451394598","D_286781627","D_984908796","D_733929451","D_847327251") and valueEquals("D_277348878",751569137)|your childhood home|
 |displayif=equals(D_720221117,658491312)|Current Address: {$D_255248624} {$D_945532934} {$D_469838242} {$D_303500597} {$D_725583683} {$D_195068098} {$D_917021073} {$D_202784871} {$D_970000442} {$D_831127170} {$D_500100435}|
 |displayif=equals(D_720221117,351928156)|2nd Address: {$D_985267931} {$D_111275683} {$D_129226572} {$D_536516743} {$D_288498031} {$D_283900560} {$D_195845897} {$D_467947502} {$D_936129960} {$D_368486703} {$D_924583345}|
 |displayif=equals(D_720221117,510681016)|3rd Addresss: {$D_875706715} {$D_645150792} {$D_585360350} {$D_588699608} {$D_648495207} {$D_544692849} {$D_544692849} {$D_335435992} {$D_649864362} {$D_337088272} {$D_723108194}|
@@ -2343,7 +2281,7 @@ The water we drink and use for showering and bathing can also affect our health.
 (471294296) 3 to 4 times per week
 (198347104) 1 to 2 times per week
 (693256778) Less than once per week
-(703370365) I drink tap water in coffee but don’t know how often
+(703370365) I drink tap water in hot tea but don’t know how often
 < #NR -> D_393682471>
 
 [D_393682471?,displayif=equals(D_831438612,525375987)] In a <b>usual week</b>, about how often do you use tap water from your home to make a glass of iced tea?
@@ -2352,7 +2290,7 @@ The water we drink and use for showering and bathing can also affect our health.
 (471294296) 3 to 4 times per week
 (198347104) 1 to 2 times per week
 (693256778) Less than once per week
-(703370365) I drink tap water in coffee but don’t know how often
+(703370365) I drink tap water in iced tea but don’t know how often
 < #NR -> D_364303962>
 
 [D_364303962?,displayif=equals(D_831438612,995797773)] In a <b>usual week</b>, about how often do you use tap water from your home to make any other beverages or soup?
@@ -2361,7 +2299,7 @@ The water we drink and use for showering and bathing can also affect our health.
 (471294296) 3 to 4 times per week
 (198347104) 1 to 2 times per week
 (693256778) Less than once per week
-(703370365) I drink tap water in coffee but don’t know how often
+(703370365) I drink tap water in other beverages or soup but don’t know how often
 < #NR -> D_944517297>
 
 [D_944517297?,displayif=equals(D_831438612,431441193)] In a <b>usual week</b>, about how often do you use tap water from your home to make |displayif=doesNotEqual(D_834822910,"")|<b>{$D_834822910}</b>||displayif=equals(D_834822910,"")|other beverages|?
@@ -2384,9 +2322,9 @@ Number of showers or baths per week |__|__|min=0 max=99|
 [COMINTRO] In this section, we will ask about your usual commute between your home and places like work and school. The ways we commute, and the amount of time we spend commuting, can affect our health. The COVID-19 pandemic changed many people’s work and commute. We want to know about your commute before the pandemic started.
 
 [D_694113343?] Did you work for pay in 2019 (before the start of the COVID-19 Pandemic)?
-(104430631) No -> D_980007418
+(104430631) No -> D_995620555
 (353358909) Yes -> D_842657297
-< #NR -> D_980007418 >
+< #NR -> D_995620555 >
 
 [D_842657297?] As you worked on that job, about how many days per week did you usually work for pay? If you cannot remember, please make your best guess.
 (503218834) 1 day per week
@@ -2398,7 +2336,7 @@ Number of showers or baths per week |__|__|min=0 max=99|
 (689829953) 7 days per week
 
 [D_374639590?] Did your daily tasks include driving (such as a sales representative, courier, bus driver, or truck driver)?
-(353358909) Yes -> D_980007418
+(353358909) Yes -> D_995620555
 (104430631) No -> INTROCURWORK
 < #NR -> INTROCURWORK>
 
@@ -2407,8 +2345,8 @@ Number of showers or baths per week |__|__|min=0 max=99|
 [D_828801156?] In a <b>usual week</b>, how many different workplaces did you commute to? If you commuted to multiple locations for the same employer, please count all locations <b>separately</b>.
 (759356722) One
 (185036360) More than one
-(684900118) I did <b>not</b> commute to work -> D_980007418
-< #NR -> D_980007418>
+(684900118) I did <b>not</b> commute to work -> D_995620555
+< #NR -> D_995620555>
 
 [D_596318751?] What is the name and the street address of the workplace that you commuted to most often?
 Name of Employer/Company |__|id=D_411791779|
@@ -2601,18 +2539,18 @@ Month |__|__|min=0 max=12|
 (334390252) 5 days per week
 (300863887) 6 days per week
 (252853790) 7 days per week
-< #NR -> D_980007418>
+< #NR -> D_995620555>
 
 [PAST_WORK_COMMUTE] <b>Work Commutes in the Past</b>
-
-[D_980007418?] Thinking of your longest held occupation, did your daily responsibilities involve driving (such as a sales representative, courier, bus driver, or truck driver)?
-(353358909) Yes -> INTROCURSCH
-(104430631) No
 
 [D_995620555?] In the <b>past 20 years</b>, did you commute from your home to a job <b>at least once a week for at least one year</b>?
 (353358909) Yes
 (104430631) No -> INTROCURSCH
 < #NR -> INTROCURSCH>
+
+[D_980007418?] Thinking of your longest held occupation, did your daily responsibilities involve driving (such as a sales representative, courier, bus driver, or truck driver)?
+(353358909) Yes -> INTROCURSCH
+(104430631) No
 
 [INTROPREWORK] The next questions are about the place where you worked for the longest time in the <b>past 20 years</b>, and your commute between the place where you worked and home.
 
@@ -2977,4 +2915,3 @@ Year |__|__|__|__|id=D_770959058 min=0 max=#currentYear|
 < #NR -> END >
 
 [END] Thank you for completing this section of the survey.
-
