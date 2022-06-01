@@ -18,7 +18,7 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Thu Apr 28 15:30:01 2022 -0400 (short timestamp = 2022-04-28-19-30-01)
+//This file was last modified on Tue May 31 22:57:43 2022 -0400 (short timestamp = 2022-06-01-02-57-43)
 {"name":"D_745268907"} [INTROM2] In this set of questions we ask about a few topics that affect your health. These topics include your current and past use of medications, your physical activity (including exercise), and your sleep habits.
 
 |displayif=or(equals(D_407056417,536341288),and(equals(D_407056417,576796184),or(equals(D_750420077,578416151),equals(D_750420077,434651539))))|We also ask some questions about your reproductive health. These questions will focus mainly on your menstrual periods, pregnancies, and if you have used any hormonal medications.|
@@ -603,11 +603,11 @@ First, we ask you some questions about your menstrual health.
 How old were you when you had your <b>first</b> menstrual period? Please make your best guess if you are not sure.
 
 Age |__|__|id=D_969451837 min=0 max=sum(isDefined(D_150344905,age),1)|
-[648960871*] Never -> D_547633480
+[648960871*] I have never had a menstrual period -> D_547633480
 < #NR -> D_547633480 >
 
 [D_167997205?] How long after your first menstrual period did your periods become regular? By regular, we mean that you could predict the start of your next period within a few days.
-(648960871) Never -> D_164595895
+(648960871) Never became regular -> D_164595895
 (868025301) Within 1 year -> D_972593606
 (939110313) 1 to 2 years -> D_972593606
 (410083265) More than 2 years to 3 years -> D_972593606
@@ -716,13 +716,13 @@ What was the outcome of this pregnancy?
 (936573532) Vaginal
 
 [D_486574018?,displayif=or(and(equals(D_849945160,353358909),greaterThan(D_405571048,#loop)),and(doesNotEqual(D_849945160,353358909),greaterThanOrEqual(D_405571048,#loop)))]
-|displayif=or(equals(D_391951010,223216393),equals(D_391951010,628445697))|Did you |popup|breastfeed|breastfeed|Using a breast pump to express breastmilk, sometimes called "exclusively pumping," counts as breastfeeding.| ||displayif=equals(D_391951010,223216393)|this child||displayif=equals(D_391951010,628445697)|these children||displayif=or(equals(D_391951010,223216393),equals(D_391951010,628445697))|? If you are currently breastfeeding, select yes.| |displayif=equals(D_391951010,306890578)|Did you breastfeed? If you are currently breastfeeding, select yes.|
+|displayif=or(equals(D_391951010,223216393),equals(D_391951010,628445697))|Did you |popup|breastfeed|breastfeed|Using a breast pump to express breastmilk, sometimes called "exclusively pumping," counts as breastfeeding.| ||displayif=equals(D_391951010,223216393)|this child||displayif=equals(D_391951010,628445697)|these children||displayif=or(equals(D_391951010,223216393),equals(D_391951010,628445697))|? If you are currently breastfeeding, select yes.| |displayif=equals(D_391951010,306890578)|Did you |popup|breastfeed|breastfeed|Using a breast pump to express breastmilk, sometimes called "exclusively pumping," counts as breastfeeding.|? If you are currently breastfeeding, select yes.|
 (353358909) Yes -> D_278277373
 (104430631) No -> D_779052408
 < #NR -> D_779052408 >
 
 [D_278277373?,displayif=or(and(equals(D_849945160,353358909),greaterThan(D_405571048,#loop)),and(doesNotEqual(D_849945160,353358909),greaterThanOrEqual(D_405571048,#loop)))]
-|displayif=or(equals(D_391951010,223216393),equals(D_391951010,628445697))|How many months did you breastfeed ||displayif=equals(D_391951010,223216393)|this child||displayif=equals(D_391951010,628445697)|these children||displayif=or(equals(D_391951010,223216393),equals(D_391951010,628445697))|? If you are currently breastfeeding, please tell us the number of months you have been breastfeeding so far.| |displayif=equals(D_391951010,306890578)|How many months did you breastfeed? If you are currently breastfeeding, please tell us the number of months you have been breastfeeding so far.|
+|displayif=or(equals(D_391951010,223216393),equals(D_391951010,628445697))|How many months did you |popup|breastfeed|breastfeed|Using a breast pump to express breastmilk, sometimes called "exclusively pumping," counts as breastfeeding.| ||displayif=equals(D_391951010,223216393)|this child||displayif=equals(D_391951010,628445697)|these children||displayif=or(equals(D_391951010,223216393),equals(D_391951010,628445697))|? If you are currently breastfeeding, please tell us the number of months you have been breastfeeding so far.| |displayif=equals(D_391951010,306890578)|How many months did you |popup|breastfeed|breastfeed|Using a breast pump to express breastmilk, sometimes called "exclusively pumping," counts as breastfeeding.|? If you are currently breastfeeding, please tell us the number of months you have been breastfeeding so far.|
 #Months breastfed |__|__|min=0 max=99|
 
 
