@@ -16,7 +16,7 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Fri May 27 14:48:58 2022 -0400 (short timestamp = 2022-05-27-18-48-58)
+//This file was last modified on Wed Jun 8 14:54:59 2022 -0400 (short timestamp = 2022-06-08-18-54-59)
 {"name":"D_716117817"}
 
 [INTROM4] The questions in this section are about places where you have lived and worked. Where we live and our daily commute to and from our homes, work, and school can affect our health in a number of ways.
@@ -2116,7 +2116,8 @@ Zip code |__|__|id=D_286781627 min=0|
 Country |__|id=D_733929451|
 < #NR -> D_264797252>
 
-[D_264797252?,displayif=and(equals(isDefined(D_720221117,-1),-1),and(or(or(isNotDefined(D_128827522,false),isNotDefined(D_439447560,false)),isNotDefined(D_720221117,true)),or(isNotDefined(D_286781627,false),isNotDefined(D_733929451,false))))] Please provide the following information:
+[D_264797252?,displayif=and(equals(isDefined(D_720221117,-1),-1),and(or(isNotDefined(D_128827522,false),isNotDefined(D_439447560,false)),or(isNotDefined(D_286781627,false),isNotDefined(D_733929451,false)))]
+Please provide the following information:
 City: |displayif=exists("D_128827522")|{$D_128827522}|
 |__|id=D_890792569 displayif=doesNotExist("D_128827522")|
 
@@ -2483,18 +2484,18 @@ Month |__|__|min=0 max=12|
 
 [CURWORKT10] Thinking about the <b>one-way</b> trip from |displayif=or(equals(isNotDefined(D_493984171,""),false),or(equals(isNotDefined(D_253017624,""),false),or(equals(isNotDefined(D_404141282,""),false),or(equals(isNotDefined(D_959804472,""),false),or(equals(isNotDefined(D_583500714,""),false),or(equals(isNotDefined(D_774707280,""),false),or(equals(isNotDefined(D_742105146,""),false),or(equals(isNotDefined(D_182144476,""),false),or(equals(isNotDefined(D_101341673,""),false),or(equals(isNotDefined(D_294634899,""),false),equals(isNotDefined(D_237204853,""),false)))))))))))|{$D_510435329} {$D_520264332} {$D_493984171} {$D_253017624} {$D_404141282} {$D_959804472} {$D_583500714} {$D_774707280} {$D_742105146} {$D_182144476} {$D_101341673} {$D_294634899} {$D_237204853}||displayif=and(equals(isNotDefined(D_493984171,""),true),and(equals(isNotDefined(D_253017624,""),true),and(equals(isNotDefined(D_404141282,""),true),and(equals(isNotDefined(D_959804472,""),true),and(equals(isNotDefined(D_583500714,""),true),and(equals(isNotDefined(D_774707280,""),true),and(equals(isNotDefined(D_742105146,""),true),and(equals(isNotDefined(D_182144476,""),true),and(equals(isNotDefined(D_101341673,""),true),and(equals(isNotDefined(D_294634899,""),true),equals(isNotDefined(D_237204853,""),true)))))))))))|this address| to your home on a usual workday, about how much time did you usually spend in each type of transportation?
 
-//IF CURWORKT7=NO, then display rows ONLY for responses marked in CURWORKT9.
-//IF CURWORKT8=NO, then also display responses marked in CURWORKT2.
+//IF CURWORKT7=NO or NR, then display rows ONLY for responses marked in CURWORKT9.
+//IF CURWORKT8 is asked and CURWORKT8=NO or NR, then also display responses marked in CURWORKT2.
 
 |grid?|id="D_786253125" |Typical WORKDAY|[
-[D_659799855,displayif=or(and(doesNotEqual(D_684542266,353358909),equals(D_404697804,581991828)),and(doesNotEqual(D_203943120,353358909),equals(D_635467479,158795242)))] Car, van, or truck (includes carpools or van pools);
-[D_552410034,displayif=or(and(doesNotEqual(D_684542266,353358909),equals(D_404697804,846844103)),and(doesNotEqual(D_203943120,353358909),equals(D_635467479,443596662)))] Taxicab (includes, Uber, Lyft, or hired car);
-[D_772382520,displayif=or(and(doesNotEqual(D_684542266,353358909),equals(D_404697804,660927579)),and(doesNotEqual(D_203943120,353358909),equals(D_635467479,892894242)))] Motorcycle;
-[D_146307133,displayif=or(and(doesNotEqual(D_684542266,353358909),equals(D_404697804,940452831)),and(doesNotEqual(D_203943120,353358909),equals(D_635467479,177539753)))] Bus or streetcar/trolley, light rail/trolley;
-[D_100591237,displayif=or(and(doesNotEqual(D_684542266,353358909),equals(D_404697804,669359763)),and(doesNotEqual(D_203943120,353358909),equals(D_635467479,107659596)))] Commuter rail, subway, metro;
-[D_823402922,displayif=or(and(doesNotEqual(D_684542266,353358909),equals(D_404697804,950972496)),and(doesNotEqual(D_203943120,353358909),equals(D_635467479,575883949)))] Bicycle;
-[D_289302451,displayif=or(and(doesNotEqual(D_684542266,353358909),equals(D_404697804,137216656)),and(doesNotEqual(D_203943120,353358909),equals(D_635467479,248168118)))] Walking;
-[D_419151253,displayif=or(and(doesNotEqual(D_684542266,353358909),equals(D_404697804,244488084)),and(doesNotEqual(D_203943120,353358909),equals(D_635467479,509121242)))] Other;] //This should show the text typed in for Other but that is not currently supported
+[D_659799855,displayif=or(and(doesNotEqual(D_684542266,353358909),equals(D_404697804,581991828)),and(and(doesNotEqual(D_203943120,353358909),equals(D_635467479,158795242)),equals(D_684542266,353358909)))] Car, van, or truck (includes carpools or van pools);
+[D_552410034,displayif=or(and(doesNotEqual(D_684542266,353358909),equals(D_404697804,846844103)),and(and(doesNotEqual(D_203943120,353358909),equals(D_635467479,443596662)),equals(D_684542266,353358909)))] Taxicab (includes, Uber, Lyft, or hired car);
+[D_772382520,displayif=or(and(doesNotEqual(D_684542266,353358909),equals(D_404697804,660927579)),and(and(doesNotEqual(D_203943120,353358909),equals(D_635467479,892894242)),equals(D_684542266,353358909)))] Motorcycle;
+[D_146307133,displayif=or(and(doesNotEqual(D_684542266,353358909),equals(D_404697804,940452831)),and(and(doesNotEqual(D_203943120,353358909),equals(D_635467479,177539753)),equals(D_684542266,353358909)))] Bus or streetcar/trolley, light rail/trolley;
+[D_100591237,displayif=or(and(doesNotEqual(D_684542266,353358909),equals(D_404697804,669359763)),and(and(doesNotEqual(D_203943120,353358909),equals(D_635467479,107659596)),equals(D_684542266,353358909)))] Commuter rail, subway, metro;
+[D_823402922,displayif=or(and(doesNotEqual(D_684542266,353358909),equals(D_404697804,950972496)),and(and(doesNotEqual(D_203943120,353358909),equals(D_635467479,575883949)),equals(D_684542266,353358909)))] Bicycle;
+[D_289302451,displayif=or(and(doesNotEqual(D_684542266,353358909),equals(D_404697804,137216656)),and(and(doesNotEqual(D_203943120,353358909),equals(D_635467479,248168118)),equals(D_684542266,353358909)))] Walking;
+[D_419151253,displayif=or(and(doesNotEqual(D_684542266,353358909),equals(D_404697804,244488084)),and(and(doesNotEqual(D_203943120,353358909),equals(D_635467479,509121242)),equals(D_684542266,353358909)))] Other;] //This should show the text typed in for Other but that is not currently supported
 |
 (428999623:15 minutes or less)
 (248303092:16 to 30 minutes)
