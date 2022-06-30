@@ -16,7 +16,7 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Thu Jun 2 13:16:56 2022 -0400 (short timestamp = 2022-06-02-17-16-56)
+//This file was last modified on Wed Jun 15 16:17:30 2022 -0400 (short timestamp = 2022-06-15-20-17-30)
 {"name":"D_726699695"} [INTROM1] Welcome, {$u:firstName}! This survey is split into sections. Each section has questions that ask you about a wide range of topics. Our goal is to collect information about your medical history, family, work, and health behaviors. You can answer all of the questions in each survey section at one time, or answer some questions, pause, and return to answer the rest later. If you pause, your answers will be saved and you can pick up where you left off. You can also skip any questions that you do not want to answer.
 For some questions, you may see a word or phrase that appears as a button. Clicking the button will show more information that might help you answer the question. Here is an |popup|example.|example|This is an example of how additional information will be displayed.|
 Let’s get started.
@@ -26,10 +26,7 @@ Let’s get started.
 Please remember that we protect your privacy. We remove information that can identify you from your survey answers before we share them with researchers.
 
 
-[SECTION1]
-<b>Background Information</b>
-
-[D_479353866!] To start, please tell us a bit about yourself.
+[D_479353866!]<b>Background Information</b> <br/> <br/> To start, please tell us a bit about yourself.
 
 Based on the information you provided when you enrolled in this study, you are {$u:age} years old today. Is that correct?
 (104430631) No -> D_150344905
@@ -1007,9 +1004,7 @@ Over the <b>past three months</b>, have you felt any physical pain on most days?
 (597477164) A lot
 < #NR -> D_746012894 >
 
-[HEIGHTWEIGHT] <b>Height and weight</b>
-
-[D_746012894?] How much do you weigh without clothes or shoes on? |displayif=or(equals(D_407056417,536341288),equals(D_407056417,576796184))|If you are pregnant, how much did you weigh before your pregnancy?|
+[D_746012894?] <b>Height and weight</b> <br/> <br/> How much do you weigh without clothes or shoes on? |displayif=or(equals(D_407056417,536341288),equals(D_407056417,576796184))|If you are pregnant, how much did you weigh before your pregnancy?|
 |__|__|__|min=0 max=999 softedit=true modalif=value<70 modalvalue='Is this weight correct?'| #Pounds (lbs)
 < #NR -> D_114314839 >
 
