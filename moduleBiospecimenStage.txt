@@ -123,8 +123,8 @@ The COVID-19 pandemic has been going on since 2020 in the United States. We have
 <loop max=25>
 [D_980800222!,displayif=greaterThanOrEqual(D_860011428,#loop)] When was the <b>{##}</b> time that you had COVID-19? If you are not sure, please make your best guess.
 
-Month |__|__|id=D_173502329 required min=1 max=12|
-Year |__|__|__|__|id=D_366972678 required min=2020 max=#currentYear|
+Month |__|__|id=D_173502329 required=true min=1 max=12|
+Year |__|__|__|__|id=D_366972678 required=true min=2020 max=#currentYear|
 // Month and Year drop down lists are not currently supported
 
 [D_366980310?,displayif=greaterThanOrEqual(D_860011428,#loop)] The {##} time you had COVID-19, did you test <b>positive</b>?
