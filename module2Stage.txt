@@ -1,4 +1,4 @@
-// This file was transformed using the mapping data in Quest-2022-06-02-15-12-05_Transformation.json.
+// This file was transformed using the mapping data in Quest-2022-08-01-19-21-50_Transformation.json.
 
 // JSON WARNING --> Concept ID 101310722 with concept "# Pills per day" is shared between these Textbox codes: [ACIDSUP3_1A, ACIDSUP3_2A, ACIDSUP3_3A, CHOLHTN3_1A, CHOLHTN3_2A, INSULIN3_1A, METFOR3_1A, PAINREL3_1A, PAINREL3_2A, PAINREL3_3A, PAINREL3_4A, PAINREL3_5A, PAINREL3_6A, PAINREL3_7A]
 // JSON WARNING --> Concept ID 206625031 with concept "Age at diagnosis" is shared between these Textbox codes: [ANEMIA_AGE, APPEND_AGE, ARRHYT_AGE, ASTHMA_AGE, BARESO_AGE, BARSUR_AGE, BLDTRANS3_AGE, BLDTRANS4_AGE, BLOODCLOT_AGE, BREASTDIS_AGE, CCD_AGE, CD_AGE, CHESTPAIN_AGE, CHF_AGE, CHILDCANC3A_AGE, CHILDCANC3B_AGE, CHILDCANC3C_AGE, CHILDCANC3D_AGE, CHILDCANC3E_AGE, CHILDCANC3F_AGE, CHILDCANC3G_AGE, CHILDCANC3H_AGE, CHILDCANC3I_AGE, CHILDCANC3J_AGE, CHILDCANC3K_AGE, CHILDCANC3L_AGE, CHILDCANC3M_AGE, CHILDCANC3N_AGE, CHILDCANC3O_AGE, CHILDCANC3P_AGE, CHILDCANC3Q_AGE, CHILDCANC3R_AGE, CHILDCANC3S_AGE, CHILDCANC3T_AGE, CHILDCANC3U_AGE, CHILDCANC3V_AGE, CHILDCANC3W_AGE, CHILDCANC3X_AGE, CHILDCANC3Y_AGE, CHLA_AGE, CHOL_AGE, CKD_AGE, COPD_AGE, CVD_AGE, DADCANC3A_AGE, DADCANC3B_AGE, DADCANC3C_AGE, DADCANC3D_AGE, DADCANC3E_AGE, DADCANC3F_AGE, DADCANC3G_AGE, DADCANC3H_AGE, DADCANC3I_AGE, DADCANC3J_AGE, DADCANC3K_AGE, DADCANC3L_AGE, DADCANC3M_AGE, DADCANC3N_AGE, DADCANC3O_AGE, DADCANC3P_AGE, DADCANC3Q_AGE, DADCANC3R_AGE, DADCANC3S_AGE, DADCANC3T_AGE, DADCANC3U_AGE, DADCANC3V_AGE, DCIS_AGE, DEPRESS2_AGE, DIVERT_AGE, DM2_AGE, ENDO_AGE, ENLGPROS_AGE, FTREM2_AGE, GALLREM_AGE, GALL_AGE, GENWARTS_AGE, GERD_AGE, GONORR_AGE, GOUT_AGE, GRAVES_AGE, HAYFEVER_AGE, HBVHCV_AGE, HEARTATT_AGE, HEARTVALV_AGE, HIVAIDS_AGE, HPV_AGE, HTN_AGE, HYSTER_AGE, IBD_AGE, IBS_AGE, KIDNEY_AGE, LIPOSUCT_AGE, LIVCIRR_AGE, LUPUS_AGE, MOMCANC3A_AGE, MOMCANC3B_AGE, MOMCANC3C_AGE, MOMCANC3D_AGE, MOMCANC3E_AGE, MOMCANC3F_AGE, MOMCANC3G_AGE, MOMCANC3H_AGE, MOMCANC3I_AGE, MOMCANC3J_AGE, MOMCANC3K_AGE, MOMCANC3L_AGE, MOMCANC3M_AGE, MOMCANC3N_AGE, MOMCANC3O_AGE, MOMCANC3P_AGE, MOMCANC3Q_AGE, MOMCANC3R_AGE, MOMCANC3S_AGE, MOMCANC3T_AGE, MOMCANC3U_AGE, MOMCANC3V_AGE, MOMCANC3W_AGE, MONO_AGE, OVARYREM2_AGE, PANCREA_AGE, PCOS_AGE, PENREM_AGE, PROSREM2_AGE, RA_AGE, SHINGLES_AGE, SIBCANC3A_AGE, SIBCANC3B_AGE, SIBCANC3C_AGE, SIBCANC3D_AGE, SIBCANC3E_AGE, SIBCANC3F_AGE, SIBCANC3G_AGE, SIBCANC3H_AGE, SIBCANC3I_AGE, SIBCANC3J_AGE, SIBCANC3K_AGE, SIBCANC3L_AGE, SIBCANC3M_AGE, SIBCANC3N_AGE, SIBCANC3O_AGE, SIBCANC3P_AGE, SIBCANC3Q_AGE, SIBCANC3R_AGE, SIBCANC3S_AGE, SIBCANC3T_AGE, SIBCANC3U_AGE, SIBCANC3V_AGE, SIBCANC3W_AGE, SIBCANC3X_AGE, SIBCANC3Y_AGE, SKINCANC3_AGE, STROKE_AGE, SYPH_AGE, TESTREM2_AGE, THYROID_AGE, TONSILS_AGE, TRICH_AGE, TUBLIG_AGE, UC_AGE, UF_AGE, VASEC_AGE]
@@ -16,7 +16,7 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Tue Jun 14 13:13:53 2022 -0400 (short timestamp = 2022-06-14-17-13-53)
+//This file was last modified on Sun Jul 31 14:00:38 2022 -0400 (short timestamp = 2022-07-31-18-00-38)
 {"name":"D_745268907"} [INTROM2] In this set of questions we ask about a few topics that affect your health. These topics include your current and past use of medications, your physical activity (including exercise), and your sleep habits.
 
 |displayif=or(equals(D_407056417,536341288),and(equals(D_407056417,576796184),or(equals(D_750420077,578416151),equals(D_750420077,434651539))))|We also ask some questions about your reproductive health. These questions will focus mainly on your menstrual periods, pregnancies, and if you have used any hormonal medications.|
@@ -2097,26 +2097,26 @@ We have some questions about your sleep schedule on workdays. Workdays include d
 
 // should these be drop-down increments? currently drop down isn't supported
 [D_636757313?]
-What time do you usually go to bed on |displayif=equals(D_591723682,353358909)|the nights before workdays||displayif=doesNotEqual(D_591723682,353358909)|most days|? Please tell us the time you usually get into your bed, <b>not the time you usually fall asleep.</b>
+What time do you usually go to bed on |displayif=equals(D_591723682,353358909)|the nights before workdays||displayif=doesNotEqual(D_591723682,353358909)|most days|? Please tell us the time you usually get into your bed, <b>not the time you usually fall asleep.</b> If you are using a phone or tablet, please tap the gray box to enter your response.
 
 |time|
 
 // should these be drop-down increments? currently drop down isn't supported
 [D_653906464?]
-On |displayif=equals(D_591723682,353358909)|the nights before workdays||displayif=doesNotEqual(D_591723682,353358909)|most nights|, how long does it usually take you to fall asleep? Select the number of minutes and/or hours using the drop-down options below.
+On |displayif=equals(D_591723682,353358909)|the nights before workdays||displayif=doesNotEqual(D_591723682,353358909)|most nights|, how long does it usually take you to fall asleep?
 
 # of Hours |__|__|id=D_707805344 min=0 max=9|
 # of Minutes |__|__|id=D_850393641 min=0 max=59|
 
 // should these be drop-down increments? currently drop down isn't supported
 [D_580367946?]
-What time do you usually wake up on |displayif=equals(D_591723682,353358909)|workdays||displayif=doesNotEqual(D_591723682,353358909)|most days|? Select your answer using the drop-down options below.
+What time do you usually wake up on |displayif=equals(D_591723682,353358909)|workdays||displayif=doesNotEqual(D_591723682,353358909)|most days|? Select your answer using the drop-down options below. If you are using a phone or tablet, please tap the gray box to enter your response.
 
 |time|
 
 // should these be drop-down increments? currently drop down isn't supported
 [D_358259099?]
-On |displayif=equals(D_591723682,353358909)|workdays||displayif=doesNotEqual(D_591723682,353358909)|most days|, how long do you usually lie in bed after you wake up before getting out of bed? Select the number of minutes and/or hours using the drop-down options below.
+On |displayif=equals(D_591723682,353358909)|workdays||displayif=doesNotEqual(D_591723682,353358909)|most days|, how long do you usually lie in bed after you wake up before getting out of bed?
 
 # of Hours |__|__|id=D_707805344  min=0 max=9|
 # of Minutes |__|__|id=D_850393641  min=0 max=59|
@@ -2133,7 +2133,7 @@ On |displayif=equals(D_591723682,353358909)|workdays||displayif=doesNotEqual(D_5
 (104430631) No
 
 [D_424807655?]
-Exposure to natural sunlight can affect your sleep patterns. During a usual |displayif=equals(D_591723682,353358909)|workday||displayif=doesNotEqual(D_591723682,353358909)|day|, about how much time do you spend outside in direct sunlight? Select the number of minutes and/or hours using the drop-down options below.
+Exposure to natural sunlight can affect your sleep patterns. During a usual |displayif=equals(D_591723682,353358909)|workday||displayif=doesNotEqual(D_591723682,353358909)|day|, about how much time do you spend outside in direct sunlight?
 
 # of Hours |__|__|id=D_707805344 min=0 max=24|
 
@@ -2145,13 +2145,13 @@ Next, we will ask you about your sleep schedule on non-workdays, which are the d
 
 // should these be drop-down increments? currently drop down isn't supported
 [D_823919522?,displayif=equals(D_591723682,353358909)]
-What time do you usually go to bed on the nights before non-workdays? Please tell us the time you usually get into your bed, <b>not the time you usually fall asleep.</b>
+What time do you usually go to bed on the nights before non-workdays? Please tell us the time you usually get into your bed, <b>not the time you usually fall asleep.</b> If you are using a phone or tablet, please tap the gray box to enter your response.
 
 |time|
 
 // should these be drop-down increments? currently drop down isn't supported
 [D_532767229?,displayif=equals(D_591723682,353358909)]
-On nights before non-workdays, how long does it usually take you to fall asleep? Select the number of minutes and/or hours using the drop-down options below.
+On nights before non-workdays, how long does it usually take you to fall asleep?
 
 # of Hours |__|__|id=D_707805344 min=0 max=9|
 
@@ -2159,12 +2159,12 @@ On nights before non-workdays, how long does it usually take you to fall asleep?
 
 // should these be drop-down increments? currently drop down isn't supported
 [D_698673038?,displayif=equals(D_591723682,353358909)]
-What time do you usually wake up on non-workdays?
+What time do you usually wake up on non-workdays? If you are using a phone or tablet, please tap the gray box to enter your response.
 
 |time|
 
 // should these be drop-down increments? currently drop down isn't supported
-[D_711365027?,displayif=equals(D_591723682,353358909)] On non-workdays, how long do you usually lie in bed after you wake up before getting out of bed? Select the number of minutes and/or hours using the drop-down options below.
+[D_711365027?,displayif=equals(D_591723682,353358909)] On non-workdays, how long do you usually lie in bed after you wake up before getting out of bed?
 
 # of Hours |__|__|id=D_707805344 min=0 max=9|
 
@@ -2185,7 +2185,7 @@ Do you use an alarm clock to wake up on non-workdays?
 (104430631) No
 
 // should these be drop-down increments? currently drop down isn't supported
-[D_825227968?,displayif=equals(D_591723682,353358909)] Exposure to natural sunlight can affect your sleep patterns. During a usual non-workday, about how much time do you spend outside in direct sunlight? Select the number of minutes and/or hours using the drop-down options below.
+[D_825227968?,displayif=equals(D_591723682,353358909)] Exposure to natural sunlight can affect your sleep patterns. During a usual non-workday, about how much time do you spend outside in direct sunlight?
 
 # of Hours |__|__|id=D_707805344 min=0 max=24|
 
@@ -2307,14 +2307,14 @@ Have you worked as a |popup|shift worker|Shift work is work that takes place on 
 < -> END >
 
 // should these be drop-down increments? currently drop down isn't supported
-[D_195662769?] |displayif=equals(D_674976924,958538953)|W||displayif=equals(D_674976924,274062548)|When you were a shift worker, w|hat time |displayif=equals(D_674976924,958538953)|does||displayif=equals(D_674976924,274062548)|did| your usual work shift start?
+[D_195662769?] |displayif=equals(D_674976924,958538953)|W||displayif=equals(D_674976924,274062548)|When you were a shift worker, w|hat time |displayif=equals(D_674976924,958538953)|does||displayif=equals(D_674976924,274062548)|did| your usual work shift start? If you are using a phone or tablet, please tap the gray box to enter your response.
 
 |time|
 
 < -> D_214870856 >
 
 // should these be drop-down increments? currently drop down isn't supported
-[D_214870856?] |displayif=equals(D_674976924,958538953)|W||displayif=equals(D_674976924,274062548)|When you were a shift worker, w|hat time |displayif=equals(D_674976924,958538953)|does||displayif=equals(D_674976924,274062548)|did| your usual work shift end?
+[D_214870856?] |displayif=equals(D_674976924,958538953)|W||displayif=equals(D_674976924,274062548)|When you were a shift worker, w|hat time |displayif=equals(D_674976924,958538953)|does||displayif=equals(D_674976924,274062548)|did| your usual work shift end? If you are using a phone or tablet, please tap the gray box to enter your response.
 
 |time|
 
@@ -2342,5 +2342,5 @@ Year |__|__|__|__|xor=SHIFTWORK10 id=D_120485458|
 
 
 
-[END,end]  Thank you for completing this section of the survey.
+[END,end]  Thank you for submitting your survey. If you are using a shared device, please remember to log out of the MyConnect app and any email accounts you have open.
 
