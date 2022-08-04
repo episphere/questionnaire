@@ -1,4 +1,4 @@
-// This file was transformed using the mapping data in Quest-2022-06-02-15-12-05_Transformation.json.
+// This file was transformed using the mapping data in Quest-2022-08-01-19-21-50_Transformation.json.
 
 // JSON WARNING --> Concept ID 101310722 with concept "# Pills per day" is shared between these Textbox codes: [ACIDSUP3_1A, ACIDSUP3_2A, ACIDSUP3_3A, CHOLHTN3_1A, CHOLHTN3_2A, INSULIN3_1A, METFOR3_1A, PAINREL3_1A, PAINREL3_2A, PAINREL3_3A, PAINREL3_4A, PAINREL3_5A, PAINREL3_6A, PAINREL3_7A]
 // JSON WARNING --> Concept ID 206625031 with concept "Age at diagnosis" is shared between these Textbox codes: [ANEMIA_AGE, APPEND_AGE, ARRHYT_AGE, ASTHMA_AGE, BARESO_AGE, BARSUR_AGE, BLDTRANS3_AGE, BLDTRANS4_AGE, BLOODCLOT_AGE, BREASTDIS_AGE, CCD_AGE, CD_AGE, CHESTPAIN_AGE, CHF_AGE, CHILDCANC3A_AGE, CHILDCANC3B_AGE, CHILDCANC3C_AGE, CHILDCANC3D_AGE, CHILDCANC3E_AGE, CHILDCANC3F_AGE, CHILDCANC3G_AGE, CHILDCANC3H_AGE, CHILDCANC3I_AGE, CHILDCANC3J_AGE, CHILDCANC3K_AGE, CHILDCANC3L_AGE, CHILDCANC3M_AGE, CHILDCANC3N_AGE, CHILDCANC3O_AGE, CHILDCANC3P_AGE, CHILDCANC3Q_AGE, CHILDCANC3R_AGE, CHILDCANC3S_AGE, CHILDCANC3T_AGE, CHILDCANC3U_AGE, CHILDCANC3V_AGE, CHILDCANC3W_AGE, CHILDCANC3X_AGE, CHILDCANC3Y_AGE, CHLA_AGE, CHOL_AGE, CKD_AGE, COPD_AGE, CVD_AGE, DADCANC3A_AGE, DADCANC3B_AGE, DADCANC3C_AGE, DADCANC3D_AGE, DADCANC3E_AGE, DADCANC3F_AGE, DADCANC3G_AGE, DADCANC3H_AGE, DADCANC3I_AGE, DADCANC3J_AGE, DADCANC3K_AGE, DADCANC3L_AGE, DADCANC3M_AGE, DADCANC3N_AGE, DADCANC3O_AGE, DADCANC3P_AGE, DADCANC3Q_AGE, DADCANC3R_AGE, DADCANC3S_AGE, DADCANC3T_AGE, DADCANC3U_AGE, DADCANC3V_AGE, DCIS_AGE, DEPRESS2_AGE, DIVERT_AGE, DM2_AGE, ENDO_AGE, ENLGPROS_AGE, FTREM2_AGE, GALLREM_AGE, GALL_AGE, GENWARTS_AGE, GERD_AGE, GONORR_AGE, GOUT_AGE, GRAVES_AGE, HAYFEVER_AGE, HBVHCV_AGE, HEARTATT_AGE, HEARTVALV_AGE, HIVAIDS_AGE, HPV_AGE, HTN_AGE, HYSTER_AGE, IBD_AGE, IBS_AGE, KIDNEY_AGE, LIPOSUCT_AGE, LIVCIRR_AGE, LUPUS_AGE, MOMCANC3A_AGE, MOMCANC3B_AGE, MOMCANC3C_AGE, MOMCANC3D_AGE, MOMCANC3E_AGE, MOMCANC3F_AGE, MOMCANC3G_AGE, MOMCANC3H_AGE, MOMCANC3I_AGE, MOMCANC3J_AGE, MOMCANC3K_AGE, MOMCANC3L_AGE, MOMCANC3M_AGE, MOMCANC3N_AGE, MOMCANC3O_AGE, MOMCANC3P_AGE, MOMCANC3Q_AGE, MOMCANC3R_AGE, MOMCANC3S_AGE, MOMCANC3T_AGE, MOMCANC3U_AGE, MOMCANC3V_AGE, MOMCANC3W_AGE, MONO_AGE, OVARYREM2_AGE, PANCREA_AGE, PCOS_AGE, PENREM_AGE, PROSREM2_AGE, RA_AGE, SHINGLES_AGE, SIBCANC3A_AGE, SIBCANC3B_AGE, SIBCANC3C_AGE, SIBCANC3D_AGE, SIBCANC3E_AGE, SIBCANC3F_AGE, SIBCANC3G_AGE, SIBCANC3H_AGE, SIBCANC3I_AGE, SIBCANC3J_AGE, SIBCANC3K_AGE, SIBCANC3L_AGE, SIBCANC3M_AGE, SIBCANC3N_AGE, SIBCANC3O_AGE, SIBCANC3P_AGE, SIBCANC3Q_AGE, SIBCANC3R_AGE, SIBCANC3S_AGE, SIBCANC3T_AGE, SIBCANC3U_AGE, SIBCANC3V_AGE, SIBCANC3W_AGE, SIBCANC3X_AGE, SIBCANC3Y_AGE, SKINCANC3_AGE, STROKE_AGE, SYPH_AGE, TESTREM2_AGE, THYROID_AGE, TONSILS_AGE, TRICH_AGE, TUBLIG_AGE, UC_AGE, UF_AGE, VASEC_AGE]
@@ -16,14 +16,14 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Mon Jun 13 09:22:54 2022 -0400 (short timestamp = 2022-06-13-13-22-54)
+//This file was last modified on Wed Aug 3 11:21:39 2022 -0400 (short timestamp = 2022-08-03-15-21-39)
 {"name":"D_716117817"}
 
 [INTROM4] The questions in this section are about places where you have lived and worked. Where we live and our daily commute to and from our homes, work, and school can affect our health in a number of ways.
 
 [SECTION1] <b>Residential History</b>
 
-[INTRORH] The next questions ask about where you live now and where you have lived in the past. It is important that you share exact addresses, if possible. If you cannot remember your full address, please share as much information as you can.
+[INTRORH] The next questions ask about where you live now and where you have lived in the past. The first questions are about the home(s) where you live most of the time. Questions about seasonal and vacation homes are at the end of this section. It is important that you share exact addresses, if possible. If you cannot remember your full address, please share as much information as you can.
 
 You can include rural routes (RR) in your answers, but please do <b>not</b> include post office (PO) boxes.
 
@@ -34,7 +34,7 @@ Full Street name |__|id=D_945532934|
 Apartment, suite, unit, building, etc. |__|__|id=D_469838242|
 City |__|id=D_303500597|
 State/Province |__|id=D_195068098|
-Zip code |__|__|id=D_202784871 min=0|
+Zip code |__|id=D_202784871|
 Country |__|id=D_831127170|
 
 [D_920576363?,displayif=or(or(isNotDefined(D_303500597,false),isNotDefined(D_195068098,false)),or(isNotDefined(D_202784871,false),isNotDefined(D_831127170,false)))] Please provide the following information:
@@ -45,7 +45,7 @@ State/Province: |displayif=exists("D_195068098")| {$D_195068098}|
 |__|id=D_917021073 displayif=doesNotExist("D_195068098")|
 
 Zip code: |displayif=exists("D_202784871") | {$D_202784871}|
-|__|id=D_970000442 min=0 displayif=doesNotExist("D_202784871")|
+|__|id=D_970000442 displayif=doesNotExist("D_202784871")|
 
 Country: |displayif=exists("D_831127170")| {$D_831127170}|
 |__|id=D_500100435 displayif=doesNotExist("D_831127170")|
@@ -79,7 +79,7 @@ Full Street name |__|id=D_111275683|
 Apartment, suite, unit, building, etc. |__|__|id=D_129226572|
 City |__|id=D_536516743|
 State/Province |__|id=D_283900560|
-Zip code |__|__|id=D_467947502 min=0|
+Zip code |__|id=D_467947502|
 Country |__|id=D_368486703|
 
 [D_444145120?,displayif=or(or(isNotDefined(D_536516743,false),isNotDefined(D_283900560,false)),or(isNotDefined(D_467947502,false),isNotDefined(D_368486703,false)))] Please provide the following information:
@@ -90,7 +90,7 @@ State/Province: |displayif=exists("D_283900560")| {$D_283900560}|
 |__|id=D_195845897 displayif=doesNotExist("D_283900560")|
 
 Zip code: |displayif=exists("D_467947502") | {$D_467947502}|
-|__|id=D_936129960 min=0 displayif=doesNotExist("D_467947502")|
+|__|id=D_936129960 displayif=doesNotExist("D_467947502")|
 
 Country: |displayif=exists("D_368486703")| {$D_368486703}|
 |__|id=D_924583345 displayif=doesNotExist("D_368486703")|
@@ -127,7 +127,7 @@ Full Street name |__|id=D_645150792|
 Apartment, suite, unit, building, etc. |__|__|id=D_585360350|
 City |__|id=D_588699608|
 State/Province |__|id=D_544692849|
-Zip code |__|__|id=D_335435992 min=0|
+Zip code |__|id=D_335435992|
 Country |__|id=D_337088272|
 
 [D_752101258?,displayif=or(or(isNotDefined(D_588699608,false),isNotDefined(D_544692849,false)),or(isNotDefined(D_335435992,false),isNotDefined(D_337088272,false)))] Please provide the following information:
@@ -138,7 +138,7 @@ State/Province: |displayif=exists("D_544692849")| {$D_544692849}|
 |__|id=D_300933270 displayif=doesNotExist("D_544692849")|
 
 Zip code: |displayif=exists("D_335435992") | {$D_335435992}|
-|__|id=D_649864362 min=0 displayif=doesNotExist("D_335435992")|
+|__|id=D_649864362 displayif=doesNotExist("D_335435992")|
 
 Country: |displayif=exists("D_337088272")| {$D_337088272}|
 |__|id=D_723108194 displayif=doesNotExist("D_337088272")|
@@ -175,7 +175,7 @@ Full Street name |__|id=D_563832508|
 Apartment, suite, unit, building, etc. |__|__|id=D_817839081|
 City |__|id=D_930511603|
 State/Province |__|id=D_756548442|
-Zip code |__|__|id=D_455968200 min=0|
+Zip code |__|id=D_455968200|
 Country |__|id=D_728704613|
 
 [D_879180101?,displayif=or(or(isNotDefined(D_930511603,false),isNotDefined(D_756548442,false)),or(isNotDefined(D_455968200,false),isNotDefined(D_728704613,false)))] Please provide the following information:
@@ -186,7 +186,7 @@ State/Province: |displayif=exists("D_756548442")| {$D_756548442}|
 |__|id=D_486511102 displayif=doesNotExist("D_756548442")|
 
 Zip code: |displayif=exists("D_455968200") | {$D_455968200}|
-|__|id=D_267027102 min=0 displayif=doesNotExist("D_455968200")|
+|__|id=D_267027102 displayif=doesNotExist("D_455968200")|
 
 Country: |displayif=exists("D_728704613")| {$D_728704613}|
 |__|id=D_734345879 displayif=doesNotExist("D_728704613")|
@@ -219,7 +219,7 @@ Full Street name |__|id=D_565515774|
 Apartment, suite, unit, building, etc. |__|__|id=D_848348504|
 City |__|id=D_742177990|
 State/Province |__|id=D_843508307|
-Zip code |__|__|id=D_554901696 min=0|
+Zip code |__|id=D_554901696|
 Country |__|id=D_819429013|
 
 [D_212343294?,displayif=or(or(isNotDefined(D_742177990,false),isNotDefined(D_843508307,false)),or(isNotDefined(D_554901696,false),isNotDefined(D_819429013,false)))] Please provide the following information:
@@ -230,7 +230,7 @@ State/Province: |displayif=exists("D_843508307")| {$D_843508307}|
 |__|id=D_348049244 displayif=doesNotExist("D_843508307")|
 
 Zip code: |displayif=exists("D_554901696") | {$D_554901696}|
-|__|id=D_684217044 min=0 displayif=doesNotExist("D_554901696")|
+|__|id=D_684217044 displayif=doesNotExist("D_554901696")|
 
 Country: |displayif=exists("D_819429013")| {$D_819429013}|
 |__|id=D_600319581 displayif=doesNotExist("D_819429013")|
@@ -264,7 +264,7 @@ Full Street name |__|id=D_819844467|
 Apartment, suite, unit, building, etc. |__|__|id=D_164233037|
 City |__|id=D_418702418|
 State/Province |__|id=D_101219440|
-Zip code |__|__|id=D_127963610 min=0|
+Zip code |__|id=D_127963610|
 Country |__|id=D_882731998|
 
 [D_255474241?,displayif=or(or(isNotDefined(D_418702418,false),isNotDefined(D_101219440,false)),or(isNotDefined(D_127963610,false),isNotDefined(D_882731998,false)))] Please provide the following information:
@@ -275,7 +275,7 @@ State/Province: |displayif=exists("D_101219440")| {$D_101219440}|
 |__|id=D_394294282 displayif=doesNotExist("D_101219440")|
 
 Zip code: |displayif=exists("D_127963610") | {$D_127963610}|
-|__|id=D_803526907 min=0 displayif=doesNotExist("D_127963610")|
+|__|id=D_803526907 displayif=doesNotExist("D_127963610")|
 
 Country: |displayif=exists("D_882731998")| {$D_882731998}|
 |__|id=D_941168091 displayif=doesNotExist("D_882731998")|
@@ -309,7 +309,7 @@ Full Street name |__|id=D_903490632|
 Apartment, suite, unit, building, etc. |__|__|id=D_906119853|
 City |__|id=D_703944664|
 State/Province |__|id=D_390463636|
-Zip code |__|__|id=D_256790385 min=0|
+Zip code |__|id=D_256790385|
 Country |__|id=D_915222355|
 
 [D_201906316?,displayif=or(or(isNotDefined(D_703944664,false),isNotDefined(D_390463636,false)),or(isNotDefined(D_256790385,false),isNotDefined(D_915222355,false)))] Please provide the following information:
@@ -320,7 +320,7 @@ State/Province: |displayif=exists("D_390463636")| {$D_390463636}|
 |__|id=D_605344820 displayif=doesNotExist("D_390463636")|
 
 Zip code: |displayif=exists("D_256790385") | {$D_256790385}|
-|__|id=D_814644814 min=0 displayif=doesNotExist("D_256790385")|
+|__|id=D_814644814 displayif=doesNotExist("D_256790385")|
 
 Country: |displayif=exists("D_915222355")| {$D_915222355}|
 |__|id=D_627992821 displayif=doesNotExist("D_915222355")|
@@ -353,7 +353,7 @@ Full Street name |__|id=D_438475588|
 Apartment, suite, unit, building, etc. |__|__|id=D_194165243|
 City |__|id=D_744290061|
 State/Province |__|id=D_516936572|
-Zip code |__|__|id=D_673034401 min=0|
+Zip code |__|id=D_673034401|
 Country |__|id=D_489019597|
 
 [D_864213677?,displayif=or(or(isNotDefined(D_744290061,false),isNotDefined(D_516936572,false)),or(isNotDefined(D_673034401,false),isNotDefined(D_489019597,false)))] Please provide the following information:
@@ -364,7 +364,7 @@ State/Province: |displayif=exists("D_516936572")| {$D_516936572}|
 |__|id=D_463064782 displayif=doesNotExist("D_516936572")|
 
 Zip code: |displayif=exists("D_673034401") | {$D_673034401}|
-|__|id=D_865310914 min=0 displayif=doesNotExist("D_673034401")|
+|__|id=D_865310914 displayif=doesNotExist("D_673034401")|
 
 Country: |displayif=exists("D_489019597")| {$D_489019597}|
 |__|id=D_900377581 displayif=doesNotExist("D_489019597")|
@@ -397,7 +397,7 @@ Full Street name |__|id=D_709374950|
 Apartment, suite, unit, building, etc. |__|__|id=D_853931010|
 City |__|id=D_351559021|
 State/Province |__|id=D_290370013|
-Zip code |__|__|id=D_453691095 min=0|
+Zip code |__|id=D_453691095|
 Country |__|id=D_202104231|
 
 [D_964853797?,displayif=or(or(isNotDefined(D_351559021,false),isNotDefined(D_290370013,false)),or(isNotDefined(D_453691095,false),isNotDefined(D_202104231,false)))] Please provide the following information:
@@ -408,7 +408,7 @@ State/Province: |displayif=exists("D_290370013")| {$D_290370013}|
 |__|id=D_487043303 displayif=doesNotExist("D_290370013")|
 
 Zip code: |displayif=exists("D_453691095") | {$D_453691095}|
-|__|id=D_659122266 min=0 displayif=doesNotExist("D_453691095")|
+|__|id=D_659122266 displayif=doesNotExist("D_453691095")|
 
 Country: |displayif=exists("D_202104231")| {$D_202104231}|
 |__|id=D_388427546 displayif=doesNotExist("D_202104231")|
@@ -441,7 +441,7 @@ Full Street name |__|id=D_666011940|
 Apartment, suite, unit, building, etc. |__|__|id=D_981594981|
 City |__|id=D_282089547|
 State/Province |__|id=D_612617245|
-Zip code |__|__|id=D_674024553 min=0|
+Zip code |__|id=D_674024553|
 Country |__|id=D_886247195|
 
 [D_787064287?,displayif=or(or(isNotDefined(D_282089547,false),isNotDefined(D_612617245,false)),or(isNotDefined(D_674024553,false),isNotDefined(D_886247195,false)))] Please provide the following information:
@@ -452,7 +452,7 @@ State/Province: |displayif=exists("D_612617245")| {$D_612617245}|
 |__|id=D_862255177 displayif=doesNotExist("D_612617245")|
 
 Zip code: |displayif=exists("D_674024553") | {$D_674024553}|
-|__|id=D_972332937 min=0 displayif=doesNotExist("D_674024553")|
+|__|id=D_972332937 displayif=doesNotExist("D_674024553")|
 
 Country: |displayif=exists("D_886247195")| {$D_886247195}|
 |__|id=D_429200007 displayif=doesNotExist("D_886247195")|
@@ -485,7 +485,7 @@ Full Street name |__|id=D_696874548|
 Apartment, suite, unit, building, etc. |__|__|id=D_450630128|
 City |__|id=D_309461541|
 State/Province |__|id=D_789637860|
-Zip code |__|__|id=D_795253129 min=0|
+Zip code |__|id=D_795253129|
 Country |__|id=D_780298998|
 
 [D_878688378?,displayif=or(or(isNotDefined(D_309461541,false),isNotDefined(D_789637860,false)),or(isNotDefined(D_795253129,false),isNotDefined(D_780298998,false)))] Please provide the following information:
@@ -496,7 +496,7 @@ State/Province: |displayif=exists("D_789637860")| {$D_789637860}|
 |__|id=D_585473282 displayif=doesNotExist("D_789637860")|
 
 Zip code: |displayif=exists("D_795253129") | {$D_795253129}|
-|__|id=D_814137809 min=0 displayif=doesNotExist("D_795253129")|
+|__|id=D_814137809 displayif=doesNotExist("D_795253129")|
 
 Country: |displayif=exists("D_780298998")| {$D_780298998}|
 |__|id=D_876521406 displayif=doesNotExist("D_780298998")|
@@ -1080,7 +1080,7 @@ Full Street name |__|id=D_416862112|
 Apartment, suite, unit, building, etc. |__|id=D_671149035|
 City |__|id=D_556576930|
 State/Province |__|id=D_304326324|
-Zip code |__|__|id=D_812433386 min=0|
+Zip code |__|id=D_812433386|
 Country |__|id=D_477319994|
 
 [D_173413183?,displayif=or(or(isNotDefined(D_556576930,false),isNotDefined(D_304326324,false)),or(isNotDefined(D_812433386,false),isNotDefined(D_477319994,false)))] Please provide the following information:
@@ -1091,7 +1091,7 @@ State/Province: |displayif=exists("D_304326324")| {$D_304326324}|
 |__|id=D_915859406 displayif=doesNotExist("D_304326324")|
 
 Zip code: |displayif=exists("D_812433386") | {$D_812433386}|
-|__|id=D_354833686 min=0 displayif=doesNotExist("D_812433386")|
+|__|id=D_354833686 displayif=doesNotExist("D_812433386")|
 
 Country: |displayif=exists("D_477319994")| {$D_477319994}|
 |__|id=D_661148931 displayif=doesNotExist("D_477319994")|
@@ -1123,7 +1123,7 @@ Full Street name |__|id=D_561635035|
 Apartment, suite, unit, building, etc. |__|id=D_134210521|
 City |__|id=D_715370929|
 State/Province |__|id=D_109991481|
-Zip code |__|__|id=D_494380686 min=0|
+Zip code |__|id=D_494380686|
 Country |__|id=D_440796912|
 
 [D_657986901?,displayif=or(or(isNotDefined(D_715370929,false),isNotDefined(D_109991481,false)),or(isNotDefined(D_494380686,false),isNotDefined(D_440796912,false)))] Please provide the following information:
@@ -1134,7 +1134,7 @@ State/Province: |displayif=exists("D_109991481")| {$D_109991481}|
 |__|id=D_149514187 displayif=doesNotExist("D_109991481")|
 
 Zip code: |displayif=exists("D_494380686") | {$D_494380686}|
-|__|id=D_845446624 min=0 displayif=doesNotExist("D_494380686")|
+|__|id=D_845446624 displayif=doesNotExist("D_494380686")|
 
 Country: |displayif=exists("D_440796912")| {$D_440796912}|
 |__|id=D_677739650 displayif=doesNotExist("D_440796912")|
@@ -1166,7 +1166,7 @@ Full Street name |__|id=D_194338739|
 Apartment, suite, unit, building, etc. |__|id=D_387077376|
 City |__|id=D_113352592|
 State/Province |__|id=D_768114466|
-Zip code |__|__|id=D_938180781 min=0|
+Zip code |__|id=D_938180781|
 Country |__|id=D_733365745|
 < #NR -> D_564684946>
 
@@ -1178,7 +1178,7 @@ State/Province: |displayif=exists("D_768114466")| {$D_768114466}|
 |__|id=D_192663941 displayif=doesNotExist("D_768114466")|
 
 Zip code: |displayif=exists("D_938180781") | {$D_938180781}|
-|__|id=D_245044197 min=0 displayif=doesNotExist("D_938180781")|
+|__|id=D_245044197 displayif=doesNotExist("D_938180781")|
 
 Country: |displayif=exists("D_733365745")| {$D_733365745}|
 |__|id=D_261025083 displayif=doesNotExist("D_733365745")|
@@ -1211,7 +1211,7 @@ Full Street name |__|id=D_419659205|
 Apartment, suite, unit, building, etc. |__|id=D_653181757|
 City |__|id=D_733619119|
 State/Province |__|id=D_843680322|
-Zip code |__|__|id=D_716343828 min=0|
+Zip code |__|id=D_716343828|
 Country |__|id=D_497260033|
 < #NR -> D_558981691>
 
@@ -1223,7 +1223,7 @@ State/Province: |displayif=exists("D_843680322")| {$D_843680322}|
 |__|id=D_645589113 displayif=doesNotExist("D_843680322")|
 
 Zip code: |displayif=exists("D_716343828") | {$D_716343828}|
-|__|id=D_701056236 min=0 displayif=doesNotExist("D_716343828")|
+|__|id=D_701056236 displayif=doesNotExist("D_716343828")|
 
 Country: |displayif=exists("D_497260033")| {$D_497260033}|
 |__|id=D_398249766 displayif=doesNotExist("D_497260033")|
@@ -1256,7 +1256,7 @@ Full Street name |__|id=D_688216428|
 Apartment, suite, unit, building, etc. |__|id=D_843674851|
 City |__|id=D_570311888|
 State/Province |__|id=D_557852952|
-Zip code |__|__|id=D_970217879 min=0|
+Zip code |__|id=D_970217879|
 Country |__|id=D_452103273|
 < #NR -> D_194944818>
 
@@ -1268,7 +1268,7 @@ State/Province: |displayif=exists("D_557852952")| {$D_557852952}|
 |__|id=D_502068619 displayif=doesNotExist("D_557852952")|
 
 Zip code: |displayif=exists("D_970217879") | {$D_970217879}|
-|__|id=D_787391994 min=0 displayif=doesNotExist("D_970217879")|
+|__|id=D_787391994 displayif=doesNotExist("D_970217879")|
 
 Country: |displayif=exists("D_452103273")| {$D_452103273}|
 |__|id=D_540340377 displayif=doesNotExist("D_452103273")|
@@ -1301,7 +1301,7 @@ Full Street name |__|id=D_398622449|
 Apartment, suite, unit, building, etc. |__|id=D_521925072|
 City |__|id=D_888514303|
 State/Province |__|id=D_905002640|
-Zip code |__|__|id=D_687407917 min=0|
+Zip code |__|id=D_687407917|
 Country |__|id=D_932828568|
 < #NR -> D_508587741>
 
@@ -1313,7 +1313,7 @@ State/Province: |displayif=exists("D_905002640")| {$D_905002640}|
 |__|id=D_900950849 displayif=doesNotExist("D_905002640")|
 
 Zip code: |displayif=exists("D_687407917") | {$D_687407917}|
-|__|id=D_103689435 min=0 displayif=doesNotExist("D_687407917")|
+|__|id=D_103689435 displayif=doesNotExist("D_687407917")|
 
 Country: |displayif=exists("D_932828568")| {$D_932828568}|
 |__|id=D_659457234 displayif=doesNotExist("D_932828568")|
@@ -1346,7 +1346,7 @@ Full Street name |__|id=D_605155921|
 Apartment, suite, unit, building, etc. |__|id=D_300476868|
 City |__|id=D_384403974|
 State/Province |__|id=D_585153023|
-Zip code |__|__|id=D_248996395 min=0|
+Zip code |__|id=D_248996395|
 Country |__|id=D_525778327|
 < #NR -> D_293954660>
 
@@ -1358,7 +1358,7 @@ State/Province: |displayif=exists("D_585153023")| {$D_585153023}|
 |__|id=D_892150843 displayif=doesNotExist("D_585153023")|
 
 Zip code: |displayif=exists("D_248996395") | {$D_248996395}|
-|__|id=D_230376384 min=0 displayif=doesNotExist("D_248996395")|
+|__|id=D_230376384 displayif=doesNotExist("D_248996395")|
 
 Country: |displayif=exists("D_525778327")| {$D_525778327}|
 |__|id=D_526462982 displayif=doesNotExist("D_525778327")|
@@ -1390,7 +1390,7 @@ Full Street name |__|id=D_646099557|
 Apartment, suite, unit, building, etc. |__|id=D_886284650|
 City |__|id=D_367684056|
 State/Province |__|id=D_389478638|
-Zip code |__|__|id=D_949478044 min=0|
+Zip code |__|id=D_949478044|
 Country |__|id=D_298170847|
 < #NR -> D_268612977>
 
@@ -1402,7 +1402,7 @@ State/Province: |displayif=exists("D_389478638")| {$D_389478638}|
 |__|id=D_467126157 displayif=doesNotExist("D_389478638")|
 
 Zip code: |displayif=exists("D_949478044") | {$D_949478044}|
-|__|id=D_421779583 min=0 displayif=doesNotExist("D_949478044")|
+|__|id=D_421779583 displayif=doesNotExist("D_949478044")|
 
 Country: |displayif=exists("D_298170847")| {$D_298170847}|
 |__|id=D_587765197 displayif=doesNotExist("D_298170847")|
@@ -1435,7 +1435,7 @@ Full Street name |__|id=D_746619983|
 Apartment, suite, unit, building, etc. |__|id=D_911964974|
 City |__|id=D_711881258|
 State/Province |__|id=D_390941579|
-Zip code |__|__|id=D_737885885 min=0|
+Zip code |__|id=D_737885885|
 Country |__|id=D_603853574|
 < #NR -> D_216096388>
 
@@ -1447,7 +1447,7 @@ State/Province: |displayif=exists("D_390941579")| {$D_390941579}|
 |__|id=D_181005197 displayif=doesNotExist("D_390941579")|
 
 Zip code: |displayif=exists("D_737885885") | {$D_737885885}|
-|__|id=D_855530921 min=0 displayif=doesNotExist("D_737885885")|
+|__|id=D_855530921 displayif=doesNotExist("D_737885885")|
 
 Country: |displayif=exists("D_603853574")| {$D_603853574}|
 |__|id=D_589689090 displayif=doesNotExist("D_603853574")|
@@ -1479,7 +1479,7 @@ Full Street name |__|id=D_734790700|
 Apartment, suite, unit, building, etc. |__|id=D_278164536|
 City |__|id=D_160188014|
 State/Province |__|id=D_596751155|
-Zip code |__|__|id=D_624226136 min=0|
+Zip code |__|id=D_624226136|
 Country |__|id=D_807127029|
 < #NR -> D_757983656>
 
@@ -1491,7 +1491,7 @@ State/Province: |displayif=exists("D_596751155")| {$D_596751155}|
 |__|id=D_313586037 displayif=doesNotExist("D_596751155")|
 
 Zip code: |displayif=exists("D_624226136") | {$D_624226136}|
-|__|id=D_158186064 min=0 displayif=doesNotExist("D_624226136")|
+|__|id=D_158186064 displayif=doesNotExist("D_624226136")|
 
 Country: |displayif=exists("D_807127029")| {$D_807127029}|
 |__|id=D_274940131 displayif=doesNotExist("D_807127029")|
@@ -2112,7 +2112,7 @@ Full Street name |__|id=D_802585033|
 Apartment, suite, unit, building, etc. |__|id=D_746533238|
 City |__|id=D_128827522|
 State/Province	|__|id=D_439447560|
-Zip code |__|__|id=D_286781627 min=0|
+Zip code |__|id=D_286781627|
 Country |__|id=D_733929451|
 < #NR -> D_264797252>
 
@@ -2125,7 +2125,7 @@ State/Province: |displayif=exists("D_439447560")| {$D_439447560}|
 |__|id=D_451394598 displayif=doesNotExist("D_439447560")|
 
 Zip code: |displayif=exists("D_286781627") | {$D_286781627}|
-|__|id=D_984908796 min=0 displayif=doesNotExist("D_286781627")|
+|__|id=D_984908796 displayif=doesNotExist("D_286781627")|
 
 Country: |displayif=exists("D_733929451")| {$D_733929451}|
 |__|id=D_847327251 displayif=doesNotExist("D_733929451")|
@@ -2321,17 +2321,17 @@ Number of showers or baths per week |__|__|min=0 max=99|
 
 [D_694113343?] Did you work for pay in 2019 (before the start of the COVID-19 Pandemic)?
 (104430631) No -> D_995620555
-(353358909) Yes -> D_842657297
+(353358909) Yes -> D_774087638
 < #NR -> D_995620555 >
 
-[D_842657297?] As you worked on that job, about how many days per week did you usually work for pay? If you cannot remember, please make your best guess.
-(503218834) 1 day per week
-(632371391) 2 days per week
-(709969190) 3 days per week
-(928753604) 4 days per week
-(686379250) 5 days per week
-(107714591) 6 days per week
-(689829953) 7 days per week
+[D_774087638?] As you worked on that job, about how many days per week did you usually work for pay? If you cannot remember, please make your best guess.
+(559049897) 1 day per week
+(500554958) 2 days per week
+(897038099) 3 days per week
+(103409401) 4 days per week
+(334390252) 5 days per week
+(300863887) 6 days per week
+(252853790) 7 days per week
 
 [D_374639590?] Did your daily tasks include driving (such as a sales representative, courier, bus driver, or truck driver)?
 (353358909) Yes -> D_995620555
@@ -2353,7 +2353,7 @@ Full Street name |__|id=D_253017624|
 Apartment, suite, unit, building, etc. |__|id=D_404141282|
 City |__|id=D_959804472|
 State/Province |__|id=D_774707280|
-Zip code |__|__|id=D_182144476 min=0|
+Zip code |__|id=D_182144476|
 Country |__|id=D_294634899|
 < #NR -> D_263588196>
 
@@ -2365,7 +2365,7 @@ State/Province: |displayif=exists("D_774707280")| {$D_774707280}|
 |__|id=D_742105146 displayif=doesNotExist("D_774707280")|
 
 Zip code: |displayif=exists("D_182144476") | {$D_182144476}|
-|__|id=D_101341673 min=0 displayif=doesNotExist("D_182144476")|
+|__|id=D_101341673 displayif=doesNotExist("D_182144476")|
 
 Country: |displayif=exists("D_294634899")| {$D_294634899}|
 |__|id=D_237204853 displayif=doesNotExist("D_294634899")|
@@ -2552,6 +2552,13 @@ Month |__|__|min=0 max=12|
 
 [INTROPREWORK] The next questions are about the place where you worked for the longest time in the <b>past 20 years</b>, and your commute between the place where you worked and home.
 
+[D_291959537?] Is your current job the longest job you have had in the past 20 years? 
+
+(353358909) Yes -> INTROCURSCH 
+
+(104430631) No, I worked longer at another job that I had within the past 20 years 
+
+
 [D_992180692?] Thinking about the job you had the longest in the <b>past 20 years</b>, what was the name and the street address of the workplace you commuted to most often?
 Name of employer/company |__|id=D_452053599|
 Street number |__|__|id=D_903896611 min=0 max=999999|
@@ -2559,7 +2566,7 @@ Full Street name |__|id=D_855583262|
 Apartment, suite, unit, building, etc. |__|id=D_371588177|
 City |__|id=D_962868433|
 State/Province |__|id=D_108530997|
-Zip code |__|__|id=D_110852652 min=0|
+Zip code |__|id=D_110852652|
 Country |__|id=D_867109611|
 < #NR -> D_350394531>
 
@@ -2571,7 +2578,7 @@ State/Province: |displayif=exists("D_108530997")| {$D_108530997}|
 |__|id=D_730666903 displayif=doesNotExist("D_108530997")|
 
 Zip code: |displayif=exists("D_110852652") | {$D_110852652}|
-|__|id=D_168091937 min=0 displayif=doesNotExist("D_110852652")|
+|__|id=D_168091937 displayif=doesNotExist("D_110852652")|
 
 Country: |displayif=exists("D_867109611")| {$D_867109611}|
 |__|id=D_132779701 displayif=doesNotExist("D_867109611")|
@@ -2718,7 +2725,7 @@ Full Street name |__|id=D_249657148|
 Apartment, suite, unit, building, etc. |__|id=D_190883115|
 City |__|id=D_161170041|
 State/Province |__|id=D_660217075|
-Zip code |__|__|id=D_884494489 min=0|
+Zip code |__|id=D_884494489|
 Country |__|id=D_403679963|
 < #NR -> D_668887646>
 
@@ -2730,7 +2737,7 @@ State/Province: |displayif=exists("D_660217075")| {$D_660217075}|
 |__|id=D_977086216 displayif=doesNotExist("D_660217075")|
 
 Zip code: |displayif=exists("D_884494489") | {$D_884494489}|
-|__|id=D_997041632 min=0 displayif=doesNotExist("D_884494489")|
+|__|id=D_997041632 displayif=doesNotExist("D_884494489")|
 
 Country: |displayif=exists("D_403679963")| {$D_403679963}|
 |__|id=D_147113671 displayif=doesNotExist("D_403679963")|
@@ -2912,4 +2919,4 @@ Year |__|__|__|__|id=D_770959058 min=0 max=#currentYear|
 (252853790) 7 days per week
 < #NR -> END >
 
-[END] Thank you for completing this section of the survey.
+[END] Thank you for submitting your survey. If you are using a shared device, please remember to log out of the MyConnect app and any email accounts you have open.
