@@ -1,4 +1,4 @@
-// This file was transformed using the mapping data in Quest-2022-06-02-15-12-05_Transformation.json.
+// This file was transformed using the mapping data in Quest-2022-08-01-19-21-50_Transformation.json.
 
 // JSON WARNING --> Concept ID 101310722 with concept "# Pills per day" is shared between these Textbox codes: [ACIDSUP3_1A, ACIDSUP3_2A, ACIDSUP3_3A, CHOLHTN3_1A, CHOLHTN3_2A, INSULIN3_1A, METFOR3_1A, PAINREL3_1A, PAINREL3_2A, PAINREL3_3A, PAINREL3_4A, PAINREL3_5A, PAINREL3_6A, PAINREL3_7A]
 // JSON WARNING --> Concept ID 206625031 with concept "Age at diagnosis" is shared between these Textbox codes: [ANEMIA_AGE, APPEND_AGE, ARRHYT_AGE, ASTHMA_AGE, BARESO_AGE, BARSUR_AGE, BLDTRANS3_AGE, BLDTRANS4_AGE, BLOODCLOT_AGE, BREASTDIS_AGE, CCD_AGE, CD_AGE, CHESTPAIN_AGE, CHF_AGE, CHILDCANC3A_AGE, CHILDCANC3B_AGE, CHILDCANC3C_AGE, CHILDCANC3D_AGE, CHILDCANC3E_AGE, CHILDCANC3F_AGE, CHILDCANC3G_AGE, CHILDCANC3H_AGE, CHILDCANC3I_AGE, CHILDCANC3J_AGE, CHILDCANC3K_AGE, CHILDCANC3L_AGE, CHILDCANC3M_AGE, CHILDCANC3N_AGE, CHILDCANC3O_AGE, CHILDCANC3P_AGE, CHILDCANC3Q_AGE, CHILDCANC3R_AGE, CHILDCANC3S_AGE, CHILDCANC3T_AGE, CHILDCANC3U_AGE, CHILDCANC3V_AGE, CHILDCANC3W_AGE, CHILDCANC3X_AGE, CHILDCANC3Y_AGE, CHLA_AGE, CHOL_AGE, CKD_AGE, COPD_AGE, CVD_AGE, DADCANC3A_AGE, DADCANC3B_AGE, DADCANC3C_AGE, DADCANC3D_AGE, DADCANC3E_AGE, DADCANC3F_AGE, DADCANC3G_AGE, DADCANC3H_AGE, DADCANC3I_AGE, DADCANC3J_AGE, DADCANC3K_AGE, DADCANC3L_AGE, DADCANC3M_AGE, DADCANC3N_AGE, DADCANC3O_AGE, DADCANC3P_AGE, DADCANC3Q_AGE, DADCANC3R_AGE, DADCANC3S_AGE, DADCANC3T_AGE, DADCANC3U_AGE, DADCANC3V_AGE, DCIS_AGE, DEPRESS2_AGE, DIVERT_AGE, DM2_AGE, ENDO_AGE, ENLGPROS_AGE, FTREM2_AGE, GALLREM_AGE, GALL_AGE, GENWARTS_AGE, GERD_AGE, GONORR_AGE, GOUT_AGE, GRAVES_AGE, HAYFEVER_AGE, HBVHCV_AGE, HEARTATT_AGE, HEARTVALV_AGE, HIVAIDS_AGE, HPV_AGE, HTN_AGE, HYSTER_AGE, IBD_AGE, IBS_AGE, KIDNEY_AGE, LIPOSUCT_AGE, LIVCIRR_AGE, LUPUS_AGE, MOMCANC3A_AGE, MOMCANC3B_AGE, MOMCANC3C_AGE, MOMCANC3D_AGE, MOMCANC3E_AGE, MOMCANC3F_AGE, MOMCANC3G_AGE, MOMCANC3H_AGE, MOMCANC3I_AGE, MOMCANC3J_AGE, MOMCANC3K_AGE, MOMCANC3L_AGE, MOMCANC3M_AGE, MOMCANC3N_AGE, MOMCANC3O_AGE, MOMCANC3P_AGE, MOMCANC3Q_AGE, MOMCANC3R_AGE, MOMCANC3S_AGE, MOMCANC3T_AGE, MOMCANC3U_AGE, MOMCANC3V_AGE, MOMCANC3W_AGE, MONO_AGE, OVARYREM2_AGE, PANCREA_AGE, PCOS_AGE, PENREM_AGE, PROSREM2_AGE, RA_AGE, SHINGLES_AGE, SIBCANC3A_AGE, SIBCANC3B_AGE, SIBCANC3C_AGE, SIBCANC3D_AGE, SIBCANC3E_AGE, SIBCANC3F_AGE, SIBCANC3G_AGE, SIBCANC3H_AGE, SIBCANC3I_AGE, SIBCANC3J_AGE, SIBCANC3K_AGE, SIBCANC3L_AGE, SIBCANC3M_AGE, SIBCANC3N_AGE, SIBCANC3O_AGE, SIBCANC3P_AGE, SIBCANC3Q_AGE, SIBCANC3R_AGE, SIBCANC3S_AGE, SIBCANC3T_AGE, SIBCANC3U_AGE, SIBCANC3V_AGE, SIBCANC3W_AGE, SIBCANC3X_AGE, SIBCANC3Y_AGE, SKINCANC3_AGE, STROKE_AGE, SYPH_AGE, TESTREM2_AGE, THYROID_AGE, TONSILS_AGE, TRICH_AGE, TUBLIG_AGE, UC_AGE, UF_AGE, VASEC_AGE]
@@ -16,7 +16,7 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Wed Jun 15 09:13:21 2022 -0400 (short timestamp = 2022-06-15-13-13-21)
+//This file was last modified on Wed Aug 3 15:30:25 2022 -0400 (short timestamp = 2022-08-03-19-30-25)
 {"name":"D_299215535"}
 
 [SRVBIO_MODULEINTRO_V1R0] <b> Blood, Urine, and Mouthwash Data Collection Form </b>
@@ -41,15 +41,15 @@ Thank you for being part of Connect and for donating your samples. We have some 
 (952212668) The day before
 (330461666) More than a day before -> D_299417266
 
-[D_191057574?] At about what time did you last eat or drink anything other than water before donating your samples? Select your answer from the drop-down list below.
+[D_191057574?] At about what time did you last eat or drink anything other than water before donating your samples? Select your answer from the drop-down list below. If you are using a phone or tablet, please tap the gray box to enter your response.
 
 |time|
 
-[D_299417266?] What time did you go to sleep on the night before donating your samples? Select your answer from the drop-down list below.
+[D_299417266?] What time did you go to sleep on the night before donating your samples? Select your answer from the drop-down list below. If you are using a phone or tablet, please tap the gray box to enter your response.
 
 |time|
 
-[D_689861450?] What time did you wake up on the day that you donated your samples? Select your answer from the drop-down list below.
+[D_689861450?] What time did you wake up on the day that you donated your samples? Select your answer from the drop-down list below. If you are using a phone or tablet, please tap the gray box to enter your response.
 
 |time|
 
@@ -318,7 +318,7 @@ Thank you for your responses. Please click "Next" to move to the next section.
 
 [COV20_SKIP,displayif=and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(doesNotEqual(D_488415137_0,1),doesNotEqual(D_488415137_1,1)),doesNotEqual(D_167695804_0,1)),doesNotEqual(D_167695804_1,1)),doesNotEqual(D_730334054_0,1)),doesNotEqual(D_730334054_1,1)),doesNotEqual(D_215996690_0,1)),doesNotEqual(D_215996690_1,1)),doesNotEqual(D_462737492_0,1)),doesNotEqual(D_462737492_1,1)),doesNotEqual(D_469675296_0,1)),doesNotEqual(D_469675296_1,1)),doesNotEqual(D_962475128_0,1)),doesNotEqual(D_962475128_1,1)),doesNotEqual(D_989576239_0,1)),doesNotEqual(D_989576239_1,1)),doesNotEqual(D_338613869_0,1)),doesNotEqual(D_338613869_1,1)),doesNotEqual(D_126794793_0,1)),doesNotEqual(D_126794793_1,1)),doesNotEqual(D_218793117_0,1)),doesNotEqual(D_218793117_1,1)),doesNotEqual(D_524096053_0,1)),doesNotEqual(D_524096053_1,1)),doesNotEqual(D_814101706_0,1)),doesNotEqual(D_814101706_1,1)),doesNotEqual(D_635026188_0,1)),doesNotEqual(D_635026188_1,1)),doesNotEqual(D_238135048_0,1)),doesNotEqual(D_238135048_1,1)),doesNotEqual(D_632714520_0,1)),doesNotEqual(D_632714520_1,1)),doesNotEqual(D_110872086,707601969))]
 Thank you for your responses. Please click "Next" to move to the next section.
-< -> D_890156588 >
+< -> SRVBLU_COV25INTRO_V1R0 >
 
 |grid?|id="D_114280729" displayif=or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(equals(D_488415137_0,1),equals(D_488415137_1,1)),equals(D_167695804_0,1)),equals(D_167695804_1,1)),equals(D_730334054_0,1)),equals(D_730334054_1,1)),equals(D_215996690_0,1)),equals(D_215996690_1,1)),equals(D_462737492_0,1)),equals(D_462737492_1,1)),equals(D_469675296_0,1)),equals(D_469675296_1,1)),equals(D_962475128_0,1)),equals(D_962475128_1,1)),equals(D_989576239_0,1)),equals(D_989576239_1,1)),equals(D_338613869_0,1)),equals(D_338613869_1,1)),equals(D_126794793_0,1)),equals(D_126794793_1,1)),equals(D_218793117_0,1)),equals(D_218793117_1,1)),equals(D_524096053_0,1)),equals(D_524096053_1,1)),equals(D_814101706_0,1)),equals(D_814101706_1,1)),equals(D_635026188_0,1)),equals(D_635026188_1,1)),equals(D_238135048_0,1)),equals(D_238135048_1,1)),equals(D_632714520_0,1)),equals(D_632714520_1,1))|How long did you experience the following symptoms?|[
                                                  
@@ -346,7 +346,7 @@ Thank you for your responses. Please click "Next" to move to the next section.
 
 [COV20A17_SKIP,displayif=doesNotEqual(D_110872086,707601969)]
 Thank you for your responses. Please click "Next" to move to the next section.
-< -> D_890156588 >
+< -> SRVBLU_COV25INTRO_V1R0 >
 
 [D_934384452?,displayif=equals(D_110872086,707601969)] How long did you experience |displayif=exists("D_637540387")|{$D_637540387}||displayif=doesNotExist("D_637540387")|these other symptoms|?
 (232063618) Less than 1 month
@@ -356,17 +356,17 @@ Thank you for your responses. Please click "Next" to move to the next section.
 [D_273371161?] Following your COVID-19 infection in |displayif=exists("D_366972678_1")|{$D_173502329_1}/{$D_366972678_1}||displayif=exists("D_366972678_2")|, {$D_173502329_2}/{$D_366972678_2}||displayif=exists("D_366972678_3")|, {$D_173502329_3}/{$D_366972678_3}||displayif=exists("D_366972678_4")|, {$D_173502329_4}/{$D_366972678_4}||displayif=exists("D_366972678_5")|, {$D_173502329_5}/{$D_366972678_5}||displayif=exists("D_366972678_6")|, {$D_173502329_6}/{$D_366972678_6}||displayif=exists("D_366972678_7")|, {$D_173502329_7}/{$D_366972678_7}||displayif=exists("D_366972678_8")|, {$D_173502329_8}/{$D_366972678_8}||displayif=exists("D_366972678_9")|, {$D_173502329_9}/{$D_366972678_9}||displayif=exists("D_366972678_10")|, {$D_173502329_10}/{$D_366972678_10}||displayif=exists("D_366972678_11")|, {$D_173502329_11}/{$D_366972678_11}||displayif=exists("D_366972678_12")|, {$D_173502329_12}/{$D_366972678_12}||displayif=exists("D_366972678_13")|, {$D_173502329_13}/{$D_366972678_13}||displayif=exists("D_366972678_14")|, {$D_173502329_14}/{$D_366972678_14}||displayif=exists("D_366972678_15")|, {$D_173502329_15}/{$D_366972678_15}||displayif=exists("D_366972678_16")|, {$D_173502329_16}/{$D_366972678_16}||displayif=exists("D_366972678_17")|, {$D_173502329_17}/{$D_366972678_17}||displayif=exists("D_366972678_18")|, {$D_173502329_18}/{$D_366972678_18}||displayif=exists("D_366972678_19")|, {$D_173502329_19}/{$D_366972678_19}||displayif=exists("D_366972678_20")|, {$D_173502329_20}/{$D_366972678_20}||displayif=exists("D_366972678_21")|, {$D_173502329_21}/{$D_366972678_21}||displayif=exists("D_366972678_22")|, {$D_173502329_22}/{$D_366972678_22}||displayif=exists("D_366972678_23")|, {$D_173502329_23}/{$D_366972678_23}||displayif=exists("D_366972678_24")|, {$D_173502329_24}/{$D_366972678_24}||displayif=exists("D_366972678_25")|, {$D_173502329_25}/{$D_366972678_25}|, do you feel that you have fully recovered to your usual state of health?
 (353358909) Yes
 (224099497) Yes, mostly
-(104430631) No -> D_890156588
+(104430631) No -> SRVBLU_COV25INTRO_V1R0
 
 [D_959877599?] How long did it take you to recover to your usual state of health from the date you first realized you had COVID-19?
 
 Months |__|__|id=D_700620868 min=0 max=(#currentYear - _value("D_366972678_1"))*12 + (#currentMonth - _value("D_173502329_1"))|
 Days |__|__|__|id=D_908044428 min=1 max=365|
-< -> D_890156588 >
+< -> SRVBLU_COV25INTRO_V1R0 >
 
 [COV23_SKIP,displayif=and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(doesNotEqual(D_494226443,104430631),doesNotEqual(D_494226443,178420302)),doesNotEqual(isDefined(D_494226443,-1),-1)),doesNotEqual(D_498462481_1_1,104430631)),doesNotEqual(D_694503437_1_1,104430631)),doesNotEqual(D_498462481_2_2,104430631)),doesNotEqual(D_694503437_2_2,104430631)),doesNotEqual(D_498462481_3_3,104430631)),doesNotEqual(D_694503437_3_3,104430631)),doesNotEqual(D_498462481_4_4,104430631)),doesNotEqual(D_694503437_4_4,104430631)),doesNotEqual(D_498462481_5_5,104430631)),doesNotEqual(D_694503437_5_5,104430631)),doesNotEqual(D_498462481_6_6,104430631)),doesNotEqual(D_694503437_6_6,104430631)),doesNotEqual(D_498462481_7_7,104430631)),doesNotEqual(D_694503437_7_7,104430631)),doesNotEqual(D_498462481_8_8,104430631)),doesNotEqual(D_694503437_8_8,104430631)),doesNotEqual(D_498462481_9_9,104430631)),doesNotEqual(D_694503437_9_9,104430631)),doesNotEqual(D_498462481_10_10,104430631)),doesNotEqual(D_694503437_10_10,104430631)),doesNotEqual(D_498462481_11_11,104430631)),doesNotEqual(D_694503437_11_11,104430631)),doesNotEqual(D_498462481_12_12,104430631)),doesNotEqual(D_694503437_12_12,104430631)),doesNotEqual(D_498462481_13_13,104430631)),doesNotEqual(D_694503437_13_13,104430631)),doesNotEqual(D_498462481_14_14,104430631)),doesNotEqual(D_694503437_14_14,104430631)),doesNotEqual(D_498462481_15_15,104430631)),doesNotEqual(D_694503437_15_15,104430631)),doesNotEqual(D_498462481_16_16,104430631)),doesNotEqual(D_694503437_16_16,104430631)),doesNotEqual(D_498462481_17_17,104430631)),doesNotEqual(D_694503437_17_17,104430631)),doesNotEqual(D_498462481_18_18,104430631)),doesNotEqual(D_694503437_18_18,104430631)),doesNotEqual(D_498462481_19_19,104430631)),doesNotEqual(D_694503437_19_19,104430631)),doesNotEqual(D_498462481_20_20,104430631)),doesNotEqual(D_694503437_20_20,104430631)),doesNotEqual(D_498462481_21_21,104430631)),doesNotEqual(D_694503437_21_21,104430631)),doesNotEqual(D_498462481_22_22,104430631)),doesNotEqual(D_694503437_22_22,104430631)),doesNotEqual(D_498462481_23_23,104430631)),doesNotEqual(D_694503437_23_23,104430631)),doesNotEqual(D_498462481_24_24,104430631)),doesNotEqual(D_694503437_24_24,104430631)),doesNotEqual(D_498462481_25_25,104430631)),doesNotEqual(D_694503437_25_25,104430631))]
 Thank you for your responses. Please click "Next" to move to the next section.
-< -> D_890156588 >
+< -> SRVBLU_COV25INTRO_V1R0 >
 
 [SRVBLU_COV23_V1R0,displayif=or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(equals(D_494226443,104430631),equals(D_494226443,178420302)),equals(isDefined(D_494226443,-1),-1)),equals(D_498462481_1_1,104430631)),equals(D_694503437_1_1,104430631)),equals(D_498462481_2_2,104430631)),equals(D_694503437_2_2,104430631)),equals(D_498462481_3_3,104430631)),equals(D_694503437_3_3,104430631)),equals(D_498462481_4_4,104430631)),equals(D_694503437_4_4,104430631)),equals(D_498462481_5_5,104430631)),equals(D_694503437_5_5,104430631)),equals(D_498462481_6_6,104430631)),equals(D_694503437_6_6,104430631)),equals(D_498462481_7_7,104430631)),equals(D_694503437_7_7,104430631)),equals(D_498462481_8_8,104430631)),equals(D_694503437_8_8,104430631)),equals(D_498462481_9_9,104430631)),equals(D_694503437_9_9,104430631)),equals(D_498462481_10_10,104430631)),equals(D_694503437_10_10,104430631)),equals(D_498462481_11_11,104430631)),equals(D_694503437_11_11,104430631)),equals(D_498462481_12_12,104430631)),equals(D_694503437_12_12,104430631)),equals(D_498462481_13_13,104430631)),equals(D_694503437_13_13,104430631)),equals(D_498462481_14_14,104430631)),equals(D_694503437_14_14,104430631)),equals(D_498462481_15_15,104430631)),equals(D_694503437_15_15,104430631)),equals(D_498462481_16_16,104430631)),equals(D_694503437_16_16,104430631)),equals(D_498462481_17_17,104430631)),equals(D_694503437_17_17,104430631)),equals(D_498462481_18_18,104430631)),equals(D_694503437_18_18,104430631)),equals(D_498462481_19_19,104430631)),equals(D_694503437_19_19,104430631)),equals(D_498462481_20_20,104430631)),equals(D_694503437_20_20,104430631)),equals(D_498462481_21_21,104430631)),equals(D_694503437_21_21,104430631)),equals(D_498462481_22_22,104430631)),equals(D_694503437_22_22,104430631)),equals(D_498462481_23_23,104430631)),equals(D_694503437_23_23,104430631)),equals(D_498462481_24_24,104430631)),equals(D_694503437_24_24,104430631)),equals(D_498462481_25_25,104430631)),equals(D_694503437_25_25,104430631))] Many people have reported challenges related to living during the COVID-19 pandemic that have affected their health. Since the beginning of 2020, have you experienced any of the following symptoms?
 
@@ -435,13 +435,15 @@ Thank you for your responses. Please click "Next" to move to the next section.
 (948148236) Between 1 and 3 months
 (692824372) More than 3 months
 
-[D_890156588?] Did you get a COVID-19 vaccination?
+[SRVBLU_COV25INTRO_V1R0] The following section asks about COVID-19 vaccination and boosters. If you have been vaccinated for COVID-19, it may be helpful to have your COVID-19 vaccine card with you while you complete this section of the survey.
+
+[D_890156588?] Did you get vaccinated against COVID-19?
 (353358909) Yes
 (104430631) No -> D_350251057
 (178420302) Don't know -> D_350251057
 < #NR -> D_350251057 >
 
-[D_877074400?] How many shots of vaccine did you get?
+[D_877074400?] How many shots of the COVID-19 vaccine did you get? Please include your initial vaccination and any booster shots.
 
 |__|__| min=1 max=10| Shot(s)
 // Numeric drop down list is not currently supported
@@ -702,5 +704,4 @@ In the last <b>month</b>, which of these oral hygiene products have you used? Se
 (382679079)	More than 1 week ago, but in the past 4 weeks
 (830677489)	More than 4 weeks ago
 
-
-[END,end]  Thank you for completing the survey.
+[END,end]  Thank you for submitting your survey. If you are using a shared device, please remember to log out of the MyConnect app and any email accounts you have open.
