@@ -19,14 +19,14 @@
 //This file was last modified on Fri Aug 19 11:21:52 2022 -0400 (short timestamp = 2022-08-19-15-21-52)
 {"name":"D_166676176"} 
 
-[D_447051482?] 
+[SOCIALSECUR1?] 
 <b>Social Security Number</b>
 Please enter your Social Security number. This will be used for identification purposes only. Please remember that we protect your privacy. We remove information that can identify you, including your Social Security number, from your survey answers before we share them with researchers. If you do not want to enter your Social Security number, you can leave this field blank.
 |SSN|
-< #NR -> D_920333151 >
+< #NR -> SOCIALSECUR2 >
 < -> END >
 
-[D_920333151?]Your Social Security number will help us match information from sources like health registries to you in the future. Only a small number of Connect team members will have access to information that can identify you, including your Social Security number. We protect your privacy every time we ask for information about you from other sources.
+[SOCIALSECUR2?]Your Social Security number will help us match information from sources like health registries to you in the future. Only a small number of Connect team members will have access to information that can identify you, including your Social Security number. We protect your privacy every time we ask for information about you from other sources.
 
 Please enter the last <b>four digits</b> of your Social Security number. |SSNsm|
 
