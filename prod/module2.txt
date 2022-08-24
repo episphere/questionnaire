@@ -1,13 +1,11 @@
-// This file was transformed using the mapping data in Quest-2022-05-05-13-20-13_Transformation.json.
+// This file was transformed using the mapping data in Quest-2022-08-01-19-21-50_Transformation.json.
 
 // JSON WARNING --> Concept ID 101310722 with concept "# Pills per day" is shared between these Textbox codes: [ACIDSUP3_1A, ACIDSUP3_2A, ACIDSUP3_3A, CHOLHTN3_1A, CHOLHTN3_2A, INSULIN3_1A, METFOR3_1A, PAINREL3_1A, PAINREL3_2A, PAINREL3_3A, PAINREL3_4A, PAINREL3_5A, PAINREL3_6A, PAINREL3_7A]
 // JSON WARNING --> Concept ID 206625031 with concept "Age at diagnosis" is shared between these Textbox codes: [ANEMIA_AGE, APPEND_AGE, ARRHYT_AGE, ASTHMA_AGE, BARESO_AGE, BARSUR_AGE, BLDTRANS3_AGE, BLDTRANS4_AGE, BLOODCLOT_AGE, BREASTDIS_AGE, CCD_AGE, CD_AGE, CHESTPAIN_AGE, CHF_AGE, CHILDCANC3A_AGE, CHILDCANC3B_AGE, CHILDCANC3C_AGE, CHILDCANC3D_AGE, CHILDCANC3E_AGE, CHILDCANC3F_AGE, CHILDCANC3G_AGE, CHILDCANC3H_AGE, CHILDCANC3I_AGE, CHILDCANC3J_AGE, CHILDCANC3K_AGE, CHILDCANC3L_AGE, CHILDCANC3M_AGE, CHILDCANC3N_AGE, CHILDCANC3O_AGE, CHILDCANC3P_AGE, CHILDCANC3Q_AGE, CHILDCANC3R_AGE, CHILDCANC3S_AGE, CHILDCANC3T_AGE, CHILDCANC3U_AGE, CHILDCANC3V_AGE, CHILDCANC3W_AGE, CHILDCANC3X_AGE, CHILDCANC3Y_AGE, CHLA_AGE, CHOL_AGE, CKD_AGE, COPD_AGE, CVD_AGE, DADCANC3A_AGE, DADCANC3B_AGE, DADCANC3C_AGE, DADCANC3D_AGE, DADCANC3E_AGE, DADCANC3F_AGE, DADCANC3G_AGE, DADCANC3H_AGE, DADCANC3I_AGE, DADCANC3J_AGE, DADCANC3K_AGE, DADCANC3L_AGE, DADCANC3M_AGE, DADCANC3N_AGE, DADCANC3O_AGE, DADCANC3P_AGE, DADCANC3Q_AGE, DADCANC3R_AGE, DADCANC3S_AGE, DADCANC3T_AGE, DADCANC3U_AGE, DADCANC3V_AGE, DCIS_AGE, DEPRESS2_AGE, DIVERT_AGE, DM2_AGE, ENDO_AGE, ENLGPROS_AGE, FTREM2_AGE, GALLREM_AGE, GALL_AGE, GENWARTS_AGE, GERD_AGE, GONORR_AGE, GOUT_AGE, GRAVES_AGE, HAYFEVER_AGE, HBVHCV_AGE, HEARTATT_AGE, HEARTVALV_AGE, HIVAIDS_AGE, HPV_AGE, HTN_AGE, HYSTER_AGE, IBD_AGE, IBS_AGE, KIDNEY_AGE, LIPOSUCT_AGE, LIVCIRR_AGE, LUPUS_AGE, MOMCANC3A_AGE, MOMCANC3B_AGE, MOMCANC3C_AGE, MOMCANC3D_AGE, MOMCANC3E_AGE, MOMCANC3F_AGE, MOMCANC3G_AGE, MOMCANC3H_AGE, MOMCANC3I_AGE, MOMCANC3J_AGE, MOMCANC3K_AGE, MOMCANC3L_AGE, MOMCANC3M_AGE, MOMCANC3N_AGE, MOMCANC3O_AGE, MOMCANC3P_AGE, MOMCANC3Q_AGE, MOMCANC3R_AGE, MOMCANC3S_AGE, MOMCANC3T_AGE, MOMCANC3U_AGE, MOMCANC3V_AGE, MOMCANC3W_AGE, MONO_AGE, OVARYREM2_AGE, PANCREA_AGE, PCOS_AGE, PENREM_AGE, PROSREM2_AGE, RA_AGE, SHINGLES_AGE, SIBCANC3A_AGE, SIBCANC3B_AGE, SIBCANC3C_AGE, SIBCANC3D_AGE, SIBCANC3E_AGE, SIBCANC3F_AGE, SIBCANC3G_AGE, SIBCANC3H_AGE, SIBCANC3I_AGE, SIBCANC3J_AGE, SIBCANC3K_AGE, SIBCANC3L_AGE, SIBCANC3M_AGE, SIBCANC3N_AGE, SIBCANC3O_AGE, SIBCANC3P_AGE, SIBCANC3Q_AGE, SIBCANC3R_AGE, SIBCANC3S_AGE, SIBCANC3T_AGE, SIBCANC3U_AGE, SIBCANC3V_AGE, SIBCANC3W_AGE, SIBCANC3X_AGE, SIBCANC3Y_AGE, SKINCANC3_AGE, STROKE_AGE, SYPH_AGE, TESTREM2_AGE, THYROID_AGE, TONSILS_AGE, TRICH_AGE, TUBLIG_AGE, UC_AGE, UF_AGE, VASEC_AGE]
 // JSON WARNING --> Concept ID 261863326 with concept "Year at diagnosis" is shared between these Textbox codes: [ANEMIA_YEAR, APPEND_YEAR, ARRHYT_YEAR, ASTHMA_YEAR, BARESO_YEAR, BARSUR_YEAR, BLDTRANS3_YEAR, BLDTRANS4_YEAR, BLOODCLOT_YEAR, BREASTDIS_YEAR, CCD_YEAR, CD_YEAR, CHESTPAIN_YEAR, CHF_YEAR, CHILDCANC3A_YEAR, CHILDCANC3B_YEAR, CHILDCANC3C_YEAR, CHILDCANC3D_YEAR, CHILDCANC3E_YEAR, CHILDCANC3F_YEAR, CHILDCANC3G_YEAR, CHILDCANC3H_YEAR, CHILDCANC3I_YEAR, CHILDCANC3J_YEAR, CHILDCANC3K_YEAR, CHILDCANC3L_YEAR, CHILDCANC3M_YEAR, CHILDCANC3N_YEAR, CHILDCANC3O_YEAR, CHILDCANC3P_YEAR, CHILDCANC3Q_YEAR, CHILDCANC3R_YEAR, CHILDCANC3S_YEAR, CHILDCANC3T_YEAR, CHILDCANC3U_YEAR, CHILDCANC3V_YEAR, CHILDCANC3W_YEAR, CHILDCANC3X_YEAR, CHILDCANC3Y_YEAR, CHLA_YEAR, CHOL_YEAR, CKD_YEAR, COPD_YEAR, CVD_YEAR, DADCANC3A_YEAR, DADCANC3B_YEAR, DADCANC3C_YEAR, DADCANC3D_YEAR, DADCANC3E_YEAR, DADCANC3F_YEAR, DADCANC3G_YEAR, DADCANC3H_YEAR, DADCANC3I_YEAR, DADCANC3J_YEAR, DADCANC3K_YEAR, DADCANC3L_YEAR, DADCANC3M_YEAR, DADCANC3N_YEAR, DADCANC3O_YEAR, DADCANC3P_YEAR, DADCANC3Q_YEAR, DADCANC3R_YEAR, DADCANC3S_YEAR, DADCANC3T_YEAR, DADCANC3U_YEAR, DADCANC3V_YEAR, DCIS_YEAR, DEPRESS2_YEAR, DIVERT_YEAR, DM2_YEAR, ENDO_YEAR, ENLGPROS_YEAR, FTREM2_YEAR, GALLREM_YEAR, GALL_YEAR, GENWARTS_YEAR, GERD_YEAR, GONORR_YEAR, GOUT_YEAR, GRAVES_YEAR, HAYFEVER_YEAR, HBVHCV_YEAR, HEARTATT_YEAR, HEARTVALV_YEAR, HIVAIDS_YEAR, HPV_YEAR, HTN_YEAR, HYSTER_YEAR, IBD_YEAR, IBS_YEAR, KIDNEY_YEAR, LIPOSUCT_YEAR, LIVCIRR_YEAR, LUPUS_YEAR, MOMCANC3A_YEAR, MOMCANC3B_YEAR, MOMCANC3C_YEAR, MOMCANC3D_YEAR, MOMCANC3E_YEAR, MOMCANC3F_YEAR, MOMCANC3G_YEAR, MOMCANC3H_YEAR, MOMCANC3I_YEAR, MOMCANC3J_YEAR, MOMCANC3K_YEAR, MOMCANC3L_YEAR, MOMCANC3M_YEAR, MOMCANC3N_YEAR, MOMCANC3O_YEAR, MOMCANC3P_YEAR, MOMCANC3Q_YEAR, MOMCANC3R_YEAR, MOMCANC3S_YEAR, MOMCANC3T_YEAR, MOMCANC3U_YEAR, MOMCANC3V_YEAR, MOMCANC3W_YEAR, MONO_YEAR, OVARYREM2_YEAR, PANCREA_YEAR, PCOS_YEAR, PENREM_YEAR, PROSREM2_YEAR, RA_YEAR, SHINGLES_YEAR, SIBCANC3A_YEAR, SIBCANC3B_YEAR, SIBCANC3C_YEAR, SIBCANC3D_YEAR, SIBCANC3E_YEAR, SIBCANC3F_YEAR, SIBCANC3G_YEAR, SIBCANC3H_YEAR, SIBCANC3I_YEAR, SIBCANC3J_YEAR, SIBCANC3K_YEAR, SIBCANC3L_YEAR, SIBCANC3M_YEAR, SIBCANC3N_YEAR, SIBCANC3O_YEAR, SIBCANC3P_YEAR, SIBCANC3Q_YEAR, SIBCANC3R_YEAR, SIBCANC3S_YEAR, SIBCANC3T_YEAR, SIBCANC3U_YEAR, SIBCANC3V_YEAR, SIBCANC3W_YEAR, SIBCANC3X_YEAR, SIBCANC3Y_YEAR, SKINCANC3_YEAR, STROKE_YEAR, SYPH_YEAR, TESTREM2_YEAR, THYROID_YEAR, TONSILS_YEAR, TRICH_YEAR, TUBLIG_YEAR, UC_YEAR, UF_YEAR, VASEC_YEAR]
 // JSON WARNING --> Concept ID 314198277 with concept "Last spent time at this address, year" is shared between these Textbox codes: [SEASADDYRS2_10_YEAR, SEASADDYRS2_1_YEAR, SEASADDYRS2_2_YEAR, SEASADDYRS2_3_YEAR, SEASADDYRS2_4_YEAR, SEASADDYRS2_5_YEAR, SEASADDYRS2_6_YEAR, SEASADDYRS2_7_YEAR, SEASADDYRS2_8_YEAR, SEASADDYRS2_9_YEAR]
-// JSON WARNING --> Concept ID 408696162 with concept "Age started using on regular basis" is shared between these Textbox codes: [CIG3_AGE, HOOKAH3_AGE, PIPE3_AGE, REGCHEW_AGE, REGCIGAR_AGE, REGEAMAR_AGE, REGELMAR_AGE, REGSMMAR_AGE, REGTHMAR_AGE, REGTOMAR_AGE, REGVAPE_AGE]
 // JSON WARNING --> Concept ID 434243220 with concept "Months used" is shared between these Textbox codes: [ANYCOMESTMONTH, COMBINEDMONTH, COPIUDMONTH, DEPROPROVMONTH, ESTOTHERMONTH, ESTSKINMONTH, HORCOMPILLMONTH, HORIUDMONTH, HORMEDOTHERMONTH, HORMEDPATCHMONTH, HORMEDRINGMONTH, MINIPILLMONTH, NORPLANTMONTH, ORALESTMONTH, ORALMEDMONTH, PATCHESTMONTH, PRESHOR2MONTH, PROESTMONTH, RINGMONTH, TWOPILLMONTH]
 // JSON WARNING --> Concept ID 451310566 with concept "Months at address" is shared between these Textbox codes: [MONTHADD1, MONTHADD10, MONTHADD2, MONTHADD3, MONTHADD4, MONTHADD5, MONTHADD6, MONTHADD7, MONTHADD8, MONTHADD9]
-// JSON WARNING --> Concept ID 544692849 with concept "2-Previous State/Province" is shared between these Textbox codes: [ST2, ST2_FOLLOWUP]
 // JSON WARNING --> Concept ID 623218391 with concept "Age at surgery" is shared between these Textbox codes: [BREASTABSS_AGE, BREASTDBLREM_AGE, BREASTIMPLANTS_AGE, BREASTLACTREM_AGE, BREASTLIFT_AGE, BREASTOTH_AGE, BREASTPARTREM_AGE, BREASTRECON_AGE, BREASTREDN_AGE, BREASTREM_AGE]
 // JSON WARNING --> Concept ID 707805344 with concept "# of Hours" is shared between these Textbox codes: [FALLASLEEPHOURS, LAYINBEDHRS, NONWORKAWAKEBEFOREUPHOURS, NONWORKFALLASLEEPHOURS, OUTSIDEHOURS, WORKDAYOUTSIDEHOURS]
 // JSON WARNING --> Concept ID 765748316 with concept "Days per week" is shared between these Textbox codes: [ACETWEEK, ACIDSUP2_1WK, ACIDSUP2_2WK, ACIDSUP2_3WK, BABYASPRINWEEK, CELECOXIBWEEK, CHOLHTN2_1WK, CHOLHTN2_2WK, IBUPROFENWEEK, INSULIN2_1WK, METFOR2_1WK, NAPROXENWEEK, PAINRELWEEK, REGASPRINWEEK]
@@ -18,7 +16,7 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Tue May 31 22:57:43 2022 -0400 (short timestamp = 2022-06-01-02-57-43)
+//This file was last modified on Sun Jul 31 14:00:38 2022 -0400 (short timestamp = 2022-07-31-18-00-38)
 {"name":"D_745268907"} [INTROM2] In this set of questions we ask about a few topics that affect your health. These topics include your current and past use of medications, your physical activity (including exercise), and your sleep habits.
 
 |displayif=or(equals(D_407056417,536341288),and(equals(D_407056417,576796184),or(equals(D_750420077,578416151),equals(D_750420077,434651539))))|We also ask some questions about your reproductive health. These questions will focus mainly on your menstrual periods, pregnancies, and if you have used any hormonal medications.|
@@ -43,9 +41,9 @@ Have you ever taken any of these medications at least <b>4 times a month for 6 m
 
 [D_861838892?] During the time(s) that you were taking <b>baby or low-dose aspirin (81 mg or less)</b>, about how many <b>days per week OR per month</b> did you take it? Please fill out either days per week or days per month.
 
- #Days PER Week |__|__|xor=PAINREL2_1 id=D_765748316 min=1 max=7|
+ #Days per Week |__|__|xor=PAINREL2_1 id=D_765748316 min=1 max=7|
 Or
-#Days PER Month |__|__| xor=PAINREL2_1 id=D_785412329 min=1 max=31|
+#Days per Month |__|__| xor=PAINREL2_1 id=D_785412329 min=1 max=31|
 
 < -> D_596961796 >
 
@@ -83,9 +81,9 @@ Or
 
 [D_837412550?] During the time(s) that you were taking <b>regular or extra strength aspirin</b>, about how many <b>days per week OR per month</b> did you take it? Please fill out either days per week or days per month.
 
-#Days PER Week |__|__|xor=PAINREL2_2 id=D_765748316 min=1 max=7|
+#Days per Week |__|__|xor=PAINREL2_2 id=D_765748316 min=1 max=7|
 Or
-#Days PER Month |__|__| xor=PAINREL2_2 id=D_785412329 min=1 max=31|
+#Days per Month |__|__| xor=PAINREL2_2 id=D_785412329 min=1 max=31|
 
 < -> D_825189914 >
 
@@ -123,9 +121,9 @@ Or
 
 [D_388804810?] During the time(s) that you were taking <b>ibuprofen</b>, about how many <b>days per week OR per month</b> did you take it? Please fill out either days per week or days per month.
 
-#Days PER Week |__|__|xor=PAINREL2_3 id=D_765748316 min=1 max=7|
+#Days per Week |__|__|xor=PAINREL2_3 id=D_765748316 min=1 max=7|
 Or
-#Days PER Month |__|__| xor=PAINREL2_3 id=D_785412329 min=1 max=31|
+#Days per Month |__|__| xor=PAINREL2_3 id=D_785412329 min=1 max=31|
 
 < -> D_753416375 >
 
@@ -163,9 +161,9 @@ Or
 
 [D_614446276?] During the time(s) that you were taking <b>acetaminophen</b>, about how many <b>days per week OR per month</b> did you take it? Please fill out either days per week or days per month.
 
-#Days PER Week |__|__|xor=PAINREL2_4 id=D_765748316 min=1 max=7|
+#Days per Week |__|__|xor=PAINREL2_4 id=D_765748316 min=1 max=7|
 Or
-#Days PER Month |__|__| xor=PAINREL2_4 id=D_785412329 min=1 max=31|
+#Days per Month |__|__| xor=PAINREL2_4 id=D_785412329 min=1 max=31|
 
 < -> D_646042915 >
 
@@ -203,9 +201,9 @@ Or
 
 [D_234177873?] During the time(s) that you were taking <b>naproxen</b>, about how many <b>days per week OR per month</b> did you take it? Please fill out either days per week or days per month.
 
-#Days PER Week |__|__|xor=PAINREL2_5 id=D_765748316 min=1 max=7|
+#Days per Week |__|__|xor=PAINREL2_5 id=D_765748316 min=1 max=7|
 Or
-#Days PER Month |__|__| xor=PAINREL2_5 id=D_785412329 min=1 max=31|
+#Days per Month |__|__| xor=PAINREL2_5 id=D_785412329 min=1 max=31|
 
 < -> D_799338907 >
 
@@ -243,9 +241,9 @@ Or
 
 [D_248599913?] During the time(s) that you were taking <b>Celebrex® (celecoxib)</b>, about how many <b>days per week OR per month</b> did you take it? Please fill out either days per week or days per month.
 
-#Days PER Week |__|__|xor=PAINREL2_6 id=D_765748316 min=1 max=7|
+#Days per Week |__|__|xor=PAINREL2_6 id=D_765748316 min=1 max=7|
 Or
-#Days PER Month |__|__| xor=PAINREL2_6 id=D_785412329 min=1 max=31|
+#Days per Month |__|__| xor=PAINREL2_6 id=D_785412329 min=1 max=31|
 
 < -> D_893965588 >
 
@@ -283,9 +281,9 @@ Or
 
 [D_697661603?] During the time(s) that you were taking <b>prescription pain relievers containing opioids</b>, about how many <b>days per week OR per month</b> did you take it? Please fill out either days per week or days per month.
 
-#Days PER Week |__|__|xor=PAINREL2_7 id=D_765748316 min=1 max=7|
+#Days per Week |__|__|xor=PAINREL2_7 id=D_765748316 min=1 max=7|
 Or
-#Days PER Month |__|__| xor=PAINREL2_7 id=D_785412329 min=1 max=31|
+#Days per Month |__|__| xor=PAINREL2_7 id=D_785412329 min=1 max=31|
 
 < -> D_438682764 >
 
@@ -338,9 +336,9 @@ Have you ever taken any of these medications at least <b>4 times a month for 6 m
 
 [D_731790154?] During the time(s) that you were taking <b>statins/cholesterol or lipid lowering drugs</b>, about how many <b>days per week OR per month</b> did you take it? Please fill out either days per week or days per month.
 
-#Days PER Week |__|__|xor=CHOLHTN2_1 id=D_765748316 min=1 max=7|
+#Days per Week |__|__|xor=CHOLHTN2_1 id=D_765748316 min=1 max=7|
 Or
-#Days PER Month |__|__| xor=CHOLHTN2_1 id=D_785412329 min=1 max=31|
+#Days per Month |__|__| xor=CHOLHTN2_1 id=D_785412329 min=1 max=31|
 
 < -> D_550092533 >
 
@@ -368,9 +366,9 @@ Or
 
 [D_305292465?] During the time(s) that you were taking <b>anti-hypertensive medication/drugs used to treat hypertension (high blood pressure)</b>, about how many <b>days per week OR per month</b> did you take it? Please fill out either days per week or days per month.
 
-#Days PER Week |__|__|xor=CHOLHTN2_2 id=D_765748316 min=1 max=7|
+#Days per Week |__|__|xor=CHOLHTN2_2 id=D_765748316 min=1 max=7|
 Or
-#Days PER Month |__|__| xor=CHOLHTN2_2 id=D_785412329 min=1 max=31|
+#Days per Month |__|__| xor=CHOLHTN2_2 id=D_785412329 min=1 max=31|
 
 
 < -> D_901498441 >
@@ -406,9 +404,9 @@ Have you ever taken <b>metformin</b> (such as Glucophage®, Glumetza®, Riomet®
 
 [D_694817520?] During the time(s) that you were taking <b>metformin</b>, about how many <b>days per week OR per month</b> did you take it? Please fill out either days per week or days per month.
 
-#Days PER Week |__|__|xor=METFOR2_1 id=D_765748316 min=1 max=7|
+#Days per Week |__|__|xor=METFOR2_1 id=D_765748316 min=1 max=7|
 Or
-#Days PER Month |__|__| xor=METFOR2_1 id=D_785412329 min=1 max=31|
+#Days per Month |__|__| xor=METFOR2_1 id=D_785412329 min=1 max=31|
 
 < -> D_991622246 >
 
@@ -442,9 +440,9 @@ Have you ever taken <b>insulin</b> at least <b>4 times a month for 6 months or l
 
 [D_745223146?] During the time(s) that you were taking insulin, about how many <b>days per week OR per month</b> did you take it? Please fill out either days per week or days per month.
 
-#Days PER Week |__|__|xor=INSULIN2_1 id=D_765748316 min=1 max=7|
+#Days per Week |__|__|xor=INSULIN2_1 id=D_765748316 min=1 max=7|
 Or
-#Days PER Month |__|__| xor=INSULIN2_1 id=D_785412329 min=1 max=31|
+#Days per Month |__|__| xor=INSULIN2_1 id=D_785412329 min=1 max=31|
 
 < -> D_273218182 >
 
@@ -488,9 +486,9 @@ Have you ever taken any of these medications at least <b>4 times a month for 6 m
 
 [D_172234651?,displayif=equals(D_643361372,933374659)] During the time(s) that you were taking <b>prescription proton pump inhibitors</b>, about how many <b>days per week OR per month</b> did you take it? Please fill out either days per week or days per month.
 
-#Days PER Week |__|__|xor=ACIDSUP2_1 id=D_765748316 min=1 max=7|
+#Days per Week |__|__|xor=ACIDSUP2_1 id=D_765748316 min=1 max=7|
 Or
-#Days PER Month |__|__|xor=ACIDSUP2_1 id=D_785412329 min=1 max=31|
+#Days per Month |__|__|xor=ACIDSUP2_1 id=D_785412329 min=1 max=31|
 
 < -> D_753610471 >
 
@@ -518,9 +516,9 @@ Or
 
 [D_416865817?,displayif=equals(D_643361372,920460744)] During the time(s) that you were taking <b>over-the-counter proton pump inhibitors</b>, about how many <b>days per week OR per month</b> did you take it? Please fill out either days per week or days per month.
 
-#Days PER Week |__|__|xor=ACIDSUP2_2 id=D_765748316 min=1 max=7|
+#Days per Week |__|__|xor=ACIDSUP2_2 id=D_765748316 min=1 max=7|
 Or
-#Days PER Month |__|__|xor=ACIDSUP2_2 id=D_785412329 min=1 max=31|
+#Days per Month |__|__|xor=ACIDSUP2_2 id=D_785412329 min=1 max=31|
 
 < -> D_803968511 >
 
@@ -547,9 +545,9 @@ Or
 
 [D_266752903?,displayif=equals(D_643361372,449861632)] During the time(s) that you were taking <b>over-the-counter H2 receptor blockers</b>, about how many <b>days per week OR per month</b> did you take it? Please fill out either days per week or days per month.
 
-#Days PER Week |__|__|xor=ACIDSUP2_3 id=D_765748316 min=1 max=7|
+#Days per Week |__|__|xor=ACIDSUP2_3 id=D_765748316 min=1 max=7|
 Or
-#Days PER Month |__|__|xor=ACIDSUP2_3 id=D_785412329 min=1 max=31|
+#Days per Month |__|__|xor=ACIDSUP2_3 id=D_785412329 min=1 max=31|
 
 < -> D_618427836 >
 
@@ -662,7 +660,7 @@ Age |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
 [386152189]Bleeding after menopause
 [535003378*]I have <b>not</b> experienced any of the above
 
-[PREG]<b>Pregnancies</b>
+[PREG]<b>Pregnancies</b> <br/> <br/> 
 Next, we will ask you some questions about pregnancies that you may have had.
 
 [D_849945160?]Are you currently pregnant?
@@ -741,13 +739,19 @@ Did a doctor or other health professional tell you that you have or had |popup|<
 [PREGSUMMARY,displayif=greaterThanOrEqual(D_405571048,#loop)] Here’s a summary of the information you shared about this pregnancy. If any of the information is incorrect, please select the “Back” button to update your responses. If all of the information is correct, please select the “Next” button to move forward.
 
 Pregnancy number: #loop
-Age when pregnancy began: {$D_968816827}
-|displayif=or(and(equals(D_849945160,353358909),greaterThan(D_405571048,#loop)),and(doesNotEqual(D_849945160,353358909),greaterThanOrEqual(D_405571048,#loop)))|Outcome of pregnancy: ||displayif=equals(D_391951010,223216393)|Live birth: single infant||displayif=equals(D_391951010,628445697)|Live birth: twins, triplets, or higher multiples||displayif=equals(D_391951010,419220239)|Stillbirth||displayif=equals(D_391951010,306890578)|Live birth and stillbirth (loss of one or more of multiples)||displayif=equals(D_391951010,858244199)|Miscarriage (pregnancy loss before 20 weeks)||displayif=equals(D_391951010,434041171)|Termination||displayif=equals(D_391951010,550615107)|Ectopic or tubal pregnancy (fertilized egg implants outside of the uterus)||displayif=equals(D_391951010,746038746)|Prefer not to answer|
-|displayif=or(equals(D_391951010,628445697),equals(D_391951010,306890578))|Number of infants:||displayif=equals(D_281494550,582602017)| Two (Twins)||displayif=equals(D_281494550,105727261)| Three (Triplets)||displayif=equals(D_281494550,720288326)| Four or more|
-|displayif=or(equals(D_391951010,223216393),or(equals(D_391951010,628445697),equals(D_391951010,306890578)))|Method of delivery:||displayif=equals(D_771528780,660308254)| Cesarean||displayif=equals(D_771528780,936573532)| Vaginal|
-|displayif=or(equals(D_391951010,223216393),or(equals(D_391951010,628445697),equals(D_391951010,306890578)))|Did you breastfeed: ||displayif=equals(D_486574018,353358909)| Yes||displayif=equals(D_486574018,104430631)| No|
-|displayif=equals(D_486574018,353358909)|Number of months of breastfeeding: {$D_278277373}|
-|displayif=or(equals(D_391951010,223216393),or(equals(D_391951010,628445697),or(equals(D_391951010,306890578),equals(D_391951010,419220239))))|Did you have gestational diabetes:||displayif=equals(D_779052408,353358909)| Yes||displayif=equals(D_779052408,104430631)| No|
+Age when pregnancy began: {$D_968816827} <br/>
+|displayif=or(and(equals(D_849945160,353358909),greaterThan(D_405571048,#loop)),and(doesNotEqual(D_849945160,353358909),greaterThanOrEqual(D_405571048,#loop)))|Outcome of pregnancy: |
+|displayif=equals(D_391951010,223216393)|Live birth: single infant|
+|displayif=equals(D_391951010,628445697)|Live birth: twins, triplets, or higher multiples|
+|displayif=equals(D_391951010,419220239)|Stillbirth||displayif=equals(D_391951010,306890578)|Live birth and stillbirth (loss of one or more of multiples)|
+|displayif=equals(D_391951010,858244199)|Miscarriage (pregnancy loss before 20 weeks)|
+|displayif=equals(D_391951010,434041171)|Termination||displayif=equals(D_391951010,550615107)|Ectopic or tubal pregnancy (fertilized egg implants outside of the uterus)|
+|displayif=equals(D_391951010,746038746)|Prefer not to answer|<br/>
+|displayif=or(equals(D_391951010,628445697),equals(D_391951010,306890578))|Number of infants:||displayif=equals(D_281494550,582602017)| Two (Twins)||displayif=equals(D_281494550,105727261)| Three (Triplets)||displayif=equals(D_281494550,720288326)| Four or more|<br/>
+|displayif=or(equals(D_391951010,223216393),or(equals(D_391951010,628445697),equals(D_391951010,306890578)))|Method of delivery:||displayif=equals(D_771528780,660308254)| Cesarean||displayif=equals(D_771528780,936573532)| Vaginal|<br/>
+|displayif=or(equals(D_391951010,223216393),or(equals(D_391951010,628445697),equals(D_391951010,306890578)))|Did you breastfeed: ||displayif=equals(D_486574018,353358909)| Yes||displayif=equals(D_486574018,104430631)| No|<br/>
+|displayif=equals(D_486574018,353358909)|Number of months of breastfeeding: {$D_278277373}|<br/>
+|displayif=or(equals(D_391951010,223216393),or(equals(D_391951010,628445697),or(equals(D_391951010,306890578),equals(D_391951010,419220239))))|Did you have gestational diabetes:||displayif=equals(D_779052408,353358909)| Yes||displayif=equals(D_779052408,104430631)| No|<br/>
 |displayif=or(equals(D_391951010,223216393),or(equals(D_391951010,628445697),or(equals(D_391951010,306890578),equals(D_391951010,419220239))))|Did you have pre-eclampsia or eclampsia:||displayif=equals(D_133297530,353358909)| Yes||displayif=equals(D_133297530,104430631)| No|
 
 </loop>
@@ -2093,26 +2097,26 @@ We have some questions about your sleep schedule on workdays. Workdays include d
 
 // should these be drop-down increments? currently drop down isn't supported
 [D_636757313?]
-What time do you usually go to bed on |displayif=equals(D_591723682,353358909)|the nights before workdays||displayif=doesNotEqual(D_591723682,353358909)|most days|? Please tell us the time you usually get into your bed, <b>not the time you usually fall asleep.</b>
+What time do you usually go to bed on |displayif=equals(D_591723682,353358909)|the nights before workdays||displayif=doesNotEqual(D_591723682,353358909)|most days|? Please tell us the time you usually get into your bed, <b>not the time you usually fall asleep.</b> If you are using a phone or tablet, please tap the gray box to enter your response.
 
 |time|
 
 // should these be drop-down increments? currently drop down isn't supported
 [D_653906464?]
-On |displayif=equals(D_591723682,353358909)|the nights before workdays||displayif=doesNotEqual(D_591723682,353358909)|most nights|, how long does it usually take you to fall asleep? Select the number of minutes and/or hours using the drop-down options below.
+On |displayif=equals(D_591723682,353358909)|the nights before workdays||displayif=doesNotEqual(D_591723682,353358909)|most nights|, how long does it usually take you to fall asleep?
 
 # of Hours |__|__|id=D_707805344 min=0 max=9|
 # of Minutes |__|__|id=D_850393641 min=0 max=59|
 
 // should these be drop-down increments? currently drop down isn't supported
 [D_580367946?]
-What time do you usually wake up on |displayif=equals(D_591723682,353358909)|workdays||displayif=doesNotEqual(D_591723682,353358909)|most days|? Select your answer using the drop-down options below.
+What time do you usually wake up on |displayif=equals(D_591723682,353358909)|workdays||displayif=doesNotEqual(D_591723682,353358909)|most days|? Select your answer using the drop-down options below. If you are using a phone or tablet, please tap the gray box to enter your response.
 
 |time|
 
 // should these be drop-down increments? currently drop down isn't supported
 [D_358259099?]
-On |displayif=equals(D_591723682,353358909)|workdays||displayif=doesNotEqual(D_591723682,353358909)|most days|, how long do you usually lie in bed after you wake up before getting out of bed? Select the number of minutes and/or hours using the drop-down options below.
+On |displayif=equals(D_591723682,353358909)|workdays||displayif=doesNotEqual(D_591723682,353358909)|most days|, how long do you usually lie in bed after you wake up before getting out of bed?
 
 # of Hours |__|__|id=D_707805344  min=0 max=9|
 # of Minutes |__|__|id=D_850393641  min=0 max=59|
@@ -2129,7 +2133,7 @@ On |displayif=equals(D_591723682,353358909)|workdays||displayif=doesNotEqual(D_5
 (104430631) No
 
 [D_424807655?]
-Exposure to natural sunlight can affect your sleep patterns. During a usual |displayif=equals(D_591723682,353358909)|workday||displayif=doesNotEqual(D_591723682,353358909)|day|, about how much time do you spend outside in direct sunlight? Select the number of minutes and/or hours using the drop-down options below.
+Exposure to natural sunlight can affect your sleep patterns. During a usual |displayif=equals(D_591723682,353358909)|workday||displayif=doesNotEqual(D_591723682,353358909)|day|, about how much time do you spend outside in direct sunlight?
 
 # of Hours |__|__|id=D_707805344 min=0 max=24|
 
@@ -2141,13 +2145,13 @@ Next, we will ask you about your sleep schedule on non-workdays, which are the d
 
 // should these be drop-down increments? currently drop down isn't supported
 [D_823919522?,displayif=equals(D_591723682,353358909)]
-What time do you usually go to bed on the nights before non-workdays? Please tell us the time you usually get into your bed, <b>not the time you usually fall asleep.</b>
+What time do you usually go to bed on the nights before non-workdays? Please tell us the time you usually get into your bed, <b>not the time you usually fall asleep.</b> If you are using a phone or tablet, please tap the gray box to enter your response.
 
 |time|
 
 // should these be drop-down increments? currently drop down isn't supported
 [D_532767229?,displayif=equals(D_591723682,353358909)]
-On nights before non-workdays, how long does it usually take you to fall asleep? Select the number of minutes and/or hours using the drop-down options below.
+On nights before non-workdays, how long does it usually take you to fall asleep?
 
 # of Hours |__|__|id=D_707805344 min=0 max=9|
 
@@ -2155,12 +2159,12 @@ On nights before non-workdays, how long does it usually take you to fall asleep?
 
 // should these be drop-down increments? currently drop down isn't supported
 [D_698673038?,displayif=equals(D_591723682,353358909)]
-What time do you usually wake up on non-workdays?
+What time do you usually wake up on non-workdays? If you are using a phone or tablet, please tap the gray box to enter your response.
 
 |time|
 
 // should these be drop-down increments? currently drop down isn't supported
-[D_711365027?,displayif=equals(D_591723682,353358909)] On non-workdays, how long do you usually lie in bed after you wake up before getting out of bed? Select the number of minutes and/or hours using the drop-down options below.
+[D_711365027?,displayif=equals(D_591723682,353358909)] On non-workdays, how long do you usually lie in bed after you wake up before getting out of bed?
 
 # of Hours |__|__|id=D_707805344 min=0 max=9|
 
@@ -2181,7 +2185,7 @@ Do you use an alarm clock to wake up on non-workdays?
 (104430631) No
 
 // should these be drop-down increments? currently drop down isn't supported
-[D_825227968?,displayif=equals(D_591723682,353358909)] Exposure to natural sunlight can affect your sleep patterns. During a usual non-workday, about how much time do you spend outside in direct sunlight? Select the number of minutes and/or hours using the drop-down options below.
+[D_825227968?,displayif=equals(D_591723682,353358909)] Exposure to natural sunlight can affect your sleep patterns. During a usual non-workday, about how much time do you spend outside in direct sunlight?
 
 # of Hours |__|__|id=D_707805344 min=0 max=24|
 
@@ -2303,14 +2307,14 @@ Have you worked as a |popup|shift worker|Shift work is work that takes place on 
 < -> END >
 
 // should these be drop-down increments? currently drop down isn't supported
-[D_195662769?] |displayif=equals(D_674976924,958538953)|W||displayif=equals(D_674976924,274062548)|When you were a shift worker, w|hat time |displayif=equals(D_674976924,958538953)|does||displayif=equals(D_674976924,274062548)|did| your usual work shift start?
+[D_195662769?] |displayif=equals(D_674976924,958538953)|W||displayif=equals(D_674976924,274062548)|When you were a shift worker, w|hat time |displayif=equals(D_674976924,958538953)|does||displayif=equals(D_674976924,274062548)|did| your usual work shift start? If you are using a phone or tablet, please tap the gray box to enter your response.
 
 |time|
 
 < -> D_214870856 >
 
 // should these be drop-down increments? currently drop down isn't supported
-[D_214870856?] |displayif=equals(D_674976924,958538953)|W||displayif=equals(D_674976924,274062548)|When you were a shift worker, w|hat time |displayif=equals(D_674976924,958538953)|does||displayif=equals(D_674976924,274062548)|did| your usual work shift end?
+[D_214870856?] |displayif=equals(D_674976924,958538953)|W||displayif=equals(D_674976924,274062548)|When you were a shift worker, w|hat time |displayif=equals(D_674976924,958538953)|does||displayif=equals(D_674976924,274062548)|did| your usual work shift end? If you are using a phone or tablet, please tap the gray box to enter your response.
 
 |time|
 
@@ -2338,5 +2342,5 @@ Year |__|__|__|__|xor=SHIFTWORK10 id=D_120485458|
 
 
 
-[END,end]  Thank you for completing this section of the survey.
+[END,end]  Thank you for submitting your survey. If you are using a shared device, please remember to log out of the MyConnect app and any email accounts you have open.
 
