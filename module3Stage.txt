@@ -1,4 +1,4 @@
-// This file was transformed using the mapping data in Quest-2022-08-01-19-21-50_Transformation.json.
+// This file was transformed using the mapping data in Quest-2022-08-24-19-46-55_Transformation.json.
 
 // JSON WARNING --> Concept ID 101310722 with concept "# Pills per day" is shared between these Textbox codes: [ACIDSUP3_1A, ACIDSUP3_2A, ACIDSUP3_3A, CHOLHTN3_1A, CHOLHTN3_2A, INSULIN3_1A, METFOR3_1A, PAINREL3_1A, PAINREL3_2A, PAINREL3_3A, PAINREL3_4A, PAINREL3_5A, PAINREL3_6A, PAINREL3_7A]
 // JSON WARNING --> Concept ID 206625031 with concept "Age at diagnosis" is shared between these Textbox codes: [ANEMIA_AGE, APPEND_AGE, ARRHYT_AGE, ASTHMA_AGE, BARESO_AGE, BARSUR_AGE, BLDTRANS3_AGE, BLDTRANS4_AGE, BLOODCLOT_AGE, BREASTDIS_AGE, CCD_AGE, CD_AGE, CHESTPAIN_AGE, CHF_AGE, CHILDCANC3A_AGE, CHILDCANC3B_AGE, CHILDCANC3C_AGE, CHILDCANC3D_AGE, CHILDCANC3E_AGE, CHILDCANC3F_AGE, CHILDCANC3G_AGE, CHILDCANC3H_AGE, CHILDCANC3I_AGE, CHILDCANC3J_AGE, CHILDCANC3K_AGE, CHILDCANC3L_AGE, CHILDCANC3M_AGE, CHILDCANC3N_AGE, CHILDCANC3O_AGE, CHILDCANC3P_AGE, CHILDCANC3Q_AGE, CHILDCANC3R_AGE, CHILDCANC3S_AGE, CHILDCANC3T_AGE, CHILDCANC3U_AGE, CHILDCANC3V_AGE, CHILDCANC3W_AGE, CHILDCANC3X_AGE, CHILDCANC3Y_AGE, CHLA_AGE, CHOL_AGE, CKD_AGE, COPD_AGE, CVD_AGE, DADCANC3A_AGE, DADCANC3B_AGE, DADCANC3C_AGE, DADCANC3D_AGE, DADCANC3E_AGE, DADCANC3F_AGE, DADCANC3G_AGE, DADCANC3H_AGE, DADCANC3I_AGE, DADCANC3J_AGE, DADCANC3K_AGE, DADCANC3L_AGE, DADCANC3M_AGE, DADCANC3N_AGE, DADCANC3O_AGE, DADCANC3P_AGE, DADCANC3Q_AGE, DADCANC3R_AGE, DADCANC3S_AGE, DADCANC3T_AGE, DADCANC3U_AGE, DADCANC3V_AGE, DCIS_AGE, DEPRESS2_AGE, DIVERT_AGE, DM2_AGE, ENDO_AGE, ENLGPROS_AGE, FTREM2_AGE, GALLREM_AGE, GALL_AGE, GENWARTS_AGE, GERD_AGE, GONORR_AGE, GOUT_AGE, GRAVES_AGE, HAYFEVER_AGE, HBVHCV_AGE, HEARTATT_AGE, HEARTVALV_AGE, HIVAIDS_AGE, HPV_AGE, HTN_AGE, HYSTER_AGE, IBD_AGE, IBS_AGE, KIDNEY_AGE, LIPOSUCT_AGE, LIVCIRR_AGE, LUPUS_AGE, MOMCANC3A_AGE, MOMCANC3B_AGE, MOMCANC3C_AGE, MOMCANC3D_AGE, MOMCANC3E_AGE, MOMCANC3F_AGE, MOMCANC3G_AGE, MOMCANC3H_AGE, MOMCANC3I_AGE, MOMCANC3J_AGE, MOMCANC3K_AGE, MOMCANC3L_AGE, MOMCANC3M_AGE, MOMCANC3N_AGE, MOMCANC3O_AGE, MOMCANC3P_AGE, MOMCANC3Q_AGE, MOMCANC3R_AGE, MOMCANC3S_AGE, MOMCANC3T_AGE, MOMCANC3U_AGE, MOMCANC3V_AGE, MOMCANC3W_AGE, MONO_AGE, OVARYREM2_AGE, PANCREA_AGE, PCOS_AGE, PENREM_AGE, PROSREM2_AGE, RA_AGE, SHINGLES_AGE, SIBCANC3A_AGE, SIBCANC3B_AGE, SIBCANC3C_AGE, SIBCANC3D_AGE, SIBCANC3E_AGE, SIBCANC3F_AGE, SIBCANC3G_AGE, SIBCANC3H_AGE, SIBCANC3I_AGE, SIBCANC3J_AGE, SIBCANC3K_AGE, SIBCANC3L_AGE, SIBCANC3M_AGE, SIBCANC3N_AGE, SIBCANC3O_AGE, SIBCANC3P_AGE, SIBCANC3Q_AGE, SIBCANC3R_AGE, SIBCANC3S_AGE, SIBCANC3T_AGE, SIBCANC3U_AGE, SIBCANC3V_AGE, SIBCANC3W_AGE, SIBCANC3X_AGE, SIBCANC3Y_AGE, SKINCANC3_AGE, STROKE_AGE, SYPH_AGE, TESTREM2_AGE, THYROID_AGE, TONSILS_AGE, TRICH_AGE, TUBLIG_AGE, UC_AGE, UF_AGE, VASEC_AGE]
@@ -23,7 +23,7 @@
 // count: 8 | warning: "TOBACCO | this may be an untransformed Quest code"
 
 
-//This file was last modified on Wed Aug 3 09:26:28 2022 -0400 (short timestamp = 2022-08-03-13-26-28)
+//This file was last modified on Tue Aug 23 16:11:01 2022 -0400 (short timestamp = 2022-08-23-20-11-01)
 {"name":"D_965707586"}
 
 [INTROM3] The next questions are about your tobacco, nicotine, marijuana, and alcohol use. In the last section, we will ask you about your exposure to the sun and use of tanning beds.
@@ -68,7 +68,6 @@ Age started smoking cigarettes on a regular basis |__|__|id=D_408696162 min=valu
 (299561721) Yes, but rarely -> D_798549704
 (716761013) Yes, some days ->  D_798549704
 (804785430) Yes, every day -> D_304657762
-< #NR -> D_798549704>
 
 [D_798549704?,displayif=equals(D_947205597,712653855)] When was the <b>last</b> time you smoked cigarettes?
 (317567178) In the past month -> D_227439141
@@ -86,20 +85,16 @@ Age started smoking cigarettes on a regular basis |__|__|id=D_408696162 min=valu
 
 Age when last smoked cigarettes |__|__|min=valueOrDefault("D_408696162","D_194557808",0) max=sum(isDefined(D_150344905,age),1)|
 
-< #NR -> D_400969127>
-
 [D_400969127?,displayif=equals(D_947205597,712653855)] During that time, did you smoke cigarettes <b>every day</b>?
 (104430631) No -> D_820220019
 (353358909) Yes -> D_304657762
-< #NR -> D_820220019>
 
 [D_820220019?,displayif=equals(D_947205597,712653855)] During that time, how many days (1 to 30) did you smoke cigarettes in a usual month?
 #Days smoked in a usual month |__|__|min=1 max=30|
-< -> D_304657762>
 
 [D_304657762?,displayif=equals(D_947205597,712653855)]
 On days that you |displayif=doesNotExist("D_798549704") or valueEquals("D_798549704",317567178)|smoke||displayif=valueIsOneOf("D_798549704",484055234,802197176)|smoked|, how many cigarettes |displayif=doesNotExist("D_798549704") or valueEquals("D_798549704",317567178)|do||displayif=valueIsOneOf("D_798549704",484055234,802197176)|did| you smoke <b>per day</b>? Please provide the number of cigarettes, <b>not</b> the number of packs.
-#Cigarettes smoked per day |__|__|min=1 max=99| < -> D_815776236>
+#Cigarettes smoked per day |__|__|min=1 max=99|
 
 [D_815776236?,displayif=and(doesNotEqual(or(or(equals(D_639684251,804785430),and(or(or(equals(D_639684251,716761013),equals(D_639684251,299561721)),equals(D_639684251,419415087)),and(equals(D_798549704,484055234),equals(D_400969127,353358909)))),and(or(or(equals(D_639684251,716761013),equals(D_639684251,299561721)),equals(D_639684251,419415087)),and(equals(D_798549704,802197176),equals(D_400969127,353358909)))),1),equals(D_947205597,712653855))] Did you ever smoke cigarettes <b>every day</b>?
 (104430631) No -> D_624111331
@@ -196,7 +191,7 @@ How many days have you used <b>e-cigarettes or other vaping devices for nicotine
 < #NR -> D_182431332>
 
 [D_761037053?,displayif=equals(D_947205597,706254326)] How old were you when you <b>first</b> used e-cigarettes or other vaping devices for nicotine or tobacco?
-Age first vaped |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|< -> D_550244580>
+Age first vaped |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
 
 [D_550244580?,displayif=equals(D_947205597,706254326)]
 How old were you when you started using e-cigarettes or other vaping devices for nicotine or tobacco on a |popup|regular basis|Informational Text|We understand that the meaning of 'regular basis' might be different for different people. When you answer this question, please think about what "regular basis" means to you.|?
@@ -210,7 +205,6 @@ How old were you when you started using e-cigarettes or other vaping devices for
 (299561721) Yes, but rarely ->  D_238422161
 (716761013) Yes, some days -> D_238422161
 (804785430) Yes, every day ->  D_982470672
-< #NR -> D_238422161>
 
 [D_238422161?,displayif=equals(D_947205597,706254326)] When was the <b>last</b> time you used e-cigarettes or other vaping devices for nicotine or tobacco?
 (317567178) In the past month ->  D_716554850
@@ -228,15 +222,13 @@ How old were you when you started using e-cigarettes or other vaping devices for
 
 [D_360277949?,displayif=equals(D_947205597,706254326)] How old were you when you <b>last</b> used e-cigarettes or other vaping devices for nicotine or tobacco?
 Age when last used e-cigarettes or other vaping devices |__|__|min=isDefined(isDefined(D_517801904,D_761037053),0) max=sum(isDefined(D_150344905,age),1)|
-< #NR -> D_242276545>
 
 [D_242276545?,displayif=equals(D_947205597,706254326)] During that time, did you use e-cigarettes or other vaping devices for nicotine or tobacco <b>every day</b>?
 (104430631) No ->  D_183546626
 (353358909) Yes -> D_982470672
-< #NR -> D_183546626>
 
 [D_183546626?,displayif=equals(D_947205597,706254326)] During that time, how many days (1 to 30) did you use e-cigarettes or other vaping devices for nicotine or tobacco in a usual month?
-# Days used e-cigarettes or other vaping devices for nicotine or tobacco in usual month |__|__|min=1 max=30|< ->  D_982470672>
+# Days used e-cigarettes or other vaping devices for nicotine or tobacco in usual month |__|__|min=1 max=30|
 
 [D_982470672?,displayif=equals(D_947205597,706254326)]
 On days that you |displayif=doesNotExist("D_238422161") or valueEquals("D_238422161",317567178)|use||displayif=valueIsOneOf("D_238422161",484055234,802197176)|used| e-cigarettes or other vaping devices, what is the total amount of time you |displayif=doesNotExist("D_238422161") or valueEquals("D_238422161",317567178)|use||displayif=valueIsOneOf("D_238422161",484055234,802197176)|used| them <b>per day</b>?
@@ -263,7 +255,6 @@ Age stopped using e-cigarettes or other vaping devices every day |__|__|min=isDe
 
 [D_370901901?,displayif=equals(D_947205597,706254326)] What brand and model of device |displayif=doesNotExist("D_238422161") or valueEquals("D_238422161",317567178)|do||displayif=valueIsOneOf("D_238422161",484055234,802197176)|did| you use most often?
 Device Brand/Model |__|
-< -> D_240089798>
 
 // Same logic as CIGLIFEA-CIGLIFEH just with different variable names
 // 0 -17
@@ -359,7 +350,7 @@ How many <b>cigars, cigarillos, or little filtered cigars</b> have you smoked in
 
 [D_241771440?,displayif=equals(D_947205597,198133418)] How old were you when you <b>first</b> smoked cigars, cigarillos, or little filtered cigars?
 
-Age first smoked cigars, cigarillos, or little filtered cigars |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|< -> D_814115676>
+Age first smoked cigars, cigarillos, or little filtered cigars |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
 
 [D_814115676?,displayif=equals(D_947205597,198133418)]
 How old were you when you started smoking cigars, cigarillos, or little filtered cigars on a |popup|regular basis|Informational Text|We understand that the meaning of 'regular basis' might be different for different people. When you answer this question, please think about what "regular basis" means to you.|?
@@ -374,7 +365,6 @@ Age started smoking cigars, cigarillos, or little filtered cigars on a regular b
 (299561721) Yes, but rarely ->  D_789271762
 (716761013) Yes, some days ->  D_789271762
 (804785430) Yes, every day -> D_780721084
-< #NR -> D_789271762>
 
 [D_789271762?,displayif=equals(D_947205597,198133418)] When was the <b>last</b> time you smoked cigars, cigarillos, or little filtered cigars?
 (317567178) In the past month -> D_622210148
@@ -397,21 +387,19 @@ Age started smoking cigars, cigarillos, or little filtered cigars on a regular b
 
 Age when last smoked cigars, cigarillos, or little filtered cigars |__|__|min=isDefined(isDefined(D_851145096,D_241771440),0) max=sum(isDefined(D_150344905,age),1)|
 
-< #NR -> D_395480458>
 
 [D_395480458?,displayif=equals(D_947205597,198133418)] During that time, did you smoke cigars, cigarillos, or little filtered cigars <b>every day</b>?
 (104430631) No -> D_674378360
 (353358909) Yes -> D_780721084
-< #NR -> D_674378360>
 
 [D_674378360?,displayif=equals(D_947205597,198133418)] During that time, how many days (1 to 30) did you smoke cigars, cigarillos, or little filtered cigars in a usual month?
 
-#Days smoked in a month |__|__|min=1 max=30|< -> D_780721084>
+#Days smoked in a month |__|__|min=1 max=30|
 
 
 [D_780721084?,displayif=equals(D_947205597,198133418)]
 On days that you |displayif=doesNotExist("D_789271762") or valueEquals("D_789271762",317567178)|smoke||displayif=valueIsOneOf("D_789271762",484055234,802197176)|smoked|, how many cigars, cigarillos, or little filtered cigars |displayif=doesNotExist("D_789271762") or valueEquals("D_789271762",317567178)|do||displayif=valueIsOneOf("D_789271762",484055234,802197176)|did| you smoke <b>per day</b>?
-#cigars, cigarillos, or little filtered cigars smoked per day |__|__|min=1 max=99| < -> D_287715042>
+#cigars, cigarillos, or little filtered cigars smoked per day |__|__|min=1 max=99|
 
 [D_287715042?,displayif=and(doesNotEqual(or(or(equals(D_564438246,804785430),and(or(or(equals(D_564438246,716761013),equals(D_564438246,299561721)),equals(D_564438246,419415087)),and(equals(D_789271762,484055234),equals(D_395480458,353358909)))),and(or(or(equals(D_564438246,716761013),equals(D_564438246,299561721)),equals(D_564438246,419415087)),and(equals(D_789271762,802197176),equals(D_395480458,353358909)))),1),equals(D_947205597,198133418))] Did you ever smoke cigars, cigarillos, or little filtered cigars <b>every day</b>?
 (104430631) No -> D_306320432
@@ -422,18 +410,15 @@ On days that you |displayif=doesNotExist("D_789271762") or valueEquals("D_789271
 
 Age stopped smoking every day |__|__|min=isDefined(isDefined(D_851145096,D_241771440),0) max=sum(isDefined(D_150344905,age),1)|
 
-< #NR -> D_598954337>
 
 [D_598954337?,displayif=and(doesNotEqual(or(or(equals(D_564438246,804785430),and(or(or(equals(D_564438246,716761013),equals(D_564438246,299561721)),equals(D_564438246,419415087)),and(equals(D_789271762,484055234),equals(D_395480458,353358909)))),and(or(or(equals(D_564438246,716761013),equals(D_564438246,299561721)),equals(D_564438246,419415087)),and(equals(D_789271762,802197176),equals(D_395480458,353358909)))),1),equals(D_947205597,198133418))] When you were a daily smoker, how many cigars, cigarillos, or little filtered cigars did you smoke <b>per day</b>?
 # cigars, cigarillos, or little filtered cigars smoked per day |__|__|__|min=1 max=999|
-< -> D_103566006>
 
 [D_103566006?,displayif=equals(D_947205597,198133418)] What kind of cigar, cigarillo or little filtered cigar |displayif=doesNotExist("D_789271762") or valueEquals("D_789271762",317567178)|do||displayif=valueIsOneOf("D_789271762",484055234,802197176)|did| you usually use? Select all that apply.
 [123926260] Cigar
 [741643840] Cigarillo
 [959535900] Little filtered cigar
 [807835037] Other: Please describe |__|id=D_325879966|
-< -> D_254689566>
 
 // Same logic as CIGLIFEA-CIGLIFEH just with different variable names
 // 0 -17
@@ -497,7 +482,7 @@ How many days have you used <b>chewing tobacco, snus, snuff, or dip</b> in your 
 
 [D_213679054?,displayif=equals(D_947205597,817381897)] How old were you when you <b>first</b> used chewing tobacco, snus, snuff, or dip?
 
-Age first used chewing tobacco, snus, snuff, or dip |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|< -> D_257300783>
+Age first used chewing tobacco, snus, snuff, or dip |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
 
 [D_257300783?,displayif=equals(D_947205597,817381897)]
 How old were you when you started using chewing tobacco, snus, snuff, or dip on a |popup|regular basis|Informational Text|We understand that the meaning of 'regular basis' might be different for different people. When you answer this question, please think about what "regular basis" means to you.|?
@@ -505,14 +490,12 @@ How old were you when you started using chewing tobacco, snus, snuff, or dip on 
 Age started using chewing tobacco, snus, snuff, or dip on a regular basis |__|__|id=D_424527685 min=isDefined(D_213679054,0) max=sum(isDefined(D_150344905,age),1)|
 
 [648960871*] Never used them on a regular basis
-< -> D_101710639>
 
 [D_101710639?,displayif=equals(D_947205597,817381897)] Do you use chewing tobacco, snus, snuff, or dip now?
 (419415087) No -> D_344631681
 (299561721) Yes, but rarely -> D_344631681
 (716761013) Yes, some days -> D_344631681
 (804785430) Yes, every day -> D_394049992
-< #NR -> D_344631681>
 
 [D_344631681?,displayif=equals(D_947205597,817381897)] When was the <b>last</b> time you used chewing tobacco, snus, snuff, or dip?
 (317567178) In the past month ->  D_872821562
@@ -530,15 +513,14 @@ Age started using chewing tobacco, snus, snuff, or dip on a regular basis |__|__
 
 [D_671380198?,displayif=equals(D_947205597,817381897)] How old were you when you <b>last</b> used chewing tobacco, snus, snuff, or dip?
 
-Age when last used chewing tobacco, snus, snuff, or dip |__|__|min=isDefined(isDefined(D_424527685,D_213679054),0) max=sum(isDefined(D_150344905,age),1)| < ->  D_785139115>
+Age when last used chewing tobacco, snus, snuff, or dip |__|__|min=isDefined(isDefined(D_424527685,D_213679054),0) max=sum(isDefined(D_150344905,age),1)|
 
 [D_785139115?,displayif=equals(D_947205597,817381897)] During that time, did you use chewing tobacco, snus, snuff, or dip <b>every day</b>?
 (104430631) No ->  D_549400618
 (353358909) Yes -> D_394049992
-< #NR -> D_549400618>
 
 [D_549400618?,displayif=equals(D_947205597,817381897)] During that time, how many days (1 to 30) did you use chewing tobacco, snus, snuff, or dip in a usual month?
-#Days used chewing tobacco, snus, snuff, or dip in usual month|__|__|min=1 max=30|<  -> D_394049992>
+#Days used chewing tobacco, snus, snuff, or dip in usual month|__|__|min=1 max=30|
 
 [D_394049992?,displayif=equals(D_947205597,817381897)]
 On days that you |displayif=doesNotExist("D_344631681") or valueEquals("D_344631681",317567178)|use||displayif=valueIsOneOf("D_344631681",484055234,802197176)|used| them, what is the total amount of time you |displayif=doesNotExist("D_344631681") or valueEquals("D_344631681",317567178)|use||displayif=valueIsOneOf("D_344631681",484055234,802197176)|used| chewing tobacco, snus, snuff, or dip <b>per day</b>?
@@ -555,7 +537,7 @@ On days that you |displayif=doesNotExist("D_344631681") or valueEquals("D_344631
 
 [D_568113091?,displayif=and(doesNotEqual(or(or(equals(D_101710639,804785430),and(or(or(equals(D_101710639,716761013),equals(D_101710639,299561721)),equals(D_101710639,419415087)),and(equals(D_344631681,484055234),equals(D_785139115,353358909)))),and(or(or(equals(D_101710639,716761013),equals(D_101710639,299561721)),equals(D_101710639,419415087)),and(equals(D_344631681,802197176),equals(D_785139115,353358909)))),1),equals(D_947205597,817381897))] How old were you when you stopped using chewing tobacco, snus, snuff, or dip <b>every day</b>?
 
-Age stopped using chewing tobacco, snus, snuff, or dip every day |__|__|min=isDefined(isDefined(D_424527685,D_213679054),0) max=sum(isDefined(D_150344905,age),1)|< -> D_537807075>
+Age stopped using chewing tobacco, snus, snuff, or dip every day |__|__|min=isDefined(isDefined(D_424527685,D_213679054),0) max=sum(isDefined(D_150344905,age),1)|
 
 [D_537807075?,displayif=and(doesNotEqual(or(or(equals(D_101710639,804785430),and(or(or(equals(D_101710639,716761013),equals(D_101710639,299561721)),equals(D_101710639,419415087)),and(equals(D_344631681,484055234),equals(D_785139115,353358909)))),and(or(or(equals(D_101710639,716761013),equals(D_101710639,299561721)),equals(D_101710639,419415087)),and(equals(D_344631681,802197176),equals(D_785139115,353358909)))),1),equals(D_947205597,817381897))] When you were a daily user of chewing tobacco, snus, snuff, or dip, what is the total amount of time you used them <b>per day</b>?
 (428999623) 15 minutes or less
@@ -563,11 +545,9 @@ Age stopped using chewing tobacco, snus, snuff, or dip every day |__|__|min=isDe
 (998679771) 31 to 59 minutes
 (638092100) 1 hour
 (127455035) 2 hours or more
-< -> D_960332453>
 
 [D_960332453?,displayif=equals(D_947205597,817381897)]What brand of chewing tobacco, snus, snuff, or dip |displayif=doesNotExist("D_344631681") or valueEquals("D_344631681",317567178)|do||displayif=valueIsOneOf("D_344631681",484055234,802197176)|did| you use most often?
 Brand of chewing tobacco, snus, snuff, or dip |__|
-< -> D_495592561>
 
 // Same logic as CIGLIFEA-CIGLIFEH just with different variable names
 // 0 -17
@@ -678,7 +658,6 @@ Age started smoking a hookah or water pipe on a regular basis |__|__|id=D_234430
 (299561721) Yes, but rarely -> D_787047261
 (716761013) Yes, some days -> D_787047261
 (804785430) Yes, every day -> D_356470028
-< #NR -> D_787047261>
 
 [D_787047261?,displayif=equals(D_947205597,539648641)] When was the <b>last</b> time you smoked a hookah or water pipe?
 (317567178) In the past month -> D_915293401
@@ -696,16 +675,15 @@ Age started smoking a hookah or water pipe on a regular basis |__|__|id=D_234430
 
 [D_938333920?,displayif=equals(D_947205597,539648641)] How old were you when you <b>last</b> smoked a hookah or water pipe?
 
-Age when last smoked a hookah or water pipe |__|__|min=isDefined(isDefined(D_234430294,D_127871793),0) max=sum(isDefined(D_150344905,age),1)|< #NR -> D_585702271>
+Age when last smoked a hookah or water pipe |__|__|min=isDefined(isDefined(D_234430294,D_127871793),0) max=sum(isDefined(D_150344905,age),1)|
 
 [D_585702271?,displayif=equals(D_947205597,539648641)] During that time, did you smoke a hookah or water pipe <b>every day</b>?
 (104430631) No -> D_827661413
 (353358909) Yes -> D_356470028
-< #NR -> D_827661413>
 
 [D_827661413?,displayif=equals(D_947205597,539648641)] During that time, how many days (1 to 30) did you smoke a hookah or water pipe in a usual month?
 
-#Days smoked in usual month |__|__|min=1 max=30|< -> D_356470028>
+#Days smoked in usual month |__|__|min=1 max=30|
 
 [D_356470028?,displayif=equals(D_947205597,539648641)]
 On days that you |displayif=doesNotExist("D_787047261") or valueEquals("D_787047261",317567178)|smoke||displayif=valueIsOneOf("D_787047261",484055234,802197176)|smoked|, what is the total amount of time you |displayif=doesNotExist("D_787047261") or valueEquals("D_787047261",317567178)|smoke||displayif=valueIsOneOf("D_787047261",484055234,802197176)|smoked| a hookah or water pipe <b>per day</b>?
@@ -714,7 +692,6 @@ On days that you |displayif=doesNotExist("D_787047261") or valueEquals("D_787047
 (998679771) 31 to 59 minutes
 (638092100) 1 hour
 (127455035) 2 hours or more
-< -> D_720305356>
 
 [D_720305356?,displayif=and(doesNotEqual(or(or(equals(D_472007171,804785430),and(or(or(equals(D_472007171,716761013),equals(D_472007171,299561721)),equals(D_472007171,419415087)),and(equals(D_787047261,484055234),equals(D_585702271,353358909)))),and(or(or(equals(D_472007171,716761013),equals(D_472007171,299561721)),equals(D_472007171,419415087)),and(equals(D_787047261,802197176),equals(D_585702271,353358909)))),1),equals(D_947205597,539648641))] Did you ever smoke a hookah or water pipe <b>every day</b>?
 (104430631) No -> D_559388168
@@ -731,7 +708,6 @@ Age stopped smoking a hookah or water pipe every day |__|__|min=isDefined(isDefi
 (998679771) 31 to 59 minutes
 (638092100) 1 hour
 (127455035) 2 hours or more
-< #NR -> D_445712879>
 
 // Same logic as CIGLIFEA-CIGLIFEH just with different variable names
 // 0-17
@@ -828,7 +804,7 @@ How many days have you smoked a <b>tobacco pipe</b> in your life?
 
 [D_450151555?,displayif=equals(D_947205597,686310465)] How old were you when you <b>first</b> smoked a tobacco pipe?
 
-Age first smoked a tobacco pipe |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|< -> D_546410473>
+Age first smoked a tobacco pipe |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
 
 [D_546410473?,displayif=equals(D_947205597,686310465)]
 How old were you when you started smoking a tobacco pipe on a |popup|regular basis|Informational Text|We understand that the meaning of 'regular basis' might be different for different people. When you answer this question, please think about what "regular basis" means to you.|?
@@ -836,14 +812,12 @@ How old were you when you started smoking a tobacco pipe on a |popup|regular bas
 Age started smoking a tobacco pipe on a regular basis |__|__|id=D_663551714 min=isDefined(D_450151555,0) max=sum(isDefined(D_150344905,age),1)|
 
 [648960871*] Never smoked on a regular basis
-< -> D_458395129>
 
 [D_458395129?,displayif=equals(D_947205597,686310465)] Do you smoke a tobacco pipe now?
 (419415087) No -> D_845122623
 (299561721) Yes, but rarely -> D_845122623
 (716761013) Yes, some days -> D_845122623
 (804785430) Yes, every day -> D_780767323
-< #NR -> D_845122623>
 
 [D_845122623?,displayif=equals(D_947205597,686310465)] When was the <b>last</b> time you smoked a tobacco pipe?
 (317567178) In the past month -> D_679300202
@@ -861,16 +835,15 @@ Age started smoking a tobacco pipe on a regular basis |__|__|id=D_663551714 min=
 
 [D_780685299?,displayif=equals(D_947205597,686310465)] How old were you when you <b>last</b> smoked a tobacco pipe?
 
-Age when last smoked a tobacco pipe |__|__|min=isDefined(isDefined(D_663551714,D_450151555),0) max=sum(isDefined(D_150344905,age),1)|< -> D_311569789>
+Age when last smoked a tobacco pipe |__|__|min=isDefined(isDefined(D_663551714,D_450151555),0) max=sum(isDefined(D_150344905,age),1)|
 
 [D_311569789?,displayif=equals(D_947205597,686310465)] During that time, did you smoke a tobacco pipe <b>every day</b>?
 (104430631) No -> D_652477674
 (353358909) Yes -> D_780767323
-< #NR -> D_652477674>
 
 [D_652477674?,displayif=equals(D_947205597,686310465)] During that time, how many days (1 to 30) did you smoke a tobacco pipe in a usual month?
 
-#Days smoked in usual month |__|__|min=1 max=30|<-> D_780767323>
+#Days smoked in usual month |__|__|min=1 max=30|
 
 [D_780767323?,displayif=equals(D_947205597,686310465)]
 On days that you |displayif=doesNotExist("D_845122623") or valueEquals("D_845122623",317567178)|smoke||displayif=valueIsOneOf("D_845122623",484055234,802197176)|smoked|, how many pipe fills of tobacco |displayif=doesNotExist("D_845122623") or valueEquals("D_845122623",317567178)|do||displayif=valueIsOneOf("D_845122623",484055234,802197176)|did| you smoke <b>per day</b>?
@@ -883,10 +856,10 @@ On days that you |displayif=doesNotExist("D_845122623") or valueEquals("D_845122
 
 [D_119378795?,displayif=and(doesNotEqual(or(or(equals(D_458395129,804785430),and(or(or(equals(D_458395129,716761013),equals(D_458395129,299561721)),equals(D_458395129,419415087)),and(equals(D_845122623,484055234),equals(D_311569789,353358909)))),and(or(or(equals(D_458395129,716761013),equals(D_458395129,299561721)),equals(D_458395129,419415087)),and(equals(D_845122623,802197176),equals(D_311569789,353358909)))),1),equals(D_947205597,686310465))] How old were you when you stopped smoking a tobacco pipe <b>every day</b>?
 
-Age stopped smoking every day |__|__|min=isDefined(isDefined(D_663551714,D_450151555),0) max=sum(isDefined(D_150344905,age),1)|< -> D_286598574>
+Age stopped smoking every day |__|__|min=isDefined(isDefined(D_663551714,D_450151555),0) max=sum(isDefined(D_150344905,age),1)|
 
 [D_286598574?,displayif=and(doesNotEqual(or(or(equals(D_458395129,804785430),and(or(or(equals(D_458395129,716761013),equals(D_458395129,299561721)),equals(D_458395129,419415087)),and(equals(D_845122623,484055234),equals(D_311569789,353358909)))),and(or(or(equals(D_458395129,716761013),equals(D_458395129,299561721)),equals(D_458395129,419415087)),and(equals(D_845122623,802197176),equals(D_311569789,353358909)))),1),equals(D_947205597,686310465))] When you were a daily smoker, how many pipe fills of tobacco did you smoke <b>per day</b>?
-#Pipe fills of tobacco smoked per day |__|__|__|min=1 max=99|< -> D_689339933>
+#Pipe fills of tobacco smoked per day |__|__|__|min=1 max=99|
 
 // Same logic as CIGLIFEA-CIGLIFEH just with different variable names
 // 0-17
@@ -967,7 +940,6 @@ In <b>the past year</b>, about how often were you around tobacco smoke from othe
 (838981994) 6 to 9 hours per day
 (464169461) 10 to 15 hours per day
 (683466918) More than 15 hours per day
-<#NR -> D_738219521>
 
 
 |grid?|id="D_738219521"|Thinking about your usual adult life, about how often were you around the tobacco smoke of others, for example in your home, work, or school?|[ 
@@ -1031,7 +1003,7 @@ The next questions are about smoking marijuana (such as joints, pipes, bowls, or
 
 [D_210016366?,displayif=equals(D_830608495,760521319)] How old were you when you <b>first</b> smoked marijuana?
 
-Age first smoked marijuana |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|< -> D_116080663>
+Age first smoked marijuana |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
 
 [D_116080663?,displayif=equals(D_830608495,760521319)]
 How old were you when you started smoking marijuana on a |popup|regular basis|Informational Text|We understand that the meaning of 'regular basis' might be different for different people. When you answer this question, please think about what "regular basis" means to you.|?
@@ -1039,14 +1011,12 @@ How old were you when you started smoking marijuana on a |popup|regular basis|In
 Age started smoking marijuana on a regular basis |__|__|id=D_889949861 min=isDefined(D_210016366,0) max=sum(isDefined(D_150344905,age),1)|
 
 [648960871*] Never smoked on a regular basis
-< -> D_503058092>
 
 [D_503058092?,displayif=equals(D_830608495,760521319)] Do you smoke marijuana now?
 (419415087) No -> D_180308733
 (299561721) Yes, but rarely -> D_180308733
 (716761013) Yes, some days -> D_180308733
 (804785430) Yes, every day -> D_719293094
-< #NR -> D_180308733>
 
 [D_180308733?,displayif=equals(D_830608495,760521319)] When was the <b>last</b> time you smoked marijuana?
 (317567178) In the past month -> D_831873859
@@ -1064,16 +1034,14 @@ Age started smoking marijuana on a regular basis |__|__|id=D_889949861 min=isDef
 [D_863664828?,displayif=equals(D_830608495,760521319)] How old were you when you <b>last</b> smoked marijuana?
 
 Age when last smoked marijuana  |__|__|min=isDefined(isDefined(D_889949861,D_210016366),0) max=sum(isDefined(D_150344905,age),1)|
-< #NR -> D_129677435>
 
 [D_129677435?,displayif=equals(D_830608495,760521319)] During that time, did you smoke marijuana <b>every day</b>?
 (104430631) No -> D_930208825
 (353358909) Yes -> D_719293094
-< #NR -> D_930208825>
 
 [D_930208825?,displayif=equals(D_830608495,760521319)] During that time, how many days (1 to 30) did you smoke marijuana in a usual month?
 
-#Days smoked in usual month |__|__|min=1 max=30|<-> D_719293094>
+#Days smoked in usual month |__|__|min=1 max=30|
 
 [D_719293094?,displayif=equals(D_830608495,760521319)]
 On days that you |displayif=doesNotExist("D_180308733") or valueEquals("D_180308733",317567178)|smoke||displayif=valueIsOneOf("D_180308733",484055234,802197176)|smoked| marijuana, what is the total amount of time you |displayif=doesNotExist("D_180308733") or valueEquals("D_180308733",317567178)|smoke||displayif=valueIsOneOf("D_180308733",484055234,802197176)|smoked| <b>per day</b>?
@@ -1082,7 +1050,6 @@ On days that you |displayif=doesNotExist("D_180308733") or valueEquals("D_180308
 (998679771) 31 to 59 minutes
 (638092100) 1 hour
 (127455035) 2 hours or more
-<-> D_722122662>
 
 [D_722122662?,displayif=and(doesNotEqual(or(or(equals(D_503058092,804785430),and(or(or(equals(D_503058092,716761013),equals(D_503058092,299561721)),equals(D_503058092,419415087)),and(equals(D_180308733,484055234),equals(D_129677435,353358909)))),and(or(or(equals(D_503058092,716761013),equals(D_503058092,299561721)),equals(D_503058092,419415087)),and(equals(D_180308733,802197176),equals(D_129677435,353358909)))),1),equals(D_830608495,760521319))] Did you ever smoke marijuana <b>every day</b>?
 (104430631) No -> D_377064836
@@ -1091,7 +1058,7 @@ On days that you |displayif=doesNotExist("D_180308733") or valueEquals("D_180308
 
 [D_556963634?,displayif=and(doesNotEqual(or(or(equals(D_503058092,804785430),and(or(or(equals(D_503058092,716761013),equals(D_503058092,299561721)),equals(D_503058092,419415087)),and(equals(D_180308733,484055234),equals(D_129677435,353358909)))),and(or(or(equals(D_503058092,716761013),equals(D_503058092,299561721)),equals(D_503058092,419415087)),and(equals(D_180308733,802197176),equals(D_129677435,353358909)))),1),equals(D_830608495,760521319))] How old were you when you stopped smoking marijuana every day?
 
-Age stopped smoking every day |__|__|min=isDefined(isDefined(D_889949861,D_210016366),0) max=sum(isDefined(D_150344905,age),1)|< -> D_492742957>
+Age stopped smoking every day |__|__|min=isDefined(isDefined(D_889949861,D_210016366),0) max=sum(isDefined(D_150344905,age),1)|
 
 [D_492742957?,displayif=and(doesNotEqual(or(or(equals(D_503058092,804785430),and(or(or(equals(D_503058092,716761013),equals(D_503058092,299561721)),equals(D_503058092,419415087)),and(equals(D_180308733,484055234),equals(D_129677435,353358909)))),and(or(or(equals(D_503058092,716761013),equals(D_503058092,299561721)),equals(D_503058092,419415087)),and(equals(D_180308733,802197176),equals(D_129677435,353358909)))),1),equals(D_830608495,760521319))] When you were a daily smoker of marijuana, what is the total amount of time you smoked <b>per day</b>?
 (428999623) 15 minutes or less
@@ -1099,7 +1066,6 @@ Age stopped smoking every day |__|__|min=isDefined(isDefined(D_889949861,D_21001
 (998679771) 31 to 59 minutes
 (638092100) 1 hour
 (127455035) 2 hours or more
-< -> D_377064836>
 
 [D_377064836?,displayif=equals(D_830608495,760521319)] Why |displayif=doesNotExist("D_180308733") or valueEquals("D_180308733",317567178)|do||displayif=valueIsOneOf("D_180308733",484055234,802197176)|did| you smoke marijuana?
 (437269318) Recreation
@@ -1107,7 +1073,6 @@ Age stopped smoking every day |__|__|min=isDefined(isDefined(D_889949861,D_21001
 (585672584) Recreation and as medicine
 (807835037) Other: Please describe |__|id=D_779642303|
 (746038746) Prefer not to answer
-< #NR -> D_258291510>
 
 // Same logic as CIGLIFEA-CIGLIFEH just with different variable names
 // 0-17
@@ -1203,7 +1168,7 @@ How many <b>marijuana products with tobacco</b> have you smoked in your life?
 
 [D_140848765?,displayif=equals(D_830608495,158841370)] How old were you when you <b>first</b> smoked a combination of marijuana with tobacco?
 
-Age first smoked a combination of marijuana with tobacco |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|< ->  D_378254382>
+Age first smoked a combination of marijuana with tobacco |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
 
 [D_378254382?,displayif=equals(D_830608495,158841370)]
 How old were you when you started smoking a combination of marijuana with tobacco on a |popup|regular basis|Informational Text|We understand that the meaning of 'regular basis' might be different for different people. When you answer this question, please think about what "regular basis" means to you.|?
@@ -1211,14 +1176,12 @@ How old were you when you started smoking a combination of marijuana with tobacc
 Age started smoking a combination of marijuana with tobacco on a regular basis |__|__|id=D_628818510 min=isDefined(D_140848765,0) max=sum(isDefined(D_150344905,age),1)|
 
 [648960871*] Never smoked on a regular basis
-< ->  D_891825638>
 
 [D_891825638?,displayif=equals(D_830608495,158841370)] Do you smoke a combination of marijuana with tobacco now?
 (419415087) No ->  D_444759994
 (299561721) Yes, but rarely ->  D_444759994
 (716761013) Yes, some days -> D_444759994
 (804785430) Yes, every day ->  D_964154290
-< #NR -> D_444759994>
 
 [D_444759994?,displayif=equals(D_830608495,158841370)] When was the <b>last</b> time you smoked a combination of marijuana with tobacco?
 (317567178) In the past month ->  D_746817928
@@ -1237,16 +1200,15 @@ Age started smoking a combination of marijuana with tobacco on a regular basis |
 
 [D_405178123?,displayif=equals(D_830608495,158841370)] How old were you when you <b>last</b> smoked a combination of marijuana with tobacco?
 
-Age when last smoked a combination of marijuana with tobacco  |__|__|min=isDefined(isDefined(D_628818510,D_140848765),0) max=sum(isDefined(D_150344905,age),1)|< -> D_698314386>
+Age when last smoked a combination of marijuana with tobacco  |__|__|min=isDefined(isDefined(D_628818510,D_140848765),0) max=sum(isDefined(D_150344905,age),1)|
 
 [D_698314386?,displayif=equals(D_830608495,158841370)] During that time, did you smoke a combination of marijuana with tobacco <b>every day</b>?
 (104430631) No -> D_363377579
 (353358909) Yes -> D_964154290
-< #NR -> D_363377579>
 
 [D_363377579?,displayif=equals(D_830608495,158841370)] During that time, how many days (1 to 30) did you smoke a combination of marijuana with tobacco in a usual month?
 
-#Days smoked in usual month |__|__|min=1 max=30|<-> D_964154290 >
+#Days smoked in usual month |__|__|min=1 max=30|
 
 [D_964154290?,displayif=equals(D_830608495,158841370)]
 On days that you |displayif=doesNotExist("D_444759994") or valueEquals("D_444759994",317567178)|smoke||displayif=valueIsOneOf("D_444759994",484055234,802197176)|smoked|, how many times |displayif=doesNotExist("D_444759994") or valueEquals("D_444759994",317567178)|do||displayif=valueIsOneOf("D_444759994",484055234,802197176)|did| you smoke a combination of marijuana with tobacco <b>per day</b>?
@@ -1259,11 +1221,10 @@ On days that you |displayif=doesNotExist("D_444759994") or valueEquals("D_444759
 
 [D_606675249?,displayif=and(doesNotEqual(or(or(equals(D_891825638,804785430),and(or(or(equals(D_891825638,716761013),equals(D_891825638,299561721)),equals(D_891825638,419415087)),and(equals(D_444759994,484055234),equals(D_698314386,353358909)))),and(or(or(equals(D_891825638,716761013),equals(D_891825638,299561721)),equals(D_891825638,419415087)),and(equals(D_444759994,802197176),equals(D_698314386,353358909)))),1),equals(D_830608495,158841370))] How old were you when you stopped smoking a combination of marijuana with tobacco <b>every day</b>?
 
-Age stopped smoking every day |__|__|min=isDefined(isDefined(D_628818510,D_140848765),0) max=sum(isDefined(D_150344905,age),1)|< -> D_411960217>
+Age stopped smoking every day |__|__|min=isDefined(isDefined(D_628818510,D_140848765),0) max=sum(isDefined(D_150344905,age),1)|
 
 [D_411960217?,displayif=and(doesNotEqual(or(or(equals(D_891825638,804785430),and(or(or(equals(D_891825638,716761013),equals(D_891825638,299561721)),equals(D_891825638,419415087)),and(equals(D_444759994,484055234),equals(D_698314386,353358909)))),and(or(or(equals(D_891825638,716761013),equals(D_891825638,299561721)),equals(D_891825638,419415087)),and(equals(D_444759994,802197176),equals(D_698314386,353358909)))),1),equals(D_830608495,158841370))] When you were a daily smoker of a combination of marijuana with tobacco, about how many times <b>per day</b> did you smoke a combination of marijuana with tobacco?
 #TIMES PER DAY |__|__|min=1 max=99|
-< -> D_755923078>
 
 [D_755923078?,displayif=equals(D_830608495,158841370)] Why |displayif=doesNotExist("D_444759994") or valueEquals("D_444759994",317567178)|do||displayif=valueIsOneOf("D_444759994",484055234,802197176)|did| you smoke a combination of marijuana with tobacco?
 (437269318) Recreation
@@ -1271,7 +1232,6 @@ Age stopped smoking every day |__|__|min=isDefined(isDefined(D_628818510,D_14084
 (585672584) Recreation and as medicine
 (807835037) Other: Please describe |__|id=D_459020144|
 (746038746) Prefer not to answer
-< -> D_381268397>
 
 // Same logic as CIGLIFEA-CIGLIFEH just with different variable names
 // 0-17
@@ -1344,7 +1304,6 @@ How many days have you used an <b>electronic delivery device</b> for vaping mari
 [D_116510981?,displayif=equals(D_830608495,349034127)] How old were you when you <b>first</b> used an electronic delivery device for vaping marijuana?
 
 Age first vaped marijuana |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
-< -> D_942945860>
 
 [D_942945860?,displayif=equals(D_830608495,349034127)]
 How old were you when you started using electronic marijuana delivery devices for vaping on a |popup|regular basis|Informational Text|We understand that the meaning of 'regular basis' might be different for different people. When you answer this question, please think about what "regular basis" means to you.|?
@@ -1353,14 +1312,12 @@ Age started vaping marijuana on a regular basis |__|__|id=D_742716427 min=isDefi
 
 [648960871*] Never vaped marijuana on a regular basis
 
-< -> D_521073718>
 
 [D_521073718?,displayif=equals(D_830608495,349034127)] Do you use electronic marijuana delivery devices for vaping now?
 (419415087) No ->  D_859228803
 (299561721) Yes, but rarely ->  D_859228803
 (716761013) Yes, some days -> D_859228803
 (804785430) Yes, every day ->  D_816891201
-< #NR -> D_859228803>
 
 [D_859228803?,displayif=equals(D_830608495,349034127)] When was the <b>last</b> time you used electronic marijuana delivery devices that can be vaped?
 (317567178) In the past month ->  D_589885595
@@ -1380,16 +1337,14 @@ Age started vaping marijuana on a regular basis |__|__|id=D_742716427 min=isDefi
 [D_445187084?,displayif=equals(D_830608495,349034127)] How old were you when you <b>last</b> used electronic marijuana delivery devices that can be vaped?
 
 Age when last used electronic marijuana delivery devices that can be vaped |__|__|min=isDefined(isDefined(D_742716427,D_116510981),0) max=sum(isDefined(D_150344905,age),1)|
-< #NR -> D_142164107>
 
 [D_142164107?,displayif=equals(D_830608495,349034127)] During that time, did you use electronic marijuana delivery devices that can be vaped every day?
 (104430631) No ->  D_695423703
 (353358909) Yes -> D_816891201
-<#NR -> D_695423703>
 
 [D_695423703?,displayif=equals(D_830608495,349034127)] During that time, how many days (1 to 30) did you use electronic marijuana delivery devices that can be vaped in a usual month?
 
-#Days used in a usual month |__|__|min=1 max=30|< -> D_816891201>
+#Days used in a usual month |__|__|min=1 max=30|
 
 [D_816891201?,displayif=equals(D_830608495,349034127)]
 On days that you use|displayif=valueIsOneOf("D_859228803",484055234,802197176)|d| electronic marijuana delivery devices that can be vaped, what is the total amount of time you vape|displayif=valueIsOneOf("D_859228803",484055234,802197176)|d| <b>per day</b>?
@@ -1398,7 +1353,6 @@ On days that you use|displayif=valueIsOneOf("D_859228803",484055234,802197176)|d
 (998679771) 31 to 59 minutes
 (638092100) 1 hour
 (127455035) 2 hours or more
-< -> D_177252178>
 
 [D_177252178?,displayif=and(doesNotEqual(or(or(equals(D_521073718,804785430),and(or(or(equals(D_521073718,716761013),equals(D_521073718,299561721)),equals(D_521073718,419415087)),and(equals(D_859228803,484055234),equals(D_142164107,353358909)))),and(or(or(equals(D_521073718,716761013),equals(D_521073718,299561721)),equals(D_521073718,419415087)),and(equals(D_859228803,802197176),equals(D_142164107,353358909)))),1),equals(D_830608495,349034127))] Did you ever use electronic marijuana delivery devices that can be vaped <b>every day</b>?
 (104430631) No -> D_268240612
@@ -1406,7 +1360,7 @@ On days that you use|displayif=valueIsOneOf("D_859228803",484055234,802197176)|d
 < #NR -> D_268240612>
 
 [D_116014097?,displayif=and(doesNotEqual(or(or(equals(D_521073718,804785430),and(or(or(equals(D_521073718,716761013),equals(D_521073718,299561721)),equals(D_521073718,419415087)),and(equals(D_859228803,484055234),equals(D_142164107,353358909)))),and(or(or(equals(D_521073718,716761013),equals(D_521073718,299561721)),equals(D_521073718,419415087)),and(equals(D_859228803,802197176),equals(D_142164107,353358909)))),1),equals(D_830608495,349034127))] How old were you when you stopped using electronic marijuana delivery devices <b>every day</b>?
- Age stopped vaping every day |__|__|min=isDefined(isDefined(D_742716427,D_116510981),0) max=sum(isDefined(D_150344905,age),1)|< -> D_562595294>
+ Age stopped vaping every day |__|__|min=isDefined(isDefined(D_742716427,D_116510981),0) max=sum(isDefined(D_150344905,age),1)|
 
 [D_562595294?,displayif=and(doesNotEqual(or(or(equals(D_521073718,804785430),and(or(or(equals(D_521073718,716761013),equals(D_521073718,299561721)),equals(D_521073718,419415087)),and(equals(D_859228803,484055234),equals(D_142164107,353358909)))),and(or(or(equals(D_521073718,716761013),equals(D_521073718,299561721)),equals(D_521073718,419415087)),and(equals(D_859228803,802197176),equals(D_142164107,353358909)))),1),equals(D_830608495,349034127))] When you were a daily user of electronic marijuana delivery devices that can be vaped, what is the total amount of time you vaped <b>per day</b>?
 (428999623) 15 minutes or less
@@ -1414,7 +1368,6 @@ On days that you use|displayif=valueIsOneOf("D_859228803",484055234,802197176)|d
 (998679771) 31 to 59 minutes
 (638092100) 1 hour
 (127455035) 2 hours or more
-<#NR -> D_268240612>
 
 [D_268240612?,displayif=equals(D_830608495,349034127)] Why |displayif=doesNotExist("D_859228803") or valueEquals("D_859228803",317567178)|do||displayif=valueIsOneOf("D_859228803",484055234,802197176)|did| you use electronic marijuana delivery devices that can be vaped?
 (437269318) Recreation
@@ -1422,7 +1375,6 @@ On days that you use|displayif=valueIsOneOf("D_859228803",484055234,802197176)|d
 (585672584) Recreation and as medicine
 (807835037) Other: Please describe |__|id=D_531654334|
 (746038746) Prefer not to answer
-< -> D_446121108>
 
 // Same logic as CIGLIFEA-CIGLIFEH just with different variable names
 // 0-17
@@ -1519,7 +1471,7 @@ How many days have you <b>consumed marijuana in food or drinks</b> in your life?
 
 [D_908399883?,displayif=equals(D_830608495,713594719)] How old were you when you <b>first</b> consumed marijuana in food or drinks?
 
-Age first consumed marijuana in food or drinks |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|< ->  D_653198444 >
+Age first consumed marijuana in food or drinks |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
 
 [D_653198444?,displayif=equals(D_830608495,713594719)]
 How old were you when you started consuming marijuana in food or drinks on a |popup|regular basis|Informational Text|We understand that the meaning of 'regular basis' might be different for different people. When you answer this question, please think about what "regular basis" means to you.|?
@@ -1527,14 +1479,12 @@ How old were you when you started consuming marijuana in food or drinks on a |po
 Age started consuming marijuana in food or drinks on a regular basis |__|__|id=D_622843252 min=isDefined(D_908399883,0) max=sum(isDefined(D_150344905,age),1)|
 
 [648960871*] Never consumed marijuana in food or drinks on a regular basis
-< ->  D_742544044>
 
 [D_742544044?,displayif=equals(D_830608495,713594719)] Do you consume marijuana in food or drinks now?
 (419415087) No ->  D_921663542
 (299561721) Yes, but rarely ->  D_921663542
 (716761013) Yes, some days -> D_921663542
 (804785430) Yes, every day ->  D_276575533
-< #NR -> D_921663542>
 
 [D_921663542?,displayif=equals(D_830608495,713594719)] When was the <b>last</b> time you consumed marijuana in food or drinks?
 (317567178) In the past month ->  D_818380721
@@ -1552,23 +1502,21 @@ Age started consuming marijuana in food or drinks on a regular basis |__|__|id=D
 
 [D_700173707?,displayif=equals(D_830608495,713594719)] How old were you when you <b>last</b> consumed marijuana in food or drinks?
 
-Age when last consumed marijuana in food or drinks |__|__|min=isDefined(isDefined(D_622843252,D_908399883),0) max=sum(isDefined(D_150344905,age),1)| <-> D_259481608>
+Age when last consumed marijuana in food or drinks |__|__|min=isDefined(isDefined(D_622843252,D_908399883),0) max=sum(isDefined(D_150344905,age),1)|
 
 [D_259481608?,displayif=equals(D_830608495,713594719)] During that time, did you consume marijuana in food or drinks <b>every day</b>?
 (104430631) No -> D_786517174
 (353358909) Yes ->  D_276575533
-< #NR -> D_786517174>
 
 [D_786517174?,displayif=equals(D_830608495,713594719)] During that time, how many days (1 to 30) did you use consume marijuana in food or drinks in a usual month?
 
-#Days consumed marijuana in a usual month |__|__|min=1 max=30|<  ->  D_276575533>
+#Days consumed marijuana in a usual month |__|__|min=1 max=30|
 
 [D_276575533?,displayif=equals(D_830608495,713594719)]
 On days that you consume|displayif=valueIsOneOf("D_921663542",484055234,802197176)|d| marijuana in food or drinks, how many servings |displayif=doesNotExist("D_921663542") or valueEquals("D_921663542",317567178)|do||displayif=valueIsOneOf("D_921663542",484055234,802197176)|did| you have <b>per day</b>?
 
 #Servings per day |__|__|__|id=D_810608313 min=1 max=999|
 [178420302*] Don’t know
-<->D_891996278>
 
 [D_891996278?,displayif=and(doesNotEqual(or(or(equals(D_742544044,804785430),and(or(or(equals(D_742544044,716761013),equals(D_742544044,299561721)),equals(D_742544044,419415087)),and(equals(D_921663542,484055234),equals(D_259481608,353358909)))),and(or(or(equals(D_742544044,716761013),equals(D_742544044,299561721)),equals(D_742544044,419415087)),and(equals(D_921663542,802197176),equals(D_259481608,353358909)))),1),equals(D_830608495,713594719))] Did you ever consume marijuana in food or drinks every day?
 (104430631) No -> D_810324917
@@ -1577,13 +1525,12 @@ On days that you consume|displayif=valueIsOneOf("D_921663542",484055234,80219717
 
 [D_238953261?,displayif=and(doesNotEqual(or(or(equals(D_742544044,804785430),and(or(or(equals(D_742544044,716761013),equals(D_742544044,299561721)),equals(D_742544044,419415087)),and(equals(D_921663542,484055234),equals(D_259481608,353358909)))),and(or(or(equals(D_742544044,716761013),equals(D_742544044,299561721)),equals(D_742544044,419415087)),and(equals(D_921663542,802197176),equals(D_259481608,353358909)))),1),equals(D_830608495,713594719))] How old were you when you stopped consuming marijuana in food or drinks every day?
 
-Age stopped consuming marijuana in food or drinks every day |__|__|min=isDefined(isDefined(D_622843252,D_908399883),0) max=sum(isDefined(D_150344905,age),1)| < -> D_517100968>
+Age stopped consuming marijuana in food or drinks every day |__|__|min=isDefined(isDefined(D_622843252,D_908399883),0) max=sum(isDefined(D_150344905,age),1)|
 
 [D_517100968?,displayif=and(doesNotEqual(or(or(equals(D_742544044,804785430),and(or(or(equals(D_742544044,716761013),equals(D_742544044,299561721)),equals(D_742544044,419415087)),and(equals(D_921663542,484055234),equals(D_259481608,353358909)))),and(or(or(equals(D_742544044,716761013),equals(D_742544044,299561721)),equals(D_742544044,419415087)),and(equals(D_921663542,802197176),equals(D_259481608,353358909)))),1),equals(D_830608495,713594719))] When you were a daily consumer of marijuana in food or drinks, how many servings did you have <b>per day</b>?
 
 #Servings per day |__|__|__|id=D_810608313 min=1 max=99|
 [178420302*] Don’t know
-<->D_810324917>
 
 [D_810324917?,displayif=equals(D_830608495,713594719)] Why |displayif=doesNotExist("D_921663542") or valueEquals("D_921663542",317567178)|do||displayif=valueIsOneOf("D_921663542",484055234,802197176)|did| you consume marijuana in food or drinks?
 (437269318) Recreation
@@ -1591,7 +1538,6 @@ Age stopped consuming marijuana in food or drinks every day |__|__|min=isDefined
 (585672584) Recreation and as medicine
 (807835037) Other: Please describe |__|id=D_479400169|
 (746038746) Prefer not to answer
-< #NR -> D_922708844>
 
 // Same logic as CIGLIFEA-CIGLIFEH just with different variable names
 // 0-17
@@ -1665,7 +1611,7 @@ How many days have you used <b>THC concentrates via dabbing</b> in your life?
 
 [D_766791333?,displayif=equals(D_830608495,675129470)] How old were you when you <b>first</b> used THC concentrates via dabbing?
 
-Age first used THC concentrates via dabbing |__|__|min=0 max=sum(isDefined(D_150344905,age),1)| < -> D_742254559 >
+Age first used THC concentrates via dabbing |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
 
 [D_742254559?,displayif=equals(D_830608495,675129470)]
 How old were you when you started using THC concentrates via dabbing on a |popup|regular basis|Informational Text|We understand that the meaning of 'regular basis' might be different for different people. When you answer this question, please think about what "regular basis" means to you.|?
@@ -1673,14 +1619,12 @@ How old were you when you started using THC concentrates via dabbing on a |popup
 Age started using THC concentrates via dabbing on a regular basis |__|__|id=D_185168695 min=isDefined(D_766791333,0) max=sum(isDefined(D_150344905,age),1)|
 
 [648960871*] Never used THC concentrates via dabbing on a regular basis
-< #NR -> D_420155119>
 
 [D_420155119?,displayif=equals(D_830608495,675129470)] Do you use THC concentrates via dabbing now?
 (419415087) No -> D_532755074
 (299561721) Yes, but rarely -> D_532755074
 (716761013) Yes, some days ->  D_532755074
 (804785430) Yes, every day -> D_933417196
-< #NR -> D_532755074>
 
 [D_532755074?,displayif=equals(D_830608495,675129470)] When was the <b>last</b> time you used THC concentrates via dabbing?
 (317567178) In the past month -> D_681586194
@@ -1699,16 +1643,15 @@ Age started using THC concentrates via dabbing on a regular basis |__|__|id=D_18
 
 [D_970325871?,displayif=equals(D_830608495,675129470)] How old were you when you <b>last</b>	used THC concentrates via dabbing?
 
-Age when last used THC concentrates via dabbing |__|__|min=isDefined(isDefined(D_185168695,D_766791333),0) max=sum(isDefined(D_150344905,age),1)|< -> D_536166591>
+Age when last used THC concentrates via dabbing |__|__|min=isDefined(isDefined(D_185168695,D_766791333),0) max=sum(isDefined(D_150344905,age),1)|
 
 [D_536166591?,displayif=equals(D_830608495,675129470)] During that time, did you use THC concentrates via dabbing <b>every day</b>?
 (104430631) No -> D_119257304
 (353358909) Yes -> D_933417196
-< #NR -> D_119257304>
 
 [D_119257304?,displayif=equals(D_830608495,675129470)] During that time, how many days (1 to 30) did you use THC concentrates via dabbing in a usual month?
 
-#Days used THC concentrates via dabbing in usual month |__|__|min=1 max=30|<  ->  D_933417196>
+#Days used THC concentrates via dabbing in usual month |__|__|min=1 max=30|
 
 [D_933417196?,displayif=equals(D_830608495,675129470)]
 On days that you |displayif=doesNotExist("D_532755074") or valueEquals("D_532755074",317567178)| use||displayif=valueIsOneOf("D_532755074",484055234,802197176)| used| THC concentrates via dabbing, how many servings |displayif=doesNotExist("D_532755074") or valueEquals("D_532755074",317567178)| do||displayif=valueIsOneOf("D_532755074",484055234,802197176)| did| you have <b>per day</b>?
@@ -1724,7 +1667,6 @@ On days that you |displayif=doesNotExist("D_532755074") or valueEquals("D_532755
 [D_258703325?,displayif=and(doesNotEqual(or(or(equals(D_420155119,804785430),and(or(or(equals(D_420155119,716761013),equals(D_420155119,299561721)),equals(D_420155119,419415087)),and(equals(D_532755074,484055234),equals(D_536166591,353358909)))),and(or(or(equals(D_420155119,716761013),equals(D_420155119,299561721)),equals(D_420155119,419415087)),and(equals(D_532755074,802197176),equals(D_536166591,353358909)))),1),equals(D_830608495,675129470))] How old were you when you stopped using THC concentrates via dabbing <b>every day</b>?
 
 |__|__|min=isDefined(isDefined(D_185168695,D_766791333),0) max=sum(isDefined(D_150344905,age),1)|  Age stopped using THC concentrates via dabbing every day
-< #NR -> D_585819411>
 
 [D_585819411?,displayif=and(doesNotEqual(or(or(equals(D_420155119,804785430),and(or(or(equals(D_420155119,716761013),equals(D_420155119,299561721)),equals(D_420155119,419415087)),and(equals(D_532755074,484055234),equals(D_536166591,353358909)))),and(or(or(equals(D_420155119,716761013),equals(D_420155119,299561721)),equals(D_420155119,419415087)),and(equals(D_532755074,802197176),equals(D_536166591,353358909)))),1),equals(D_830608495,675129470))] When you were a daily user of THC concentrates via dabbing, how many servings did you have <b>per day</b>?
 
@@ -1737,7 +1679,6 @@ On days that you |displayif=doesNotExist("D_532755074") or valueEquals("D_532755
 (585672584) Recreation and as medicine
 (807835037) Other: Please describe |__|id=D_781650542|
 (746038746) Prefer not to answer
-< -> D_349510816>
 
 // Same logic as CIGLIFEA-CIGLIFEH just with different variable names
 // 0-17
@@ -1817,7 +1758,6 @@ How old were you when you <b>first</b> drank alcohol?
 
 Age first drank alcohol |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
 
-< ->  D_556837046>
 
 [D_556837046?]
 How old were you when you started drinking alcohol on a |popup|regular basis|Informational Text|We understand that the meaning of 'regular basis' might be different for different people. When you answer this question, please think about what "regular basis" means to you.|?
@@ -1825,17 +1765,14 @@ How old were you when you started drinking alcohol on a |popup|regular basis|Inf
 Age started drinking alcohol on a regular basis |__|__|id=D_141874857 min=isDefined(D_250456537,0) max=sum(isDefined(D_150344905,age),1)|
 
 [648960871*] Never drank on a regular basis
-<-> D_338467033>
 
 [D_338467033?] Over the <b>past 12 months</b>, did you drink alcohol?
 (353358909) Yes -> D_447720598
 (104430631) No -> D_480426504
-<#NR -> D_480426504>
 
 [D_480426504?] How old were you when you <b>last</b> drank alcohol?
 
 Age last drank alcohol |__|__|min=isDefined(isDefined(D_141874857,D_250456537),0) max=sum(isDefined(D_150344905,age),1)|
-<-> D_789159346>
 
 [D_789159346?] Why did you stop drinking alcohol? Select all that apply.
 [895826652] Personal choice
@@ -1861,7 +1798,6 @@ Over the <b>past 12 months</b>, how often did you usually drink <b>beer or hard 
 (471294296) 3 to 4 times per week
 (594557208) 5 to 6 times per week
 (647504893) Every day
-< -> D_481662464>
 
 [D_481662464?,displayif=equals(D_447720598,549079588)] Over the <b>past 12 months</b>, on the days that you drank beer or hard cider, how many 12-ounce beers or hard ciders did you drink <b>per day</b>?
 (648665281) 1 beer
@@ -1870,7 +1806,6 @@ Over the <b>past 12 months</b>, how often did you usually drink <b>beer or hard 
 (475454159) 4 beers
 (312200270) 5 beers
 (411022152) 6 or more beers
-<-> D_411088265>
 
 [D_411088265?,displayif=equals(D_447720598,896953195)]<b>Liquor and Mixed Drinks</b>
 
@@ -1882,7 +1817,6 @@ Over the <b>past 12 months</b>, how often did you usually drink <b>liquor or mix
 (471294296) 3 to 4 times per week
 (594557208) 5 to 6 times per week
 (647504893) Every day
-< -> D_880067330>
 
 [D_880067330?,displayif=equals(D_447720598,896953195)] Over the <b>past 12 months</b>, on the days that you drank liquor or mixed drinks, how many shots of liquor (1 shot = 1.5 ounces) did you drink <b>per day</b>?
 (425604618) 1 shot
@@ -1891,7 +1825,6 @@ Over the <b>past 12 months</b>, how often did you usually drink <b>liquor or mix
 (562508684) 4 shots
 (180306463) 5 shots
 (413495952) 6 or more shots
-< -> D_178665310>
 
 [D_178665310?,displayif=equals(D_447720598,889023234)]<b>Wine</b>
 
@@ -1903,7 +1836,6 @@ Over the <b>past 12 months</b>, how often did you usually drink <b>wine</b>?
 (471294296) 3 to 4 times per week
 (594557208) 5 to 6 times per week
 (647504893) Every day
-< -> D_242987943>
 
 [D_242987943?,displayif=equals(D_447720598,889023234)] Over the <b>past 12 months</b>, on the days that you drank wine, how many 5-ounce glasses of wine did you drink <b>per day</b>?
 (332226274) 1 glass
@@ -1912,7 +1844,6 @@ Over the <b>past 12 months</b>, how often did you usually drink <b>wine</b>?
 (473673527) 4 glasses
 (290010251) 5 glasses
 (355205294) 6 or more glasses
-< -> D_228752045>
 
 [D_228752045?,displayif=equals(D_447720598,181769837)]<b>Other Alcoholic Beverages</b>
 
@@ -1924,7 +1855,6 @@ Over the <b>past 12 months</b>, how often did you usually drink <b>other alcohol
 (471294296) 3 to 4 times per week
 (594557208) 5 to 6 times per week
 (647504893) Every day
-< -> D_103045461>
 
 [D_103045461?,displayif=equals(D_447720598,181769837)]  Over the <b>past 12 months</b>, on the days that you drank other alcoholic beverages, how many servings of these beverages (such as wine coolers, "hard soda", spiked seltzer (sparkling water), Smirnoff Ice, malt liquor, or pre-mixed cocktails) did you drink <b>per day</b>?
 (968093023) 1 serving
@@ -1933,7 +1863,6 @@ Over the <b>past 12 months</b>, how often did you usually drink <b>other alcohol
 (905402667) 4 servings
 (900343645) 5 servings
 (554549266) 6 or more servings
-< ->  D_254739443>
 
 [D_254739443?,displayif=and(equals(D_429228540,132232896),and(and(or(doesNotEqual(isDefined(D_556837046,-1),-1),doesNotEqual(isDefined(D_141874857,-1),-1)),doesNotEqual(isDefined(D_338467033,-1),-1)),or(doesNotEqual(isDefined(D_480426504,-1),-1),equals(D_338467033,353358909))))] Over the past 12 months, how often did you have |displayif=or(equals(D_407056417,536341288),equals(D_407056417,576796184))|4||displayif=equals(D_407056417,654207589)|5| or more alcoholic beverages at the same sitting or occasion? (One drink is equal to a 12-ounce beer, a 5-ounce glass of wine, one mixed drink, or a shot of liquor.)
 (648960871) Never
@@ -1946,7 +1875,6 @@ Over the <b>past 12 months</b>, how often did you usually drink <b>other alcohol
 (471294296) 3 to 4 times per week
 (594557208) 5 to 6 times per week
 (647504893) Every day
-< -> ALCLIFE1>
 
 [ALCLIFE1,displayif=and(equals(D_429228540,132232896),and(and(or(doesNotEqual(isDefined(D_556837046,-1),-1),doesNotEqual(isDefined(D_141874857,-1),-1)),doesNotEqual(isDefined(D_338467033,-1),-1)),or(doesNotEqual(isDefined(D_480426504,-1),-1),equals(D_338467033,353358909))))]  The next questions ask about how much you drank alcohol at different times in your life. Remember, you can make your best guess if you are not sure about how much alcohol you drank during any of these time periods.
 
@@ -2003,7 +1931,6 @@ Over the <b>past 12 months</b>, how often did you usually drink <b>other alcohol
 (692155653) A mild sunburn that becomes a tan
 (899670578) A tan with no sunburn
 (455468743) No change in skin color
-<-> D_525152373>
 
 [D_525152373?] In your life, how many blistering sunburns (blisters filled with fluid) have you ever had?
 (503218834) None
@@ -2012,21 +1939,18 @@ Over the <b>past 12 months</b>, how often did you usually drink <b>other alcohol
 (922737557) 5 to 9
 (945387130) 10 or more
 (178420302) Don’t know
-< -> D_146319128>
 
 [D_146319128?] In the <b>past 12 months</b>, how often did you sunbathe outdoors with the goal of getting tan?
 (648960871) Never
 (235613392) Rarely
 (132099255) Sometimes
 (211590917) Often
-< -> D_910501158>
 
 [D_910501158?] During your adult life, how often did you sunbathe outdoors with the goal of getting tan?
 (648960871) Never
 (235613392) Rarely
 (132099255) Sometimes
 (211590917) Often
-< -> D_345457702>
 
 [D_345457702?] How often do you usually apply sunscreen when you go out in the sun for one hour or more?
 (648960871) Never -> D_795761911
@@ -2040,7 +1964,6 @@ Over the <b>past 12 months</b>, how often did you usually drink <b>other alcohol
 (905073380) All sun exposed areas
 (223461539) Some sun exposed areas
 (901521065) Face/Head only
-< -> D_467751479>
 
 [D_467751479?] When you are in the sun for an extended period of time, or in and out of the water (such as when you swim), how often do you usually re-apply sunscreen?
 (648960871) Never
@@ -2048,7 +1971,6 @@ Over the <b>past 12 months</b>, how often did you usually drink <b>other alcohol
 (132099255) Sometimes
 (211590917) Often
 (907579123) Always
-< -> D_858858333>
 
 [D_858858333?] What is the highest SPF number of the sunscreen you use most often?
 (445549128) Less than 15
@@ -2057,7 +1979,6 @@ Over the <b>past 12 months</b>, how often did you usually drink <b>other alcohol
 (190125431) 36 to 50
 (133730190) Higher than 50
 (178420302) Don’t know
-< -> D_795761911>
 
 [D_795761911?] How often do you wear clothing or a hat to cover your skin when you are in the sun?
 (648960871) Never
@@ -2065,7 +1986,6 @@ Over the <b>past 12 months</b>, how often did you usually drink <b>other alcohol
 (132099255) Sometimes
 (211590917) Often
 (907579123) Always
-< -> D_662762705>
 
 [D_662762705?] How many times have you ever used an indoor tanning bed or sunbed?
 (648960871) Never -> EYECOLORINTRO
@@ -2078,7 +1998,7 @@ Over the <b>past 12 months</b>, how often did you usually drink <b>other alcohol
 
 
 [D_463908980?] How old were you when you <b>first</b> used a tanning bed or sunbed?
-Years old |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|< -> D_605063358>
+Years old |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
 
 [D_605063358?] Have you used a tanning bed or sunbed in the <b>past 12 months</b>?
 (353358909) Yes -> D_466473224
@@ -2086,7 +2006,7 @@ Years old |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|< -> D_605063358>
 <#NR -> D_466473224>
 
 [D_648216681?] How old were you when you <b>last</b> used a tanning bed or sunbed?
-Years old |__|__|min=isDefined(D_463908980,0) max=sum(isDefined(D_150344905,age),1)|< -> D_466473224>
+Years old |__|__|min=isDefined(D_463908980,0) max=sum(isDefined(D_150344905,age),1)|
 
 [D_466473224?] How often |displayif=equals(equals(D_605063358,353358909),false)|did| |displayif=equals(D_605063358,353358909)|do| you usually use a tanning bed?
 (676516297) Every day or almost every day (20 to 31 days per month)
@@ -2094,7 +2014,6 @@ Years old |__|__|min=isDefined(D_463908980,0) max=sum(isDefined(D_150344905,age)
 (522395860) Once per week
 (756470750) A few times per month (1 to 4 days per month)
 (402335383) Less than 12 times per year
-< -> EYECOLORINTRO>
 
 [EYECOLORINTRO] The next questions ask about your eye and hair color, skin tone, and freckling. These things may relate to how your body responds to sun exposure and to tanning beds.
 
@@ -2105,7 +2024,6 @@ Years old |__|__|min=isDefined(D_463908980,0) max=sum(isDefined(D_150344905,age)
 (248624772) Light Brown
 (777809207) Dark Brown
 (181769837) Other
-< -> D_384562783>
 
 [D_384562783?] What was the natural color of your hair at age 20?
 (230748315) Blond
@@ -2116,7 +2034,6 @@ Years old |__|__|min=isDefined(D_463908980,0) max=sum(isDefined(D_150344905,age)
 (777809207) Dark Brown
 (469115418) Black
 (181769837) Other
-< -> D_394410256>
 
 [D_394410256?] Which of these best describes your natural skin color on the parts of your body that are <b>not</b> exposed to sun or tanning beds?
 (300633065) Very light
@@ -2124,12 +2041,10 @@ Years old |__|__|min=isDefined(D_463908980,0) max=sum(isDefined(D_150344905,age)
 (385246065) Medium
 (189414295) Dark
 (482157734) Very Dark
-< -> D_524971659>
 
 [D_524971659?] Do you remember having freckles before you were 15 years old?
 (353358909) Yes
 (104430631) No
-< -> D_352986465>
 
 [D_352986465?] How many |popup|freckles|Informational Text|We are interested in freckling on the back and shoulders, not the face and arms. Your face and arms are more exposed to the sun and may have a different amount of freckling.| do you have on your back and shoulders now? Please see the pictures below for examples.
 (259218831) No freckles
@@ -2138,4 +2053,4 @@ Years old |__|__|min=isDefined(D_463908980,0) max=sum(isDefined(D_150344905,age)
 (455684772) A lot of freckles |image|user-images.githubusercontent.com/64271614/89794390-fbd2e800-daf4-11ea-9fe6-ccc4cbeda996.png|300,500|
 
 
-[END,end] Thank you for submitting your survey. If you are using a shared device, please remember to log out of the MyConnect app and any email accounts you have open.
+[END,end] You have answered all of the questions in this survey. To submit your answers, select the “Submit Survey” button.
