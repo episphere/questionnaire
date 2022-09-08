@@ -18,12 +18,19 @@
 
 
 // ---------------------------------------------------------
+// TRANSFORMER ERROR COUNT = 5
+// ---------------------------------------------------------
+// count: 5 | error: "SECTION4 | code isn't mapped in json file"
+
+
+
+// ---------------------------------------------------------
 // TRANSFORMER WARNING COUNT = 8
 // ---------------------------------------------------------
 // count: 8 | warning: "TOBACCO | this may be an untransformed Quest code"
 
 
-//This file was last modified on Tue Aug 23 16:11:01 2022 -0400 (short timestamp = 2022-08-23-20-11-01)
+//This file was last modified on Mon Aug 29 13:25:28 2022 -0400 (short timestamp = 2022-08-29-17-25-28)
 {"name":"D_965707586"}
 
 [INTROM3] The next questions are about your tobacco, nicotine, marijuana, and alcohol use. In the last section, we will ask you about your exposure to the sun and use of tanning beds.
@@ -1744,14 +1751,19 @@ Please remember that we protect your privacy. We remove information that can ide
 [D_448968121?] Have you ever had an <b>alcoholic beverage</b> (beer, wine, wine cooler, liquor, cocktail, or a mixed drink) in your life?
 (353358909) Yes -> D_429228540
 (104430631) No -> SECTION4
+// TRANSFORMER ERROR --> SECTION4 | code isn't mapped in json file
 < #NR -> SECTION4>
+// TRANSFORMER ERROR --> SECTION4 | code isn't mapped in json file
 
 [D_429228540?] How many alcoholic beverages have you had in your <b>entire life</b>?
 (151488193) 10 or less -> SECTION4
+// TRANSFORMER ERROR --> SECTION4 | code isn't mapped in json file
 (805449318) 11 to 49 -> SECTION4
+// TRANSFORMER ERROR --> SECTION4 | code isn't mapped in json file
 (486319890) 50 to 99 -> D_250456537
 (132232896) 100 or more -> D_250456537
 < #NR -> SECTION4>
+// TRANSFORMER ERROR --> SECTION4 | code isn't mapped in json file
 
 [D_250456537?]
 How old were you when you <b>first</b> drank alcohol?
@@ -1921,9 +1933,9 @@ Over the <b>past 12 months</b>, how often did you usually drink <b>other alcohol
     |
 
 
-[SECTION4]<b>Sun Exposure </b>
+[INTROSE]<b>Sun Exposure </b></br>
 
-[INTROSE] In the final set of questions, we ask about your exposure to the sun and use of tanning beds.
+In the final set of questions, we ask about your exposure to the sun and use of tanning beds.
 
 [D_863593410?] After several months of not being in the sun, what would happen to your skin if you spent an hour in the summer sun <b>without</b> sunscreen?
 (249485680) A blistering sunburn
