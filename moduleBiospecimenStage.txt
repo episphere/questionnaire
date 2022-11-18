@@ -39,17 +39,17 @@ Thank you for being part of Connect and for donating your samples. We have some 
 [D_867307558?] When did you last eat or drink anything other than water before donating your samples?
 (110092955) The same day
 (952212668) The day before
-(330461666) More than a day before -> D_299417266
+(330461666) More than a day before -> D_299417266_V2
 
-[D_191057574?] At about what time did you last eat or drink anything other than water before donating your samples? Select your answer from the drop-down list below. If you are using a phone or tablet, please tap the gray box to enter your response.
-
-|time|
-
-[D_299417266?] What time did you go to sleep on the night before donating your samples? Select your answer from the drop-down list below. If you are using a phone or tablet, please tap the gray box to enter your response.
+[D_191057574_V2?] At about what time did you last eat or drink anything other than water before donating your samples? Select your answer from the drop-down list below. If you are using a phone or tablet, please tap the gray box to enter your response.
 
 |time|
 
-[D_689861450?] What time did you wake up on the day that you donated your samples? Select your answer from the drop-down list below. If you are using a phone or tablet, please tap the gray box to enter your response.
+[D_299417266_V2?] What time did you go to sleep on the night before donating your samples? Select your answer from the drop-down list below. If you are using a phone or tablet, please tap the gray box to enter your response.
+
+|time|
+
+[D_689861450_V2?] What time did you wake up on the day that you donated your samples? Select your answer from the drop-down list below. If you are using a phone or tablet, please tap the gray box to enter your response.
 
 |time|
 
@@ -438,13 +438,13 @@ Thank you for your responses. Please click "Next" to move to the next section.
 
 [SRVBLU_COV25INTRO_V1R0] The following section asks about COVID-19 vaccination and boosters. If you have been vaccinated for COVID-19, it may be helpful to have your COVID-19 vaccine card with you while you complete this section of the survey.
 
-[D_890156588?] Did you get vaccinated against COVID-19?
+[D_890156588_V2?] Did you get vaccinated against COVID-19?
 (353358909) Yes
 (104430631) No -> D_350251057
 (178420302) Don't know -> D_350251057
 < #NR -> D_350251057 >
 
-[D_877074400?] How many shots of the COVID-19 vaccine did you get? Please include your initial vaccination and any booster shots.
+[D_877074400_V2?] How many shots of the COVID-19 vaccine did you get? Please include your initial vaccination and any booster shots.
 
 |__|__| min=1 max=10| Shot(s)
 // Numeric drop down list is not currently supported
@@ -452,11 +452,11 @@ Thank you for your responses. Please click "Next" to move to the next section.
 
 <loop max=25>
 
-[D_715581797?,displayif=greaterThanOrEqual(D_877074400,#loop)] When did you get vaccinated with your {##} shot? 
+[D_715581797_V2?,displayif=greaterThanOrEqual(D_877074400_V2,#loop)] When did you get vaccinated with your {##} shot? 
 
 |month|id=D_141616126 min=valueOrDefault("D_141616126#prev","2020-03") max=#currentYear-#currentMonth|
 
-[D_220055064?,displayif=greaterThanOrEqual(D_877074400,#loop)] Which COVID-19 vaccine shot did you get?
+[D_220055064?,displayif=greaterThanOrEqual(D_877074400_V2,#loop)] Which COVID-19 vaccine shot did you get?
 
 (661871565) Moderna
 (657978450) Pfizer
@@ -465,7 +465,7 @@ Thank you for your responses. Please click "Next" to move to the next section.
 (807835037) Other |__|id=D_395747093|
 (178420302) Don't know
 
-[SRVBLU_COV29_V1R0,displayif=greaterThanOrEqual(D_877074400,#loop)] Here's a summary of the information you shared about your COVID-19 vaccinations. If any of the information is incorrect, please select the "Back" button to update your responses. If all the information is correct, please select the "Next" button to move forward.
+[SRVBLU_COV29_V1R0,displayif=greaterThanOrEqual(D_877074400_V2,#loop)] Here's a summary of the information you shared about your COVID-19 vaccinations. If any of the information is incorrect, please select the "Back" button to update your responses. If all the information is correct, please select the "Next" button to move forward.
 
 Vaccination number: #loop
 Vaccination date: {$D_141616126}
@@ -508,7 +508,7 @@ In the last <b>month</b>, which of these oral hygiene products have you used? Se
 [578402172]	Tongue Cleaner or Scraper -> D_429994023
 [184513726]	Teeth-whiteners (strips, etc.) -> D_499977481
 [390351864]	Mouthwash -> D_406270109
-<-> D_899251483>
+<-> D_899251483_V2>
 
 [D_498984275?] In the last <b>month</b>, how often did you use a toothbrush?
 (648960871)	Never
@@ -632,9 +632,9 @@ In the last <b>month</b>, which of these oral hygiene products have you used? Se
 (138332277)	Three to five times per week
 (858624942)	Once per day
 (850675416)	Two or more times per day
-< #NR -> D_899251483 >
+< #NR -> D_899251483_V2 >
 
-[D_899251483?] Have you lost any of your permanent adult teeth, not including your wisdom teeth? Select all that apply. 
+[D_899251483_V2?] Have you lost any of your permanent adult teeth, not including your wisdom teeth? Select all that apply. 
 [812107266]	Yes, from accident or injury -> D_724589244
 [452438775]	Yes, from tooth decay or disease -> D_957305523
 [886864375] Yes, for some other reason -> D_360678252
