@@ -1,4 +1,4 @@
-// This file was transformed using the mapping data in Quest-2022-10-27-19-17-27_Transformation.json.
+// This file was transformed using the mapping data in Quest-2022-11-21-14-40-08_Transformation.json.
 
 // JSON WARNING --> Concept ID 101310722 with concept "# Pills per day" is shared between these Textbox codes: [ACIDSUP3_1A, ACIDSUP3_2A, ACIDSUP3_3A, CHOLHTN3_1A, CHOLHTN3_2A, INSULIN3_1A, METFOR3_1A, PAINREL3_1A, PAINREL3_2A, PAINREL3_3A, PAINREL3_4A, PAINREL3_5A, PAINREL3_6A, PAINREL3_7A]
 // JSON WARNING --> Concept ID 206625031 with concept "Age at diagnosis" is shared between these Textbox codes: [ANEMIA_AGE, APPEND_AGE, ARRHYT_AGE, ASTHMA_AGE, BARESO_AGE, BARSUR_AGE, BLOODCLOT_AGE, BREASTDIS_AGE, CCD_AGE, CD_AGE, CHESTPAIN_AGE, CHF_AGE, CHILDCANC3A_AGE, CHILDCANC3B_AGE, CHILDCANC3C_AGE, CHILDCANC3D_AGE, CHILDCANC3E_AGE, CHILDCANC3F_AGE, CHILDCANC3G_AGE, CHILDCANC3H_AGE, CHILDCANC3I_AGE, CHILDCANC3J_AGE, CHILDCANC3K_AGE, CHILDCANC3L_AGE, CHILDCANC3M_AGE, CHILDCANC3N_AGE, CHILDCANC3O_AGE, CHILDCANC3P_AGE, CHILDCANC3Q_AGE, CHILDCANC3R_AGE, CHILDCANC3S_AGE, CHILDCANC3T_AGE, CHILDCANC3U_AGE, CHILDCANC3V_AGE, CHILDCANC3W_AGE, CHILDCANC3X_AGE, CHILDCANC3Y_AGE, CHLA_AGE, CHOL_AGE, CKD_AGE, COPD_AGE, CVD_AGE, DADCANC3A_AGE, DADCANC3B_AGE, DADCANC3C_AGE, DADCANC3D_AGE, DADCANC3E_AGE, DADCANC3F_AGE, DADCANC3G_AGE, DADCANC3H_AGE, DADCANC3I_AGE, DADCANC3J_AGE, DADCANC3K_AGE, DADCANC3L_AGE, DADCANC3M_AGE, DADCANC3N_AGE, DADCANC3O_AGE, DADCANC3P_AGE, DADCANC3Q_AGE, DADCANC3R_AGE, DADCANC3S_AGE, DADCANC3T_AGE, DADCANC3U_AGE, DADCANC3V_AGE, DCIS_AGE, DEPRESS2_AGE, DIVERT_AGE, DM2_AGE, ENDO_AGE, ENLGPROS_AGE, FTREM2_AGE, GALLREM_AGE, GALL_AGE, GENWARTS_AGE, GERD_AGE, GONORR_AGE, GOUT_AGE, GRAVES_AGE, HAYFEVER_AGE, HBVHCV_AGE, HEARTATT_AGE, HEARTVALV_AGE, HIVAIDS_AGE, HPV_AGE, HTN_AGE, HYSTER_AGE, IBD_AGE, IBS_AGE, KIDNEY_AGE, LIPOSUCT_AGE, LIVCIRR_AGE, LUPUS_AGE, MOMCANC3A_AGE, MOMCANC3B_AGE, MOMCANC3C_AGE, MOMCANC3D_AGE, MOMCANC3E_AGE, MOMCANC3F_AGE, MOMCANC3G_AGE, MOMCANC3H_AGE, MOMCANC3I_AGE, MOMCANC3J_AGE, MOMCANC3K_AGE, MOMCANC3L_AGE, MOMCANC3M_AGE, MOMCANC3N_AGE, MOMCANC3O_AGE, MOMCANC3P_AGE, MOMCANC3Q_AGE, MOMCANC3R_AGE, MOMCANC3S_AGE, MOMCANC3T_AGE, MOMCANC3U_AGE, MOMCANC3V_AGE, MOMCANC3W_AGE, MONO_AGE, OVARYREM2_AGE, PANCREA_AGE, PCOS_AGE, PENREM_AGE, PROSREM2_AGE, RA_AGE, SHINGLES_AGE, SIBCANC3A_AGE, SIBCANC3B_AGE, SIBCANC3C_AGE, SIBCANC3D_AGE, SIBCANC3E_AGE, SIBCANC3F_AGE, SIBCANC3G_AGE, SIBCANC3H_AGE, SIBCANC3I_AGE, SIBCANC3J_AGE, SIBCANC3K_AGE, SIBCANC3L_AGE, SIBCANC3M_AGE, SIBCANC3N_AGE, SIBCANC3O_AGE, SIBCANC3P_AGE, SIBCANC3Q_AGE, SIBCANC3R_AGE, SIBCANC3S_AGE, SIBCANC3T_AGE, SIBCANC3U_AGE, SIBCANC3V_AGE, SIBCANC3W_AGE, SIBCANC3X_AGE, SIBCANC3Y_AGE, SKINCANC3_AGE, STROKE_AGE, SYPH_AGE, TESTREM2_AGE, THYROID_AGE, TONSILS_AGE, TRICH_AGE, TUBLIG_AGE, UC_AGE, UF_AGE, VASEC_AGE]
@@ -16,7 +16,7 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Thu Oct 13 08:25:28 2022 -0400 (short timestamp = 2022-10-13-12-25-28)
+//This file was last modified on Thu Dec 1 23:51:44 2022 -0500 (short timestamp = 2022-12-02-04-51-44)
 {"name":"D_299215535"}
 
 [SRVBIO_MODULEINTRO_V1R0] <b> Blood, Urine, and Mouthwash Sample Survey </b>
@@ -39,17 +39,17 @@ Thank you for being part of Connect and for donating your samples. We have some 
 [D_867307558?] When did you last eat or drink anything other than water before donating your samples?
 (110092955) The same day
 (952212668) The day before
-(330461666) More than a day before -> D_299417266_V2
+(330461666) More than a day before -> D_299417266
 
-[D_191057574_V2?] At about what time did you last eat or drink anything other than water before donating your samples? Select your answer from the drop-down list below. If you are using a phone or tablet, please tap the gray box to enter your response.
-
-|time|
-
-[D_299417266_V2?] What time did you go to sleep on the night before donating your samples? Select your answer from the drop-down list below. If you are using a phone or tablet, please tap the gray box to enter your response.
+[D_191057574?] At about what time did you last eat or drink anything other than water before donating your samples? Select your answer from the drop-down list below. If you are using a phone or tablet, please tap the gray box to enter your response.
 
 |time|
 
-[D_689861450_V2?] What time did you wake up on the day that you donated your samples? Select your answer from the drop-down list below. If you are using a phone or tablet, please tap the gray box to enter your response.
+[D_299417266?] What time did you go to sleep on the night before donating your samples? Select your answer from the drop-down list below. If you are using a phone or tablet, please tap the gray box to enter your response.
+
+|time|
+
+[D_689861450?] What time did you wake up on the day that you donated your samples? Select your answer from the drop-down list below. If you are using a phone or tablet, please tap the gray box to enter your response.
 
 |time|
 
@@ -438,13 +438,13 @@ Thank you for your responses. Please click "Next" to move to the next section.
 
 [SRVBLU_COV25INTRO_V1R0] The following section asks about COVID-19 vaccination and boosters. If you have been vaccinated for COVID-19, it may be helpful to have your COVID-19 vaccine card with you while you complete this section of the survey.
 
-[D_890156588_V2?] Did you get vaccinated against COVID-19?
+[D_890156588?] Did you get vaccinated against COVID-19?
 (353358909) Yes
 (104430631) No -> D_350251057
 (178420302) Don't know -> D_350251057
 < #NR -> D_350251057 >
 
-[D_877074400_V2?] How many shots of the COVID-19 vaccine did you get? Please include your initial vaccination and any booster shots.
+[D_877074400?] How many shots of the COVID-19 vaccine did you get? Please include your initial vaccination and any booster shots.
 
 |__|__| min=1 max=10| Shot(s)
 // Numeric drop down list is not currently supported
@@ -452,11 +452,11 @@ Thank you for your responses. Please click "Next" to move to the next section.
 
 <loop max=25>
 
-[D_715581797_V2?,displayif=greaterThanOrEqual(D_877074400_V2,#loop)] When did you get vaccinated with your {##} shot? 
+[D_715581797?,displayif=greaterThanOrEqual(D_877074400,#loop)] When did you get vaccinated with your {##} shot? 
 
 |month|id=D_141616126 min=valueOrDefault("D_141616126#prev","2020-03") max=#currentYear-#currentMonth|
 
-[D_220055064?,displayif=greaterThanOrEqual(D_877074400_V2,#loop)] Which COVID-19 vaccine shot did you get?
+[D_220055064?,displayif=greaterThanOrEqual(D_877074400,#loop)] Which COVID-19 vaccine shot did you get?
 
 (661871565) Moderna
 (657978450) Pfizer
@@ -465,7 +465,7 @@ Thank you for your responses. Please click "Next" to move to the next section.
 (807835037) Other |__|id=D_395747093|
 (178420302) Don't know
 
-[SRVBLU_COV29_V1R0,displayif=greaterThanOrEqual(D_877074400_V2,#loop)] Here's a summary of the information you shared about your COVID-19 vaccinations. If any of the information is incorrect, please select the "Back" button to update your responses. If all the information is correct, please select the "Next" button to move forward.
+[SRVBLU_COV29_V1R0,displayif=greaterThanOrEqual(D_877074400,#loop)] Here's a summary of the information you shared about your COVID-19 vaccinations. If any of the information is incorrect, please select the "Back" button to update your responses. If all the information is correct, please select the "Next" button to move forward.
 
 Vaccination number: #loop
 Vaccination date: {$D_141616126}
@@ -508,7 +508,7 @@ In the last <b>month</b>, which of these oral hygiene products have you used? Se
 [578402172]	Tongue Cleaner or Scraper -> D_429994023
 [184513726]	Teeth-whiteners (strips, etc.) -> D_499977481
 [390351864]	Mouthwash -> D_406270109
-<-> D_899251483_V2>
+<-> D_899251483>
 
 [D_498984275?] In the last <b>month</b>, how often did you use a toothbrush?
 (648960871)	Never
@@ -632,16 +632,16 @@ In the last <b>month</b>, which of these oral hygiene products have you used? Se
 (138332277)	Three to five times per week
 (858624942)	Once per day
 (850675416)	Two or more times per day
-< #NR -> D_899251483_V2 >
+< #NR -> D_899251483 >
 
-[D_899251483_V2?] Have you lost any of your permanent adult teeth, not including your wisdom teeth? Select all that apply. 
+[D_899251483?] Have you lost any of your permanent adult teeth, not including tooth crowns or your wisdom teeth? Select all that apply. 
 [812107266]	Yes, from accident or injury -> D_724589244
 [452438775]	Yes, from tooth decay or disease -> D_957305523
 [886864375] Yes, for some other reason -> D_360678252
 [104430631*]  No
 <-> D_542661394 >
 
-[D_724589244?] How many teeth have you lost from accident or injury? Do not include wisdom teeth.
+[D_724589244?] How many teeth have you lost from accident or injury? Do not include tooth crowns or wisdom teeth.
 (349122068)	1
 (194129782)	2 to 4
 (922737557)	5 to 9
@@ -649,7 +649,7 @@ In the last <b>month</b>, which of these oral hygiene products have you used? Se
 (383505459)	More than one, but not sure how many
 (832322940) Don’t know 
 
-[D_957305523?] How many teeth have you lost from tooth decay or disease? Do not include wisdom teeth.
+[D_957305523?] How many teeth have you lost from tooth decay or disease? Do not include tooth crowns or wisdom teeth.
 (349122068)	1
 (194129782)	2 to 4
 (922737557)	5 to 9
@@ -657,7 +657,7 @@ In the last <b>month</b>, which of these oral hygiene products have you used? Se
 (383505459)	More than one, but not sure how many
 (178420302) Don’t know 
 
-[D_360678252?] How many teeth have you lost for reasons other than tooth decay or disease, or accident or injury? Do not include wisdom teeth.
+[D_360678252?] How many teeth have you lost for reasons other than tooth decay or disease, or accident or injury? Do not include tooth crowns or wisdom teeth.
 (349122068)	1
 (194129782)	2 to 4
 (922737557)	5 to 9
