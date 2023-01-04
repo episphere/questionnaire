@@ -1,16 +1,22 @@
-// This file was transformed using the mapping data in Quest-2022-09-16-14-12-41_Transformation.json.
+// This file was transformed using the mapping data in Quest-2022-12-21-17-52-53_Transformation.json.
+
+// JSON ERROR --> Concept ID collision for ID: 886084185 | there are collisions between Quest ID(s): [SRVPES_BASELINE2_V1R0] and Concept(s): [Please choose the reason that best describes why you have not completed all the sections in the first survey:]
+// JSON ERROR --> Concept ID collision for ID: 943119849 | there are collisions between Quest ID(s): [SRVPES_BIOSURV4_V1R0] and Concept(s): [Please choose the reason that fits best to describe why you have not completed the sample survey:]
+
+// JSON ERROR --> SRVPES_BASELINE2_V1R0 option BASELINE2 conceptId 886084185 already maps to Quest code: SRVPES_BASELINE2_V1R0 | conceptId collision
+// JSON ERROR --> SRVPES_BIOSURV4_V1R0 option BIOSURV4 conceptId 943119849 already maps to Quest code: SRVPES_BIOSURV4_V1R0 | conceptId collision
 
 // JSON WARNING --> Concept ID 101310722 with concept "# Pills per day" is shared between these Textbox codes: [ACIDSUP3_1A, ACIDSUP3_2A, ACIDSUP3_3A, CHOLHTN3_1A, CHOLHTN3_2A, INSULIN3_1A, METFOR3_1A, PAINREL3_1A, PAINREL3_2A, PAINREL3_3A, PAINREL3_4A, PAINREL3_5A, PAINREL3_6A, PAINREL3_7A]
-// JSON WARNING --> Concept ID 206625031 with concept "Age at diagnosis" is shared between these Textbox codes: [ANEMIA_AGE, APPEND_AGE, ARRHYT_AGE, ASTHMA_AGE, BARESO_AGE, BARSUR_AGE, BLOODCLOT_AGE, BREASTDIS_AGE, CCD_AGE, CD_AGE, CHESTPAIN_AGE, CHF_AGE, CHILDCANC3A_AGE, CHILDCANC3B_AGE, CHILDCANC3C_AGE, CHILDCANC3D_AGE, CHILDCANC3E_AGE, CHILDCANC3F_AGE, CHILDCANC3G_AGE, CHILDCANC3H_AGE, CHILDCANC3I_AGE, CHILDCANC3J_AGE, CHILDCANC3K_AGE, CHILDCANC3L_AGE, CHILDCANC3M_AGE, CHILDCANC3N_AGE, CHILDCANC3O_AGE, CHILDCANC3P_AGE, CHILDCANC3Q_AGE, CHILDCANC3R_AGE, CHILDCANC3S_AGE, CHILDCANC3T_AGE, CHILDCANC3U_AGE, CHILDCANC3V_AGE, CHILDCANC3W_AGE, CHILDCANC3X_AGE, CHILDCANC3Y_AGE, CHLA_AGE, CHOL_AGE, CKD_AGE, COPD_AGE, CVD_AGE, DADCANC3A_AGE, DADCANC3B_AGE, DADCANC3C_AGE, DADCANC3D_AGE, DADCANC3E_AGE, DADCANC3F_AGE, DADCANC3G_AGE, DADCANC3H_AGE, DADCANC3I_AGE, DADCANC3J_AGE, DADCANC3K_AGE, DADCANC3L_AGE, DADCANC3M_AGE, DADCANC3N_AGE, DADCANC3O_AGE, DADCANC3P_AGE, DADCANC3Q_AGE, DADCANC3R_AGE, DADCANC3S_AGE, DADCANC3T_AGE, DADCANC3U_AGE, DADCANC3V_AGE, DCIS_AGE, DEPRESS2_AGE, DIVERT_AGE, DM2_AGE, ENDO_AGE, ENLGPROS_AGE, FTREM2_AGE, GALLREM_AGE, GALL_AGE, GENWARTS_AGE, GERD_AGE, GONORR_AGE, GOUT_AGE, GRAVES_AGE, HAYFEVER_AGE, HBVHCV_AGE, HEARTATT_AGE, HEARTVALV_AGE, HIVAIDS_AGE, HPV_AGE, HTN_AGE, HYSTER_AGE, IBD_AGE, IBS_AGE, KIDNEY_AGE, LIPOSUCT_AGE, LIVCIRR_AGE, LUPUS_AGE, MOMCANC3A_AGE, MOMCANC3B_AGE, MOMCANC3C_AGE, MOMCANC3D_AGE, MOMCANC3E_AGE, MOMCANC3F_AGE, MOMCANC3G_AGE, MOMCANC3H_AGE, MOMCANC3I_AGE, MOMCANC3J_AGE, MOMCANC3K_AGE, MOMCANC3L_AGE, MOMCANC3M_AGE, MOMCANC3N_AGE, MOMCANC3O_AGE, MOMCANC3P_AGE, MOMCANC3Q_AGE, MOMCANC3R_AGE, MOMCANC3S_AGE, MOMCANC3T_AGE, MOMCANC3U_AGE, MOMCANC3V_AGE, MOMCANC3W_AGE, MONO_AGE, OVARYREM2_AGE, PANCREA_AGE, PCOS_AGE, PENREM_AGE, PROSREM2_AGE, RA_AGE, SHINGLES_AGE, SIBCANC3A_AGE, SIBCANC3B_AGE, SIBCANC3C_AGE, SIBCANC3D_AGE, SIBCANC3E_AGE, SIBCANC3F_AGE, SIBCANC3G_AGE, SIBCANC3H_AGE, SIBCANC3I_AGE, SIBCANC3J_AGE, SIBCANC3K_AGE, SIBCANC3L_AGE, SIBCANC3M_AGE, SIBCANC3N_AGE, SIBCANC3O_AGE, SIBCANC3P_AGE, SIBCANC3Q_AGE, SIBCANC3R_AGE, SIBCANC3S_AGE, SIBCANC3T_AGE, SIBCANC3U_AGE, SIBCANC3V_AGE, SIBCANC3W_AGE, SIBCANC3X_AGE, SIBCANC3Y_AGE, SKINCANC3_AGE, STROKE_AGE, SYPH_AGE, TESTREM2_AGE, THYROID_AGE, TONSILS_AGE, TRICH_AGE, TUBLIG_AGE, UC_AGE, UF_AGE, VASEC_AGE]
-// JSON WARNING --> Concept ID 261863326 with concept "Year at diagnosis" is shared between these Textbox codes: [ANEMIA_YEAR, APPEND_YEAR, ARRHYT_YEAR, ASTHMA_YEAR, BARESO_YEAR, BARSUR_YEAR, BLOODCLOT_YEAR, BREASTDIS_YEAR, CCD_YEAR, CD_YEAR, CHESTPAIN_YEAR, CHF_YEAR, CHILDCANC3A_YEAR, CHILDCANC3B_YEAR, CHILDCANC3C_YEAR, CHILDCANC3D_YEAR, CHILDCANC3E_YEAR, CHILDCANC3F_YEAR, CHILDCANC3G_YEAR, CHILDCANC3H_YEAR, CHILDCANC3I_YEAR, CHILDCANC3J_YEAR, CHILDCANC3K_YEAR, CHILDCANC3L_YEAR, CHILDCANC3M_YEAR, CHILDCANC3N_YEAR, CHILDCANC3O_YEAR, CHILDCANC3P_YEAR, CHILDCANC3Q_YEAR, CHILDCANC3R_YEAR, CHILDCANC3S_YEAR, CHILDCANC3T_YEAR, CHILDCANC3U_YEAR, CHILDCANC3V_YEAR, CHILDCANC3W_YEAR, CHILDCANC3X_YEAR, CHILDCANC3Y_YEAR, CHLA_YEAR, CHOL_YEAR, CKD_YEAR, COPD_YEAR, CVD_YEAR, DADCANC3A_YEAR, DADCANC3B_YEAR, DADCANC3C_YEAR, DADCANC3D_YEAR, DADCANC3E_YEAR, DADCANC3F_YEAR, DADCANC3G_YEAR, DADCANC3H_YEAR, DADCANC3I_YEAR, DADCANC3J_YEAR, DADCANC3K_YEAR, DADCANC3L_YEAR, DADCANC3M_YEAR, DADCANC3N_YEAR, DADCANC3O_YEAR, DADCANC3P_YEAR, DADCANC3Q_YEAR, DADCANC3R_YEAR, DADCANC3S_YEAR, DADCANC3T_YEAR, DADCANC3U_YEAR, DADCANC3V_YEAR, DCIS_YEAR, DEPRESS2_YEAR, DIVERT_YEAR, DM2_YEAR, ENDO_YEAR, ENLGPROS_YEAR, FTREM2_YEAR, GALLREM_YEAR, GALL_YEAR, GENWARTS_YEAR, GERD_YEAR, GONORR_YEAR, GOUT_YEAR, GRAVES_YEAR, HAYFEVER_YEAR, HBVHCV_YEAR, HEARTATT_YEAR, HEARTVALV_YEAR, HIVAIDS_YEAR, HPV_YEAR, HTN_YEAR, HYSTER_YEAR, IBD_YEAR, IBS_YEAR, KIDNEY_YEAR, LIPOSUCT_YEAR, LIVCIRR_YEAR, LUPUS_YEAR, MOMCANC3A_YEAR, MOMCANC3B_YEAR, MOMCANC3C_YEAR, MOMCANC3D_YEAR, MOMCANC3E_YEAR, MOMCANC3F_YEAR, MOMCANC3G_YEAR, MOMCANC3H_YEAR, MOMCANC3I_YEAR, MOMCANC3J_YEAR, MOMCANC3K_YEAR, MOMCANC3L_YEAR, MOMCANC3M_YEAR, MOMCANC3N_YEAR, MOMCANC3O_YEAR, MOMCANC3P_YEAR, MOMCANC3Q_YEAR, MOMCANC3R_YEAR, MOMCANC3S_YEAR, MOMCANC3T_YEAR, MOMCANC3U_YEAR, MOMCANC3V_YEAR, MOMCANC3W_YEAR, MONO_YEAR, OVARYREM2_YEAR, PANCREA_YEAR, PCOS_YEAR, PENREM_YEAR, PROSREM2_YEAR, RA_YEAR, SHINGLES_YEAR, SIBCANC3A_YEAR, SIBCANC3B_YEAR, SIBCANC3C_YEAR, SIBCANC3D_YEAR, SIBCANC3E_YEAR, SIBCANC3F_YEAR, SIBCANC3G_YEAR, SIBCANC3H_YEAR, SIBCANC3I_YEAR, SIBCANC3J_YEAR, SIBCANC3K_YEAR, SIBCANC3L_YEAR, SIBCANC3M_YEAR, SIBCANC3N_YEAR, SIBCANC3O_YEAR, SIBCANC3P_YEAR, SIBCANC3Q_YEAR, SIBCANC3R_YEAR, SIBCANC3S_YEAR, SIBCANC3T_YEAR, SIBCANC3U_YEAR, SIBCANC3V_YEAR, SIBCANC3W_YEAR, SIBCANC3X_YEAR, SIBCANC3Y_YEAR, SKINCANC3_YEAR, STROKE_YEAR, SYPH_YEAR, TESTREM2_YEAR, THYROID_YEAR, TONSILS_YEAR, TRICH_YEAR, TUBLIG_YEAR, UC_YEAR, UF_YEAR, VASEC_YEAR]
+// JSON WARNING --> Concept ID 206625031 with concept "Age at diagnosis" is shared between these Textbox codes: [ANEMIA_AGE, ARRHYT_AGE, ASTHMA_AGE, BARESO_AGE, BLOODCLOT_AGE, BREASTDIS_AGE, CCD_AGE, CD_AGE, CHESTPAIN_AGE, CHF_AGE, CHILDCANC3A_AGE, CHILDCANC3B_AGE, CHILDCANC3C_AGE, CHILDCANC3D_AGE, CHILDCANC3E_AGE, CHILDCANC3F_AGE, CHILDCANC3G_AGE, CHILDCANC3H_AGE, CHILDCANC3I_AGE, CHILDCANC3J_AGE, CHILDCANC3K_AGE, CHILDCANC3L_AGE, CHILDCANC3M_AGE, CHILDCANC3N_AGE, CHILDCANC3O_AGE, CHILDCANC3P_AGE, CHILDCANC3Q_AGE, CHILDCANC3R_AGE, CHILDCANC3S_AGE, CHILDCANC3T_AGE, CHILDCANC3U_AGE, CHILDCANC3V_AGE, CHILDCANC3W_AGE, CHILDCANC3X_AGE, CHILDCANC3Y_AGE, CHLA_AGE, CHOL_AGE, CKD_AGE, COPD_AGE, CVD_AGE, DADCANC3A_AGE, DADCANC3B_AGE, DADCANC3C_AGE, DADCANC3D_AGE, DADCANC3E_AGE, DADCANC3F_AGE, DADCANC3G_AGE, DADCANC3H_AGE, DADCANC3I_AGE, DADCANC3J_AGE, DADCANC3K_AGE, DADCANC3L_AGE, DADCANC3M_AGE, DADCANC3N_AGE, DADCANC3O_AGE, DADCANC3P_AGE, DADCANC3Q_AGE, DADCANC3R_AGE, DADCANC3S_AGE, DADCANC3T_AGE, DADCANC3U_AGE, DADCANC3V_AGE, DCIS_AGE, DEPRESS2_AGE, DIVERT_AGE, DM2_AGE, ENDO_AGE, ENLGPROS_AGE, GALL_AGE, GENWARTS_AGE, GERD_AGE, GONORR_AGE, GOUT_AGE, GRAVES_AGE, HAYFEVER_AGE, HBVHCV_AGE, HEARTATT_AGE, HEARTVALV_AGE, HIVAIDS_AGE, HPV_AGE, HTN_AGE, IBD_AGE, IBS_AGE, KIDNEY_AGE, LIVCIRR_AGE, LUPUS_AGE, MOMCANC3A_AGE, MOMCANC3B_AGE, MOMCANC3C_AGE, MOMCANC3D_AGE, MOMCANC3E_AGE, MOMCANC3F_AGE, MOMCANC3G_AGE, MOMCANC3H_AGE, MOMCANC3I_AGE, MOMCANC3J_AGE, MOMCANC3K_AGE, MOMCANC3L_AGE, MOMCANC3M_AGE, MOMCANC3N_AGE, MOMCANC3O_AGE, MOMCANC3P_AGE, MOMCANC3Q_AGE, MOMCANC3R_AGE, MOMCANC3S_AGE, MOMCANC3T_AGE, MOMCANC3U_AGE, MOMCANC3V_AGE, MOMCANC3W_AGE, MONO_AGE, PANCREA_AGE, PCOS_AGE, RA_AGE, SHINGLES_AGE, SIBCANC3A_AGE, SIBCANC3B_AGE, SIBCANC3C_AGE, SIBCANC3D_AGE, SIBCANC3E_AGE, SIBCANC3F_AGE, SIBCANC3G_AGE, SIBCANC3H_AGE, SIBCANC3I_AGE, SIBCANC3J_AGE, SIBCANC3K_AGE, SIBCANC3L_AGE, SIBCANC3M_AGE, SIBCANC3N_AGE, SIBCANC3O_AGE, SIBCANC3P_AGE, SIBCANC3Q_AGE, SIBCANC3R_AGE, SIBCANC3S_AGE, SIBCANC3T_AGE, SIBCANC3U_AGE, SIBCANC3V_AGE, SIBCANC3W_AGE, SIBCANC3X_AGE, SIBCANC3Y_AGE, SKINCANC3_AGE, STROKE_AGE, SYPH_AGE, THYROID_AGE, TRICH_AGE, UC_AGE, UF_AGE]
+// JSON WARNING --> Concept ID 261863326 with concept "Year at diagnosis" is shared between these Textbox codes: [ANEMIA_YEAR, ARRHYT_YEAR, ASTHMA_YEAR, BARESO_YEAR, BLOODCLOT_YEAR, BREASTDIS_YEAR, CCD_YEAR, CD_YEAR, CHESTPAIN_YEAR, CHF_YEAR, CHILDCANC3A_YEAR, CHILDCANC3B_YEAR, CHILDCANC3C_YEAR, CHILDCANC3D_YEAR, CHILDCANC3E_YEAR, CHILDCANC3F_YEAR, CHILDCANC3G_YEAR, CHILDCANC3H_YEAR, CHILDCANC3I_YEAR, CHILDCANC3J_YEAR, CHILDCANC3K_YEAR, CHILDCANC3L_YEAR, CHILDCANC3M_YEAR, CHILDCANC3N_YEAR, CHILDCANC3O_YEAR, CHILDCANC3P_YEAR, CHILDCANC3Q_YEAR, CHILDCANC3R_YEAR, CHILDCANC3S_YEAR, CHILDCANC3T_YEAR, CHILDCANC3U_YEAR, CHILDCANC3V_YEAR, CHILDCANC3W_YEAR, CHILDCANC3X_YEAR, CHILDCANC3Y_YEAR, CHLA_YEAR, CHOL_YEAR, CKD_YEAR, COPD_YEAR, CVD_YEAR, DADCANC3A_YEAR, DADCANC3B_YEAR, DADCANC3C_YEAR, DADCANC3D_YEAR, DADCANC3E_YEAR, DADCANC3F_YEAR, DADCANC3G_YEAR, DADCANC3H_YEAR, DADCANC3I_YEAR, DADCANC3J_YEAR, DADCANC3K_YEAR, DADCANC3L_YEAR, DADCANC3M_YEAR, DADCANC3N_YEAR, DADCANC3O_YEAR, DADCANC3P_YEAR, DADCANC3Q_YEAR, DADCANC3R_YEAR, DADCANC3S_YEAR, DADCANC3T_YEAR, DADCANC3U_YEAR, DADCANC3V_YEAR, DCIS_YEAR, DEPRESS2_YEAR, DIVERT_YEAR, DM2_YEAR, ENDO_YEAR, ENLGPROS_YEAR, GALL_YEAR, GENWARTS_YEAR, GERD_YEAR, GONORR_YEAR, GOUT_YEAR, GRAVES_YEAR, HAYFEVER_YEAR, HBVHCV_YEAR, HEARTATT_YEAR, HEARTVALV_YEAR, HIVAIDS_YEAR, HPV_YEAR, HTN_YEAR, IBD_YEAR, IBS_YEAR, KIDNEY_YEAR, LIVCIRR_YEAR, LUPUS_YEAR, MOMCANC3A_YEAR, MOMCANC3B_YEAR, MOMCANC3C_YEAR, MOMCANC3D_YEAR, MOMCANC3E_YEAR, MOMCANC3F_YEAR, MOMCANC3G_YEAR, MOMCANC3H_YEAR, MOMCANC3I_YEAR, MOMCANC3J_YEAR, MOMCANC3K_YEAR, MOMCANC3L_YEAR, MOMCANC3M_YEAR, MOMCANC3N_YEAR, MOMCANC3O_YEAR, MOMCANC3P_YEAR, MOMCANC3Q_YEAR, MOMCANC3R_YEAR, MOMCANC3S_YEAR, MOMCANC3T_YEAR, MOMCANC3U_YEAR, MOMCANC3V_YEAR, MOMCANC3W_YEAR, MONO_YEAR, PANCREA_YEAR, PCOS_YEAR, RA_YEAR, SHINGLES_YEAR, SIBCANC3A_YEAR, SIBCANC3B_YEAR, SIBCANC3C_YEAR, SIBCANC3D_YEAR, SIBCANC3E_YEAR, SIBCANC3F_YEAR, SIBCANC3G_YEAR, SIBCANC3H_YEAR, SIBCANC3I_YEAR, SIBCANC3J_YEAR, SIBCANC3K_YEAR, SIBCANC3L_YEAR, SIBCANC3M_YEAR, SIBCANC3N_YEAR, SIBCANC3O_YEAR, SIBCANC3P_YEAR, SIBCANC3Q_YEAR, SIBCANC3R_YEAR, SIBCANC3S_YEAR, SIBCANC3T_YEAR, SIBCANC3U_YEAR, SIBCANC3V_YEAR, SIBCANC3W_YEAR, SIBCANC3X_YEAR, SIBCANC3Y_YEAR, SKINCANC3_YEAR, STROKE_YEAR, SYPH_YEAR, THYROID_YEAR, TRICH_YEAR, UC_YEAR, UF_YEAR]
 // JSON WARNING --> Concept ID 314198277 with concept "Last spent time at this address, year" is shared between these Textbox codes: [SEASADDYRS2_10_YEAR, SEASADDYRS2_1_YEAR, SEASADDYRS2_2_YEAR, SEASADDYRS2_3_YEAR, SEASADDYRS2_4_YEAR, SEASADDYRS2_5_YEAR, SEASADDYRS2_6_YEAR, SEASADDYRS2_7_YEAR, SEASADDYRS2_8_YEAR, SEASADDYRS2_9_YEAR]
 // JSON WARNING --> Concept ID 434243220 with concept "Months used" is shared between these Textbox codes: [ANYCOMESTMONTH, COMBINEDMONTH, COPIUDMONTH, DEPROPROVMONTH, ESTOTHERMONTH, ESTSKINMONTH, HORCOMPILLMONTH, HORIUDMONTH, HORMEDOTHERMONTH, HORMEDPATCHMONTH, HORMEDRINGMONTH, MINIPILLMONTH, NORPLANTMONTH, ORALESTMONTH, ORALMEDMONTH, PATCHESTMONTH, PRESHOR2MONTH, PROESTMONTH, RINGMONTH, TWOPILLMONTH]
 // JSON WARNING --> Concept ID 451310566 with concept "Months at address" is shared between these Textbox codes: [MONTHADD1, MONTHADD10, MONTHADD2, MONTHADD3, MONTHADD4, MONTHADD5, MONTHADD6, MONTHADD7, MONTHADD8, MONTHADD9]
-// JSON WARNING --> Concept ID 623218391 with concept "Age at surgery" is shared between these Textbox codes: [BREASTABSS_AGE, BREASTDBLREM_AGE, BREASTIMPLANTS_AGE, BREASTLACTREM_AGE, BREASTLIFT_AGE, BREASTOTH_AGE, BREASTPARTREM_AGE, BREASTRECON_AGE, BREASTREDN_AGE, BREASTREM_AGE]
+// JSON WARNING --> Concept ID 623218391 with concept "Age at surgery" is shared between these Textbox codes: [APPEND_AGE, BARSUR_AGE, BREASTABSS_AGE, BREASTDBLREM_AGE, BREASTIMPLANTS_AGE, BREASTLACTREM_AGE, BREASTLIFT_AGE, BREASTOTH_AGE, BREASTPARTREM_AGE, BREASTRECON_AGE, BREASTREDN_AGE, BREASTREM_AGE, FTREM2_AGE, GALLREM_AGE, HYSTER_AGE, LIPOSUCT_AGE, OVARYREM2_AGE, PENREM_AGE, PROSREM2_AGE, TESTREM2_AGE, TONSILS_AGE, TUBLIG_AGE, VASEC_AGE]
 // JSON WARNING --> Concept ID 707805344 with concept "# of Hours" is shared between these Textbox codes: [FALLASLEEPHOURS, LAYINBEDHRS, NONWORKAWAKEBEFOREUPHOURS, NONWORKFALLASLEEPHOURS, OUTSIDEHOURS, WORKDAYOUTSIDEHOURS]
 // JSON WARNING --> Concept ID 765748316 with concept "Days per week" is shared between these Textbox codes: [ACETWEEK, ACIDSUP2_1WK, ACIDSUP2_2WK, ACIDSUP2_3WK, BABYASPRINWEEK, CELECOXIBWEEK, CHOLHTN2_1WK, CHOLHTN2_2WK, IBUPROFENWEEK, INSULIN2_1WK, METFOR2_1WK, NAPROXENWEEK, PAINRELWEEK, REGASPRINWEEK]
 // JSON WARNING --> Concept ID 785412329 with concept "Days per month" is shared between these Textbox codes: [ACETMONTH, ACIDSUP2_1MO, ACIDSUP2_2MO, ACIDSUP2_3MO, BABYASPRINMONTH, CELECOXIBMONTH, CHOLHTN2_1MO, CHOLHTN2_2MO, IBUPROFENMONTH, INSULIN2_1MO, METFOR2_1MO, NAPROXENMONTH, PAINRELMONTH, REGASPRINMONTH]
-// JSON WARNING --> Concept ID 802622485 with concept "Year at surgery" is shared between these Textbox codes: [BREASTABSS_YEAR, BREASTDBLREM_YEAR, BREASTIMPLANTS_YEAR, BREASTLACTREM_YEAR, BREASTLIFT_YEAR, BREASTOTH_YEAR, BREASTPARTREM_YEAR, BREASTRECON_YEAR, BREASTREDN_YEAR, BREASTREM_YEAR]
+// JSON WARNING --> Concept ID 802622485 with concept "Year at surgery" is shared between these Textbox codes: [APPEND_YEAR, BARSUR_YEAR, BREASTABSS_YEAR, BREASTDBLREM_YEAR, BREASTIMPLANTS_YEAR, BREASTLACTREM_YEAR, BREASTLIFT_YEAR, BREASTOTH_YEAR, BREASTPARTREM_YEAR, BREASTRECON_YEAR, BREASTREDN_YEAR, BREASTREM_YEAR, FTREM2_YEAR, GALLREM_YEAR, HYSTER_YEAR, LIPOSUCT_YEAR, OVARYREM2_YEAR, PENREM_YEAR, PROSREM2_YEAR, TESTREM2_YEAR, TONSILS_YEAR, TUBLIG_YEAR, VASEC_YEAR]
 // JSON WARNING --> Concept ID 810608313 with concept "# Servings per day" is shared between these Textbox codes: [EAMAR9ANUM, EAMAR9CNUM, THMAR9ANUM, THMAR9CNUM]
 // JSON WARNING --> Concept ID 850393641 with concept "# of Minutes" is shared between these Textbox codes: [FALLASLEEPMIN, LAYINBEDMIN, NONWORKAWAKEBEFOREUPMIN, NONWORKFALLASLEEPMIN, OUTSIDEMIN, WORKDAYOUTSIDEMIN]
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
@@ -23,7 +29,7 @@
 // count: 8 | warning: "TOBACCO | this may be an untransformed Quest code"
 
 
-//This file was last modified on Tue Sep 20 16:14:23 2022 -0400 (short timestamp = 2022-09-20-20-14-23)
+//This file was last modified on Thu Dec 15 15:17:36 2022 -0500 (short timestamp = 2022-12-15-20-17-36)
 {"name":"D_965707586"}
 
 [INTROM3] The next questions are about your tobacco, nicotine, marijuana, and alcohol use. In the last section, we will ask you about your exposure to the sun and use of tanning beds.
@@ -85,7 +91,7 @@ Age started smoking cigarettes on a regular basis |__|__|id=D_408696162 min=valu
 
 Age when last smoked cigarettes |__|__|min=valueOrDefault("D_408696162","D_194557808",0) max=sum(isDefined(D_150344905,age),1)|
 
-[D_400969127?,displayif=equals(D_947205597,712653855)] During that time, did you smoke cigarettes <b>every day</b>?
+[D_400969127?,displayif=equals(D_947205597,712653855)] During the time you last smoked cigarettes, did you smoke cigarettes <b>every day</b>?
 (104430631) No -> D_820220019
 (353358909) Yes -> D_304657762
 
@@ -96,7 +102,7 @@ Age when last smoked cigarettes |__|__|min=valueOrDefault("D_408696162","D_19455
 On days that you |displayif=doesNotExist("D_798549704") or valueEquals("D_798549704",317567178)|smoke||displayif=valueIsOneOf("D_798549704",484055234,802197176)|smoked|, how many cigarettes |displayif=doesNotExist("D_798549704") or valueEquals("D_798549704",317567178)|do||displayif=valueIsOneOf("D_798549704",484055234,802197176)|did| you smoke <b>per day</b>? Please provide the number of cigarettes, <b>not</b> the number of packs.
 #Cigarettes smoked per day |__|__|min=1 max=99|
 
-[D_815776236?,displayif=and(doesNotEqual(or(or(equals(D_639684251,804785430),and(or(or(equals(D_639684251,716761013),equals(D_639684251,299561721)),equals(D_639684251,419415087)),and(equals(D_798549704,484055234),equals(D_400969127,353358909)))),and(or(or(equals(D_639684251,716761013),equals(D_639684251,299561721)),equals(D_639684251,419415087)),and(equals(D_798549704,802197176),equals(D_400969127,353358909)))),1),equals(D_947205597,712653855))] Did you ever smoke cigarettes <b>every day</b>?
+[D_815776236?,displayif=and(doesNotEqual(or(or(equals(D_639684251,804785430),and(or(or(equals(D_639684251,716761013),equals(D_639684251,299561721)),equals(D_639684251,419415087)),and(equals(D_798549704,484055234),equals(D_400969127,353358909)))),and(or(or(equals(D_639684251,716761013),equals(D_639684251,299561721)),equals(D_639684251,419415087)),and(equals(D_798549704,802197176),equals(D_400969127,353358909)))),1),equals(D_947205597,712653855))] Now thinking about your entire life, did you ever smoke cigarettes <b>every day</b>?
 (104430631) No -> D_624111331
 (353358909) Yes -> D_560293868
 < #NR -> D_624111331 >
@@ -223,7 +229,7 @@ How old were you when you started using e-cigarettes or other vaping devices for
 [D_360277949?,displayif=equals(D_947205597,706254326)] How old were you when you <b>last</b> used e-cigarettes or other vaping devices for nicotine or tobacco?
 Age when last used e-cigarettes or other vaping devices |__|__|min=isDefined(isDefined(D_517801904,D_761037053),0) max=sum(isDefined(D_150344905,age),1)|
 
-[D_242276545?,displayif=equals(D_947205597,706254326)] During that time, did you use e-cigarettes or other vaping devices for nicotine or tobacco <b>every day</b>?
+[D_242276545?,displayif=equals(D_947205597,706254326)] During the time you last used e-cigarettes or other vaping devices for nicotine or tobacco, did you use them <b>every day</b>?
 (104430631) No ->  D_183546626
 (353358909) Yes -> D_982470672
 
@@ -238,7 +244,7 @@ On days that you |displayif=doesNotExist("D_238422161") or valueEquals("D_238422
 (638092100) 1 hour
 (127455035) 2 hours or more
 
-[D_333072838?,displayif=and(doesNotEqual(or(or(equals(D_751046675,804785430),and(or(or(equals(D_751046675,716761013),equals(D_751046675,299561721)),equals(D_751046675,419415087)),and(equals(D_238422161,484055234),equals(D_242276545,353358909)))),and(or(or(equals(D_751046675,716761013),equals(D_751046675,299561721)),equals(D_751046675,419415087)),and(equals(D_238422161,802197176),equals(D_242276545,353358909)))),1),equals(D_947205597,706254326))] Did you ever use e-cigarettes or other vaping devices for nicotine or tobacco <b>every day</b>?
+[D_333072838?,displayif=and(doesNotEqual(or(or(equals(D_751046675,804785430),and(or(or(equals(D_751046675,716761013),equals(D_751046675,299561721)),equals(D_751046675,419415087)),and(equals(D_238422161,484055234),equals(D_242276545,353358909)))),and(or(or(equals(D_751046675,716761013),equals(D_751046675,299561721)),equals(D_751046675,419415087)),and(equals(D_238422161,802197176),equals(D_242276545,353358909)))),1),equals(D_947205597,706254326))] Now thinking about your entire life, did you ever use e-cigarettes or other vaping devices for nicotine or tobacco <b>every day</b>?
 (104430631) No -> D_182431332
 (353358909) Yes ->  D_388614168
 < #NR -> D_182431332>
@@ -388,7 +394,7 @@ Age started smoking cigars, cigarillos, or little filtered cigars on a regular b
 Age when last smoked cigars, cigarillos, or little filtered cigars |__|__|min=isDefined(isDefined(D_851145096,D_241771440),0) max=sum(isDefined(D_150344905,age),1)|
 
 
-[D_395480458?,displayif=equals(D_947205597,198133418)] During that time, did you smoke cigars, cigarillos, or little filtered cigars <b>every day</b>?
+[D_395480458?,displayif=equals(D_947205597,198133418)] During the time you last smoked cigars, cigarillos, or little filtered cigars, did you smoke them <b>every day</b>?
 (104430631) No -> D_674378360
 (353358909) Yes -> D_780721084
 
@@ -401,7 +407,7 @@ Age when last smoked cigars, cigarillos, or little filtered cigars |__|__|min=is
 On days that you |displayif=doesNotExist("D_789271762") or valueEquals("D_789271762",317567178)|smoke||displayif=valueIsOneOf("D_789271762",484055234,802197176)|smoked|, how many cigars, cigarillos, or little filtered cigars |displayif=doesNotExist("D_789271762") or valueEquals("D_789271762",317567178)|do||displayif=valueIsOneOf("D_789271762",484055234,802197176)|did| you smoke <b>per day</b>?
 #cigars, cigarillos, or little filtered cigars smoked per day |__|__|min=1 max=99|
 
-[D_287715042?,displayif=and(doesNotEqual(or(or(equals(D_564438246,804785430),and(or(or(equals(D_564438246,716761013),equals(D_564438246,299561721)),equals(D_564438246,419415087)),and(equals(D_789271762,484055234),equals(D_395480458,353358909)))),and(or(or(equals(D_564438246,716761013),equals(D_564438246,299561721)),equals(D_564438246,419415087)),and(equals(D_789271762,802197176),equals(D_395480458,353358909)))),1),equals(D_947205597,198133418))] Did you ever smoke cigars, cigarillos, or little filtered cigars <b>every day</b>?
+[D_287715042?,displayif=and(doesNotEqual(or(or(equals(D_564438246,804785430),and(or(or(equals(D_564438246,716761013),equals(D_564438246,299561721)),equals(D_564438246,419415087)),and(equals(D_789271762,484055234),equals(D_395480458,353358909)))),and(or(or(equals(D_564438246,716761013),equals(D_564438246,299561721)),equals(D_564438246,419415087)),and(equals(D_789271762,802197176),equals(D_395480458,353358909)))),1),equals(D_947205597,198133418))] Now thinking about your entire life, did you ever smoke cigars, cigarillos, or little filtered cigars <b>every day</b>?
 (104430631) No -> D_306320432
 (353358909) Yes -> D_145078867
 < #NR -> D_306320432>
@@ -515,7 +521,7 @@ Age started using chewing tobacco, snus, snuff, or dip on a regular basis |__|__
 
 Age when last used chewing tobacco, snus, snuff, or dip |__|__|min=isDefined(isDefined(D_424527685,D_213679054),0) max=sum(isDefined(D_150344905,age),1)|
 
-[D_785139115?,displayif=equals(D_947205597,817381897)] During that time, did you use chewing tobacco, snus, snuff, or dip <b>every day</b>?
+[D_785139115?,displayif=equals(D_947205597,817381897)] During the time you last used chewing tobacco, snus, snuff, or dip, did you use them  <b>every day</b>?
 (104430631) No ->  D_549400618
 (353358909) Yes -> D_394049992
 
@@ -530,7 +536,7 @@ On days that you |displayif=doesNotExist("D_344631681") or valueEquals("D_344631
 (638092100) 1 hour
 (127455035) 2 hours or more
 
-[D_673842048?,displayif=and(doesNotEqual(or(or(equals(D_101710639,804785430),and(or(or(equals(D_101710639,716761013),equals(D_101710639,299561721)),equals(D_101710639,419415087)),and(equals(D_344631681,484055234),equals(D_785139115,353358909)))),and(or(or(equals(D_101710639,716761013),equals(D_101710639,299561721)),equals(D_101710639,419415087)),and(equals(D_344631681,802197176),equals(D_785139115,353358909)))),1),equals(D_947205597,817381897))] Did you ever use chewing tobacco, snus, snuff, or dip <b>every day</b>?
+[D_673842048?,displayif=and(doesNotEqual(or(or(equals(D_101710639,804785430),and(or(or(equals(D_101710639,716761013),equals(D_101710639,299561721)),equals(D_101710639,419415087)),and(equals(D_344631681,484055234),equals(D_785139115,353358909)))),and(or(or(equals(D_101710639,716761013),equals(D_101710639,299561721)),equals(D_101710639,419415087)),and(equals(D_344631681,802197176),equals(D_785139115,353358909)))),1),equals(D_947205597,817381897))] Now thinking about your entire life, did you ever use chewing tobacco, snus, snuff, or dip <b>every day</b>?
 (104430631) No ->  D_981755099
 (353358909) Yes ->  D_568113091
 < #NR ->  D_981755099>
@@ -677,7 +683,7 @@ Age started smoking a hookah or water pipe on a regular basis |__|__|id=D_234430
 
 Age when last smoked a hookah or water pipe |__|__|min=isDefined(isDefined(D_234430294,D_127871793),0) max=sum(isDefined(D_150344905,age),1)|
 
-[D_585702271?,displayif=equals(D_947205597,539648641)] During that time, did you smoke a hookah or water pipe <b>every day</b>?
+[D_585702271?,displayif=equals(D_947205597,539648641)] During the time you last smoked a hookah or water pipe, did you ever smoke <b>every day</b>?
 (104430631) No -> D_827661413
 (353358909) Yes -> D_356470028
 
@@ -693,7 +699,7 @@ On days that you |displayif=doesNotExist("D_787047261") or valueEquals("D_787047
 (638092100) 1 hour
 (127455035) 2 hours or more
 
-[D_720305356?,displayif=and(doesNotEqual(or(or(equals(D_472007171,804785430),and(or(or(equals(D_472007171,716761013),equals(D_472007171,299561721)),equals(D_472007171,419415087)),and(equals(D_787047261,484055234),equals(D_585702271,353358909)))),and(or(or(equals(D_472007171,716761013),equals(D_472007171,299561721)),equals(D_472007171,419415087)),and(equals(D_787047261,802197176),equals(D_585702271,353358909)))),1),equals(D_947205597,539648641))] Did you ever smoke a hookah or water pipe <b>every day</b>?
+[D_720305356?,displayif=and(doesNotEqual(or(or(equals(D_472007171,804785430),and(or(or(equals(D_472007171,716761013),equals(D_472007171,299561721)),equals(D_472007171,419415087)),and(equals(D_787047261,484055234),equals(D_585702271,353358909)))),and(or(or(equals(D_472007171,716761013),equals(D_472007171,299561721)),equals(D_472007171,419415087)),and(equals(D_787047261,802197176),equals(D_585702271,353358909)))),1),equals(D_947205597,539648641))] Now thinking about your entire life, did you ever smoke a hookah or water pipe <b>every day</b>?
 (104430631) No -> D_559388168
 (353358909) Yes -> D_951901114
 < #NR -> D_559388168>
@@ -837,7 +843,7 @@ Age started smoking a tobacco pipe on a regular basis |__|__|id=D_663551714 min=
 
 Age when last smoked a tobacco pipe |__|__|min=isDefined(isDefined(D_663551714,D_450151555),0) max=sum(isDefined(D_150344905,age),1)|
 
-[D_311569789?,displayif=equals(D_947205597,686310465)] During that time, did you smoke a tobacco pipe <b>every day</b>?
+[D_311569789?,displayif=equals(D_947205597,686310465)] During the time you last smoked a tobacco pipe, did you smoke <b>every day</b>?
 (104430631) No -> D_652477674
 (353358909) Yes -> D_780767323
 
@@ -849,7 +855,7 @@ Age when last smoked a tobacco pipe |__|__|min=isDefined(isDefined(D_663551714,D
 On days that you |displayif=doesNotExist("D_845122623") or valueEquals("D_845122623",317567178)|smoke||displayif=valueIsOneOf("D_845122623",484055234,802197176)|smoked|, how many pipe fills of tobacco |displayif=doesNotExist("D_845122623") or valueEquals("D_845122623",317567178)|do||displayif=valueIsOneOf("D_845122623",484055234,802197176)|did| you smoke <b>per day</b>?
 #Pipe fills smoked per day |__|__|min=1 max=99|
 
-[D_385490512?,displayif=and(doesNotEqual(or(or(equals(D_458395129,804785430),and(or(or(equals(D_458395129,716761013),equals(D_458395129,299561721)),equals(D_458395129,419415087)),and(equals(D_845122623,484055234),equals(D_311569789,353358909)))),and(or(or(equals(D_458395129,716761013),equals(D_458395129,299561721)),equals(D_458395129,419415087)),and(equals(D_845122623,802197176),equals(D_311569789,353358909)))),1),equals(D_947205597,686310465))] Did you ever smoke a tobacco pipe <b>every day</b>?
+[D_385490512?,displayif=and(doesNotEqual(or(or(equals(D_458395129,804785430),and(or(or(equals(D_458395129,716761013),equals(D_458395129,299561721)),equals(D_458395129,419415087)),and(equals(D_845122623,484055234),equals(D_311569789,353358909)))),and(or(or(equals(D_458395129,716761013),equals(D_458395129,299561721)),equals(D_458395129,419415087)),and(equals(D_845122623,802197176),equals(D_311569789,353358909)))),1),equals(D_947205597,686310465))] Now thinking about your entire life, did you ever smoke a tobacco pipe <b>every day</b>?
 (104430631) No -> D_337810964
 (353358909) Yes -> D_119378795
 < #NR -> D_337810964>
@@ -1035,7 +1041,7 @@ Age started smoking marijuana on a regular basis |__|__|id=D_889949861 min=isDef
 
 Age when last smoked marijuana  |__|__|min=isDefined(isDefined(D_889949861,D_210016366),0) max=sum(isDefined(D_150344905,age),1)|
 
-[D_129677435?,displayif=equals(D_830608495,760521319)] During that time, did you smoke marijuana <b>every day</b>?
+[D_129677435?,displayif=equals(D_830608495,760521319)] During the time you last smoked marijuana, did you smoke <b>every day</b>?
 (104430631) No -> D_930208825
 (353358909) Yes -> D_719293094
 
@@ -1051,7 +1057,7 @@ On days that you |displayif=doesNotExist("D_180308733") or valueEquals("D_180308
 (638092100) 1 hour
 (127455035) 2 hours or more
 
-[D_722122662?,displayif=and(doesNotEqual(or(or(equals(D_503058092,804785430),and(or(or(equals(D_503058092,716761013),equals(D_503058092,299561721)),equals(D_503058092,419415087)),and(equals(D_180308733,484055234),equals(D_129677435,353358909)))),and(or(or(equals(D_503058092,716761013),equals(D_503058092,299561721)),equals(D_503058092,419415087)),and(equals(D_180308733,802197176),equals(D_129677435,353358909)))),1),equals(D_830608495,760521319))] Did you ever smoke marijuana <b>every day</b>?
+[D_722122662?,displayif=and(doesNotEqual(or(or(equals(D_503058092,804785430),and(or(or(equals(D_503058092,716761013),equals(D_503058092,299561721)),equals(D_503058092,419415087)),and(equals(D_180308733,484055234),equals(D_129677435,353358909)))),and(or(or(equals(D_503058092,716761013),equals(D_503058092,299561721)),equals(D_503058092,419415087)),and(equals(D_180308733,802197176),equals(D_129677435,353358909)))),1),equals(D_830608495,760521319))] Now thinking about your entire life, did you ever smoke marijuana <b>every day</b>?
 (104430631) No -> D_377064836
 (353358909) Yes -> D_556963634
 < #NR -> D_377064836>
@@ -1202,7 +1208,7 @@ Age started smoking a combination of marijuana with tobacco on a regular basis |
 
 Age when last smoked a combination of marijuana with tobacco  |__|__|min=isDefined(isDefined(D_628818510,D_140848765),0) max=sum(isDefined(D_150344905,age),1)|
 
-[D_698314386?,displayif=equals(D_830608495,158841370)] During that time, did you smoke a combination of marijuana with tobacco <b>every day</b>?
+[D_698314386?,displayif=equals(D_830608495,158841370)] During the time you last smoked a combination of marijuana with tobacco, did you smoke <b>every day</b>?
 (104430631) No -> D_363377579
 (353358909) Yes -> D_964154290
 
@@ -1214,7 +1220,7 @@ Age when last smoked a combination of marijuana with tobacco  |__|__|min=isDefin
 On days that you |displayif=doesNotExist("D_444759994") or valueEquals("D_444759994",317567178)|smoke||displayif=valueIsOneOf("D_444759994",484055234,802197176)|smoked|, how many times |displayif=doesNotExist("D_444759994") or valueEquals("D_444759994",317567178)|do||displayif=valueIsOneOf("D_444759994",484055234,802197176)|did| you smoke a combination of marijuana with tobacco <b>per day</b>?
 #TIMES PER DAY |__|__|__|min=1 max=999|
 
-[D_171050898?,displayif=and(doesNotEqual(or(or(equals(D_891825638,804785430),and(or(or(equals(D_891825638,716761013),equals(D_891825638,299561721)),equals(D_891825638,419415087)),and(equals(D_444759994,484055234),equals(D_698314386,353358909)))),and(or(or(equals(D_891825638,716761013),equals(D_891825638,299561721)),equals(D_891825638,419415087)),and(equals(D_444759994,802197176),equals(D_698314386,353358909)))),1),equals(D_830608495,158841370))] Did you ever smoke a combination of marijuana with tobacco <b>every day</b>?
+[D_171050898?,displayif=and(doesNotEqual(or(or(equals(D_891825638,804785430),and(or(or(equals(D_891825638,716761013),equals(D_891825638,299561721)),equals(D_891825638,419415087)),and(equals(D_444759994,484055234),equals(D_698314386,353358909)))),and(or(or(equals(D_891825638,716761013),equals(D_891825638,299561721)),equals(D_891825638,419415087)),and(equals(D_444759994,802197176),equals(D_698314386,353358909)))),1),equals(D_830608495,158841370))] Now thinking about your entire life, did you ever smoke a combination of marijuana with tobacco <b>every day</b>?
 (104430631) No -> D_755923078
 (353358909) Yes -> D_606675249
 < #NR -> D_755923078>
@@ -1338,7 +1344,7 @@ Age started vaping marijuana on a regular basis |__|__|id=D_742716427 min=isDefi
 
 Age when last used electronic marijuana delivery devices that can be vaped |__|__|min=isDefined(isDefined(D_742716427,D_116510981),0) max=sum(isDefined(D_150344905,age),1)|
 
-[D_142164107?,displayif=equals(D_830608495,349034127)] During that time, did you use electronic marijuana delivery devices that can be vaped every day?
+[D_142164107?,displayif=equals(D_830608495,349034127)] During the time you last used electronic delivery devices that can be vaped, did you use them <b>every day</b>?
 (104430631) No ->  D_695423703
 (353358909) Yes -> D_816891201
 
@@ -1354,7 +1360,7 @@ On days that you use|displayif=valueIsOneOf("D_859228803",484055234,802197176)|d
 (638092100) 1 hour
 (127455035) 2 hours or more
 
-[D_177252178?,displayif=and(doesNotEqual(or(or(equals(D_521073718,804785430),and(or(or(equals(D_521073718,716761013),equals(D_521073718,299561721)),equals(D_521073718,419415087)),and(equals(D_859228803,484055234),equals(D_142164107,353358909)))),and(or(or(equals(D_521073718,716761013),equals(D_521073718,299561721)),equals(D_521073718,419415087)),and(equals(D_859228803,802197176),equals(D_142164107,353358909)))),1),equals(D_830608495,349034127))] Did you ever use electronic marijuana delivery devices that can be vaped <b>every day</b>?
+[D_177252178?,displayif=and(doesNotEqual(or(or(equals(D_521073718,804785430),and(or(or(equals(D_521073718,716761013),equals(D_521073718,299561721)),equals(D_521073718,419415087)),and(equals(D_859228803,484055234),equals(D_142164107,353358909)))),and(or(or(equals(D_521073718,716761013),equals(D_521073718,299561721)),equals(D_521073718,419415087)),and(equals(D_859228803,802197176),equals(D_142164107,353358909)))),1),equals(D_830608495,349034127))] Now thinking about your entire life, did you ever use electronic marijuana delivery devices that can be vaped <b>every day</b>?
 (104430631) No -> D_268240612
 (353358909) Yes ->  D_116014097
 < #NR -> D_268240612>
@@ -1504,7 +1510,7 @@ Age started consuming marijuana in food or drinks on a regular basis |__|__|id=D
 
 Age when last consumed marijuana in food or drinks |__|__|min=isDefined(isDefined(D_622843252,D_908399883),0) max=sum(isDefined(D_150344905,age),1)|
 
-[D_259481608?,displayif=equals(D_830608495,713594719)] During that time, did you consume marijuana in food or drinks <b>every day</b>?
+[D_259481608?,displayif=equals(D_830608495,713594719)] During the time you last consumed marijuana in food or drinks, did you consume them <b>every day</b>?
 (104430631) No -> D_786517174
 (353358909) Yes ->  D_276575533
 
@@ -1518,7 +1524,7 @@ On days that you consume|displayif=valueIsOneOf("D_921663542",484055234,80219717
 #Servings per day |__|__|__|id=D_810608313 min=1 max=999|
 [178420302*] Don’t know
 
-[D_891996278?,displayif=and(doesNotEqual(or(or(equals(D_742544044,804785430),and(or(or(equals(D_742544044,716761013),equals(D_742544044,299561721)),equals(D_742544044,419415087)),and(equals(D_921663542,484055234),equals(D_259481608,353358909)))),and(or(or(equals(D_742544044,716761013),equals(D_742544044,299561721)),equals(D_742544044,419415087)),and(equals(D_921663542,802197176),equals(D_259481608,353358909)))),1),equals(D_830608495,713594719))] Did you ever consume marijuana in food or drinks every day?
+[D_891996278?,displayif=and(doesNotEqual(or(or(equals(D_742544044,804785430),and(or(or(equals(D_742544044,716761013),equals(D_742544044,299561721)),equals(D_742544044,419415087)),and(equals(D_921663542,484055234),equals(D_259481608,353358909)))),and(or(or(equals(D_742544044,716761013),equals(D_742544044,299561721)),equals(D_742544044,419415087)),and(equals(D_921663542,802197176),equals(D_259481608,353358909)))),1),equals(D_830608495,713594719))] Now thinking about your entire life, did you ever consume marijuana in food or drinks every day?
 (104430631) No -> D_810324917
 (353358909) Yes -> D_238953261
 < #NR -> D_810324917>
@@ -1645,7 +1651,7 @@ Age started using THC concentrates via dabbing on a regular basis |__|__|id=D_18
 
 Age when last used THC concentrates via dabbing |__|__|min=isDefined(isDefined(D_185168695,D_766791333),0) max=sum(isDefined(D_150344905,age),1)|
 
-[D_536166591?,displayif=equals(D_830608495,675129470)] During that time, did you use THC concentrates via dabbing <b>every day</b>?
+[D_536166591?,displayif=equals(D_830608495,675129470)] During the time you last used THC concentrates via dabbing, did you use them <b>every day</b>?
 (104430631) No -> D_119257304
 (353358909) Yes -> D_933417196
 
@@ -1659,7 +1665,7 @@ On days that you |displayif=doesNotExist("D_532755074") or valueEquals("D_532755
 #Servings per day |__|__|__|id=D_810608313 min=1 max=999|
 [178420302*] Don’t know
 
-[D_937550939?,displayif=and(doesNotEqual(or(or(equals(D_420155119,804785430),and(or(or(equals(D_420155119,716761013),equals(D_420155119,299561721)),equals(D_420155119,419415087)),and(equals(D_532755074,484055234),equals(D_536166591,353358909)))),and(or(or(equals(D_420155119,716761013),equals(D_420155119,299561721)),equals(D_420155119,419415087)),and(equals(D_532755074,802197176),equals(D_536166591,353358909)))),1),equals(D_830608495,675129470))] Did you ever use THC concentrates via dabbing <b>every day</b>?
+[D_937550939?,displayif=and(doesNotEqual(or(or(equals(D_420155119,804785430),and(or(or(equals(D_420155119,716761013),equals(D_420155119,299561721)),equals(D_420155119,419415087)),and(equals(D_532755074,484055234),equals(D_536166591,353358909)))),and(or(or(equals(D_420155119,716761013),equals(D_420155119,299561721)),equals(D_420155119,419415087)),and(equals(D_532755074,802197176),equals(D_536166591,353358909)))),1),equals(D_830608495,675129470))] Now thinking about your entire life, did you ever use THC concentrates via dabbing <b>every day</b>?
 (104430631) No -> D_265469878
 (353358909) Yes -> D_258703325
 < #NR -> D_265469878>
