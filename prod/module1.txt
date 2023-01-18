@@ -1,22 +1,28 @@
-// This file was transformed using the mapping data in Quest-2022-09-29-17-16-07_Transformation.json.
+// This file was transformed using the mapping data in Quest-2022-12-21-17-52-53_Transformation.json.
+
+// JSON ERROR --> Concept ID collision for ID: 886084185 | there are collisions between Quest ID(s): [SRVPES_BASELINE2_V1R0] and Concept(s): [Please choose the reason that best describes why you have not completed all the sections in the first survey:]
+// JSON ERROR --> Concept ID collision for ID: 943119849 | there are collisions between Quest ID(s): [SRVPES_BIOSURV4_V1R0] and Concept(s): [Please choose the reason that fits best to describe why you have not completed the sample survey:]
+
+// JSON ERROR --> SRVPES_BASELINE2_V1R0 option BASELINE2 conceptId 886084185 already maps to Quest code: SRVPES_BASELINE2_V1R0 | conceptId collision
+// JSON ERROR --> SRVPES_BIOSURV4_V1R0 option BIOSURV4 conceptId 943119849 already maps to Quest code: SRVPES_BIOSURV4_V1R0 | conceptId collision
 
 // JSON WARNING --> Concept ID 101310722 with concept "# Pills per day" is shared between these Textbox codes: [ACIDSUP3_1A, ACIDSUP3_2A, ACIDSUP3_3A, CHOLHTN3_1A, CHOLHTN3_2A, INSULIN3_1A, METFOR3_1A, PAINREL3_1A, PAINREL3_2A, PAINREL3_3A, PAINREL3_4A, PAINREL3_5A, PAINREL3_6A, PAINREL3_7A]
-// JSON WARNING --> Concept ID 206625031 with concept "Age at diagnosis" is shared between these Textbox codes: [ANEMIA_AGE, APPEND_AGE, ARRHYT_AGE, ASTHMA_AGE, BARESO_AGE, BARSUR_AGE, BLOODCLOT_AGE, BREASTDIS_AGE, CCD_AGE, CD_AGE, CHESTPAIN_AGE, CHF_AGE, CHILDCANC3A_AGE, CHILDCANC3B_AGE, CHILDCANC3C_AGE, CHILDCANC3D_AGE, CHILDCANC3E_AGE, CHILDCANC3F_AGE, CHILDCANC3G_AGE, CHILDCANC3H_AGE, CHILDCANC3I_AGE, CHILDCANC3J_AGE, CHILDCANC3K_AGE, CHILDCANC3L_AGE, CHILDCANC3M_AGE, CHILDCANC3N_AGE, CHILDCANC3O_AGE, CHILDCANC3P_AGE, CHILDCANC3Q_AGE, CHILDCANC3R_AGE, CHILDCANC3S_AGE, CHILDCANC3T_AGE, CHILDCANC3U_AGE, CHILDCANC3V_AGE, CHILDCANC3W_AGE, CHILDCANC3X_AGE, CHILDCANC3Y_AGE, CHLA_AGE, CHOL_AGE, CKD_AGE, COPD_AGE, CVD_AGE, DADCANC3A_AGE, DADCANC3B_AGE, DADCANC3C_AGE, DADCANC3D_AGE, DADCANC3E_AGE, DADCANC3F_AGE, DADCANC3G_AGE, DADCANC3H_AGE, DADCANC3I_AGE, DADCANC3J_AGE, DADCANC3K_AGE, DADCANC3L_AGE, DADCANC3M_AGE, DADCANC3N_AGE, DADCANC3O_AGE, DADCANC3P_AGE, DADCANC3Q_AGE, DADCANC3R_AGE, DADCANC3S_AGE, DADCANC3T_AGE, DADCANC3U_AGE, DADCANC3V_AGE, DCIS_AGE, DEPRESS2_AGE, DIVERT_AGE, DM2_AGE, ENDO_AGE, ENLGPROS_AGE, FTREM2_AGE, GALLREM_AGE, GALL_AGE, GENWARTS_AGE, GERD_AGE, GONORR_AGE, GOUT_AGE, GRAVES_AGE, HAYFEVER_AGE, HBVHCV_AGE, HEARTATT_AGE, HEARTVALV_AGE, HIVAIDS_AGE, HPV_AGE, HTN_AGE, HYSTER_AGE, IBD_AGE, IBS_AGE, KIDNEY_AGE, LIPOSUCT_AGE, LIVCIRR_AGE, LUPUS_AGE, MOMCANC3A_AGE, MOMCANC3B_AGE, MOMCANC3C_AGE, MOMCANC3D_AGE, MOMCANC3E_AGE, MOMCANC3F_AGE, MOMCANC3G_AGE, MOMCANC3H_AGE, MOMCANC3I_AGE, MOMCANC3J_AGE, MOMCANC3K_AGE, MOMCANC3L_AGE, MOMCANC3M_AGE, MOMCANC3N_AGE, MOMCANC3O_AGE, MOMCANC3P_AGE, MOMCANC3Q_AGE, MOMCANC3R_AGE, MOMCANC3S_AGE, MOMCANC3T_AGE, MOMCANC3U_AGE, MOMCANC3V_AGE, MOMCANC3W_AGE, MONO_AGE, OVARYREM2_AGE, PANCREA_AGE, PCOS_AGE, PENREM_AGE, PROSREM2_AGE, RA_AGE, SHINGLES_AGE, SIBCANC3A_AGE, SIBCANC3B_AGE, SIBCANC3C_AGE, SIBCANC3D_AGE, SIBCANC3E_AGE, SIBCANC3F_AGE, SIBCANC3G_AGE, SIBCANC3H_AGE, SIBCANC3I_AGE, SIBCANC3J_AGE, SIBCANC3K_AGE, SIBCANC3L_AGE, SIBCANC3M_AGE, SIBCANC3N_AGE, SIBCANC3O_AGE, SIBCANC3P_AGE, SIBCANC3Q_AGE, SIBCANC3R_AGE, SIBCANC3S_AGE, SIBCANC3T_AGE, SIBCANC3U_AGE, SIBCANC3V_AGE, SIBCANC3W_AGE, SIBCANC3X_AGE, SIBCANC3Y_AGE, SKINCANC3_AGE, STROKE_AGE, SYPH_AGE, TESTREM2_AGE, THYROID_AGE, TONSILS_AGE, TRICH_AGE, TUBLIG_AGE, UC_AGE, UF_AGE, VASEC_AGE]
-// JSON WARNING --> Concept ID 261863326 with concept "Year at diagnosis" is shared between these Textbox codes: [ANEMIA_YEAR, APPEND_YEAR, ARRHYT_YEAR, ASTHMA_YEAR, BARESO_YEAR, BARSUR_YEAR, BLOODCLOT_YEAR, BREASTDIS_YEAR, CCD_YEAR, CD_YEAR, CHESTPAIN_YEAR, CHF_YEAR, CHILDCANC3A_YEAR, CHILDCANC3B_YEAR, CHILDCANC3C_YEAR, CHILDCANC3D_YEAR, CHILDCANC3E_YEAR, CHILDCANC3F_YEAR, CHILDCANC3G_YEAR, CHILDCANC3H_YEAR, CHILDCANC3I_YEAR, CHILDCANC3J_YEAR, CHILDCANC3K_YEAR, CHILDCANC3L_YEAR, CHILDCANC3M_YEAR, CHILDCANC3N_YEAR, CHILDCANC3O_YEAR, CHILDCANC3P_YEAR, CHILDCANC3Q_YEAR, CHILDCANC3R_YEAR, CHILDCANC3S_YEAR, CHILDCANC3T_YEAR, CHILDCANC3U_YEAR, CHILDCANC3V_YEAR, CHILDCANC3W_YEAR, CHILDCANC3X_YEAR, CHILDCANC3Y_YEAR, CHLA_YEAR, CHOL_YEAR, CKD_YEAR, COPD_YEAR, CVD_YEAR, DADCANC3A_YEAR, DADCANC3B_YEAR, DADCANC3C_YEAR, DADCANC3D_YEAR, DADCANC3E_YEAR, DADCANC3F_YEAR, DADCANC3G_YEAR, DADCANC3H_YEAR, DADCANC3I_YEAR, DADCANC3J_YEAR, DADCANC3K_YEAR, DADCANC3L_YEAR, DADCANC3M_YEAR, DADCANC3N_YEAR, DADCANC3O_YEAR, DADCANC3P_YEAR, DADCANC3Q_YEAR, DADCANC3R_YEAR, DADCANC3S_YEAR, DADCANC3T_YEAR, DADCANC3U_YEAR, DADCANC3V_YEAR, DCIS_YEAR, DEPRESS2_YEAR, DIVERT_YEAR, DM2_YEAR, ENDO_YEAR, ENLGPROS_YEAR, FTREM2_YEAR, GALLREM_YEAR, GALL_YEAR, GENWARTS_YEAR, GERD_YEAR, GONORR_YEAR, GOUT_YEAR, GRAVES_YEAR, HAYFEVER_YEAR, HBVHCV_YEAR, HEARTATT_YEAR, HEARTVALV_YEAR, HIVAIDS_YEAR, HPV_YEAR, HTN_YEAR, HYSTER_YEAR, IBD_YEAR, IBS_YEAR, KIDNEY_YEAR, LIPOSUCT_YEAR, LIVCIRR_YEAR, LUPUS_YEAR, MOMCANC3A_YEAR, MOMCANC3B_YEAR, MOMCANC3C_YEAR, MOMCANC3D_YEAR, MOMCANC3E_YEAR, MOMCANC3F_YEAR, MOMCANC3G_YEAR, MOMCANC3H_YEAR, MOMCANC3I_YEAR, MOMCANC3J_YEAR, MOMCANC3K_YEAR, MOMCANC3L_YEAR, MOMCANC3M_YEAR, MOMCANC3N_YEAR, MOMCANC3O_YEAR, MOMCANC3P_YEAR, MOMCANC3Q_YEAR, MOMCANC3R_YEAR, MOMCANC3S_YEAR, MOMCANC3T_YEAR, MOMCANC3U_YEAR, MOMCANC3V_YEAR, MOMCANC3W_YEAR, MONO_YEAR, OVARYREM2_YEAR, PANCREA_YEAR, PCOS_YEAR, PENREM_YEAR, PROSREM2_YEAR, RA_YEAR, SHINGLES_YEAR, SIBCANC3A_YEAR, SIBCANC3B_YEAR, SIBCANC3C_YEAR, SIBCANC3D_YEAR, SIBCANC3E_YEAR, SIBCANC3F_YEAR, SIBCANC3G_YEAR, SIBCANC3H_YEAR, SIBCANC3I_YEAR, SIBCANC3J_YEAR, SIBCANC3K_YEAR, SIBCANC3L_YEAR, SIBCANC3M_YEAR, SIBCANC3N_YEAR, SIBCANC3O_YEAR, SIBCANC3P_YEAR, SIBCANC3Q_YEAR, SIBCANC3R_YEAR, SIBCANC3S_YEAR, SIBCANC3T_YEAR, SIBCANC3U_YEAR, SIBCANC3V_YEAR, SIBCANC3W_YEAR, SIBCANC3X_YEAR, SIBCANC3Y_YEAR, SKINCANC3_YEAR, STROKE_YEAR, SYPH_YEAR, TESTREM2_YEAR, THYROID_YEAR, TONSILS_YEAR, TRICH_YEAR, TUBLIG_YEAR, UC_YEAR, UF_YEAR, VASEC_YEAR]
+// JSON WARNING --> Concept ID 206625031 with concept "Age at diagnosis" is shared between these Textbox codes: [ANEMIA_AGE, ARRHYT_AGE, ASTHMA_AGE, BARESO_AGE, BLOODCLOT_AGE, BREASTDIS_AGE, CCD_AGE, CD_AGE, CHESTPAIN_AGE, CHF_AGE, CHILDCANC3A_AGE, CHILDCANC3B_AGE, CHILDCANC3C_AGE, CHILDCANC3D_AGE, CHILDCANC3E_AGE, CHILDCANC3F_AGE, CHILDCANC3G_AGE, CHILDCANC3H_AGE, CHILDCANC3I_AGE, CHILDCANC3J_AGE, CHILDCANC3K_AGE, CHILDCANC3L_AGE, CHILDCANC3M_AGE, CHILDCANC3N_AGE, CHILDCANC3O_AGE, CHILDCANC3P_AGE, CHILDCANC3Q_AGE, CHILDCANC3R_AGE, CHILDCANC3S_AGE, CHILDCANC3T_AGE, CHILDCANC3U_AGE, CHILDCANC3V_AGE, CHILDCANC3W_AGE, CHILDCANC3X_AGE, CHILDCANC3Y_AGE, CHLA_AGE, CHOL_AGE, CKD_AGE, COPD_AGE, CVD_AGE, DADCANC3A_AGE, DADCANC3B_AGE, DADCANC3C_AGE, DADCANC3D_AGE, DADCANC3E_AGE, DADCANC3F_AGE, DADCANC3G_AGE, DADCANC3H_AGE, DADCANC3I_AGE, DADCANC3J_AGE, DADCANC3K_AGE, DADCANC3L_AGE, DADCANC3M_AGE, DADCANC3N_AGE, DADCANC3O_AGE, DADCANC3P_AGE, DADCANC3Q_AGE, DADCANC3R_AGE, DADCANC3S_AGE, DADCANC3T_AGE, DADCANC3U_AGE, DADCANC3V_AGE, DCIS_AGE, DEPRESS2_AGE, DIVERT_AGE, DM2_AGE, ENDO_AGE, ENLGPROS_AGE, GALL_AGE, GENWARTS_AGE, GERD_AGE, GONORR_AGE, GOUT_AGE, GRAVES_AGE, HAYFEVER_AGE, HBVHCV_AGE, HEARTATT_AGE, HEARTVALV_AGE, HIVAIDS_AGE, HPV_AGE, HTN_AGE, IBD_AGE, IBS_AGE, KIDNEY_AGE, LIVCIRR_AGE, LUPUS_AGE, MOMCANC3A_AGE, MOMCANC3B_AGE, MOMCANC3C_AGE, MOMCANC3D_AGE, MOMCANC3E_AGE, MOMCANC3F_AGE, MOMCANC3G_AGE, MOMCANC3H_AGE, MOMCANC3I_AGE, MOMCANC3J_AGE, MOMCANC3K_AGE, MOMCANC3L_AGE, MOMCANC3M_AGE, MOMCANC3N_AGE, MOMCANC3O_AGE, MOMCANC3P_AGE, MOMCANC3Q_AGE, MOMCANC3R_AGE, MOMCANC3S_AGE, MOMCANC3T_AGE, MOMCANC3U_AGE, MOMCANC3V_AGE, MOMCANC3W_AGE, MONO_AGE, PANCREA_AGE, PCOS_AGE, RA_AGE, SHINGLES_AGE, SIBCANC3A_AGE, SIBCANC3B_AGE, SIBCANC3C_AGE, SIBCANC3D_AGE, SIBCANC3E_AGE, SIBCANC3F_AGE, SIBCANC3G_AGE, SIBCANC3H_AGE, SIBCANC3I_AGE, SIBCANC3J_AGE, SIBCANC3K_AGE, SIBCANC3L_AGE, SIBCANC3M_AGE, SIBCANC3N_AGE, SIBCANC3O_AGE, SIBCANC3P_AGE, SIBCANC3Q_AGE, SIBCANC3R_AGE, SIBCANC3S_AGE, SIBCANC3T_AGE, SIBCANC3U_AGE, SIBCANC3V_AGE, SIBCANC3W_AGE, SIBCANC3X_AGE, SIBCANC3Y_AGE, SKINCANC3_AGE, STROKE_AGE, SYPH_AGE, THYROID_AGE, TRICH_AGE, UC_AGE, UF_AGE]
+// JSON WARNING --> Concept ID 261863326 with concept "Year at diagnosis" is shared between these Textbox codes: [ANEMIA_YEAR, ARRHYT_YEAR, ASTHMA_YEAR, BARESO_YEAR, BLOODCLOT_YEAR, BREASTDIS_YEAR, CCD_YEAR, CD_YEAR, CHESTPAIN_YEAR, CHF_YEAR, CHILDCANC3A_YEAR, CHILDCANC3B_YEAR, CHILDCANC3C_YEAR, CHILDCANC3D_YEAR, CHILDCANC3E_YEAR, CHILDCANC3F_YEAR, CHILDCANC3G_YEAR, CHILDCANC3H_YEAR, CHILDCANC3I_YEAR, CHILDCANC3J_YEAR, CHILDCANC3K_YEAR, CHILDCANC3L_YEAR, CHILDCANC3M_YEAR, CHILDCANC3N_YEAR, CHILDCANC3O_YEAR, CHILDCANC3P_YEAR, CHILDCANC3Q_YEAR, CHILDCANC3R_YEAR, CHILDCANC3S_YEAR, CHILDCANC3T_YEAR, CHILDCANC3U_YEAR, CHILDCANC3V_YEAR, CHILDCANC3W_YEAR, CHILDCANC3X_YEAR, CHILDCANC3Y_YEAR, CHLA_YEAR, CHOL_YEAR, CKD_YEAR, COPD_YEAR, CVD_YEAR, DADCANC3A_YEAR, DADCANC3B_YEAR, DADCANC3C_YEAR, DADCANC3D_YEAR, DADCANC3E_YEAR, DADCANC3F_YEAR, DADCANC3G_YEAR, DADCANC3H_YEAR, DADCANC3I_YEAR, DADCANC3J_YEAR, DADCANC3K_YEAR, DADCANC3L_YEAR, DADCANC3M_YEAR, DADCANC3N_YEAR, DADCANC3O_YEAR, DADCANC3P_YEAR, DADCANC3Q_YEAR, DADCANC3R_YEAR, DADCANC3S_YEAR, DADCANC3T_YEAR, DADCANC3U_YEAR, DADCANC3V_YEAR, DCIS_YEAR, DEPRESS2_YEAR, DIVERT_YEAR, DM2_YEAR, ENDO_YEAR, ENLGPROS_YEAR, GALL_YEAR, GENWARTS_YEAR, GERD_YEAR, GONORR_YEAR, GOUT_YEAR, GRAVES_YEAR, HAYFEVER_YEAR, HBVHCV_YEAR, HEARTATT_YEAR, HEARTVALV_YEAR, HIVAIDS_YEAR, HPV_YEAR, HTN_YEAR, IBD_YEAR, IBS_YEAR, KIDNEY_YEAR, LIVCIRR_YEAR, LUPUS_YEAR, MOMCANC3A_YEAR, MOMCANC3B_YEAR, MOMCANC3C_YEAR, MOMCANC3D_YEAR, MOMCANC3E_YEAR, MOMCANC3F_YEAR, MOMCANC3G_YEAR, MOMCANC3H_YEAR, MOMCANC3I_YEAR, MOMCANC3J_YEAR, MOMCANC3K_YEAR, MOMCANC3L_YEAR, MOMCANC3M_YEAR, MOMCANC3N_YEAR, MOMCANC3O_YEAR, MOMCANC3P_YEAR, MOMCANC3Q_YEAR, MOMCANC3R_YEAR, MOMCANC3S_YEAR, MOMCANC3T_YEAR, MOMCANC3U_YEAR, MOMCANC3V_YEAR, MOMCANC3W_YEAR, MONO_YEAR, PANCREA_YEAR, PCOS_YEAR, RA_YEAR, SHINGLES_YEAR, SIBCANC3A_YEAR, SIBCANC3B_YEAR, SIBCANC3C_YEAR, SIBCANC3D_YEAR, SIBCANC3E_YEAR, SIBCANC3F_YEAR, SIBCANC3G_YEAR, SIBCANC3H_YEAR, SIBCANC3I_YEAR, SIBCANC3J_YEAR, SIBCANC3K_YEAR, SIBCANC3L_YEAR, SIBCANC3M_YEAR, SIBCANC3N_YEAR, SIBCANC3O_YEAR, SIBCANC3P_YEAR, SIBCANC3Q_YEAR, SIBCANC3R_YEAR, SIBCANC3S_YEAR, SIBCANC3T_YEAR, SIBCANC3U_YEAR, SIBCANC3V_YEAR, SIBCANC3W_YEAR, SIBCANC3X_YEAR, SIBCANC3Y_YEAR, SKINCANC3_YEAR, STROKE_YEAR, SYPH_YEAR, THYROID_YEAR, TRICH_YEAR, UC_YEAR, UF_YEAR]
 // JSON WARNING --> Concept ID 314198277 with concept "Last spent time at this address, year" is shared between these Textbox codes: [SEASADDYRS2_10_YEAR, SEASADDYRS2_1_YEAR, SEASADDYRS2_2_YEAR, SEASADDYRS2_3_YEAR, SEASADDYRS2_4_YEAR, SEASADDYRS2_5_YEAR, SEASADDYRS2_6_YEAR, SEASADDYRS2_7_YEAR, SEASADDYRS2_8_YEAR, SEASADDYRS2_9_YEAR]
 // JSON WARNING --> Concept ID 434243220 with concept "Months used" is shared between these Textbox codes: [ANYCOMESTMONTH, COMBINEDMONTH, COPIUDMONTH, DEPROPROVMONTH, ESTOTHERMONTH, ESTSKINMONTH, HORCOMPILLMONTH, HORIUDMONTH, HORMEDOTHERMONTH, HORMEDPATCHMONTH, HORMEDRINGMONTH, MINIPILLMONTH, NORPLANTMONTH, ORALESTMONTH, ORALMEDMONTH, PATCHESTMONTH, PRESHOR2MONTH, PROESTMONTH, RINGMONTH, TWOPILLMONTH]
 // JSON WARNING --> Concept ID 451310566 with concept "Months at address" is shared between these Textbox codes: [MONTHADD1, MONTHADD10, MONTHADD2, MONTHADD3, MONTHADD4, MONTHADD5, MONTHADD6, MONTHADD7, MONTHADD8, MONTHADD9]
-// JSON WARNING --> Concept ID 623218391 with concept "Age at surgery" is shared between these Textbox codes: [BREASTABSS_AGE, BREASTDBLREM_AGE, BREASTIMPLANTS_AGE, BREASTLACTREM_AGE, BREASTLIFT_AGE, BREASTOTH_AGE, BREASTPARTREM_AGE, BREASTRECON_AGE, BREASTREDN_AGE, BREASTREM_AGE]
+// JSON WARNING --> Concept ID 623218391 with concept "Age at surgery" is shared between these Textbox codes: [APPEND_AGE, BARSUR_AGE, BREASTABSS_AGE, BREASTDBLREM_AGE, BREASTIMPLANTS_AGE, BREASTLACTREM_AGE, BREASTLIFT_AGE, BREASTOTH_AGE, BREASTPARTREM_AGE, BREASTRECON_AGE, BREASTREDN_AGE, BREASTREM_AGE, FTREM2_AGE, GALLREM_AGE, HYSTER_AGE, LIPOSUCT_AGE, OVARYREM2_AGE, PENREM_AGE, PROSREM2_AGE, TESTREM2_AGE, TONSILS_AGE, TUBLIG_AGE, VASEC_AGE]
 // JSON WARNING --> Concept ID 707805344 with concept "# of Hours" is shared between these Textbox codes: [FALLASLEEPHOURS, LAYINBEDHRS, NONWORKAWAKEBEFOREUPHOURS, NONWORKFALLASLEEPHOURS, OUTSIDEHOURS, WORKDAYOUTSIDEHOURS]
 // JSON WARNING --> Concept ID 765748316 with concept "Days per week" is shared between these Textbox codes: [ACETWEEK, ACIDSUP2_1WK, ACIDSUP2_2WK, ACIDSUP2_3WK, BABYASPRINWEEK, CELECOXIBWEEK, CHOLHTN2_1WK, CHOLHTN2_2WK, IBUPROFENWEEK, INSULIN2_1WK, METFOR2_1WK, NAPROXENWEEK, PAINRELWEEK, REGASPRINWEEK]
 // JSON WARNING --> Concept ID 785412329 with concept "Days per month" is shared between these Textbox codes: [ACETMONTH, ACIDSUP2_1MO, ACIDSUP2_2MO, ACIDSUP2_3MO, BABYASPRINMONTH, CELECOXIBMONTH, CHOLHTN2_1MO, CHOLHTN2_2MO, IBUPROFENMONTH, INSULIN2_1MO, METFOR2_1MO, NAPROXENMONTH, PAINRELMONTH, REGASPRINMONTH]
-// JSON WARNING --> Concept ID 802622485 with concept "Year at surgery" is shared between these Textbox codes: [BREASTABSS_YEAR, BREASTDBLREM_YEAR, BREASTIMPLANTS_YEAR, BREASTLACTREM_YEAR, BREASTLIFT_YEAR, BREASTOTH_YEAR, BREASTPARTREM_YEAR, BREASTRECON_YEAR, BREASTREDN_YEAR, BREASTREM_YEAR]
+// JSON WARNING --> Concept ID 802622485 with concept "Year at surgery" is shared between these Textbox codes: [APPEND_YEAR, BARSUR_YEAR, BREASTABSS_YEAR, BREASTDBLREM_YEAR, BREASTIMPLANTS_YEAR, BREASTLACTREM_YEAR, BREASTLIFT_YEAR, BREASTOTH_YEAR, BREASTPARTREM_YEAR, BREASTRECON_YEAR, BREASTREDN_YEAR, BREASTREM_YEAR, FTREM2_YEAR, GALLREM_YEAR, HYSTER_YEAR, LIPOSUCT_YEAR, OVARYREM2_YEAR, PENREM_YEAR, PROSREM2_YEAR, TESTREM2_YEAR, TONSILS_YEAR, TUBLIG_YEAR, VASEC_YEAR]
 // JSON WARNING --> Concept ID 810608313 with concept "# Servings per day" is shared between these Textbox codes: [EAMAR9ANUM, EAMAR9CNUM, THMAR9ANUM, THMAR9CNUM]
 // JSON WARNING --> Concept ID 850393641 with concept "# of Minutes" is shared between these Textbox codes: [FALLASLEEPMIN, LAYINBEDMIN, NONWORKAWAKEBEFOREUPMIN, NONWORKFALLASLEEPMIN, OUTSIDEMIN, WORKDAYOUTSIDEMIN]
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Tue Sep 27 13:10:26 2022 -0400 (short timestamp = 2022-09-27-17-10-26)
+//This file was last modified on Thu Dec 8 08:02:48 2022 -0500 (short timestamp = 2022-12-08-13-02-48)
 {"name":"D_726699695_V2"} [INTROM1] Welcome, {$u:firstName}! This survey is split into sections. Each section has questions that ask you about a wide range of topics. Our goal is to collect information about your medical history, family, work, and health behaviors. You can answer all of the questions in each survey section at one time, or answer some questions, pause, and return to answer the rest later. If you pause, your answers will be saved and you can pick up where you left off. You can also skip any questions that you do not want to answer.
 For some questions, you may see a word or phrase that appears as a button. Clicking the button will show more information that might help you answer the question. Here is an |popup|example.|example|This is an example of how additional information will be displayed.|
 Let’s get started.
@@ -194,11 +200,12 @@ What was your biological sex assigned at birth?
 [108025529] Fallopian Tubes
 
 [D_289664241?] Do you think of yourself as:
-(654207589) Male
-(536341288) Female
-(405267600) Transgender Male/Trans Man/Female-to-Male (FTM)
-(873138103) Transgender Female/Trans Woman/Male-to-Female (MTF)
-(805712793) Genderqueer, not exclusively male or female
+(218837028) Woman
+(983318667) Man
+(405267600) Transgender Man
+(873138103) Transgender Woman
+(805712793) Genderqueer
+(486192236) Non-binary
 (807835037) Additional gender category: Please describe |__|id=D_918409306|
 (746038746) Prefer not to answer
 
@@ -552,9 +559,9 @@ Or, if it is easier to remember the year, enter that here:<br/>
 |__|__|__|__|xor=GOUT id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Year of diagnosis
 < #NR -> INTROSTD >
 
-[INTROSTD]<b>Sexually Transmitted Diseases and Infections</b>
+[INTROSTD]<b>Infections</b>
 
-The following questions ask about conditions that may affect your reproductive system. Some questions ask about sexually transmitted diseases (STDs), which are infections that are spread by sexual contact. Please remember that we protect your privacy. We remove information that can identify you from your survey answers before we share them with researchers.
+The following questions ask about infections. Some questions ask about sexually transmitted diseases (STDs), which are infections that are spread by sexual contact. Please remember that we protect your privacy. We remove information that can identify you from your survey answers before we share them with researchers.
 
 [D_874709643?] Has a doctor or other health professional ever told you that you have or had any of these conditions? Select all that apply.
 [164910211] Infectious Mononucleosis (“Mono” or “Kissing Disease”) -> D_915230886
@@ -752,38 +759,38 @@ The next questions ask about certain surgical procedures you may have had.
 < -> D_453252072 >
 
 [D_367884741?,displayif=equals(D_624179836,797189152)] How old were you when you had your <b>tonsils removed (tonsillectomy)</b>?<br/>
-|__|__|xor=TONSILS id=D_206625031 min=0 max=isDefined(D_150344905,age)| Age at surgery
+|__|__|xor=TONSILS id=D_623218391 min=0 max=isDefined(D_150344905,age)| Age at surgery
 
 Or, if it is easier to remember the year, enter that here:<br/>
-|__|__|__|__|xor=TONSILS id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Year of surgery
+|__|__|__|__|xor=TONSILS id=D_802622485 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Year of surgery
 < #NR -> D_178353079 >
 
 [D_178353079?,displayif=equals(D_624179836,633546100)] How old were you when you had your <b>gallbladder removed (cholecystectomy)</b>?<br/>
-|__|__|xor=GALLREM id=D_206625031 min=0 max=isDefined(D_150344905,age)| Age at surgery
+|__|__|xor=GALLREM id=D_623218391 min=0 max=isDefined(D_150344905,age)| Age at surgery
 
 Or, if it is easier to remember the year, enter that here:<br/>
-|__|__|__|__|xor=GALLREM id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Year of surgery
+|__|__|__|__|xor=GALLREM id=D_802622485 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Year of surgery
 < #NR -> D_550075233 >
 
 [D_550075233?,displayif=equals(D_624179836,866002271)] How old were you when you had your <b>appendix removed (appendectomy)</b>?<br/>
-|__|__|xor=APPEND id=D_206625031 min=0 max=isDefined(D_150344905,age)| Age at surgery
+|__|__|xor=APPEND id=D_623218391 min=0 max=isDefined(D_150344905,age)| Age at surgery
 
 Or, if it is easier to remember the year, enter that here:<br/>
-|__|__|__|__|xor=APPEND id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Year of surgery
+|__|__|__|__|xor=APPEND id=D_802622485 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Year of surgery
 < #NR -> D_860920332 >
 
 [D_860920332?,displayif=equals(D_624179836,118789503)] How old were you when you <b>first</b> had <b>liposuction</b>?<br/>
-|__|__|xor=LIPOSUCT id=D_206625031 min=0 max=isDefined(D_150344905,age)| Age at surgery
+|__|__|xor=LIPOSUCT id=D_623218391 min=0 max=isDefined(D_150344905,age)| Age at surgery
 
 Or, if it is easier to remember the year, enter that here:<br/>
-|__|__|__|__|xor=LIPOSUCT id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Year of surgery
+|__|__|__|__|xor=LIPOSUCT id=D_802622485 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Year of surgery
 < #NR -> D_986613440 >
 
 [D_986613440?,displayif=equals(D_624179836,715563991)] How old were you when you had your <b>bariatric surgery (lap band, gastric bypass)</b>?<br/>
-|__|__|xor=BARSUR id=D_206625031 min=0 max=isDefined(D_150344905,age)| Age at surgery
+|__|__|xor=BARSUR id=D_623218391 min=0 max=isDefined(D_150344905,age)| Age at surgery
 
 Or, if it is easier to remember the year, enter that here:<br/>
-|__|__|__|__|xor=BARSUR id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Year of surgery
+|__|__|__|__|xor=BARSUR id=D_802622485 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Year of surgery
 < #NR -> D_517307064 >
 
 [D_517307064?,displayif=equals(D_624179836,533491176)] Which of these <b>breast surgeries</b> have you had? Please do not include a biopsy. Select all that apply.
@@ -864,17 +871,17 @@ Or, if it is easier to remember the year, enter that here:<br/>
 
 
 [D_150352141?,displayif=equals(D_624179836,220755749)] How old were you when you had your <b>uterus removed (hysterectomy)</b>?<br/>
-|__|__|xor=HYSTER id=D_206625031 min=0 max=isDefined(D_150344905,age)| Age at surgery
+|__|__|xor=HYSTER id=D_623218391 min=0 max=isDefined(D_150344905,age)| Age at surgery
 
 Or, if it is easier to remember the year, enter that here:<br/>
-|__|__|__|__|xor=HYSTER id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Year of surgery
+|__|__|__|__|xor=HYSTER id=D_802622485 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Year of surgery
 
 
 [D_122887481?,displayif=equals(D_624179836,465318416)] How old were you when you had your <b>tubes tied (tubal ligation)</b>?<br/>
-|__|__|xor=TUBLIG id=D_206625031 min=0 max=isDefined(D_150344905,age)| Age at surgery
+|__|__|xor=TUBLIG id=D_623218391 min=0 max=isDefined(D_150344905,age)| Age at surgery
 
 Or, if it is easier to remember the year, enter that here:<br/>
-|__|__|__|__|xor=TUBLIG id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Year of surgery
+|__|__|__|__|xor=TUBLIG id=D_802622485 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Year of surgery
 < #NR -> D_378892977 >
 
 [D_378892977?,displayif=equals(D_624179836,630100221)] Which of these best describes the type of <b>ovary removal surgery</b> that you had?
@@ -884,10 +891,10 @@ Or, if it is easier to remember the year, enter that here:<br/>
 
 
 [D_534007917?,displayif=and(equals(D_624179836,630100221),or(equals(D_378892977,109972911),equals(D_378892977,333647143)))] How old were you when you had one or both ovaries removed (oophorectomy)? If you have had more than one procedure, at what age did you <b>last</b> have this procedure?<br/>
-|__|__|xor=OVARYREM2 id=D_206625031 min=0 max=isDefined(D_150344905,age)| Age at surgery
+|__|__|xor=OVARYREM2 id=D_623218391 min=0 max=isDefined(D_150344905,age)| Age at surgery
 
 Or, if it is easier to remember the year, enter that here:<br/>
-|__|__|__|__|xor=OVARYREM2 id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Year of surgery
+|__|__|__|__|xor=OVARYREM2 id=D_802622485 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Year of surgery
 
 
 [D_224791140?,displayif=and(equals(D_624179836,692881833)] Which of these best describes the type of <b>fallopian tube removal surgery</b> that you had?
@@ -897,17 +904,17 @@ Or, if it is easier to remember the year, enter that here:<br/>
 
 
 [D_752636038?,displayif=and(equals(D_624179836,692881833),or(equals(D_224791140,537173119),equals(D_224791140,448068764)))] How old were you when you had one or both fallopian tubes removed (salpingectomy)? If you have had more than one procedure, at what age did you <b>last</b> have this procedure?<br/>
-|__|__|xor=FTREM2 id=D_206625031 min=0 max=isDefined(D_150344905,age)| Age at surgery
+|__|__|xor=FTREM2 id=D_623218391 min=0 max=isDefined(D_150344905,age)| Age at surgery
 
 Or, if it is easier to remember the year, enter that here:<br/>
-|__|__|__|__|xor=FTREM2 id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Year of surgery
+|__|__|__|__|xor=FTREM2 id=D_802622485 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Year of surgery
 
 
 [D_518750011?,displayif=equals(D_624179836,654450030)] How old were you when you had a <b>vasectomy</b>?<br/>
-|__|__|xor=VASEC id=D_206625031 min=0 max=isDefined(D_150344905,age)| Age at surgery
+|__|__|xor=VASEC id=D_623218391 min=0 max=isDefined(D_150344905,age)| Age at surgery
 
 Or, if it is easier to remember the year, enter that here:<br/>
-|__|__|__|__|xor=VASEC id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Year of surgery
+|__|__|__|__|xor=VASEC id=D_802622485 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Year of surgery
 < #NR -> D_946504570 >
 
 [D_946504570?,displayif=equals(D_624179836,532603425)] Which of these best describes the type of <b>testicle removal surgery</b> that you had?
@@ -917,10 +924,10 @@ Or, if it is easier to remember the year, enter that here:<br/>
 
 
 [D_275770221?,displayif=and(equals(D_624179836,532603425),or(equals(D_946504570,970716952),equals(D_946504570,770550588)))] How old were you when you had one or both testicles removed (orchiectomy or orchidectomy)? If you have had more than one procedure, at what age did you <b>last</b> have this procedure?<br/>
-|__|__|xor=TESTREM2 id=D_206625031 min=0 max=isDefined(D_150344905,age)| Age at surgery
+|__|__|xor=TESTREM2 id=D_623218391 min=0 max=isDefined(D_150344905,age)| Age at surgery
 
 Or, if it is easier to remember the year, enter that here:<br/>
-|__|__|__|__|xor=TESTREM2 id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Year of surgery
+|__|__|__|__|xor=TESTREM2 id=D_802622485 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Year of surgery
 < #NR -> D_107060069 >
 
 [D_107060069?,displayif=equals(D_624179836,733236542)] Which of these best describes the type of <b>prostate removal surgery</b> that you had?
@@ -930,17 +937,17 @@ Or, if it is easier to remember the year, enter that here:<br/>
 
 
 [D_882152987?,displayif=and(equals(D_624179836,733236542),or(equals(D_107060069,500023550),equals(D_107060069,524029283)))] How old were you when you had part or all of your prostate removed (prostatectomy)? If you have had more than one procedure, at what age did you <b>last</b> have this procedure?<br/>
-|__|__|xor=PROSREM2 id=D_206625031 min=0 max=isDefined(D_150344905,age)| Age at surgery
+|__|__|xor=PROSREM2 id=D_623218391 min=0 max=isDefined(D_150344905,age)| Age at surgery
 
 Or, if it is easier to remember the year, enter that here:<br/>
-|__|__|__|__|xor=PROSREM2 id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Year of surgery
+|__|__|__|__|xor=PROSREM2 id=D_802622485 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Year of surgery
 
 
 [D_527057404?,displayif=equals(D_624179836,961987554)] How old were you when you had your <b>penis removed (penectomy)</b>?<br/>
-|__|__|xor=PENREM id=D_206625031 min=0 max=isDefined(D_150344905,age)| Age at surgery
+|__|__|xor=PENREM id=D_623218391 min=0 max=isDefined(D_150344905,age)| Age at surgery
 
 Or, if it is easier to remember the year, enter that here:<br/>
-|__|__|__|__|xor=PENREM id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Year of surgery
+|__|__|__|__|xor=PENREM id=D_802622485 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Year of surgery
 
 [D_453252072?] <b>Blood Transfusion</b>
 Have you ever had a <b>blood transfusion</b>?
@@ -1125,7 +1132,7 @@ Over the <b>past three months</b>, have you felt any physical pain on most days?
 [601057066] Around the hips or thighs
 < #NR -> D_365851428 >
 
-[D_365851428?,displayif=and(equals(D_289664241,536341288),equals(D_407056417,536341288))]<b>Hair pattern</b>
+[D_365851428?,displayif=and(equals(D_289664241,218837028),equals(D_407056417,536341288))]<b>Hair pattern</b>
 
 Which one of these figures most closely resembles your hair pattern at <b>age 40</b>?
 |image|episphere.github.io/quest/images/FemaleBaldness1.png|140,140|
@@ -1155,7 +1162,7 @@ Which one of these figures most closely resembles your hair pattern at <b>age 40
 |image|episphere.github.io/quest/images/FemaleBaldness9.png|140,140|
 (452963767) Figure 9 – Moderate hair loss on the sides of the head at the forehead and moderate-to-severe hair loss on the top of the head.< -> D_206319592 >
 
-[D_206319592?,displayif=and(equals(D_289664241,654207589),equals(D_407056417,654207589))] <b>Hair pattern</b>
+[D_206319592?,displayif=and(equals(D_289664241,983318667),equals(D_407056417,654207589))] <b>Hair pattern</b>
 Which one of these figures most closely resembles your hair pattern at <b>age 40</b>?
 |image|episphere.github.io/quest/images/MaleBaldness1.png|200,340|
 (927925620) Figure 1 – Full head of hair with no hair loss.
@@ -1934,6 +1941,7 @@ If this is <b>not</b> correct, please select the “Back” button to update you
 (709650750) Your biological child
 (810290359) Adopted
 (509607548) A step child
+(784922042) Related to me in some other way
 
 [D_418392907?] Is |displayif=equals(isNotDefined(D_714001034,false),false)|{$D_714001034}||displayif=doesNotEqual(isNotDefined(D_714001034,false),false)|your child| still living?
 (353358909) Yes -> D_640010727
