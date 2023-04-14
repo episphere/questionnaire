@@ -173,11 +173,10 @@ Year |__|__|__|__|id=D_366972678 required=true min=2020 max=#currentYear|
 [283776061] Conjunctivitis (pink eye)
 [807835037] Other |__|id=D_218852075|
 
-[D_928530823?,displayif=greaterThanOrEqual(D_860011428,#loop)] During the {##} time you had COVID-19, did you have septic shock (a condition with symptoms like difficulty breathing, chills, peeing less, and confusion) as a complication of COVID-19?
+[D_928530823?,displayif=greaterThanOrEqual(D_860011428,#loop)] During the {##} time you had COVID-19, did you have septic shock (NEW DEF TEST) as a complication of COVID-19?
 
 (353358909) Yes
 (104430631) No
-(178420302) Unsure
 
 [D_108733102?,displayif=greaterThanOrEqual(D_860011428,#loop)] During the {##} time you had COVID-19, were you diagnosed with pneumonia (a lung or respiratory infection) as a complication of COVID-19?
 
