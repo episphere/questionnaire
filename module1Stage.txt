@@ -1,10 +1,4 @@
-// This file was transformed using the mapping data in Quest-2022-12-21-17-52-53_Transformation.json.
-
-// JSON ERROR --> Concept ID collision for ID: 886084185 | there are collisions between Quest ID(s): [SRVPES_BASELINE2_V1R0] and Concept(s): [Please choose the reason that best describes why you have not completed all the sections in the first survey:]
-// JSON ERROR --> Concept ID collision for ID: 943119849 | there are collisions between Quest ID(s): [SRVPES_BIOSURV4_V1R0] and Concept(s): [Please choose the reason that fits best to describe why you have not completed the sample survey:]
-
-// JSON ERROR --> SRVPES_BASELINE2_V1R0 option BASELINE2 conceptId 886084185 already maps to Quest code: SRVPES_BASELINE2_V1R0 | conceptId collision
-// JSON ERROR --> SRVPES_BIOSURV4_V1R0 option BIOSURV4 conceptId 943119849 already maps to Quest code: SRVPES_BIOSURV4_V1R0 | conceptId collision
+// This file was transformed using the mapping data in Quest-2023-05-15-13-40-00_Transformation.json.
 
 // JSON WARNING --> Concept ID 101310722 with concept "# Pills per day" is shared between these Textbox codes: [ACIDSUP3_1A, ACIDSUP3_2A, ACIDSUP3_3A, CHOLHTN3_1A, CHOLHTN3_2A, INSULIN3_1A, METFOR3_1A, PAINREL3_1A, PAINREL3_2A, PAINREL3_3A, PAINREL3_4A, PAINREL3_5A, PAINREL3_6A, PAINREL3_7A]
 // JSON WARNING --> Concept ID 206625031 with concept "Age at diagnosis" is shared between these Textbox codes: [ANEMIA_AGE, ARRHYT_AGE, ASTHMA_AGE, BARESO_AGE, BLOODCLOT_AGE, BREASTDIS_AGE, CCD_AGE, CD_AGE, CHESTPAIN_AGE, CHF_AGE, CHILDCANC3A_AGE, CHILDCANC3B_AGE, CHILDCANC3C_AGE, CHILDCANC3D_AGE, CHILDCANC3E_AGE, CHILDCANC3F_AGE, CHILDCANC3G_AGE, CHILDCANC3H_AGE, CHILDCANC3I_AGE, CHILDCANC3J_AGE, CHILDCANC3K_AGE, CHILDCANC3L_AGE, CHILDCANC3M_AGE, CHILDCANC3N_AGE, CHILDCANC3O_AGE, CHILDCANC3P_AGE, CHILDCANC3Q_AGE, CHILDCANC3R_AGE, CHILDCANC3S_AGE, CHILDCANC3T_AGE, CHILDCANC3U_AGE, CHILDCANC3V_AGE, CHILDCANC3W_AGE, CHILDCANC3X_AGE, CHILDCANC3Y_AGE, CHLA_AGE, CHOL_AGE, CKD_AGE, COPD_AGE, CVD_AGE, DADCANC3A_AGE, DADCANC3B_AGE, DADCANC3C_AGE, DADCANC3D_AGE, DADCANC3E_AGE, DADCANC3F_AGE, DADCANC3G_AGE, DADCANC3H_AGE, DADCANC3I_AGE, DADCANC3J_AGE, DADCANC3K_AGE, DADCANC3L_AGE, DADCANC3M_AGE, DADCANC3N_AGE, DADCANC3O_AGE, DADCANC3P_AGE, DADCANC3Q_AGE, DADCANC3R_AGE, DADCANC3S_AGE, DADCANC3T_AGE, DADCANC3U_AGE, DADCANC3V_AGE, DCIS_AGE, DEPRESS2_AGE, DIVERT_AGE, DM2_AGE, ENDO_AGE, ENLGPROS_AGE, GALL_AGE, GENWARTS_AGE, GERD_AGE, GONORR_AGE, GOUT_AGE, GRAVES_AGE, HAYFEVER_AGE, HBVHCV_AGE, HEARTATT_AGE, HEARTVALV_AGE, HIVAIDS_AGE, HPV_AGE, HTN_AGE, IBD_AGE, IBS_AGE, KIDNEY_AGE, LIVCIRR_AGE, LUPUS_AGE, MOMCANC3A_AGE, MOMCANC3B_AGE, MOMCANC3C_AGE, MOMCANC3D_AGE, MOMCANC3E_AGE, MOMCANC3F_AGE, MOMCANC3G_AGE, MOMCANC3H_AGE, MOMCANC3I_AGE, MOMCANC3J_AGE, MOMCANC3K_AGE, MOMCANC3L_AGE, MOMCANC3M_AGE, MOMCANC3N_AGE, MOMCANC3O_AGE, MOMCANC3P_AGE, MOMCANC3Q_AGE, MOMCANC3R_AGE, MOMCANC3S_AGE, MOMCANC3T_AGE, MOMCANC3U_AGE, MOMCANC3V_AGE, MOMCANC3W_AGE, MONO_AGE, PANCREA_AGE, PCOS_AGE, RA_AGE, SHINGLES_AGE, SIBCANC3A_AGE, SIBCANC3B_AGE, SIBCANC3C_AGE, SIBCANC3D_AGE, SIBCANC3E_AGE, SIBCANC3F_AGE, SIBCANC3G_AGE, SIBCANC3H_AGE, SIBCANC3I_AGE, SIBCANC3J_AGE, SIBCANC3K_AGE, SIBCANC3L_AGE, SIBCANC3M_AGE, SIBCANC3N_AGE, SIBCANC3O_AGE, SIBCANC3P_AGE, SIBCANC3Q_AGE, SIBCANC3R_AGE, SIBCANC3S_AGE, SIBCANC3T_AGE, SIBCANC3U_AGE, SIBCANC3V_AGE, SIBCANC3W_AGE, SIBCANC3X_AGE, SIBCANC3Y_AGE, SKINCANC3_AGE, STROKE_AGE, SYPH_AGE, THYROID_AGE, TRICH_AGE, UC_AGE, UF_AGE]
@@ -22,7 +16,7 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Thu Dec 8 08:02:48 2022 -0500 (short timestamp = 2022-12-08-13-02-48)
+//This file was last modified on Fri Apr 21 14:56:20 2023 -0400 (short timestamp = 2023-04-21-18-56-20)
 //{"version":"2.4"}
 {"name":"D_726699695_V2"} 
 
@@ -2220,17 +2214,18 @@ The following questions ask for more background information about you, including
 
 [D_700374192?] What type of business was this? (Select all that apply.)
 [641572847] Manufacturing
-[592592455] A retail store
-[711138281] Wholesale or distributor
-[596792238] A service provider
-[133362151] Construction
-[372993567] Mining
-[620577362] Farming
-[580409149] Fishing
-[867237640] Forestry
+[592592455] Retail or wholesale sales 
+[149230791] Transportation, warehousing, and utilities (e.g., water, sanitation, electric)
+[439857718] Professional and business services (e.g., real estate, technical and scientific services, finance, insurance)
+[133362151] Construction or equipment repair
+[372993567] Mining, quarrying, and oil and gas extraction
+[927863729] Farming, fishing, or forestry 
+[709307391] Accommodation and food services (e.g., hotels and restaurants)
+[766533183] Healthcare or social assistance
 [698814077] Government
-[751475124] Military
-[308286913] A shipyard
+[942545134] Military, police, firefighting, security services 
+[924908599] Education
+[868510850] Arts, entertainment, and recreation
 [807835037] Some other type of business |__|id=D_923333992|
 [178420302*] Don’t Know
 < -> D_868232409 >
@@ -2265,17 +2260,18 @@ The following questions ask for more background information about you, including
 
 [D_530742915?] What type of business was this? (Select all that apply.)
 [641572847] Manufacturing
-[592592455] A retail store
-[711138281] Wholesale or distributor
-[596792238] A service provider
-[133362151] Construction
-[372993567] Mining
-[620577362] Farming
-[580409149] Fishing
-[867237640] Forestry
+[592592455] Retail or wholesale sales 
+[149230791] Transportation, warehousing, and utilities (e.g., water, sanitation, electric)
+[439857718] Professional and business services (e.g., real estate, technical and scientific services, finance, insurance)
+[133362151] Construction or equipment repair
+[372993567] Mining, quarrying, and oil and gas extraction
+[927863729] Farming, fishing, or forestry 
+[709307391] Accommodation and food services (e.g., hotels and restaurants)
+[766533183] Healthcare or social assistance
 [698814077] Government
-[751475124] Military
-[308286913] A shipyard
+[942545134] Military, police, firefighting, security services 
+[924908599] Education
+[868510850] Arts, entertainment, and recreation
 [807835037] Some other type of business |__|id=D_739237614|
 [178420302*] Don’t Know
 < -> D_233198706 >
@@ -2287,7 +2283,7 @@ The following questions ask for more background information about you, including
 [D_686172464?] How many years did you work in that job?
 |__|__|min=0 max=isDefined(D_150344905,age)| #Years
 
-[D_759004335?] Which of these options best describes your household’s total combined family income for the <b>past 12 months</b>? This should include money earned from all places: job wages, rent from properties, investment income, social security, disability and/or veteran’s benefits, unemployment benefits, workman’s compensation, child support payments, alimony, and so on. Answer with the amount before taxes.
+[D_759004335?] Which of these options best describes your household’s total combined family income for the <b>past 12 months</b>? This should include money earned from all places: job wages, rent from properties, investment income, social security, disability and/or veteran’s benefits, unemployment benefits, worker’s compensation, child support payments, alimony, and so on. Answer with the amount before taxes.
 (374508062) Less than $10,000/year
 (976555124) $10,000–$24,999/year
 (745561936) $25,000–$34,999/year
