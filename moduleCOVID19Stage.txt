@@ -42,7 +42,7 @@ The COVID-19 pandemic has been going on since 2020 in the United States. We have
 |__|__| min=1| Times
 
 <loop max=25>
-[D_980800222!,displayif=greaterThanOrEqual(D_860011428,#loop)] When was the <b>{##}</b> time that you had COVID-19? If you are not sure, please make your best guess.
+[D_980800222_V2!,displayif=greaterThanOrEqual(D_860011428,#loop)] When was the <b>{##}</b> time that you had COVID-19? If you are not sure, please make your best guess.
 
 |month|id=D_686508359 min=valueOrDefault("D_686508359#prev","2020-03") max=#currentYear-#currentMonth|
 
@@ -342,25 +342,25 @@ Thank you for your responses. Please click "Next" to move to the next section.
 
 [SRVCOV_COV25INTRO_V1R0] The following section asks about COVID-19 vaccination and boosters. If you have been vaccinated for COVID-19, it may be helpful to have your COVID-19 vaccine card with you while you complete this section of the survey.
 
-[D_890156588?] Did you get vaccinated against COVID-19?
+[D_890156588_V2?] Did you get vaccinated against COVID-19?
 (353358909) Yes
 (104430631) No -> END
 (178420302) Don't know -> END
 < #NR -> END >
 
-[D_877074400?] How many shots of the COVID-19 vaccine did you get? Please include your initial vaccination and any booster shots.
+[D_877074400_V2?] How many shots of the COVID-19 vaccine did you get? Please include your initial vaccination and any booster shots.
 
 |__|__| min=1 max=10| Shot(s)
 // Numeric drop down list is not currently supported
 
 <loop max=25>
 
-[D_715581797?,displayif=greaterThanOrEqual(D_877074400,#loop)] When did you get vaccinated with your {##} shot? 
+[D_715581797?,displayif=greaterThanOrEqual(D_877074400_V2,#loop)] When did you get vaccinated with your {##} shot? 
 
 |month|id=D_141616126 min=valueOrDefault("D_141616126#prev","2020-03") max=#currentYear-#currentMonth|
 
 
-[D_220055064?,displayif=greaterThanOrEqual(D_877074400,#loop)] Which COVID-19 vaccine shot did you get?
+[D_220055064?,displayif=greaterThanOrEqual(D_877074400_V2,#loop)] Which COVID-19 vaccine shot did you get?
 
 (661871565) Moderna
 (657978450) Pfizer
@@ -370,7 +370,7 @@ Thank you for your responses. Please click "Next" to move to the next section.
 (807835037) Other |__|id=D_395747093|
 (178420302) Don't know
 
-[SRVCOV_COV29_V1R0,displayif=greaterThanOrEqual(D_877074400,#loop)] Here's a summary of the information you shared about your COVID-19 vaccinations. If any of the information is incorrect, please select the "Back" button to update your responses. If all the information is correct, please select the "Next" button to move forward.
+[SRVCOV_COV29_V1R0,displayif=greaterThanOrEqual(D_877074400_V2,#loop)] Here's a summary of the information you shared about your COVID-19 vaccinations. If any of the information is incorrect, please select the "Back" button to update your responses. If all the information is correct, please select the "Next" button to move forward.
 
 Vaccination number: #loop
 Vaccination date: {$D_141616126}
