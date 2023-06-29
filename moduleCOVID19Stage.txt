@@ -29,7 +29,7 @@
 
 [SRVCOV_COVIDINTRO_V1R0] <b>COVID-19</b>
 
-The COVID-19 pandemic has been going on since 2020 in the United States. We have some questions about whether you had COVID-19 and any symptoms, your experience during the pandemic, and if you have been vaccinated. If you have been vaccinated for COVID-19, it may be helpful to have your COVID-19 vaccine card with you while you complete this section of the survey.
+We have some questions about whether you had COVID-19 and any symptoms, your experience during the pandemic, and if you have been vaccinated. If you have been vaccinated for COVID-19, it may be helpful to have your COVID-19 vaccine card with you while you complete this section of the survey.
 
 [D_494226443?] Have you ever had COVID-19?
 (353358909) Yes
@@ -173,7 +173,7 @@ Positive Test: |displayif=equals(D_366980310,353358909)| Yes||displayif=equals(D
 
 Symptoms present:|displayif=equals(D_694503437,353358909)| Yes||displayif=equals(D_694503437,104430631)| No| <br/>
 
-|displayif=doesNotEqual(D_694503437,104430631)|Symptoms: ||displayList(valueIsOneOf("D_705336878",406943303),"Fever",valueIsOneOf("D_705336878",760243464),"Body chills (feeling cold, shivering)",valueIsOneOf("D_705336878",423283665),"Body or muscle aches",valueIsOneOf("D_705336878",160627865),"Weakness or fatigue (tiredness)",valueIsOneOf("D_705336878",960642359),"Confusion",valueIsOneOf("D_705336878",579409935),"Trouble sleeping",valueIsOneOf("D_705336878",653630699),"New loss of taste or smell",valueIsOneOf("D_705336878",367747257),"Stuffy nose (nasal congestion)",valueIsOneOf("D_705336878",162167690),"Sore throat",valueIsOneOf("D_705336878",756774083),"Cough",valueIsOneOf("D_705336878",679368947),"Shortness of breath (trouble breathing)",valueIsOneOf("D_705336878",896163801),"Chest tightness",valueIsOneOf("D_705336878",178318661),"Stomach pain",valueIsOneOf("D_705336878",684149600),"Diarrhea or watery stool (poop)",valueIsOneOf("D_705336878",524258008),"Nausea (being sick to your stomach)",valueIsOneOf("D_705336878",810340693),"Vomiting (throwing up)",valueIsOneOf("D_705336878",657566099),"Rashes or other skin changes",valueIsOneOf("D_705336878",283776061),"Conjunctivitis (pink eye)",valueIsOneOf("D_705336878",807835037),"Other",sep="; ")|<br/>
+|displayif=doesNotEqual(D_694503437,104430631)|Symptoms: ||displayList(valueIsOneOf("D_705336878",406943303),"Fever",valueIsOneOf("D_705336878",760243464),"Body chills (feeling cold, shivering)",valueIsOneOf("D_705336878",423283665),"Body or muscle aches",valueIsOneOf("D_705336878",160627865),"Weakness or fatigue (tiredness)",valueIsOneOf("D_705336878",960642359),"Confusion",valueIsOneOf("D_705336878",579409935),"Trouble sleeping",valueIsOneOf("D_705336878",653630699),"New loss of taste or smell",valueIsOneOf("D_705336878",367747257),"Stuffy nose (nasal congestion)",valueIsOneOf("D_705336878",162167690),"Sore throat",valueIsOneOf("D_705336878",756774083),"Cough",valueIsOneOf("D_705336878",679368947),"Shortness of breath (trouble breathing)",valueIsOneOf("D_705336878",896163801),"Chest tightness",valueIsOneOf("D_705336878",178318661),"Stomach pain",valueIsOneOf("D_705336878",684149600),"Diarrhea or watery stool (poop)",valueIsOneOf("D_705336878",524258008),"Nausea (being sick to your stomach)",valueIsOneOf("D_705336878",810340693),"Vomiting (throwing up)",valueIsOneOf("D_705336878",657566099),"Rashes or other skin changes",valueIsOneOf("D_705336878",283776061),"Conjunctivitis (pink eye)",(valueIsOneOf("D_705336878",807835037) and doesNotExist("D_218852075")),"Other",exists("D_218852075"),"D_218852075",sep="; ")|<br/>
 
 
 |displayif=doesNotEqual(D_694503437,104430631)|Overnight Hospitalization: ||displayif=equals(D_775313030,353358909)| Yes||displayif=equals(D_775313030,104430631)| No||displayif=equals(D_775313030,178420302)| Unsure|<br/>
@@ -327,7 +327,7 @@ Thank you for your responses. Please click "Next" to move to the next section.
 [D_431203595,displayif=or(equals(D_151327643_0,1),equals(D_151327643_1,1))] Trouble remembering things;
 [D_516899143,displayif=or(equals(D_440872808_0,1),equals(D_440872808_1,1))] Trouble paying attention;
 [D_223008071,displayif=or(equals(D_874223830_0,1),equals(D_874223830_1,1))] Trouble thinking and making decisions;
-[D_599862694,displayif=or(equals(D_847529903_0,1),equals(D_847529903_1,1))] Feeliing lightheaded or dizzy;
+[D_599862694,displayif=or(equals(D_847529903_0,1),equals(D_847529903_1,1))] Feeling lightheaded or dizzy;
 [D_860444009,displayif=or(equals(D_219358831_0,1),equals(D_219358831_1,1))] Periods of racing heart rate;
 [D_246857412,displayif=or(equals(D_636367178_0,1),equals(D_636367178_1,1))] Shortness of breath;
 [D_144819886,displayif=or(equals(D_243443780_0,1),equals(D_243443780_1,1))] Feeling weak, tired and/or sick 24-48 hours after physical activiey or exercise;
@@ -355,7 +355,7 @@ Thank you for your responses. Please click "Next" to move to the next section.
 
 <loop max=25>
 
-[D_715581797?,displayif=greaterThanOrEqual(D_877074400_V2,#loop)] When did you get vaccinated with your {##} shot? 
+[D_715581797_V2?,displayif=greaterThanOrEqual(D_877074400_V2,#loop)] When did you get vaccinated with your {##} shot? 
 
 |month|id=D_141616126 min=valueOrDefault("D_141616126#prev","2020-03") max=#currentYear-#currentMonth|
 
@@ -374,7 +374,7 @@ Thank you for your responses. Please click "Next" to move to the next section.
 
 Vaccination number: #loop
 Vaccination date: {$D_141616126}
-COVID-19 vaccine shot: |displayif=equals(D_220055064,661871565)| Moderna||displayif=equals(D_220055064,657978450)| Pfizer||displayif=equals(D_220055064,411943417)| Johnson & Johnson||displayif=equals(D_220055064,113838601)| AstraZeneca||displayif=equals(D_220055064,807835037)| Other ( {$D_395747093} )||displayif=equals(D_220055064,178420302)| Don't know|
+COVID-19 vaccine shot: |displayif=equals(D_220055064,661871565)| Moderna||displayif=equals(D_220055064,657978450)| Pfizer||displayif=equals(D_220055064,411943417)| Johnson & Johnson||displayif=equals(D_220055064,113838601)| AstraZeneca||displayif=equals(D_220055064,503154121)| Novavax||displayif=equals(D_220055064,807835037)| Other ({$D_395747093})||displayif=equals(D_220055064,178420302)| Don't know|
 
 </loop>
 
