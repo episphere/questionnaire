@@ -330,7 +330,7 @@ Thank you for your responses. Please click "Next" to move to the next section.
 [D_599862694,displayif=or(equals(D_847529903_0,1),equals(D_847529903_1,1))] Feeling lightheaded or dizzy;
 [D_860444009,displayif=or(equals(D_219358831_0,1),equals(D_219358831_1,1))] Periods of racing heart rate;
 [D_246857412,displayif=or(equals(D_636367178_0,1),equals(D_636367178_1,1))] Shortness of breath;
-[D_144819886,displayif=or(equals(D_243443780_0,1),equals(D_243443780_1,1))] Feeling weak, tired and/or sick 24-48 hours after physical activiey or exercise;
+[D_144819886,displayif=or(equals(D_243443780_0,1),equals(D_243443780_1,1))] Feeling weak, tired and/or sick 24-48 hours after physical activity or exercise;
 [D_304155106,displayif=or(equals(D_357462273_0,1),equals(D_357462273_1,1))] Trouble sleeping;
 [D_830581863,displayif=or(equals(D_638380747_0,1),equals(D_638380747_1,1))] Changes in your mood and emotions (such as feeling sad, anxious, or annoyed more than usual);
 [D_463689026,displayif=or(equals(D_187399900_0,1),equals(D_187399900_1,1))] Muscle aches;]
