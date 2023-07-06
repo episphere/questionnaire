@@ -1,271 +1,23 @@
-// This file was transformed using the mapping data in Quest-2023-01-11-21-07-13_Transformation.json.
-
-// JSON ERROR --> Concept ID collision for ID: 847578001 | there are collisions between Quest ID(s): [GRID_SRVBLU_COV19A_V1R0, GRID_SRVBUM_COV19A_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 136730307 | there are collisions between Quest ID(s): [GRID_SRVBLU_COV19B_V1R0, GRID_SRVBUM_COV19B_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 751358419 | there are collisions between Quest ID(s): [GRID_SRVBLU_COV19C_V1R0, GRID_SRVBUM_COV19C_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 114280729 | there are collisions between Quest ID(s): [GRID_SRVBLU_COV20A_V1R0, GRID_SRVBUM_COV20A_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 813989715 | there are collisions between Quest ID(s): [GRID_SRVBLU_COV23A_V1R0, GRID_SRVBUM_COV23A_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 857165713 | there are collisions between Quest ID(s): [GRID_SRVBLU_COV23B_V1R0, GRID_SRVBUM_COV23B_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 749956170 | there are collisions between Quest ID(s): [GRID_SRVBLU_COV24A_V1R0, GRID_SRVBUM_COV24A_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 487532606 | there are collisions between Quest ID(s): [GRID_SRVBLU_MED1_V1R0, GRID_SRVBUM_MED1_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 839329467 | there are collisions between Quest ID(s): [SRVBLU_ACID_V1R0, SRVBUM_ACID_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 563539159 | there are collisions between Quest ID(s): [SRVBLU_BRSTFD3MON_V1R0, SRVBUM_BRSTFD3MON_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 798452445 | there are collisions between Quest ID(s): [SRVBLU_BRSTFD_V1R0, SRVBUM_BRSTFD_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 875535246 | there are collisions between Quest ID(s): [SRVBLU_CONTRACEPT_V1R0, SRVBUM_CONTRACEPT_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 108733102 | there are collisions between Quest ID(s): [SRVBLU_COV10_V1R0, SRVBUM_COV10_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 389465772 | there are collisions between Quest ID(s): [SRVBLU_COV11_V1R0, SRVBUM_COV11_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 775313030 | there are collisions between Quest ID(s): [SRVBLU_COV12_V1R0, SRVBUM_COV12_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 744230001 | there are collisions between Quest ID(s): [SRVBLU_COV13_V1R0, SRVBUM_COV13_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 782396371 | there are collisions between Quest ID(s): [SRVBLU_COV14A_V1R0, SRVBUM_COV14A_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 930944000 | there are collisions between Quest ID(s): [SRVBLU_COV14B_V1R0, SRVBUM_COV14B_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 984121390 | there are collisions between Quest ID(s): [SRVBLU_COV15A_V1R0, SRVBUM_COV15A_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 430166879 | there are collisions between Quest ID(s): [SRVBLU_COV15B_V1R0, SRVBUM_COV15B_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 179406442 | there are collisions between Quest ID(s): [SRVBLU_COV16A_V1R0, SRVBUM_COV16A_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 803339020 | there are collisions between Quest ID(s): [SRVBLU_COV16B_V1R0, SRVBUM_COV16B_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 893966847 | there are collisions between Quest ID(s): [SRVBLU_COV17A_V1R0, SRVBUM_COV17A_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 169509213 | there are collisions between Quest ID(s): [SRVBLU_COV17B_V1R0, SRVBUM_COV17B_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 488415137 | there are collisions between Quest ID(s): [SRVBLU_COV19A1_V1R0, SRVBUM_COV19A1_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 167695804 | there are collisions between Quest ID(s): [SRVBLU_COV19A2_V1R0, SRVBUM_COV19A2_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 730334054 | there are collisions between Quest ID(s): [SRVBLU_COV19A3_V1R0, SRVBUM_COV19A3_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 215996690 | there are collisions between Quest ID(s): [SRVBLU_COV19A4_V1R0, SRVBUM_COV19A4_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 462737492 | there are collisions between Quest ID(s): [SRVBLU_COV19A5_V1R0, SRVBUM_COV19A5_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 469675296 | there are collisions between Quest ID(s): [SRVBLU_COV19A6_V1R0, SRVBUM_COV19A6_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 962475128 | there are collisions between Quest ID(s): [SRVBLU_COV19B1_V1R0, SRVBUM_COV19B1_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 989576239 | there are collisions between Quest ID(s): [SRVBLU_COV19B2_V1R0, SRVBUM_COV19B2_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 338613869 | there are collisions between Quest ID(s): [SRVBLU_COV19B3_V1R0, SRVBUM_COV19B3_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 126794793 | there are collisions between Quest ID(s): [SRVBLU_COV19B4_V1R0, SRVBUM_COV19B4_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 218793117 | there are collisions between Quest ID(s): [SRVBLU_COV19B5_V1R0, SRVBUM_COV19B5_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 524096053 | there are collisions between Quest ID(s): [SRVBLU_COV19C1_V1R0, SRVBUM_COV19C1_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 814101706 | there are collisions between Quest ID(s): [SRVBLU_COV19C2_V1R0, SRVBUM_COV19C2_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 635026188 | there are collisions between Quest ID(s): [SRVBLU_COV19C3_V1R0, SRVBUM_COV19C3_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 238135048 | there are collisions between Quest ID(s): [SRVBLU_COV19C4_V1R0, SRVBUM_COV19C4_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 632714520 | there are collisions between Quest ID(s): [SRVBLU_COV19C5_V1R0, SRVBUM_COV19C5_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 110872086 | there are collisions between Quest ID(s): [SRVBLU_COV19C6A_V1R0, SRVBUM_COV19C6A_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 591826144 | there are collisions between Quest ID(s): [SRVBLU_COV19C6B_V1R0, SRVBUM_COV19C6B_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 494226443 | there are collisions between Quest ID(s): [SRVBLU_COV1_V1R0, SRVBUM_COV1_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 994153376 | there are collisions between Quest ID(s): [SRVBLU_COV20A10_V1R0, SRVBUM_COV20A10_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 481587023 | there are collisions between Quest ID(s): [SRVBLU_COV20A11_V1R0, SRVBUM_COV20A11_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 590361055 | there are collisions between Quest ID(s): [SRVBLU_COV20A12_V1R0, SRVBUM_COV20A12_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 108389123 | there are collisions between Quest ID(s): [SRVBLU_COV20A13_V1R0, SRVBUM_COV20A13_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 747085418 | there are collisions between Quest ID(s): [SRVBLU_COV20A14_V1R0, SRVBUM_COV20A14_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 702905707 | there are collisions between Quest ID(s): [SRVBLU_COV20A15_V1R0, SRVBUM_COV20A15_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 986119909 | there are collisions between Quest ID(s): [SRVBLU_COV20A16_V1R0, SRVBUM_COV20A16_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 934384452 | there are collisions between Quest ID(s): [SRVBLU_COV20A17_V1R0, SRVBUM_COV20A17_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 374567479 | there are collisions between Quest ID(s): [SRVBLU_COV20A1_V1R0, SRVBUM_COV20A1_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 966214244 | there are collisions between Quest ID(s): [SRVBLU_COV20A2_V1R0, SRVBUM_COV20A2_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 109223043 | there are collisions between Quest ID(s): [SRVBLU_COV20A3_V1R0, SRVBUM_COV20A3_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 368669706 | there are collisions between Quest ID(s): [SRVBLU_COV20A4_V1R0, SRVBUM_COV20A4_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 605818246 | there are collisions between Quest ID(s): [SRVBLU_COV20A5_V1R0, SRVBUM_COV20A5_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 790860504 | there are collisions between Quest ID(s): [SRVBLU_COV20A6_V1R0, SRVBUM_COV20A6_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 336856410 | there are collisions between Quest ID(s): [SRVBLU_COV20A7_V1R0, SRVBUM_COV20A7_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 518602598 | there are collisions between Quest ID(s): [SRVBLU_COV20A8_V1R0, SRVBUM_COV20A8_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 770190369 | there are collisions between Quest ID(s): [SRVBLU_COV20A9_V1R0, SRVBUM_COV20A9_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 273371161 | there are collisions between Quest ID(s): [SRVBLU_COV21_V1R0, SRVBUM_COV21_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 959877599 | there are collisions between Quest ID(s): [SRVBLU_COV22_V1R0, SRVBUM_COV22_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 874168085 | there are collisions between Quest ID(s): [SRVBLU_COV23A1_V1R0, SRVBUM_COV23A1_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 283112988 | there are collisions between Quest ID(s): [SRVBLU_COV23A2_V1R0, SRVBUM_COV23A2_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 580629349 | there are collisions between Quest ID(s): [SRVBLU_COV23A3_V1R0, SRVBUM_COV23A3_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 151327643 | there are collisions between Quest ID(s): [SRVBLU_COV23A4_V1R0, SRVBUM_COV23A4_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 440872808 | there are collisions between Quest ID(s): [SRVBLU_COV23A5_V1R0, SRVBUM_COV23A5_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 874223830 | there are collisions between Quest ID(s): [SRVBLU_COV23A6_V1R0, SRVBUM_COV23A6_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 847529903 | there are collisions between Quest ID(s): [SRVBLU_COV23B1_V1R0, SRVBUM_COV23B1_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 219358831 | there are collisions between Quest ID(s): [SRVBLU_COV23B2_V1R0, SRVBUM_COV23B2_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 636367178 | there are collisions between Quest ID(s): [SRVBLU_COV23B3_V1R0, SRVBUM_COV23B3_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 243443780 | there are collisions between Quest ID(s): [SRVBLU_COV23B4_V1R0, SRVBUM_COV23B4_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 357462273 | there are collisions between Quest ID(s): [SRVBLU_COV23B5_V1R0, SRVBUM_COV23B5_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 638380747 | there are collisions between Quest ID(s): [SRVBLU_COV23B6_V1R0, SRVBUM_COV23B6_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 187399900 | there are collisions between Quest ID(s): [SRVBLU_COV23B7_V1R0, SRVBUM_COV23B7_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 424718457 | there are collisions between Quest ID(s): [SRVBLU_COV23B8A_V1R0, SRVBUM_COV23B8A_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 368715875 | there are collisions between Quest ID(s): [SRVBLU_COV23B8B_V1R0, SRVBUM_COV23B8B_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 144819886 | there are collisions between Quest ID(s): [SRVBLU_COV24A10_V1R0, SRVBUM_COV24A10_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 304155106 | there are collisions between Quest ID(s): [SRVBLU_COV24A11_V1R0, SRVBUM_COV24A11_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 830581863 | there are collisions between Quest ID(s): [SRVBLU_COV24A12_V1R0, SRVBUM_COV24A12_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 463689026 | there are collisions between Quest ID(s): [SRVBLU_COV24A13_V1R0, SRVBUM_COV24A13_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 589004291 | there are collisions between Quest ID(s): [SRVBLU_COV24A14_V1R0, SRVBUM_COV24A14_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 527872064 | there are collisions between Quest ID(s): [SRVBLU_COV24A1_V1R0, SRVBUM_COV24A1_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 691752394 | there are collisions between Quest ID(s): [SRVBLU_COV24A2_V1R0, SRVBUM_COV24A2_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 143206081 | there are collisions between Quest ID(s): [SRVBLU_COV24A3_V1R0, SRVBUM_COV24A3_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 431203595 | there are collisions between Quest ID(s): [SRVBLU_COV24A4_V1R0, SRVBUM_COV24A4_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 516899143 | there are collisions between Quest ID(s): [SRVBLU_COV24A5_V1R0, SRVBUM_COV24A5_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 223008071 | there are collisions between Quest ID(s): [SRVBLU_COV24A6_V1R0, SRVBUM_COV24A6_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 599862694 | there are collisions between Quest ID(s): [SRVBLU_COV24A7_V1R0, SRVBUM_COV24A7_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 860444009 | there are collisions between Quest ID(s): [SRVBLU_COV24A8_V1R0, SRVBUM_COV24A8_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 246857412 | there are collisions between Quest ID(s): [SRVBLU_COV24A9_V1R0, SRVBUM_COV24A9_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 890156588 | there are collisions between Quest ID(s): [SRVBLU_COV25_V1R0, SRVBUM_COV25_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 877074400 | there are collisions between Quest ID(s): [SRVBLU_COV26_V1R0, SRVBUM_COV26_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 715581797 | there are collisions between Quest ID(s): [SRVBLU_COV27_V1R0, SRVBUM_COV27_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 220055064 | there are collisions between Quest ID(s): [SRVBLU_COV28_V1R0, SRVBUM_COV28_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 860011428 | there are collisions between Quest ID(s): [SRVBLU_COV2_V1R0, SRVBUM_COV2_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 980800222 | there are collisions between Quest ID(s): [SRVBLU_COV3_V1R0, SRVBUM_COV3_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 366980310 | there are collisions between Quest ID(s): [SRVBLU_COV4_V1R0, SRVBUM_COV4_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 498462481 | there are collisions between Quest ID(s): [SRVBLU_COV5_V1R0, SRVBUM_COV5_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 694503437 | there are collisions between Quest ID(s): [SRVBLU_COV6_V1R0, SRVBUM_COV6_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 451163824 | there are collisions between Quest ID(s): [SRVBLU_COV7_V1R0, SRVBUM_COV7_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 705336878 | there are collisions between Quest ID(s): [SRVBLU_COV8_V1R0, SRVBUM_COV8_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 928530823 | there are collisions between Quest ID(s): [SRVBLU_COV9_V1R0, SRVBUM_COV9_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 867307558 | there are collisions between Quest ID(s): [SRVBLU_EATDRINKBEFORE_V1R0, SRVBUM_EATDRINKBEFORE_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 191057574 | there are collisions between Quest ID(s): [SRVBLU_EATDRINKTIME_V1R0, SRVBUM_EATDRINKTIME_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 130311122 | there are collisions between Quest ID(s): [SRVBLU_HORMONE_V1R0, SRVBUM_HORMONE_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 112151599 | there are collisions between Quest ID(s): [SRVBLU_MENST60_V1R0, SRVBUM_MENST60_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 644459734 | there are collisions between Quest ID(s): [SRVBLU_MENSTART_V1R0, SRVBUM_MENSTART_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 380603392 | there are collisions between Quest ID(s): [SRVBLU_MENSTPRD_V1R0, SRVBUM_MENSTPRD_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 520755310 | there are collisions between Quest ID(s): [SRVBLU_NSAIDS_V1R0, SRVBUM_NSAIDS_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 234714655 | there are collisions between Quest ID(s): [SRVBLU_PREG3MON_V1R0, SRVBUM_PREG3MON_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 518916981 | there are collisions between Quest ID(s): [SRVBLU_PREGNANT_V1R0, SRVBUM_PREGNANT_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 522008539 | there are collisions between Quest ID(s): [SRVBLU_SEX_V1R0, SRVBUM_SEX_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 299417266 | there are collisions between Quest ID(s): [SRVBLU_SLEEPTIME_V1R0, SRVBUM_SLEEPTIME_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 470484596 | there are collisions between Quest ID(s): [SRVBLU_SYMPTDAY_V1R0, SRVBUM_SYMPTDAY_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 619765650 | there are collisions between Quest ID(s): [SRVBLU_TYLENOL_V1R0, SRVBUM_TYLENOL_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 689861450 | there are collisions between Quest ID(s): [SRVBLU_WAKETIME_V1R0, SRVBUM_WAKETIME_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 566579639 | there are collisions between Quest ID(s): [SRVCSS_PROV6A_V1R0, SRVCSS_PROV6B_V1R0, SRVCSS_PROV6C_V1R0]
-
-// JSON ERROR --> GRID_SRVBUM_COV19A_V1R0 conceptId 847578001 already maps to Quest code: GRID_SRVBLU_COV19A_V1R0 | conceptId collision
-// JSON ERROR --> GRID_SRVBUM_COV19B_V1R0 conceptId 136730307 already maps to Quest code: GRID_SRVBLU_COV19B_V1R0 | conceptId collision
-// JSON ERROR --> GRID_SRVBUM_COV19C_V1R0 conceptId 751358419 already maps to Quest code: GRID_SRVBLU_COV19C_V1R0 | conceptId collision
-// JSON ERROR --> GRID_SRVBUM_COV20A_V1R0 conceptId 114280729 already maps to Quest code: GRID_SRVBLU_COV20A_V1R0 | conceptId collision
-// JSON ERROR --> GRID_SRVBUM_COV23A_V1R0 conceptId 813989715 already maps to Quest code: GRID_SRVBLU_COV23A_V1R0 | conceptId collision
-// JSON ERROR --> GRID_SRVBUM_COV23B_V1R0 conceptId 857165713 already maps to Quest code: GRID_SRVBLU_COV23B_V1R0 | conceptId collision
-// JSON ERROR --> GRID_SRVBUM_COV24A_V1R0 conceptId 749956170 already maps to Quest code: GRID_SRVBLU_COV24A_V1R0 | conceptId collision
-// JSON ERROR --> GRID_SRVBUM_MED1_V1R0 conceptId 487532606 already maps to Quest code: GRID_SRVBLU_MED1_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_ACID_V1R0 conceptId 839329467 already maps to Quest code: SRVBLU_ACID_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_BRSTFD3MON_V1R0 conceptId 563539159 already maps to Quest code: SRVBLU_BRSTFD3MON_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_BRSTFD_V1R0 conceptId 798452445 already maps to Quest code: SRVBLU_BRSTFD_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_CONTRACEPT_V1R0 conceptId 875535246 already maps to Quest code: SRVBLU_CONTRACEPT_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV10_V1R0 conceptId 108733102 already maps to Quest code: SRVBLU_COV10_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV11_V1R0 conceptId 389465772 already maps to Quest code: SRVBLU_COV11_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV12_V1R0 conceptId 775313030 already maps to Quest code: SRVBLU_COV12_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV13_V1R0 conceptId 744230001 already maps to Quest code: SRVBLU_COV13_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV14A_V1R0 conceptId 782396371 already maps to Quest code: SRVBLU_COV14A_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV14B_V1R0 conceptId 930944000 already maps to Quest code: SRVBLU_COV14B_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV15A_V1R0 conceptId 984121390 already maps to Quest code: SRVBLU_COV15A_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV15B_V1R0 conceptId 430166879 already maps to Quest code: SRVBLU_COV15B_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV16A_V1R0 conceptId 179406442 already maps to Quest code: SRVBLU_COV16A_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV16B_V1R0 conceptId 803339020 already maps to Quest code: SRVBLU_COV16B_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV17A_V1R0 conceptId 893966847 already maps to Quest code: SRVBLU_COV17A_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV17B_V1R0 conceptId 169509213 already maps to Quest code: SRVBLU_COV17B_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV19A1_V1R0 conceptId 488415137 already maps to Quest code: SRVBLU_COV19A1_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV19A2_V1R0 conceptId 167695804 already maps to Quest code: SRVBLU_COV19A2_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV19A3_V1R0 conceptId 730334054 already maps to Quest code: SRVBLU_COV19A3_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV19A4_V1R0 conceptId 215996690 already maps to Quest code: SRVBLU_COV19A4_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV19A5_V1R0 conceptId 462737492 already maps to Quest code: SRVBLU_COV19A5_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV19A6_V1R0 conceptId 469675296 already maps to Quest code: SRVBLU_COV19A6_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV19B1_V1R0 conceptId 962475128 already maps to Quest code: SRVBLU_COV19B1_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV19B2_V1R0 conceptId 989576239 already maps to Quest code: SRVBLU_COV19B2_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV19B3_V1R0 conceptId 338613869 already maps to Quest code: SRVBLU_COV19B3_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV19B4_V1R0 conceptId 126794793 already maps to Quest code: SRVBLU_COV19B4_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV19B5_V1R0 conceptId 218793117 already maps to Quest code: SRVBLU_COV19B5_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV19C1_V1R0 conceptId 524096053 already maps to Quest code: SRVBLU_COV19C1_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV19C2_V1R0 conceptId 814101706 already maps to Quest code: SRVBLU_COV19C2_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV19C3_V1R0 conceptId 635026188 already maps to Quest code: SRVBLU_COV19C3_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV19C4_V1R0 conceptId 238135048 already maps to Quest code: SRVBLU_COV19C4_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV19C5_V1R0 conceptId 632714520 already maps to Quest code: SRVBLU_COV19C5_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV19C6A_V1R0 conceptId 110872086 already maps to Quest code: SRVBLU_COV19C6A_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV19C6B_V1R0 conceptId 591826144 already maps to Quest code: SRVBLU_COV19C6B_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV1_V1R0 conceptId 494226443 already maps to Quest code: SRVBLU_COV1_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV20A10_V1R0 conceptId 994153376 already maps to Quest code: SRVBLU_COV20A10_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV20A11_V1R0 conceptId 481587023 already maps to Quest code: SRVBLU_COV20A11_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV20A12_V1R0 conceptId 590361055 already maps to Quest code: SRVBLU_COV20A12_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV20A13_V1R0 conceptId 108389123 already maps to Quest code: SRVBLU_COV20A13_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV20A14_V1R0 conceptId 747085418 already maps to Quest code: SRVBLU_COV20A14_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV20A15_V1R0 conceptId 702905707 already maps to Quest code: SRVBLU_COV20A15_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV20A16_V1R0 conceptId 986119909 already maps to Quest code: SRVBLU_COV20A16_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV20A17_V1R0 conceptId 934384452 already maps to Quest code: SRVBLU_COV20A17_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV20A1_V1R0 conceptId 374567479 already maps to Quest code: SRVBLU_COV20A1_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV20A2_V1R0 conceptId 966214244 already maps to Quest code: SRVBLU_COV20A2_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV20A3_V1R0 conceptId 109223043 already maps to Quest code: SRVBLU_COV20A3_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV20A4_V1R0 conceptId 368669706 already maps to Quest code: SRVBLU_COV20A4_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV20A5_V1R0 conceptId 605818246 already maps to Quest code: SRVBLU_COV20A5_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV20A6_V1R0 conceptId 790860504 already maps to Quest code: SRVBLU_COV20A6_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV20A7_V1R0 conceptId 336856410 already maps to Quest code: SRVBLU_COV20A7_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV20A8_V1R0 conceptId 518602598 already maps to Quest code: SRVBLU_COV20A8_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV20A9_V1R0 conceptId 770190369 already maps to Quest code: SRVBLU_COV20A9_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV21_V1R0 conceptId 273371161 already maps to Quest code: SRVBLU_COV21_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV22_V1R0 conceptId 959877599 already maps to Quest code: SRVBLU_COV22_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV23A1_V1R0 conceptId 874168085 already maps to Quest code: SRVBLU_COV23A1_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV23A2_V1R0 conceptId 283112988 already maps to Quest code: SRVBLU_COV23A2_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV23A3_V1R0 conceptId 580629349 already maps to Quest code: SRVBLU_COV23A3_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV23A4_V1R0 conceptId 151327643 already maps to Quest code: SRVBLU_COV23A4_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV23A5_V1R0 conceptId 440872808 already maps to Quest code: SRVBLU_COV23A5_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV23A6_V1R0 conceptId 874223830 already maps to Quest code: SRVBLU_COV23A6_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV23B1_V1R0 conceptId 847529903 already maps to Quest code: SRVBLU_COV23B1_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV23B2_V1R0 conceptId 219358831 already maps to Quest code: SRVBLU_COV23B2_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV23B3_V1R0 conceptId 636367178 already maps to Quest code: SRVBLU_COV23B3_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV23B4_V1R0 conceptId 243443780 already maps to Quest code: SRVBLU_COV23B4_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV23B5_V1R0 conceptId 357462273 already maps to Quest code: SRVBLU_COV23B5_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV23B6_V1R0 conceptId 638380747 already maps to Quest code: SRVBLU_COV23B6_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV23B7_V1R0 conceptId 187399900 already maps to Quest code: SRVBLU_COV23B7_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV23B8A_V1R0 conceptId 424718457 already maps to Quest code: SRVBLU_COV23B8A_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV23B8B_V1R0 conceptId 368715875 already maps to Quest code: SRVBLU_COV23B8B_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV24A10_V1R0 conceptId 144819886 already maps to Quest code: SRVBLU_COV24A10_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV24A11_V1R0 conceptId 304155106 already maps to Quest code: SRVBLU_COV24A11_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV24A12_V1R0 conceptId 830581863 already maps to Quest code: SRVBLU_COV24A12_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV24A13_V1R0 conceptId 463689026 already maps to Quest code: SRVBLU_COV24A13_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV24A14_V1R0 conceptId 589004291 already maps to Quest code: SRVBLU_COV24A14_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV24A1_V1R0 conceptId 527872064 already maps to Quest code: SRVBLU_COV24A1_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV24A2_V1R0 conceptId 691752394 already maps to Quest code: SRVBLU_COV24A2_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV24A3_V1R0 conceptId 143206081 already maps to Quest code: SRVBLU_COV24A3_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV24A4_V1R0 conceptId 431203595 already maps to Quest code: SRVBLU_COV24A4_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV24A5_V1R0 conceptId 516899143 already maps to Quest code: SRVBLU_COV24A5_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV24A6_V1R0 conceptId 223008071 already maps to Quest code: SRVBLU_COV24A6_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV24A7_V1R0 conceptId 599862694 already maps to Quest code: SRVBLU_COV24A7_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV24A8_V1R0 conceptId 860444009 already maps to Quest code: SRVBLU_COV24A8_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV24A9_V1R0 conceptId 246857412 already maps to Quest code: SRVBLU_COV24A9_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV25_V1R0 conceptId 890156588 already maps to Quest code: SRVBLU_COV25_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV26_V1R0 conceptId 877074400 already maps to Quest code: SRVBLU_COV26_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV27_V1R0 conceptId 715581797 already maps to Quest code: SRVBLU_COV27_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV28_V1R0 conceptId 220055064 already maps to Quest code: SRVBLU_COV28_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV2_V1R0 conceptId 860011428 already maps to Quest code: SRVBLU_COV2_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV3_V1R0 conceptId 980800222 already maps to Quest code: SRVBLU_COV3_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV4_V1R0 conceptId 366980310 already maps to Quest code: SRVBLU_COV4_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV5_V1R0 conceptId 498462481 already maps to Quest code: SRVBLU_COV5_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV6_V1R0 conceptId 694503437 already maps to Quest code: SRVBLU_COV6_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV7_V1R0 conceptId 451163824 already maps to Quest code: SRVBLU_COV7_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_COV8_V1R0 conceptId 705336878 already maps to Quest code: SRVBLU_COV8_V1R0 | conceptId collision
-// JSON ERROR --> SRVBLU_COV8S_OTH_V1R0 | Quest ID collision (code is used multiple times)
-// JSON ERROR --> SRVBUM_COV9_V1R0 conceptId 928530823 already maps to Quest code: SRVBLU_COV9_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_EATDRINKBEFORE_V1R0 conceptId 867307558 already maps to Quest code: SRVBLU_EATDRINKBEFORE_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_EATDRINKTIME_V1R0 conceptId 191057574 already maps to Quest code: SRVBLU_EATDRINKTIME_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_HORMONE_V1R0 conceptId 130311122 already maps to Quest code: SRVBLU_HORMONE_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_MENST60_V1R0 conceptId 112151599 already maps to Quest code: SRVBLU_MENST60_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_MENSTART_V1R0 conceptId 644459734 already maps to Quest code: SRVBLU_MENSTART_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_MENSTPRD_V1R0 conceptId 380603392 already maps to Quest code: SRVBLU_MENSTPRD_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_NSAIDS_V1R0 conceptId 520755310 already maps to Quest code: SRVBLU_NSAIDS_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_PREG3MON_V1R0 conceptId 234714655 already maps to Quest code: SRVBLU_PREG3MON_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_PREGNANT_V1R0 conceptId 518916981 already maps to Quest code: SRVBLU_PREGNANT_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_SEX_V1R0 conceptId 522008539 already maps to Quest code: SRVBLU_SEX_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_SLEEPTIME_V1R0 conceptId 299417266 already maps to Quest code: SRVBLU_SLEEPTIME_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_SYMPTDAY_V1R0 conceptId 470484596 already maps to Quest code: SRVBLU_SYMPTDAY_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_TYLENOL_V1R0 conceptId 619765650 already maps to Quest code: SRVBLU_TYLENOL_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_WAKETIME_V1R0 conceptId 689861450 already maps to Quest code: SRVBLU_WAKETIME_V1R0 | conceptId collision
-// JSON ERROR --> SRVCSS_PROV6B_V1R0 conceptId 566579639 already maps to Quest code: SRVCSS_PROV6A_V1R0 | conceptId collision
-// JSON ERROR --> SRVCSS_PROV6C_V1R0 conceptId 566579639 already maps to Quest code: SRVCSS_PROV6A_V1R0 | conceptId collision
+// This file was transformed using the mapping data in Quest-2023-05-15-13-40-00_Transformation.json.
 
 // JSON WARNING --> Concept ID 101310722 with concept "# Pills per day" is shared between these Textbox codes: [ACIDSUP3_1A, ACIDSUP3_2A, ACIDSUP3_3A, CHOLHTN3_1A, CHOLHTN3_2A, INSULIN3_1A, METFOR3_1A, PAINREL3_1A, PAINREL3_2A, PAINREL3_3A, PAINREL3_4A, PAINREL3_5A, PAINREL3_6A, PAINREL3_7A]
-// JSON WARNING --> Concept ID 141616126 with concept "When were you vaccinated? MY" is shared between these Textbox codes: [SRVBLU_COV27_MY_V1R0, SRVBUM_COV27_MY_V1R0]
-// JSON WARNING --> Concept ID 157417942 with concept "Since the beginning of 2020, have you experienced any other health symptoms? [text box]" is shared between these Textbox codes: [SRVBLU_COV23B8ADESC_V1R0, SRVBUM_COV23B8ADESC_V1R0]
-// JSON WARNING --> Concept ID 173502329 with concept "When was the [first/2nd/3rd/etc.] time you had COVID-19? If you are not sure, please make your best guess. Month" is shared between these Textbox codes: [SRVBLU_COV3_MONTH_V1R0, SRVBUM_COV3_MONTH_V1R0]
 // JSON WARNING --> Concept ID 206625031 with concept "Age at diagnosis" is shared between these Textbox codes: [ANEMIA_AGE, ARRHYT_AGE, ASTHMA_AGE, BARESO_AGE, BLOODCLOT_AGE, BREASTDIS_AGE, CCD_AGE, CD_AGE, CHESTPAIN_AGE, CHF_AGE, CHILDCANC3A_AGE, CHILDCANC3B_AGE, CHILDCANC3C_AGE, CHILDCANC3D_AGE, CHILDCANC3E_AGE, CHILDCANC3F_AGE, CHILDCANC3G_AGE, CHILDCANC3H_AGE, CHILDCANC3I_AGE, CHILDCANC3J_AGE, CHILDCANC3K_AGE, CHILDCANC3L_AGE, CHILDCANC3M_AGE, CHILDCANC3N_AGE, CHILDCANC3O_AGE, CHILDCANC3P_AGE, CHILDCANC3Q_AGE, CHILDCANC3R_AGE, CHILDCANC3S_AGE, CHILDCANC3T_AGE, CHILDCANC3U_AGE, CHILDCANC3V_AGE, CHILDCANC3W_AGE, CHILDCANC3X_AGE, CHILDCANC3Y_AGE, CHLA_AGE, CHOL_AGE, CKD_AGE, COPD_AGE, CVD_AGE, DADCANC3A_AGE, DADCANC3B_AGE, DADCANC3C_AGE, DADCANC3D_AGE, DADCANC3E_AGE, DADCANC3F_AGE, DADCANC3G_AGE, DADCANC3H_AGE, DADCANC3I_AGE, DADCANC3J_AGE, DADCANC3K_AGE, DADCANC3L_AGE, DADCANC3M_AGE, DADCANC3N_AGE, DADCANC3O_AGE, DADCANC3P_AGE, DADCANC3Q_AGE, DADCANC3R_AGE, DADCANC3S_AGE, DADCANC3T_AGE, DADCANC3U_AGE, DADCANC3V_AGE, DCIS_AGE, DEPRESS2_AGE, DIVERT_AGE, DM2_AGE, ENDO_AGE, ENLGPROS_AGE, GALL_AGE, GENWARTS_AGE, GERD_AGE, GONORR_AGE, GOUT_AGE, GRAVES_AGE, HAYFEVER_AGE, HBVHCV_AGE, HEARTATT_AGE, HEARTVALV_AGE, HIVAIDS_AGE, HPV_AGE, HTN_AGE, IBD_AGE, IBS_AGE, KIDNEY_AGE, LIVCIRR_AGE, LUPUS_AGE, MOMCANC3A_AGE, MOMCANC3B_AGE, MOMCANC3C_AGE, MOMCANC3D_AGE, MOMCANC3E_AGE, MOMCANC3F_AGE, MOMCANC3G_AGE, MOMCANC3H_AGE, MOMCANC3I_AGE, MOMCANC3J_AGE, MOMCANC3K_AGE, MOMCANC3L_AGE, MOMCANC3M_AGE, MOMCANC3N_AGE, MOMCANC3O_AGE, MOMCANC3P_AGE, MOMCANC3Q_AGE, MOMCANC3R_AGE, MOMCANC3S_AGE, MOMCANC3T_AGE, MOMCANC3U_AGE, MOMCANC3V_AGE, MOMCANC3W_AGE, MONO_AGE, PANCREA_AGE, PCOS_AGE, RA_AGE, SHINGLES_AGE, SIBCANC3A_AGE, SIBCANC3B_AGE, SIBCANC3C_AGE, SIBCANC3D_AGE, SIBCANC3E_AGE, SIBCANC3F_AGE, SIBCANC3G_AGE, SIBCANC3H_AGE, SIBCANC3I_AGE, SIBCANC3J_AGE, SIBCANC3K_AGE, SIBCANC3L_AGE, SIBCANC3M_AGE, SIBCANC3N_AGE, SIBCANC3O_AGE, SIBCANC3P_AGE, SIBCANC3Q_AGE, SIBCANC3R_AGE, SIBCANC3S_AGE, SIBCANC3T_AGE, SIBCANC3U_AGE, SIBCANC3V_AGE, SIBCANC3W_AGE, SIBCANC3X_AGE, SIBCANC3Y_AGE, SKINCANC3_AGE, STROKE_AGE, SYPH_AGE, THYROID_AGE, TRICH_AGE, UC_AGE, UF_AGE]
 // JSON WARNING --> Concept ID 261863326 with concept "Year at diagnosis" is shared between these Textbox codes: [ANEMIA_YEAR, ARRHYT_YEAR, ASTHMA_YEAR, BARESO_YEAR, BLOODCLOT_YEAR, BREASTDIS_YEAR, CCD_YEAR, CD_YEAR, CHESTPAIN_YEAR, CHF_YEAR, CHILDCANC3A_YEAR, CHILDCANC3B_YEAR, CHILDCANC3C_YEAR, CHILDCANC3D_YEAR, CHILDCANC3E_YEAR, CHILDCANC3F_YEAR, CHILDCANC3G_YEAR, CHILDCANC3H_YEAR, CHILDCANC3I_YEAR, CHILDCANC3J_YEAR, CHILDCANC3K_YEAR, CHILDCANC3L_YEAR, CHILDCANC3M_YEAR, CHILDCANC3N_YEAR, CHILDCANC3O_YEAR, CHILDCANC3P_YEAR, CHILDCANC3Q_YEAR, CHILDCANC3R_YEAR, CHILDCANC3S_YEAR, CHILDCANC3T_YEAR, CHILDCANC3U_YEAR, CHILDCANC3V_YEAR, CHILDCANC3W_YEAR, CHILDCANC3X_YEAR, CHILDCANC3Y_YEAR, CHLA_YEAR, CHOL_YEAR, CKD_YEAR, COPD_YEAR, CVD_YEAR, DADCANC3A_YEAR, DADCANC3B_YEAR, DADCANC3C_YEAR, DADCANC3D_YEAR, DADCANC3E_YEAR, DADCANC3F_YEAR, DADCANC3G_YEAR, DADCANC3H_YEAR, DADCANC3I_YEAR, DADCANC3J_YEAR, DADCANC3K_YEAR, DADCANC3L_YEAR, DADCANC3M_YEAR, DADCANC3N_YEAR, DADCANC3O_YEAR, DADCANC3P_YEAR, DADCANC3Q_YEAR, DADCANC3R_YEAR, DADCANC3S_YEAR, DADCANC3T_YEAR, DADCANC3U_YEAR, DADCANC3V_YEAR, DCIS_YEAR, DEPRESS2_YEAR, DIVERT_YEAR, DM2_YEAR, ENDO_YEAR, ENLGPROS_YEAR, GALL_YEAR, GENWARTS_YEAR, GERD_YEAR, GONORR_YEAR, GOUT_YEAR, GRAVES_YEAR, HAYFEVER_YEAR, HBVHCV_YEAR, HEARTATT_YEAR, HEARTVALV_YEAR, HIVAIDS_YEAR, HPV_YEAR, HTN_YEAR, IBD_YEAR, IBS_YEAR, KIDNEY_YEAR, LIVCIRR_YEAR, LUPUS_YEAR, MOMCANC3A_YEAR, MOMCANC3B_YEAR, MOMCANC3C_YEAR, MOMCANC3D_YEAR, MOMCANC3E_YEAR, MOMCANC3F_YEAR, MOMCANC3G_YEAR, MOMCANC3H_YEAR, MOMCANC3I_YEAR, MOMCANC3J_YEAR, MOMCANC3K_YEAR, MOMCANC3L_YEAR, MOMCANC3M_YEAR, MOMCANC3N_YEAR, MOMCANC3O_YEAR, MOMCANC3P_YEAR, MOMCANC3Q_YEAR, MOMCANC3R_YEAR, MOMCANC3S_YEAR, MOMCANC3T_YEAR, MOMCANC3U_YEAR, MOMCANC3V_YEAR, MOMCANC3W_YEAR, MONO_YEAR, PANCREA_YEAR, PCOS_YEAR, RA_YEAR, SHINGLES_YEAR, SIBCANC3A_YEAR, SIBCANC3B_YEAR, SIBCANC3C_YEAR, SIBCANC3D_YEAR, SIBCANC3E_YEAR, SIBCANC3F_YEAR, SIBCANC3G_YEAR, SIBCANC3H_YEAR, SIBCANC3I_YEAR, SIBCANC3J_YEAR, SIBCANC3K_YEAR, SIBCANC3L_YEAR, SIBCANC3M_YEAR, SIBCANC3N_YEAR, SIBCANC3O_YEAR, SIBCANC3P_YEAR, SIBCANC3Q_YEAR, SIBCANC3R_YEAR, SIBCANC3S_YEAR, SIBCANC3T_YEAR, SIBCANC3U_YEAR, SIBCANC3V_YEAR, SIBCANC3W_YEAR, SIBCANC3X_YEAR, SIBCANC3Y_YEAR, SKINCANC3_YEAR, STROKE_YEAR, SYPH_YEAR, THYROID_YEAR, TRICH_YEAR, UC_YEAR, UF_YEAR]
 // JSON WARNING --> Concept ID 314198277 with concept "Last spent time at this address, year" is shared between these Textbox codes: [SEASADDYRS2_10_YEAR, SEASADDYRS2_1_YEAR, SEASADDYRS2_2_YEAR, SEASADDYRS2_3_YEAR, SEASADDYRS2_4_YEAR, SEASADDYRS2_5_YEAR, SEASADDYRS2_6_YEAR, SEASADDYRS2_7_YEAR, SEASADDYRS2_8_YEAR, SEASADDYRS2_9_YEAR]
-// JSON WARNING --> Concept ID 366972678 with concept "When was the [first/2nd/3rd/etc.] time you had COVID-19? If you are not sure, please make your best guess. Year" is shared between these Textbox codes: [SRVBLU_COV3_YEAR_V1R0, SRVBUM_COV3_YEAR_V1R0]
-// JSON WARNING --> Concept ID 395747093 with concept "Which COVID-19 vaccine shot did you get? Please describe [text box]" is shared between these Textbox codes: [SRVBLU_COV28DESC_V1R0, SRVBUM_COV28DESC_V1R0]
 // JSON WARNING --> Concept ID 434243220 with concept "Months used" is shared between these Textbox codes: [ANYCOMESTMONTH, COMBINEDMONTH, COPIUDMONTH, DEPROPROVMONTH, ESTOTHERMONTH, ESTSKINMONTH, HORCOMPILLMONTH, HORIUDMONTH, HORMEDOTHERMONTH, HORMEDPATCHMONTH, HORMEDRINGMONTH, MINIPILLMONTH, NORPLANTMONTH, ORALESTMONTH, ORALMEDMONTH, PATCHESTMONTH, PRESHOR2MONTH, PROESTMONTH, RINGMONTH, TWOPILLMONTH]
 // JSON WARNING --> Concept ID 451310566 with concept "Months at address" is shared between these Textbox codes: [MONTHADD1, MONTHADD10, MONTHADD2, MONTHADD3, MONTHADD4, MONTHADD5, MONTHADD6, MONTHADD7, MONTHADD8, MONTHADD9]
 // JSON WARNING --> Concept ID 623218391 with concept "Age at surgery" is shared between these Textbox codes: [APPEND_AGE, BARSUR_AGE, BREASTABSS_AGE, BREASTDBLREM_AGE, BREASTIMPLANTS_AGE, BREASTLACTREM_AGE, BREASTLIFT_AGE, BREASTOTH_AGE, BREASTPARTREM_AGE, BREASTRECON_AGE, BREASTREDN_AGE, BREASTREM_AGE, FTREM2_AGE, GALLREM_AGE, HYSTER_AGE, LIPOSUCT_AGE, OVARYREM2_AGE, PENREM_AGE, PROSREM2_AGE, TESTREM2_AGE, TONSILS_AGE, TUBLIG_AGE, VASEC_AGE]
-// JSON WARNING --> Concept ID 637540387 with concept "Since your COVID-19 diagnosis, have you experienced any other symptoms? [text box]" is shared between these Textbox codes: [SRVBLU_COV19C6ADESC_V1R0, SRVBUM_COV19C6ADESC_V1R0]
-// JSON WARNING --> Concept ID 700620868 with concept "How long did it take you to recover to your usual state of health from the date you first realized you had COVID-19? Months" is shared between these Textbox codes: [SRVBLU_COV22_MONTHS_V1R0, SRVBUM_COV22_MONTHS_V1R0]
 // JSON WARNING --> Concept ID 707805344 with concept "# of Hours" is shared between these Textbox codes: [FALLASLEEPHOURS, LAYINBEDHRS, NONWORKAWAKEBEFOREUPHOURS, NONWORKFALLASLEEPHOURS, OUTSIDEHOURS, WORKDAYOUTSIDEHOURS]
 // JSON WARNING --> Concept ID 765748316 with concept "Days per week" is shared between these Textbox codes: [ACETWEEK, ACIDSUP2_1WK, ACIDSUP2_2WK, ACIDSUP2_3WK, BABYASPRINWEEK, CELECOXIBWEEK, CHOLHTN2_1WK, CHOLHTN2_2WK, IBUPROFENWEEK, INSULIN2_1WK, METFOR2_1WK, NAPROXENWEEK, PAINRELWEEK, REGASPRINWEEK]
 // JSON WARNING --> Concept ID 785412329 with concept "Days per month" is shared between these Textbox codes: [ACETMONTH, ACIDSUP2_1MO, ACIDSUP2_2MO, ACIDSUP2_3MO, BABYASPRINMONTH, CELECOXIBMONTH, CHOLHTN2_1MO, CHOLHTN2_2MO, IBUPROFENMONTH, INSULIN2_1MO, METFOR2_1MO, NAPROXENMONTH, PAINRELMONTH, REGASPRINMONTH]
 // JSON WARNING --> Concept ID 802622485 with concept "Year at surgery" is shared between these Textbox codes: [APPEND_YEAR, BARSUR_YEAR, BREASTABSS_YEAR, BREASTDBLREM_YEAR, BREASTIMPLANTS_YEAR, BREASTLACTREM_YEAR, BREASTLIFT_YEAR, BREASTOTH_YEAR, BREASTPARTREM_YEAR, BREASTRECON_YEAR, BREASTREDN_YEAR, BREASTREM_YEAR, FTREM2_YEAR, GALLREM_YEAR, HYSTER_YEAR, LIPOSUCT_YEAR, OVARYREM2_YEAR, PENREM_YEAR, PROSREM2_YEAR, TESTREM2_YEAR, TONSILS_YEAR, TUBLIG_YEAR, VASEC_YEAR]
 // JSON WARNING --> Concept ID 810608313 with concept "# Servings per day" is shared between these Textbox codes: [EAMAR9ANUM, EAMAR9CNUM, THMAR9ANUM, THMAR9CNUM]
 // JSON WARNING --> Concept ID 850393641 with concept "# of Minutes" is shared between these Textbox codes: [FALLASLEEPMIN, LAYINBEDMIN, NONWORKAWAKEBEFOREUPMIN, NONWORKFALLASLEEPMIN, OUTSIDEMIN, WORKDAYOUTSIDEMIN]
-// JSON WARNING --> Concept ID 908044428 with concept "How long did it take you to recover to your usual state of health from the date you first realized you had COVID-19? Days" is shared between these Textbox codes: [SRVBLU_COV22_DAYS_V1R0, SRVBUM_COV22_DAYS_V1R0]
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Fri Nov 18 14:55:18 2022 -0500 (short timestamp = 2022-11-18-19-55-18)
-//{"version":"1.3"}
+//This file was last modified on Tue Feb 28 14:48:38 2023 -0500 (short timestamp = 2023-02-28-19-48-38)
+//{"version":"1.4"}
 {"name":"D_716117817"}
 
 [INTROM4] The questions in this section are about places where you have lived and worked. Where we live and our daily commute to and from our homes, work, and school can affect our health in a number of ways.
@@ -2514,7 +2266,7 @@ Year moved out |__|__|__|__|id=D_943813942 min=valueOrDefault("D_948416598",#cur
 
 The water we drink and use for showering and bathing can also affect our health. In this section, we ask about how much tap water you usually drink and how often you shower or bathe at home. As you think about your answers, please think about a usual day or week.
 
-[D_285545471?] In a <b>usual week</b>, about how often do you drink tap water from your home?
+[D_285545471?] In a <b>usual week</b>, about how often do you drink tap water from your home? We are interested in all tap water, whether or not it has been filtered or treated.
 (706062016) times per day |__|__|id=D_936382173 min=0 max=999|
 (594557208) 5 to 6 times per week
 (471294296) 3 to 4 times per week
@@ -2523,7 +2275,7 @@ The water we drink and use for showering and bathing can also affect our health.
 (703370365) I drink tap water but don’t know how often
 
 
-[D_831438612?] In a <b>usual week</b>, which of these beverages do you make with tap water from your home? Select all that apply.
+[D_831438612?] In a <b>usual week</b>, which of these beverages do you make with tap water from your home? We are interested in all tap water, whether or not it has been filtered or treated. Select all that apply.
 [863839736] A cup of coffee
 [531671855] A cup of hot tea
 [525375987] A glass of iced tea
@@ -2531,7 +2283,7 @@ The water we drink and use for showering and bathing can also affect our health.
 [431441193] Other: Please describe |__|id=D_834822910|
 < #NR -> D_302947409>
 
-[D_961178879?,displayif=equals(D_831438612,863839736)] In a <b>usual week</b>, about how often do you use tap water from your home to make a cup of coffee?
+[D_961178879?,displayif=equals(D_831438612,863839736)] In a <b>usual week</b>, about how often do you use tap water from your home to make a cup of coffee? We are interested in all tap water, whether or not it has been filtered or treated.
 (706062016) times per day |__|__|id=D_193077021 min=0 max=999|
 (594557208) 5 to 6 times per week
 (471294296) 3 to 4 times per week
@@ -2540,7 +2292,7 @@ The water we drink and use for showering and bathing can also affect our health.
 (703370365) I drink tap water in coffee but don’t know how often
 
 
-[D_138116092?,displayif=equals(D_831438612,531671855)] In a <b>usual week</b>, about how often do you use tap water from your home to make a cup of hot tea?
+[D_138116092?,displayif=equals(D_831438612,531671855)] In a <b>usual week</b>, about how often do you use tap water from your home to make a cup of hot tea? We are interested in all tap water, whether or not it has been filtered or treated.
 (706062016) times per day |__|__|id=D_386624051 min=0 max=999|
 (594557208) 5 to 6 times per week
 (471294296) 3 to 4 times per week
@@ -2549,7 +2301,7 @@ The water we drink and use for showering and bathing can also affect our health.
 (703370365) I drink tap water in hot tea but don’t know how often
 
 
-[D_393682471?,displayif=equals(D_831438612,525375987)] In a <b>usual week</b>, about how often do you use tap water from your home to make a glass of iced tea?
+[D_393682471?,displayif=equals(D_831438612,525375987)] In a <b>usual week</b>, about how often do you use tap water from your home to make a glass of iced tea? We are interested in all tap water, whether or not it has been filtered or treated.
 (706062016) times per day |__|__|id=D_165923738 min=0 max=999|
 (594557208) 5 to 6 times per week
 (471294296) 3 to 4 times per week
@@ -2558,7 +2310,7 @@ The water we drink and use for showering and bathing can also affect our health.
 (703370365) I drink tap water in iced tea but don’t know how often
 
 
-[D_364303962?,displayif=equals(D_831438612,995797773)] In a <b>usual week</b>, about how often do you use tap water from your home to make any other beverages or soup?
+[D_364303962?,displayif=equals(D_831438612,995797773)] In a <b>usual week</b>, about how often do you use tap water from your home to make any other beverages or soup? We are interested in all tap water, whether or not it has been filtered or treated.
 (706062016) times per day |__|__|id=D_130500844 min=0 max=999|
 (594557208) 5 to 6 times per week
 (471294296) 3 to 4 times per week
@@ -2567,13 +2319,13 @@ The water we drink and use for showering and bathing can also affect our health.
 (703370365) I drink tap water in other beverages or soup but don’t know how often
 
 
-[D_944517297?,displayif=equals(D_831438612,431441193)] In a <b>usual week</b>, about how often do you use tap water from your home to make |displayif=doesNotEqual(D_834822910,"")|<b>{$D_834822910}</b>||displayif=equals(D_834822910,"")|other beverages|?
+[D_944517297?,displayif=equals(D_831438612,431441193)] In a <b>usual week</b>, about how often do you use tap water from your home to make |displayif=exists("D_834822910")|<b>{$D_834822910}</b>||displayif=doesNotExist("D_834822910")|other beverages|? We are interested in all tap water, whether or not it has been filtered or treated.
 (706062016) times per day |__|__|id=D_258501440 min=0 max=999|
 (594557208) 5 to 6 times per week
 (471294296) 3 to 4 times per week
 (198347104) 1 to 2 times per week
 (693256778) Less than once per week
-(703370365) I drink tap water in |displayif=doesNotEqual(D_834822910,"")|<b>{$D_834822910}</b>||displayif=equals(D_834822910,"")|other beverages| but don’t know how often
+(703370365) I drink tap water in |displayif=exists("D_834822910")|<b>{$D_834822910}</b>||displayif=doesNotExist("D_834822910")|other beverages| but don’t know how often.
 
 
 [D_302947409?] In a <b>usual week</b>, how many showers or baths do you take in your home?
