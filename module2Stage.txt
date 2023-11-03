@@ -1,4 +1,4 @@
-// This file was transformed using the mapping data in Quest-2023-07-14-12-47-33_Transformation.json.
+// This file was transformed using the mapping data in Quest-2023-11-01-19-54-51_Transformation.json.
 
 // JSON WARNING --> Concept ID 101310722 with concept "# Pills per day" is shared between these Textbox codes: [ACIDSUP3_1A, ACIDSUP3_2A, ACIDSUP3_3A, CHOLHTN3_1A, CHOLHTN3_2A, INSULIN3_1A, METFOR3_1A, PAINREL3_1A, PAINREL3_2A, PAINREL3_3A, PAINREL3_4A, PAINREL3_5A, PAINREL3_6A, PAINREL3_7A]
 // JSON WARNING --> Concept ID 206625031 with concept "Age at diagnosis" is shared between these Textbox codes: [ANEMIA_AGE, ARRHYT_AGE, ASTHMA_AGE, BARESO_AGE, BLOODCLOT_AGE, BREASTDIS_AGE, CCD_AGE, CD_AGE, CHESTPAIN_AGE, CHF_AGE, CHILDCANC3A_AGE, CHILDCANC3B_AGE, CHILDCANC3C_AGE, CHILDCANC3D_AGE, CHILDCANC3E_AGE, CHILDCANC3F_AGE, CHILDCANC3G_AGE, CHILDCANC3H_AGE, CHILDCANC3I_AGE, CHILDCANC3J_AGE, CHILDCANC3K_AGE, CHILDCANC3L_AGE, CHILDCANC3M_AGE, CHILDCANC3N_AGE, CHILDCANC3O_AGE, CHILDCANC3P_AGE, CHILDCANC3Q_AGE, CHILDCANC3R_AGE, CHILDCANC3S_AGE, CHILDCANC3T_AGE, CHILDCANC3U_AGE, CHILDCANC3V_AGE, CHILDCANC3W_AGE, CHILDCANC3X_AGE, CHILDCANC3Y_AGE, CHLA_AGE, CHOL_AGE, CKD_AGE, COPD_AGE, CVD_AGE, DADCANC3A_AGE, DADCANC3B_AGE, DADCANC3C_AGE, DADCANC3D_AGE, DADCANC3E_AGE, DADCANC3F_AGE, DADCANC3G_AGE, DADCANC3H_AGE, DADCANC3I_AGE, DADCANC3J_AGE, DADCANC3K_AGE, DADCANC3L_AGE, DADCANC3M_AGE, DADCANC3N_AGE, DADCANC3O_AGE, DADCANC3P_AGE, DADCANC3Q_AGE, DADCANC3R_AGE, DADCANC3S_AGE, DADCANC3T_AGE, DADCANC3U_AGE, DADCANC3V_AGE, DCIS_AGE, DEPRESS2_AGE, DIVERT_AGE, DM2_AGE, ENDO_AGE, ENLGPROS_AGE, GALL_AGE, GENWARTS_AGE, GERD_AGE, GONORR_AGE, GOUT_AGE, GRAVES_AGE, HAYFEVER_AGE, HBVHCV_AGE, HEARTATT_AGE, HEARTVALV_AGE, HIVAIDS_AGE, HPV_AGE, HTN_AGE, IBD_AGE, IBS_AGE, KIDNEY_AGE, LIVCIRR_AGE, LUPUS_AGE, MOMCANC3A_AGE, MOMCANC3B_AGE, MOMCANC3C_AGE, MOMCANC3D_AGE, MOMCANC3E_AGE, MOMCANC3F_AGE, MOMCANC3G_AGE, MOMCANC3H_AGE, MOMCANC3I_AGE, MOMCANC3J_AGE, MOMCANC3K_AGE, MOMCANC3L_AGE, MOMCANC3M_AGE, MOMCANC3N_AGE, MOMCANC3O_AGE, MOMCANC3P_AGE, MOMCANC3Q_AGE, MOMCANC3R_AGE, MOMCANC3S_AGE, MOMCANC3T_AGE, MOMCANC3U_AGE, MOMCANC3V_AGE, MOMCANC3W_AGE, MONO_AGE, PANCREA_AGE, PCOS_AGE, RA_AGE, SHINGLES_AGE, SIBCANC3A_AGE, SIBCANC3B_AGE, SIBCANC3C_AGE, SIBCANC3D_AGE, SIBCANC3E_AGE, SIBCANC3F_AGE, SIBCANC3G_AGE, SIBCANC3H_AGE, SIBCANC3I_AGE, SIBCANC3J_AGE, SIBCANC3K_AGE, SIBCANC3L_AGE, SIBCANC3M_AGE, SIBCANC3N_AGE, SIBCANC3O_AGE, SIBCANC3P_AGE, SIBCANC3Q_AGE, SIBCANC3R_AGE, SIBCANC3S_AGE, SIBCANC3T_AGE, SIBCANC3U_AGE, SIBCANC3V_AGE, SIBCANC3W_AGE, SIBCANC3X_AGE, SIBCANC3Y_AGE, SKINCANC3_AGE, STROKE_AGE, SYPH_AGE, THYROID_AGE, TRICH_AGE, UC_AGE, UF_AGE]
@@ -16,7 +16,7 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Mon Jul 10 14:04:09 2023 -0400 (short timestamp = 2023-07-10-18-04-09)
+//This file was last modified on Thu Nov 2 14:33:40 2023 -0400 (short timestamp = 2023-11-02-18-33-40)
 //{"version":"2.2"}
 {"name":"D_745268907_V2"} 
 [INTROM2] In this set of questions we ask about a few topics that affect your health. These topics include your current and past use of medications, your physical activity (including exercise), and your sleep habits.
@@ -37,7 +37,7 @@ Have you ever taken any of these medications at least <b>4 times a month for 6 m
 [555555502|acet] Acetaminophen (such as Tylenol®)  -> D_614446276
 [800410166|naproxen] Naproxen (such as Naprosyn®, Anaprox®, or Aleve®)  -> D_234177873
 [221645137|celecoxib] Celebrex® (Celecoxib)  -> D_248599913
-[974248369|painReliever] Prescription pain relievers containing opioids (such as hydrocodone (such as Vicodin®, Lorcet®, Lortab®, or Norco®), oxycodone (such as OxyContin® or Percocet®), morphine (such as Kadian® or Avinza®), Fentanyl, codeine,tramadol, methadone, oxymorphone, hydromorphone (Dilaudid®), or meperidine (Demerol®))  -> D_697661603
+[974248369|painReliever] Prescription pain relievers containing opioids (such as hydrocodone (such as Vicodin®, Lorcet®, Lortab®, or Norco®), oxycodone (such as OxyContin® or Percocet®), morphine (such as Kadian® or Avinza®), Fentanyl, codeine, tramadol, methadone, oxymorphone, hydromorphone (Dilaudid®), or meperidine (Demerol®))  -> D_697661603
 [535003378*] None of the above
 < -> D_414005872 >
 
@@ -639,23 +639,23 @@ Age |__|__|id=D_969451837 min=0 max=sum(isDefined(D_150344905,age),1)|
 [535003378*] I have <b>not</b> experienced any of the above
 < #NR -> D_164595895>
 
-[D_164595895?] In just the <b>past 12 months</b>, what was the usual length of your menstrual cycle? Please do <b>not</b> consider breakthrough bleeding (also known as spotting) as part of the menstrual cycle. 
+[D_164595895?,displayif=doesNotEqual(D_496539718,648960871)] In just the <b>past 12 months</b>, what was the usual length of your menstrual cycle? Please do <b>not</b> consider breakthrough bleeding (also known as spotting) as part of the menstrual cycle. 
 
 (650420270) I have not had a menstrual period in the past 12 months -> D_614145455
 (113064256) I have had at least one menstrual period in the past 12 months but the frequency of my period changed (such as it stopped, became irregular, or difficult to predict) -> PREG
-(548167685) Too irregular to guess or using hormonal medication or device (such as an intrauterine device (IUD)) to control menstrual cycle -> D_534920374
+(548167685) Too irregular to guess -> D_534920374
 (178420302) I don't know -> D_534920374
 (859025516) Less than 21 days -> PREG
 (471375042) 21 days or more -> D_263114971
 
 < #NR -> PREG>
 
-[D_263114971?] In the <b>past 12 months</b>, about how many days long was your usual menstrual cycle? Breakthrough bleeding is <b>not</b> part of the menstrual cycle.
+[D_263114971?,displayif=doesNotEqual(D_496539718,648960871)] In the <b>past 12 months</b>, about how many days long was your usual menstrual cycle? Breakthrough bleeding is <b>not</b> part of the menstrual cycle.
 
 #Days |__|__|min=21 max=99| 
 < -> PREG>
 
-[D_614145455?] Please pick the option that best describes why you have <b>not</b> had a menstrual period in the <b>past 12 months</b>:
+[D_614145455?,displayif=doesNotEqual(D_496539718,648960871)] Please pick the option that best describes why you have <b>not</b> had a menstrual period in the <b>past 12 months</b>:
 (582425113) My periods stopped naturally due to menopause -> PREG 
 (330745988) My periods stopped because I began taking female hormones during the menopausal transition or menopause (“the change of life”) -> PREG 
 (909774794) My periods stopped after surgery that removed my uterus and/or both ovaries -> D_534920374
@@ -663,15 +663,16 @@ Age |__|__|id=D_969451837 min=0 max=sum(isDefined(D_150344905,age),1)|
 (655309065) I am currently using a hormonal medication or device (such as an intrauterine device (IUD)) to prevent pregnancy, manage my menstrual cycle symptoms, and/or manage conditions like endometriosis or polycystic ovarian syndrome (PCOS)  -> D_534920374
 (757609794) I was pregnant or breastfeeding during the last year  -> D_534920374
 (585076356) My periods stopped after radiation or chemotherapy  -> D_534920374
+(351584248,displayif=doesNotEqual(D_289664241,218837028)) My periods stopped because I began taking gender affirming hormones 
 (807835037) My periods stopped for other reasons: Please describe |__|id=D_672810476| -> D_534920374
 < #NR-> PREG >
 
-[D_534920374?] How old were you when you had your <b>last</b> menstrual period?
+[D_534920374?,displayif=doesNotEqual(D_496539718,648960871)] How old were you when you had your <b>last</b> menstrual period?
 Age |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
 < #NR-> PREG >
 
 
-[PREG]<b>Pregnancies</b> <br/> <br/> 
+[PREG]<b>Pregnancies</b> <br/>
 Next, we will ask you some questions about pregnancies that you may have had.
 
 [D_849945160?]Are you currently pregnant?
@@ -811,28 +812,51 @@ Select all that apply.
 < -> D_111082535 >
 
 [D_139673389?] In total, how many months or cycles did you take <b>Clomid®</b>?
+
 #Months or cycles |__|__|min=0|
+
 [D_943996164?] In total, how many months or cycles did you take <b>gonadotropins</b>?
+
 #Months or cycles |__|__|min=0|
+
 [D_994899398?] In total, how many months or cycles did you take <b>Danazol®</b>?
+
 #Months or cycles |__|__|min=0|
+
 [D_198719822?] In total, how many months or cycles did you take <b>Danocrine®</b>?
+
 #Months or cycles |__|__|min=0|
+
 [D_628137243?] In total, how many months or cycles did you take <b>hCG</b>?
+
 #Months or cycles |__|__|min=0|
+
 [D_399078599?] In total, how many months or cycles did you take <b>Milophene®</b>?
+
 #Months or cycles |__|__|min=0|
+
 [D_560711355?] In total, how many months or cycles did you take <b>Lupron Depot®</b>?
+
 #Months or cycles |__|__|min=0|
+
 [D_309710463?] In total, how many months or cycles did you take <b>Nolvadex®</b>?
+
 #Months or cycles |__|__|min=0|
+
 [D_167207966?] In total, how many months or cycles did you take <b>Pergonal®</b>?
+
 #Months or cycles |__|__|min=0|
+
 [D_538349354?] In total, how many months or cycles did you take <b>Serophene®</b>?
+
 #Months or cycles |__|__|min=0|
+
 [D_767785846?] In total, how many months or cycles did you take <b>Synarel® nasal solution</b>?
+
 #Months or cycles |__|__|min=0|
+
 [D_466346054?] In total, how many months or cycles did you take |displayif=doesNotEqual(D_762700622,"")|<b>{$D_762700622}</b>||displayif=equals(D_762700622,"")|the other fertility medication|?
+
 #Months or cycles |__|__|min=0|
 
 [D_111082535?] Have you ever had <b>in vitro fertilization (IVF)</b>?
@@ -1321,7 +1345,7 @@ How many <b>days per cycle</b> did you use this progestin/progesterone-only pres
 [944874693|twoPill] Two separate pills, one estrogen and one progestin pill -> D_922903688
 [807835037|anyComEst] Any other type of combined estrogen plus progestin prescription hormones (such as the patch (Climara-Pro®), other pills, or creams): Please describe:|__|id=D_542108835| -> D_219538082
 [535003378*] None of the above -> TESTTHER_INTRO
-< #NR -> TESTTHER_INTRO >
+< #NR -> TESTTHER_INTRO>
 
 [D_824165133?,displayif=equals(D_263785082,837393880)]
 How old were you when you <b>first</b> used <b>combined oral estrogen plus progestin pill</b>?
@@ -1425,7 +1449,7 @@ How many <b>days per cycle</b> did you use <b>this other type of combined estrog
 (481217808) 15 to 19 days per month
 (565450397) 20 to 25 days per month
 (647504893) Every day
-< #NR -> TESTTHER_INTRO >
+< #NR -> TESTTHER_INTRO>
 
 [TESTTHER_INTRO]
 <b>Testosterone & Other Hormone Therapy</b>
@@ -1511,9 +1535,7 @@ Next, we will ask you about different types of physical activities. We are inter
 
 Many of the questions in this section ask you to share the amount of time you spend doing specific activities. If you are not sure of the exact amount of time, please make your best guess.
 
-[WORKACT,displayif=equals(D_613744428,353358909)]<b>Physical Activity at Work</b>
-
-|grid?|id="D_392658845",displayif=equals(D_613744428,353358909)|During the <b>past 12 months</b>, about how much time do you usually spend doing these activities while you are <b>at work?</b> For your answers, please think about the time you spend at your job, <b>not counting time traveling to and from work.</b> If you exercise during your workday (such a going on walks or working out during breaks), please <b>include</b> those activities.|[
+|grid?|id="D_392658845",displayif=equals(D_613744428,353358909)|<b>Physical Activity at Work</b> <br/><br/>During the <b>past 12 months</b>, about how much time do you usually spend doing these activities while you are <b>at work?</b> For your answers, please think about the time you spend at your job, <b>not counting time traveling to and from work.</b> If you exercise during your workday (such a going on walks or working out during breaks), please <b>include</b> those activities.|[
 
 [D_699101535] Sitting with small arm movements (for example, desk or computer work, light assembly, driving, etc.);
 [D_652561589] Standing with some walking (for example, as a store clerk, filing, making copies, walking to/from meetings, working on an assembly line, etc.);
@@ -1539,7 +1561,7 @@ Many of the questions in this section ask you to share the amount of time you sp
 
 The next questions ask about the time you spent outside of work over the <b>past 12 months</b>.
 
-[SITTING] During the <b>past 12 months</b>, about how many <b>hours per day</b> did you usually spend doing each of these activities |displayif=equals(D_613744428,353358909)|outside of work|?
+[SITTING] <b>Sitting</b> <br/><br/>During the <b>past 12 months</b>, about how many <b>hours per day</b> did you usually spend doing each of these activities |displayif=valueEquals("D_613744428",353358909)|outside of work|
 
 |grid?|id="D_649352910"|Typical hours per DAY|[
 
@@ -1588,9 +1610,9 @@ During the <b>past 12 months</b>, about how often did you do each of these house
     (805918496: 3 hours or more)
 |
 
-[LAWN]<b>Lawn, Garden, and Home Repair</b>
+[D_204421360?] <b>Lawn, Garden, and Home Repair</b>
 
-[D_204421360?] During <b>the past 12 months</b>, did you do any of these activities|displayif=equals(D_613744428,353358909)| outside of work|? Select all that apply.
+During <b>the past 12 months</b>, did you do any of these activities|displayif=equals(D_613744428,353358909)| outside of work|? Select all that apply.
 [797221287] Moderate outdoor chores (such as weeding, raking, or mowing the lawn) -> D_442059084
 [500744195] Vigorous outdoor chores (such as digging, carrying lumber, or snow shoveling) -> D_829749579
 [383015037] Home repair (such as painting, plumbing, or replacing carpeting) -> D_618482103
