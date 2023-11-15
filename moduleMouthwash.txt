@@ -112,7 +112,7 @@ In the last <b>month</b>, which of these oral hygiene products have you used? Se
 [463302301]	Cetylpyridinium chloride mouthwash (such as Crest® Pro-Health) -> D_460873842
 [259744087]	Mouthwash for sensitive teeth (such as Sensodyne®) -> D_430060900
 [523660949]	Mouthwash for dry mouth (such as biotène®) -> D_800752981
-< -> D_899251483>
+< -> D_899251483_V2>
 
 [D_349659426?,displayif=equals(D_406270109,950773275)] In the last <b>month</b>, how often did you use alcohol-based mouthwash (such as Scope® or LISTERINE®)?
 (648960871)	Never
@@ -186,7 +186,7 @@ In the last <b>month</b>, which of these oral hygiene products have you used? Se
 (850675416)	Two or more times per day
 
 
-[D_899251483?] Have you lost any of your permanent adult teeth, not including tooth crowns or your wisdom teeth? Select all that apply. 
+[D_899251483_V2?] Have you lost any of your permanent adult teeth, not including tooth crowns or your wisdom teeth? Select all that apply. 
 [812107266]	Yes, from accident or injury -> D_724589244
 [452438775]	Yes, from tooth decay or disease -> D_957305523
 [886864375] Yes, for some other reason -> D_360678252
