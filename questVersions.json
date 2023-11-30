@@ -1,5 +1,6 @@
 {
   "myconnect.cancer.gov": "https://cdn.jsdelivr.net/gh/episphere/quest@v1.0.15/transform.js",
   "myconnect-stage.cancer.gov": "https://cdn.jsdelivr.net/gh/episphere/quest@latest/transform.js",
-  "episphere.github.io": "https://episphere.github.io/quest/transform.js"
+  "episphere.github.io": "https://episphere.github.io/quest/transform.js",
+  "localhost:5000": "https://episphere.github.io/quest/transform.js"
 }
