@@ -1,4 +1,4 @@
-// This file was transformed using the mapping data in Quest-2023-11-01-19-54-51_Transformation.json.
+// This file was transformed using the mapping data in Quest-2023-12-26-16-50-55_Transformation.json.
 
 // JSON WARNING --> Concept ID 101310722 with concept "# Pills per day" is shared between these Textbox codes: [ACIDSUP3_1A, ACIDSUP3_2A, ACIDSUP3_3A, CHOLHTN3_1A, CHOLHTN3_2A, INSULIN3_1A, METFOR3_1A, PAINREL3_1A, PAINREL3_2A, PAINREL3_3A, PAINREL3_4A, PAINREL3_5A, PAINREL3_6A, PAINREL3_7A]
 // JSON WARNING --> Concept ID 206625031 with concept "Age at diagnosis" is shared between these Textbox codes: [ANEMIA_AGE, ARRHYT_AGE, ASTHMA_AGE, BARESO_AGE, BLOODCLOT_AGE, BREASTDIS_AGE, CCD_AGE, CD_AGE, CHESTPAIN_AGE, CHF_AGE, CHILDCANC3A_AGE, CHILDCANC3B_AGE, CHILDCANC3C_AGE, CHILDCANC3D_AGE, CHILDCANC3E_AGE, CHILDCANC3F_AGE, CHILDCANC3G_AGE, CHILDCANC3H_AGE, CHILDCANC3I_AGE, CHILDCANC3J_AGE, CHILDCANC3K_AGE, CHILDCANC3L_AGE, CHILDCANC3M_AGE, CHILDCANC3N_AGE, CHILDCANC3O_AGE, CHILDCANC3P_AGE, CHILDCANC3Q_AGE, CHILDCANC3R_AGE, CHILDCANC3S_AGE, CHILDCANC3T_AGE, CHILDCANC3U_AGE, CHILDCANC3V_AGE, CHILDCANC3W_AGE, CHILDCANC3X_AGE, CHILDCANC3Y_AGE, CHLA_AGE, CHOL_AGE, CKD_AGE, COPD_AGE, CVD_AGE, DADCANC3A_AGE, DADCANC3B_AGE, DADCANC3C_AGE, DADCANC3D_AGE, DADCANC3E_AGE, DADCANC3F_AGE, DADCANC3G_AGE, DADCANC3H_AGE, DADCANC3I_AGE, DADCANC3J_AGE, DADCANC3K_AGE, DADCANC3L_AGE, DADCANC3M_AGE, DADCANC3N_AGE, DADCANC3O_AGE, DADCANC3P_AGE, DADCANC3Q_AGE, DADCANC3R_AGE, DADCANC3S_AGE, DADCANC3T_AGE, DADCANC3U_AGE, DADCANC3V_AGE, DCIS_AGE, DEPRESS2_AGE, DIVERT_AGE, DM2_AGE, ENDO_AGE, ENLGPROS_AGE, GALL_AGE, GENWARTS_AGE, GERD_AGE, GONORR_AGE, GOUT_AGE, GRAVES_AGE, HAYFEVER_AGE, HBVHCV_AGE, HEARTATT_AGE, HEARTVALV_AGE, HIVAIDS_AGE, HPV_AGE, HTN_AGE, IBD_AGE, IBS_AGE, KIDNEY_AGE, LIVCIRR_AGE, LUPUS_AGE, MOMCANC3A_AGE, MOMCANC3B_AGE, MOMCANC3C_AGE, MOMCANC3D_AGE, MOMCANC3E_AGE, MOMCANC3F_AGE, MOMCANC3G_AGE, MOMCANC3H_AGE, MOMCANC3I_AGE, MOMCANC3J_AGE, MOMCANC3K_AGE, MOMCANC3L_AGE, MOMCANC3M_AGE, MOMCANC3N_AGE, MOMCANC3O_AGE, MOMCANC3P_AGE, MOMCANC3Q_AGE, MOMCANC3R_AGE, MOMCANC3S_AGE, MOMCANC3T_AGE, MOMCANC3U_AGE, MOMCANC3V_AGE, MOMCANC3W_AGE, MONO_AGE, PANCREA_AGE, PCOS_AGE, RA_AGE, SHINGLES_AGE, SIBCANC3A_AGE, SIBCANC3B_AGE, SIBCANC3C_AGE, SIBCANC3D_AGE, SIBCANC3E_AGE, SIBCANC3F_AGE, SIBCANC3G_AGE, SIBCANC3H_AGE, SIBCANC3I_AGE, SIBCANC3J_AGE, SIBCANC3K_AGE, SIBCANC3L_AGE, SIBCANC3M_AGE, SIBCANC3N_AGE, SIBCANC3O_AGE, SIBCANC3P_AGE, SIBCANC3Q_AGE, SIBCANC3R_AGE, SIBCANC3S_AGE, SIBCANC3T_AGE, SIBCANC3U_AGE, SIBCANC3V_AGE, SIBCANC3W_AGE, SIBCANC3X_AGE, SIBCANC3Y_AGE, SKINCANC3_AGE, STROKE_AGE, SYPH_AGE, THYROID_AGE, TRICH_AGE, UC_AGE, UF_AGE]
@@ -16,7 +16,7 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Thu Nov 2 14:33:40 2023 -0400 (short timestamp = 2023-11-02-18-33-40)
+//This file was last modified on Wed Dec 20 14:28:18 2023 -0500 (short timestamp = 2023-12-20-19-28-18)
 //{"version":"2.2"}
 {"name":"D_745268907_V2"} 
 [INTROM2] In this set of questions we ask about a few topics that affect your health. These topics include your current and past use of medications, your physical activity (including exercise), and your sleep habits.
@@ -26,7 +26,8 @@
 [SECTION1] <b>Medications</b>
 
 First, we will ask you about your current and past use of different medications. This information will help us understand your medical history and current health status.
-When we ask to give an exact amount of pills, please make your best guess if you are not sure. If you take half a pill, please count this as one pill.
+
+When we ask you to give an exact amount of pills, please make your best guess if you are not sure. If you take half a pill, please count this as one pill.
 
 [D_399982309?]<b>Pain Relievers</b>
 
@@ -480,8 +481,8 @@ Or
 [D_643361372?]<b>Acid Suppressive Drugs</b>
 
 Have you ever taken any of these medications at least <b>4 times a month for 6 months or longer</b>? Select all that apply.
-[933374659|prespump] Prescription proton pump inhibitors (such as omeprazole (such as Prilosec® or Zegerid®), esomeprazole (Nexium®), lansoprazole (Prevacid®), rabeprazole (AcipHex), pantoprazole (Protonix®), or dexlansoprazole (Dexilant®)) -> D_172234651
-[920460744|otcpump] Over-the-counter proton pump inhibitors (such as esomeprazole (Nexium®), omeprazole (Prilosec® OTC), omeprazole with sodium bicarbonate (Zegerid®), or lansoprazole (Prevacid® 24HR))  -> D_416865817
+[933374659|prespump]Prescription proton pump inhibitors (such as omeprazole (such as Prilosec® or Zegerid®), esomeprazole (Nexium®), lansoprazole (Prevacid®), rabeprazole (AcipHex), pantoprazole (Protonix®), or dexlansoprazole (Dexilant®)) -> D_172234651
+[920460744|otcpump]Over-the-counter proton pump inhibitors (such as esomeprazole (Nexium®), omeprazole (Prilosec® OTC), omeprazole with sodium bicarbonate (Zegerid®), or lansoprazole (Prevacid® 24HR))  -> D_416865817
 [449861632|otcblkr] Over-the-counter H2 receptor blockers (such as famotidine (Pepcid®, Zantac®, or Tagamet®)) -> D_266752903
 [535003378*] None of the above
 < -> SECTION2 >
@@ -1122,8 +1123,8 @@ In the next set of questions, we ask you about your use of hormones. Some common
 
 [D_621744463?] Have you ever used a hormone prescribed by a doctor or other health professional?
 (353358909) Yes -> D_668834883
-(104430631) No -> SECTION3
-< #NR -> SECTION3 >
+(104430631) No -> WORKACT
+< #NR -> WORKACT >
 
 [D_668834883?] Have you ever taken any of these types of <b>estrogen-only (unopposed estrogen) prescription hormones</b>? Select all that apply.
 [246843973|oralEst] Oral estrogen-only medication (such as Cenestin®, Estrace®, Femtrace®, Menest®, Ogen®, or Premarin®) -> D_856627601
@@ -1494,8 +1495,8 @@ Age |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
 [D_570187182?]
 Have you ever taken any other type(s) of prescription or over-the-counter hormones (or bioidenticals)?
 (353358909) Yes -> D_557526470
-(104430631) No -> SECTION3
-< #NR -> SECTION3 >
+(104430631) No -> WORKACT
+< #NR -> WORKACT >
 
 [D_557526470?]
 What other type(s) of prescription hormones did you take? |__|
@@ -1526,16 +1527,15 @@ In total, how many months OR years have you used |displayif=doesNotEqual(D_55752
 Or, if it is easier to remember years, enter that here:
 #Years |__|__| xor=PRESHOR6 id=D_970604592 min=0 max=sum(isDefined(D_150344905,age),1)|
 
-
-< -> SECTION3 >
-
-[SECTION3]<b>Physical Activity</b>
+[WORKACT] <b>Physical Activity</b>
 
 Next, we will ask you about different types of physical activities. We are interested in activities that you do during a usual day, including at work or around the house. We are also interested in activities that you do specifically for exercise or for fun.
 
 Many of the questions in this section ask you to share the amount of time you spend doing specific activities. If you are not sure of the exact amount of time, please make your best guess.
 
-|grid?|id="D_392658845",displayif=equals(D_613744428,353358909)|<b>Physical Activity at Work</b> <br/><br/>During the <b>past 12 months</b>, about how much time do you usually spend doing these activities while you are <b>at work?</b> For your answers, please think about the time you spend at your job, <b>not counting time traveling to and from work.</b> If you exercise during your workday (such a going on walks or working out during breaks), please <b>include</b> those activities.|[
+|grid?|id="D_392658845" displayif=equals(D_613744428,353358909)|
+
+<b>Physical Activity at Work</b> <br/><br/>During the <b>past 12 months</b>, about how much time do you usually spend doing these activities while you are <b>at work?</b> For your answers, please think about the time you spend at your job, <b>not counting time traveling to and from work.</b> If you exercise during your workday (such a going on walks or working out during breaks), please <b>include</b> those activities.|[
 
 [D_699101535] Sitting with small arm movements (for example, desk or computer work, light assembly, driving, etc.);
 [D_652561589] Standing with some walking (for example, as a store clerk, filing, making copies, walking to/from meetings, working on an assembly line, etc.);
@@ -1561,13 +1561,14 @@ Many of the questions in this section ask you to share the amount of time you sp
 
 The next questions ask about the time you spent outside of work over the <b>past 12 months</b>.
 
-[SITTING] <b>Sitting</b> <br/><br/>During the <b>past 12 months</b>, about how many <b>hours per day</b> did you usually spend doing each of these activities |displayif=valueEquals("D_613744428",353358909)|outside of work|
+[SITTING] <b>Sitting</b> <br/><br/>During the <b>past 12 months</b>, about how many <b>hours per day</b> did you usually spend doing each of these activities|displayif=valueEquals("D_613744428",353358909)| outside of work|?
 
 |grid?|id="D_649352910"|Typical hours per DAY|[
 
-[D_654385712] Driving or sitting in a car, bus or train. <i>This includes commuting to and from work.</i>;
+[D_654385712] Driving or sitting in a car, bus or train. %displayif=equals("D_613744428",353358909)%<i>(This includes commuting to and from work.</i>)%;
 [D_263483736] Sitting and watching television shows, movies, or other video content on a television, tablet, phone, or computer;
-[D_806746224] Sitting and browsing the internet, playing video games, using social media, or using any other apps or programs on a tablet, phone, computer, or television; [D_396649512] Other sitting outside of work (such as for reading, crafts, and hobbies);]|
+[D_806746224] Sitting and browsing the internet, playing video games, using social media, or using any other apps or programs on a tablet, phone, computer, or television;
+[D_396649512] Other sitting outside of work (such as for reading, crafts, and hobbies);]|
 
 (503218834:None)
 (464753847:Less than 30 minutes)
@@ -1584,7 +1585,7 @@ The next questions ask about the time you spent outside of work over the <b>past
 
 [HOUSE1]<b>Household Chores, Caring for Others, and Shopping</b>
 
-During the <b>past 12 months</b>, about how often did you do each of these household or shopping activities |displayif=equals(D_613744428,353358909)|outside of work|?
+During the <b>past 12 months</b>, about how often did you do each of these household or shopping activities|displayif=equals(D_613744428,353358909)| outside of work|?
 
 //displayif for "outside of work" from HOUSE1 can't be added into "grid_HOUSE1" so I can't incorporate the HOUSE1 question into the grid
 |grid?|id="D_733547268"| |[ [D_980120253] Light household chores (such as cooking, tidying up, laundry, or dusting); [D_993029890] Moderate to vigorous household chores (such as vacuuming, or sweeping); [D_980196073] Caring for pets (walking dogs, feeding, playing, grooming); [D_115422925] Caring for children or adults (pushing stroller or wheelchair, lifting, bathing); [D_151161693] Walking while shopping or doing errands (do not count walking for exercise);]|(648960871:Never) (239152340:Once a month or less) (582006876:2 to 3 days a month) (645894551: 1 to 2 days a week) (996315715: 3 to 4 days a week) (671267928: 5 to 6 days a week) (647504893: Every day)|
@@ -1626,7 +1627,7 @@ During <b>the past 12 months</b>, did you do any of these activities|displayif=e
 [690018400] Fall
 < -> D_992022740 >
 
-[D_992022740?,displayif=equals(D_204421360,797221287)] During the season|displayif=doesNotEqual(numberOfChoicesSelected(D_442059084,0),1)|s| in the <b>past 12 months</b> that you did moderate outdoor chores (such as weeding, raking, or mowing the lawn), about how often did you do these chores |displayif=equals(isDefined(D_613744428,353358909),1)|outside of work|?
+[D_992022740?,displayif=equals(D_204421360,797221287)] During the season|displayif=doesNotEqual(numberOfChoicesSelected(D_442059084,0),1)|s| in the <b>past 12 months</b> that you did moderate outdoor chores (such as weeding, raking, or mowing the lawn), about how often did you do these chores|displayif=doesNotEqual(D_613744428,104430631)| outside of work|?
 (239152340) Once a month or less
 (582006876) 2 to 3 days a month
 (645894551) 1 to 2 days a week
@@ -1635,7 +1636,7 @@ During <b>the past 12 months</b>, did you do any of these activities|displayif=e
 (647504893) Every day
 < -> D_429531329 >
 
-[D_429531329?,displayif=equals(D_204421360,797221287)] On the days that you did these moderate outdoor chores (such as weeding, raking, or mowing the lawn) |displayif=equals(isDefined(D_613744428,353358909),1)|outside of work|, about <b>how much time per day</b> did you spend doing these chores?
+[D_429531329?,displayif=equals(D_204421360,797221287)] On the days that you did these moderate outdoor chores (such as weeding, raking, or mowing the lawn)|displayif=doesNotEqual(D_613744428,104430631)| outside of work|, about <b>how much time per day</b> did you spend doing these chores?
 (428999623) 15 minutes or less
 (248303092) 16 to 30 minutes
 (206020811) 31 to 44 minutes
@@ -1651,7 +1652,7 @@ During <b>the past 12 months</b>, did you do any of these activities|displayif=e
 [690018400] Fall
 < -> D_888313306 >
 
-[D_888313306?,displayif=equals(D_204421360,500744195)] During the season|displayif=doesNotEqual(numberOfChoicesSelected(D_829749579,0),1)|s| in the <b>past 12 months</b> that you did these vigorous outdoor chores (such as digging, carrying lumber, or snow shoveling), about how often did you do these chores |displayif=equals(isDefined(D_613744428,353358909),1)|outside of work|?
+[D_888313306?,displayif=equals(D_204421360,500744195)] During the season|displayif=doesNotEqual(numberOfChoicesSelected(D_829749579,0),1)|s| in the <b>past 12 months</b> that you did these vigorous outdoor chores (such as digging, carrying lumber, or snow shoveling), about how often did you do these chores|displayif=doesNotEqual(D_613744428,104430631)| outside of work|?
 (239152340) Once a month or less
 (582006876) 2 to 3 days a month
 (645894551) 1 to 2 days a week
@@ -1660,7 +1661,7 @@ During <b>the past 12 months</b>, did you do any of these activities|displayif=e
 (647504893) Every day
 < -> D_644018981 >
 
-[D_644018981?,displayif=equals(D_204421360,500744195)] On the days that you did these vigorous outdoor chores (such as digging, carrying lumber, or snow shoveling) |displayif=equals(isDefined(D_613744428,353358909),1)|outside of work|, about <b>how much time per day</b> did you spend doing these chores?
+[D_644018981?,displayif=equals(D_204421360,500744195)] On the days that you did these vigorous outdoor chores (such as digging, carrying lumber, or snow shoveling)|displayif=doesNotEqual(D_613744428,104430631)| outside of work|, about <b>how much time per day</b> did you spend doing these chores?
 (428999623) 15 minutes or less
 (248303092) 16 to 30 minutes
 (206020811) 31 to 44 minutes
@@ -1676,7 +1677,7 @@ During <b>the past 12 months</b>, did you do any of these activities|displayif=e
 [690018400] Fall
 < -> D_352531133 >
 
-[D_352531133?,displayif=equals(D_204421360,383015037)] During the season|displayif=doesNotEqual(numberOfChoicesSelected(D_618482103,0),1)|s| in the <b>past 12 months</b> that you did these home repairs (such as painting, plumbing, or replacing carpeting), about how often did you do these repairs |displayif=equals(isDefined(D_613744428,353358909),1)|outside of work|?
+[D_352531133?,displayif=equals(D_204421360,383015037)] During the season|displayif=doesNotEqual(numberOfChoicesSelected(D_618482103,0),1)|s| in the <b>past 12 months</b> that you did these home repairs (such as painting, plumbing, or replacing carpeting), about how often did you do these repairs|displayif=doesNotEqual(D_613744428,104430631)| outside of work|?
 (239152340) Once a month or less
 (582006876) 2 to 3 days a month
 (645894551) 1 to 2 days a week
@@ -1685,7 +1686,7 @@ During <b>the past 12 months</b>, did you do any of these activities|displayif=e
 (647504893) Every day
 < -> D_267261558 >
 
-[D_267261558?,displayif=equals(D_204421360,383015037)] On the days that you did these home repairs (such as painting, plumbing, or replacing carpeting) |displayif=equals(isDefined(D_613744428,353358909),1)|outside of work|, about <b>how much time per day</b> did you spend doing these repairs?
+[D_267261558?,displayif=equals(D_204421360,383015037)] On the days that you did these home repairs (such as painting, plumbing, or replacing carpeting) |displayif=doesNotEqual(D_613744428,104430631)|outside of work|, about <b>how much time per day</b> did you spend doing these repairs?
 (428999623) 15 minutes or less
 (248303092) 16 to 30 minutes
 (206020811) 31 to 44 minutes
@@ -2117,7 +2118,7 @@ During a usual week, is your sleep schedule determined by your job, school, or o
 We have some questions about your sleep schedule on workdays. Workdays include days when you do any type of work that includes a schedule, such as working for pay outside the home or working as a homemaker.
 < -> D_636757313 >
 
-[INTROSLESCH1_1,displayif=doesNotEqual(D_591723682,353358909)]<b>Workdays/Usual Sleep Schedule</b>
+[INTROSLESCH1_1,displayif=doesNotEqual(D_591723682,353358909)]<b>Usual Sleep Schedule</b>
 
  We have some questions about your sleep schedule. Please answer these questions thinking about your usual day.
 
