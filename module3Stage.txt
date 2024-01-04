@@ -26,10 +26,12 @@
 //This file was last modified on Thu Oct 12 11:34:09 2023 -0400 (short timestamp = 2023-10-12-15-34-09)
 //{"version":"1.5"}
 {"name":"D_965707586"}
-
 [INTROM3] The next questions are about your tobacco, nicotine, marijuana, and alcohol use. In the last section, we will ask you about your exposure to the sun and use of tanning beds.
+
 [INTROSMO] <b>Tobacco and Nicotine</b> <br/> <br/> First, we will ask you about your use of tobacco and nicotine products. Many questions will ask you to share the age you were when you started or stopped using a product. Please make your best guess if you are not sure about the age you were when you started or stopped using a product.
+
 Please remember that we protect your privacy. We remove information that can identify you from your survey answers before we share them with researchers.
+
 [D_947205597?] Have you ever used any of these <b>tobacco</b> products, even once? Select all that apply.
 [712653855] Cigarettes (manufactured or hand-rolled)
 [706254326] Electronic delivery devices that can be vaped, such as e-cigarettes; some of the most popular brands include Juul, blu, and NJOY. These electronic delivery devices are battery-powered and create vapor.
@@ -40,6 +42,7 @@ Please remember that we protect your privacy. We remove information that can ide
 [535003378*] I have <b>not</b> used any of these tobacco products
 < #NR-> D_337810964 >
 [D_763164658?,displayif=equals(D_947205597,712653855)]<b>Cigarettes</b>
+
 How many <b>cigarettes</b> have you smoked in your life?
 (151488193) 10 or less -> D_624111331
 (805449318) 11 to 49 -> D_624111331
@@ -135,7 +138,9 @@ On days that you smoked when you were age |displayif=valueOrDefault("D_408696162
 On days that you smoked when you were age |displayif=valueOrDefault("D_150344905","age",1)>=70 and valueOrDefault("D_408696162",1)<70|70||displayif=valueOrDefault("D_408696162",1)>70|{$D_408696162}| or older, about how many cigarettes did you smoke <b>per day</b>?
 #CIGARETTES PER DAY |__|__|min=0 max=99|
 [D_624111331?,displayif=equals(D_947205597,706254326)]<b>Electronic Nicotine Delivery Devices</b>
-The next questions are about electronic nicotine delivery devices, such as e-cigarettes; some of the most popular brands include Juul, blu, and NJOY. These devices are also called "vapes" and using these devices is called "vaping".
+
+The next questions are about electronic nicotine delivery devices, such as e-cigarettes; some of the most popular brands include JUUL, blu, and NJOY. These devices are also called "vapes" and using these devices is called "vaping".
+
 How many days have you used <b>e-cigarettes or other vaping devices for nicotine or tobacco</b> in your life?
 (151488193) 10 or less -> D_182431332
 (805449318) 11 to 49 -> D_182431332
@@ -265,7 +270,9 @@ On days that you used e-cigarettes or other vaping devices for nicotine or tobac
 (127455035) 2 hours or more
 (402752509) Didn’t use e-cigarettes or other vaping devices during this time
 [D_182431332?,displayif=equals(D_947205597,198133418)]<b>Cigars and Cigarillos</b>
+
 The next questions are about your use of cigars, cigarillos, or little filtered cigars. Some of the most popular brands include Macanudo, Romeo y Julieta, Black and Mild, Swisher Sweets, Prime Time, and Cheyenne.
+
 How many <b>cigars, cigarillos, or little filtered cigars</b> have you smoked in your life?
 (151488193) 10 or less -> D_306320432
 (805449318) 11 to 49 -> D_306320432
@@ -350,7 +357,9 @@ On days that you smoked when you were age |displayif=greaterThanOrEqual(isDefine
 On days that you smoked when you were age |displayif=greaterThanOrEqual(isDefined(D_851145096,-1),70)|{$D_851145096}||displayif=lessThan(isDefined(D_851145096,-1),70)|70| or older, about how many cigars, cigarillos, or little filtered cigars did you smoke <b>per day</b>?
 #CIGARS, CIGARILLOS, OR LITTLE FILTERED CIGARS PER DAY |__|__|min=0 max=99|
 [D_306320432?,displayif=equals(D_947205597,817381897)]<b>Smokeless Tobacco</b>
+
 The next questions are about your use of chewing tobacco, snus, snuff, or dip. Some of the most popular brands are Red Man, Levi Garrett, BEECH-NUT, Skoal, and Copenhagen.
+
 How many days have you used <b>chewing tobacco, snus, snuff, or dip</b> in your life?
 (151488193) 10 or less -> D_981755099
 (805449318) 11 to 49 -> D_981755099
@@ -479,7 +488,9 @@ On days that you used chewing tobacco, snus, snuff, or dip when you were age |di
 (127455035) 2 hours or more
 (971933131) Didn’t use chewing tobacco, snus, snuff, or dip during this time
 [D_981755099?,displayif=equals(D_947205597,539648641)]<b>Hookah and Water Pipes</b>
+
 The next questions are about your use of hookahs or water pipes for smoking tobacco.
+
 How many days have you smoked tobacco using a <b>hookah or water pipe</b> in your life?
 (151488193) 10 or less ->  D_559388168
 (805449318) 11 to 49 -> D_559388168
@@ -606,7 +617,9 @@ On days that you smoked a hookah or water pipe when you were age |displayif=grea
 (127455035) 2 hours or more
 (118191655) Didn’t smoke a hookah or water pipe during this time
 [D_559388168?,displayif=equals(D_947205597,686310465)]<b>Tobacco Pipes</b>
+
 The next questions are about your use of tobacco pipes.
+
 How many days have you smoked a <b>tobacco pipe</b> in your life?
 (151488193) 10 or less -> D_337810964
 (805449318) 11 to 49 -> D_337810964
@@ -692,8 +705,11 @@ On days that you smoked when you were age |displayif=greaterThanOrEqual(isDefine
 On days that you smoked when you were age |displayif=greaterThanOrEqual(isDefined(D_663551714,-1),70)|{$D_663551714}||displayif=lessThan(isDefined(D_663551714,-1),70)|70| or older, about how many pipe fills of tobacco did you smoke <b>per day</b>?
 #PIPE FILLS OF TOBACCO PER DAY |__|__|min=0 max=99|
 // TRANSFORMER WARNING --> TOBACCO | this may be an untransformed Quest code
+
 [D_337810964?]<b>Secondhand Smoking</b>
+
 We now have some questions about secondhand smoke.
+
 In <b>the past year</b>, about how often were you around tobacco smoke from other people smoking in your home or at work?
 (647504893) Every day
 (417208949) Most days of the week -> D_738219521
@@ -727,7 +743,7 @@ In <b>the past year</b>, about how often were you around tobacco smoke from othe
 (480609810:One day per week)
 (485011582: A few days per month)
 (865134801: One day per month)
-(667010122: few days per year)
+(667010122: A few days per year)
 (648960871: Never)|
 |grid?|id="D_252017075"|During each of these age ranges, how many people in your household smoked tobacco (such as cigarettes, cigars, or pipes) in your presence? Please do not include yourself.|[
 [D_359443374] Birth to 5 years of age;
@@ -741,6 +757,7 @@ In <b>the past year</b>, about how often were you around tobacco smoke from othe
 (485163252:Four)
 (160036380: Five or more)|
 [INTROMAR] <b>Marijuana</b> <br/> <br/> Next, we will ask you some questions about marijuana (cannabis) use. Many questions will ask you to share the age you were when you started or stopped using a product. Please make your best guess if you are not sure of the age you were when you started or stopped using a product.
+
 Please remember that we protect your privacy. We remove information that can identify you from your survey answers before we share them with researchers.
 [D_830608495?] Have you ever used any of these <b>marijuana</b> products, even once? Select all that apply.
 [760521319] Smoking marijuana (such as joints, pipes, bowls, or bongs)
@@ -751,6 +768,7 @@ Please remember that we protect your privacy. We remove information that can ide
 [535003378*] I have <b>not</b> used any of these marijuana products
 < #NR->  INTROALC>
 [SMMAR,displayif=equals(D_830608495,760521319)]<b>Smoking Marijuana (Such as Joints, Pipes, Bowls, or Bongs)</b>
+
 The next questions are about smoking marijuana (such as joints, pipes, bowls, or bongs). These questions do not include your use of electronic delivery devices or smoking a combination of marijuana with tobacco. Please answer using information from your experiences smoking marijuana (such as joints, pipes, bowls, or bongs) only.
 [D_319397722?,displayif=equals(D_830608495,760521319)] How many days have you <b>smoked marijuana</b> in your life?
 (151488193) 10 or less -> D_524914900
@@ -884,7 +902,9 @@ On days that you smoked marijuana when you were age |displayif=greaterThanOrEqua
 (127455035) 2 hours or more
 (347968905) Didn’t smoke marijuana during this time
 [D_524914900?,displayif=equals(D_830608495,158841370)]<b>Smoking a Combination of Marijuana with Tobacco (Including Blunts, Spliffs, Hollowed Out Cigars or Cigarillos Filled with Marijuana)</b>
+
 Next we have some questions about your use of a combination of marijuana with tobacco (including blunts, spliffs, or hollowed out cigars or cigarillos filled with marijuana).
+
 How many <b>marijuana products with tobacco</b> have you smoked in your life?
 (151488193) 10 or less -> D_325229459
 (805449318) 11 to 49 -> D_325229459
@@ -969,7 +989,9 @@ On days that you smoked when you were age |displayif=greaterThanOrEqual(isDefine
 On days that you smoked when you were age |displayif=greaterThanOrEqual(isDefined(D_628818510,-1),70)|{$D_628818510}||displayif=lessThan(isDefined(D_628818510,-1),70)|70| or older, about how many times did you smoke a combination of marijuana with tobacco <b>per day</b>?
 #TIMES PER DAY |__|__|min=0 max=99|
 [D_325229459?,displayif=equals(D_830608495,349034127)]<b>Electronic Delivery Devices </b>
+
 The following questions ask about your use of electronic marijuana delivery devices that can be vaped, such as vape pens or pod-mods. These electronic devices sometimes look like regular cigarettes but are battery-powered and create vapor instead of smoke.
+
 How many days have you used an <b>electronic delivery device</b> for vaping marijuana in your life?
 (151488193) 10 or less -> D_101170268
 (805449318) 11 to 49 -> D_101170268
@@ -1102,7 +1124,9 @@ On days that you used electronic marijuana delivery devices when you were age |d
 (127455035) 2 hours or more
 (352316035) Didn’t use electronic marijuana delivery devices during this time
 [D_101170268?,displayif=equals(D_830608495,713594719)]<b>Consuming Marijuana in Foods or Drinks</b>
+
 The next questions are about consuming marijuana in food or drinks.
+
 How many days have you <b>consumed marijuana in food or drinks</b> in your life?
 (151488193) 10 or less ->  D_355689185
 (805449318) 11 to 49 -> D_355689185
@@ -1189,7 +1213,9 @@ On days that you consumed marijuana in food or drinks when you were age |display
 On days that you consumed marijuana in food or drinks when you were age |displayif=greaterThanOrEqual(isDefined(D_622843252,-1),70)|{$D_622843252}||displayif=lessThan(isDefined(D_622843252,-1),70)|70| or older, about how many servings did you have <b>per day</b>?
 #SERVINGS PER DAY |__|__|min=0 max=99|
 [D_355689185?,displayif=equals(D_830608495,675129470)]<b>THC Concentrates via Dabbing (Such as Wax, Shatter, Butter, Hash, or Kief)</b>
+
 The next questions are about your use of THC concentrates via dabbing (such as wax, shatter, butter, hash, or kief).
+
 How many days have you used <b>THC concentrates via dabbing</b> in your life?
 (151488193) 10 or less -> INTROALC
 (805449318) 11 to 49 -> INTROALC
@@ -1277,7 +1303,9 @@ On days that you used THC concentrates via dabbing when you were age |displayif=
 #SERVINGS PER DAY |__|__|min=0 max=99|
 
 [INTROALC]<b>Alcohol</b> <br/> <br/>  Next, we will ask you some questions about your alcohol use. Many questions will ask you to share the age you were when you started or stopped using a product. Please make your best guess if you are not sure of the age you were when you started or stopped using a product.
+
 Please remember that we protect your privacy. We remove information that can identify you from your survey answers before we share them with researchers.
+
 [D_448968121?] Have you ever had an <b>alcoholic beverage</b> (beer, wine, wine cooler, liquor, cocktail, or a mixed drink) in your life?
 (353358909) Yes -> D_429228540
 (104430631) No -> INTROSE
@@ -1317,10 +1345,11 @@ Age last drank alcohol |__|__|min=isDefined(isDefined(D_141874857,D_250456537),0
 [549079588] Beer or hard cider
 [896953195] Liquor or mixed drinks
 [889023234] Wine
-[181769837] Other (such as wine coolers, "hard soda," spiked seltzer (sparkling water), Smirnoff Ice, malt liquor, or pre-mixed cocktails)
+[181769837] Other (such as wine coolers, "hard soda," spiked seltzer (sparkling water), Smirnoff® Ice, malt liquor, or pre-mixed cocktails)
 < #NR -> D_254739443>
 
 [D_726847824?,displayif=equals(D_447720598,549079588)]<b>Beer and Hard Cider</b>
+
 Over the <b>past 12 months</b>, how often did you usually drink <b>beer or hard cider</b>?
 (595249233) Less than once per month
 (637900673) Once per month
@@ -1339,6 +1368,7 @@ Over the <b>past 12 months</b>, how often did you usually drink <b>beer or hard 
 (411022152) 6 or more beers
 
 [D_411088265?,displayif=equals(D_447720598,896953195)]<b>Liquor and Mixed Drinks</b>
+
 Over the <b>past 12 months</b>, how often did you usually drink <b>liquor or mixed drinks</b>?
 (595249233) Less than once per month
 (637900673) Once per month
@@ -1357,6 +1387,7 @@ Over the <b>past 12 months</b>, how often did you usually drink <b>liquor or mix
 (413495952) 6 or more shots
 
 [D_178665310?,displayif=equals(D_447720598,889023234)]<b>Wine</b>
+
 Over the <b>past 12 months</b>, how often did you usually drink <b>wine</b>?
 (595249233) Less than once per month
 (637900673) Once per month
@@ -1375,7 +1406,8 @@ Over the <b>past 12 months</b>, how often did you usually drink <b>wine</b>?
 (355205294) 6 or more glasses
 
 [D_228752045?,displayif=equals(D_447720598,181769837)]<b>Other Alcoholic Beverages</b>
-Over the <b>past 12 months</b>, how often did you usually drink <b>other alcoholic beverages</b> (such as wine coolers, "hard soda", spiked sparkling water, Smirnoff Ice, malt liquor, or pre-mixed cocktails)?
+
+Over the <b>past 12 months</b>, how often did you usually drink <b>other alcoholic beverages</b> (such as wine coolers, "hard soda", spiked sparkling water, Smirnoff® Ice, malt liquor, or pre-mixed cocktails)?
 (595249233) Less than once per month
 (637900673) Once per month
 (207952166) 2 to 3 times per month
@@ -1384,7 +1416,7 @@ Over the <b>past 12 months</b>, how often did you usually drink <b>other alcohol
 (594557208) 5 to 6 times per week
 (647504893) Every day
 
-[D_103045461?,displayif=equals(D_447720598,181769837)]  Over the <b>past 12 months</b>, on the days that you drank other alcoholic beverages, how many servings of these beverages (such as wine coolers, "hard soda", spiked seltzer (sparkling water), Smirnoff Ice, malt liquor, or pre-mixed cocktails) did you drink <b>per day</b>?
+[D_103045461?,displayif=equals(D_447720598,181769837)]  Over the <b>past 12 months</b>, on the days that you drank other alcoholic beverages, how many servings of these beverages (such as wine coolers, "hard soda", spiked seltzer (sparkling water), Smirnoff® Ice, malt liquor, or pre-mixed cocktails) did you drink <b>per day</b>?
 (968093023) 1 serving
 (545630587) 2 servings
 (526602834) 3 servings
@@ -1446,11 +1478,12 @@ Over the <b>past 12 months</b>, how often did you usually drink <b>other alcohol
     [789689151:Beer or hard cider]
     [663253668:Liquor or mixed drinks]
     [104676242:Wine]
-    [137733407:Other alcoholic beverages (such as wine coolers, "hard soda," spiked seltzer (sparkling water), Smirnoff Ice, malt liquor, or pre-mixed cocktails)]
+    [137733407:Other alcoholic beverages (such as wine coolers, "hard soda," spiked seltzer (sparkling water), Smirnoff® Ice, malt liquor, or pre-mixed cocktails)]
     |
 
 
 [INTROSE]<b>Sun Exposure </b>
+
 In the final set of questions, we ask about your exposure to the sun and use of tanning beds.
 
 [D_863593410?] After several months of not being in the sun, what would happen to your skin if you spent an hour in the summer sun <b>without</b> sunscreen?
