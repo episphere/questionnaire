@@ -1,4 +1,4 @@
-// This file was transformed using the mapping data in Quest-2023-11-01-19-54-51_Transformation.json.
+// This file was transformed using the mapping data in Quest-2023-12-26-16-50-55_Transformation.json.
 
 // JSON WARNING --> Concept ID 101310722 with concept "# Pills per day" is shared between these Textbox codes: [ACIDSUP3_1A, ACIDSUP3_2A, ACIDSUP3_3A, CHOLHTN3_1A, CHOLHTN3_2A, INSULIN3_1A, METFOR3_1A, PAINREL3_1A, PAINREL3_2A, PAINREL3_3A, PAINREL3_4A, PAINREL3_5A, PAINREL3_6A, PAINREL3_7A]
 // JSON WARNING --> Concept ID 206625031 with concept "Age at diagnosis" is shared between these Textbox codes: [ANEMIA_AGE, ARRHYT_AGE, ASTHMA_AGE, BARESO_AGE, BLOODCLOT_AGE, BREASTDIS_AGE, CCD_AGE, CD_AGE, CHESTPAIN_AGE, CHF_AGE, CHILDCANC3A_AGE, CHILDCANC3B_AGE, CHILDCANC3C_AGE, CHILDCANC3D_AGE, CHILDCANC3E_AGE, CHILDCANC3F_AGE, CHILDCANC3G_AGE, CHILDCANC3H_AGE, CHILDCANC3I_AGE, CHILDCANC3J_AGE, CHILDCANC3K_AGE, CHILDCANC3L_AGE, CHILDCANC3M_AGE, CHILDCANC3N_AGE, CHILDCANC3O_AGE, CHILDCANC3P_AGE, CHILDCANC3Q_AGE, CHILDCANC3R_AGE, CHILDCANC3S_AGE, CHILDCANC3T_AGE, CHILDCANC3U_AGE, CHILDCANC3V_AGE, CHILDCANC3W_AGE, CHILDCANC3X_AGE, CHILDCANC3Y_AGE, CHLA_AGE, CHOL_AGE, CKD_AGE, COPD_AGE, CVD_AGE, DADCANC3A_AGE, DADCANC3B_AGE, DADCANC3C_AGE, DADCANC3D_AGE, DADCANC3E_AGE, DADCANC3F_AGE, DADCANC3G_AGE, DADCANC3H_AGE, DADCANC3I_AGE, DADCANC3J_AGE, DADCANC3K_AGE, DADCANC3L_AGE, DADCANC3M_AGE, DADCANC3N_AGE, DADCANC3O_AGE, DADCANC3P_AGE, DADCANC3Q_AGE, DADCANC3R_AGE, DADCANC3S_AGE, DADCANC3T_AGE, DADCANC3U_AGE, DADCANC3V_AGE, DCIS_AGE, DEPRESS2_AGE, DIVERT_AGE, DM2_AGE, ENDO_AGE, ENLGPROS_AGE, GALL_AGE, GENWARTS_AGE, GERD_AGE, GONORR_AGE, GOUT_AGE, GRAVES_AGE, HAYFEVER_AGE, HBVHCV_AGE, HEARTATT_AGE, HEARTVALV_AGE, HIVAIDS_AGE, HPV_AGE, HTN_AGE, IBD_AGE, IBS_AGE, KIDNEY_AGE, LIVCIRR_AGE, LUPUS_AGE, MOMCANC3A_AGE, MOMCANC3B_AGE, MOMCANC3C_AGE, MOMCANC3D_AGE, MOMCANC3E_AGE, MOMCANC3F_AGE, MOMCANC3G_AGE, MOMCANC3H_AGE, MOMCANC3I_AGE, MOMCANC3J_AGE, MOMCANC3K_AGE, MOMCANC3L_AGE, MOMCANC3M_AGE, MOMCANC3N_AGE, MOMCANC3O_AGE, MOMCANC3P_AGE, MOMCANC3Q_AGE, MOMCANC3R_AGE, MOMCANC3S_AGE, MOMCANC3T_AGE, MOMCANC3U_AGE, MOMCANC3V_AGE, MOMCANC3W_AGE, MONO_AGE, PANCREA_AGE, PCOS_AGE, RA_AGE, SHINGLES_AGE, SIBCANC3A_AGE, SIBCANC3B_AGE, SIBCANC3C_AGE, SIBCANC3D_AGE, SIBCANC3E_AGE, SIBCANC3F_AGE, SIBCANC3G_AGE, SIBCANC3H_AGE, SIBCANC3I_AGE, SIBCANC3J_AGE, SIBCANC3K_AGE, SIBCANC3L_AGE, SIBCANC3M_AGE, SIBCANC3N_AGE, SIBCANC3O_AGE, SIBCANC3P_AGE, SIBCANC3Q_AGE, SIBCANC3R_AGE, SIBCANC3S_AGE, SIBCANC3T_AGE, SIBCANC3U_AGE, SIBCANC3V_AGE, SIBCANC3W_AGE, SIBCANC3X_AGE, SIBCANC3Y_AGE, SKINCANC3_AGE, STROKE_AGE, SYPH_AGE, THYROID_AGE, TRICH_AGE, UC_AGE, UF_AGE]
@@ -16,10 +16,9 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Thu Nov 9 16:05:31 2023 -0500 (short timestamp = 2023-11-09-21-05-31)
+//This file was last modified on Tue Jan 9 10:18:43 2024 -0500 (short timestamp = 2024-01-09-15-18-43)
 //{"version":"3.0"}
-{"name":"D_726699695_V2"} 
-
+{"name":"D_726699695_V2"}  
 [INTROM1] Welcome, {$u:firstName}! This survey is split into sections. Each section has questions that ask you about a wide range of topics. Our goal is to collect information about your medical history, family, work, and health behaviors. You can answer all of the questions in each survey section at one time, or answer some questions, pause, and return to answer the rest later. If you pause, your answers will be saved and you can pick up where you left off. You can also skip any questions that you do not want to answer.
 For some questions, you may see a word or phrase that appears as a button. Clicking the button will show more information that might help you answer the question. Here is an |popup|example.|example|This is an example of how additional information will be displayed.|
 Let’s get started.
@@ -1454,7 +1453,7 @@ Or, if it is easier to remember the year, enter that here:<br/>
 |__|__|__|__|xor=MOMCANC3U id=D_261863326 min=1800 max=#currentYear| Year of diagnosis
 
 
-[D_882263738?,displayif=equals(D_814510313,807835037)] How old was your mother when they were <b>first</b> told by a doctor or other health professional that they have or had |displayif=valueLength("D_677702321")>0|<b>{$D_677702321}</b>||displayif=doesNotExist("D_677702321")|<b>another type of cancer</b>| ?<br/>
+[D_882263738?,displayif=valueIsOneOf("D_814510313",807835037) or valueLength("D_677702321")>0] How old was your mother when they were <b>first</b> told by a doctor or other health professional that they have or had |displayif=valueLength("D_677702321")>0|<b>{$D_677702321}</b>||displayif=doesNotExist("D_677702321")|<b>another type of cancer</b>| ?<br/>
 |__|__|__|xor=MOMCANC3V id=D_206625031 min=0 max=valueOrDefault("D_378988419","D_807765962",125)| Age at diagnosis
 
 Or, if it is easier to remember the year, enter that here:<br/>
@@ -1654,7 +1653,7 @@ Or, if it is easier to remember the year, enter that here:<br/>
 |__|__|__|__|xor=DADCANC3T id=D_261863326 min=1800 max=#currentYear| Year of diagnosis
 
 
-[D_864981804?,displayif=equals(D_173240848,807835037)] How old was your father when they were <b>first</b> told by a doctor or other health professional that they have or had |displayif=valueLength("D_195093589")>0|<b>{$D_195093589}</b>||displayif=doesNotExist("D_195093589")|<b>another type of cancer</b>| ?<br/>
+[D_864981804?,displayif=valueIsOneOf("D_173240848",807835037) or valueLength("D_195093589")>0] How old was your father when they were <b>first</b> told by a doctor or other health professional that they have or had |displayif=valueLength("D_195093589")>0|<b>{$D_195093589}</b>||displayif=doesNotExist("D_195093589")|<b>another type of cancer</b>| ?<br/>
 |__|__|__|xor=DADCANC3U id=D_206625031 min=0 max=valueOrDefault("D_334956961","D_517670352",125)| Age at diagnosis
 
 Or, if it is easier to remember the year, enter that here:<br/>
@@ -1900,19 +1899,19 @@ Or, if it is easier to remember the year, enter that here:  <br/>
 |__|__|__|__| xor=SIBCANC3W id=D_261863326 min=1800 max=#currentYear| Year of diagnosis
 
 
-[D_247160067?,displayif=equals(D_578895128,807835037)] How old was |displayif=equals(isNotDefined(D_406098499,false),false)|{$D_406098499}||displayif=doesNotEqual(isNotDefined(D_406098499,false),false)|your sibling| when they were <b>first</b> told by a doctor or other health professional that they have or had |displayif=exists("D_957429734")|<b>{$D_957429734}</b>||displayif=doesNotExist("D_957429734")|<b>another type of cancer</b>|?<br/>
+[D_247160067?] How old was |displayif=equals(isNotDefined(D_406098499,false),false)|{$D_406098499}||displayif=doesNotEqual(isNotDefined(D_406098499,false),false)|your sibling| when they were <b>first</b> told by a doctor or other health professional that they have or had |displayif=exists("D_957429734")|<b>{$D_957429734}</b>||displayif=doesNotExist("D_957429734")|<b>another type of cancer</b>|?<br/>
 |__|__|__|__|xor=SIBCANC3X id=D_206625031 min=0 max=valueOrDefault("D_478706011","D_338020179",125)| Age at diagnosis
 
 Or, if it is easier to remember the year, enter that here: <br/>
 |__|__|__|__|  xor=SIBCANC3X id=D_261863326 min=1800 max=#currentYear| Year of diagnosis
 
-[D_312545873?,displayif=equals(D_578895128,178420302)] How old was |displayif=equals(isNotDefined(D_406098499,false),false)|{$D_406098499}||displayif=doesNotEqual(isNotDefined(D_406098499,false),false)|your sibling| when they were <b>first</b> told by a doctor or other health professional that they have or had <b>cancer</b>?<br/>
+[D_312545873?] How old was |displayif=equals(isNotDefined(D_406098499,false),false)|{$D_406098499}||displayif=doesNotEqual(isNotDefined(D_406098499,false),false)|your sibling| when they were <b>first</b> told by a doctor or other health professional that they have or had <b>cancer</b>?<br/>
 |__|__|__|__|xor=SIBCANC3Y id=D_206625031 min=0 max=valueOrDefault("D_478706011","D_338020179",125)| Age at diagnosis
 
 Or, if it is easier to remember the year, enter that here: <br/>
 |__|__|__|__|  xor=SIBCANC3Y id=D_261863326 min=1800 max=#currentYear| Year of diagnosis
 
-[SIBSUM,displayif=selectionCount("D_578895128",true)>0] Here is a summary of the information you shared about this sibling. If any of the information is incorrect, please select the “Back” button to update your responses. If all of the information is correct, please select the “Next” button to move forward.
+[SIBSUM,displayif=selectionCount("D_578895128",true)>0 or valueLength("D_957429734")>0] Here is a summary of the information you shared about this sibling. If any of the information is incorrect, please select the “Back” button to update your responses. If all of the information is correct, please select the “Next” button to move forward.
 
 	Name/Nickname: |displayif=valueLength("D_406098499")>0|{$D_406098499}|<br/>
 	Sex: |displayif=equals(D_579563781,536341288)|Female||displayif=equals(D_579563781,654207589)|Male||displayif=equals(D_579563781,576796184)|Intersex or other||displayif=equals(D_579563781,178420302)|Don't Know|<br/>
@@ -2172,20 +2171,20 @@ Or, if it is easier to remember the year, enter that here: <br/>
 |__|__|__|__| xor=CHILDCANC3W id=D_261863326 min=1800 max=#currentYear| Year of diagnosis
 
 
-[D_278159347?,displayif=equals(D_812370563,807835037)] How old was |displayif=equals(isNotDefined(D_714001034,false),false)|{$D_714001034}||displayif=doesNotEqual(isNotDefined(D_714001034,false),false)|your child| when they were <b>first</b> told by a doctor or other health professional that they have or had |displayif=valueLength("D_933110091")>0|<b>{$D_933110091}</b>||displayif=doesNotExist("D_933110091")|<b>another type of cancer</b>|?<br/>
+[D_278159347?] How old was |displayif=equals(isNotDefined(D_714001034,false),false)|{$D_714001034}||displayif=doesNotEqual(isNotDefined(D_714001034,false),false)|your child| when they were <b>first</b> told by a doctor or other health professional that they have or had |displayif=valueLength("D_933110091")>0|<b>{$D_933110091}</b>||displayif=doesNotExist("D_933110091")|<b>another type of cancer</b>|?<br/>
 |__|__|__|__|xor=CHILDCANC3X id=D_206625031 min=0 max=valueOrDefault("D_299300933","D_182786508",125)| Age at diagnosis
 
 Or, if it is easier to remember the year, enter that here: <br/>
 |__|__|__|__| xor=CHILDCANC3X id=D_261863326 min=1800 max=#currentYear| Year of diagnosis
 
 
-[D_845219872?,displayif=equals(D_812370563,178420302)] How old was |displayif=equals(isNotDefined(D_714001034,false),false)|{$D_714001034}||displayif=doesNotEqual(isNotDefined(D_714001034,false),false)|your child| when they were <b>first</b> told by a doctor or other health professional that they have or had <b>cancer</b>?<br/>
+[D_845219872?] How old was |displayif=equals(isNotDefined(D_714001034,false),false)|{$D_714001034}||displayif=doesNotEqual(isNotDefined(D_714001034,false),false)|your child| when they were <b>first</b> told by a doctor or other health professional that they have or had <b>cancer</b>?<br/>
 |__|__|__|__|xor=CHILDCANC3Y id=D_206625031 min=0 max=valueOrDefault("D_299300933","D_182786508",125)| Age at diagnosis
 
 Or, if it is easier to remember the year, enter that here:<br/> 
 |__|__|__|__| xor=CHILDCANC3Y id=D_261863326 min=1800 max=#currentYear| Year of diagnosis
 
-[CHILDSUM,displayif=selectionCount("D_812370563",true)>0] Here is a summary of the information you shared about this child. If any of the information is incorrect, please select the “Back” button to update your responses. If all of the information is correct, please select the “Next” button to move forward.
+[CHILDSUM,displayif=selectionCount("D_812370563",true)>0 or valueLength("D_933110091")>0] Here is a summary of the information you shared about this child. If any of the information is incorrect, please select the “Back” button to update your responses. If all of the information is correct, please select the “Next” button to move forward.
 
 	Name/Nickname: |displayif=valueLength("D_714001034")>0|{$D_714001034}|<br/>
 	Sex: |displayif=equals(D_887697329,536341288)|Female||displayif=equals(D_887697329,654207589)|Male||displayif=equals(D_887697329,576796184)|Intersex or other||displayif=equals(D_887697329,178420302)|Don't Know|<br/>
