@@ -16,9 +16,9 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Wed Dec 20 14:28:18 2023 -0500 (short timestamp = 2023-12-20-19-28-18)
+//This file was last modified on Sun Jan 14 12:16:45 2024 -0500 (short timestamp = 2024-01-14-17-16-45)
 //{"version":"2.2"}
-{"name":"D_745268907_V2"} 
+{"name":"D_745268907_V2"}
 [INTROM2] In this set of questions we ask about a few topics that affect your health. These topics include your current and past use of medications, your physical activity (including exercise), and your sleep habits.
 
 |displayif=or(equals(D_407056417,536341288),and(equals(D_407056417,576796184),or(equals(D_750420077,578416151),equals(D_750420077,434651539))))|We also ask some questions about your reproductive health. These questions will focus mainly on your menstrual periods, pregnancies, and if you have used any hormonal medications.|
@@ -1557,13 +1557,12 @@ Many of the questions in this section ask you to share the amount of time you sp
 // < #NR -> INTROSITTING >
 
 
-[INTROSITTING]<b>Sitting</b>
+[INTROSITTING,displayif=valueEquals("D_613744428",353358909)]<b>Sitting</b>
 
 The next questions ask about the time you spent outside of work over the <b>past 12 months</b>.
 
-[SITTING] <b>Sitting</b> <br/><br/>During the <b>past 12 months</b>, about how many <b>hours per day</b> did you usually spend doing each of these activities|displayif=valueEquals("D_613744428",353358909)| outside of work|?
 
-|grid?|id="D_649352910"|Typical hours per DAY|[
+|grid?|id="D_649352910"|During the <b>past 12 months</b>, about how many <b>hours per day</b> did you usually spend doing each of these activities%displayif=valueEquals("D_613744428",353358909)% outside of work%?<p>|[
 
 [D_654385712] Driving or sitting in a car, bus or train. %displayif=equals("D_613744428",353358909)%<i>(This includes commuting to and from work.</i>)%;
 [D_263483736] Sitting and watching television shows, movies, or other video content on a television, tablet, phone, or computer;
@@ -1585,22 +1584,31 @@ The next questions ask about the time you spent outside of work over the <b>past
 
 [HOUSE1]<b>Household Chores, Caring for Others, and Shopping</b>
 
-During the <b>past 12 months</b>, about how often did you do each of these household or shopping activities|displayif=equals(D_613744428,353358909)| outside of work|?
+|grid?|id="D_733547268"|During the <b>past 12 months</b>, about how often did you do each of these household or shopping activities%displayif=equals(D_613744428,353358909)% outside of work%?|[ 
 
-//displayif for "outside of work" from HOUSE1 can't be added into "grid_HOUSE1" so I can't incorporate the HOUSE1 question into the grid
-|grid?|id="D_733547268"| |[ [D_980120253] Light household chores (such as cooking, tidying up, laundry, or dusting); [D_993029890] Moderate to vigorous household chores (such as vacuuming, or sweeping); [D_980196073] Caring for pets (walking dogs, feeding, playing, grooming); [D_115422925] Caring for children or adults (pushing stroller or wheelchair, lifting, bathing); [D_151161693] Walking while shopping or doing errands (do not count walking for exercise);]|(648960871:Never) (239152340:Once a month or less) (582006876:2 to 3 days a month) (645894551: 1 to 2 days a week) (996315715: 3 to 4 days a week) (671267928: 5 to 6 days a week) (647504893: Every day)|
+[D_980120253] Light household chores (such as cooking, tidying up, laundry, or dusting); 
+[D_993029890] Moderate to vigorous household chores (such as vacuuming, or sweeping);
+[D_980196073] Caring for pets (walking dogs, feeding, playing, grooming);
+[D_115422925] Caring for children or adults (pushing stroller or wheelchair, lifting, bathing); 
+[D_151161693] Walking while shopping or doing errands (do not count walking for exercise);
+]|
 
-|grid?|id="D_128705365" displayif=or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(equals(D_980120253_1,1),equals(D_980120253_2,1)),equals(D_980120253_3,1)),equals(D_980120253_4,1)),equals(D_980120253_5,1)),equals(D_980120253_6,1)),equals(D_993029890_1,1)),equals(D_993029890_2,1)),equals(D_993029890_3,1)),equals(D_993029890_4,1)),equals(D_993029890_5,1)),equals(D_993029890_6,1)),equals(D_980196073_1,1)),equals(D_980196073_2,1)),equals(D_980196073_3,1)),equals(D_980196073_4,1)),equals(D_980196073_5,1)),equals(D_980196073_6,1)),equals(D_115422925_1,1)),equals(D_115422925_2,1)),equals(D_115422925_3,1)),equals(D_115422925_4,1)),equals(D_115422925_5,1)),equals(D_115422925_6,1)),equals(D_151161693_1,1)),equals(D_151161693_2,1)),equals(D_151161693_3,1)),equals(D_151161693_4,1)),equals(D_151161693_5,1)),equals(D_151161693_6,1)) |On the days that you did these household or shopping activities, about how much time per day did you spend doing each activity? |[
+(648960871:Never) 
+(239152340:Once a month or less) 
+(582006876:2 to 3 days a month) 
+(645894551: 1 to 2 days a week) 
+(996315715: 3 to 4 days a week)
+(671267928: 5 to 6 days a week)
+(647504893: Every day)
+|
 
-    [D_607323377,displayif=or(or(or(or(or(equals(D_980120253_1,1),equals(D_980120253_2,1)),equals(D_980120253_3,1)),equals(D_980120253_4,1)),equals(D_980120253_5,1)),equals(D_980120253_6,1))] Light household chores (cooking, cleaning up, laundry, dusting, etc.);
+|grid?|id="D_128705365" displayif=someSelected("D_980120253_1","D_980120253_2","D_980120253_3","D_980120253_4","D_980120253_5","D_980120253_6","D_993029890_1","D_993029890_2","D_993029890_3","D_993029890_4","D_993029890_5","D_993029890_6","D_980196073_1","D_980196073_2","D_980196073_3","D_980196073_4","D_980196073_5","D_980196073_6","D_115422925_1","D_115422925_2","D_115422925_3","D_115422925_4","D_115422925_5","D_115422925_6","D_151161693_1","D_151161693_2","D_151161693_3","D_151161693_4","D_151161693_5","D_151161693_6")|On the days that you did these household or shopping activities, about how much time per day did you spend doing each activity? |[
 
-    [D_491484323,displayif=or(or(or(or(or(equals(D_993029890_1,1),equals(D_993029890_2,1)),equals(D_993029890_3,1)),equals(D_993029890_4,1)),equals(D_993029890_5,1)),equals(D_993029890_6,1))] Moderate to vigorous household chores (vacuuming, sweeping, etc.);
-
-    [D_588637585,displayif=or(or(or(or(or(equals(D_980196073_1,1),equals(D_980196073_2,1)),equals(D_980196073_3,1)),equals(D_980196073_4,1)),equals(D_980196073_5,1)),equals(D_980196073_6,1))] Caring for pets (walking dogs, feeding, playing, grooming);
-
-    [D_199039940,displayif=or(or(or(or(or(equals(D_115422925_1,1),equals(D_115422925_2,1)),equals(D_115422925_3,1)),equals(D_115422925_4,1)),equals(D_115422925_5,1)),equals(D_115422925_6,1))] Caring for children or adults (pushing stroller or wheelchair, lifting, bathing);
-
-    [D_986476579,displayif=or(or(or(or(or(equals(D_151161693_1,1),equals(D_151161693_2,1)),equals(D_151161693_3,1)),equals(D_151161693_4,1)),equals(D_151161693_5,1)),equals(D_151161693_6,1))] Walking while shopping or doing errands (Do not count walking for exercise);
+    [D_607323377,displayif=someSelected("D_980120253_1","D_980120253_2","D_980120253_3","D_980120253_4","D_980120253_5","D_980120253_6")] Light household chores (cooking, cleaning up, laundry, dusting, etc.);
+    [D_491484323,displayif=someSelected("D_993029890_1","D_993029890_2","D_993029890_3","D_993029890_4","D_993029890_5","D_993029890_6")] Moderate to vigorous household chores (vacuuming, sweeping, etc.);
+    [D_588637585,displayif=someSelected("D_980196073_1","D_980196073_2","D_980196073_3","D_980196073_4","D_980196073_5","D_980196073_6")] Caring for pets (walking dogs, feeding, playing, grooming);
+    [D_199039940,displayif=someSelected("D_115422925_1","D_115422925_2","D_115422925_3","D_115422925_4","D_115422925_5","D_115422925_6")] Caring for children or adults (pushing stroller or wheelchair, lifting, bathing);
+    [D_986476579,displayif=someSelected("D_151161693_1","D_151161693_2","D_151161693_3","D_151161693_4","D_151161693_5","D_151161693_6")] Walking while shopping or doing errands (Do not count walking for exercise);
 ]|
     (428999623: 15 minutes or less)
     (248303092: 16 to 30 minutes)
@@ -1627,7 +1635,7 @@ During <b>the past 12 months</b>, did you do any of these activities|displayif=e
 [690018400] Fall
 < -> D_992022740 >
 
-[D_992022740?,displayif=equals(D_204421360,797221287)] During the season|displayif=doesNotEqual(numberOfChoicesSelected(D_442059084,0),1)|s| in the <b>past 12 months</b> that you did moderate outdoor chores (such as weeding, raking, or mowing the lawn), about how often did you do these chores|displayif=doesNotEqual(D_613744428,104430631)| outside of work|?
+[D_992022740?,displayif=equals(D_204421360,797221287)] During the season|displayif=doesNotEqual(numberOfChoicesSelected(D_442059084,0),1)|s| in the <b>past 12 months</b> that you did moderate outdoor chores (such as weeding, raking, or mowing the lawn), about how often did you do these chores|displayif=equals(D_613744428,353358909)| outside of work|?
 (239152340) Once a month or less
 (582006876) 2 to 3 days a month
 (645894551) 1 to 2 days a week
@@ -1636,7 +1644,7 @@ During <b>the past 12 months</b>, did you do any of these activities|displayif=e
 (647504893) Every day
 < -> D_429531329 >
 
-[D_429531329?,displayif=equals(D_204421360,797221287)] On the days that you did these moderate outdoor chores (such as weeding, raking, or mowing the lawn)|displayif=doesNotEqual(D_613744428,104430631)| outside of work|, about <b>how much time per day</b> did you spend doing these chores?
+[D_429531329?,displayif=equals(D_204421360,797221287)] On the days that you did these moderate outdoor chores (such as weeding, raking, or mowing the lawn)|displayif=equals(D_613744428,353358909)| outside of work|, about <b>how much time per day</b> did you spend doing these chores?
 (428999623) 15 minutes or less
 (248303092) 16 to 30 minutes
 (206020811) 31 to 44 minutes
@@ -1652,7 +1660,7 @@ During <b>the past 12 months</b>, did you do any of these activities|displayif=e
 [690018400] Fall
 < -> D_888313306 >
 
-[D_888313306?,displayif=equals(D_204421360,500744195)] During the season|displayif=doesNotEqual(numberOfChoicesSelected(D_829749579,0),1)|s| in the <b>past 12 months</b> that you did these vigorous outdoor chores (such as digging, carrying lumber, or snow shoveling), about how often did you do these chores|displayif=doesNotEqual(D_613744428,104430631)| outside of work|?
+[D_888313306?,displayif=equals(D_204421360,500744195)] During the season|displayif=doesNotEqual(numberOfChoicesSelected(D_829749579,0),1)|s| in the <b>past 12 months</b> that you did these vigorous outdoor chores (such as digging, carrying lumber, or snow shoveling), about how often did you do these chores|displayif=equals(D_613744428,353358909)| outside of work|?
 (239152340) Once a month or less
 (582006876) 2 to 3 days a month
 (645894551) 1 to 2 days a week
@@ -1661,7 +1669,7 @@ During <b>the past 12 months</b>, did you do any of these activities|displayif=e
 (647504893) Every day
 < -> D_644018981 >
 
-[D_644018981?,displayif=equals(D_204421360,500744195)] On the days that you did these vigorous outdoor chores (such as digging, carrying lumber, or snow shoveling)|displayif=doesNotEqual(D_613744428,104430631)| outside of work|, about <b>how much time per day</b> did you spend doing these chores?
+[D_644018981?,displayif=equals(D_204421360,500744195)] On the days that you did these vigorous outdoor chores (such as digging, carrying lumber, or snow shoveling)|displayif=equals(D_613744428,353358909)| outside of work|, about <b>how much time per day</b> did you spend doing these chores?
 (428999623) 15 minutes or less
 (248303092) 16 to 30 minutes
 (206020811) 31 to 44 minutes
@@ -1677,7 +1685,7 @@ During <b>the past 12 months</b>, did you do any of these activities|displayif=e
 [690018400] Fall
 < -> D_352531133 >
 
-[D_352531133?,displayif=equals(D_204421360,383015037)] During the season|displayif=doesNotEqual(numberOfChoicesSelected(D_618482103,0),1)|s| in the <b>past 12 months</b> that you did these home repairs (such as painting, plumbing, or replacing carpeting), about how often did you do these repairs|displayif=doesNotEqual(D_613744428,104430631)| outside of work|?
+[D_352531133?,displayif=equals(D_204421360,383015037)] During the season|displayif=doesNotEqual(numberOfChoicesSelected(D_618482103,0),1)|s| in the <b>past 12 months</b> that you did these home repairs (such as painting, plumbing, or replacing carpeting), about how often did you do these repairs|displayif=equals(D_613744428,353358909)| outside of work|?
 (239152340) Once a month or less
 (582006876) 2 to 3 days a month
 (645894551) 1 to 2 days a week
@@ -1686,7 +1694,7 @@ During <b>the past 12 months</b>, did you do any of these activities|displayif=e
 (647504893) Every day
 < -> D_267261558 >
 
-[D_267261558?,displayif=equals(D_204421360,383015037)] On the days that you did these home repairs (such as painting, plumbing, or replacing carpeting) |displayif=doesNotEqual(D_613744428,104430631)|outside of work|, about <b>how much time per day</b> did you spend doing these repairs?
+[D_267261558?,displayif=equals(D_204421360,383015037)] On the days that you did these home repairs (such as painting, plumbing, or replacing carpeting)|displayif=equals(D_613744428,353358909)| outside of work|, about <b>how much time per day</b> did you spend doing these repairs?
 (428999623) 15 minutes or less
 (248303092) 16 to 30 minutes
 (206020811) 31 to 44 minutes
