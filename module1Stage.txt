@@ -16,7 +16,7 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Tue Jan 9 10:18:43 2024 -0500 (short timestamp = 2024-01-09-15-18-43)
+//This file was last modified on Wed Jan 17 16:58:33 2024 -0500 (short timestamp = 2024-01-17-21-58-33)
 //{"version":"3.0"}
 {"name":"D_726699695_V2"}  
 [INTROM1] Welcome, {$u:firstName}! This survey is split into sections. Each section has questions that ask you about a wide range of topics. Our goal is to collect information about your medical history, family, work, and health behaviors. You can answer all of the questions in each survey section at one time, or answer some questions, pause, and return to answer the rest later. If you pause, your answers will be saved and you can pick up where you left off. You can also skip any questions that you do not want to answer.
@@ -1139,7 +1139,7 @@ Over the <b>past three months</b>, have you felt any physical pain on most days?
 [601057066] Around the hips or thighs
 < #NR -> D_365851428 >
 
-[D_365851428?,displayif=and(equals(D_289664241,218837028),equals(D_407056417,536341288))]<b>Hair pattern</b>
+[D_365851428?,displayif=valueIsOneOf("D_289664241",218837028) and valueIsOneOf("D_407056417",536341288) and valueOrDefault("D_150344905","age",39)>=40]<b>Hair pattern</b>
 
 Which one of these figures most closely resembles your hair pattern at <b>age 40</b>?
 |image|episphere.github.io/quest/images/FemaleBaldness1.png|140,140|
@@ -1169,8 +1169,9 @@ Which one of these figures most closely resembles your hair pattern at <b>age 40
 |image|episphere.github.io/quest/images/FemaleBaldness9.png|140,140|
 (452963767) Figure 9 – Moderate hair loss on the sides of the head at the forehead and moderate-to-severe hair loss on the top of the head.< -> D_206319592 >
 
-[D_206319592?,displayif=and(equals(D_289664241,983318667),equals(D_407056417,654207589))] <b>Hair pattern</b>
+[D_206319592?,displayif=valueIsOneOf("D_289664241",983318667) and valueIsOneOf("D_407056417",654207589) and valueOrDefault("D_150344905","age",39)>=40] <b>Hair pattern</b>
 Which one of these figures most closely resembles your hair pattern at <b>age 40</b>?
+
 |image|episphere.github.io/quest/images/MaleBaldness1.png|200,340|
 (927925620) Figure 1 – Full head of hair with no hair loss.
 |image|episphere.github.io/quest/images/MaleBaldness2.png|200,340|
