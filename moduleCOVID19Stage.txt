@@ -348,7 +348,7 @@ Thank you for your responses. Please click "Next" to move to the next section.
 
 <loop max=25>
 
-[D_71558179_V27?,displayif=greaterThanOrEqual(D_877074400_V2,#loop)] When did you get vaccinated with your {##} shot? 
+[D_71558179_V2?,displayif=greaterThanOrEqual(D_877074400_V2,#loop)] When did you get vaccinated with your {##} shot? 
 
 |month|id=D_141616126 min=valueOrDefault("D_141616126#prev","2020-03") max=#currentYear-#currentMonth|
 
