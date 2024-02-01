@@ -1,0 +1,15 @@
+{"name":"D_601305072"} 
+{"version": "1.0"}
+
+[Q1?] 
+<b>Question 1</b>
+Waffles or Pancakes?
+
+< #NR -> Q2 >
+< -> END >
+
+[Q2?]
+<b>Question 2</b>
+Apples or Bananas? 
+
+[END,end]  You have answered all of the questions in this survey. To submit your answers, select the “Submit Survey” button.
