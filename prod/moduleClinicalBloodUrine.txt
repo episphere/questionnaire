@@ -1,4 +1,4 @@
-// This file was transformed using the mapping data in Quest-2023-05-15-13-40-00_Transformation.json.
+// This file was transformed using the mapping data in Quest-2023-11-22-17-40-54_Transformation.json.
 
 // JSON WARNING --> Concept ID 101310722 with concept "# Pills per day" is shared between these Textbox codes: [ACIDSUP3_1A, ACIDSUP3_2A, ACIDSUP3_3A, CHOLHTN3_1A, CHOLHTN3_2A, INSULIN3_1A, METFOR3_1A, PAINREL3_1A, PAINREL3_2A, PAINREL3_3A, PAINREL3_4A, PAINREL3_5A, PAINREL3_6A, PAINREL3_7A]
 // JSON WARNING --> Concept ID 206625031 with concept "Age at diagnosis" is shared between these Textbox codes: [ANEMIA_AGE, ARRHYT_AGE, ASTHMA_AGE, BARESO_AGE, BLOODCLOT_AGE, BREASTDIS_AGE, CCD_AGE, CD_AGE, CHESTPAIN_AGE, CHF_AGE, CHILDCANC3A_AGE, CHILDCANC3B_AGE, CHILDCANC3C_AGE, CHILDCANC3D_AGE, CHILDCANC3E_AGE, CHILDCANC3F_AGE, CHILDCANC3G_AGE, CHILDCANC3H_AGE, CHILDCANC3I_AGE, CHILDCANC3J_AGE, CHILDCANC3K_AGE, CHILDCANC3L_AGE, CHILDCANC3M_AGE, CHILDCANC3N_AGE, CHILDCANC3O_AGE, CHILDCANC3P_AGE, CHILDCANC3Q_AGE, CHILDCANC3R_AGE, CHILDCANC3S_AGE, CHILDCANC3T_AGE, CHILDCANC3U_AGE, CHILDCANC3V_AGE, CHILDCANC3W_AGE, CHILDCANC3X_AGE, CHILDCANC3Y_AGE, CHLA_AGE, CHOL_AGE, CKD_AGE, COPD_AGE, CVD_AGE, DADCANC3A_AGE, DADCANC3B_AGE, DADCANC3C_AGE, DADCANC3D_AGE, DADCANC3E_AGE, DADCANC3F_AGE, DADCANC3G_AGE, DADCANC3H_AGE, DADCANC3I_AGE, DADCANC3J_AGE, DADCANC3K_AGE, DADCANC3L_AGE, DADCANC3M_AGE, DADCANC3N_AGE, DADCANC3O_AGE, DADCANC3P_AGE, DADCANC3Q_AGE, DADCANC3R_AGE, DADCANC3S_AGE, DADCANC3T_AGE, DADCANC3U_AGE, DADCANC3V_AGE, DCIS_AGE, DEPRESS2_AGE, DIVERT_AGE, DM2_AGE, ENDO_AGE, ENLGPROS_AGE, GALL_AGE, GENWARTS_AGE, GERD_AGE, GONORR_AGE, GOUT_AGE, GRAVES_AGE, HAYFEVER_AGE, HBVHCV_AGE, HEARTATT_AGE, HEARTVALV_AGE, HIVAIDS_AGE, HPV_AGE, HTN_AGE, IBD_AGE, IBS_AGE, KIDNEY_AGE, LIVCIRR_AGE, LUPUS_AGE, MOMCANC3A_AGE, MOMCANC3B_AGE, MOMCANC3C_AGE, MOMCANC3D_AGE, MOMCANC3E_AGE, MOMCANC3F_AGE, MOMCANC3G_AGE, MOMCANC3H_AGE, MOMCANC3I_AGE, MOMCANC3J_AGE, MOMCANC3K_AGE, MOMCANC3L_AGE, MOMCANC3M_AGE, MOMCANC3N_AGE, MOMCANC3O_AGE, MOMCANC3P_AGE, MOMCANC3Q_AGE, MOMCANC3R_AGE, MOMCANC3S_AGE, MOMCANC3T_AGE, MOMCANC3U_AGE, MOMCANC3V_AGE, MOMCANC3W_AGE, MONO_AGE, PANCREA_AGE, PCOS_AGE, RA_AGE, SHINGLES_AGE, SIBCANC3A_AGE, SIBCANC3B_AGE, SIBCANC3C_AGE, SIBCANC3D_AGE, SIBCANC3E_AGE, SIBCANC3F_AGE, SIBCANC3G_AGE, SIBCANC3H_AGE, SIBCANC3I_AGE, SIBCANC3J_AGE, SIBCANC3K_AGE, SIBCANC3L_AGE, SIBCANC3M_AGE, SIBCANC3N_AGE, SIBCANC3O_AGE, SIBCANC3P_AGE, SIBCANC3Q_AGE, SIBCANC3R_AGE, SIBCANC3S_AGE, SIBCANC3T_AGE, SIBCANC3U_AGE, SIBCANC3V_AGE, SIBCANC3W_AGE, SIBCANC3X_AGE, SIBCANC3Y_AGE, SKINCANC3_AGE, STROKE_AGE, SYPH_AGE, THYROID_AGE, TRICH_AGE, UC_AGE, UF_AGE]
@@ -16,8 +16,8 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Wed Feb 22 16:52:43 2023 -0500 (short timestamp = 2023-02-22-21-52-43)
-//{"version":"1.2"}
+//This file was last modified on Mon Nov 20 13:49:57 2023 -0500 (short timestamp = 2023-11-20-18-49-57)
+//{"version":"1.3"}
 {"name":"D_826163434"}
 
 [SRVBIO_MODULEINTRO_V1R0] <b> Blood and Urine Sample Survey </b>
@@ -35,7 +35,7 @@ Thank you for being part of Connect and for donating your samples. We have some 
 [955154600] Stuffy nose (also known as nasal congestion)
 [811126581] Feeling sick to your stomach or throwing up
 [406943303] Fever
-[214414872*] No, I had none of these symptoms
+[535003378*] No, I had none of these symptoms
 
 [D_867307558?] When did you last eat or drink anything other than water before donating your samples?
 (110092955) The same day
@@ -68,42 +68,42 @@ Thank you for being part of Connect and for donating your samples. We have some 
 (591670915:Yes, in the past month)
 |
 
-[SRVBLU_REPROINTRO_V1R0, displayif=equals(D_522008539,536341288)] <b> Reproductive Health </b>
+[SRVBLU_REPROINTRO_V1R0,displayif=equals(D_522008539,536341288)] <b> Reproductive Health </b>
 
 The following questions ask about your menstrual periods, if you are pregnant, and contraceptive use. Your answers will help us understand where your body was in your menstrual cycle when you donated your samples. You may have answered some questions like these on another survey, but the questions below ask about your status on the day that you donated your samples.
 
-[D_380603392!, displayif=equals(D_522008539,536341288)] Have you had a menstrual period in the last <b>12 months</b>?
+[D_380603392!,displayif=equals(D_522008539,536341288)] Have you had a menstrual period in the last <b>12 months</b>? Please do <b>not</b> consider breakthrough bleeding (also known as spotting) as part of the menstrual period. 
 (104430631) No -> D_518916981
 (353358909) Yes
 
-[D_112151599!, displayif=equals(D_522008539,536341288)] Have you had a menstrual period in the last <b>60 days</b>?
+[D_112151599!,displayif=equals(D_522008539,536341288)] Have you had a menstrual period in the last <b>60 days</b>? Please do <b>not</b> consider breakthrough bleeding (also known as spotting) as part of the menstrual period. 
 (104430631) No -> D_518916981
 (353358909) Yes
 
-[D_644459734!, displayif=equals(D_522008539,536341288)] When was the start date of your most recent menstrual period (the first day on which you saw menstrual blood)? If you are not sure or do not remember, please make your best guess. 
+[D_644459734!,displayif=equals(D_522008539,536341288)] When was the start date of your most recent menstrual period (the first day on which you saw menstrual blood)? Please do <b>not</b> consider breakthrough bleeding (also known as spotting) as part of the menstrual period. If you are not sure or do not remember, please make your best guess. 
 |date|
 
-[D_518916981?, displayif=equals(D_522008539,536341288)] Are you pregnant now?
+[D_518916981?,displayif=equals(D_522008539,536341288)] Are you pregnant now?
 (104430631) No 
 (353358909) Yes -> D_798452445
 
-[D_234714655?, displayif=equals(D_522008539,536341288)] Have you been pregnant in the last <b>three months</b>?
+[D_234714655?,displayif=equals(D_522008539,536341288)] Have you been pregnant in the last <b>three months</b>?
 (104430631)	No
 (353358909)	Yes
 
-[D_798452445?, displayif=equals(D_522008539,536341288)] Are you breastfeeding now?
+[D_798452445?,displayif=equals(D_522008539,536341288)] Are you breastfeeding now?
 (104430631)	No 
 (353358909)	Yes -> D_875535246
 
-[D_563539159?, displayif=equals(D_522008539,536341288)] Did you breastfeed in the last <b>three months</b>? 
+[D_563539159?,displayif=equals(D_522008539,536341288)] Did you breastfeed in the last <b>three months</b>? 
 (104430631)	No
 (353358909)	Yes  
 
-[D_875535246?, displayif=equals(D_518916981,104430631)] Within the <b>last month</b>, have you used hormonal contraceptives? These types of contraceptives include oral contraceptives (“the pill”), injections, implants, skin patches, vaginal rings, and hormonal intrauterine devices (IUDs).
+[D_875535246?,displayif=equals(D_518916981,104430631)] Within the <b>last month</b>, have you used hormonal contraceptives? These types of contraceptives include oral contraceptives (“the pill”), injections, implants, skin patches, vaginal rings, and hormonal intrauterine devices (IUDs).
 (104430631)	No
 (353358909)	Yes
 
-[D_130311122?, displayif=equals(D_518916981,104430631)] Within the <b>last month</b>, have you used prescription hormone therapy to relieve common symptoms of perimenopause and menopause (for example, hot flashes and vaginal dryness), or to reduce bone loss due to lowering levels of estrogen and progesterone? 
+[D_130311122?,displayif=equals(D_518916981,104430631)] Within the <b>last month</b>, have you used prescription hormone therapy to relieve common symptoms of perimenopause and menopause (for example, hot flashes and vaginal dryness), or to reduce bone loss due to lowering levels of estrogen and progesterone? 
 (104430631)	No 
 (353358909)	Yes
 
