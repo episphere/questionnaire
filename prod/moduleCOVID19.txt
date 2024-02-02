@@ -1,12 +1,4 @@
-// This file was transformed using the mapping data in Quest-2023-06-08-19-35-07_Transformation.json.
-
-// JSON ERROR --> Concept ID collision for ID: 475018570 | there are collisions between Quest ID(s): [SRVSCR_ETVULTRA1_V1R0, SRVSCR_OTVULTRA1_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 227617345 | there are collisions between Quest ID(s): [SRVSCR_ETVULTRA2_V1R0, SRVSCR_OTVULTRA2_V1R0]
-// JSON ERROR --> Concept ID collision for ID: 274709835 | there are collisions between Quest ID(s): [SRVSCR_ETVULTRA3_V1R0, SRVSCR_OTVULTRA3_V1R0]
-
-// JSON ERROR --> SRVSCR_OTVULTRA1_V1R0 conceptId 475018570 already maps to Quest code: SRVSCR_ETVULTRA1_V1R0 | conceptId collision
-// JSON ERROR --> SRVSCR_OTVULTRA2_V1R0 conceptId 227617345 already maps to Quest code: SRVSCR_ETVULTRA2_V1R0 | conceptId collision
-// JSON ERROR --> SRVSCR_OTVULTRA3_V1R0 conceptId 274709835 already maps to Quest code: SRVSCR_ETVULTRA3_V1R0 | conceptId collision
+// This file was transformed using the mapping data in Quest-2024-01-29-16-05-11_Transformation.json.
 
 // JSON WARNING --> Concept ID 101310722 with concept "# Pills per day" is shared between these Textbox codes: [ACIDSUP3_1A, ACIDSUP3_2A, ACIDSUP3_3A, CHOLHTN3_1A, CHOLHTN3_2A, INSULIN3_1A, METFOR3_1A, PAINREL3_1A, PAINREL3_2A, PAINREL3_3A, PAINREL3_4A, PAINREL3_5A, PAINREL3_6A, PAINREL3_7A]
 // JSON WARNING --> Concept ID 206625031 with concept "Age at diagnosis" is shared between these Textbox codes: [ANEMIA_AGE, ARRHYT_AGE, ASTHMA_AGE, BARESO_AGE, BLOODCLOT_AGE, BREASTDIS_AGE, CCD_AGE, CD_AGE, CHESTPAIN_AGE, CHF_AGE, CHILDCANC3A_AGE, CHILDCANC3B_AGE, CHILDCANC3C_AGE, CHILDCANC3D_AGE, CHILDCANC3E_AGE, CHILDCANC3F_AGE, CHILDCANC3G_AGE, CHILDCANC3H_AGE, CHILDCANC3I_AGE, CHILDCANC3J_AGE, CHILDCANC3K_AGE, CHILDCANC3L_AGE, CHILDCANC3M_AGE, CHILDCANC3N_AGE, CHILDCANC3O_AGE, CHILDCANC3P_AGE, CHILDCANC3Q_AGE, CHILDCANC3R_AGE, CHILDCANC3S_AGE, CHILDCANC3T_AGE, CHILDCANC3U_AGE, CHILDCANC3V_AGE, CHILDCANC3W_AGE, CHILDCANC3X_AGE, CHILDCANC3Y_AGE, CHLA_AGE, CHOL_AGE, CKD_AGE, COPD_AGE, CVD_AGE, DADCANC3A_AGE, DADCANC3B_AGE, DADCANC3C_AGE, DADCANC3D_AGE, DADCANC3E_AGE, DADCANC3F_AGE, DADCANC3G_AGE, DADCANC3H_AGE, DADCANC3I_AGE, DADCANC3J_AGE, DADCANC3K_AGE, DADCANC3L_AGE, DADCANC3M_AGE, DADCANC3N_AGE, DADCANC3O_AGE, DADCANC3P_AGE, DADCANC3Q_AGE, DADCANC3R_AGE, DADCANC3S_AGE, DADCANC3T_AGE, DADCANC3U_AGE, DADCANC3V_AGE, DCIS_AGE, DEPRESS2_AGE, DIVERT_AGE, DM2_AGE, ENDO_AGE, ENLGPROS_AGE, GALL_AGE, GENWARTS_AGE, GERD_AGE, GONORR_AGE, GOUT_AGE, GRAVES_AGE, HAYFEVER_AGE, HBVHCV_AGE, HEARTATT_AGE, HEARTVALV_AGE, HIVAIDS_AGE, HPV_AGE, HTN_AGE, IBD_AGE, IBS_AGE, KIDNEY_AGE, LIVCIRR_AGE, LUPUS_AGE, MOMCANC3A_AGE, MOMCANC3B_AGE, MOMCANC3C_AGE, MOMCANC3D_AGE, MOMCANC3E_AGE, MOMCANC3F_AGE, MOMCANC3G_AGE, MOMCANC3H_AGE, MOMCANC3I_AGE, MOMCANC3J_AGE, MOMCANC3K_AGE, MOMCANC3L_AGE, MOMCANC3M_AGE, MOMCANC3N_AGE, MOMCANC3O_AGE, MOMCANC3P_AGE, MOMCANC3Q_AGE, MOMCANC3R_AGE, MOMCANC3S_AGE, MOMCANC3T_AGE, MOMCANC3U_AGE, MOMCANC3V_AGE, MOMCANC3W_AGE, MONO_AGE, PANCREA_AGE, PCOS_AGE, RA_AGE, SHINGLES_AGE, SIBCANC3A_AGE, SIBCANC3B_AGE, SIBCANC3C_AGE, SIBCANC3D_AGE, SIBCANC3E_AGE, SIBCANC3F_AGE, SIBCANC3G_AGE, SIBCANC3H_AGE, SIBCANC3I_AGE, SIBCANC3J_AGE, SIBCANC3K_AGE, SIBCANC3L_AGE, SIBCANC3M_AGE, SIBCANC3N_AGE, SIBCANC3O_AGE, SIBCANC3P_AGE, SIBCANC3Q_AGE, SIBCANC3R_AGE, SIBCANC3S_AGE, SIBCANC3T_AGE, SIBCANC3U_AGE, SIBCANC3V_AGE, SIBCANC3W_AGE, SIBCANC3X_AGE, SIBCANC3Y_AGE, SKINCANC3_AGE, STROKE_AGE, SYPH_AGE, THYROID_AGE, TRICH_AGE, UC_AGE, UF_AGE]
@@ -24,12 +16,12 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//{"version":"1.0"}
+//{"version":"1.2"}
 {"name":"D_793330426"}
 
 [SRVCOV_COVIDINTRO_V1R0] <b>COVID-19</b>
 
-The COVID-19 pandemic has been going on since 2020 in the United States. We have some questions about whether you had COVID-19 and any symptoms, your experience during the pandemic, and if you have been vaccinated. If you have been vaccinated for COVID-19, it may be helpful to have your COVID-19 vaccine card with you while you complete this section of the survey.
+We have some questions about whether you had COVID-19 and any symptoms, your experience during the pandemic, and if you have been vaccinated. If you have been vaccinated for COVID-19, it may be helpful to have your COVID-19 vaccine card with you while you complete this section of the survey.
 
 [D_494226443?] Have you ever had COVID-19?
 (353358909) Yes
@@ -130,7 +122,7 @@ The COVID-19 pandemic has been going on since 2020 in the United States. We have
 
 [D_930944000?,displayif=greaterThanOrEqual(D_860011428,#loop)] How many days were you treated with <b>oxygen (by mask or nose)</b> when you had COVID-19 for the {##} time?
 
-|__|__| min=0 max=valueOrDefault("D_744230001",0)| Days
+|__|__| min=0 max=valueOrDefault("D_744230001",180)| Days
 
 [D_984121390?,displayif=greaterThanOrEqual(D_860011428,#loop)] While you were in the hospital the {##} time you had COVID-19, did you ever have <b>a breathing tube or ventilator</b>? If you are not sure, please make your best guess.
 
@@ -141,7 +133,7 @@ The COVID-19 pandemic has been going on since 2020 in the United States. We have
 
 [D_430166879?,displayif=greaterThanOrEqual(D_860011428,#loop)] How many days were you treated with <b>a breathing tube or ventilator</b> when you had COVID-19 for the {##} time?
 
-|__|__| min=0 max=valueOrDefault("D_744230001",0)| Days
+|__|__| min=0 max=valueOrDefault("D_744230001",180)| Days
 
 [D_179406442?,displayif=greaterThanOrEqual(D_860011428,#loop)] While you were in the hospital the {##} time you had COVID-19, were you <b>treated in an "intensive care unit" or with ICU monitoring</b>? If you are not sure, please make your best guess.
 
@@ -152,7 +144,7 @@ The COVID-19 pandemic has been going on since 2020 in the United States. We have
 
 [D_803339020?,displayif=greaterThanOrEqual(D_860011428,#loop)] How many days were you <b>treated in an "intensive care unit" or with ICU monitoring</b> when you had COVID-19 for the {##} time?
 
-|__|__| min=0 max=valueOrDefault("D_744230001",0)| Days
+|__|__| min=0 max=valueOrDefault("D_744230001",180)| Days
 
 [D_893966847?,displayif=greaterThanOrEqual(D_860011428,#loop)] While you were in the hospital the {##} time you had COVID-19, did you <b>receive dialysis treatment</b>? If you are not sure, please make your best guess.
 
@@ -163,7 +155,7 @@ The COVID-19 pandemic has been going on since 2020 in the United States. We have
 
 [D_169509213?,displayif=greaterThanOrEqual(D_860011428,#loop)] How many days did you <b>receive dialysis treatment</b> when you had COVID-19 for the {##} time?
 
-|__|__| min=0 max=valueOrDefault("D_744230001",0)| Days
+|__|__| min=0 max=valueOrDefault("D_744230001",180)| Days
 
 [SRVCOV_COVSUMMARY_V1R0,displayif=greaterThanOrEqual(D_860011428,#loop)] Here is a summary of the information you shared about when you had COVID-19 for the {##} time. If any of the information is incorrect, please select the "Back" button to update your response. If all of the information is correct, please select the "Next" button to move forward.
 
@@ -173,7 +165,7 @@ Positive Test: |displayif=equals(D_366980310,353358909)| Yes||displayif=equals(D
 
 Symptoms present:|displayif=equals(D_694503437,353358909)| Yes||displayif=equals(D_694503437,104430631)| No| <br/>
 
-|displayif=doesNotEqual(D_694503437,104430631)|Symptoms: ||displayList(valueIsOneOf("D_705336878",406943303),"Fever",valueIsOneOf("D_705336878",760243464),"Body chills (feeling cold, shivering)",valueIsOneOf("D_705336878",423283665),"Body or muscle aches",valueIsOneOf("D_705336878",160627865),"Weakness or fatigue (tiredness)",valueIsOneOf("D_705336878",960642359),"Confusion",valueIsOneOf("D_705336878",579409935),"Trouble sleeping",valueIsOneOf("D_705336878",653630699),"New loss of taste or smell",valueIsOneOf("D_705336878",367747257),"Stuffy nose (nasal congestion)",valueIsOneOf("D_705336878",162167690),"Sore throat",valueIsOneOf("D_705336878",756774083),"Cough",valueIsOneOf("D_705336878",679368947),"Shortness of breath (trouble breathing)",valueIsOneOf("D_705336878",896163801),"Chest tightness",valueIsOneOf("D_705336878",178318661),"Stomach pain",valueIsOneOf("D_705336878",684149600),"Diarrhea or watery stool (poop)",valueIsOneOf("D_705336878",524258008),"Nausea (being sick to your stomach)",valueIsOneOf("D_705336878",810340693),"Vomiting (throwing up)",valueIsOneOf("D_705336878",657566099),"Rashes or other skin changes",valueIsOneOf("D_705336878",283776061),"Conjunctivitis (pink eye)",valueIsOneOf("D_705336878",807835037),"Other",sep="; ")|<br/>
+|displayif=doesNotEqual(D_694503437,104430631)|Symptoms: ||displayList(valueIsOneOf("D_705336878",406943303),"Fever",valueIsOneOf("D_705336878",760243464),"Body chills (feeling cold, shivering)",valueIsOneOf("D_705336878",423283665),"Body or muscle aches",valueIsOneOf("D_705336878",160627865),"Weakness or fatigue (tiredness)",valueIsOneOf("D_705336878",960642359),"Confusion",valueIsOneOf("D_705336878",579409935),"Trouble sleeping",valueIsOneOf("D_705336878",653630699),"New loss of taste or smell",valueIsOneOf("D_705336878",367747257),"Stuffy nose (nasal congestion)",valueIsOneOf("D_705336878",162167690),"Sore throat",valueIsOneOf("D_705336878",756774083),"Cough",valueIsOneOf("D_705336878",679368947),"Shortness of breath (trouble breathing)",valueIsOneOf("D_705336878",896163801),"Chest tightness",valueIsOneOf("D_705336878",178318661),"Stomach pain",valueIsOneOf("D_705336878",684149600),"Diarrhea or watery stool (poop)",valueIsOneOf("D_705336878",524258008),"Nausea (being sick to your stomach)",valueIsOneOf("D_705336878",810340693),"Vomiting (throwing up)",valueIsOneOf("D_705336878",657566099),"Rashes or other skin changes",valueIsOneOf("D_705336878",283776061),"Conjunctivitis (pink eye)",(valueIsOneOf("D_705336878",807835037) and doesNotExist("D_218852075")),"Other",exists("D_218852075"),"D_218852075",sep="; ")|<br/>
 
 
 |displayif=doesNotEqual(D_694503437,104430631)|Overnight Hospitalization: ||displayif=equals(D_775313030,353358909)| Yes||displayif=equals(D_775313030,104430631)| No||displayif=equals(D_775313030,178420302)| Unsure|<br/>
@@ -186,9 +178,7 @@ Symptoms present:|displayif=equals(D_694503437,353358909)| Yes||displayif=equals
 Thank you for your responses. Please click "Next" to move to the next section.
 < -> COV23_SKIP >
 
-[SRVCOV_COV19_V1R0,displayif=or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(equals(D_694503437_1_1,353358909),equals(D_694503437_2_2,353358909)),equals(D_694503437_3_3,353358909)),equals(D_694503437_4_4,353358909)),equals(D_694503437_5_5,353358909)),equals(D_694503437_6_6,353358909)),equals(D_694503437_7_7,353358909)),equals(D_694503437_8_8,353358909)),equals(D_694503437_9_9,353358909)),equals(D_694503437_10_10,353358909)),equals(D_694503437_11_11,353358909)),equals(D_694503437_12_12,353358909)),equals(D_694503437_13_13,353358909)),equals(D_694503437_14_14,353358909)),equals(D_694503437_15_15,353358909)),equals(D_694503437_16_16,353358909)),equals(D_694503437_17_17,353358909)),equals(D_694503437_18_18,353358909)),equals(D_694503437_19_19,353358909)),equals(D_694503437_20_20,353358909)),equals(D_694503437_21_21,353358909)),equals(D_694503437_22_22,353358909)),equals(D_694503437_23_23,353358909)),equals(D_694503437_24_24,353358909)),equals(D_694503437_25_25,353358909))] Some people who have had COVID-19 reported long-term effects from their illness and from living through the COVID-19 pandemic. Since your COVID-19 diagnosis, have you experienced any of the following symptoms?
-
-|grid?|id="D_847578001" displayif=or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(equals(D_694503437_1_1,353358909),equals(D_694503437_2_2,353358909)),equals(D_694503437_3_3,353358909)),equals(D_694503437_4_4,353358909)),equals(D_694503437_5_5,353358909)),equals(D_694503437_6_6,353358909)),equals(D_694503437_7_7,353358909)),equals(D_694503437_8_8,353358909)),equals(D_694503437_9_9,353358909)),equals(D_694503437_10_10,353358909)),equals(D_694503437_11_11,353358909)),equals(D_694503437_12_12,353358909)),equals(D_694503437_13_13,353358909)),equals(D_694503437_14_14,353358909)),equals(D_694503437_15_15,353358909)),equals(D_694503437_16_16,353358909)),equals(D_694503437_17_17,353358909)),equals(D_694503437_18_18,353358909)),equals(D_694503437_19_19,353358909)),equals(D_694503437_20_20,353358909)),equals(D_694503437_21_21,353358909)),equals(D_694503437_22_22,353358909)),equals(D_694503437_23_23,353358909)),equals(D_694503437_24_24,353358909)),equals(D_694503437_25_25,353358909))|Since your COVID-19 diagnosis, have you experienced any of the following symptoms?|[
+|grid?|id="D_847578001" displayif=or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(equals(D_694503437_1_1,353358909),equals(D_694503437_2_2,353358909)),equals(D_694503437_3_3,353358909)),equals(D_694503437_4_4,353358909)),equals(D_694503437_5_5,353358909)),equals(D_694503437_6_6,353358909)),equals(D_694503437_7_7,353358909)),equals(D_694503437_8_8,353358909)),equals(D_694503437_9_9,353358909)),equals(D_694503437_10_10,353358909)),equals(D_694503437_11_11,353358909)),equals(D_694503437_12_12,353358909)),equals(D_694503437_13_13,353358909)),equals(D_694503437_14_14,353358909)),equals(D_694503437_15_15,353358909)),equals(D_694503437_16_16,353358909)),equals(D_694503437_17_17,353358909)),equals(D_694503437_18_18,353358909)),equals(D_694503437_19_19,353358909)),equals(D_694503437_20_20,353358909)),equals(D_694503437_21_21,353358909)),equals(D_694503437_22_22,353358909)),equals(D_694503437_23_23,353358909)),equals(D_694503437_24_24,353358909)),equals(D_694503437_25_25,353358909))|Some people who have had COVID-19 reported long-term effects from their illness and from living through the COVID-19 pandemic. <br/> <br/> Since your COVID-19 diagnosis, have you experienced any of the following symptoms?|[
 
 [D_488415137] Loss of taste or smell; 
 [D_167695804] Appetite changes; 
@@ -230,35 +220,40 @@ Thank you for your responses. Please click "Next" to move to the next section.
 
 [D_110872086?,displayif=or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(equals(D_694503437_1_1,353358909),equals(D_694503437_2_2,353358909)),equals(D_694503437_3_3,353358909)),equals(D_694503437_4_4,353358909)),equals(D_694503437_5_5,353358909)),equals(D_694503437_6_6,353358909)),equals(D_694503437_7_7,353358909)),equals(D_694503437_8_8,353358909)),equals(D_694503437_9_9,353358909)),equals(D_694503437_10_10,353358909)),equals(D_694503437_11_11,353358909)),equals(D_694503437_12_12,353358909)),equals(D_694503437_13_13,353358909)),equals(D_694503437_14_14,353358909)),equals(D_694503437_15_15,353358909)),equals(D_694503437_16_16,353358909)),equals(D_694503437_17_17,353358909)),equals(D_694503437_18_18,353358909)),equals(D_694503437_19_19,353358909)),equals(D_694503437_20_20,353358909)),equals(D_694503437_21_21,353358909)),equals(D_694503437_22_22,353358909)),equals(D_694503437_23_23,353358909)),equals(D_694503437_24_24,353358909)),equals(D_694503437_25_25,353358909))] Since your COVID-19 diagnosis, have you experienced any other symptoms?
 (104430631) No -> COV20_SKIP
-(707601969) Yes, |__|id=D_637540387|
+(707601969) Yes, |__|id=D_637540387| -> D_591826144
 < #NR -> COV20_SKIP >
 
-[D_591826144?,displayif=equals(D_110872086,707601969)] Are you still experiencing |displayif=exists("D_637540387")|{$D_637540387}||displayif=doesNotExist("D_637540387")|these other symptoms|?
+
+
+[D_591826144?,displayif=displayif=valueIsOneOf("D_110872086",707601969) or valueLength("D_637540387")>0] Are you still experiencing |displayif=valueIsOneOf("D_110872086",707601969) or valueLength("D_637540387")>0|{$D_637540387}||displayif=doesNotExist("D_637540387")|these other symptoms|?
 (353358909) Yes
 (104430631) No
 
-[COV20_SKIP,displayif=and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(doesNotEqual(D_488415137_0,1),doesNotEqual(D_488415137_1,1)),doesNotEqual(D_167695804_0,1)),doesNotEqual(D_167695804_1,1)),doesNotEqual(D_730334054_0,1)),doesNotEqual(D_730334054_1,1)),doesNotEqual(D_215996690_0,1)),doesNotEqual(D_215996690_1,1)),doesNotEqual(D_462737492_0,1)),doesNotEqual(D_462737492_1,1)),doesNotEqual(D_469675296_0,1)),doesNotEqual(D_469675296_1,1)),doesNotEqual(D_962475128_0,1)),doesNotEqual(D_962475128_1,1)),doesNotEqual(D_989576239_0,1)),doesNotEqual(D_989576239_1,1)),doesNotEqual(D_338613869_0,1)),doesNotEqual(D_338613869_1,1)),doesNotEqual(D_126794793_0,1)),doesNotEqual(D_126794793_1,1)),doesNotEqual(D_218793117_0,1)),doesNotEqual(D_218793117_1,1)),doesNotEqual(D_524096053_0,1)),doesNotEqual(D_524096053_1,1)),doesNotEqual(D_814101706_0,1)),doesNotEqual(D_814101706_1,1)),doesNotEqual(D_635026188_0,1)),doesNotEqual(D_635026188_1,1)),doesNotEqual(D_238135048_0,1)),doesNotEqual(D_238135048_1,1)),doesNotEqual(D_632714520_0,1)),doesNotEqual(D_632714520_1,1)),doesNotEqual(D_110872086,707601969))]
+[COV20_SKIP,displayif=noneSelected("D_488415137_0","D_488415137_1","D_167695804_0","D_167695804_1","D_730334054_0","D_730334054_1","D_215996690_0","D_215996690_1","D_462737492_0","D_462737492_1","D_469675296_0","D_469675296_1","D_962475128_0","D_962475128_1","D_989576239_0","D_989576239_1","D_338613869_0","D_338613869_1","D_126794793_0","D_126794793_1","D_218793117_0","D_218793117_1","D_524096053_0","D_524096053_1","D_814101706_0","D_814101706_1","D_635026188_0","D_635026188_1","D_238135048_0","D_238135048_1","D_632714520_0","D_632714520_1")]
 Thank you for your responses. Please click "Next" to move to the next section.
-< -> SRVCOV_COV25INTRO_V1R0 >
+< -> COV20A17_SKIP >
 
-|grid?|id="D_114280729" displayif=or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(equals(D_488415137_0,1),equals(D_488415137_1,1)),equals(D_167695804_0,1)),equals(D_167695804_1,1)),equals(D_730334054_0,1)),equals(D_730334054_1,1)),equals(D_215996690_0,1)),equals(D_215996690_1,1)),equals(D_462737492_0,1)),equals(D_462737492_1,1)),equals(D_469675296_0,1)),equals(D_469675296_1,1)),equals(D_962475128_0,1)),equals(D_962475128_1,1)),equals(D_989576239_0,1)),equals(D_989576239_1,1)),equals(D_338613869_0,1)),equals(D_338613869_1,1)),equals(D_126794793_0,1)),equals(D_126794793_1,1)),equals(D_218793117_0,1)),equals(D_218793117_1,1)),equals(D_524096053_0,1)),equals(D_524096053_1,1)),equals(D_814101706_0,1)),equals(D_814101706_1,1)),equals(D_635026188_0,1)),equals(D_635026188_1,1)),equals(D_238135048_0,1)),equals(D_238135048_1,1)),equals(D_632714520_0,1)),equals(D_632714520_1,1))|How long did you experience the following symptoms?|[
+
+|grid?|id="D_114280729" displayif=someSelected("D_488415137_0","D_488415137_1","D_167695804_0","D_167695804_1","D_730334054_0","D_730334054_1","D_215996690_0","D_215996690_1","D_462737492_0","D_462737492_1","D_469675296_0","D_469675296_1","D_962475128_0","D_962475128_1","D_989576239_0","D_989576239_1","D_338613869_0","D_338613869_1","D_126794793_0","D_126794793_1","D_218793117_0","D_218793117_1","D_524096053_0","SRVCOV_COV19C1_V1R0_1,1","D_814101706_0","D_814101706_1","D_635026188_0","D_238135048_0","D_238135048_1","D_632714520_0","D_632714520_1"|How long did you experience the following symptoms?|[
                                                  
-[D_374567479,displayif=or(equals(D_488415137_0,1),equals(D_488415137_1,1))] Loss of taste or smell; 
-[D_966214244,displayif=or(equals(D_730334054_0,1),equals(D_730334054_1,1))] Feeling generally more tired than you used to feel; 
-[D_109223043,displayif=or(equals(D_215996690_0,1),equals(D_215996690_1,1))] Trouble remembering things;
-[D_368669706,displayif=or(equals(D_462737492_0,1),equals(D_462737492_1,1))] Trouble paying attention;
-[D_605818246,displayif=or(equals(D_469675296_0,1),equals(D_469675296_1,1))] Trouble thinking or making decisions;
-[D_790860504,displayif=or(equals(D_167695804_0,1),equals(D_167695804_1,1))] Appetite changes; 
-[D_336856410,displayif=or(equals(D_524096053_0,1),equals(D_524096053_1,1))] Feeling lightheaded or dizzy; 
-[D_518602598,displayif=or(equals(D_814101706_0,1),equals(D_814101706_1,1))] Periods of racing heart rate;
-[D_770190369,displayif=or(equals(D_962475128_0,1),equals(D_962475128_1,1))] Shortness of breath;
-[D_994153376,displayif=or(equals(D_989576239_0,1),equals(D_989576239_1,1))] Not able to exercise at your usual level;
-[D_481587023,displayif=or(equals(D_338613869_0,1),equals(D_338613869_1,1))] Not able to return to work or school; 
-[D_590361055,displayif=or(equals(D_126794793_0,1),equals(D_126794793_1,1))] Not able to return to your usual activities;
-[D_108389123,displayif=or(equals(D_218793117_0,1),equals(D_218793117_1,1))] Feeling weak, tired and/or sick 24-48 hours after physical activity or exercise; 
-[D_747085418,displayif=or(equals(D_635026188_0,1),equals(D_635026188_1,1))] Trouble sleeping;
-[D_702905707,displayif=or(equals(D_238135048_0,1),equals(D_238135048_1,1))] Changes in your mood and emotions (such as feeling sad, anxious, or annoyed more than usual);
-[D_986119909,displayif=or(equals(D_632714520_0,1),equals(D_632714520_1,1))] Muscle aches;]
+[D_374567479,displayif=someSelected("D_488415137_0","D_488415137_1")] Loss of taste or smell; 
+[D_966214244,displayif=someSelected("D_730334054_0","D_730334054_1")] Feeling generally more tired than you used to feel; 
+[D_109223043,displayif=someSelected("D_215996690_0","D_215996690_1")] Trouble remembering things;
+[D_368669706,displayif=someSelected("D_462737492_0","D_462737492_1")] Trouble paying attention;
+[D_605818246,displayif=someSelected("D_469675296_0","D_469675296_1")] Trouble thinking or making decisions;
+[D_790860504,displayif=someSelected("D_167695804_0","D_167695804_1")] Appetite changes; 
+[D_336856410,displayif=someSelected("D_524096053_0","D_524096053_1")] Feeling lightheaded or dizzy; 
+[D_518602598,displayif=someSelected("D_814101706_0","D_814101706_1")] Periods of racing heart rate;
+[D_770190369,displayif=someSelected("D_962475128_0","D_962475128_1")] Shortness of breath;
+[D_994153376,displayif=someSelected("D_989576239_0","D_989576239_1")] Not able to exercise at your usual level;
+[D_481587023,displayif=someSelected("D_338613869_0","D_338613869_1")] Not able to return to work or school; 
+[D_590361055,displayif=someSelected("D_126794793_0","D_126794793_1")] Not able to return to your usual activities;
+[D_108389123,displayif=someSelected("D_218793117_0","D_218793117_1")] Feeling weak, tired and/or sick 24-48 hours after physical activity or exercise; 
+[D_747085418,displayif=someSelected("D_635026188_0","D_635026188_1")] Trouble sleeping;
+[D_702905707,displayif=someSelected("D_238135048_0","D_238135048_1")] Changes in your mood and emotions (such as feeling sad, anxious, or annoyed more than usual);
+[D_986119909,displayif=someSelected("D_632714520_0","D_632714520_1")] Muscle Aches;]
+
+
 |
 (232063618:Less than 1 month)
 (948148236:Between 1 and 3 months)
@@ -289,9 +284,7 @@ Days |__|__|__|id=D_908044428|
 Thank you for your responses. Please click "Next" to move to the next section.
 < -> SRVCOV_COV25INTRO_V1R0 >
 
-[SRVCOV_COV23_V1R0,displayif=or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(equals(D_494226443,104430631),equals(D_494226443,178420302)),equals(isDefined(D_494226443,-1),-1)),equals(D_498462481_1_1,104430631)),equals(D_694503437_1_1,104430631)),equals(D_498462481_2_2,104430631)),equals(D_694503437_2_2,104430631)),equals(D_498462481_3_3,104430631)),equals(D_694503437_3_3,104430631)),equals(D_498462481_4_4,104430631)),equals(D_694503437_4_4,104430631)),equals(D_498462481_5_5,104430631)),equals(D_694503437_5_5,104430631)),equals(D_498462481_6_6,104430631)),equals(D_694503437_6_6,104430631)),equals(D_498462481_7_7,104430631)),equals(D_694503437_7_7,104430631)),equals(D_498462481_8_8,104430631)),equals(D_694503437_8_8,104430631)),equals(D_498462481_9_9,104430631)),equals(D_694503437_9_9,104430631)),equals(D_498462481_10_10,104430631)),equals(D_694503437_10_10,104430631)),equals(D_498462481_11_11,104430631)),equals(D_694503437_11_11,104430631)),equals(D_498462481_12_12,104430631)),equals(D_694503437_12_12,104430631)),equals(D_498462481_13_13,104430631)),equals(D_694503437_13_13,104430631)),equals(D_498462481_14_14,104430631)),equals(D_694503437_14_14,104430631)),equals(D_498462481_15_15,104430631)),equals(D_694503437_15_15,104430631)),equals(D_498462481_16_16,104430631)),equals(D_694503437_16_16,104430631)),equals(D_498462481_17_17,104430631)),equals(D_694503437_17_17,104430631)),equals(D_498462481_18_18,104430631)),equals(D_694503437_18_18,104430631)),equals(D_498462481_19_19,104430631)),equals(D_694503437_19_19,104430631)),equals(D_498462481_20_20,104430631)),equals(D_694503437_20_20,104430631)),equals(D_498462481_21_21,104430631)),equals(D_694503437_21_21,104430631)),equals(D_498462481_22_22,104430631)),equals(D_694503437_22_22,104430631)),equals(D_498462481_23_23,104430631)),equals(D_694503437_23_23,104430631)),equals(D_498462481_24_24,104430631)),equals(D_694503437_24_24,104430631)),equals(D_498462481_25_25,104430631)),equals(D_694503437_25_25,104430631))] Many people have reported challenges related to living during the COVID-19 pandemic that have affected their health. Since the beginning of 2020, have you experienced any of the following symptoms?
-
-|grid?|id="D_813989715" displayif=or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(equals(D_494226443,104430631),equals(D_494226443,178420302)),equals(isDefined(D_494226443,-1),-1)),equals(D_498462481_1_1,104430631)),equals(D_694503437_1_1,104430631)),equals(D_498462481_2_2,104430631)),equals(D_694503437_2_2,104430631)),equals(D_498462481_3_3,104430631)),equals(D_694503437_3_3,104430631)),equals(D_498462481_4_4,104430631)),equals(D_694503437_4_4,104430631)),equals(D_498462481_5_5,104430631)),equals(D_694503437_5_5,104430631)),equals(D_498462481_6_6,104430631)),equals(D_694503437_6_6,104430631)),equals(D_498462481_7_7,104430631)),equals(D_694503437_7_7,104430631)),equals(D_498462481_8_8,104430631)),equals(D_694503437_8_8,104430631)),equals(D_498462481_9_9,104430631)),equals(D_694503437_9_9,104430631)),equals(D_498462481_10_10,104430631)),equals(D_694503437_10_10,104430631)),equals(D_498462481_11_11,104430631)),equals(D_694503437_11_11,104430631)),equals(D_498462481_12_12,104430631)),equals(D_694503437_12_12,104430631)),equals(D_498462481_13_13,104430631)),equals(D_694503437_13_13,104430631)),equals(D_498462481_14_14,104430631)),equals(D_694503437_14_14,104430631)),equals(D_498462481_15_15,104430631)),equals(D_694503437_15_15,104430631)),equals(D_498462481_16_16,104430631)),equals(D_694503437_16_16,104430631)),equals(D_498462481_17_17,104430631)),equals(D_694503437_17_17,104430631)),equals(D_498462481_18_18,104430631)),equals(D_694503437_18_18,104430631)),equals(D_498462481_19_19,104430631)),equals(D_694503437_19_19,104430631)),equals(D_498462481_20_20,104430631)),equals(D_694503437_20_20,104430631)),equals(D_498462481_21_21,104430631)),equals(D_694503437_21_21,104430631)),equals(D_498462481_22_22,104430631)),equals(D_694503437_22_22,104430631)),equals(D_498462481_23_23,104430631)),equals(D_694503437_23_23,104430631)),equals(D_498462481_24_24,104430631)),equals(D_694503437_24_24,104430631)),equals(D_498462481_25_25,104430631)),equals(D_694503437_25_25,104430631))|Since the beginning of 2020, have you experienced any of the following symptoms?|[
+|grid?|id="D_813989715" displayif=or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(equals(D_494226443,104430631),equals(D_494226443,178420302)),equals(isDefined(D_494226443,-1),-1)),equals(D_498462481_1_1,104430631)),equals(D_694503437_1_1,104430631)),equals(D_498462481_2_2,104430631)),equals(D_694503437_2_2,104430631)),equals(D_498462481_3_3,104430631)),equals(D_694503437_3_3,104430631)),equals(D_498462481_4_4,104430631)),equals(D_694503437_4_4,104430631)),equals(D_498462481_5_5,104430631)),equals(D_694503437_5_5,104430631)),equals(D_498462481_6_6,104430631)),equals(D_694503437_6_6,104430631)),equals(D_498462481_7_7,104430631)),equals(D_694503437_7_7,104430631)),equals(D_498462481_8_8,104430631)),equals(D_694503437_8_8,104430631)),equals(D_498462481_9_9,104430631)),equals(D_694503437_9_9,104430631)),equals(D_498462481_10_10,104430631)),equals(D_694503437_10_10,104430631)),equals(D_498462481_11_11,104430631)),equals(D_694503437_11_11,104430631)),equals(D_498462481_12_12,104430631)),equals(D_694503437_12_12,104430631)),equals(D_498462481_13_13,104430631)),equals(D_694503437_13_13,104430631)),equals(D_498462481_14_14,104430631)),equals(D_694503437_14_14,104430631)),equals(D_498462481_15_15,104430631)),equals(D_694503437_15_15,104430631)),equals(D_498462481_16_16,104430631)),equals(D_694503437_16_16,104430631)),equals(D_498462481_17_17,104430631)),equals(D_694503437_17_17,104430631)),equals(D_498462481_18_18,104430631)),equals(D_694503437_18_18,104430631)),equals(D_498462481_19_19,104430631)),equals(D_694503437_19_19,104430631)),equals(D_498462481_20_20,104430631)),equals(D_694503437_20_20,104430631)),equals(D_498462481_21_21,104430631)),equals(D_694503437_21_21,104430631)),equals(D_498462481_22_22,104430631)),equals(D_694503437_22_22,104430631)),equals(D_498462481_23_23,104430631)),equals(D_694503437_23_23,104430631)),equals(D_498462481_24_24,104430631)),equals(D_694503437_24_24,104430631)),equals(D_498462481_25_25,104430631)),equals(D_694503437_25_25,104430631))| Many people have reported challenges related to living during the COVID-19 pandemic that have affected their health. <br/> <br/>Since the beginning of 2020, have you experienced any of the following symptoms?|[
 
 [D_874168085] Loss of taste or smell; 
 [D_283112988] Appetite changes; 
@@ -319,21 +312,21 @@ Thank you for your responses. Please click "Next" to move to the next section.
 (586272115:Yes, I experienced this, but I am not experiencing it now.)
 (770236544:No, I never experienced this.)
 |
-|grid?|id="D_749956170" displayif=or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(equals(D_874168085_0,1),equals(D_874168085_1,1)),equals(D_283112988_0,1)),equals(D_283112988_1,1)),equals(D_580629349_0,1)),equals(D_580629349_1,1)),equals(D_151327643_0,1)),equals(D_151327643_1,1)),equals(D_440872808_0,1)),equals(D_440872808_1,1)),equals(D_874223830_0,1)),equals(D_874223830_1,1)),equals(D_847529903_0,1)),equals(D_847529903_1,1)),equals(D_219358831_0,1)),equals(D_219358831_1,1)),equals(D_636367178_0,1)),equals(D_636367178_1,1)),equals(D_243443780_0,1)),equals(D_243443780_1,1)),equals(D_357462273_0,1)),equals(D_357462273_1,1)),equals(D_638380747_0,1)),equals(D_638380747_1,1)),equals(D_187399900_0,1)),equals(D_187399900_1,1))|How long did you experience the following symptoms?|[
+|grid?|id="D_749956170" displayif=someSelected("D_874168085_0","D_874168085_1","D_283112988_0","D_283112988_1","D_580629349_0","D_580629349_1","D_151327643_0","D_151327643_1","D_440872808_0","D_440872808_1","D_874223830_0","D_874223830_1","D_847529903_0","D_847529903_1","D_219358831_0","D_219358831_1","D_636367178_0","D_636367178_1","D_243443780_0","D_243443780_1","D_357462273_0","D_357462273_1","D_638380747_0","D_638380747_1","D_187399900_0","D_187399900_1")|How long did you experience the following symptoms?|[
 
-[D_527872064,displayif=or(equals(D_874168085_0,1),equals(D_874168085_1,1))] Loss of taste or smell; 
-[D_691752394,displayif=or(equals(D_283112988_0,1),equals(D_283112988_1,1))] Appetite changes; 
-[D_143206081,displayif=or(equals(D_580629349_0,1),equals(D_580629349_1,1))] Feeling generally more tired than you used to feel;
-[D_431203595,displayif=or(equals(D_151327643_0,1),equals(D_151327643_1,1))] Trouble remembering things;
-[D_516899143,displayif=or(equals(D_440872808_0,1),equals(D_440872808_1,1))] Trouble paying attention;
-[D_223008071,displayif=or(equals(D_874223830_0,1),equals(D_874223830_1,1))] Trouble thinking and making decisions;
-[D_599862694,displayif=or(equals(D_847529903_0,1),equals(D_847529903_1,1))] Feeliing lightheaded or dizzy;
-[D_860444009,displayif=or(equals(D_219358831_0,1),equals(D_219358831_1,1))] Periods of racing heart rate;
-[D_246857412,displayif=or(equals(D_636367178_0,1),equals(D_636367178_1,1))] Shortness of breath;
-[D_144819886,displayif=or(equals(D_243443780_0,1),equals(D_243443780_1,1))] Feeling weak, tired and/or sick 24-48 hours after physical activiey or exercise;
-[D_304155106,displayif=or(equals(D_357462273_0,1),equals(D_357462273_1,1))] Trouble sleeping;
-[D_830581863,displayif=or(equals(D_638380747_0,1),equals(D_638380747_1,1))] Changes in your mood and emotions (such as feeling sad, anxious, or annoyed more than usual);
-[D_463689026,displayif=or(equals(D_187399900_0,1),equals(D_187399900_1,1))] Muscle aches;]
+[D_527872064,displayif=someSelected("D_874168085_0","D_874168085_1")] Loss of taste or smell; 
+[D_691752394,displayif=someSelected("D_283112988_0","D_283112988_1")] Appetite changes; 
+[D_143206081,displayif=someSelected("D_580629349_0","D_580629349_1")] Feeling generally more tired than you used to feel;
+[D_431203595,displayif=someSelected("D_151327643_0","D_151327643_1")] Trouble remembering things;
+[D_516899143,displayif=someSelected("D_440872808_0","D_440872808_1")] Trouble paying attention;
+[D_223008071,displayif=someSelected("D_874223830_0","D_874223830_1")] Trouble thinking and making decisions;
+[D_599862694,displayif=someSelected("D_847529903_0","D_847529903_1")] Feeling lightheaded or dizzy;
+[D_860444009,displayif=someSelected("D_219358831_0","D_219358831_1")] Periods of racing heart rate;
+[D_246857412,displayif=someSelected("D_636367178_0","D_636367178_1")] Shortness of breath;
+[D_144819886,displayif=someSelected("D_243443780_0","D_243443780_1")] Feeling weak, tired and/or sick 24-48 hours after physical activity or exercise;
+[D_304155106,displayif=someSelected("D_357462273_0","D_357462273_1")] Trouble sleeping;
+[D_830581863,displayif=someSelected("D_638380747_0","D_638380747_1")] Changes in your mood and emotions (such as feeling sad, anxious, or annoyed more than usual);
+[D_463689026,displayif=someSelected("D_187399900_0","D_187399900_1")] Muscle aches;]
 |
 (232063618:Less than 1 month)
 (948148236:Between 1 and 3 months)
@@ -355,7 +348,7 @@ Thank you for your responses. Please click "Next" to move to the next section.
 
 <loop max=25>
 
-[D_715581797?,displayif=greaterThanOrEqual(D_877074400_V2,#loop)] When did you get vaccinated with your {##} shot? 
+[D_71558179_V2?,displayif=greaterThanOrEqual(D_877074400_V2,#loop)] When did you get vaccinated with your {##} shot? 
 
 |month|id=D_141616126 min=valueOrDefault("D_141616126#prev","2020-03") max=#currentYear-#currentMonth|
 
@@ -367,14 +360,14 @@ Thank you for your responses. Please click "Next" to move to the next section.
 (411943417) Johnson & Johnson
 (113838601) AstraZeneca
 (503154121) Novavax
-(807835037) Other |__|id=D_395747093|
+(807835037) Other |__|id=D_395747093| 
 (178420302) Don't know
 
 [SRVCOV_COV29_V1R0,displayif=greaterThanOrEqual(D_877074400_V2,#loop)] Here's a summary of the information you shared about your COVID-19 vaccinations. If any of the information is incorrect, please select the "Back" button to update your responses. If all the information is correct, please select the "Next" button to move forward.
 
 Vaccination number: #loop
 Vaccination date: {$D_141616126}
-COVID-19 vaccine shot: |displayif=equals(D_220055064,661871565)| Moderna||displayif=equals(D_220055064,657978450)| Pfizer||displayif=equals(D_220055064,411943417)| Johnson & Johnson||displayif=equals(D_220055064,113838601)| AstraZeneca||displayif=equals(D_220055064,807835037)| Other ( {$D_395747093} )||displayif=equals(D_220055064,178420302)| Don't know|
+COVID-19 vaccine shot: |displayif=equals(D_220055064,661871565)| Moderna||displayif=equals(D_220055064,657978450)| Pfizer||displayif=equals(D_220055064,411943417)| Johnson & Johnson||displayif=equals(D_220055064,113838601)| AstraZeneca||displayif=equals(D_220055064,503154121)| Novavax||displayif=valueIsOneOf("D_220055064",807835037) or valueLength("D_395747093")>0| Other ({$D_395747093})||displayif=equals(D_220055064,178420302)| Don't know|
 
 </loop>
 
