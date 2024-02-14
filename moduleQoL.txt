@@ -135,7 +135,7 @@
 
 [D_907490539?] Please respond to each of the following by selecting the response that best describes you.
 
-<b>In the past 7 days / During the past 7 days …</b>
+<b>During the past 7 days . . .</b>
 
  I feel fatigued
 
@@ -152,6 +152,8 @@
 (567908725:D_658945347)	Somewhat
 (760969884:D_658945347)	Quite a bit
 (464631026:D_658945347)	Very much
+
+<b>In the past 7 days . . .</b>
 
  How run-down did you feel on average?
 
