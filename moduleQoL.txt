@@ -1,4 +1,4 @@
-// This file was transformed using the mapping data in Quest-2024-02-09-22-46-35_Transformation.json.
+// This file was transformed using the mapping data in Quest-2024-02-14-18-55-12_Transformation.json.
 
 // JSON ERROR --> Concept ID collision for ID: 338924834 | there are collisions between Quest ID(s): [PAIN2, SRVQOL_PAINRANK_V1R0]
 
@@ -20,7 +20,7 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Tue Feb 13 15:11:31 2024 -0500 (short timestamp = 2024-02-13-20-11-31)
+//This file was last modified on Wed Feb 14 14:46:26 2024 -0500 (short timestamp = 2024-02-14-19-46-26)
 {"name":"D_601305072"} 
 //{"version":"1.0"}
 
@@ -65,35 +65,35 @@
 
  I felt fearful
 
-	(648960871:D_429680247)	Never
-	(235613392:D_429680247)	Rarely
-	(132099255:D_429680247)	Sometimes
-	(211590917:D_429680247)	Often
-        (907579123:D_429680247)	Always
+(648960871:D_429680247)	Never
+(235613392:D_429680247)	Rarely
+(132099255:D_429680247)	Sometimes
+(211590917:D_429680247)	Often
+(907579123:D_429680247)	Always
 
  I found it hard to focus on anything other than my anxiety
 
-	(648960871:D_179665441)	Never
-	(235613392:D_179665441)	Rarely
-	(132099255:D_179665441)	Sometimes
-	(211590917:D_179665441)	Often
-	(907579123:D_179665441)	Always
+(648960871:D_179665441)	Never
+(235613392:D_179665441)	Rarely
+(132099255:D_179665441)	Sometimes
+(211590917:D_179665441)	Often
+(907579123:D_179665441)	Always
 
  My worries overwhelmed me
 
-        (648960871:D_195292223)	Never
-        (235613392:D_195292223)	Rarely
-        (132099255:D_195292223)	Sometimes
-        (211590917:D_195292223)	Often
-        (907579123:D_195292223)	Always
+(648960871:D_195292223)	Never
+(235613392:D_195292223)	Rarely
+(132099255:D_195292223)	Sometimes
+(211590917:D_195292223)	Often
+(907579123:D_195292223)	Always
 
  I felt uneasy
 
-        (648960871:D_829976839)	Never
-        (235613392:D_829976839)	Rarely
-        (132099255:D_829976839)	Sometimes
-        (211590917:D_829976839)	Often
-        (907579123:D_829976839)	Always
+(648960871:D_829976839)	Never
+(235613392:D_829976839)	Rarely
+(132099255:D_829976839)	Sometimes
+(211590917:D_829976839)	Often
+(907579123:D_829976839)	Always
 
 
 [D_715048033?] Please respond to each statement by selecting the response that best describes you.
@@ -133,9 +133,9 @@
 (907579123:D_168582270)	Always
 
 
-[D_361067047?] Please respond to each statement by selecting the response that best describes you. 
+[D_907490539?] Please respond to each of the following by selecting the response that best describes you.
 
-<b>During the past 7 days . . .</b>
+<b>In the past 7 days / During the past 7 days …</b>
 
  I feel fatigued
 
@@ -152,11 +152,6 @@
 (567908725:D_658945347)	Somewhat
 (760969884:D_658945347)	Quite a bit
 (464631026:D_658945347)	Very much
-
-
-[D_630955315?] Please respond to each question by selecting the response that best describes you. 
-
-<b>In the past 7 days . . .</b>
 
  How run-down did you feel on average?
 
