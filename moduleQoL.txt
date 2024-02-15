@@ -20,7 +20,7 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Wed Feb 14 14:46:26 2024 -0500 (short timestamp = 2024-02-14-19-46-26)
+//This file was last modified on Thu Feb 15 08:44:45 2024 -0500 (short timestamp = 2024-02-15-13-44-45)
 {"name":"D_601305072"} 
 //{"version":"1.0"}
 
@@ -135,7 +135,7 @@
 
 [D_907490539?] Please respond to each of the following by selecting the response that best describes you.
 
-<b>During the past 7 days . . .</b>
+<b>During the past 7 days...</b>
 
  I feel fatigued
 
@@ -153,7 +153,7 @@
 (760969884:D_658945347)	Quite a bit
 (464631026:D_658945347)	Very much
 
-<b>In the past 7 days . . .</b>
+<b>In the past 7 days...</b>
 
  How run-down did you feel on average?
 
