@@ -1,0 +1,266 @@
+// This file was transformed using the mapping data in Quest-2023-11-22-17-40-54_Transformation.json.
+
+// JSON WARNING --> Concept ID 101310722 with concept "# Pills per day" is shared between these Textbox codes: [ACIDSUP3_1A, ACIDSUP3_2A, ACIDSUP3_3A, CHOLHTN3_1A, CHOLHTN3_2A, INSULIN3_1A, METFOR3_1A, PAINREL3_1A, PAINREL3_2A, PAINREL3_3A, PAINREL3_4A, PAINREL3_5A, PAINREL3_6A, PAINREL3_7A]
+// JSON WARNING --> Concept ID 206625031 with concept "Age at diagnosis" is shared between these Textbox codes: [ANEMIA_AGE, ARRHYT_AGE, ASTHMA_AGE, BARESO_AGE, BLOODCLOT_AGE, BREASTDIS_AGE, CCD_AGE, CD_AGE, CHESTPAIN_AGE, CHF_AGE, CHILDCANC3A_AGE, CHILDCANC3B_AGE, CHILDCANC3C_AGE, CHILDCANC3D_AGE, CHILDCANC3E_AGE, CHILDCANC3F_AGE, CHILDCANC3G_AGE, CHILDCANC3H_AGE, CHILDCANC3I_AGE, CHILDCANC3J_AGE, CHILDCANC3K_AGE, CHILDCANC3L_AGE, CHILDCANC3M_AGE, CHILDCANC3N_AGE, CHILDCANC3O_AGE, CHILDCANC3P_AGE, CHILDCANC3Q_AGE, CHILDCANC3R_AGE, CHILDCANC3S_AGE, CHILDCANC3T_AGE, CHILDCANC3U_AGE, CHILDCANC3V_AGE, CHILDCANC3W_AGE, CHILDCANC3X_AGE, CHILDCANC3Y_AGE, CHLA_AGE, CHOL_AGE, CKD_AGE, COPD_AGE, CVD_AGE, DADCANC3A_AGE, DADCANC3B_AGE, DADCANC3C_AGE, DADCANC3D_AGE, DADCANC3E_AGE, DADCANC3F_AGE, DADCANC3G_AGE, DADCANC3H_AGE, DADCANC3I_AGE, DADCANC3J_AGE, DADCANC3K_AGE, DADCANC3L_AGE, DADCANC3M_AGE, DADCANC3N_AGE, DADCANC3O_AGE, DADCANC3P_AGE, DADCANC3Q_AGE, DADCANC3R_AGE, DADCANC3S_AGE, DADCANC3T_AGE, DADCANC3U_AGE, DADCANC3V_AGE, DCIS_AGE, DEPRESS2_AGE, DIVERT_AGE, DM2_AGE, ENDO_AGE, ENLGPROS_AGE, GALL_AGE, GENWARTS_AGE, GERD_AGE, GONORR_AGE, GOUT_AGE, GRAVES_AGE, HAYFEVER_AGE, HBVHCV_AGE, HEARTATT_AGE, HEARTVALV_AGE, HIVAIDS_AGE, HPV_AGE, HTN_AGE, IBD_AGE, IBS_AGE, KIDNEY_AGE, LIVCIRR_AGE, LUPUS_AGE, MOMCANC3A_AGE, MOMCANC3B_AGE, MOMCANC3C_AGE, MOMCANC3D_AGE, MOMCANC3E_AGE, MOMCANC3F_AGE, MOMCANC3G_AGE, MOMCANC3H_AGE, MOMCANC3I_AGE, MOMCANC3J_AGE, MOMCANC3K_AGE, MOMCANC3L_AGE, MOMCANC3M_AGE, MOMCANC3N_AGE, MOMCANC3O_AGE, MOMCANC3P_AGE, MOMCANC3Q_AGE, MOMCANC3R_AGE, MOMCANC3S_AGE, MOMCANC3T_AGE, MOMCANC3U_AGE, MOMCANC3V_AGE, MOMCANC3W_AGE, MONO_AGE, PANCREA_AGE, PCOS_AGE, RA_AGE, SHINGLES_AGE, SIBCANC3A_AGE, SIBCANC3B_AGE, SIBCANC3C_AGE, SIBCANC3D_AGE, SIBCANC3E_AGE, SIBCANC3F_AGE, SIBCANC3G_AGE, SIBCANC3H_AGE, SIBCANC3I_AGE, SIBCANC3J_AGE, SIBCANC3K_AGE, SIBCANC3L_AGE, SIBCANC3M_AGE, SIBCANC3N_AGE, SIBCANC3O_AGE, SIBCANC3P_AGE, SIBCANC3Q_AGE, SIBCANC3R_AGE, SIBCANC3S_AGE, SIBCANC3T_AGE, SIBCANC3U_AGE, SIBCANC3V_AGE, SIBCANC3W_AGE, SIBCANC3X_AGE, SIBCANC3Y_AGE, SKINCANC3_AGE, STROKE_AGE, SYPH_AGE, THYROID_AGE, TRICH_AGE, UC_AGE, UF_AGE]
+// JSON WARNING --> Concept ID 261863326 with concept "Year at diagnosis" is shared between these Textbox codes: [ANEMIA_YEAR, ARRHYT_YEAR, ASTHMA_YEAR, BARESO_YEAR, BLOODCLOT_YEAR, BREASTDIS_YEAR, CCD_YEAR, CD_YEAR, CHESTPAIN_YEAR, CHF_YEAR, CHILDCANC3A_YEAR, CHILDCANC3B_YEAR, CHILDCANC3C_YEAR, CHILDCANC3D_YEAR, CHILDCANC3E_YEAR, CHILDCANC3F_YEAR, CHILDCANC3G_YEAR, CHILDCANC3H_YEAR, CHILDCANC3I_YEAR, CHILDCANC3J_YEAR, CHILDCANC3K_YEAR, CHILDCANC3L_YEAR, CHILDCANC3M_YEAR, CHILDCANC3N_YEAR, CHILDCANC3O_YEAR, CHILDCANC3P_YEAR, CHILDCANC3Q_YEAR, CHILDCANC3R_YEAR, CHILDCANC3S_YEAR, CHILDCANC3T_YEAR, CHILDCANC3U_YEAR, CHILDCANC3V_YEAR, CHILDCANC3W_YEAR, CHILDCANC3X_YEAR, CHILDCANC3Y_YEAR, CHLA_YEAR, CHOL_YEAR, CKD_YEAR, COPD_YEAR, CVD_YEAR, DADCANC3A_YEAR, DADCANC3B_YEAR, DADCANC3C_YEAR, DADCANC3D_YEAR, DADCANC3E_YEAR, DADCANC3F_YEAR, DADCANC3G_YEAR, DADCANC3H_YEAR, DADCANC3I_YEAR, DADCANC3J_YEAR, DADCANC3K_YEAR, DADCANC3L_YEAR, DADCANC3M_YEAR, DADCANC3N_YEAR, DADCANC3O_YEAR, DADCANC3P_YEAR, DADCANC3Q_YEAR, DADCANC3R_YEAR, DADCANC3S_YEAR, DADCANC3T_YEAR, DADCANC3U_YEAR, DADCANC3V_YEAR, DCIS_YEAR, DEPRESS2_YEAR, DIVERT_YEAR, DM2_YEAR, ENDO_YEAR, ENLGPROS_YEAR, GALL_YEAR, GENWARTS_YEAR, GERD_YEAR, GONORR_YEAR, GOUT_YEAR, GRAVES_YEAR, HAYFEVER_YEAR, HBVHCV_YEAR, HEARTATT_YEAR, HEARTVALV_YEAR, HIVAIDS_YEAR, HPV_YEAR, HTN_YEAR, IBD_YEAR, IBS_YEAR, KIDNEY_YEAR, LIVCIRR_YEAR, LUPUS_YEAR, MOMCANC3A_YEAR, MOMCANC3B_YEAR, MOMCANC3C_YEAR, MOMCANC3D_YEAR, MOMCANC3E_YEAR, MOMCANC3F_YEAR, MOMCANC3G_YEAR, MOMCANC3H_YEAR, MOMCANC3I_YEAR, MOMCANC3J_YEAR, MOMCANC3K_YEAR, MOMCANC3L_YEAR, MOMCANC3M_YEAR, MOMCANC3N_YEAR, MOMCANC3O_YEAR, MOMCANC3P_YEAR, MOMCANC3Q_YEAR, MOMCANC3R_YEAR, MOMCANC3S_YEAR, MOMCANC3T_YEAR, MOMCANC3U_YEAR, MOMCANC3V_YEAR, MOMCANC3W_YEAR, MONO_YEAR, PANCREA_YEAR, PCOS_YEAR, RA_YEAR, SHINGLES_YEAR, SIBCANC3A_YEAR, SIBCANC3B_YEAR, SIBCANC3C_YEAR, SIBCANC3D_YEAR, SIBCANC3E_YEAR, SIBCANC3F_YEAR, SIBCANC3G_YEAR, SIBCANC3H_YEAR, SIBCANC3I_YEAR, SIBCANC3J_YEAR, SIBCANC3K_YEAR, SIBCANC3L_YEAR, SIBCANC3M_YEAR, SIBCANC3N_YEAR, SIBCANC3O_YEAR, SIBCANC3P_YEAR, SIBCANC3Q_YEAR, SIBCANC3R_YEAR, SIBCANC3S_YEAR, SIBCANC3T_YEAR, SIBCANC3U_YEAR, SIBCANC3V_YEAR, SIBCANC3W_YEAR, SIBCANC3X_YEAR, SIBCANC3Y_YEAR, SKINCANC3_YEAR, STROKE_YEAR, SYPH_YEAR, THYROID_YEAR, TRICH_YEAR, UC_YEAR, UF_YEAR]
+// JSON WARNING --> Concept ID 314198277 with concept "Last spent time at this address, year" is shared between these Textbox codes: [SEASADDYRS2_10_YEAR, SEASADDYRS2_1_YEAR, SEASADDYRS2_2_YEAR, SEASADDYRS2_3_YEAR, SEASADDYRS2_4_YEAR, SEASADDYRS2_5_YEAR, SEASADDYRS2_6_YEAR, SEASADDYRS2_7_YEAR, SEASADDYRS2_8_YEAR, SEASADDYRS2_9_YEAR]
+// JSON WARNING --> Concept ID 434243220 with concept "Months used" is shared between these Textbox codes: [ANYCOMESTMONTH, COMBINEDMONTH, COPIUDMONTH, DEPROPROVMONTH, ESTOTHERMONTH, ESTSKINMONTH, HORCOMPILLMONTH, HORIUDMONTH, HORMEDOTHERMONTH, HORMEDPATCHMONTH, HORMEDRINGMONTH, MINIPILLMONTH, NORPLANTMONTH, ORALESTMONTH, ORALMEDMONTH, PATCHESTMONTH, PRESHOR2MONTH, PROESTMONTH, RINGMONTH, TWOPILLMONTH]
+// JSON WARNING --> Concept ID 451310566 with concept "Months at address" is shared between these Textbox codes: [MONTHADD1, MONTHADD10, MONTHADD2, MONTHADD3, MONTHADD4, MONTHADD5, MONTHADD6, MONTHADD7, MONTHADD8, MONTHADD9]
+// JSON WARNING --> Concept ID 623218391 with concept "Age at surgery" is shared between these Textbox codes: [APPEND_AGE, BARSUR_AGE, BREASTABSS_AGE, BREASTDBLREM_AGE, BREASTIMPLANTS_AGE, BREASTLACTREM_AGE, BREASTLIFT_AGE, BREASTOTH_AGE, BREASTPARTREM_AGE, BREASTRECON_AGE, BREASTREDN_AGE, BREASTREM_AGE, FTREM2_AGE, GALLREM_AGE, HYSTER_AGE, LIPOSUCT_AGE, OVARYREM2_AGE, PENREM_AGE, PROSREM2_AGE, TESTREM2_AGE, TONSILS_AGE, TUBLIG_AGE, VASEC_AGE]
+// JSON WARNING --> Concept ID 707805344 with concept "# of Hours" is shared between these Textbox codes: [FALLASLEEPHOURS, LAYINBEDHRS, NONWORKAWAKEBEFOREUPHOURS, NONWORKFALLASLEEPHOURS, OUTSIDEHOURS, WORKDAYOUTSIDEHOURS]
+// JSON WARNING --> Concept ID 765748316 with concept "Days per week" is shared between these Textbox codes: [ACETWEEK, ACIDSUP2_1WK, ACIDSUP2_2WK, ACIDSUP2_3WK, BABYASPRINWEEK, CELECOXIBWEEK, CHOLHTN2_1WK, CHOLHTN2_2WK, IBUPROFENWEEK, INSULIN2_1WK, METFOR2_1WK, NAPROXENWEEK, PAINRELWEEK, REGASPRINWEEK]
+// JSON WARNING --> Concept ID 785412329 with concept "Days per month" is shared between these Textbox codes: [ACETMONTH, ACIDSUP2_1MO, ACIDSUP2_2MO, ACIDSUP2_3MO, BABYASPRINMONTH, CELECOXIBMONTH, CHOLHTN2_1MO, CHOLHTN2_2MO, IBUPROFENMONTH, INSULIN2_1MO, METFOR2_1MO, NAPROXENMONTH, PAINRELMONTH, REGASPRINMONTH]
+// JSON WARNING --> Concept ID 802622485 with concept "Year at surgery" is shared between these Textbox codes: [APPEND_YEAR, BARSUR_YEAR, BREASTABSS_YEAR, BREASTDBLREM_YEAR, BREASTIMPLANTS_YEAR, BREASTLACTREM_YEAR, BREASTLIFT_YEAR, BREASTOTH_YEAR, BREASTPARTREM_YEAR, BREASTRECON_YEAR, BREASTREDN_YEAR, BREASTREM_YEAR, FTREM2_YEAR, GALLREM_YEAR, HYSTER_YEAR, LIPOSUCT_YEAR, OVARYREM2_YEAR, PENREM_YEAR, PROSREM2_YEAR, TESTREM2_YEAR, TONSILS_YEAR, TUBLIG_YEAR, VASEC_YEAR]
+// JSON WARNING --> Concept ID 810608313 with concept "# Servings per day" is shared between these Textbox codes: [EAMAR9ANUM, EAMAR9CNUM, THMAR9ANUM, THMAR9CNUM]
+// JSON WARNING --> Concept ID 850393641 with concept "# of Minutes" is shared between these Textbox codes: [FALLASLEEPMIN, LAYINBEDMIN, NONWORKAWAKEBEFOREUPMIN, NONWORKFALLASLEEPMIN, OUTSIDEMIN, WORKDAYOUTSIDEMIN]
+// JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
+// JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
+
+//This file was last modified on Wed Nov 22 13:51:45 2023 -0500 (short timestamp = 2023-11-22-18-51-45)
+//{"version":"1.0"}
+{"name":"D_390351864"}
+
+[SRVMTW_MODULEINTRO_V1R0] <b> At-Home Mouthwash Sample Survey </b>
+
+We have some questions about you and your oral health history. This information will help us better understand your health status today, and how it is related to the mouthwash (saliva) sample you donated.
+
+[D_350251057?] <b>Mouthwash Data Collection</b> <br/> <br/> Overall, how would you rate the health of your teeth and gums?
+
+(670680466) Excellent
+(927477599)	Very Good
+(719933364)	Good
+(131550264)	Fair 
+(138752522)	Poor
+(178420302) Don't know 
+
+[D_877878167?] In the <b>1 hour before </b>you donated your mouthwash (saliva) sample, did you brush your teeth?
+(353358909)	Yes
+(104430631)	No
+
+[D_800703566?] In the <b>1 hour before</b> you donated your mouthwash (saliva) sample, did you rinse out your mouth?
+(353358909)	Yes
+(104430631)	No
+
+[D_294886836?] In the <b>1 hour before</b> you donated your mouthwash (saliva) sample, did you chew gum?
+(353358909)	Yes
+(104430631)	No
+
+[D_642044281?] In the <b>1 hour before</b> you donated your mouthwash (saliva) sample, did you smoke, vape, or chew any products (including tobacco)?
+(353358909)	Yes
+(104430631)	No
+
+[D_479143504?] Next, we have a few questions about your oral health and routine that will help us better understand your mouthwash (saliva) sample.
+
+In the last <b>month</b>, which of these oral hygiene products have you used? Select all that apply.
+
+[203919683]	Toothbrush -> D_498984275
+[807884576]	Floss -> D_205713835
+[165596977]	Water-based flosser or pick/jet -> D_353467497
+[578402172]	Tongue Cleaner or Scraper -> D_429994023
+[184513726]	Teeth-whiteners (strips, etc.) -> D_499977481
+[390351864]	Mouthwash -> D_406270109
+
+
+[D_498984275?,displayif=equals(D_479143504,203919683)] In the last <b>month</b>, how often did you use a toothbrush?
+(648960871)	Never
+(693256778)	Less than once per week
+(735330419)	Once or twice per week
+(138332277)	Three to five times per week
+(858624942)	Once per day
+(850675416)	Two or more times per day
+
+[D_205713835?,displayif=equals(D_479143504,807884576)] In the last <b>month</b>, how often did you use floss?
+(648960871)	Never
+(693256778)	Less than once per week
+(735330419)	Once or twice per week
+(138332277)	Three to five times per week
+(858624942)	Once per day
+(850675416)	Two or more times per day
+
+[D_353467497?,displayif=equals(D_479143504,165596977)] In the last <b>month</b>, how often did you use a water-based flosser or pick/jet?
+(648960871)	Never
+(693256778)	Less than once per week
+(735330419)	Once or twice per week
+(138332277)	Three to five times per week
+(858624942)	Once per day
+(850675416)	Two or more times per day
+
+
+[D_429994023?,displayif=equals(D_479143504,578402172)] In the last <b>month</b>, how often did you use a tongue cleaner or scraper?
+(648960871)	Never
+(693256778)	Less than once per week
+(735330419)	Once or twice per week
+(138332277)	Three to five times per week
+(858624942)	Once per day
+(850675416)	Two or more times per day
+
+[D_499977481?,displayif=equals(D_479143504,184513726)] In the last <b>month</b>, how often did you use teeth-whiteners (such as whitening strips)?
+(648960871)	Never
+(693256778)	Less than once per week
+(735330419)	Once or twice per week
+(138332277)	Three to five times per week
+(858624942)	Once per day
+(850675416)	Two or more times per day
+
+[D_406270109?,displayif=equals(D_479143504,390351864)] In the last <b>month</b>, which of these mouthwash products have you used? Select all that apply. 
+
+[950773275]	Alcohol-based mouthwash (such as Scope® or LISTERINE®) -> D_349659426
+[762727133]	Alcohol-free mouthwash (such as LISTERINE® Zero) -> D_766370065
+[877842367]	Chlorhexidine mouthwash (such as Peridex&#x2122;, PerioGard®, or Paroex®) -> D_520416570
+[886771318]	Fluoride mouthwash (such as ACT®) -> D_921972241
+[404389800]	Peroxide mouthwash (such as Colgate® Peroxyl® Mouth Sore Rinse) -> D_526973271
+[463302301]	Cetylpyridinium chloride mouthwash (such as Crest® Pro-Health) -> D_460873842
+[259744087]	Mouthwash for sensitive teeth (such as Sensodyne®) -> D_430060900
+[523660949]	Mouthwash for dry mouth (such as biotène®) -> D_800752981
+
+
+[D_349659426?,displayif=equals(D_406270109,950773275)] In the last <b>month</b>, how often did you use alcohol-based mouthwash (such as Scope® or LISTERINE®)?
+(648960871)	Never
+(693256778)	Less than once per week
+(735330419)	Once or twice per week
+(138332277)	Three to five times per week
+(858624942)	Once per day
+(850675416)	Two or more times per day
+
+
+[D_766370065?,displayif=equals(D_406270109,762727133)] In the last <b>month</b>, how often did you use alcohol-free mouthwash (such as LISTERINE® Zero)?
+(648960871)	Never
+(693256778)	Less than once per week
+(735330419)	Once or twice per week
+(138332277)	Three to five times per week
+(858624942)	Once per day
+(850675416)	Two or more times per day
+
+
+[D_520416570?,displayif=equals(D_406270109,877842367)] In the last <b>month</b>, how often did you use chlorhexidine mouthwash (such as Peridex&#x2122;, PerioGard®, or Paroex®)?
+(648960871)	Never
+(693256778)	Less than once per week
+(735330419)	Once or twice per week
+(138332277)	Three to five times per week
+(858624942)	Once per day
+(850675416)	Two or more times per day
+
+
+[D_921972241?,displayif=equals(D_406270109,886771318)] In the last <b>month</b>, how often did you use fluoride mouthwash (such as ACT®)?
+(648960871)	Never
+(693256778)	Less than once per week
+(735330419)	Once or twice per week
+(138332277)	Three to five times per week
+(858624942)	Once per day
+(850675416)	Two or more times per day
+
+
+[D_526973271?,displayif=equals(D_406270109,404389800)] In the last <b>month</b>, how often did you use peroxide mouthwash (such as Colgate® Peroxyl® Mouth Sore Rinse)?
+(648960871)	Never
+(693256778) Less than once per week
+(735330419)	Once or twice per week
+(138332277)	Three to five times per week
+(858624942)	Once per day
+(850675416)	Two or more times per day
+
+
+[D_460873842?,displayif=equals(D_406270109,463302301)] In the last <b>month</b>, how often did you use cetylpyridinium chloride mouthwash (such as Crest® Pro- Health)?
+(648960871)	Never
+(693256778)	Less than once per week
+(735330419)	Once or twice per week
+(138332277)	Three to five times per week
+(858624942)	Once per day
+(850675416)	Two or more times per day
+
+
+[D_430060900?,displayif=equals(D_406270109,259744087)] In the last <b>month</b>, how often did you use mouthwash for sensitive teeth (such as Sensodyne®)?
+(648960871)	Never
+(693256778)	Less than once per week
+(735330419)	Once or twice per week
+(138332277)	Three to five times per week
+(858624942)	Once per day
+(850675416)	Two or more times per day
+
+
+[D_800752981?,displayif=equals(D_406270109,523660949)] In the last <b>month</b>, how often did you use mouthwash for dry mouth (such as biotène®)?
+(648960871)	Never
+(693256778)	Less than once per week
+(735330419)	Once or twice per week
+(138332277)	Three to five times per week
+(858624942)	Once per day
+(850675416)	Two or more times per day
+
+
+[D_899251483_V2?] Have you lost any of your permanent adult teeth, not including tooth crowns or your wisdom teeth? Select all that apply. 
+[812107266]	Yes, from accident or injury -> D_724589244
+[452438775]	Yes, from tooth decay or disease -> D_957305523
+[886864375] Yes, for some other reason -> D_360678252
+[551489317*]  No
+
+
+[D_724589244?,displayif=equals(D_899251483_V2,812107266)] How many teeth have you lost from accident or injury? Do not include tooth crowns or wisdom teeth.
+(349122068)	1
+(194129782)	2 to 4
+(922737557)	5 to 9
+(945387130)	10 or more
+(383505459)	More than one, but not sure how many
+(832322940) Don’t know 
+
+[D_957305523?,displayif=equals(D_899251483_V2,452438775)] How many teeth have you lost from tooth decay or disease? Do not include tooth crowns or wisdom teeth.
+(349122068)	1
+(194129782)	2 to 4
+(922737557)	5 to 9
+(945387130)	10 or more
+(383505459)	More than one, but not sure how many
+(178420302) Don’t know 
+
+[D_360678252?,displayif=equals(D_899251483_V2,886864375)] How many teeth have you lost for reasons other than tooth decay or disease, or accident or injury? Do not include tooth crowns or wisdom teeth.
+(349122068)	1
+(194129782)	2 to 4
+(922737557)	5 to 9
+(945387130)	10 or more
+(383505459)	More than one, but not sure how many
+(178420302) Don’t know
+
+[D_542661394?] Do you currently use any type of dentures or dental appliance? Please select all you have.
+[329536041]	Dental Bridge
+[365685000]	Partial denture
+[215662651]	Full denture
+[656498939]	Dental Implants
+[181769837]	Other
+[167336253*]	No, I have no dentures or dental appliances
+[178420302*] Don’t know
+
+[D_339570897?] When did you last have a professional dental cleaning by a dentist or hygienist?
+
+(317567178) In the past month
+(891558680)	More than a month ago, but in the past 6 months
+(796081734)	More than 6 months ago, but in the past year
+(752219885)	More than a year ago, but in the past 2 years
+(314487612)	More than 2 years ago
+(178420302) Don’t know
+
+[D_983043203?] Have you ever had a cavity in any of your permanent adult teeth? Please include root caries, which are cavities on the root of the tooth.
+(353358909)	Yes
+(104430631)	No
+(178420302) Don’t know
+
+[D_736028153?] Has a dentist ever told you that you have gum disease (periodontal disease)?
+(353358909)	Yes
+(104430631)	No
+(178420302) Don’t know
+
+[D_792134396?] Have you ever had treatment for gum disease, such as scaling or root planing, sometimes called “deep cleaning”?
+(353358909)	Yes
+(104430631)	No
+(178420302) Don’t know
+
+[D_736393021?] In the <b>past two months</b>, have you taken any antibiotic medicine? Common antibiotics include Azithromycin (such as Zithromax®/Z-Paks®), Penicillin (such as Pfizerpen® or Pen-Vee K®), and Amoxicillin (such as Amoxil®) and are generally used to treat infections.
+
+(353358909)	Yes 
+(104430631)	No -> END
+(178420302) Don’t know -> END
+< #NR -> END >
+
+[D_318641324?] When did you last take antibiotic medicine?
+(666365344)	Within the last 24 hours 
+(735136116)	More than 24 hours ago, but in the past week
+(382679079)	More than 1 week ago, but in the past 4 weeks
+(830677489)	More than 4 weeks ago
+
+[END,end]  You have answered all of the questions in this survey. To submit your answers, select the “Submit Survey” button.
