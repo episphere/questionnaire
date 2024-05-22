@@ -16,13 +16,13 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Thu May 16 10:19:49 2024 -0400 (short timestamp = 2024-05-16-14-19-49)
+//This file was last modified on Fri May 17 16:18:04 2024 -0400 (short timestamp = 2024-05-17-20-18-04)
 //{"version":"1.3"}
 {"name":"D_826163434"}
 
 [SRVBIO_MODULEINTRO_V1R0] <b> Cuestionario sobre muestras de sangre y orina </b>
 
-Gracias por participar en el estudio Connect y por donar sus muestras. Nos gustaría hacerle algunas preguntas sobre usted y sus antecedentes médicos. Esta información nos ayudará a entender mejor su estado de salud y cómo se relaciona este con las muestras que donó. Si no está seguro de alguna respuesta, dé su mejor aproximación.
+Gracias por participar en el estudio <i>Connect</i> y por donar sus muestras. Nos gustaría hacerle algunas preguntas sobre usted y sus antecedentes médicos. Esta información nos ayudará a entender mejor su estado de salud y cómo se relaciona este con las muestras que donó. Si no está seguro de alguna respuesta, dé su mejor aproximación.
 
 [D_522008539?] Algunas preguntas en este cuestionario tratarán sobre su salud reproductiva, incluso su ciclo menstrual (si tiene menstruaciones) y su uso de métodos anticonceptivos. Queremos hacerle preguntas que tengan sentido para usted. ¿Qué sexo biológico se le asignó al nacer?
 (536341288) Femenino
@@ -58,8 +58,8 @@ Gracias por participar en el estudio Connect y por donar sus muestras. Nos gusta
 |grid?|id="D_487532606"|<b> Medicamentos </b> <br/><br/> ¿Ha tomado alguno de estos medicamentos en el último mes? Si responde que sí, indique la última vez que tomó cada tipo de medicamento antes de donar sus muestras. Si no está seguro de alguna respuesta, dé su mejor aproximación.|[
 
 [D_619765650] Tylenol®; 
-[D_520755310] Antiinflamatorios no esteroideos o AINE  (como aspirin, Advil®, Aleve®); 
-[D_839329467] Antiácidos, es decir, medicamentos que disminuyen la acidez estomacal  (como Prilosec®, Prevacid®, Protonix®, Aciphex®, Omeprazole, Nexium®, Tagamet®, Zantac®);]
+[D_520755310] Antiinflamatorios no esteroideos o AINE  (como aspirina, Advil®, Aleve®); 
+[D_839329467] Antiácidos, es decir, medicamentos que disminuyen la acidez estomacal  (como Prilosec®, Prevacid®, Protonix®, Aciphex®, omeprazol, Nexium®, Tagamet®, Zantac®);]
 |
 (104430631:No)
 (974230748:Sí, en el último día)
@@ -72,11 +72,11 @@ Gracias por participar en el estudio Connect y por donar sus muestras. Nos gusta
 
 Las siguientes preguntas tratan sobre sus menstruaciones, si está embarazada y el uso de métodos anticonceptivos. Sus respuestas nos ayudarán a entender en qué momento de su ciclo menstrual se encontraba su cuerpo cuando donó las muestras. Tal vez respondió a algunas preguntas como estas en otro cuestionario, pero las siguientes preguntas tratan sobre su estado el día en que donó sus muestras.
 
-[D_380603392!,displayif=equals(D_522008539,536341288)] ¿Tuvo alguna menstruación en los <b>últimos 12 meses</b>? <b>No</b> considere la metrorragia intermenstrual (también conocida como sangrado) como parte del ciclo menstrual.
+[D_380603392!,displayif=equals(D_522008539,536341288)] ¿Tuvo alguna menstruación en los <b>últimos 12 meses? No</b> considere la metrorragia intermenstrual (también conocida como sangrado) como parte del ciclo menstrual.
 (104430631) No -> D_518916981
 (353358909) Sí
 
-[D_112151599!,displayif=equals(D_522008539,536341288)] ¿Tuvo alguna menstruación en los <b>últimos 60 días</b>? <b>No</b> considere la metrorragia intermenstrual (también conocida como sangrado) como parte del ciclo menstrual.
+[D_112151599!,displayif=equals(D_522008539,536341288)] ¿Tuvo alguna menstruación en los <b>últimos 60 días? No</b> considere la metrorragia intermenstrual (también conocida como sangrado) como parte del ciclo menstrual.
 (104430631) No -> D_518916981
 (353358909) Sí
 
@@ -95,7 +95,7 @@ Las siguientes preguntas tratan sobre sus menstruaciones, si está embarazada y 
 (104430631)	No 
 (353358909)	Sí -> D_875535246
 
-[D_563539159?,displayif=equals(D_522008539,536341288)] ¿Amamantó en los <b>últimos tres meses</b>? 
+[D_563539159?,displayif=equals(D_522008539,536341288)] ¿Amamantó en los últimos <b>tres meses</b>? 
 (104430631)	No
 (353358909)	Sí  
 
