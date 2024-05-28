@@ -16,7 +16,7 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Thu May 16 09:48:17 2024 -0400 (short timestamp = 2024-05-16-13-48-17)
+//This file was last modified on Thu May 23 08:12:10 2024 -0400 (short timestamp = 2024-05-23-12-12-10)
 //{"version":"1.3"}
 {"name":"D_299215535"}
 
@@ -309,7 +309,7 @@ El <b>mes pasado</b>, ¿cuál de estos productos de higiene bucodental usó? Sel
 [215662651]	Dentadura postiza completa
 [656498939]	Implantes dentales
 [181769837]	Otro
-[167336253*]	No, no tengo dentaduras postizas ni aparatos dentales
+[167336253*]	No, no tengo prótesis ni aparatos dentales 
 [178420302*] No sé
 
 [D_339570897?] ¿Cuándo fue la última vez que un dentista o un higienista dental le hizo una limpieza dental?
