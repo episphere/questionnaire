@@ -16,9 +16,10 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Mon May 20 08:38:18 2024 -0400 (short timestamp = 2024-05-20-12-38-18)
+//This file was last modified on Thu May 23 13:43:13 2024 -0400 (short timestamp = 2024-05-23-17-43-13)
 //{"version":"1.5"}
 {"name":"D_965707586"}
+
 [INTROM3] Las siguientes preguntas tratan sobre el consumo de tabaco, nicotina, marihuana y bebidas alcohólicas. En la última sección, le preguntaremos sobre su exposición al sol y el uso de camas de bronceado.
 
 [INTROSMO] <b>Tabaco y nicotina </b> <br/> <br/> Primero, le preguntaremos sobre su consumo de tabaco y productos de nicotina. En muchas preguntas, se le pedirá que indique cuántos años tenía cuando empezó a consumir un producto o dejó de hacerlo. Si no está seguro de la edad que tenía cuando empezó a consumir un producto o dejó de hacerlo, indique la mejor aproximación posible.
@@ -289,7 +290,7 @@ Los días en que usaba cigarrillos electrónicos u otros dispositivos para vapea
 (998679771) De 31 a 59 minutos
 (638092100) 1 hora 
 (127455035) 2 horas o más
-(402752509) Didn’t use e-cigarettes or other vaping devices during this time
+(402752509) No usaba cigarrillos electrónicos ni otros dispositivos para vapear durante ese tiempo
 
 // 18-24
 [D_536216847?,displayif=(exists("D_517801904") and ((valueEquals("D_624111331",132232896) and valueEquals("D_751046675",804785430)) and (valueOrDefault("D_517801904",25)<=24 and valueOrDefault("D_150344905","age",17)>=18))) or (allExist("D_517801904","D_360277949") and ((valueEquals("D_624111331",132232896) and valueEquals("D_242276545",353358909)) and (valueOrDefault("D_517801904",25)<=24 and valueOrDefault("D_360277949",17)>=18)))]
@@ -299,7 +300,7 @@ Los días en que usaba cigarrillos electrónicos u otros dispositivos para vapea
 (998679771) De 31 a 59 minutos
 (638092100) 1 hora 
 (127455035) 2 horas o más
-(402752509) Didn’t use e-cigarettes or other vaping devices during this time
+(402752509) No usaba cigarrillos electrónicos ni otros dispositivos para vapear durante ese tiempo
 
 // 25-29
 [D_622394149?,displayif=(exists("D_517801904") and ((valueEquals("D_624111331",132232896) and valueEquals("D_751046675",804785430)) and (valueOrDefault("D_517801904",30)<=29 and valueOrDefault("D_150344905","age",24)>=25))) or (allExist("D_517801904","D_360277949") and ((valueEquals("D_624111331",132232896) and valueEquals("D_242276545",353358909)) and (valueOrDefault("D_517801904",30)<=29 and valueOrDefault("D_360277949",24)>=25)))]
@@ -309,7 +310,7 @@ Los días en que usaba cigarrillos electrónicos u otros dispositivos para vapea
 (998679771) De 31 a 59 minutos
 (638092100) 1 hora 
 (127455035) 2 horas o más
-(402752509) Didn’t use e-cigarettes or other vaping devices during this time
+(402752509) No usaba cigarrillos electrónicos ni otros dispositivos para vapear durante ese tiempo
 
 // 30-39
 [D_442002787?,displayif=(exists("D_517801904") and ((valueEquals("D_624111331",132232896) and valueEquals("D_751046675",804785430)) and (valueOrDefault("D_517801904",40)<=39 and valueOrDefault("D_150344905","age",29)>=30))) or (allExist("D_517801904","D_360277949") and ((valueEquals("D_624111331",132232896) and valueEquals("D_242276545",353358909)) and (valueOrDefault("D_517801904",40)<=39 and valueOrDefault("D_360277949",29)>=30)))] 
@@ -319,7 +320,7 @@ Los días en que usaba cigarrillos electrónicos u otros dispositivos para vapea
 (998679771) De 31 a 59 minutos
 (638092100) 1 hora 
 (127455035) 2 horas o más
-(402752509) Didn’t use e-cigarettes or other vaping devices during this time
+(402752509) No usaba cigarrillos electrónicos ni otros dispositivos para vapear durante ese tiempo
 
 // 40-49
 [D_208578552?,displayif=(exists("D_517801904") and ((valueEquals("D_624111331",132232896) and valueEquals("D_751046675",804785430)) and (valueOrDefault("D_517801904",50)<=49 and valueOrDefault("D_150344905","age",39)>=40))) or (allExist("D_517801904","D_360277949") and ((valueEquals("D_624111331",132232896) and valueEquals("D_242276545",353358909)) and (valueOrDefault("D_517801904",50)<=49 and valueOrDefault("D_360277949",39)>=40)))]
@@ -329,7 +330,7 @@ Los días en que usaba cigarrillos electrónicos u otros dispositivos para vapea
 (998679771) De 31 a 59 minutos
 (638092100) 1 hora 
 (127455035) 2 horas o más
-(402752509) Didn’t use e-cigarettes or other vaping devices during this time
+(402752509) No usaba cigarrillos electrónicos ni otros dispositivos para vapear durante ese tiempo
 
 // 50-59
 [D_480155628?,displayif=(exists("D_517801904") and ((valueEquals("D_624111331",132232896) and valueEquals("D_751046675",804785430)) and (valueOrDefault("D_517801904",60)<=59 and valueOrDefault("D_150344905","age",49)>=50))) or (allExist("D_517801904","D_360277949") and ((valueEquals("D_624111331",132232896) and valueEquals("D_242276545",353358909)) and (valueOrDefault("D_517801904",60)<=59 and valueOrDefault("D_360277949",49)>=50)))] 
@@ -339,7 +340,7 @@ Los días en que usaba cigarrillos electrónicos u otros dispositivos para vapea
 (998679771) De 31 a 59 minutos
 (638092100) 1 hora 
 (127455035) 2 horas o más
-(402752509) Didn’t use e-cigarettes or other vaping devices during this time
+(402752509) No usaba cigarrillos electrónicos ni otros dispositivos para vapear durante ese tiempo
 
 // 60-69
 [D_640944113?,displayif=(exists("D_517801904") and ((valueEquals("D_624111331",132232896) and valueEquals("D_751046675",804785430)) and (valueOrDefault("D_517801904",70)<=69 and valueOrDefault("D_150344905","age",59)>=60))) or (allExist("D_517801904","D_360277949") and ((valueEquals("D_624111331",132232896) and valueEquals("D_242276545",353358909)) and (valueOrDefault("D_517801904",70)<=69 and valueOrDefault("D_360277949",59)>=60)))]
@@ -348,7 +349,7 @@ Los días en que usaba cigarrillos electrónicos u otros dispositivos para vapea
 (998679771) De 31 a 59 minutos
 (638092100) 1 hora 
 (127455035) 2 horas o más
-(402752509) Didn’t use e-cigarettes or other vaping devices during this time
+(402752509) No usaba cigarrillos electrónicos ni otros dispositivos para vapear durante ese tiempo
 
 // 70+
 [D_866159532?,displayif=(exists("D_517801904") and ((valueEquals("D_624111331",132232896) and valueEquals("D_751046675",804785430)) and (valueOrDefault("D_517801904",69)>=70 or valueOrDefault("D_150344905","age",69)>=70))) or (allExist("D_517801904","D_360277949") and ((valueEquals("D_624111331",132232896) and valueEquals("D_242276545",353358909)) and (valueOrDefault("D_517801904",69)>=70 or valueOrDefault("D_360277949",69)>=70)))]
@@ -359,7 +360,7 @@ Los días en que usaba cigarrillos electrónicos u otros dispositivos para vapea
 (998679771) De 31 a 59 minutos
 (638092100) 1 hora 
 (127455035) 2 horas o más
-(402752509) Didn’t use e-cigarettes or other vaping devices during this time
+(402752509) No usaba cigarrillos electrónicos ni otros dispositivos para vapear durante ese tiempo
 
 [D_182431332?,displayif=equals(D_947205597,198133418)]<b>Puros y cigarros</b>
 
@@ -772,7 +773,7 @@ Los días en que fumaba tabaco con un narguile o una pipa de agua cuando tenía 
 (998679771) De 31 a 59 minutos
 (638092100) 1 hora 
 (127455035) 2 horas o más
-(118191655) Didn’t smoke a hookah or water pipe during this time
+(118191655) No fumaba narguile ni una pipa de agua al día
 
 // 18-24
 [D_620425840?,displayif=(exists("D_234430294") and ((valueEquals("D_981755099",132232896) and valueEquals("D_472007171",804785430)) and (valueOrDefault("D_234430294",25)<=24 and valueOrDefault("D_150344905","age",17)>=18))) or (allExist("D_234430294","D_938333920") and ((valueEquals("D_981755099",132232896) and valueEquals("D_585702271",353358909)) and (valueOrDefault("D_234430294",25)<=24 and valueOrDefault("D_938333920",17)>=18)))]
@@ -783,7 +784,7 @@ Los días en que fumaba tabaco con un narguile o una pipa de agua cuando tenía 
 (998679771) De 31 a 59 minutos
 (638092100) 1 hora 
 (127455035) 2 horas o más
-(118191655) Didn’t smoke a hookah or water pipe during this time
+(118191655) No fumaba narguile ni una pipa de agua al día
 
 // 25-29
 [D_798627028?,displayif=(exists("D_234430294") and ((valueEquals("D_981755099",132232896) and valueEquals("D_472007171",804785430)) and (valueOrDefault("D_234430294",30)<=29 and valueOrDefault("D_150344905","age",24)>=25))) or (allExist("D_234430294","D_938333920") and ((valueEquals("D_981755099",132232896) and valueEquals("D_585702271",353358909)) and (valueOrDefault("D_234430294",30)<=29 and valueOrDefault("D_938333920",24)>=25)))]
@@ -794,7 +795,7 @@ Los días en que fumaba tabaco con un narguile o una pipa de agua cuando tenía 
 (998679771) De 31 a 59 minutos
 (638092100) 1 hora 
 (127455035) 2 horas o más
-(118191655) Didn’t smoke a hookah or water pipe during this time
+(118191655) No fumaba narguile ni una pipa de agua al día
 
 // 30-39
 [D_584608368?,displayif=(exists("D_234430294") and ((valueEquals("D_981755099",132232896) and valueEquals("D_472007171",804785430)) and (valueOrDefault("D_234430294",40)<=39 and valueOrDefault("D_150344905","age",29)>=30))) or (allExist("D_234430294","D_938333920") and ((valueEquals("D_981755099",132232896) and valueEquals("D_585702271",353358909)) and (valueOrDefault("D_234430294",40)<=39 and valueOrDefault("D_938333920",29)>=30)))]
@@ -805,7 +806,7 @@ Los días en que fumaba tabaco con un narguile o una pipa de agua cuando tenía 
 (998679771) De 31 a 59 minutos
 (638092100) 1 hora 
 (127455035) 2 horas o más
-(118191655) Didn’t smoke a hookah or water pipe during this time
+(118191655) No fumaba narguile ni una pipa de agua al día
 
 // 40-49
 [D_921623945?,displayif=(exists("D_234430294") and ((valueEquals("D_981755099",132232896) and valueEquals("D_472007171",804785430)) and (valueOrDefault("D_234430294",50)<=49 and valueOrDefault("D_150344905","age",39)>=40))) or (allExist("D_234430294","D_938333920") and ((valueEquals("D_981755099",132232896) and valueEquals("D_585702271",353358909)) and (valueOrDefault("D_234430294",50)<=49 and valueOrDefault("D_938333920",39)>=40)))]
@@ -816,7 +817,7 @@ Los días en que fumaba tabaco con un narguile o una pipa de agua cuando tenía 
 (998679771) De 31 a 59 minutos
 (638092100) 1 hora 
 (127455035) 2 horas o más
-(118191655) Didn’t smoke a hookah or water pipe during this time
+(118191655) No fumaba narguile ni una pipa de agua al día
 
 // 50-59
 [D_370253256?,displayif=(exists("D_234430294") and ((valueEquals("D_981755099",132232896) and valueEquals("D_472007171",804785430)) and (valueOrDefault("D_234430294",60)<=59 and valueOrDefault("D_150344905","age",49)>=50))) or (allExist("D_234430294","D_938333920") and ((valueEquals("D_981755099",132232896) and valueEquals("D_585702271",353358909)) and (valueOrDefault("D_234430294",60)<=59 and valueOrDefault("D_938333920",49)>=50)))]
@@ -827,7 +828,7 @@ Los días en que fumaba tabaco con un narguile o una pipa de agua cuando tenía 
 (998679771) De 31 a 59 minutos
 (638092100) 1 hora 
 (127455035) 2 horas o más
-(118191655) Didn’t smoke a hookah or water pipe during this time
+(118191655) No fumaba narguile ni una pipa de agua al día
 
 // 60-69
 [D_470096941?,displayif=(exists("D_234430294") and ((valueEquals("D_981755099",132232896) and valueEquals("D_472007171",804785430)) and (valueOrDefault("D_234430294",70)<=69 and valueOrDefault("D_150344905","age",59)>=60))) or (allExist("D_234430294","D_938333920") and ((valueEquals("D_981755099",132232896) and valueEquals("D_585702271",353358909)) and (valueOrDefault("D_234430294",70)<=69 and valueOrDefault("D_938333920",59)>=60)))]
@@ -838,7 +839,7 @@ Los días en que fumaba tabaco con un narguile o una pipa de agua cuando tenía 
 (998679771) De 31 a 59 minutos
 (638092100) 1 hora 
 (127455035) 2 horas o más
-(118191655) Didn’t smoke a hookah or water pipe during this time
+(118191655) No fumaba narguile ni una pipa de agua al día
 
 // 70+
 [D_544356746?,displayif=(exists("D_234430294") and ((valueEquals("D_981755099",132232896) and valueEquals("D_472007171",804785430)) and (valueOrDefault("D_234430294",69)>=70 or valueOrDefault("D_150344905","age",69)>=70))) or (allExist("D_234430294","D_938333920") and ((valueEquals("D_981755099",132232896) and valueEquals("D_585702271",353358909)) and (valueOrDefault("D_234430294",69)>=70 or valueOrDefault("D_938333920",69)>=70)))]
@@ -849,7 +850,7 @@ Los días en que fumaba tabaco con un narguile o una pipa de agua cuando tenía 
 (998679771) De 31 a 59 minutos
 (638092100) 1 hora 
 (127455035) 2 horas o más
-(118191655) Didn’t smoke a hookah or water pipe during this time
+(118191655) No fumaba narguile ni una pipa de agua al día
 
 
 [D_559388168?,displayif=equals(D_947205597,686310465)]<b>Pipas de tabaco</b>
@@ -1478,7 +1479,7 @@ Los días en que usaba dispositivos de suministro electrónico de marihuana cuan
 (998679771) De 31 a 59 minutos
 (638092100) 1 hora 
 (127455035) 2 horas o más
-(352316035) Didn’t use electronic marijuana delivery devices during this time
+(352316035) No usaba dispositivos de suministro electrónico de marihuana durante ese tiempo
 
 // 18-24
 [D_319252189?,displayif=(exists("D_742716427") and ((valueEquals("D_325229459",132232896) and valueEquals("D_521073718",804785430)) and (valueOrDefault("D_742716427",25)<=24 and valueOrDefault("D_150344905","age",17)>=18))) or (allExist("D_742716427","D_445187084") and ((valueEquals("D_325229459",132232896) and valueEquals("D_142164107",353358909)) and (valueOrDefault("D_742716427",25)<=24 and valueOrDefault("D_445187084",17)>=18)))]
@@ -1489,7 +1490,7 @@ Los días en que usaba dispositivos de suministro electrónico de marihuana cuan
 (998679771) De 31 a 59 minutos
 (638092100) 1 hora 
 (127455035) 2 horas o más
-(352316035) Didn’t use electronic marijuana delivery devices during this time
+(352316035) No usaba dispositivos de suministro electrónico de marihuana durante ese tiempo
 
 // 25-29
 [D_822964046?,displayif=(exists("D_742716427") and ((valueEquals("D_325229459",132232896) and valueEquals("D_521073718",804785430)) and (valueOrDefault("D_742716427",30)<=29 and valueOrDefault("D_150344905","age",24)>=25))) or (allExist("D_742716427","D_445187084") and ((valueEquals("D_325229459",132232896) and valueEquals("D_142164107",353358909)) and (valueOrDefault("D_742716427",30)<=29 and valueOrDefault("D_445187084",24)>=25)))]
@@ -1500,7 +1501,7 @@ Los días en que usaba dispositivos de suministro electrónico de marihuana cuan
 (998679771) De 31 a 59 minutos
 (638092100) 1 hora 
 (127455035) 2 horas o más
-(352316035) Didn’t use electronic marijuana delivery devices during this time
+(352316035) No usaba dispositivos de suministro electrónico de marihuana durante ese tiempo
 
 // 30-39
 [D_878281875?,displayif=(exists("D_742716427") and ((valueEquals("D_325229459",132232896) and valueEquals("D_521073718",804785430)) and (valueOrDefault("D_742716427",40)<=39 and valueOrDefault("D_150344905","age",29)>=30))) or (allExist("D_742716427","D_445187084") and ((valueEquals("D_325229459",132232896) and valueEquals("D_142164107",353358909)) and (valueOrDefault("D_742716427",40)<=39 and valueOrDefault("D_445187084",29)>=30)))]
@@ -1511,7 +1512,7 @@ Los días en que usaba dispositivos de suministro electrónico de marihuana cuan
 (998679771) De 31 a 59 minutos
 (638092100) 1 hora 
 (127455035) 2 horas o más
-(352316035) Didn’t use electronic marijuana delivery devices during this time
+(352316035) No usaba dispositivos de suministro electrónico de marihuana durante ese tiempo
 
 // 40-49
 [D_989594002?,displayif=(exists("D_742716427") and ((valueEquals("D_325229459",132232896) and valueEquals("D_521073718",804785430)) and (valueOrDefault("D_742716427",50)<=49 and valueOrDefault("D_150344905","age",39)>=40))) or (allExist("D_742716427","D_445187084") and ((valueEquals("D_325229459",132232896) and valueEquals("D_142164107",353358909)) and (valueOrDefault("D_742716427",50)<=49 and valueOrDefault("D_445187084",39)>=40)))]
@@ -1522,7 +1523,7 @@ Los días en que usaba dispositivos de suministro electrónico de marihuana cuan
 (998679771) De 31 a 59 minutos
 (638092100) 1 hora 
 (127455035) 2 horas o más
-(352316035) Didn’t use electronic marijuana delivery devices during this time
+(352316035) No usaba dispositivos de suministro electrónico de marihuana durante ese tiempo
 
 // 50-59
 [D_596004621?,displayif=(exists("D_742716427") and ((valueEquals("D_325229459",132232896) and valueEquals("D_521073718",804785430)) and (valueOrDefault("D_742716427",60)<=59 and valueOrDefault("D_150344905","age",49)>=50))) or (allExist("D_742716427","D_445187084") and ((valueEquals("D_325229459",132232896) and valueEquals("D_142164107",353358909)) and (valueOrDefault("D_742716427",60)<=59 and valueOrDefault("D_445187084",49)>=50)))]
@@ -1533,7 +1534,7 @@ Los días en que usaba dispositivos de suministro electrónico de marihuana cuan
 (998679771) De 31 a 59 minutos
 (638092100) 1 hora 
 (127455035) 2 horas o más
-(352316035) Didn’t use electronic marijuana delivery devices during this time
+(352316035) No usaba dispositivos de suministro electrónico de marihuana durante ese tiempo
 
 // 60-69
 [D_459096272?,displayif=(exists("D_742716427") and ((valueEquals("D_325229459",132232896) and valueEquals("D_521073718",804785430)) and (valueOrDefault("D_742716427",70)<=69 and valueOrDefault("D_150344905","age",59)>=60))) or (allExist("D_742716427","D_445187084") and ((valueEquals("D_325229459",132232896) and valueEquals("D_142164107",353358909)) and (valueOrDefault("D_742716427",70)<=69 and valueOrDefault("D_445187084",59)>=60)))]
@@ -1544,7 +1545,7 @@ Los días en que usaba dispositivos de suministro electrónico de marihuana cuan
 (998679771) De 31 a 59 minutos
 (638092100) 1 hora 
 (127455035) 2 horas o más
-(352316035) Didn’t use electronic marijuana delivery devices during this time
+(352316035) No usaba dispositivos de suministro electrónico de marihuana durante ese tiempo
 
 // 70+
 [D_586306068?,displayif=(exists("D_742716427") and ((valueEquals("D_325229459",132232896) and valueEquals("D_521073718",804785430)) and (valueOrDefault("D_742716427",69)>=70 or valueOrDefault("D_150344905","age",69)>=70))) or (allExist("D_742716427","D_445187084") and ((valueEquals("D_325229459",132232896) and valueEquals("D_142164107",353358909)) and (valueOrDefault("D_742716427",69)>=70 or valueOrDefault("D_445187084",69)>=70)))]
@@ -1555,7 +1556,7 @@ Los días en que usaba dispositivos de suministro electrónico de marihuana cuan
 (998679771) De 31 a 59 minutos
 (638092100) 1 hora 
 (127455035) 2 horas o más
-(352316035) Didn’t use electronic marijuana delivery devices during this time
+(352316035) No usaba dispositivos de suministro electrónico de marihuana durante ese tiempo
 
 [D_101170268?,displayif=equals(D_830608495,713594719)]<b>Consumo de marihuana en alimentos o bebidas</b>
 
