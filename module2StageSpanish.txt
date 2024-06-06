@@ -1,0 +1,2367 @@
+// This file was transformed using the mapping data in Quest-2024-05-09-20-33-16_Transformation.json.
+
+// JSON WARNING --> Concept ID 101310722 with concept "# Pills per day" is shared between these Textbox codes: [ACIDSUP3_1A, ACIDSUP3_2A, ACIDSUP3_3A, CHOLHTN3_1A, CHOLHTN3_2A, INSULIN3_1A, METFOR3_1A, PAINREL3_1A, PAINREL3_2A, PAINREL3_3A, PAINREL3_4A, PAINREL3_5A, PAINREL3_6A, PAINREL3_7A]
+// JSON WARNING --> Concept ID 206625031 with concept "Age at diagnosis" is shared between these Textbox codes: [ANEMIA_AGE, ARRHYT_AGE, ASTHMA_AGE, BARESO_AGE, BLOODCLOT_AGE, BREASTDIS_AGE, CCD_AGE, CD_AGE, CHESTPAIN_AGE, CHF_AGE, CHILDCANC3A_AGE, CHILDCANC3B_AGE, CHILDCANC3C_AGE, CHILDCANC3D_AGE, CHILDCANC3E_AGE, CHILDCANC3F_AGE, CHILDCANC3G_AGE, CHILDCANC3H_AGE, CHILDCANC3I_AGE, CHILDCANC3J_AGE, CHILDCANC3K_AGE, CHILDCANC3L_AGE, CHILDCANC3M_AGE, CHILDCANC3N_AGE, CHILDCANC3O_AGE, CHILDCANC3P_AGE, CHILDCANC3Q_AGE, CHILDCANC3R_AGE, CHILDCANC3S_AGE, CHILDCANC3T_AGE, CHILDCANC3U_AGE, CHILDCANC3V_AGE, CHILDCANC3W_AGE, CHILDCANC3X_AGE, CHILDCANC3Y_AGE, CHLA_AGE, CHOL_AGE, CKD_AGE, COPD_AGE, CVD_AGE, DADCANC3A_AGE, DADCANC3B_AGE, DADCANC3C_AGE, DADCANC3D_AGE, DADCANC3E_AGE, DADCANC3F_AGE, DADCANC3G_AGE, DADCANC3H_AGE, DADCANC3I_AGE, DADCANC3J_AGE, DADCANC3K_AGE, DADCANC3L_AGE, DADCANC3M_AGE, DADCANC3N_AGE, DADCANC3O_AGE, DADCANC3P_AGE, DADCANC3Q_AGE, DADCANC3R_AGE, DADCANC3S_AGE, DADCANC3T_AGE, DADCANC3U_AGE, DADCANC3V_AGE, DCIS_AGE, DEPRESS2_AGE, DIVERT_AGE, DM2_AGE, ENDO_AGE, ENLGPROS_AGE, GALL_AGE, GENWARTS_AGE, GERD_AGE, GONORR_AGE, GOUT_AGE, GRAVES_AGE, HAYFEVER_AGE, HBVHCV_AGE, HEARTATT_AGE, HEARTVALV_AGE, HIVAIDS_AGE, HPV_AGE, HTN_AGE, IBD_AGE, IBS_AGE, KIDNEY_AGE, LIVCIRR_AGE, LUPUS_AGE, MOMCANC3A_AGE, MOMCANC3B_AGE, MOMCANC3C_AGE, MOMCANC3D_AGE, MOMCANC3E_AGE, MOMCANC3F_AGE, MOMCANC3G_AGE, MOMCANC3H_AGE, MOMCANC3I_AGE, MOMCANC3J_AGE, MOMCANC3K_AGE, MOMCANC3L_AGE, MOMCANC3M_AGE, MOMCANC3N_AGE, MOMCANC3O_AGE, MOMCANC3P_AGE, MOMCANC3Q_AGE, MOMCANC3R_AGE, MOMCANC3S_AGE, MOMCANC3T_AGE, MOMCANC3U_AGE, MOMCANC3V_AGE, MOMCANC3W_AGE, MONO_AGE, PANCREA_AGE, PCOS_AGE, RA_AGE, SHINGLES_AGE, SIBCANC3A_AGE, SIBCANC3B_AGE, SIBCANC3C_AGE, SIBCANC3D_AGE, SIBCANC3E_AGE, SIBCANC3F_AGE, SIBCANC3G_AGE, SIBCANC3H_AGE, SIBCANC3I_AGE, SIBCANC3J_AGE, SIBCANC3K_AGE, SIBCANC3L_AGE, SIBCANC3M_AGE, SIBCANC3N_AGE, SIBCANC3O_AGE, SIBCANC3P_AGE, SIBCANC3Q_AGE, SIBCANC3R_AGE, SIBCANC3S_AGE, SIBCANC3T_AGE, SIBCANC3U_AGE, SIBCANC3V_AGE, SIBCANC3W_AGE, SIBCANC3X_AGE, SIBCANC3Y_AGE, SKINCANC3_AGE, STROKE_AGE, SYPH_AGE, THYROID_AGE, TRICH_AGE, UC_AGE, UF_AGE]
+// JSON WARNING --> Concept ID 261863326 with concept "Year at diagnosis" is shared between these Textbox codes: [ANEMIA_YEAR, ARRHYT_YEAR, ASTHMA_YEAR, BARESO_YEAR, BLOODCLOT_YEAR, BREASTDIS_YEAR, CCD_YEAR, CD_YEAR, CHESTPAIN_YEAR, CHF_YEAR, CHILDCANC3A_YEAR, CHILDCANC3B_YEAR, CHILDCANC3C_YEAR, CHILDCANC3D_YEAR, CHILDCANC3E_YEAR, CHILDCANC3F_YEAR, CHILDCANC3G_YEAR, CHILDCANC3H_YEAR, CHILDCANC3I_YEAR, CHILDCANC3J_YEAR, CHILDCANC3K_YEAR, CHILDCANC3L_YEAR, CHILDCANC3M_YEAR, CHILDCANC3N_YEAR, CHILDCANC3O_YEAR, CHILDCANC3P_YEAR, CHILDCANC3Q_YEAR, CHILDCANC3R_YEAR, CHILDCANC3S_YEAR, CHILDCANC3T_YEAR, CHILDCANC3U_YEAR, CHILDCANC3V_YEAR, CHILDCANC3W_YEAR, CHILDCANC3X_YEAR, CHILDCANC3Y_YEAR, CHLA_YEAR, CHOL_YEAR, CKD_YEAR, COPD_YEAR, CVD_YEAR, DADCANC3A_YEAR, DADCANC3B_YEAR, DADCANC3C_YEAR, DADCANC3D_YEAR, DADCANC3E_YEAR, DADCANC3F_YEAR, DADCANC3G_YEAR, DADCANC3H_YEAR, DADCANC3I_YEAR, DADCANC3J_YEAR, DADCANC3K_YEAR, DADCANC3L_YEAR, DADCANC3M_YEAR, DADCANC3N_YEAR, DADCANC3O_YEAR, DADCANC3P_YEAR, DADCANC3Q_YEAR, DADCANC3R_YEAR, DADCANC3S_YEAR, DADCANC3T_YEAR, DADCANC3U_YEAR, DADCANC3V_YEAR, DCIS_YEAR, DEPRESS2_YEAR, DIVERT_YEAR, DM2_YEAR, ENDO_YEAR, ENLGPROS_YEAR, GALL_YEAR, GENWARTS_YEAR, GERD_YEAR, GONORR_YEAR, GOUT_YEAR, GRAVES_YEAR, HAYFEVER_YEAR, HBVHCV_YEAR, HEARTATT_YEAR, HEARTVALV_YEAR, HIVAIDS_YEAR, HPV_YEAR, HTN_YEAR, IBD_YEAR, IBS_YEAR, KIDNEY_YEAR, LIVCIRR_YEAR, LUPUS_YEAR, MOMCANC3A_YEAR, MOMCANC3B_YEAR, MOMCANC3C_YEAR, MOMCANC3D_YEAR, MOMCANC3E_YEAR, MOMCANC3F_YEAR, MOMCANC3G_YEAR, MOMCANC3H_YEAR, MOMCANC3I_YEAR, MOMCANC3J_YEAR, MOMCANC3K_YEAR, MOMCANC3L_YEAR, MOMCANC3M_YEAR, MOMCANC3N_YEAR, MOMCANC3O_YEAR, MOMCANC3P_YEAR, MOMCANC3Q_YEAR, MOMCANC3R_YEAR, MOMCANC3S_YEAR, MOMCANC3T_YEAR, MOMCANC3U_YEAR, MOMCANC3V_YEAR, MOMCANC3W_YEAR, MONO_YEAR, PANCREA_YEAR, PCOS_YEAR, RA_YEAR, SHINGLES_YEAR, SIBCANC3A_YEAR, SIBCANC3B_YEAR, SIBCANC3C_YEAR, SIBCANC3D_YEAR, SIBCANC3E_YEAR, SIBCANC3F_YEAR, SIBCANC3G_YEAR, SIBCANC3H_YEAR, SIBCANC3I_YEAR, SIBCANC3J_YEAR, SIBCANC3K_YEAR, SIBCANC3L_YEAR, SIBCANC3M_YEAR, SIBCANC3N_YEAR, SIBCANC3O_YEAR, SIBCANC3P_YEAR, SIBCANC3Q_YEAR, SIBCANC3R_YEAR, SIBCANC3S_YEAR, SIBCANC3T_YEAR, SIBCANC3U_YEAR, SIBCANC3V_YEAR, SIBCANC3W_YEAR, SIBCANC3X_YEAR, SIBCANC3Y_YEAR, SKINCANC3_YEAR, STROKE_YEAR, SYPH_YEAR, THYROID_YEAR, TRICH_YEAR, UC_YEAR, UF_YEAR]
+// JSON WARNING --> Concept ID 314198277 with concept "Last spent time at this address, year" is shared between these Textbox codes: [SEASADDYRS2_10_YEAR, SEASADDYRS2_1_YEAR, SEASADDYRS2_2_YEAR, SEASADDYRS2_3_YEAR, SEASADDYRS2_4_YEAR, SEASADDYRS2_5_YEAR, SEASADDYRS2_6_YEAR, SEASADDYRS2_7_YEAR, SEASADDYRS2_8_YEAR, SEASADDYRS2_9_YEAR]
+// JSON WARNING --> Concept ID 434243220 with concept "Months used" is shared between these Textbox codes: [ANYCOMESTMONTH, COMBINEDMONTH, COPIUDMONTH, DEPROPROVMONTH, ESTOTHERMONTH, ESTSKINMONTH, HORCOMPILLMONTH, HORIUDMONTH, HORMEDOTHERMONTH, HORMEDPATCHMONTH, HORMEDRINGMONTH, MINIPILLMONTH, NORPLANTMONTH, ORALESTMONTH, ORALMEDMONTH, PATCHESTMONTH, PRESHOR2MONTH, PROESTMONTH, RINGMONTH, TWOPILLMONTH]
+// JSON WARNING --> Concept ID 451310566 with concept "Months at address" is shared between these Textbox codes: [MONTHADD1, MONTHADD10, MONTHADD2, MONTHADD3, MONTHADD4, MONTHADD5, MONTHADD6, MONTHADD7, MONTHADD8, MONTHADD9]
+// JSON WARNING --> Concept ID 623218391 with concept "Age at surgery" is shared between these Textbox codes: [APPEND_AGE, BARSUR_AGE, BREASTABSS_AGE, BREASTDBLREM_AGE, BREASTIMPLANTS_AGE, BREASTLACTREM_AGE, BREASTLIFT_AGE, BREASTOTH_AGE, BREASTPARTREM_AGE, BREASTRECON_AGE, BREASTREDN_AGE, BREASTREM_AGE, FTREM2_AGE, GALLREM_AGE, HYSTER_AGE, LIPOSUCT_AGE, OVARYREM2_AGE, PENREM_AGE, PROSREM2_AGE, TESTREM2_AGE, TONSILS_AGE, TUBLIG_AGE, VASEC_AGE]
+// JSON WARNING --> Concept ID 707805344 with concept "# of Hours" is shared between these Textbox codes: [FALLASLEEPHOURS, LAYINBEDHRS, NONWORKAWAKEBEFOREUPHOURS, NONWORKFALLASLEEPHOURS, OUTSIDEHOURS, WORKDAYOUTSIDEHOURS]
+// JSON WARNING --> Concept ID 765748316 with concept "Days per week" is shared between these Textbox codes: [ACETWEEK, ACIDSUP2_1WK, ACIDSUP2_2WK, ACIDSUP2_3WK, BABYASPRINWEEK, CELECOXIBWEEK, CHOLHTN2_1WK, CHOLHTN2_2WK, IBUPROFENWEEK, INSULIN2_1WK, METFOR2_1WK, NAPROXENWEEK, PAINRELWEEK, REGASPRINWEEK]
+// JSON WARNING --> Concept ID 785412329 with concept "Days per month" is shared between these Textbox codes: [ACETMONTH, ACIDSUP2_1MO, ACIDSUP2_2MO, ACIDSUP2_3MO, BABYASPRINMONTH, CELECOXIBMONTH, CHOLHTN2_1MO, CHOLHTN2_2MO, IBUPROFENMONTH, INSULIN2_1MO, METFOR2_1MO, NAPROXENMONTH, PAINRELMONTH, REGASPRINMONTH]
+// JSON WARNING --> Concept ID 802622485 with concept "Year at surgery" is shared between these Textbox codes: [APPEND_YEAR, BARSUR_YEAR, BREASTABSS_YEAR, BREASTDBLREM_YEAR, BREASTIMPLANTS_YEAR, BREASTLACTREM_YEAR, BREASTLIFT_YEAR, BREASTOTH_YEAR, BREASTPARTREM_YEAR, BREASTRECON_YEAR, BREASTREDN_YEAR, BREASTREM_YEAR, FTREM2_YEAR, GALLREM_YEAR, HYSTER_YEAR, LIPOSUCT_YEAR, OVARYREM2_YEAR, PENREM_YEAR, PROSREM2_YEAR, TESTREM2_YEAR, TONSILS_YEAR, TUBLIG_YEAR, VASEC_YEAR]
+// JSON WARNING --> Concept ID 810608313 with concept "# Servings per day" is shared between these Textbox codes: [EAMAR9ANUM, EAMAR9CNUM, THMAR9ANUM, THMAR9CNUM]
+// JSON WARNING --> Concept ID 850393641 with concept "# of Minutes" is shared between these Textbox codes: [FALLASLEEPMIN, LAYINBEDMIN, NONWORKAWAKEBEFOREUPMIN, NONWORKFALLASLEEPMIN, OUTSIDEMIN, WORKDAYOUTSIDEMIN]
+// JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
+// JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
+
+//This file was last modified on Wed Jun 5 13:02:37 2024 -0400 (short timestamp = 2024-06-05-17-02-37)
+//{"version":"2.2"}
+{"name":"D_745268907_V2"}
+[INTROM2] Esta serie de preguntas trata sobre algunos temas que le afectan la salud, los cuales incluyen su consumo actual y pasado de medicamentos, su actividad física (incluso el ejercicio) y sus hábitos de sueño.
+
+|displayif=or(equals(D_407056417,536341288),and(equals(D_407056417,576796184),or(equals(D_750420077,578416151),equals(D_750420077,434651539))))|También le haremos algunas preguntas sobre su salud reproductiva. Estas preguntas se centrarán sobre todo en sus períodos menstruales, en los embarazos y en si ha usado algún medicamento hormonal.|
+
+[SECTION1] <b>Medicamentos</b>
+
+En primer lugar, le preguntaremos sobre su consumo actual y pasado de distintos medicamentos. Esta información nos ayudará a entender sus antecedentes médicos y su estado de salud actual.
+
+Cuando le pidamos que nos diga una cantidad exacta de pastillas, dé su mejor aproximación si no está seguro. Si toma media pastilla, cuéntela como una pastilla.
+
+[D_399982309?]<b>Analgésicos (medicamentos para el dolor)</b>
+
+¿Ha tomado alguna vez cualquiera de estos medicamentos por lo menos <b>cuatro veces al mes por seis meses o más</b>? Seleccione todas las opciones que correspondan.
+[469512398|babyAsprin] Aspirina (ácido acetilsalicílico) infantil u otra aspirina de dosis baja (de 81 mg o menos) -> D_861838892
+[194424439|regAsprin] Aspirina ordinaria o de mayor concentración (<i>extra strength</i>) (como Bufferin® or Anacin®) -> D_837412550
+[422188606|ibuprofen] Ibuprofeno (como Motrin® or Advil®)  -> D_388804810
+[555555502|acet] Paracetamol (como Tylenol®)  -> D_614446276
+[800410166|naproxen] Naproxeno (como Naprosyn®, Anaprox®, or Aleve®)  -> D_234177873
+[221645137|celecoxib] Celebrex® (celecoxib)  -> D_248599913
+[974248369|painReliever] Analgésicos de venta con receta que contienen opioides, como hidrocodona (p. ej., Vicodin®, Lorcet®, Lortab®, o Norco®), oxicodona (p. ej., OxyContin® o Percocet®), morfina (p. ej., Kadian® o Avinza®), fentanilo, codeína, tramadol, metadona, oximorfona, hidromorfona (Dilaudid®), o meperidina (Demerol®))  -> D_697661603
+[535003378*] Ninguna de las anteriores
+< -> D_414005872 >
+
+[D_861838892?] Durante las veces que estuvo tomando <b>aspirina (ácido acetilsalicílico) infantil u otra aspirina de dosis baja (de 81 mg o menos)</b>, ¿aproximadamente cuántos <b>días por semana O por mes</b> lo tomó? Anote, ya sea, los días por semana o los días por mes.
+
+Núm. de días por semana |__|__|xor=PAINREL2_1 id=D_765748316 min=1 max=7|
+O
+Núm. de días por mes |__|__| xor=PAINREL2_1 id=D_785412329 min=1 max=31|
+
+< -> D_596961796 >
+
+[D_596961796?] Los días en que tomó aspirina (ácido acetilsalicílico) infantil u otra aspirina de dosis baja (de 81 mg o menos), ¿aproximadamente cuántas pastillas se tomó <b>por día</b>, la mayoría de los días?
+
+Núm. de pastillas por día |__|__|id=D_101310722 min=1 max=99|
+[178420302*] No sé
+< -> D_113681507 >
+
+[D_113681507?] ¿Aproximadamente cuántos años tomó aspirina (ácido acetilsalicílico) infantil u otra aspirina de dosis baja (de 81 mg o menos)?
+
+Núm. de años |__|__|min=1 max=sum(isDefined(D_150344905,age),1)|
+< -> D_177526169 >
+
+[D_177526169?] ¿Cuándo fue <b>la última vez</b> que tomó aspirina (ácido acetilsalicílico) infantil u otra aspirina de dosis baja (de 81 mg o menos)?
+(317567178) En el último mes -> D_643807999
+(484055234) Hace más de un mes, pero en el último año -> D_643807999
+(802197176) Hace más de 1 año -> D_564374538
+< #NR -> D_564374538 >
+
+[D_564374538?] ¿Hace cuántos años tomó aspirina (ácido acetilsalicílico) infantil u otra aspirina de dosis baja (de 81 mg o menos) <b>por última vez</b>?
+
+Hace años |__|__|min=1 max=sum(isDefined(D_150344905,age),1)|
+< -> D_643807999 >
+
+[D_643807999?] ¿Por qué tomó aspirina (ácido acetilsalicílico) infantil u otra aspirina de dosis baja (de 81 mg o menos)? Seleccione todas las opciones que correspondan.
+[323106499] Artritis
+[769901710] Dolor de espalda
+[727773491,displayif=or(equals(D_407056417,576796184),equals(D_407056417,536341288))] Cólicos menstruales
+[283652434] Prevención de enfermedades
+[243596698] Dolor de cabeza o migraña
+[853261835] Enfermedad, resfriado, gripe, fiebre
+[191656389] Dolor muscular o articular, lesiones articulares u óseas, esguinces o torceduras
+[558504672] Dolor de muela
+
+[D_837412550?] Durante las veces que estuvo tomando <b>aspirina ordinaria o de mayor concentración (<i>extra strength</i>)</b>, ¿aproximadamente cuántos <b>días por semana O por mes</b> lo tomó? Anote, ya sea, los días por semana o los días por mes.
+
+Núm. de días por semana |__|__|xor=PAINREL2_2 id=D_765748316 min=1 max=7|
+O
+Núm. de días por mes |__|__| xor=PAINREL2_2 id=D_785412329 min=1 max=31|
+
+< -> D_825189914 >
+
+[D_825189914?] Los días en que tomó aspirina ordinaria o de mayor concentración (<i>extra strength</i>), ¿aproximadamente cuántas pastillas se tomó <b>por día</b>, la mayoría de los días?
+
+Núm. de pastillas por día |__|__|id=D_101310722 min=1 max=99|
+[178420302*] No sé
+< -> D_615979584 >
+
+[D_615979584?] ¿Aproximadamente cuántos años tomó aspirina ordinaria o de mayor concentración (<i>extra strength</i>)?
+
+Núm. de años |__|__|min=1 max=sum(isDefined(D_150344905,age),1)|
+< -> D_814141708 >
+
+[D_814141708?] ¿Cuándo fue <b>la última vez</b> que tomó aspirina ordinaria o de mayor concentración (<i>extra strength</i>)?
+(317567178) En el último mes -> D_275143071
+(484055234) Hace más de un mes, pero en el último año -> D_275143071
+(802197176) Hace más de 1 año -> D_265428345
+< #NR -> D_265428345 >
+
+[D_265428345?] ¿Hace cuántos años tomó aspirina ordinaria o de mayor concentración (<i>extra strength</i>) <b>por última vez</b>?
+
+Hace años |__|__|min=1 max=sum(isDefined(D_150344905,age),1)|
+< -> D_275143071 >
+
+[D_275143071?] ¿Por qué tomó aspirina ordinaria o de mayor concentración (<i>extra strength</i>)? Seleccione todas las opciones que correspondan.
+[323106499] Artritis
+[769901710] Dolor de espalda
+[727773491,displayif=or(equals(D_407056417,576796184),equals(D_407056417,536341288))] Cólicos menstruales
+[283652434] Prevención de enfermedades
+[243596698] Dolor de cabeza o migraña
+[853261835] Enfermedad, resfriado, gripe, fiebre
+[191656389] Dolor muscular o articular, lesiones articulares u óseas, esguinces o torceduras
+[558504672] Dolor de muela
+
+[D_388804810?] Durante las veces que estuvo tomando <b>ibuprofeno</b>, ¿aproximadamente cuántos <b>días por semana O por mes</b> lo tomó? Anote, ya sea, los días por semana o los días por mes.
+
+Núm. de días por semana |__|__|xor=PAINREL2_3 id=D_765748316 min=1 max=7|
+O
+Núm. de días por mes |__|__| xor=PAINREL2_3 id=D_785412329 min=1 max=31|
+
+< -> D_753416375 >
+
+[D_753416375?] Los días en que tomó ibuprofeno, ¿aproximadamente cuántas pastillas se tomó <b>por día</b>, la mayoría de los días?
+
+Núm. de pastillas por día |__|__|id=D_101310722 min=1 max=99|
+[178420302*] No sé
+< -> D_771526486 >
+
+[D_771526486?] ¿Aproximadamente cuántos años tomó ibuprofeno?
+
+Núm. de años |__|__|min=1 max=sum(isDefined(D_150344905,age),1)|
+< -> D_292658699 >
+
+[D_292658699?] ¿Cuándo fue <b>la última vez</b> que tomó ibuprofeno?
+(317567178) En el último mes -> D_152138929
+(484055234) Hace más de un mes, pero en el último año -> D_152138929
+(802197176) Hace más de 1 año -> D_491549803
+< #NR -> D_491549803 >
+
+[D_491549803?] ¿Hace cuántos años tomó ibuprofeno <b>por última vez</b>?
+
+Hace años |__|__|min=1 max=sum(isDefined(D_150344905,age),1)|
+< -> D_152138929 >
+
+[D_152138929?] ¿Por qué tomó ibuprofeno? Seleccione todas las opciones que correspondan.
+[323106499] Artritis
+[769901710] Dolor de espalda
+[727773491,displayif=or(equals(D_407056417,576796184),equals(D_407056417,536341288))] Cólicos menstruales
+[283652434] Prevención de enfermedades
+[243596698] Dolor de cabeza o migraña
+[853261835] Enfermedad, resfriado, gripe, fiebre
+[191656389] Dolor muscular o articular, lesiones articulares u óseas, esguinces o torceduras
+[558504672] Dolor de muela
+
+[D_614446276?] Durante las veces que estuvo tomando <b>paracetamol</b>, ¿aproximadamente cuántos <b>días por semana O por mes</b> lo tomó? Anote, ya sea, los días por semana o los días por mes.
+
+Núm. de días por semana |__|__|xor=PAINREL2_4 id=D_765748316 min=1 max=7|
+O
+Núm. de días por mes |__|__| xor=PAINREL2_4 id=D_785412329 min=1 max=31|
+
+< -> D_646042915 >
+
+[D_646042915?] Los días en que tomó paracetamol, ¿aproximadamente cuántas pastillas se tomó <b>por día</b>, la mayoría de los días?
+
+Núm. de pastillas por día |__|__|id=D_101310722 min=1 max=99|
+[178420302*] No sé
+< -> D_270254670 >
+
+[D_270254670?] ¿Aproximadamente cuántos años tomó paracetamol?
+
+Núm. de años |__|__|min=1 max=sum(isDefined(D_150344905,age),1)|
+< -> D_861824298 >
+
+[D_861824298?] ¿Cuándo fue <b>la última vez</b> que tomó paracetamol?
+(317567178) En el último mes -> D_630231395
+(484055234) Hace más de un mes, pero en el último año -> D_630231395
+(802197176) Hace más de 1 año -> D_846227588
+< #NR -> D_846227588 >
+
+[D_846227588?] ¿Hace cuántos años tomó paracetamol <b>por última vez</b>?
+
+Hace años |__|__|min=1 max=sum(isDefined(D_150344905,age),1)|
+< -> D_630231395 >
+
+[D_630231395?] ¿Por qué tomó paracetamol? Seleccione todas las opciones que correspondan.
+[323106499] Artritis
+[769901710] Dolor de espalda
+[727773491,displayif=or(equals(D_407056417,576796184),equals(D_407056417,536341288))] Cólicos menstruales
+[283652434] Prevención de enfermedades
+[243596698] Dolor de cabeza o migraña
+[853261835] Enfermedad, resfriado, gripe, fiebre
+[191656389] Dolor muscular o articular, lesiones articulares u óseas, esguinces o torceduras
+[558504672] Dolor de muela
+
+[D_234177873?] Durante las veces que estuvo tomando <b>naproxeno</b>, ¿aproximadamente cuántos <b>días por semana O por mes</b> lo tomó? Anote, ya sea, los días por semana o los días por mes.
+
+Núm. de días por semana |__|__|xor=PAINREL2_5 id=D_765748316 min=1 max=7|
+O
+Núm. de días por mes |__|__| xor=PAINREL2_5 id=D_785412329 min=1 max=31|
+
+< -> D_799338907 >
+
+[D_799338907?] Los días en que tomó naproxeno, ¿aproximadamente cuántas pastillas se tomó <b>por día</b>, la mayoría de los días?
+
+Núm. de pastillas por día |__|__|id=D_101310722 min=1 max=99|
+[178420302*] No sé
+< -> D_376720409 >
+
+[D_376720409?] ¿Aproximadamente cuántos años tomó naproxeno?
+
+Núm. de años |__|__|min=1 max=sum(isDefined(D_150344905,age),1)|
+< -> D_575646308 >
+
+[D_575646308?] ¿Cuándo fue <b>la última vez</b> que tomó naproxeno?
+(317567178) En el último mes -> D_655266993
+(484055234) Hace más de un mes, pero en el último año -> D_655266993
+(802197176) Hace más de 1 año -> D_798182168
+< #NR -> D_798182168 >
+
+[D_798182168?] ¿Hace cuántos años tomó naproxeno <b>por última vez</b>?
+
+Hace años |__|__|min=1 max=sum(isDefined(D_150344905,age),1)|
+< -> D_655266993 >
+
+[D_655266993?] ¿Por qué tomó naproxeno? Seleccione todas las opciones que correspondan.
+[323106499] Artritis
+[769901710] Dolor de espalda
+[727773491,displayif=or(equals(D_407056417,576796184),equals(D_407056417,536341288))] Cólicos menstruales
+[283652434] Prevención de enfermedades
+[243596698] Dolor de cabeza o migraña
+[853261835] Enfermedad, resfriado, gripe, fiebre
+[191656389] Dolor muscular o articular, lesiones articulares u óseas, esguinces o torceduras
+[558504672] Dolor de muela
+
+[D_248599913?] Durante las veces que estuvo tomando <b>Celebrex® (celecoxib)</b>, ¿aproximadamente cuántos <b>días por semana O por mes</b> lo tomó? Anote, ya sea, los días por semana o los días por mes.
+
+Núm. de días por semana |__|__|xor=PAINREL2_6 id=D_765748316 min=1 max=7|
+O
+Núm. de días por mes |__|__| xor=PAINREL2_6 id=D_785412329 min=1 max=31|
+
+< -> D_893965588 >
+
+[D_893965588?] Los días en que tomó Celebrex® (celecoxib), ¿aproximadamente cuántas pastillas se tomó <b>por día</b>, la mayoría de los días?
+
+Núm. de pastillas por día |__|__|id=D_101310722 min=1 max=99|
+[178420302*] No sé
+< -> D_439072744>
+
+[D_439072744?] ¿Aproximadamente cuántos años tomó Celebrex® (celecoxib)?
+
+Núm. de años |__|__|min=1 max=sum(isDefined(D_150344905,age),1)|
+< -> D_733861762 >
+
+[D_733861762?] ¿Cuándo fue <b>la última vez</b> que tomó Celebrex® (celecoxib)?
+(317567178) En el último mes -> D_509383583
+(484055234) Hace más de un mes, pero en el último año -> D_509383583
+(802197176) Hace más de 1 año -> D_322479862
+< #NR -> D_322479862 >
+
+[D_322479862?] ¿Hace cuántos años tomó Celebrex® (celecoxib) <b>por última vez</b>?
+
+Hace años |__|__|min=1 max=sum(isDefined(D_150344905,age),1)|
+< -> D_509383583 >
+
+[D_509383583?] ¿Por qué tomó Celebrex® (celecoxib)? Seleccione todas las opciones que correspondan.
+[323106499] Artritis
+[769901710] Dolor de espalda
+[727773491,displayif=or(equals(D_407056417,576796184),equals(D_407056417,536341288))] Cólicos menstruales
+[283652434] Prevención de enfermedades
+[243596698] Dolor de cabeza o migraña
+[853261835] Enfermedad, resfriado, gripe, fiebre
+[191656389] Dolor muscular o articular, lesiones articulares u óseas, esguinces o torceduras
+[558504672] Dolor de muela
+
+[D_697661603?] Durante las veces que estuvo tomando <b>analgésicos de venta con receta que contienen opioides</b>, ¿aproximadamente cuántos <b>días por semana O por mes</b> lo tomó? Anote, ya sea, los días por semana o los días por mes.
+
+Núm. de días por semana |__|__|xor=PAINREL2_7 id=D_765748316 min=1 max=7|
+O
+Núm. de días por mes |__|__| xor=PAINREL2_7 id=D_785412329 min=1 max=31|
+
+< -> D_438682764 >
+
+[D_438682764?] Los días en que tomó analgésicos de venta con receta que contienen opioides, ¿aproximadamente cuántas pastillas se tomó <b>por día</b>, la mayoría de los días?
+
+Núm. de pastillas por día |__|__|id=D_101310722 min=1 max=99|
+[178420302*] No sé
+< -> D_445571225 >
+
+[D_445571225?] ¿Aproximadamente cuántos años tomó analgésicos de venta con receta que contienen opioides?
+
+Núm. de años |__|__|min=1 max=sum(isDefined(D_150344905,age),1)|
+< -> D_761822652 >
+
+[D_761822652?] ¿Cuándo fue <b>la última vez</b> que tomó analgésicos de venta con receta que contienen opioides?
+(317567178) En el último mes -> D_887435355
+(484055234) Hace más de un mes, pero en el último año -> D_887435355
+(802197176) Hace más de 1 año -> D_737490587
+< #NR -> D_737490587 >
+
+[D_737490587?] ¿Hace cuántos años tomó analgésicos de venta con receta que contienen opioides <b>por última vez</b>?
+
+Hace años |__|__|min=1 max=sum(isDefined(D_150344905,age),1)|
+< -> D_887435355 >
+
+[D_887435355?] ¿Por qué tomó analgésicos de venta con receta que contienen opioides? Seleccione todas las opciones que correspondan.
+[323106499] Artritis
+[769901710] Dolor de espalda
+[727773491,displayif=or(equals(D_407056417,576796184),equals(D_407056417,536341288))] Cólicos menstruales
+[283652434] Prevención de enfermedades
+[243596698] Dolor de cabeza o migraña
+[853261835] Enfermedad, resfriado, gripe, fiebre
+[191656389] Dolor muscular o articular, lesiones articulares u óseas, esguinces o torceduras
+[558504672] Dolor de muela
+
+[D_414005872?] ¿Tomó alguna vez analgésicos de venta con receta que contienen opioides de alguna forma no indicada por un médico? Esto podría incluir tomarlos sin receta, tomar más de lo indicado, o con más frecuencia o durante más tiempo de lo indicado. No se olvide de que protegemos su privacidad. Eliminamos de sus respuestas al cuestionario la información que pueda identificarlo antes de dárselas a los investigadores.
+(104430631) No
+(132099255) A veces
+(211590917) A menudo
+(746038746) Prefiero no responder
+< -> D_614123836 >
+
+[D_614123836?] <b>Medicamentos para el colesterol y la presión arterial (hipertensión)</b>
+
+¿Ha tomado alguna vez cualquiera de estos medicamentos por lo menos <b>cuatro veces al mes por seis meses o más</b>? Seleccione todas las opciones que correspondan.
+[480724806|statin] Medicamentos para disminuir el colesterol o los lípidos, como las estatinas (p. ej., atorvastatina (Lipitor®), fluvastatina (como Lescol® o Lescol® XL), lovastatina (como Mevacor® o Altoprev®), pravastatina (Pravachol®), rosuvastatina (Crestor®), simvastatina (Zocor) o pitavastatina (Livalo®)) -> D_731790154
+[819373917|hbp] Medicamentos para tratar la presión arterial alta (hipertensión) (como bumetanida (Bumex®), clortalidona (Hygroton®), clorotiazida (Diuril®), etacrinato (Edecrin®), furosemida (Lasix®), hidroclorotiazida HCTZ (como Esidrix®, Hydrodiuril® o Microzide®), indapamida (Lozol®), metilcotiazida (Enduron®), metolazona (como Mykroz® o Zaroxolyn®) o torsemida (Demadex®))  -> D_305292465
+[535003378*] Ninguno de los anteriores
+< -> D_112024853 >
+
+[D_731790154?] Durante las veces que estuvo tomando <b>medicamentos para disminuir el colesterol o los lípidos, como las estatinas</b>, ¿aproximadamente cuántos <b>días por semana O por mes</b> lo tomó? Anote, ya sea, los días por semana o los días por mes.
+
+Núm. de días por semana |__|__|xor=CHOLHTN2_1 id=D_765748316 min=1 max=7|
+O
+Núm. de días por mes |__|__| xor=CHOLHTN2_1 id=D_785412329 min=1 max=31|
+
+< -> D_550092533 >
+
+[D_550092533?] Los días en que tomó medicamentos para disminuir el colesterol o los lípidos, como las estatinas, ¿aproximadamente cuántas pastillas se tomó <b>por día</b>, la mayoría de los días?
+
+Núm. de pastillas por día |__|__|id=D_101310722 min=1 max=99|
+[178420302*] No sé
+< -> D_163057677 >
+
+[D_163057677?] ¿Aproximadamente cuántos años tomó medicamentos para disminuir el colesterol o los lípidos, como las estatinas?
+
+Núm. de años |__|__|min=1 max=sum(isDefined(D_150344905,age),1)|
+< -> D_225047594 >
+
+[D_225047594?] ¿Cuándo fue <b>la última vez</b> que tomó medicamentos para disminuir el colesterol o los lípidos, como las estatinas?
+(317567178) En el último mes
+(484055234) Hace más de un mes, pero en el último año
+(802197176) Hace más de 1 año -> D_297084062
+< #NR -> D_297084062 >
+
+[D_297084062?] ¿Hace cuántos años tomó medicamentos para disminuir el colesterol o los lípidos, como las estatinas <b>por última vez</b>?
+
+Hace años |__|__|min=1 max=sum(isDefined(D_150344905,age),1)|
+
+
+[D_305292465?] Durante las veces que estuvo tomando <b>medicamentos para tratar la presión arterial alta (hipertensión)</b>, ¿aproximadamente cuántos <b>días por semana O por mes</b> lo tomó? Anote, ya sea, los días por semana o los días por mes.
+
+Núm. de días por semana |__|__|xor=CHOLHTN2_2 id=D_765748316 min=1 max=7|
+O
+Núm. de días por mes |__|__| xor=CHOLHTN2_2 id=D_785412329 min=1 max=31|
+
+
+< -> D_901498441 >
+
+[D_901498441?] Los días en que tomó medicamentos para tratar la presión arterial alta (hipertensión), ¿aproximadamente cuántas pastillas se tomó <b>por día</b>, la mayoría de los días?
+
+Núm. de pastillas por día |__|__|id=D_101310722 min=1 max=99|
+[178420302*] No sé
+< -> D_147792229 >
+
+[D_147792229?] ¿Aproximadamente cuántos años tomó medicamentos para tratar la presión arterial alta (hipertensión)?
+
+Núm. de años |__|__|min=1 max=sum(isDefined(D_150344905,age),1)|
+< -> D_976052812 >
+
+[D_976052812?] ¿Cuándo fue <b>la última vez</b> que tomó medicamentos para tratar la presión arterial alta (hipertensión)?
+(317567178) En el último mes
+(484055234) Hace más de un mes, pero en el último año
+(802197176) Hace más de 1 año -> D_991427384
+< #NR -> D_991427384 >
+
+[D_991427384?] ¿Hace cuántos años tomó medicamentos para tratar la presión arterial alta (hipertensión) <b>por última vez</b>?
+
+Hace años |__|__|min=1 max=sum(isDefined(D_150344905,age),1)|
+
+
+[D_112024853?]<b>Metformina</b>
+
+¿Ha tomado alguna vez <b>metformina</b> (como Glucophage®, Glumetza®, Riomet®, Fortamet®, o Glucophage® XR) al menos <b>cuatro veces al mes por seis meses o más</b>?
+(353358909) Sí -> D_694817520
+(104430631) No -> D_982448213
+< #NR -> D_982448213 >
+
+[D_694817520?] Durante las veces que estuvo tomando metformina, ¿aproximadamente cuántos <b>días por semana O por mes</b> la tomó? Anote, ya sea, los días por semana o los días por mes.
+
+Núm. de días por semana |__|__|xor=METFOR2_1 id=D_765748316 min=1 max=7|
+O
+Núm. de días por mes |__|__| xor=METFOR2_1 id=D_785412329 min=1 max=31|
+
+< -> D_991622246 >
+
+[D_991622246?] Los días en que tomaba metformina, ¿aproximadamente cuántos miligramos tomaba por día, la mayoría de los días?
+
+Núm. de miligramos por día |__|__|id=D_101310722 min=0|
+[178420302*] No sé
+< -> D_450131058 >
+
+[D_450131058?] ¿Aproximadamente cuántos años tomó metformina?
+
+Núm. de años |__|__|min=1 max=sum(isDefined(D_150344905,age),1)|
+< -> D_991873978 >
+
+[D_991873978?] ¿Cuándo fue <b>la última vez</b> que tomó metformina?
+(317567178) En el último mes -> D_982448213
+(484055234) Hace más de un mes, pero en el último año -> D_982448213
+(802197176) Hace más de 1 año -> D_371176229
+< #NR -> D_371176229 >
+
+[D_371176229?] ¿Hace cuántos años tomó metformina <b>por última vez</b>?
+Hace años |__|__|min=1 max=sum(isDefined(D_150344905,age),1)|
+
+
+[D_982448213?]<b>Insulina</b>
+
+¿Se ha inyectado alguna vez <b>insulina</b> al menos <b>cuatro veces al mes por seis meses o más</b>?
+(353358909) Sí -> D_745223146
+(104430631) No -> D_643361372
+< #NR -> D_643361372 >
+
+[D_745223146?] Durante las veces que se estuvo inyectando insulina, ¿aproximadamente cuántos <b>días por semana O por mes</b> se la inyectó? Anote, ya sea, los días por semana o los días por mes.
+
+Núm. de días por semana |__|__|xor=INSULIN2_1 id=D_765748316 min=1 max=7|
+O
+Núm. de días por mes |__|__| xor=INSULIN2_1 id=D_785412329 min=1 max=31|
+
+< -> D_273218182 >
+
+[D_273218182?] Los días en que se inyectó insulina, ¿aproximadamente cuántas unidades se inyectó <b>por día</b>, la mayoría de los días?
+
+Núm. de unidades por día |__|__|id=D_101310722 min=1|
+[178420302*] No sé
+< -> D_850202336 >
+
+[D_850202336?] Los días en que se inyectó insulina, ¿qué concentración se puso?
+(310201523) 100 unidades por ml
+(290716491) 500 unidades por ml
+(178420302) No sé
+(807835037) Otra: describa |__|id=D_526448646|
+< -> D_799903478 >
+
+[D_799903478?] ¿Aproximadamente cuántos años tomó insulina?
+
+Núm. de años |__|__|min=1 max=sum(isDefined(D_150344905,age),1)|
+< -> D_465635548 >
+
+[D_465635548?] ¿Cuándo fue <b>la última vez</b> que tomó insulina?
+(317567178) En el último mes -> D_643361372
+(484055234) Hace más de un mes, pero en el último año -> D_643361372
+(802197176) Hace más de 1 año -> D_556235252
+
+[D_556235252?] ¿Hace cuántos años tomó insulina <b>por última vez</b>?
+
+Hace años |__|__|min=1 max=sum(isDefined(D_150344905,age),1)|
+< -> D_643361372 >
+
+
+[D_643361372?]<b>Antiácidos</b>
+
+¿Ha tomado alguna vez cualquiera de estos medicamentos por lo menos <b>cuatro veces al mes por seis meses o más</b>? Seleccione todas las opciones que correspondan.
+[933374659|prespump] Inhibidores de la bomba de protones de venta con receta (como omeprazol (p. ej., Prilosec® o Zegerid®), esomeprazol (Nexium®), lansoprazol (Prevacid®), rabeprazol (AcipHex), pantoprazol (Protonix®), o dexlansoprazol (Dexilant®)) -> D_172234651
+[920460744|otcpump] Inhibidores de la bomba de protones de venta libre (como esomeprazol (Nexium®), omeprazol (Prilosec® OTC), omeprazol con bicarbonato de sodio (Zegerid®), o lansoprazol (Prevacid® 24HR))  -> D_416865817
+[449861632|otcblkr] Antagonistas de los receptores H2 de venta libre (como la famotidina (Pepcid®, Zantac®, o Tagamet®)) -> D_266752903
+[535003378*] Ninguno de los anteriores
+< -> SECTION2 >
+
+[D_172234651?,displayif=equals(D_643361372,933374659)] Durante las veces que estuvo tomando <b>inhibidores de la bomba de protones de venta con receta</b>, ¿aproximadamente cuántos <b>ddías por semana O por mes</b> lo tomó? Anote, ya sea, los días por semana o los días por mes.
+
+Núm. de días por semana |__|__|xor=ACIDSUP2_1 id=D_765748316 min=1 max=7|
+O
+Núm. de días por mes |__|__|xor=ACIDSUP2_1 id=D_785412329 min=1 max=31|
+
+< -> D_753610471 >
+
+[D_753610471?,displayif=equals(D_643361372,933374659)] Los días en que tomó inhibidores de la bomba de protones de venta con receta, ¿aproximadamente cuántas pastillas tomó <b>por día</b>, la mayoría de los días?
+
+Núm. de pastillas por día |__|__|id=D_101310722 min=1 max=99|
+[178420302*] No sé
+< -> D_424183977 >
+
+[D_424183977?,displayif=equals(D_643361372,933374659)] ¿Aproximadamente cuántos años tomó inhibidores de la bomba de protones de venta con receta?
+
+Núm. de años |__|__|min=1 max=sum(isDefined(D_150344905,age),1)|
+< -> D_824287808 >
+
+[D_824287808?,displayif=equals(D_643361372,933374659)] ¿Cuándo fue <b>la última vez</b> que tomó inhibidores de la bomba de protones de venta con receta?
+(317567178) En el último mes
+(484055234) Hace más de un mes, pero en el último año
+(802197176) Hace más de 1 año -> D_889053435
+< #NR -> D_889053435 >
+
+[D_889053435?,displayif=equals(D_643361372,933374659)] ¿Hace cuántos años tomó inhibidores de la bomba de protones de venta con receta <b>por última vez</b>?
+
+Hace años |__|__|max=sum(isDefined(D_150344905,age),1)|
+
+
+[D_416865817?,displayif=equals(D_643361372,920460744)] Durante las veces que estuvo tomando <b>inhibidores de la bomba de protones de venta libre</b>, ¿aproximadamente cuántos <b>días por semana O por mes</b> lo tomó? Anote, ya sea, los días por semana o los días por mes.
+
+Núm. de días por semana |__|__|xor=ACIDSUP2_2 id=D_765748316 min=1 max=7|
+O
+Núm. de días por mes |__|__|xor=ACIDSUP2_2 id=D_785412329 min=1 max=31|
+
+< -> D_803968511 >
+
+[D_803968511?,displayif=equals(D_643361372,920460744)] Los días en que tomó inhibidores de la bomba de protones de venta libre, ¿aproximadamente cuántas pastillas tomó <b>por día</b>, la mayoría de los días?
+
+Núm. de pastillas por día |__|__|id=D_101310722 min=1 max=99|
+[178420302*] No sé
+< -> D_378572291 >
+
+[D_378572291?,displayif=equals(D_643361372,920460744)] ¿Aproximadamente cuántos años tomó inhibidores de la bomba de protones de venta libre?
+
+Núm. de años |__|__|min=1 max=sum(isDefined(D_150344905,age),1)|
+< -> D_846978339 >
+
+[D_846978339?,displayif=equals(D_643361372,920460744)] ¿Cuándo fue <b>la última vez</b> que tomó inhibidores de la bomba de protones de venta libre?
+(317567178) En el último mes
+(484055234) Hace más de un mes, pero en el último año
+(802197176) Hace más de 1 año -> D_936366310
+< #NR -> D_936366310 >
+
+[D_936366310?,displayif=equals(D_643361372,920460744)] ¿Hace cuántos años tomó inhibidores de la bomba de protones de venta libre <b>por última vez</b>?
+
+Hace años |__|__|max=sum(isDefined(D_150344905,age),1)|
+
+[D_266752903?,displayif=equals(D_643361372,449861632)] Durante las veces que estuvo tomando <b>antagonistas de los receptores H2 de venta libre</b>, ¿aproximadamente cuántos <b>días por semana O por mes</b> lo tomó? Anote, ya sea, los días por semana o los días por mes.
+
+Núm. de días por semana |__|__|xor=ACIDSUP2_3 id=D_765748316 min=1 max=7|
+O
+Núm. de días por mes |__|__|xor=ACIDSUP2_3 id=D_785412329 min=1 max=31|
+
+< -> D_618427836 >
+
+[D_618427836?,displayif=equals(D_643361372,449861632)] Los días en que tomó antagonistas de los receptores H2 de venta libre, ¿aproximadamente cuántas pastillas tomó <b>por día</b>, la mayoría de los días?
+
+Núm. de pastillas por día |__|__|id=D_101310722 min=1 max=99|
+[178420302*] No sé
+< -> D_774514900 >
+
+[D_774514900?,displayif=equals(D_643361372,449861632)] ¿Aproximadamente cuántos años tomó antagonistas de los receptores H2 de venta libre?
+
+Núm. de años |__|__|min=1 max=sum(isDefined(D_150344905,age),1)|
+< -> D_368595692 >
+
+[D_368595692?,displayif=equals(D_643361372,449861632)] ¿Cuándo fue <b>la última vez</b> que tomó antagonistas de los receptores H2 de venta libre?
+(317567178) En el último mes
+(484055234) Hace más de un mes, pero en el último año
+(802197176) Hace más de 1 año -> D_497904005
+< #NR -> D_497904005 >
+
+[D_497904005?,displayif=equals(D_643361372,449861632)] ¿Hace cuántos años tomó antagonistas de los receptores H2 de venta libre <b>por última vez</b>?
+
+Hace años |__|__|max=sum(isDefined(D_150344905,age),1)|
+
+[SECTION2] <b>Salud reproductiva</b>
+
+Las siguientes preguntas tratan sobre la salud reproductiva. No se olvide de que protegemos su privacidad. Eliminamos de sus respuestas al cuestionario la información que pueda identificarlo antes de dárselas a los investigadores.
+
+[INTRONONCISWOM,displayif=and(or(equals(D_407056417,654207589),equals(D_407056417,576796184)),or(or(or(or(equals(D_289664241,218837028),equals(D_289664241,873138103)),equals(D_289664241,805712793)),equals(D_289664241,486192236)),equals(D_289664241,807835037)))]Las siguientes preguntas tratan sobre su uso de hormonas.
+
+[D_798889867?,displayif=and(or(equals(D_407056417,654207589),equals(D_407056417,576796184)),or(or(or(or(equals(D_289664241,218837028),equals(D_289664241,873138103)),equals(D_289664241,805712793)),equals(D_289664241,486192236)),equals(D_289664241,807835037)))] ¿Ha usado alguna vez hormonas u otros medicamentos para que su cuerpo refleje mejor su sexo (por ejemplo, estrógenos o antagonistas de la testosterona)?
+(104430631) No
+(200323667) Sí, en el pasado usé hormonas u otros medicamentos para que mi cuerpo tuviera un aspecto más femenino
+(249673703) Sí, actualmente uso hormonas u otros medicamentos para que mi cuerpo tenga un aspecto más femenino
+
+// duplicating the start of Testosterone Therapy to do a skip instead of adding this displayif to every question in section 2
+// see squish issue #34 for why this was added
+// PTH - recoded SECTION2_SKIPPED to account for changes in the updated Quex, so all males are skipped to TESTTHER
+[SECTION2_SKIPPED,displayif=or(equals(D_407056417,654207589),and(equals(D_407056417,576796184),and(doesNotEqual(D_750420077,578416151),doesNotEqual(D_750420077,434651539))))]
+<b>Testosterona y otros tratamientos hormonales</b>
+< -> D_111235606 >
+
+[INTROWH,displayif=or(equals(D_407056417,536341288),and(equals(D_407056417,576796184),or(equals(D_750420077,434651539),equals(D_750420077,578416151))))]En esta sección, se le pregunta sobre sus antecedentes menstruales, embarazos pasados o actuales y el uso de medicamentos hormonales.
+
+Cuando le pidamos que nos diga una fecha, una edad o un número exacto, dé su mejor aproximación si no está seguro.
+
+[INTROMENSHIS]<b>Antecedentes de salud menstrual</b>
+Para empezar, le haremos algunas preguntas sobre su primera menstruación y su período menstrual poco después del inicio de su primera menstruación. Si, durante ese tiempo, tomaba medicamentos hormonales o usaba dispositivos, nos interesa saber la duración de su período <b>antes</b> de tomar los medicamentos hormonales o usar los dispositivos.
+
+[D_496539718?]
+¿Qué edad tenía cuando le llegó la <b>primera</b> menstruación? Si no está segura, dé su mejor aproximación.
+
+Edad |__|__|id=D_969451837 min=0 max=sum(isDefined(D_150344905,age),1)|
+[648960871*] Nunca he tenido la menstruación -> INTROMENSHIS2 
+< #NR -> INTROMENSHIS2  >
+
+[D_167997205?] ¿Cuánto tiempo transcurrió desde su primera menstruación hasta que sus períodos se volvieron regulares? Por “regulares”, nos referimos a que podía predecir el inicio de su próximo período menstrual con una precisión que variaba pocos días. Si tuvo que tomar medicamentos hormonales o usar un dispositivo para que sus períodos se regularizaran, seleccione “Nunca tuve períodos regulares”.
+(648960871) Nunca tuve períodos regulares -> INTROMENSHIS2 
+(868025301) No más de 1 año -> D_972593606
+(939110313) De 1 a 2 años -> D_972593606
+(410083265) De más de 2 años a 3 años -> D_972593606
+(718537646) De más de 3 años a 4 años -> D_972593606
+(801142243) Más de 4 años -> D_972593606
+(178420302) No sé -> D_972593606
+< #NR -> INTROMENSHIS2 >
+
+[D_972593606?] Una vez que sus períodos menstruales se volvieron regulares, ¿cuál era la duración habitual de su ciclo menstrual? La duración de un ciclo menstrual es el número de días que pasan desde el primer día de un período menstrual hasta el primer día de la siguiente menstruación.
+
+(549031911) Era demasiado irregular para estimar o usaba un medicamento hormonal o un dispositivo (como un dispositivo intrauterino (DIU)) para controlar el ciclo menstrual -> INTROMENSHIS2 
+(858427002) Menos de 21 días -> INTROMENSHIS2 
+(471375042) 21 días o más  -> D_791830593
+< #NR-> INTROMENSHIS2 >
+
+[D_791830593?] Aproximadamente, ¿cuántos días duraba su ciclo menstrual habitual?
+
+Núm. de días |__|__|min=21 max=99|
+< #NR-> INTROMENSHIS2 >
+
+[INTROMENSHIS2] Las siguientes preguntas son sobre su experiencia con la menstruación <b>en los últimos 12 meses</b>. Responda estas preguntas lo mejor que pueda. La combinación de sus respuestas ayudará a los investigadores a comprender mejor su salud y su experiencia menstruales.
+
+[D_547633480?]En los <b>últimos 12 meses</b>, ¿tuvo algo de lo siguiente? <b>Marque todas las opciones que correspondan.</b>
+[801183888] Sangrado o goteo/manchado entre un período y otro
+[825584471] Sangrado o goteo/manchado después de tener relaciones sexuales
+[503760666] Sangrado abundante durante la menstruación
+[120016082] Períodos irregulares en los que la duración del ciclo varió más de 7 a 9 días
+[386152189] Sangrado después de la menopausia -> D_534920374
+[535003378*] <b>No</b> tuve nada de lo anterior
+< #NR -> D_164595895>
+
+[D_164595895?,displayif=doesNotEqual(D_496539718,648960871)] Solo <b>en los últimos 12 meses</b>, ¿cuál fue la duración habitual de su ciclo menstrual? <b>No</b> considere la metrorragia intermenstrual (también conocida como goteo/manchado) como parte del ciclo menstrual. 
+
+(650420270) No he menstruado en los últimos 12 meses -> D_614145455
+(113064256) Tuve al menos una menstruación en los últimos 12 meses, pero la frecuencia de mi período cambió (por ejemplo, cesó, se volvió irregular o difícil de predecir) -> PREG
+(548167685) Era demasiado irregular para estimar -> D_534920374
+(178420302) No sé -> D_534920374
+(859025516) Menos de 21 días -> PREG
+(471375042) 21 días o más -> D_263114971
+
+< #NR -> PREG>
+
+[D_263114971?,displayif=doesNotEqual(D_496539718,648960871)] En los <b>últimos 12 meses</b>, ¿aproximadamente cuántos días duraba su ciclo menstrual habitual? La metrorragia intermenstrual <b>no</b> forma parte del ciclo menstrual.
+
+Núm. de días |__|__|min=21 max=99| 
+< -> PREG>
+
+[D_614145455?,displayif=doesNotEqual(D_496539718,648960871)] Elija la opción que mejor describa por qué <b>no</b> ha tenido una menstruación en los <b>últimos 12 meses</b>:
+(582425113) Mis períodos cesaron de forma natural por la menopausia -> PREG 
+(330745988) Mis períodos cesaron porque empecé a tomar hormonas femeninas durante la transición menopáusica (perimenopausia) o la menopausia -> PREG 
+(909774794) Mis períodos cesaron después de una extirpación quirúrgica del útero o ambos ovarios -> D_534920374
+(868504994) Mis períodos cesaron después de la ablación endometrial (extirpación del endometrio, es decir, el revestimiento del útero) -> D_534920374
+(655309065) Utilizo actualmente un medicamento hormonal o un dispositivo (como un dispositivo intrauterino (DIU)) para evitar el embarazo, controlar los síntomas del ciclo menstrual o tratar afecciones como la endometriosis o el síndrome del ovario poliquístico (SOP)  -> D_534920374
+(757609794) Estuve embarazada o lactando durante el último año  -> D_534920374
+(585076356) Mis períodos cesaron después de recibir radioterapia o quimioterapia  -> D_534920374
+(351584248,displayif=doesNotEqual(D_289664241,218837028)) Dejé de tener la menstruación porque empecé a tomar hormonas de reafirmación de género 
+(807835037) Mis períodos cesaron por otros motivos: describa |__|id=D_672810476| -> D_534920374
+< #NR-> PREG >
+
+[D_534920374?,displayif=doesNotEqual(D_496539718,648960871)] ¿Qué edad tenía cuando tuvo su <b>última</b> menstruación?
+Edad |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
+< #NR-> PREG >
+
+
+[PREG]<b>Embarazos</b> <br/>
+A continuación, le haremos algunas preguntas sobre los embarazos que haya tenido, si alguno.
+
+[D_849945160?]¿Está embarazada actualmente?
+(353358909) Sí -> D_405571048
+(104430631) No -> D_996243083
+< #NR -> D_996243083 >
+
+[D_996243083?]¿Ha estado embarazada alguna vez?
+(353358909) Sí -> D_405571048
+(104430631) No -> FERT1
+< #NR -> FERT1 >
+
+[D_405571048!] ¿Cuántas veces ha estado embarazada? Incluya todos los embarazos en los que los niños nacieron vivos, en los que los niños nacieron muertos o que terminaron en abortos espontáneos. Los gemelos, los trillizos o los embarazos múltiples superiores a tres cuentan como un solo embarazo.
+
+Núm. de embarazos |__|__|min=1 max=99|
+
+<loop max=25>
+[D_968816827?,displayif=greaterThanOrEqual(D_405571048,#loop)]
+¿Qué edad tenía cuando comenzó su {##} embarazo?
+Edad |__|__|min=isDefined(D_969451837,0) max=sum(isDefined(D_150344905,age),1)|
+
+[D_391951010?,displayif=or(and(equals(D_849945160,353358909),greaterThan(D_405571048,#loop)),and(doesNotEqual(D_849945160,353358909),greaterThanOrEqual(D_405571048,#loop)))]
+¿Cuál fue el desenlace de este embarazo?
+(223216393) Nacimiento de un niño vivo: un solo bebé -> D_771528780
+(628445697) Nacimiento de niños vivos: gemelos, trillizos o parto múltiple superior a tres 
+(419220239) Nacimiento de niño(s) vivo(s) y muerte de uno o más de los bebés de un parto múltiple
+(306890578) Aborto espontáneo antes de las 20 semanas -> PREGSUMMARY
+(858244199) Aborto espontáneo después de las 20 semanas -> D_779052408
+(746038746) Prefiero no responder -> PREGSUMMARY
+< #NR -> PREGSUMMARY >
+
+[D_281494550?,displayif=or(and(equals(D_849945160,353358909),greaterThan(D_405571048,#loop)),and(doesNotEqual(D_849945160,353358909),greaterThanOrEqual(D_405571048,#loop)))]
+|displayif=equals(D_391951010,628445697)|¿A cuántos bebés dio a luz?||displayif=equals(D_391951010,419220239)|¿A cuántos bebés dio a luz? En su respuesta, incluya los bebés nacidos vivos y los nacidos muertos.|
+(582602017) Dos (gemelos o mellizos)
+(105727261) Tres (trillizos)
+(720288326) Cuatro o más
+
+[D_771528780?,displayif=or(and(equals(D_849945160,353358909),greaterThan(D_405571048,#loop)),and(doesNotEqual(D_849945160,353358909),greaterThanOrEqual(D_405571048,#loop)))] ¿Qué tipo de parto fue?
+(660308254) Por cesárea
+(936573532) Vaginal
+
+[D_486574018?,displayif=or(and(equals(D_849945160,353358909),greaterThan(D_405571048,#loop)),and(doesNotEqual(D_849945160,353358909),greaterThanOrEqual(D_405571048,#loop)))]
+|displayif=or(equals(D_391951010,223216393),equals(D_391951010,628445697))|¿|popup|Amamantó|amamantó|El uso de un sacaleches para extraer la leche materna, lo que a veces se conoce como “extracción exclusiva”, cuenta como amamantamiento o lactancia.| ||displayif=equals(D_391951010,223216393)|a este niño||displayif=equals(D_391951010,628445697)|a estos niños||displayif=or(equals(D_391951010,223216393),equals(D_391951010,628445697))|? Si amamanta (da el pecho) actualmente, seleccione sí.| |displayif=equals(D_391951010,419220239)|¿|popup|Amamantó|amamantó|El uso de un sacaleches para extraer la leche materna, lo que a veces se conoce como “extracción exclusiva”, cuenta como amamantamiento o lactancia.|(dio el pecho)? Si amamanta (da el pecho) actualmente, seleccione sí.|
+(353358909) Sí -> D_278277373
+(104430631) No -> D_779052408
+< #NR -> D_779052408 >
+
+[D_278277373?,displayif=or(and(equals(D_849945160,353358909),greaterThan(D_405571048,#loop)),and(doesNotEqual(D_849945160,353358909),greaterThanOrEqual(D_405571048,#loop)))]
+|displayif=or(equals(D_391951010,223216393),equals(D_391951010,628445697))|¿Cuántos meses |popup|amamantó|amamantó|El uso de un sacaleches para extraer la leche materna, lo que a veces se conoce como “extracción exclusiva”, cuenta como amamantamiento o lactancia.| ||displayif=equals(D_391951010,223216393)|a este niño||displayif=equals(D_391951010,628445697)|a estos niños||displayif=or(equals(D_391951010,223216393),equals(D_391951010,628445697))|? Si amamanta actualmente, díganos el número de meses que lleva amamantando hasta ahora.| |displayif=equals(D_391951010,419220239)|¿Cuántos meses |popup|amamantó|amamantó|El uso de un sacaleches para extraer la leche materna, lo que a veces se conoce como “extracción exclusiva”, cuenta como amamantamiento o lactancia.|? Si amamanta actualmente, díganos el número de meses que lleva amamantando hasta ahora.|
+Núm. de meses que amamantó |__|__|min=0 max=99|
+
+
+[D_779052408?,displayif=or(and(equals(D_849945160,353358909),greaterThan(D_405571048,#loop)),and(doesNotEqual(D_849945160,353358909),greaterThanOrEqual(D_405571048,#loop)))]
+¿Le dijo algún médico u otro profesional de la salud que tiene o tuvo <b>diabetes gestacional</b> durante este embarazo?
+(353358909) Sí
+(104430631) No
+
+
+[D_133297530?,displayif=or(and(equals(D_849945160,353358909),greaterThan(D_405571048,#loop)),and(doesNotEqual(D_849945160,353358909),greaterThanOrEqual(D_405571048,#loop)))]
+¿Le dijo algún médico u otro profesional de la salud que tiene o tuvo |popup|<b>eclampsia o preeclampsia</b>|eclampsia o preeclampsia|Una afección médica relacionada es el síndrome HELLP. Si un médico u otro profesional de la salud le dijo alguna vez que tiene síndrome HELLP, responda que “sí”| durante este embarazo?
+(353358909) Sí
+(104430631) No
+
+
+[PREGSUMMARY,displayif=greaterThanOrEqual(D_405571048,#loop)] El siguiente es un resumen de la información que nos dio sobre este embarazo. Si alguna parte de la información es incorrecta, seleccione el botón “Atrás” [“Back”] para actualizar sus respuestas. Si toda la información es correcta, seleccione el botón “Siguiente” [“Next”] para avanzar.
+
+Edad en la que comenzó el embarazo: {$D_968816827} <br/>
+|displayif=or(and(equals(D_849945160,353358909),greaterThan(D_405571048,#loop)),and(doesNotEqual(D_849945160,353358909),greaterThanOrEqual(D_405571048,#loop)))|Desenlace del embarazo: ||displayif=equals(D_391951010,223216393)| Nacimiento de un niño vivo: un solo bebé||displayif=equals(D_391951010,628445697)| Nacimiento de niños vivos: gemelos, trillizos o parto múltiple superior a tres||displayif=equals(D_391951010,419220239)| Nacimiento de niño(s) vivo(s) y muerte de uno o más de los bebés de un parto múltiple||displayif=equals(D_391951010,306890578)| Aborto espontáneo antes de las 20 semanas ||displayif=equals(D_391951010,858244199)| Aborto espontáneo después de las 20 semanas ||displayif=equals(D_391951010,746038746)| Prefiero no responder|<br/>
+|displayif=valueIsOneOf("D_391951010",628445697,419220239)| Número de bebés:||displayif=equals(D_281494550,582602017)| Dos (gemelos o mellizos)||displayif=equals(D_281494550,105727261)| Tres (trillizos)||displayif=equals(D_281494550,720288326)| Cuatro o más|<br/>
+|displayif=valueIsOneOf("D_391951010",223216393,628445697,419220239)| Tipo de parto:||displayif=equals(D_771528780,660308254)| Por cesárea||displayif=equals(D_771528780,936573532)| Vaginal|<br/>
+|displayif=valueIsOneOf("D_391951010",223216393,628445697,419220239)| ¿Amamantó (dio el pecho)?: ||displayif=equals(D_486574018,353358909)| Sí||displayif=equals(D_486574018,104430631)| No|<br/>
+|displayif=equals(D_486574018,353358909)| Número de meses que amamantó: {$D_278277373}|<br/>
+|displayif=valueIsOneOf("D_391951010",223216393,628445697,419220239,858244199)| ¿Tuvo diabetes gestacional?:||displayif=equals(D_779052408,353358909)| Sí||displayif=equals(D_779052408,104430631)| No|<br/>
+|displayif=valueIsOneOf("D_391951010",223216393,628445697,419220239,858244199)| ¿Tuvo preeclampsia o eclampsia?:||displayif=equals(D_133297530,353358909)| Sí||displayif=equals(D_133297530,104430631)| No|
+
+</loop>
+
+[FERT1]<b>Fertilidad</b>
+
+A continuación, le haremos algunas preguntas sobre sus intentos para quedar embarazada y su uso de medicamentos diseñados para ayudarla a lograrlo.
+
+[D_939897560?] ¿Alguna vez intentó por más de un año quedar embarazada, pero no lo consiguió durante ese tiempo?
+(353358909) Sí -> D_760801131
+(104430631) No -> D_224681201
+< #NR -> D_224681201>
+
+[D_760801131?] ¿Qué edad tenía cuando intentó durante más de un año quedar embarazada <b>por primera vez</b>?
+Edad |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
+< -> D_424047361>
+
+[D_424047361?] ¿Alguna vez buscó asesoría médica cuando intentó por más de un año quedar embarazada?
+(353358909) Sí -> D_548355426
+(104430631) No -> D_224681201
+< #NR -> D_224681201>
+
+[D_548355426?] Cuando intentó durante más de un año quedar embarazada, ¿sabe cuál fue el problema que le impidió lograrlo? Seleccione todas las opciones que correspondan.
+[342735868|tubBloc] Obstrucción tubárica
+[990599372|OvaHorm] Problema ovárico u hormonal
+[863286658|Endo] Endometriosis
+[202355614|CerMuc] Factor de moco cervical
+[201434907|SpousInf] Infertilidad del cónyuge o pareja
+[570171052|notLooked] No se investigó la causa de la infertilidad
+[498799217|noCause] No se encontró ninguna causa
+[807835037|Other] Otro motivo: describa |__|id=D_833755477|
+
+[D_224681201?] ¿Ha usado alguna vez medicamentos para la fertilidad?
+(353358909) Sí -> D_881200765
+(104430631) No -> D_111082535
+(746038746) Prefiero no responder -> D_111082535
+< #NR-> D_111082535>
+
+[D_881200765?] ¿Ha usado alguna vez cualquiera de los siguientes medicamentos para la fertilidad? Seleccione todas las opciones que correspondan.
+[619799524|clomid] Clomid® (clomifeno) -> D_139673389
+[663814928|gonadotropins] Gonadotrofinas, que se suelen llamar “inyectables” u “hormonas inyectables” (como Follistim®, Menopur®, Bravelle®, o Gonal-F®) -> D_943996164
+[642004888|danazol] Danazol -> D_994899398
+[454641975|danocrine] Danocrine® -> D_198719822
+[256131117|hcg] Gonadotropina coriónica humana (hCG) -> D_628137243
+[532607252|milophene] Milophene® -> D_399078599
+[459188493|lupronDepot] Lupron Depot® -> D_560711355
+[304927036|nolvadex] Nolvadex® (tamoxifeno) -> D_309710463
+[100181644|pergonal] Pergonal® -> D_167207966
+[372219003|serophene] Serophene® -> D_538349354
+[743731422|synarel] Solución nasal de Synarel® -> D_767785846
+[807835037|Other] Otros medicamentos: describa |__|id=D_762700622| -> D_466346054
+[535003378*] Ninguno de los anteriores
+< -> D_111082535 >
+
+[D_139673389?] En total, ¿durante cuántos meses o ciclos tomó <b>Clomid®</b>?
+
+Núm. de meses o ciclos |__|__|min=0|
+
+[D_943996164?] En total, ¿durante cuántos meses o ciclos tomó <b>gonadotrofinas</b>?
+
+Núm. de meses o ciclos |__|__|min=0|
+
+[D_994899398?] En total, ¿durante cuántos meses o ciclos tomó <b>Danazol®</b>?
+
+Núm. de meses o ciclos |__|__|min=0|
+
+[D_198719822?] En total, ¿durante cuántos meses o ciclos tomó <b>Danocrine®</b>?
+
+Núm. de meses o ciclos |__|__|min=0|
+
+[D_628137243?] En total, ¿durante cuántos meses o ciclos tomó <b>gonadotropina coriónica humana (hCG)</b>?
+
+Núm. de meses o ciclos |__|__|min=0|
+
+[D_399078599?] En total, ¿durante cuántos meses o ciclos tomó <b>Milophene®</b>?
+
+Núm. de meses o ciclos |__|__|min=0|
+
+[D_560711355?] En total, ¿durante cuántos meses o ciclos tomó <b>Lupron Depot®</b>?
+
+Núm. de meses o ciclos |__|__|min=0|
+
+[D_309710463?] En total, ¿durante cuántos meses o ciclos tomó <b>Nolvadex®</b>?
+
+Núm. de meses o ciclos |__|__|min=0|
+
+[D_167207966?] En total, ¿durante cuántos meses o ciclos tomó <b>Pergonal®</b>?
+
+Núm. de meses o ciclos |__|__|min=0|
+
+[D_538349354?] En total, ¿durante cuántos meses o ciclos tomó <b>Serophene®</b>?
+
+Núm. de meses o ciclos |__|__|min=0|
+
+[D_767785846?] En total, ¿durante cuántos meses o ciclos tomó <b>solución nasal de Synarel®</b>?
+
+Núm. de meses o ciclos |__|__|min=0|
+
+[D_466346054?] En total, ¿durante cuántos meses o ciclos tomó |displayif=doesNotEqual(D_762700622,"")|<b>{$D_762700622}</b>||displayif=doesNotExist("D_762700622")|<b>el otro medicamento para la fertilidad</b>|?
+
+Núm. de meses o ciclos |__|__|min=0|
+
+[D_111082535?] ¿Tuvo alguna vez una <b>fecundación in vitro (FIV)</b>?
+(353358909) Sí -> D_875135634
+(104430631) No -> HORMED
+< #NR -> HORMED >
+
+[D_875135634?] En total, ¿cuántas veces o ciclos tuvo fecundación in vitro (FIV)?
+
+Núm. de veces o ciclos |__|__|min=0 max=99|
+
+
+[HORMED]<b>Medicamentos hormonales o dispositivos anticonceptivos</b>
+
+Las siguientes preguntas tratan sobre su uso de medicamentos hormonales o dispositivos anticonceptivos, como “la píldora” o un anillo vaginal.
+
+[D_543780863?] ¿Ha usado alguna vez cualquiera de los siguientes medicamentos hormonales o dispositivos? Seleccione todas las opciones que correspondan.
+[441493408|comPill] Anticonceptivo oral mixto que incluye una combinación de hormonas (tanto estrógeno como progesterona o gestágeno), que se suele llamar “la píldora” -> D_880331901
+[612012325|miniPill] Anticonceptivo oral que contiene solo progesterona o solo gestágeno, que se suele llamar “la minipíldora” -> D_809735528
+[100752105|norplant] Norplant® (un implante que se introduce debajo de la piel de la parte superior del brazo; dura varios años) -> D_220105997
+[207913198|depoProv] Depo-Provera® (inyección anticonceptiva que se administra una vez cada tres meses) -> D_938969985
+[863920008|ring] Anillo vaginal (como NuvaRing®, que se introduce por vía vaginal cada mes) -> D_902999015
+[787142499|patch] Parche anticonceptivo (como Ortho Evra, aplicado sobre la piel) -> D_807214881
+[205223932|copIud] Dispositivo intrauterino (DIU) de cobre (como Paraguard®) -> D_901154649
+[817131019|horIud] DIU hormonal (como Mirena®) -> D_404596261
+[181769837|other] Otro -> D_583012139
+[535003378*] Ninguno de los anteriores
+< -> MENOHOR >
+
+[D_880331901?]
+¿Cuántos años tenía <b>la primera vez</b> que usó <b>anticonceptivo oral mixto que incluye una combinación de hormonas</b>?
+Edad |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
+< -> D_301052397 >
+
+[D_301052397?]
+¿Usa actualmente anticonceptivo oral mixto que incluye una combinación de hormonas?
+(353358909) Sí  -> D_215455305
+(104430631) No -> D_734836192
+< #NR -> D_734836192 >
+
+[D_734836192?]
+¿Cuántos años tenía <b>la última vez</b> que usó anticonceptivo oral mixto que incluye una combinación de hormonas?
+Edad |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
+< -> D_215455305 >
+
+[D_215455305?]
+En total, ¿cuántos meses O años ha usado anticonceptivo oral mixto que incluye una combinación de hormonas?
+
+Núm. de meses |__|__|xor=HORMED5_1 id=D_434243220 min=0 max=99|
+O, si le es más fácil recordar en qué año, anótelo aquí:
+Núm. de años |__|__| xor=HORMED5_1 id=D_970604592 min=0 max=sum(isDefined(D_150344905,age),1)|
+
+
+[D_809735528?]
+¿Cuántos años tenía <b>la primera vez</b> que usó <b>anticonceptivo oral que contiene solo progesterona o solo gestágeno</b>?
+
+Edad |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
+< -> D_958009220 >
+
+[D_958009220?]
+¿Usa actualmente anticonceptivo oral que contiene solo progesterona o solo gestágeno?
+(353358909) Sí  -> D_654271781
+(104430631) No -> D_946211808
+< #NR -> D_946211808 >
+
+[D_946211808?]
+¿Cuántos años tenía <b>la última vez</b> que usó anticonceptivo oral que contiene solo progesterona o solo gestágeno?
+
+Edad |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
+< -> D_654271781 >
+
+[D_654271781?]
+En total, ¿cuántos meses O años ha usado anticonceptivo oral que contiene solo progesterona o solo gestágeno?
+
+Núm. de meses |__|__|xor=HORMED5_2 id=D_434243220 min=0 max=99|
+O, si le es más fácil recordar en qué año, anótelo aquí:
+Núm. de años |__|__| xor=HORMED5_2 id=D_970604592 min=0 max=sum(isDefined(D_150344905,age),1)|
+
+
+[D_220105997?]
+¿Cuántos años tenía <b>la primera vez</b> que usó <b>Norplant®</b>?
+
+Edad |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
+< -> D_806253825 >
+
+[D_806253825?]
+¿Usa actualmente Norplant®?
+(353358909) Sí -> D_604086099
+(104430631) No -> D_819957363
+< #NR -> D_819957363 >
+
+[D_819957363?]
+¿Cuántos años tenía <b>la última vez</b> que usó Norplant®?
+
+Edad |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
+< -> D_604086099 >
+
+[D_604086099?]
+En total, ¿cuántos meses O años ha usado Norplant®?
+
+Núm. de meses |__|__|xor=HORMED5_3 id=D_434243220 min=0 max=99|
+O, si le es más fácil recordar en qué año, anótelo aquí:
+Núm. de años |__|__| xor=HORMED5_3 id=D_970604592 min=0 max=sum(isDefined(D_150344905,age),1)|
+
+
+[D_938969985?]
+¿Cuántos años tenía <b>la primera vez</b> que usó <b>Depo-Provera®</b>?
+
+Edad |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
+< -> D_876683805 >
+
+[D_876683805?]
+¿Usa actualmente <b>Depo-Provera®</b>?
+(353358909) Sí -> D_899455852
+(104430631) No -> D_118237712
+< #NR -> D_118237712 >
+
+[D_118237712?]
+¿Cuántos años tenía <b>la última vez</b> que usó Depo-Provera®?
+
+Edad |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
+< -> D_899455852 >
+
+[D_899455852?]
+En total, ¿cuántos meses O años ha usado Depo-Provera®?
+
+Núm. de meses |__|__|xor=HORMED5_4 id=D_434243220 min=0 max=99|
+O, si le es más fácil recordar en qué año, anótelo aquí:
+Núm. de años |__|__| xor=HORMED5_4 id=D_970604592 min=0 max=sum(isDefined(D_150344905,age),1)|
+
+
+[D_902999015?]
+¿Cuántos años tenía <b>la primera vez</b> que usó <b>anillo vaginal</b>?
+
+Edad |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
+< -> D_484006644 >
+
+[D_484006644?]
+¿Usa actualmente anillo vaginal?
+(353358909) Sí -> D_358011592
+(104430631) No -> D_190721176
+< #NR -> D_190721176 >
+
+[D_190721176?]
+¿Cuántos años tenía <b>la última vez</b> que usó anillo vaginal?
+
+Edad |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
+< -> D_358011592 >
+
+[D_358011592?]
+En total, ¿cuántos meses O años ha usado anillo vaginal?
+
+Núm. de meses |__|__|xor=HORMED5_5 id=D_434243220 min=0 max=99|
+O, si le es más fácil recordar en qué año, anótelo aquí:
+Núm. de años |__|__| xor=HORMED5_5 id=D_970604592 min=0 max=99|
+
+[D_807214881?]
+¿Cuántos años tenía <b>la primera vez</b> que usó <b>parche anticonceptivo</b>?
+
+Edad |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
+< -> D_344573484 >
+
+[D_344573484?]
+¿Usa actualmente parche anticonceptivo?
+(353358909) Sí -> D_535533643
+(104430631) No -> D_708921303
+< #NR -> D_708921303 >
+
+[D_708921303?]
+¿Cuántos años tenía <b>la última vez</b> que usó parche anticonceptivo?
+
+Edad |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
+< -> D_535533643 >
+
+[D_535533643?]
+En total, ¿cuántos meses O años ha usado parche anticonceptivo?
+
+Núm. de meses |__|__|xor=HORMED5_6 id=D_434243220 min=0 max=99|
+O, si le es más fácil recordar en qué año, anótelo aquí:
+Núm. de años |__|__| xor=HORMED5_6 id=D_970604592 min=0 max=99|
+
+
+[D_901154649?]
+¿Cuántos años tenía <b>la primera vez</b> que usó <b>dispositivo intrauterino (DIU) de cobre</b>?
+
+Edad |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
+< -> D_100937200 >
+
+[D_100937200?]
+¿Usa actualmente dispositivo intrauterino (DIU) de cobre?
+(353358909) Sí -> D_129924389
+(104430631) No -> D_452984435
+< #NR -> D_452984435 >
+
+[D_452984435?]
+¿Cuántos años tenía <b>la última vez</b> dispositivo intrauterino (DIU) de cobre?
+
+Edad |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
+< -> D_129924389 >
+
+[D_129924389?]
+En total, ¿cuántos meses O años ha usado dispositivo intrauterino (DIU) de cobre?
+
+Núm. de meses |__|__|xor=HORMED5_7 id=D_434243220 min=0 max=99|
+O, si le es más fácil recordar en qué año, anótelo aquí:
+Núm. de años |__|__| xor=HORMED5_7 id=D_970604592 min=0 max=99|
+
+[D_404596261?]
+¿Cuántos años tenía <b>la primera vez</b> que usó <b>DIU hormonal</b>?
+
+Edad |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
+< -> D_465017353 >
+
+[D_465017353?]
+¿Usa actualmente DIU hormonal?
+(353358909) Sí -> D_101144925
+(104430631) No -> D_370798456
+< #NR -> D_370798456 >
+
+[D_370798456?]
+¿Cuántos años tenía <b>la última vez</b> que usó DIU hormonal?
+
+Edad |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
+< -> D_101144925 >
+
+[D_101144925?]
+En total, ¿cuántos meses O años ha usado DIU hormonal?
+
+Núm. de meses |__|__|xor=HORMED5_8 id=D_434243220 min=0 max=99|
+O, si le es más fácil recordar en qué año, anótelo aquí:
+Núm. de años |__|__| xor=HORMED5_8 id=D_970604592 min=0 max=99|
+
+
+[D_583012139?]
+¿Cuántos años tenía <b>la primera vez</b> que usó <b>los otros medicamentos o dispositivos hormonales</b>?
+
+Edad |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
+< -> D_991330361 >
+
+[D_991330361?]
+¿Usa actualmente los otros medicamentos o dispositivos hormonales?
+(353358909) Sí -> D_139348254
+(104430631) No -> D_184692605
+< #NR -> D_184692605 >
+
+[D_184692605?]
+¿Cuántos años tenía <b>la última vez</b> que usó los otros medicamentos o dispositivos hormonales?
+
+Edad |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
+< -> D_139348254 >
+
+[D_139348254?]
+En total, ¿cuántos meses O años ha usado los otros medicamentos o dispositivos hormonales?
+
+Núm. de meses |__|__|xor=HORMED5_9 id=D_434243220 min=0 max=99|
+O, si le es más fácil recordar en qué año, anótelo aquí:
+Núm. de años |__|__| xor=HORMED5_9 id=D_970604592 min=0 max=99|
+
+
+[MENOHOR]<b>Tratamiento hormonal</b>
+
+La siguiente serie de preguntas trata sobre su uso de hormonas. Algunas razones habituales para usar estas hormonas son el tratamiento de los síntomas de la menopausia, los períodos menstruales irregulares o el sangrado posmenopáusico, y la prevención de enfermedades como la osteoporosis. Incluya todas las hormonas que haya usado por cualquier motivo.
+
+[D_621744463?] ¿Ha usado alguna vez una hormona recetada por un médico u otro profesional de la salud?
+(353358909) Sí -> D_668834883
+(104430631) No -> WORKACT
+< #NR -> WORKACT >
+
+[D_668834883?] ¿Ha tomado alguna vez cualquiera de estos tipos de <b>hormonas recetadas que contienen solo estrógeno (estrógeno sin oposición)</b>? Seleccione todas las opciones que correspondan.
+[246843973|oralEst] Medicamento oral que contiene solo estrógeno (como Cenestin®, Estrace®, Femtrace®, Menest®, Ogen®, o Premarin®) -> D_856627601
+[854184254|patchEst] Parche de medicamento que contiene solo estrógeno (como Estraderm®, Alora®, o Climara®) -> D_564185028
+[515434780|ring] Anillo vaginal (Femring®), crema vaginal (Estrace®), u óvulo vaginal (Vagifem®) que contiene solo estrógeno -> D_648678282
+[674148137|estSkin] Medicamento en gel, crema o aerosol para la piel que contiene solo estrógeno (como Divigel®, Elestrin®, o EstroGel®) -> D_291707744
+[807835037|other] Cualquier otro tipo de medicamento que contiene solo estrógeno: describa |__|id=D_640559281| -> D_872509317
+[535003378*] Ninguno de los anteriores
+< #NR -> D_800943768 >
+
+[D_856627601?,displayif=equals(D_668834883,246843973)]
+¿Cuántos años tenía <b>la primera vez</b> que usó <b>medicamento oral que contiene solo estrógeno</b>?
+
+Edad |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
+<-> D_801749224>
+
+[D_801749224?,displayif=equals(D_668834883,246843973)]
+¿Usa actualmente medicamento oral que contiene solo estrógeno?
+(353358909) Sí -> D_623759247
+(104430631) No -> D_799382711
+< #NR -> D_799382711 >
+
+[D_799382711?,displayif=equals(D_668834883,246843973)]
+¿Cuántos años tenía <b>la última vez</b> que usó medicamento oral que contiene solo estrógeno?
+
+Edad |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
+<-> D_623759247>
+
+[D_623759247?,displayif=equals(D_668834883,246843973)]
+En total, ¿cuántos meses O años ha usado medicamento oral que contiene solo estrógeno?
+
+Núm. de meses |__|__|xor=ESTROHOR5_1 id=D_434243220 min=0 max=99|
+O, si le es más fácil recordar en qué año, anótelo aquí:
+Núm. de años |__|__| xor=ESTROHOR5_1 id=D_970604592 min=0 max=sum(isDefined(D_150344905,age),1)|
+
+[D_564185028?,displayif=equals(D_668834883,854184254)]
+¿Cuántos años tenía <b>la primera vez</b> que usó <b>parche de medicamento que contiene solo estrógeno</b>?
+
+Edad |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
+<-> D_560845692>
+
+[D_560845692?,displayif=equals(D_668834883,854184254)]
+¿Usa actualmente parche de medicamento que contiene solo estrógeno?
+(353358909) Sí -> D_745775718
+(104430631) No -> D_779165920
+< #NR -> D_779165920 >
+
+[D_779165920?,displayif=equals(D_668834883,854184254)]
+¿Cuántos años tenía <b>la última vez</b> que usó parche de medicamento que contiene solo estrógeno?
+
+Edad |__|__|min=isDefined(D_564185028,1) max=sum(isDefined(D_150344905,age),1)|
+<-> D_745775718>
+
+[D_745775718?,displayif=equals(D_668834883,854184254)]
+En total, ¿cuántos meses O años ha usado parche de medicamento que contiene solo estrógeno?
+
+Núm. de meses |__|__|xor=ESTROHOR5_2 id=D_434243220 min=0 max=99|
+O, si le es más fácil recordar en qué año, anótelo aquí:
+Núm. de años |__|__| xor=ESTROHOR5_2 id=D_970604592 min=0 max=sum(isDefined(D_150344905,age),1)|
+
+[D_648678282?,displayif=equals(D_668834883,515434780)]
+¿Cuántos años tenía <b>la primera vez</b> que usó <b>anillo vaginal, crema vaginal, u óvulo vaginal que contiene solo estrógeno</b>?
+
+Edad |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
+<-> D_850536692>
+
+[D_850536692?,displayif=equals(D_668834883,515434780)]
+¿Usa actualmente anillo vaginal, crema vaginal, u óvulo vaginal que contiene solo estrógeno?
+(353358909) Sí -> D_695206943
+(104430631) No -> D_774992239
+< #NR -> D_774992239 >
+
+[D_774992239?,displayif=equals(D_668834883,515434780)]
+¿Cuántos años tenía <b>la última vez</b> que usó anillo vaginal, crema vaginal, u óvulo vaginal que contiene solo estrógeno?
+
+Edad |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
+<-> D_695206943>
+
+[D_695206943?,displayif=equals(D_668834883,515434780)]
+En total, ¿cuántos meses O años ha usado anillo vaginal, crema vaginal, u óvulo vaginal que contiene solo estrógeno?
+
+Núm. de meses |__|__|xor=ESTROHOR5_3 id=D_434243220 min=0 max=99|
+O, si le es más fácil recordar en qué año, anótelo aquí:
+Núm. de años |__|__| xor=ESTROHOR5_3 id=D_970604592 min=0 max=sum(isDefined(D_150344905,age),1)|
+
+
+[D_291707744?,displayif=equals(D_668834883,674148137)]
+¿Cuántos años tenía <b>la primera vez</b> que usó <b>medicamento en gel, crema o aerosol para la piel que contiene solo estrógeno</b>?
+
+Edad |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
+<-> D_792792066>
+
+[D_792792066?,displayif=equals(D_668834883,674148137)]
+¿Usa actualmente medicamento en gel, crema o aerosol para la piel que contiene solo estrógeno?
+(353358909) Sí -> D_984901301
+(104430631) No -> D_894363067
+<#NR-> D_894363067>
+
+[D_894363067?,displayif=equals(D_668834883,674148137)]
+¿Cuántos años tenía <b>la última vez</b> que usó medicamento en gel, crema o aerosol para la piel que contiene solo estrógeno?
+
+Edad |__|__|min=isDefined(D_291707744,1) max=sum(isDefined(D_150344905,age),1)|
+<-> D_984901301>
+
+[D_984901301?,displayif=equals(D_668834883,674148137)]
+En total, ¿cuántos meses O años ha usado medicamento en gel, crema o aerosol para la piel que contiene solo estrógeno?
+
+Núm. de meses |__|__|xor=ESTROHOR5_4 id=D_434243220 min=0 max=99|
+O, si le es más fácil recordar en qué año, anótelo aquí:
+Núm. de años |__|__| xor=ESTROHOR5_4 id=D_970604592 min=0 max=sum(isDefined(D_150344905,age),1)|
+
+
+[D_872509317?,displayif=valueIsOneOf("D_668834883",807835037) or valueLength("D_640559281")>0]
+¿Cuántos años tenía <b>la primera vez</b> que usó |displayif=valueLength("D_640559281")>0|<b>{$D_640559281}</b>||displayif=valueLength("D_640559281")==0|<b>el otro tipo de medicamento que contiene solo estrógeno</b>|?
+
+Edad |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
+<-> D_378921620>
+
+[D_378921620?,displayif=valueIsOneOf("D_668834883",807835037) or valueLength("D_640559281")>0]
+¿Usa actualmente |displayif=valueLength("D_640559281")>0|{$D_640559281}||displayif=valueLength("D_640559281")==0|el otro tipo de medicamento que contiene solo estrógeno|?
+(353358909) Sí -> D_268372217
+(104430631) No -> D_854078473
+< #NR -> D_854078473 >
+
+[D_854078473?,displayif=valueIsOneOf("D_668834883",807835037) or valueLength("D_640559281")>0]
+¿Cuántos años tenía <b>la última vez</b> que usó |displayif=valueLength("D_640559281")>0|{$D_640559281}||displayif=valueLength("D_640559281")==0|el otro tipo de medicamento que contiene solo estrógeno|?
+
+Edad |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
+< -> D_268372217 >
+
+[D_268372217?,displayif=valueIsOneOf("D_668834883",807835037) or valueLength("D_640559281")>0]
+En total, ¿cuántos meses O años ha usado |displayif=valueLength("D_640559281")>0|{$D_640559281}||displayif=valueLength("D_640559281")==0|el otro tipo de medicamento que contiene solo estrógeno|?
+
+Núm. de meses |__|__|xor=ESTROHOR5_5 id=D_434243220 min=0 max=99|
+O, si le es más fácil recordar en qué año, anótelo aquí:
+Núm. de años |__|__| xor=ESTROHOR5_5 id=D_970604592 min=0 max=sum(isDefined(D_150344905,age),1)|
+
+< -> D_800943768 >
+
+[D_800943768?]
+¿Ha tomado alguna vez cualquiera de estos tipos de <b>hormonas recetadas que contienen solo gestágeno</b>? Seleccione todas las opciones que correspondan.
+[687050279|oralMed] Medicamento oral que contiene solo gestágeno (como Provera® or Prometrium®) -> D_590329439
+[807835037|oralEst]	Cualquier otro tipo de medicamento que contiene solo gestágeno o progesterona: describa: |__|id=D_235516216| -> D_356969766
+[535003378*] Ninguno de los anteriores
+< #NR-> D_263785082 >
+
+[D_590329439?,displayif=equals(D_800943768,687050279)]
+¿Cuántos años tenía <b>la primera vez</b> que usó <b>medicamento oral que contiene solo gestágeno</b>?
+
+Edad |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
+< -> D_906459952 >
+
+[D_906459952?,displayif=equals(D_800943768,687050279)]
+¿Usa actualmente medicamento oral que contiene solo gestágeno?
+(353358909) Sí -> D_556129044
+(104430631) No -> D_747629521
+< #NR -> D_747629521 >
+
+[D_747629521?,displayif=equals(D_800943768,687050279)]
+¿Cuántos años tenía <b>la última vez</b> que usó medicamento oral que contiene solo gestágeno?
+
+Edad |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
+< -> D_556129044 >
+
+[D_556129044?,displayif=equals(D_800943768,687050279)]
+En total, ¿cuántos meses O años ha usado medicamento oral que contiene solo gestágeno?
+
+Núm. de meses |__|__|xor=PROGHOR5_1 id=D_434243220 min=0 max=99|
+O, si le es más fácil recordar en qué año, anótelo aquí:
+Núm. de años |__|__| xor=PROGHOR5_1 id=D_970604592 min=0 max=sum(isDefined(D_150344905,age),1)|
+
+
+[D_356969766?,displayif=valueIsOneOf("D_800943768",807835037) or valueLength("D_235516216")>0]
+¿Cuántos años tenía <b>la primera vez</b> que usó |displayif=valueLength("D_235516216")>0|<b>{$D_235516216}</b>||displayif=valueLength("D_235516216")==0|<b>el otro medicamento solo con progesterona/gestágeno</b>|?
+
+Edad |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
+< -> D_453820991 >
+
+[D_453820991?,displayif=valueIsOneOf("D_800943768",807835037) or valueLength("D_235516216")>0]
+¿Usa actualmente |displayif=valueLength("D_235516216")>0|{$D_235516216}||displayif=valueLength("D_235516216")==0|el otro medicamento solo con progesterona/gestágeno|?
+(353358909) Sí -> D_597869478
+(104430631) No -> D_111271067
+< #NR -> D_111271067 >
+
+[D_111271067?,displayif=valueIsOneOf("D_800943768",807835037) or valueLength("D_235516216")>0]
+¿Cuántos años tenía <b>la última vez</b> que usó |displayif=valueLength("D_235516216")>0|{$D_235516216}||displayif=valueLength("D_235516216")==0|el otro medicamento solo con progesterona/gestágeno|?
+
+Edad |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
+< -> D_597869478 >
+
+[D_597869478?,displayif=valueIsOneOf("D_800943768",807835037) or valueLength("D_235516216")>0]
+En total, ¿cuántos meses O años ha usado |displayif=valueLength("D_235516216")>0|{$D_235516216}||displayif=valueLength("D_235516216")==0|el otro medicamento solo con progesterona/gestágeno|?
+
+Núm. de meses |__|__|xor=PROGHOR5_2 id=D_434243220 min=0 max=99|
+O, si le es más fácil recordar en qué año, anótelo aquí:
+Núm. de años |__|__| xor=PROGHOR5_2 id= D_970604592 min=0 max=sum(isDefined(D_150344905,age),1)|
+
+< -> D_563663099 >
+
+[D_563663099?,displayif=equals(D_800943768,687050279)]
+¿Cuántos <b>días por ciclo</b> usó esta hormona oral que contiene solo gestágeno?
+(862918284) Menos de 10 días al mes
+(275059825) De 10 a 14 días al mes
+(481217808) De 15 a 19 días al mes
+(565450397) De 20 a 25 días al mes
+(647504893) Todos los días
+< -> D_949663397 >
+
+[D_949663397?,displayif=valueIsOneOf("D_800943768",807835037) or valueLength("D_235516216")>0]
+¿Cuántos <b>días por ciclo</b> usó esta hormona recetada que contiene solo gestágeno o progesterona?
+(862918284) Menos de 10 días al mes
+(275059825) De 10 a 14 días al mes
+(481217808) De 15 a 19 días al mes
+(565450397) De 20 a 25 días al mes
+(647504893) Todos los días
+
+[D_263785082?] ¿Ha tomado alguna vez cualquiera de estos tipos de <b>hormonas mixtas recetadas que contienen tanto estrógeno como gestágeno</b>? Seleccione todas las opciones que correspondan.
+[837393880|combined] Anticonceptivo oral mixto (píldora) que contiene tanto estrógeno como gestágeno (p. ej., Prempro®, Activella®, Femhrt®, or PREFEST®) -> D_824165133
+[944874693|twoPill] Dos píldoras individuales, una de estrógeno y otra de gestágeno -> D_922903688
+[807835037|anyComEst] Cualquier otro tipo de hormonas mixtas recetadas que contienen estrógeno y gestágeno (como el parche (Climara-Pro®), otras pastillas o cremas): describa:|__|id=D_542108835| -> D_219538082
+[535003378*] Ninguno de los anteriores -> TESTTHER_INTRO
+< #NR -> TESTTHER_INTRO>
+
+[D_824165133?,displayif=equals(D_263785082,837393880)]
+¿Cuántos años tenía <b>la primera vez </b> que usó <b>anticonceptivo oral mixto (píldora) que contiene tanto estrógeno como gestágeno</b>?
+
+Edad |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
+< -> D_295472931>
+
+[D_295472931?,displayif=equals(D_263785082,837393880)]
+¿Usa actualmente anticonceptivo oral mixto (píldora) que contiene tanto estrógeno como gestágeno?
+(353358909) Sí -> D_578176688
+(104430631) No -> D_728437398
+< #NR -> D_728437398 >
+
+[D_728437398?,displayif=equals(D_263785082,837393880)]
+¿Cuántos años tenía <b>la última vez</b> que usó anticonceptivo oral mixto (píldora) que contiene tanto estrógeno como gestágeno?
+
+Edad |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
+< -> D_578176688>
+
+[D_578176688?,displayif=equals(D_263785082,837393880)]
+En total, ¿cuántos meses O años ha usado anticonceptivo oral mixto (píldora) que contiene tanto estrógeno como gestágeno?
+
+Núm. de meses |__|__|xor=COMBHOR5_1 id=D_434243220 min=0 max=99|
+O, si le es más fácil recordar en qué año, anótelo aquí:
+Núm. de años |__|__| xor=COMBHOR5_1 id=D_970604592 min=0 max=sum(isDefined(D_150344905,age),1)|
+
+[D_922903688?,displayif=equals(D_263785082,944874693)]
+¿Cuántos años tenía <b>la primera vez</b> que usó <b>dos píldoras individuales</b>?
+
+Edad |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
+< -> D_963284259>
+
+[D_963284259?,displayif=equals(D_263785082,944874693)]
+¿Usa actualmente dos píldoras individuales?
+(353358909) Sí -> D_946710366
+(104430631) No -> D_615905904
+< #NR -> D_615905904 >
+
+[D_615905904?,displayif=equals(D_263785082,944874693)]
+¿Cuántos años tenía <b>la última vez</b> que usó dos píldoras individuales?
+
+Edad |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
+< -> D_946710366>
+
+[D_946710366?,displayif=equals(D_263785082,944874693)]
+En total, ¿cuántos meses O años ha usado dos píldoras individuales?
+
+Núm. de meses |__|__|xor=COMBHOR5_2 id=D_434243220 min=0 max=99|
+O, si le es más fácil recordar en qué año, anótelo aquí:
+Núm. de años |__|__| xor=COMBHOR5_2 id=D_970604592 min=0 max=sum(isDefined(D_150344905,age),1)|
+
+
+[D_219538082?,displayif=valueIsOneOf("D_263785082",807835037) or valueLength("D_542108835")>0]
+¿Cuántos años tenía <b>la primera vez</b> que usó |displayif=valueLength("D_542108835")>0|<b>{$D_542108835}</b>||displayif=valueLength("D_542108835")==0|<b>el otro medicamento hormonal mixto con estrógeno y gestágeno con receta médica</b>|?
+
+Edad |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
+< -> D_583111732>
+
+[D_583111732?,displayif=valueIsOneOf("D_263785082",807835037) or valueLength("D_542108835")>0]
+¿Usa actualmente |displayif=valueLength("D_542108835")>0|{$D_542108835}||displayif=valueLength("D_542108835")==0|el otro medicamento hormonal mixto con estrógeno y gestágeno con receta médica|?
+(353358909) Sí -> D_824251330
+(104430631) No -> D_603209609
+< #NR -> D_603209609 >
+
+[D_603209609?,displayif=valueIsOneOf("D_263785082",807835037) or valueLength("D_542108835")>0]
+¿Cuántos años tenía <b>la última vez</b> que usó |displayif=valueLength("D_542108835")>0|{$D_542108835}||displayif=valueLength("D_542108835")==0|el otro medicamento hormonal mixto con estrógeno y gestágeno con receta médica|?
+
+Edad |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
+< -> D_824251330>
+
+[D_824251330?,displayif=valueIsOneOf("D_263785082",807835037) or valueLength("D_542108835")>0]
+En total, ¿cuántos meses O años ha usado |displayif=valueLength("D_542108835")>0|{$D_542108835}||displayif=valueLength("D_542108835")==0|el otro medicamento hormonal mixto con estrógeno y gestágeno con receta médica|?
+
+Núm. de meses |__|__|xor=COMBHOR5_3 id=D_434243220 min=0 max=99|
+O, si le es más fácil recordar en qué año, anótelo aquí:
+Núm. de años |__|__| xor=COMBHOR5_3 id=D_970604592 min=0 max=sum(isDefined(D_150344905,age),1)|
+
+
+[D_912818075?,displayif=equals(D_263785082,837393880)]
+¿Cuántos <b>días por ciclo</b> tomó un <b>anticonceptivo oral mixto (píldora) que contiene tanto estrógeno como gestágeno</b>?
+(862918284) Menos de 10 días al mes
+(275059825) De 10 a 14 días al mes
+(481217808) De 15 a 19 días al mes
+(565450397) De 20 a 25 días al mes
+(647504893) Todos los días
+
+
+[D_138836502?,displayif=equals(D_263785082,944874693)]
+¿Cuántos <b>días por ciclo</b> tomó <b>dos píldoras individuales</b>, una de estrógeno y otra de gestágeno?
+(862918284) Menos de 10 días al mes
+(275059825) De 10 a 14 días al mes
+(481217808) De 15 a 19 días al mes
+(565450397) De 20 a 25 días al mes
+(647504893) Todos los días
+< -> D_290126991 >
+
+[D_290126991?,displayif=valueIsOneOf("D_263785082",807835037) or valueLength("D_542108835")>0]
+¿Cuántos <b>días por ciclo</b> usó este otro tipo de hormonas mixtas recetadas que contienen estrógeno y gestágeno?
+(862918284) Menos de 10 días al mes
+(275059825) De 10 a 14 días al mes
+(481217808) De 15 a 19 días al mes
+(565450397) De 20 a 25 días al mes
+(647504893) Todos los días
+< #NR -> TESTTHER_INTRO>
+
+[TESTTHER_INTRO]
+<b>Testosterona y otros tratamientos hormonales</b>
+
+[D_111235606?] ¿Ha usado alguna vez un <b>tratamiento con testosterona</b> (p. ej., Depo-Testosterone®, Androgel®, Testim®, Fortesta®, Axiron®, Androderm®, Striant®)?
+(104430631)	No -> D_570187182
+(353358909)	Sí
+< #NR -> D_570187182 >
+
+[D_946849196?] ¿Qué formulaciones de testosterona ha usado? Seleccione todas las opciones que correspondan.
+[729863969] Gel o crema
+[108104748] Inyección
+[717308596] Parche cutáneo
+[746788766] Pastillas
+[158214723] Chicle o parche en el interior de la mejilla
+[658810736] Implante de liberación lenta (cilindros de testosterona)
+< #NR -> D_797076693 >
+
+[D_797076693?] ¿Cuántos años tenía <b>la primera vez</b> que usó un tratamiento con testosterona?
+
+Edad |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
+< #NR -> D_984514646 >
+
+// IF TESTTHER2 = 05 ONLY, DO NOT DISPLAY TESTTHER4. OTHERWISE, DISPLAY TESTTHER4.
+// So if anything other than 5 was selected or 5 was not selected then show this question
+[D_984514646?,displayif=or(equals(D_946849196,729863969),or(equals(D_946849196,108104748),or(equals(D_946849196,717308596),or(equals(D_946849196,746788766),or(equals(D_946849196,158214723),doesNotEqual(D_946849196,658810736))))))]
+¿Con qué frecuencia usó el tratamiento con testosterona? Si actualmente usa tratamiento con testosterona, ¿con qué frecuencia lo usa?
+(729363341) Varias veces al día
+(181786871) A diario
+(626911538) Cada unos cuantos días
+(522395860) Una vez a la semana
+(814242010) Pocas veces al mes
+(235613392) Rara vez
+< #NR -> D_414663452 >
+
+[D_414663452?]
+¿Cuántos años tenía <b>la última vez</b> que usó tratamiento con testosterona? Si recibe tratamiento con testosterona actualmente, anote su edad actual.
+
+Edad |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
+< #NR -> D_570187182 >
+
+[D_570187182?]
+¿Ha tomado alguna vez otro(s) tipo(s) de hormonas (como las bioidénticas) con receta o de venta libre?
+(353358909) Sí -> D_557526470
+(104430631) No -> WORKACT
+< #NR -> WORKACT >
+
+[D_557526470?]
+¿Qué otro(s) tipo(s) de hormonas tomó? |__|
+< -> D_492822047 >
+
+[D_492822047?]
+¿Cuántos años tenía <b>la primera vez</b> que usó |displayif=doesNotEqual(D_557526470,"")|<b>{$D_557526470}</b>||displayif=doesNotExist("D_557526470")|<b>el otro tipo de medicamento hormonal</b>|?
+
+Edad |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
+< -> D_466727144 >
+
+[D_466727144?]
+¿Usa actualmente |displayif=doesNotEqual(D_557526470,"")|{$D_557526470}||displayif=doesNotExist("D_557526470")|el otro tipo de medicamento hormonal|?
+(353358909) Sí -> D_305195766
+(104430631) No -> D_307736999
+< #NR -> D_307736999 >
+
+[D_307736999?]
+¿Cuántos años tenía <b>la última vez</b> que usó |displayif=doesNotEqual(D_557526470,"")|{$D_557526470}||displayif=doesNotExist("D_557526470")|el otro tipo de medicamento hormonal|?
+
+Edad  |__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
+
+
+[D_305195766?]
+En total, ¿cuántos meses O años ha usado |displayif=doesNotEqual(D_557526470,"")|{$D_557526470}||displayif=doesNotExist("D_557526470")|el otro tipo de medicamento hormonal|?
+
+Núm. de meses |__|__|xor=PRESHOR6 id=D_434243220 min=0 max=99|
+O, si le es más fácil recordar en qué año, anótelo aquí:
+Núm. de años |__|__| xor=PRESHOR6 id=D_970604592 min=0 max=sum(isDefined(D_150344905,age),1)|
+
+[WORKACT] <b>Actividad física</b>
+
+A continuación, le haremos preguntas sobre distintos tipos de actividades físicas. Nos interesan las actividades que realiza durante un día habitual, incluso en el trabajo o en el hogar. También nos interesan las actividades que realiza en específico para hacer ejercicio o por diversión.
+
+En muchas de las preguntas de esta sección, se le pide que diga cuánto tiempo pasa haciendo actividades específicas. Si no está seguro de la cantidad exacta de tiempo, dé su mejor aproximación.
+
+|grid?|id="D_392658845" displayif=equals(D_613744428,353358909)|
+
+<b>Actividad física en el trabajo</b> <br/><br/>Durante <b>los últimos 12 meses</b>, ¿cuánto tiempo ha dedicado habitualmente a estas actividades mientras está <b>en el trabajo?</b> Para sus respuestas, piense en el tiempo que pasa en su trabajo, <b>sin contar lo que tarda en ir y venir del trabajo.</b> Si hace ejercicio durante su jornada laboral (como salir a caminar o hacer rutinas de ejercicio durante sus descansos), <b>incluya</b> esas actividades.|[
+
+[D_699101535] Estar sentado, haciendo movimientos pequeños de los brazos (por ejemplo, trabajo de escritorio o con computadora, ensamblaje ligero, conducir un vehículo, etc.);
+[D_652561589] Estar de pie, con un poco de caminata (por ejemplo, como empleado de una tienda, al hacer tareas de archivo, sacar copias, caminar de una reunión a otra, trabajar en una cadena de ensamble, etc.);
+[D_589522790] Caminar y cargar materiales que pesen menos de 50 libras (por ejemplo, entregar correo, servir mesas, hacer tareas ligeras de construcción, trabajos de limpieza, etc.);
+[D_239572239] Caminar y realizar trabajos manuales pesados, a menudo, con materiales que pesan más de 50 libras (por ejemplo, cavar y palear, cortar leña, colocar ladrillos, apilar heno u otros trabajos manuales pesados, etc.);]|
+
+(503218834:Nada)
+(464753847:Menos de 30 minutos)
+(729681071:30 minutos)
+(258023209: 45 minutos)
+(638092100: 1 hora)
+(628177728: 2 horas)
+(919739344: De 3 a 4 horas)
+(755558825: De 5 a 6 horas)
+(949555271: De 7 a 8 horas)
+(201002865: 9 horas o más)|
+
+// skipping grids not supported
+// < #NR -> INTROSITTING >
+
+
+[INTROSITTING,displayif=valueEquals("D_613744428",353358909)]<b>Estar sentado</b>
+
+Las siguientes preguntas tratan sobre el tiempo que pasó fuera del trabajo en los <b>últimos 12 meses</b>.
+
+
+|grid?|id="D_649352910"|Durante <b>los últimos 12 meses</b>, ¿aproximadamente cuántas <b>horas pasó al día</b> habitualmente realizando cada una de las siguientes actividades%displayif=valueEquals("D_613744428",353358909)% fuera del trabajo%?<p>|[
+
+[D_654385712] Conducir o sentarse en un automóvil, autobús o tren. %displayif=equals("D_613744428",353358909)%<i>(Esto incluye ir y venir del trabajo.</i>)%;
+[D_263483736] Sentarse y ver programas de televisión, películas u otros tipos de video en un televisor, una tableta electrónica, un teléfono o una computadora;
+[D_806746224] Sentarse y navegar en Internet, jugar videojuegos, usar las redes sociales o cualquier otra aplicación o programa en una tableta electrónica, un teléfono, una computadora o un televisor;
+[D_396649512] Otros momentos de estar sentado fuera del trabajo (como para leer, hacer manualidades y pasatiempos);]|
+
+(503218834:Ninguna)
+(464753847:Menos de 30 minutos)
+(729681071:30 minutos)
+(258023209: 45 minutos)
+(638092100: 1 hora)
+(628177728: 2 horas)
+(919739344: De 3 a 4 horas)
+(755558825: De 5 a 6 horas)
+(949555271: De 7 a 8 horas)
+(201002865: 9 horas o más)|
+
+//< #NR -> HOUSE1 >
+
+[HOUSE1]<b>Tareas domésticas, cuidado de otras personas y compras</b>
+
+|grid?|id="D_733547268"|Durante <b>los últimos 12 meses</b>, ¿con qué frecuencia realizó cada una de las siguientes actividades domésticas o de compra%displayif=equals(D_613744428,353358909)% fuera del trabajo%?|[ 
+
+[D_980120253] Tareas domésticas ligeras (como cocinar, poner las cosas en su lugar, lavar la ropa o quitar el polvo); 
+[D_993029890] Tareas domésticas de moderadas a enérgicas (como pasar la aspiradora o barrer);
+[D_980196073] Cuidar mascotas (alimentarlas, jugar con ellas, asearlas o cepillarlas, pasear perros);
+[D_115422925] Cuidar de niños o adultos (cargarlos, bañarlos, empujar un cochecito, una carriola o una silla de ruedas); 
+[D_151161693] Caminar mientras hace las compras o los mandados (no cuente caminar para hacer ejercicio);
+]|
+
+(648960871:Nunca) 
+(239152340:Una vez al mes o menos) 
+(582006876:De 2 a 3 días al mes) 
+(645894551: De 1 a 2 días por semana) 
+(996315715: De 3 a 4 días por semana)
+(671267928: De 5 a 6 días por semana)
+(647504893: Todos los días)
+|
+
+|grid?|id="D_128705365" displayif=someSelected("D_980120253_1","D_980120253_2","D_980120253_3","D_980120253_4","D_980120253_5","D_980120253_6","D_993029890_1","D_993029890_2","D_993029890_3","D_993029890_4","D_993029890_5","D_993029890_6","D_980196073_1","D_980196073_2","D_980196073_3","D_980196073_4","D_980196073_5","D_980196073_6","D_115422925_1","D_115422925_2","D_115422925_3","D_115422925_4","D_115422925_5","D_115422925_6","D_151161693_1","D_151161693_2","D_151161693_3","D_151161693_4","D_151161693_5","D_151161693_6")|Los días en que realizó estas actividades domésticas o de compras, ¿aproximadamente cuánto <b>tiempo</b> pasó <b>al día</b> haciendo cada actividad? |[
+
+    [D_607323377,displayif=someSelected("D_980120253_1","D_980120253_2","D_980120253_3","D_980120253_4","D_980120253_5","D_980120253_6")] Tareas domésticas ligeras (como cocinar, poner las cosas en su lugar, lavar la ropa o quitar el polvo);
+    [D_491484323,displayif=someSelected("D_993029890_1","D_993029890_2","D_993029890_3","D_993029890_4","D_993029890_5","D_993029890_6")] Tareas domésticas de moderadas a enérgicas (como pasar la aspiradora o barrer);
+    [D_588637585,displayif=someSelected("D_980196073_1","D_980196073_2","D_980196073_3","D_980196073_4","D_980196073_5","D_980196073_6")] Cuidar mascotas (alimentarlas, jugar con ellas, asearlas o cepillarlas, pasear perros);
+    [D_199039940,displayif=someSelected("D_115422925_1","D_115422925_2","D_115422925_3","D_115422925_4","D_115422925_5","D_115422925_6")] Cuidar de niños o adultos (cargarlos, bañarlos, empujar un cochecito, una carriola o una silla de ruedas);
+    [D_986476579,displayif=someSelected("D_151161693_1","D_151161693_2","D_151161693_3","D_151161693_4","D_151161693_5","D_151161693_6")] Caminar mientras hace las compras o los mandados (no cuente caminar para hacer ejercicio);
+]|
+    (428999623: 15 minutos o menos)
+    (248303092: De 16 a 30 minutos)
+    (206020811: De 31 a 44 minutos)
+    (264163865: De 45 a 59 minutos)
+    (638092100: 1 hora)
+    (628177728: 2 horas)
+    (805918496: 3 horas o más)
+|
+
+[D_204421360?] <b>Césped, jardín y reparaciones en el hogar</b>
+
+Durante <b>los últimos 12 meses</b>, ¿hizo alguna de las siguientes actividades|displayif=equals(D_613744428,353358909)| fuera del trabajo|? Seleccione todas las opciones que correspondan.
+[797221287] Tareas moderadas al aire libre (como deshierbar, barrer hojas o cortar el césped) -> D_442059084
+[500744195] Tareas enérgicas al aire libre (como cavar, acarrear madera o palear nieve) -> D_829749579
+[383015037] Reparaciones en el hogar (como pintar, hacer trabajos de plomería o cambiar alfombras) -> D_618482103
+[535003378*] <b>No</b> he realizado ninguna de estas actividades
+< -> D_517976064 >
+
+[D_442059084?,displayif=equals(D_204421360,797221287)] ¿En qué estación(es) del año realizó estas <b>tareas moderadas al aire libre (como deshierbar, barrer hojas o cortar el césped)</b>? Seleccione todas las opciones que correspondan.
+[917302906] Invierno
+[152773041] Primavera
+[249341444] Verano
+[690018400] Otoño
+< -> D_992022740 >
+
+[D_992022740?,displayif=equals(D_204421360,797221287)] Durante |displayif=equals(numberOfChoicesSelected(D_442059084,0),1)|la estación||displayif=greaterThan(numberOfChoicesSelected(D_442059084,0),1)|las estaciónes||displayif=doesNotExist("D_442059084")|la(s) estación(es)| de los <b>últimos 12 meses</b> en que realizó estas tareas moderadas al aire libre (como deshierbar, barrer hojas o cortar el césped), ¿aproximadamente con qué frecuencia realizó estas tareas|displayif=equals(D_613744428,353358909)| fuera del trabajo|?
+(239152340) Una vez al mes o menos
+(582006876) De 2 a 3 días al mes
+(645894551) De 1 a 2 días por semana
+(996315715) De 3 a 4 días por semana
+(671267928) De 5 a 6 días por semana
+(647504893) Todos los días
+< -> D_429531329 >
+
+[D_429531329?,displayif=equals(D_204421360,797221287)] Los días en que realizó estas tareas moderadas al aire libre (como deshierbar, barrer hojas o cortar el césped)|displayif=equals(D_613744428,353358909)| fuera del trabajo|, ¿aproximadamente <b>cuánto tiempo</b> pasó <b>al día</b> haciendo estas tareas?
+(428999623) 15 minutos o menos
+(248303092) De 16 a 30 minutos
+(206020811) De 31 a 44 minutos
+(264163865) De 45 a 59 minutos
+(638092100) 1 hora
+(628177728) 2 horas
+(805918496) 3 horas o más
+
+[D_829749579?,displayif=equals(D_204421360,500744195)] ¿En qué estación(es) del año realizó estas <b>tareas enérgicas al aire libre (como cavar, acarrear madera o palear nieve)</b>? Seleccione todas las opciones que correspondan.
+[917302906] Invierno
+[152773041] Primavera
+[249341444] Verano
+[690018400] Otoño
+< -> D_888313306 >
+
+[D_888313306?,displayif=equals(D_204421360,500744195)] Durante |displayif=equals(numberOfChoicesSelected(D_829749579,0),1)|la estación||displayif=greaterThan(numberOfChoicesSelected(D_829749579,0),1)|las estaciónes||displayif=doesNotExist("D_829749579")|la(s) estación(es)| de los <b>últimos 12 meses</b> en que realizó estas tareas enérgicas al aire libre (como cavar, acarrear madera o palear nieve), ¿aproximadamente con qué frecuencia realizó estas tareas|displayif=equals(D_613744428,353358909)| fuera del trabajo|?
+(239152340) Una vez al mes o menos
+(582006876) De 2 a 3 días al mes
+(645894551) De 1 a 2 días por semana
+(996315715) De 3 a 4 días por semana
+(671267928) De 5 a 6 días por semana
+(647504893) Todos los días
+< -> D_644018981 >
+
+[D_644018981?,displayif=equals(D_204421360,500744195)] Los días en que realizó estas tareas enérgicas al aire libre (como cavar, acarrear madera o palear nieve)|displayif=equals(D_613744428,353358909)| fuera del trabajo|, ¿aproximadamente <b>cuánto tiempo</b> pasó <b>al día</b> haciendo estas tareas?
+(428999623) 15 minutos o menos
+(248303092) De 16 a 30 minutos
+(206020811) De 31 a 44 minutos
+(264163865) De 45 a 59 minutos
+(638092100) 1 hora
+(628177728) 2 horas
+(805918496) 3 horas o más
+
+[D_618482103?,displayif=equals(D_204421360,383015037)] ¿En qué estación(es) del año realizó estas <b>reparaciones en el hogar (como pintar, hacer trabajos de plomería o cambiar alfombras)</b>? Seleccione todas las opciones que correspondan.
+[917302906] Invierno
+[152773041] Primavera
+[249341444] Verano
+[690018400] Otoño
+< -> D_352531133 >
+
+[D_352531133?,displayif=equals(D_204421360,383015037)] Durante |displayif=equals(numberOfChoicesSelected(D_618482103,0),1)|la estación||displayif=greaterThan(numberOfChoicesSelected(D_618482103,0),1)|las estaciónes||displayif=doesNotExist("D_618482103")|la(s) estación(es)| del año de los <b>últimos 12 meses</b> en que realizó estas reparaciones en el hogar (como pintar, hacer trabajos de plomería o cambiar alfombras), ¿aproximadamente con qué frecuencia realizó estas reparaciones|displayif=equals(D_613744428,353358909)| fuera del trabajo|?
+(239152340) Una vez al mes o menos
+(582006876) De 2 a 3 días al mes
+(645894551) De 1 a 2 días por semana
+(996315715) De 3 a 4 días por semana
+(671267928) De 5 a 6 días por semana
+(647504893) Todos los días
+< -> D_267261558 >
+
+[D_267261558?,displayif=equals(D_204421360,383015037)] Los días en que hizo estas reparaciones en el hogar (como pintar, hacer trabajos de plomería o cambiar alfombras)|displayif=equals(D_613744428,353358909)| fuera del trabajo|, ¿aproximadamente <b>cuánto tiempo</b> pasó <b>al día</b> haciendo estas reparaciones?
+(428999623) 15 minutos o menos
+(248303092) De 16 a 30 minutos
+(206020811) De 31 a 44 minutos
+(264163865) De 45 a 59 minutos
+(638092100) 1 hora
+(628177728) 2 horas
+(805918496) 3 horas o más
+
+[D_517976064?]<b>Ejercicio y recreación (ocio)</b>
+
+Durante <b>los últimos 12 meses</b>, ¿hizo alguno de los siguientes ejercicios o actividades recreativas? Seleccione todas las opciones que correspondan.
+[904954920] Caminar o hacer senderismo como ejercicio -> D_894610280
+[619501806] Trotar o correr -> D_222110888
+[203192394] Jugar al tenis, squash o ráquetbol -> D_564242877
+[261267696] Jugar al golf -> D_635874413
+[926584500] Hacer vueltas de natación (largos de piscina) -> D_371748514
+[420058896] Montar en bicicleta (incluso una bicicleta fija) -> D_858525957
+[868685663] Ejercicios de fortalecimiento, como levantamiento de pesas, uso de máquinas de pesas o calistenia (como abdominales o lagartijas (flexión de brazos)) -> D_787591805
+[760484278] Yoga, pilates o taichí -> D_900299856
+[345916806] Artes marciales (como el karate o el yudo) -> D_149884127
+[936042582] Danza -> D_845164425
+[182827107] Esquí alpino o snowboarding -> D_187772368
+[734860227] Esquí de fondo -> D_815229596
+[371531887] Surfear o bodyboarding -> D_262305264
+[423631576] Entrenamiento en circuito de alta intensidad (como P90x® o CrossFit®) -> D_409324592
+[181769837] Otro ejercicio -> D_895837106
+[535003378*] <b>No</b> he realizado ninguna de estas actividades
+< -> SECTION4 >
+
+[D_894610280?,displayif=equals(D_517976064,904954920)] ¿En qué estación(es) del año <b>caminó o hizo senderismo como ejercicio</b>? Seleccione todas las opciones que correspondan.
+[917302906] Invierno
+[152773041] Primavera
+[249341444] Verano
+[690018400] Otoño
+< ->  D_267122668>
+
+[D_267122668?,displayif=equals(D_517976064,904954920)] Durante |displayif=equals(numberOfChoicesSelected(D_894610280,0),1)|la estación||displayif=greaterThan(numberOfChoicesSelected(D_894610280,0),1)|las estaciónes||displayif=doesNotExist("D_894610280")|la(s) estación(es)| de los <b>últimos 12 meses</b> en que caminó o hizo senderismo como ejercicio, ¿aproximadamente con qué frecuencia realizó esta actividad?
+(239152340) Una vez al mes o menos
+(582006876) De 2 a 3 días al mes
+(645894551) De 1 a 2 días por semana
+(996315715) De 3 a 4 días por semana
+(671267928) De 5 a 6 días por semana
+(647504893) Todos los días
+< ->  D_901660173>
+
+[D_901660173?,displayif=equals(D_517976064,904954920)] Los días en que caminó o hizo senderismo como ejercicio, ¿aproximadamente <b>cuánto tiempo</b> pasó <b>al día</b> realizando esta actividad?
+(428999623) 15 minutos o menos
+(248303092) De 16 a 30 minutos
+(206020811) De 31 a 44 minutos
+(264163865) De 45 a 59 minutos
+(638092100) 1 hora
+(628177728) 2 horas
+(805918496) 3 horas o más
+
+[D_222110888?,displayif=equals(D_517976064,619501806)] ¿En qué estación(es) del año <b>trotó o corrió</b>? Seleccione todas las opciones que correspondan.
+[917302906] Invierno
+[152773041] Primavera
+[249341444] Verano
+[690018400] Otoño
+< ->  D_953510929>
+
+[D_953510929?,displayif=equals(D_517976064,619501806)] Durante |displayif=equals(numberOfChoicesSelected(D_222110888,0),1)|la estación||displayif=greaterThan(numberOfChoicesSelected(D_222110888,0),1)|las estaciónes||displayif=doesNotExist("D_222110888")|la(s) estación(es)| de los <b>últimos 12 meses</b> en que trotó o corrió, ¿aproximadamente con qué frecuencia realizó esta actividad?
+(239152340) Una vez al mes o menos
+(582006876) De 2 a 3 días al mes
+(645894551) De 1 a 2 días por semana
+(996315715) De 3 a 4 días por semana
+(671267928) De 5 a 6 días por semana
+(647504893) Todos los días
+< -> D_422260069>
+
+[D_422260069?,displayif=equals(D_517976064,619501806)] Los días en que trotó o corrió, ¿aproximadamente <b>cuánto tiempo</b> pasó <b>al día</b> realizando esta actividad?
+(428999623) 15 minutos o menos
+(248303092) De 16 a 30 minutos
+(206020811) De 31 a 44 minutos
+(264163865) De 45 a 59 minutos
+(638092100) 1 hora
+(628177728) 2 horas
+(805918496) 3 horas o más
+
+[D_564242877?,displayif=equals(D_517976064,203192394)] ¿En qué estación(es) del año <b>jugó al tenis, squash o ráquetbol</b>? Seleccione todas las opciones que correspondan.
+[917302906] Invierno
+[152773041] Primavera
+[249341444] Verano
+[690018400] Otoño
+< -> D_411788467>
+
+[D_411788467?,displayif=equals(D_517976064,203192394)] Durante |displayif=equals(numberOfChoicesSelected(D_564242877,0),1)|la estación||displayif=greaterThan(numberOfChoicesSelected(D_564242877,0),1)|las estaciónes||displayif=doesNotExist("D_564242877")|la(s) estación(es)| de los <b>últimos 12 meses</b> en que jugó al tenis, squash o ráquetbol, ¿aproximadamente con qué frecuencia realizó esta actividad?
+(239152340) Una vez al mes o menos
+(582006876) De 2 a 3 días al mes
+(645894551) De 1 a 2 días por semana
+(996315715) De 3 a 4 días por semana
+(671267928) De 5 a 6 días por semana
+(647504893) Todos los días
+< -> D_141251197>
+
+[D_141251197?,displayif=equals(D_517976064,203192394)] Los días en que jugó al tenis, squash o ráquetbol, ¿aproximadamente <b>cuánto tiempo</b> pasó <b>al día</b> realizando esta actividad?
+(428999623) 15 minutos o menos
+(248303092) De 16 a 30 minutos
+(206020811) De 31 a 44 minutos
+(264163865) De 45 a 59 minutos
+(638092100) 1 hora
+(628177728) 2 horas
+(805918496) 3 horas o más
+
+[D_635874413?,displayif=equals(D_517976064,261267696)] ¿En qué estación(es) del año <b>jugó al golf</b>? Seleccione todas las opciones que correspondan.
+[917302906] Invierno
+[152773041] Primavera
+[249341444] Verano
+[690018400] Otoño
+< -> D_184448791>
+
+[D_184448791?,displayif=equals(D_517976064,261267696)] Durante |displayif=equals(numberOfChoicesSelected(D_635874413,0),1)|la estación||displayif=greaterThan(numberOfChoicesSelected(D_635874413,0),1)|las estaciónes||displayif=doesNotExist("D_635874413")|la(s) estación(es)| de los <b>últimos 12 meses</b> en que jugó al golf, ¿aproximadamente con qué frecuencia realizó esta actividad?
+(239152340) Una vez al mes o menos
+(582006876) De 2 a 3 días al mes
+(645894551) De 1 a 2 días por semana
+(996315715) De 3 a 4 días por semana
+(671267928) De 5 a 6 días por semana
+(647504893) Todos los días
+< -> D_768302347>
+
+[D_768302347?,displayif=equals(D_517976064,261267696)] Los días en que jugó al golf, ¿aproximadamente <b>cuánto tiempo</b> pasó <b>al día</b> realizando esta actividad?
+(428999623) 15 minutos o menos
+(248303092) De 16 a 30 minutos
+(206020811) De 31 a 44 minutos
+(264163865) De 45 a 59 minutos
+(638092100) 1 hora
+(628177728) 2 horas
+(805918496) 3 horas o más
+
+[D_371748514?,displayif=equals(D_517976064,926584500)] ¿En qué estación(es) del año <b>dio vueltas de natación (hizo largos de piscina)</b>? Seleccione todas las opciones que correspondan.
+[917302906] Invierno
+[152773041] Primavera
+[249341444] Verano
+[690018400] Otoño
+< -> D_944699052>
+
+[D_944699052?,displayif=equals(D_517976064,926584500)] Durante |displayif=equals(numberOfChoicesSelected(D_371748514,0),1)|la estación||displayif=greaterThan(numberOfChoicesSelected(D_371748514,0),1)|las estaciónes||displayif=doesNotExist("D_371748514")|la(s) estación(es)| de los <b>últimos 12 meses</b> en que dio vueltas de natación (hizo largos de piscina), ¿aproximadamente con qué frecuencia realizó esta actividad?
+(239152340) Una vez al mes o menos
+(582006876) De 2 a 3 días al mes
+(645894551) De 1 a 2 días por semana
+(996315715) De 3 a 4 días por semana
+(671267928) De 5 a 6 días por semana
+(647504893) Todos los días
+< -> D_658018390>
+
+[D_658018390?,displayif=equals(D_517976064,926584500)] Los días en que dio vueltas de natación (hizo largos de piscina), ¿aproximadamente <b>cuánto tiempo</b> pasó <b>al día</b> realizando esta actividad?
+(428999623) 15 minutos o menos
+(248303092) De 16 a 30 minutos
+(206020811) De 31 a 44 minutos
+(264163865) De 45 a 59 minutos
+(638092100) 1 hora
+(628177728) 2 horas
+(805918496) 3 horas o más
+
+[D_858525957?,displayif=equals(D_517976064,420058896)] ¿En qué estación(es) del año <b>montó en bicicleta (incluso la bicicleta fija)</b>? Seleccione todas las opciones que correspondan.
+[917302906] Invierno
+[152773041] Primavera
+[249341444] Verano
+[690018400] Otoño
+< -> D_849399881>
+
+[D_849399881?,displayif=equals(D_517976064,420058896)] Durante |displayif=equals(numberOfChoicesSelected(D_858525957,0),1)|la estación||displayif=greaterThan(numberOfChoicesSelected(D_858525957,0),1)|las estaciónes||displayif=doesNotExist("D_858525957")|la(s) estación(es)| de los <b>últimos 12 meses</b> en que montó en bicicleta (incluso la bicicleta fija), ¿aproximadamente con qué frecuencia realizó esta actividad?
+(239152340) Una vez al mes o menos
+(582006876) De 2 a 3 días al mes
+(645894551) De 1 a 2 días por semana
+(996315715) De 3 a 4 días por semana
+(671267928) De 5 a 6 días por semana
+(647504893) Todos los días
+< ->  D_406846149>
+
+[D_406846149?,displayif=equals(D_517976064,420058896)] Los días en que montó en bicicleta (incluso la bicicleta fija), ¿aproximadamente <b>cuánto tiempo</b> pasó <b>al día</b> realizando esta actividad?
+(428999623) 15 minutos o menos
+(248303092) De 16 a 30 minutos
+(206020811) De 31 a 44 minutos
+(264163865) De 45 a 59 minutos
+(638092100) 1 hora
+(628177728) 2 horas
+(805918496) 3 horas o más
+
+[D_787591805?,displayif=equals(D_517976064,868685663)] ¿En qué estación(es) del año realizó <b>ejercicios de fortalecimiento, como levantamiento de pesas, uso de máquinas de pesas o calistenia (como abdominales o lagartijas (flexión de brazos))</b>? Seleccione todas las opciones que correspondan.
+[917302906] Invierno
+[152773041] Primavera
+[249341444] Verano
+[690018400] Otoño
+< -> D_689956879>
+
+[D_689956879?,displayif=equals(D_517976064,868685663)] Durante |displayif=equals(numberOfChoicesSelected(D_787591805,0),1)|la estación||displayif=greaterThan(numberOfChoicesSelected(D_787591805,0),1)|las estaciónes||displayif=doesNotExist("D_787591805")|la(s) estación(es)| de los <b>últimos 12 meses</b> en que hizo ejercicios de fortalecimiento, como levantamiento de pesas, uso de máquinas de pesas o calistenia (como abdominales o lagartijas (flexión de brazos)), ¿aproximadamente con qué frecuencia realizó esta actividad?
+(239152340) Una vez al mes o menos
+(582006876) De 2 a 3 días al mes
+(645894551) De 1 a 2 días por semana
+(996315715) De 3 a 4 días por semana
+(671267928) De 5 a 6 días por semana
+(647504893) Todos los días
+< ->  D_725713485>
+
+[D_725713485?,displayif=equals(D_517976064,868685663)] Los días en que realizó ejercicios de fortalecimiento, como levantamiento de pesas, uso de máquinas de pesas o calistenia (como abdominales o lagartijas (flexión de brazos)), ¿aproximadamente <b>cuánto tiempo</b> pasó <b>al día</b> realizando esta actividad?
+(428999623) 15 minutos o menos
+(248303092) De 16 a 30 minutos
+(206020811) De 31 a 44 minutos
+(264163865) De 45 a 59 minutos
+(638092100) 1 hora
+(628177728) 2 horas
+(805918496) 3 horas o más
+
+[D_900299856?,displayif=equals(D_517976064,760484278)] ¿En qué estación(es) del año hizo <b>yoga, pilates o taichí</b>? Seleccione todas las opciones que correspondan.
+[917302906] Invierno
+[152773041] Primavera
+[249341444] Verano
+[690018400] Otoño
+< -> D_255761998>
+
+[D_255761998?,displayif=equals(D_517976064,760484278)] Durante |displayif=equals(numberOfChoicesSelected(D_900299856,0),1)|la estación||displayif=greaterThan(numberOfChoicesSelected(D_900299856,0),1)|las estaciónes||displayif=doesNotExist("D_900299856")|la(s) estación(es)| de los <b>últimos 12 meses</b> en que hizo yoga, pilates o taichí, ¿aproximadamente con qué frecuencia realizó esta actividad?
+(239152340) Una vez al mes o menos
+(582006876) De 2 a 3 días al mes
+(645894551) De 1 a 2 días por semana
+(996315715) De 3 a 4 días por semana
+(671267928) De 5 a 6 días por semana
+(647504893) Todos los días
+< -> D_571361258>
+
+[D_571361258?,displayif=equals(D_517976064,760484278)] Los días en que hizo yoga, pilates o taichí, ¿aproximadamente <b>cuánto tiempo</b> pasó <b>al día</b> realizando esta actividad?
+(428999623) 15 minutos o menos
+(248303092) De 16 a 30 minutos
+(206020811) De 31 a 44 minutos
+(264163865) De 45 a 59 minutos
+(638092100) 1 hora
+(628177728) 2 horas
+(805918496) 3 horas o más
+
+[D_149884127?,displayif=equals(D_517976064,345916806)] ¿En qué estación(es) del año practicó <b>artes marciales (como el karate o el yudo)</b>? Seleccione todas las opciones que correspondan.
+[917302906] Invierno
+[152773041] Primavera
+[249341444] Verano
+[690018400] Otoño
+< -> D_167966775>
+
+[D_167966775?,displayif=equals(D_517976064,345916806)] Durante |displayif=equals(numberOfChoicesSelected(D_149884127,0),1)|la estación||displayif=greaterThan(numberOfChoicesSelected(D_149884127,0),1)|las estaciónes||displayif=doesNotExist("D_149884127")|la(s) estación(es)| de los <b>últimos 12 meses</b> en que practicó artes marciales (como el karate o el yudo), ¿aproximadamente con qué frecuencia realizó esta actividad?
+(239152340) Una vez al mes o menos
+(582006876) De 2 a 3 días al mes
+(645894551) De 1 a 2 días por semana
+(996315715) De 3 a 4 días por semana
+(671267928) De 5 a 6 días por semana
+(647504893) Todos los días
+< ->  D_904844824>
+
+[D_904844824?,displayif=equals(D_517976064,345916806)] Los días en que practicó artes marciales (como el karate, yudo, etc.), ¿aproximadamente <b>cuánto tiempo</b> pasó <b>al día</b> realizando esta actividad?
+(428999623) 15 minutos o menos
+(248303092) De 16 a 30 minutos
+(206020811) De 31 a 44 minutos
+(264163865) De 45 a 59 minutos
+(638092100) 1 hora
+(628177728) 2 horas
+(805918496) 3 horas o más
+
+[D_845164425?,displayif=equals(D_517976064,936042582)] ¿En qué estación(es) del año <b>practicó danza</b>? Seleccione todas las opciones que correspondan.
+[917302906] Invierno
+[152773041] Primavera
+[249341444] Verano
+[690018400] Otoño
+< -> D_612068433>
+
+[D_612068433?,displayif=equals(D_517976064,936042582)] Durante |displayif=equals(numberOfChoicesSelected(D_845164425,0),1)|la estación||displayif=greaterThan(numberOfChoicesSelected(D_845164425,0),1)|las estaciónes||displayif=doesNotExist("D_845164425")|la(s) estación(es)| de los <b>últimos 12 meses</b> en que practicó danza, ¿aproximadamente con qué frecuencia realizó esta actividad?
+(239152340) Una vez al mes o menos
+(582006876) De 2 a 3 días al mes
+(645894551) De 1 a 2 días por semana
+(996315715) De 3 a 4 días por semana
+(671267928) De 5 a 6 días por semana
+(647504893) Todos los días
+< ->  D_650405110>
+
+[D_650405110?,displayif=equals(D_517976064,936042582)] Los días en que practicó danza, ¿aproximadamente <b>cuánto tiempo</b> pasó <b>al día</b> realizando esta actividad?
+(428999623) 15 minutos o menos
+(248303092) De 16 a 30 minutos
+(206020811) De 31 a 44 minutos
+(264163865) De 45 a 59 minutos
+(638092100) 1 hora
+(628177728) 2 horas
+(805918496) 3 horas o más
+
+[D_187772368?,displayif=equals(D_517976064,182827107)] ¿En qué estación(es) del año practicó <b>esquí alpino o snowboarding</b>? Seleccione todas las opciones que correspondan.
+[917302906] Invierno
+[152773041] Primavera
+[249341444] Verano
+[690018400] Otoño
+< -> D_865200503>
+
+[D_865200503?,displayif=equals(D_517976064,182827107)] Durante |displayif=equals(numberOfChoicesSelected(D_187772368,0),1)|la estación||displayif=greaterThan(numberOfChoicesSelected(D_187772368,0),1)|las estaciónes||displayif=doesNotExist("D_187772368")|la(s) estación(es)| de los <b>últimos 12 meses</b> en que practicó esquí alpino o snowboarding, ¿aproximadamente con qué frecuencia realizó esta actividad?
+(239152340) Una vez al mes o menos
+(582006876) De 2 a 3 días al mes
+(645894551) De 1 a 2 días por semana
+(996315715) De 3 a 4 días por semana
+(671267928) De 5 a 6 días por semana
+(647504893) Todos los días
+< -> D_831643763>
+
+[D_831643763?,displayif=equals(D_517976064,182827107)] Los días en que practicó esquí alpino o snowboarding, ¿aproximadamente <b>cuánto tiempo</b> pasó <b>al día</b> realizando esta actividad?
+(428999623) 15 minutos o menos
+(248303092) De 16 a 30 minutos
+(206020811) De 31 a 44 minutos
+(264163865) De 45 a 59 minutos
+(638092100) 1 hora
+(628177728) 2 horas
+(805918496) 3 horas o más
+
+[D_815229596?,displayif=equals(D_517976064,734860227)] ¿En qué estación(es) del año practicó <b>esquí de fondo</b>? Seleccione todas las opciones que correspondan.
+[917302906] Invierno
+[152773041] Primavera
+[249341444] Verano
+[690018400] Otoño
+< -> D_981509686>
+
+[D_981509686?,displayif=equals(D_517976064,734860227)] Durante |displayif=equals(numberOfChoicesSelected(D_815229596,0),1)|la estación||displayif=greaterThan(numberOfChoicesSelected(D_815229596,0),1)|las estaciónes||displayif=doesNotExist("D_815229596")|la(s) estación(es)| de los <b>últimos 12 meses</b> en que practicó el esquí de fondo, ¿aproximadamente con qué frecuencia realizó esta actividad?
+(239152340) Una vez al mes o menos
+(582006876) De 2 a 3 días al mes
+(645894551) De 1 a 2 días por semana
+(996315715) De 3 a 4 días por semana
+(671267928) De 5 a 6 días por semana
+(647504893) Todos los días
+< ->  D_921220809>
+
+[D_921220809?,displayif=equals(D_517976064,734860227)] Los días en que practicó esquí de fondo, ¿aproximadamente <b>cuánto tiempo</b> pasó <b>al día</b> realizando esta actividad?
+(428999623) 15 minutos o menos
+(248303092) De 16 a 30 minutos
+(206020811) De 31 a 44 minutos
+(264163865) De 45 a 59 minutos
+(638092100) 1 hora
+(628177728) 2 horas
+(805918496) 3 horas o más
+
+[D_262305264?,displayif=equals(D_517976064,371531887)] ¿En qué estación(es) del año <b>surfeó o practicó bodyboarding</b>? Seleccione todas las opciones que correspondan.
+[917302906] Invierno
+[152773041] Primavera
+[249341444] Verano
+[690018400] Otoño
+< -> D_214750556>
+
+[D_214750556?,displayif=equals(D_517976064,371531887)] Durante |displayif=equals(numberOfChoicesSelected(D_262305264,0),1)|la estación||displayif=greaterThan(numberOfChoicesSelected(D_262305264,0),1)|las estaciónes||displayif=doesNotExist("D_262305264")|la(s) estación(es)| de los <b>últimos 12 meses</b> en que surfeó o practicó bodyboarding, ¿aproximadamente con qué frecuencia realizó esta actividad?
+(239152340) Una vez al mes o menos
+(582006876) De 2 a 3 días al mes
+(645894551) De 1 a 2 días por semana
+(996315715) De 3 a 4 días por semana
+(671267928) De 5 a 6 días por semana
+(647504893) Todos los días
+< -> D_621878019>
+
+[D_621878019?,displayif=equals(D_517976064,371531887)] Los días en que surfeó o practicó bodyboarding, ¿aproximadamente <b>cuánto tiempo</b> pasó <b>al día</b> realizando esta actividad?
+(428999623) 15 minutos o menos
+(248303092) De 16 a 30 minutos
+(206020811) De 31 a 44 minutos
+(264163865) De 45 a 59 minutos
+(638092100) 1 hora
+(628177728) 2 horas
+(805918496) 3 horas o más
+
+[D_409324592?,displayif=equals(D_517976064,423631576)] ¿En qué estación(es) del año <b>entrenó en circuito de alta intensidad (como P90x® o CrossFit®)</b>? Seleccione todas las opciones que correspondan.
+[917302906] Invierno
+[152773041] Primavera
+[249341444] Verano
+[690018400] Otoño
+< -> D_775324618>
+
+[D_775324618?,displayif=equals(D_517976064,423631576)] Durante |displayif=equals(numberOfChoicesSelected(D_409324592,0),1)|la estación||displayif=greaterThan(numberOfChoicesSelected(D_409324592,0),1)|las estaciónes||displayif=doesNotExist("D_409324592")|la(s) estación(es)| de los <b>últimos 12 meses</b> en que entrenó en circuito de alta intensidad (como P90x® o CrossFit®), ¿aproximadamente con qué frecuencia realizó esta actividad?
+(239152340) Una vez al mes o menos
+(582006876) De 2 a 3 días al mes
+(645894551) De 1 a 2 días por semana
+(996315715) De 3 a 4 días por semana
+(671267928) De 5 a 6 días por semana
+(647504893) Todos los días
+< -> D_305312165>
+
+[D_305312165?,displayif=equals(D_517976064,423631576)] Los días en que entrenó en circuito de alta intensidad (como P90x®, CrossFit®, etc.), ¿aproximadamente <b>cuánto tiempo</b> pasó <b>al día</b> realizando esta actividad?
+(428999623) 15 minutos o menos
+(248303092) De 16 a 30 minutos
+(206020811) De 31 a 44 minutos
+(264163865) De 45 a 59 minutos
+(638092100) 1 hora
+(628177728) 2 horas
+(805918496) 3 horas o más
+
+[D_895837106?,displayif=equals(D_517976064,181769837)] ¿En qué estación(es) del año hizo <b>otro ejercicio</b>? Seleccione todas las opciones que correspondan.
+[917302906] Invierno
+[152773041] Primavera
+[249341444] Verano
+[690018400] Otoño
+< -> D_522949496>
+
+[D_522949496?,displayif=equals(D_517976064,181769837)] Durante |displayif=equals(numberOfChoicesSelected(D_895837106,0),1)|la estación||displayif=greaterThan(numberOfChoicesSelected(D_895837106,0),1)|las estaciónes||displayif=doesNotExist("D_895837106")|la(s) estación(es)| de los <b>últimos 12 meses</b> en que hizo otro ejercicio, ¿aproximadamente con qué frecuencia realizó esta actividad?
+(239152340) Una vez al mes o menos
+(582006876) De 2 a 3 días al mes
+(645894551) De 1 a 2 días por semana
+(996315715) De 3 a 4 días por semana
+(671267928) De 5 a 6 días por semana
+(647504893) Todos los días
+< ->  D_272119228>
+
+[D_272119228?,displayif=equals(D_517976064,181769837)] Los días en que hizo otro ejercicio, ¿aproximadamente <b>cuánto tiempo</b> pasó <b>al día</b> realizando esta actividad?
+(428999623) 15 minutos o menos
+(248303092) De 16 a 30 minutos
+(206020811) De 31 a 44 minutos
+(264163865) De 45 a 59 minutos
+(638092100) 1 hora
+(628177728) 2 horas
+(805918496) 3 horas o más
+
+[SECTION4]<b>Sueño</b>
+
+Por último, le haremos algunas preguntas sobre el sueño, incluso sobre su horario habitual de sueño y sus hábitos de sueño.
+
+|displayif=or(equals(D_407056417,536341288),and(equals(D_407056417,576796184),or(equals(D_750420077,578416151),equals(D_750420077,434651539))))|Si está embarazada actualmente o lo estuvo el año pasado, responda a las siguientes preguntas con información del tiempo <b>anterior a que estuviera embarazada.</b>|
+
+[D_591723682?]<b>Horario de sueño</b>
+
+Durante una semana habitual, ¿determina su horario de sueño según su trabajo, la escuela u otras actividades?
+(353358909) Sí -> D_168431681
+(104430631) No -> INTROSLESCH1
+< -> INTROSLESCH1 >
+
+[D_168431681?] ¿Cuántos <b>días a la semana</b> determina su horario de sueño según su trabajo, la escuela u otras actividades?
+(349122068) 1
+(156095877) 2
+(162668459) 3
+(278139969) 4
+(676824724) 5
+(512144428) 6
+(125674414) 7
+
+[INTROSLESCH1,displayif=equals(D_591723682,353358909)]Nos gustaría hacerle algunas preguntas sobre su horario de sueño en días laborables, los cuales incluyen los días en los que realiza cualquier tipo de trabajo que tiene un horario, como el trabajo remunerado fuera de casa o el trabajo de ama de casa.
+< -> D_636757313 >
+
+[INTROSLESCH1_1,displayif=doesNotEqual(D_591723682,353358909)]Nos gustaría hacerle algunas preguntas sobre su horario de sueño. Responda a estas preguntas al pensar en su día habitual.
+
+// should these be drop-down increments? currently drop down isn't supported
+[D_636757313?]
+¿A qué hora suele irse a acostar en |displayif=equals(D_591723682,353358909)|las noches anteriores a los días laborables||displayif=doesNotEqual(D_591723682,353358909)|en la mayoría de los días|? Díganos a qué hora se suele meter en la cama, <b>no a qué hora suele quedarse dormido.</b> Si está usando un teléfono o una tableta, pulse el recuadro gris para poner su respuesta.
+
+|time|
+
+// should these be drop-down increments? currently drop down isn't supported
+[D_653906464?]
+En |displayif=equals(D_591723682,353358909)|las noches anteriores a los días laborables||displayif=doesNotEqual(D_591723682,353358909)|en la mayoría de las noches|, ¿cuánto tiempo suele tardarse en quedarse dormido?
+
+Núm. de horas |__|__|id=D_707805344 min=0 max=9|
+Núm. de minutos |__|__|id=D_850393641 min=0 max=59|
+
+// should these be drop-down increments? currently drop down isn't supported
+[D_580367946?]
+¿A qué hora suele despertarse en |displayif=equals(D_591723682,353358909)|los días laborables||displayif=doesNotEqual(D_591723682,353358909)|en la mayoría de los días|? Seleccione su respuesta al usar las opciones de la lista desplegable a continuación. Si está usando un teléfono o una tableta, pulse el recuadro gris para poner su respuesta.
+
+|time|
+
+// should these be drop-down increments? currently drop down isn't supported
+[D_358259099?]
+En |displayif=equals(D_591723682,353358909)|los días laborables||displayif=doesNotEqual(D_591723682,353358909)|en la mayoría de los días|, ¿cuánto tiempo suele quedarse en la cama después de despertarse antes de levantarse?
+
+Núm. de horas |__|__|id=D_707805344  min=0 max=9|
+Núm. de minutos |__|__|id=D_850393641  min=0 max=59|
+
+[D_392629868?]
+¿Usa un despertador para despertarse en |displayif=equals(D_591723682,353358909)|los días laborables||displayif=doesNotEqual(D_591723682,353358909)|en la mayoría de los días|?
+(353358909) Sí -> D_354980163
+(104430631) No -> D_424807655
+< #NR -> D_424807655 >
+
+[D_354980163?]
+En |displayif=equals(D_591723682,353358909)|los días laborables||displayif=doesNotEqual(D_591723682,353358909)|en la mayoría de los días|, ¿se despierta antes de que suene el despertador?
+(353358909) Sí
+(104430631) No
+
+[D_424807655?]
+La exposición a la luz solar natural puede afectar sus patrones del sueño. Durante un |displayif=equals(D_591723682,353358909)|día laborable||displayif=doesNotEqual(D_591723682,353358909)|un día|, habitual, ¿cuánto tiempo pasa al aire libre bajo la luz directa del sol?
+
+Núm. de horas |__|__|id=D_707805344 min=0 max=24|
+
+Núm. de minutos |__|__|id=D_850393641 min=0 max=59|
+
+[INTROSLESCH2,displayif=equals(D_591723682,353358909)]<b>Días no laborables</b>
+
+A continuación, le haremos preguntas sobre su horario de sueño en los días no laborables, que son los días en los que no sigue su horario habitual de día de trabajo.
+
+// should these be drop-down increments? currently drop down isn't supported
+[D_823919522?,displayif=equals(D_591723682,353358909)]
+¿A qué hora suele irse a acostar en las noches anteriores a los días no laborables? Díganos la hora a la que suele meterse en la cama, <b>no la hora a la que suele quedarse dormido.</b> Si está usando un teléfono o una tableta, pulse el recuadro gris para poner su respuesta.
+
+|time|
+
+// should these be drop-down increments? currently drop down isn't supported
+[D_532767229?,displayif=equals(D_591723682,353358909)]
+En las noches anteriores a los días no laborables, ¿cuánto tiempo suele tardarse en quedarse dormido?
+
+Núm. de horas |__|__|id=D_707805344 min=0 max=9|
+
+Núm. de minutos |__|__|id=D_850393641 min=0 max=59|
+
+// should these be drop-down increments? currently drop down isn't supported
+[D_698673038?,displayif=equals(D_591723682,353358909)]
+¿A qué hora suele despertarse en los días no laborables? Si está usando un teléfono o una tableta, pulse el recuadro gris para poner su respuesta.
+
+|time|
+
+// should these be drop-down increments? currently drop down isn't supported
+[D_711365027?,displayif=equals(D_591723682,353358909)] En los días no laborables, ¿cuánto tiempo suele quedarse en la cama después de despertarse, antes de levantarse?
+
+Núm. de horas |__|__|id=D_707805344 min=0 max=9|
+
+Núm. de minutos |__|__|id=D_850393641 min=0 max=59|
+
+[D_874262904?,displayif=equals(D_591723682,353358909)]
+¿Usa un despertador para despertarse en los días no laborables?
+(353358909) Sí -> D_820694957
+(104430631) No
+< -> D_823541843 >
+
+[D_820694957?,displayif=equals(D_591723682,353358909)] En los días no laborables, ¿se despierta antes de que suene el despertador?
+(353358909)	Sí
+(104430631)	No
+
+[D_823541843?,displayif=equals(D_591723682,353358909)] En los días no laborables, ¿puede elegir la hora a la que se va a dormir y a la que se despierta? Algunas de las razones por las que tal vez no pueda elegir la hora de irse a dormir y la hora de despertarse son los niños, las mascotas u otras actividades no laborales.
+(353358909) Sí
+(104430631) No
+
+// should these be drop-down increments? currently drop down isn't supported
+[D_825227968?,displayif=equals(D_591723682,353358909)] La exposición a la luz solar natural puede afectar sus patrones del sueño. Durante un día no laborable habitual, ¿cuánto tiempo pasa al aire libre bajo la luz solar directa?
+
+Núm. de horas |__|__|id=D_707805344 min=0 max=24|
+
+Núm. de minutos |__|__|id=D_850393641 min=0 max=59|
+
+[SLEEPHABITS]<b>Hábitos del sueño</b>
+
+Las siguientes preguntas tratan sobre sus hábitos de sueño generales.
+
+|grid?|id="D_421859821"|Al pensar en las <b>últimas cuatro semanas</b>, elija las respuestas que mejor describan su sueño.|[
+
+[D_220238240] ¿Se le dificultó conciliar el sueño (quedarse dormido)?;
+[D_151006826] ¿Se despertó varias veces por noche?;
+[D_965290070] ¿Se despertó antes de lo que tenía previsto?;
+[D_781115321] ¿Se le dificultó volver a quedarse dormido después de despertarse antes de lo previsto?;
+[D_453071098] ¿Tomó pastillas para dormir (somníferos) con receta o de venta libre para conciliar el sueño?;
+[D_513065503] ¿Tuvo problemas para dormir que lo hicieron sentir irritable (que se molestara fácilmente)?;
+[D_257137378] ¿Se sintió muy cansado durante el día? ;]|
+
+(104430631:No)
+(525779785:Sí, menos de 1 vez por semana)
+(565036180:Sí, 1 o 2 veces por semana)
+(284343405:Sí, 3 o 4 veces por semana)
+(270994579:Sí, 5 o más veces por semana)|
+
+//< #NR-> SLHABIT2
+
+[D_910856756?] En general, ¿cómo fue su sueño en una noche habitual durante las <b>últimas cuatro semanas</b>?
+(462478011) Muy profundo o tranquilo
+(303095574) Profundo y tranquilo
+(838403733) De calidad promedio
+(522143286) No dormí bien
+(621370621) Dormí muy mal
+
+|grid?|id="D_981441822"|¿Cuál es la probabilidad de que cabecee o se quede dormido (no solo de que “se sienta cansado”) en cada una de las siguientes situaciones? Si nunca o casi nunca se encuentra en esa situación, dé su mejor aproximación de lo que ocurriría.|[
+
+[D_403155173] Sentarse y leer;
+[D_576621769] Ver la televisión;
+[D_988508028] Sentarse inactivo en un lugar público (como en un teatro o en una reunión);
+[D_186488870] Viajar como pasajero en un automóvil durante una hora sin parar;
+[D_922388461] Acostarse a descansar por la tarde;
+[D_760686611] Sentarse y hablar con alguien;
+[D_354550061] Sentarse tranquilo después de un almuerzo en el que no tomó bebidas alcohólicas;
+[D_179705366] En un automóvil, mientras está parado unos minutos en el tráfico;
+[D_955609858] En la mesa durante la cena;]|
+
+(514068832:Ninguna probabilidad)
+(774439579:Una probabilidad baja)
+(747099514:Una probabilidad moderada)
+(977681388:Una probabilidad alta)|
+
+//< #NR-> SLHABIT4 >
+
+[D_471018082?] ¿Alguna vez ha cabeceado o se ha quedado dormido mientras conducía un vehículo?
+(353358909) Sí
+(104430631) No
+
+[D_940733450?]<b>Roncar</b>
+
+¿Ronca?
+(353358909) Sí -> D_406137786
+(104430631) No
+(178420302) No sé
+< -> D_479628567 >
+
+[D_406137786?] ¿Cómo describiría sus ronquidos?
+(624808470) Ligeramente más fuertes que mi respiración
+(137254299) Tan fuertes como cuando hablo
+(954318357) Más fuertes que cuando hablo
+(178420302) No sé
+< -> D_631303960 >
+
+[D_631303960?] ¿Con qué frecuencia ronca?
+(718687985) Casi todos los días
+(471294296) De 3 a 4 veces por semana
+(198347104) De 1 a 2 veces por semana
+(632512449) De 1 a 2 veces al mes
+(520089841) Menos de 1 a 2 veces al mes
+(178420302) No sé
+< -> D_876846761 >
+
+[D_876846761?] ¿Sus ronquidos han molestado alguna vez a otras personas?
+(353358909) Sí
+(104430631) No
+(178420302) No sé
+< -> D_756521698 >
+
+[D_756521698?] ¿Con qué frecuencia deja de respirar mientras duerme?
+(718687985) Casi todos los días
+(471294296) De 3 a 4 veces por semana
+(198347104) De 1 a 2 veces por semana
+(632512449) De 1 a 2 veces al mes
+(520089841) Menos de 1 a 2 veces al mes
+(648960871) Nunca
+(178420302) No sé
+
+[D_479628567?]<b>Problemas del sueño</b>
+
+¿Le ha dicho alguna vez un médico u otro profesional de la salud que tiene alguna de estas afecciones? Seleccione todas las opciones que correspondan.
+[370923702] Apnea del sueño (o apnea obstructiva del sueño, AOS) -> D_629010195
+[495144424] Insomnio
+[728393970] Piernas inquietas
+[531811052] Narcolepsia
+[535003378*] Ninguno de los anteriores
+< -> D_674976924 >
+
+[D_629010195?,displayif=equals(D_479628567,370923702)] ¿Cuál de estos tratamientos usa o usó alguna vez para el <b>apnea del sueño</b>? Seleccione todas las opciones que correspondan.
+[417201414] Sistema de presión positiva continua en las vías respiratorias (CPAP) o de bipresión positiva en las vías respiratorias (BIPAP)
+[959572576] Dispositivo dental (oral)
+[576852249] Cirugía de garganta o úvula
+[807835037] Otro: describa |__|id=D_654253676|
+[535003378*] No recibí tratamiento
+
+[D_674976924?]<b>Trabajo por turnos</b>
+
+¿Ha trabajado |popup|por turnos|El trabajo por turnos es el que se realiza en un horario diferente al tradicional de 9:00 a. m. a 5:00 p. m. Los empleadores que necesitan cobertura las 24 horas del día suelen depender del trabajo por turnos.|?
+(958538953) Sí, en los últimos tres meses -> D_195662769
+(274062548) Sí, hace más de tres meses -> D_195662769
+(104430631) No
+< -> END >
+
+// should these be drop-down increments? currently drop down isn't supported
+[D_195662769?] Cuando trabajaba por turnos, ¿a qué hora |displayif=equals(D_674976924,958538953)|empieza||displayif=equals(D_674976924,274062548)|empezaba| su turno laboral habitual? Si está usando un teléfono o una tableta, pulse el recuadro gris para poner su respuesta.
+
+|time|
+
+< -> D_214870856 >
+
+// should these be drop-down increments? currently drop down isn't supported
+[D_214870856?] Cuando trabajaba por turnos, ¿a qué hora |displayif=equals(D_674976924,958538953)|termina||displayif=equals(D_674976924,274062548)|terminaba| su turno laboral habitual? Si está usando un teléfono o una tableta, pulse el recuadro gris para poner su respuesta.
+
+|time|
+
+< -> D_680730257 >
+
+[D_680730257?] Cuando trabajaba por turnos, ¿qué tan flexible |displayif=equals(D_674976924,958538953)|es||displayif=equals(D_674976924,274062548)|era| su horario de trabajo?
+(719954633) Sumamente flexible
+(764708931) Muy flexible
+(988873962) Algo flexible
+(929148006) Un poco flexible
+(490796638) Nada flexible flexible
+< -> D_392874924 >
+
+
+[D_392874924?] ¿Cuántos años en total |displayif=equals(D_674976924,958538953)|ha trabajado||displayif=equals(D_674976924,274062548)|trabajó| por turnos?
+Años |__|__|__|__|min=0 max=sum(isDefined(D_150344905,age),1)|
+
+< -> D_199254974 >
+
+[D_199254974?,displayif=equals(D_674976924,274062548)] ¿Cuántos años tenía la última vez que trabajó por turnos?
+Edad |__|__|xor=SHIFTWORK10 id=D_863007380 min=0 max=sum(isDefined(D_150344905,age),1)|
+
+O, si le es más fácil recordar en qué año, anótelo aquí:
+Años |__|__|__|__|xor=SHIFTWORK10 id=D_120485458|
+
+
+
+[END,end]  Ha respondido a todas las preguntas de este cuestionario. Para enviar sus respuestas, seleccione el botón “Enviar cuestionario” (“Submit Survey”).
+
