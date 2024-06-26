@@ -1,15 +1,25 @@
-{"name":"D_726699695_V2"} 
-{"version": "1.0"}
+//{"version":"3.0"}
+{"name":"D_726699695_V2"}
 
-[Q1?] 
-<b>Question 1</b>
-Waffles or Pancakes?
+[D_627122657?]  What is your current job title? Please be descriptive. For example, high school math teacher, emergency room nurse, automobile painter.
+|__|size=50|
+<#NR -> D_796828094>
 
-< #NR -> Q2 >
-< -> END >
 
-[Q2?]
-<b>Question 2</b>
-Apples or Bananas? 
+[D_796828094?] What are your main tasks and activities in this job? Please be descriptive. For example, constructed residential homes, drove patients from home to medical visits, provided assistance to elementary school students with special needs.
+|__|size=50|
+
+
+[D_761310265?]
+
+[D_118061122?] What was your longest-held job? Please be descriptive. For example, high school math teacher, emergency room nurse, automobile painter.
+|__|size=50|
+<#NR -> D_518387017>
+
+[D_518387017?] What are your main tasks and activities in this job? Please be descriptive. For example, constructed residential homes, drove patients from home to medical visits, provided assistance to elementary school students with special needs.
+|__|size=50|
+
+[D_279637054?]
+
 
 [END,end]  You have answered all of the questions in this survey. To submit your answers, select the “Submit Survey” button.
