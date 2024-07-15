@@ -16,7 +16,7 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Tue Jul 9 13:41:18 2024 -0400 (short timestamp = 2024-07-09-17-41-18)
+//This file was last modified on Fri Jul 12 08:19:56 2024 -0400 (short timestamp = 2024-07-12-12-19-56)
 
 //{"version":"3.0"}
 {"name":"D_726699695_V2"} [INTROM1] ¡Bienvenido, {$u:firstName}! Este cuestionario se divide en secciones. Cada sección incluye preguntas sobre una gran variedad de temas. Nuestro objetivo es recopilar información sobre sus antecedentes médicos, su familia, su trabajo y sus conductas saludables. Puede responder a todas las preguntas de cada sección del cuestionario de una sola vez, o responder a algunas preguntas, tomar un descanso y volver para responder el resto después. Si toma un descanso, sus respuestas se guardarán, y podrá continuar donde se quedó. Se puede saltar cualquier pregunta que no desee responder. 
@@ -991,14 +991,14 @@ O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
 |__|__|xor=BLDTRANS3 id=D_380275309 min=0 max=valueOrDefault("D_150344905","age",100)+1| Edad que tenía cuando recibió la primera transfusión
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=BLDTRANS3 id=D_197994844 min=#currentYear-valueOrDefault("D_150344905","age",100)-1 max=#currentYear| Año de la primera transfusión
+|__|__|__|__|xor=BLDTRANS3 id=D_197994844 minval=#currentYear-valueOrDefault("D_150344905","age",100)-1 max=#currentYear| Año de la primera transfusión
 
 
 [D_593017220?,displayif=greaterThan(D_795940097,1)] ¿A qué edad recibió su <b>última</b> transfusión de sangre?
 |__|__|xor=BLDTRANS4 id=D_434556295 min=valueOrDefault("D_380275309",0) max=valueOrDefault("D_150344905","age",100)+1| Edad que tenía cuando recibió la última transfusión
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=BLDTRANS4 id=D_106010694 min=valueOrDefault("D_197994844",#currentYear-valueOrDefault("D_150344905","age",100)-1) max=#currentYear| Año de la última transfusión
+|__|__|__|__|xor=BLDTRANS4 id=D_106010694 minval=valueOrDefault("D_197994844",#currentYear-valueOrDefault("D_150344905","age",100)-1) max=#currentYear| Año de la última transfusión
 
 
 [D_875208305?]<b>Salud general </b>
@@ -1746,7 +1746,7 @@ Las siguientes preguntas tratan sobre sus hermanos, incluso los que ya fallecier
 
 [SIBCONFIRM] Nos dijo que tiene |displayif=isNotDefined(D_694265648,0)|0| {$D_694265648} hermano|displayif=or(equals(D_694265648,0),or(isNotDefined(D_694265648,0),greaterThanOrEqual(D_694265648,2)))|s|, incluso hermanos carnales y medios hermanos. 
 
-Si esto <b>no</b> es correcto, seleccione el botón “Atrás” [“Back”] para actualizar su respuesta. Si esto es correcto, seleccione el botón “Siguiente” [“Next”] para avanzar.
+Si esto <b>no</b> es correcto, seleccione el botón “Atrás” para actualizar su respuesta. Si esto es correcto, seleccione el botón “Siguiente” para avanzar.
 
 <loop max=25>
 
@@ -1903,14 +1903,14 @@ O, si le es más fácil recordar en qué año, anótelo aquí: <br/>
 |__|__|__|__|  xor=SIBCANC3L id=D_261863326 min=1800 max=#currentYear| Año del diagnóstico
 
 
-[D_852278004?,displayif=equals(D_578895128,665036297)] ¿Qué edad tenía |displayif=equals(isNotDefined(D_406098499,false),false)|{$D_406098499}||displayif=doesNotEqual(isNotDefined(D_406098499,false),false)|su hermano| cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>Linfoma no Hodgkin</b>?<br/>
+[D_852278004?,displayif=equals(D_578895128,665036297)] ¿Qué edad tenía |displayif=equals(isNotDefined(D_406098499,false),false)|{$D_406098499}||displayif=doesNotEqual(isNotDefined(D_406098499,false),false)|su hermano| cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>linfoma no Hodgkin</b>?<br/>
 |__|__|__|__|xor=SIBCANC3M id=D_206625031 min=0 max=valueOrDefault("D_478706011","D_338020179",125)| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
 |__|__|__|__|  xor=SIBCANC3M id=D_261863326 min=1800 max=#currentYear| Año del diagnóstico
 
 
-[D_391972881?,displayif=equals(D_578895128,200837530)] ¿Qué edad tenía |displayif=equals(isNotDefined(D_406098499,false),false)|{$D_406098499}||displayif=doesNotEqual(isNotDefined(D_406098499,false),false)|su hermano| cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>Linfoma</b>?<br/>
+[D_391972881?,displayif=equals(D_578895128,200837530)] ¿Qué edad tenía |displayif=equals(isNotDefined(D_406098499,false),false)|{$D_406098499}||displayif=doesNotEqual(isNotDefined(D_406098499,false),false)|su hermano| cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>linfoma</b>?<br/>
 |__|__|__|__|xor=SIBCANC3N id=D_206625031 min=0 max=valueOrDefault("D_478706011","D_338020179",125)| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí: <br/>
@@ -1987,13 +1987,17 @@ O, si le es más fácil recordar en qué año, anótelo aquí: <br/>
 O, si le es más fácil recordar en qué año, anótelo aquí: <br/>
 |__|__|__|__|  xor=SIBCANC3Y id=D_261863326 min=1800 max=#currentYear| Año del diagnóstico
 
-[SIBSUM,displayif=selectionCount("D_578895128",true)>0 or valueLength("D_957429734")>0] El siguiente es un resumen de la información que nos dio sobre este(a) hermano(a). Si alguna parte de la información es incorrecta, seleccione el botón “Atrás” [“Back”] para actualizar sus respuestas. Si toda la información es correcta, seleccione el botón “Siguiente” [“Next”] para avanzar.
+[SIBSUM,displayif=selectionCount("D_578895128",true)>0 or valueLength("D_957429734")>0] El siguiente es un resumen de la información que nos dio sobre este(a) hermano(a). Si alguna parte de la información es incorrecta, seleccione el botón “Atrás” para actualizar sus respuestas. Si toda la información es correcta, seleccione el botón “Siguiente” para avanzar.
 
-	Nombre/Apodo: |displayif=valueLength("D_406098499")>0|{$D_406098499}|<br/>
-	Sexo: |displayif=equals(D_579563781,536341288)|Femenino||displayif=equals(D_579563781,654207589)|Masculino||displayif=equals(D_579563781,576796184)|Intersexual u otro||displayif=equals(D_579563781,178420302)| No sé|<br/>
-	 |displayif=allExist("D_807431780","D_578895128")|Su hermano es su mellizo, trillizo o de un parto múltiple :||displayif=equals(D_807431780,353358909)| Sí||displayif=equals(D_807431780,104430631)| No|<br/>
-	Relación: |displayif=valueIsOneOf("D_589588769",555374628)|Hermano carnal| |displayif=valueIsOneOf("D_589588769",871673221)|Medio hermano, misma madre||displayif=valueIsOneOf("D_589588769",198654048)|Medio hermano, mismo padre||displayif=valueIsOneOf("D_807431780",353358909)| mellizo, trillizo o de un parto múltiple| <br/><br/>
-	Alguna vez tuvo cáncer:  |displayif=equals(D_607773106,104430631)| No||displayif=equals(D_607773106,353358909)| Sí||displayif=equals(D_607773106,178420302)|No sé |	<br/> 
+	Nombre/Apodo: |displayif=valueLength("D_406098499")>0|{$D_406098499}|<br/><br/>
+
+	Sexo: |displayif=equals(D_579563781,536341288)|Femenino||displayif=equals(D_579563781,654207589)|Masculino||displayif=equals(D_579563781,576796184)|Intersexual u otro||displayif=equals(D_579563781,178420302)| No sé|<br/><br/>
+
+	 |displayif=allExist("D_807431780","D_578895128")|Su hermano es su mellizo, trillizo o de un parto múltiple:||displayif=equals(D_807431780,353358909)| Sí||displayif=equals(D_807431780,104430631)| No|<br/><br/>
+
+	Relación: |displayif=valueIsOneOf("D_589588769",555374628)|Hermano carnal| |displayif=valueIsOneOf("D_589588769",871673221)|Medio hermano, misma madre||displayif=valueIsOneOf("D_589588769",198654048)|Medio hermano, mismo padre||displayif=valueIsOneOf("D_807431780",353358909)| mellizo, trillizo o de un parto múltiple| <br/><br/><br/>
+
+	Alguna vez tuvo cáncer: |displayif=equals(D_607773106,104430631)| No||displayif=equals(D_607773106,353358909)| Sí||displayif=equals(D_607773106,178420302)|No sé |	<br/> <br/>
  
 Tipo(s) de cáncer: |displayList(valueIsOneOf("D_578895128",939782495),"De ano",valueIsOneOf("D_578895128",135725957),"De vejiga",valueIsOneOf("D_578895128",518416174),"De encéfalo (cerebro)",valueIsOneOf("D_578895128",847945207),"De mama (seno)",valueIsOneOf("D_578895128",283025574),"De cuello uterino",valueIsOneOf("D_578895128",942970912),"De colon o de recto",valueIsOneOf("D_578895128",596122041),"De esófago",valueIsOneOf("D_578895128",489400183),"De cabeza y cuello (incluso el cáncer de boca, de senos paranasales, de nariz o de garganta. No se incluye el cáncer de encéfalo o el de piel.)",valueIsOneOf("D_578895128",863246236),"De riñón",valueIsOneOf("D_578895128",607793249),"De sangre y médula ósea (leucemia)",valueIsOneOf("D_578895128",532172400),"De hígado",valueIsOneOf("D_578895128",754745617),"De pulmón o de bronquios",valueIsOneOf("D_578895128",665036297),"Linfoma no Hodgkin",valueIsOneOf("D_578895128",200837530),"Linfoma",valueIsOneOf("D_578895128",990319383),"De piel (melanoma)",valueIsOneOf("D_578895128",487917585),"De piel, pero no melanoma (de células basales o células escamosas)",valueIsOneOf("D_578895128",603181162),"De ovario",valueIsOneOf("D_578895128",482225200),"De páncreas",valueIsOneOf("D_578895128",295976386),"De próstata",valueIsOneOf("D_578895128",764891959),"De estómago",valueIsOneOf("D_578895128",248374037),"De testículo ",valueIsOneOf("D_578895128",139822395),"De tiroides",valueIsOneOf("D_578895128",723614811),"De útero (de endometrio)",valueIsOneOf("D_578895128",178420302),"No sé",(valueIsOneOf("D_578895128",807835037) and doesNotExist("D_957429734")),"Otro tipo de cáncer",exists("D_957429734"),"D_957429734",sep="; ")| 
 
@@ -2006,12 +2010,12 @@ Las siguientes preguntas tratan sobre sus hijos, incluso los que ya fallecieron.
 
 [D_446999144!] ¿Cuántos hijos tiene? 
 
-|__|__|min=0 max=25| Número de hijos Children 
+|__|__|min=0 max=25| Número de hijos 
 
 
 [CHILDCONFIRM] Nos dijo que tiene |displayif=isNotDefined(D_446999144,0)|0| {$D_446999144} hijo|displayif=or(equals(D_446999144,0),or(isNotDefined(D_446999144,0),greaterThanOrEqual(D_446999144,2)))|s|, incluso los biológicos, los adoptados y los hijastros. 
 
-Si esto <b>no</b> es correcto, seleccione el botón “Atrás” [“Back”] para actualizar su respuesta. Si esto es correcto, seleccione el botón “Siguiente” [“Next”] para avanzar.
+Si esto <b>no</b> es correcto, seleccione el botón “Atrás” para actualizar su respuesta. Si esto es correcto, seleccione el botón “Siguiente” para avanzar.
 
 <loop max=25>
 
@@ -2027,7 +2031,7 @@ Si esto <b>no</b> es correcto, seleccione el botón “Atrás” [“Back”] pa
 (576796184) Intersexual u otro
 (178420302) No sé
 
-[D_473529484?,displayif=greateThan(D_446999144,1)] ¿Tiene este hijo un gemelo o nació de otro parto múltiple, por ejemplo, es trillizo, cuatrillizo, etc.?
+[D_473529484?,displayif=greaterThan(D_446999144,1)] ¿Tiene este hijo un gemelo o nació de otro parto múltiple, por ejemplo, es trillizo, cuatrillizo, etc.?
 (353358909)	Sí
 (104430631)	No
 
@@ -2263,7 +2267,7 @@ O, si le es más fácil recordar en qué año, anótelo aquí: <br/>
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/> 
 |__|__|__|__| xor=CHILDCANC3Y id=D_261863326 min=1800 max=#currentYear| Año del diagnóstico
 
-[CHILDSUM,displayif=selectionCount("D_812370563",true)>0 or valueLength("D_933110091")>0] El siguiente es un resumen de la información que nos dio sobre este(a) hermano(a). Si alguna parte de la información es incorrecta, seleccione el botón “Atrás” [“Back”] para actualizar sus respuestas. Si toda la información es correcta, seleccione el botón “Siguiente” [“Next”] para avanzar.
+[CHILDSUM,displayif=selectionCount("D_812370563",true)>0 or valueLength("D_933110091")>0] El siguiente es un resumen de la información que nos dio sobre este(a) hermano(a). Si alguna parte de la información es incorrecta, seleccione el botón “Atrás” para actualizar sus respuestas. Si toda la información es correcta, seleccione el botón “Siguiente” para avanzar.
 
 	Nombre/Apodo:  |displayif=valueLength("D_714001034")>0|{$D_714001034}|<br/>
 	Sexo: |displayif=equals(D_887697329,536341288)|Femenino||displayif=equals(D_887697329,654207589)|Masculino||displayif=equals(D_887697329,576796184)|Intersexual u otro||displayif=equals(D_887697329,178420302)|No sé |<br/>
@@ -2474,4 +2478,4 @@ Correo electrónico
 (589702540) El participante del estudio respondió el cuestionario
 (275706407) Otra persona respondió el cuestionario en nombre del participante del estudio
 
-[END,end]  Respondió a todas las preguntas de este cuestionario. Para enviar sus respuestas, seleccione el botón “Enviar cuestionario” (“Submit Survey”).
+[END,end]  Respondió a todas las preguntas de este cuestionario. Para enviar sus respuestas, seleccione el botón “Enviar Encuesta”.
