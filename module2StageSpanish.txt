@@ -16,7 +16,7 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Sun Jul 14 19:33:29 2024 -0400 (short timestamp = 2024-07-14-23-33-29)
+//This file was last modified on Wed Jul 17 08:04:35 2024 -0400 (short timestamp = 2024-07-17-12-04-35)
 //{"version":"2.2"}
 {"name":"D_745268907_V2"} [INTROM2] Esta serie de preguntas trata sobre algunos temas que le afectan la salud, los cuales incluyen su consumo actual y pasado de medicamentos, su actividad física (incluso el ejercicio) y sus hábitos de sueño.
 
@@ -513,7 +513,7 @@ O
 
 [D_889053435?,displayif=equals(D_643361372,933374659)] ¿Hace cuántos años tomó inhibidores de la bomba de protones de venta con receta <b>por última vez</b>?
 
- |__|__|max=sum(isDefined(D_150344905,age),1)| Hace años
+ |__|__|min=1 max=sum(isDefined(D_150344905,age),1)| Hace años
 
 
 [D_416865817?,displayif=equals(D_643361372,920460744)] Durante las veces que estuvo tomando <b>inhibidores de la bomba de protones de venta libre</b>, ¿aproximadamente cuántos <b>días por semana O por mes</b> lo tomó? Anote, ya sea, los días por semana o los días por mes.
@@ -543,7 +543,7 @@ O
 
 [D_936366310?,displayif=equals(D_643361372,920460744)] ¿Hace cuántos años tomó inhibidores de la bomba de protones de venta libre <b>por última vez</b>?
 
- |__|__|max=sum(isDefined(D_150344905,age),1)| Hace años
+ |__|__|min=1 max=sum(isDefined(D_150344905,age),1)| Hace años
 
 [D_266752903?,displayif=equals(D_643361372,449861632)] Durante las veces que estuvo tomando <b>antagonistas de los receptores H2 de venta libre</b>, ¿aproximadamente cuántos <b>días por semana O por mes</b> lo tomó? Anote, ya sea, los días por semana o los días por mes.
 
@@ -572,7 +572,7 @@ O
 
 [D_497904005?,displayif=equals(D_643361372,449861632)] ¿Hace cuántos años tomó antagonistas de los receptores H2 de venta libre <b>por última vez</b>?
 
- |__|__|max=sum(isDefined(D_150344905,age),1)| Hace años
+ |__|__|min=1 max=sum(isDefined(D_150344905,age),1)| Hace años
 
 [SECTION2] <b>Salud reproductiva</b>
 
@@ -656,6 +656,7 @@ Para empezar, le haremos algunas preguntas sobre su primera menstruación y su p
 < -> PREG>
 
 [D_614145455?,displayif=doesNotEqual(D_496539718,648960871)] Elija la opción que mejor describa por qué <b>no</b> ha tenido una menstruación en los <b>últimos 12 meses</b>:
+(351584248,displayif=doesNotEqual(D_289664241,218837028)) Dejé de tener la menstruación porque empecé a tomar hormonas de reafirmación de género
 (582425113) Mis períodos cesaron de forma natural por la menopausia -> PREG 
 (330745988) Mis períodos cesaron porque empecé a tomar hormonas femeninas durante la transición menopáusica (perimenopausia) o la menopausia -> PREG 
 (909774794) Mis períodos cesaron después de una extirpación quirúrgica del útero o ambos ovarios -> D_534920374
@@ -663,7 +664,6 @@ Para empezar, le haremos algunas preguntas sobre su primera menstruación y su p
 (655309065) Utilizo actualmente un medicamento hormonal o un dispositivo (como un dispositivo intrauterino (DIU)) para evitar el embarazo, controlar los síntomas del ciclo menstrual o tratar afecciones como la endometriosis o el síndrome del ovario poliquístico (SOP)  -> D_534920374
 (757609794) Estuve embarazada o lactando durante el último año  -> D_534920374
 (585076356) Mis períodos cesaron después de recibir radioterapia o quimioterapia  -> D_534920374
-(351584248,displayif=doesNotEqual(D_289664241,218837028)) Dejé de tener la menstruación porque empecé a tomar hormonas de reafirmación de género 
 (807835037) Mis períodos cesaron por otros motivos: describa |__|id=D_672810476| -> D_534920374
 < #NR-> PREG >
 
@@ -722,7 +722,9 @@ A continuación, le haremos algunas preguntas sobre los embarazos que haya tenid
 
 [D_278277373?,displayif=or(and(equals(D_849945160,353358909),greaterThan(D_405571048,#loop)),and(doesNotEqual(D_849945160,353358909),greaterThanOrEqual(D_405571048,#loop)))]
 |displayif=or(equals(D_391951010,223216393),equals(D_391951010,628445697))|¿Cuántos meses |popup|amamantó|amamantó|El uso de un sacaleches para extraer la leche materna, lo que a veces se conoce como “extracción exclusiva”, cuenta como amamantamiento o lactancia.| ||displayif=equals(D_391951010,223216393)|a este niño||displayif=equals(D_391951010,628445697)|a estos niños||displayif=or(equals(D_391951010,223216393),equals(D_391951010,628445697))|? Si amamanta actualmente, díganos el número de meses que lleva amamantando hasta ahora.| |displayif=equals(D_391951010,419220239)|¿Cuántos meses |popup|amamantó|amamantó|El uso de un sacaleches para extraer la leche materna, lo que a veces se conoce como “extracción exclusiva”, cuenta como amamantamiento o lactancia.|? Si amamanta actualmente, díganos el número de meses que lleva amamantando hasta ahora.|
- |__|__|min=0 max=99| Núm. de meses que amamantó
+
+
+|__|__|min=0 max=99| Núm. de meses que amamantó
 
 
 [D_779052408?,displayif=or(and(equals(D_849945160,353358909),greaterThan(D_405571048,#loop)),and(doesNotEqual(D_849945160,353358909),greaterThanOrEqual(D_405571048,#loop)))]
