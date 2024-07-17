@@ -16,8 +16,7 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Fri Jul 12 08:19:56 2024 -0400 (short timestamp = 2024-07-12-12-19-56)
-
+//This file was last modified on Tue Jul 16 14:09:58 2024 -0400 (short timestamp = 2024-07-16-18-09-58)
 //{"version":"3.0"}
 {"name":"D_726699695_V2"} [INTROM1] ¡Bienvenido, {$u:firstName}! Este cuestionario se divide en secciones. Cada sección incluye preguntas sobre una gran variedad de temas. Nuestro objetivo es recopilar información sobre sus antecedentes médicos, su familia, su trabajo y sus conductas saludables. Puede responder a todas las preguntas de cada sección del cuestionario de una sola vez, o responder a algunas preguntas, tomar un descanso y volver para responder el resto después. Si toma un descanso, sus respuestas se guardarán, y podrá continuar donde se quedó. Se puede saltar cualquier pregunta que no desee responder. 
 
@@ -2115,7 +2114,7 @@ O, si le es más fácil recordar en qué año, anótelo aquí: <br/>
 |__|__|__|__| xor=CHILDCANC3C id=D_261863326 min=1800 max=#currentYear| Año del diagnóstico
 
 
-[D_861788020?,displayif=equals(D_812370563,847945207)] ¿Qué edad tenía  |displayif=equals(isNotDefined(D_714001034,false),false)|{$D_714001034}||displayif=doesNotEqual(isNotDefined(D_714001034,false),false)|su hijo| cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>cáncer de mama (seno)?</b>?<br/>
+[D_861788020?,displayif=equals(D_812370563,847945207)] ¿Qué edad tenía  |displayif=equals(isNotDefined(D_714001034,false),false)|{$D_714001034}||displayif=doesNotEqual(isNotDefined(D_714001034,false),false)|su hijo| cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>cáncer de seno (mama)</b>?<br/>
 |__|__|__|__|xor=CHILDCANC3D id=D_206625031 min=0 max=valueOrDefault("D_299300933","D_182786508",125)| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí: <br/>
