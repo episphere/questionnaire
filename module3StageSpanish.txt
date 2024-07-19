@@ -1,4 +1,12 @@
-// This file was transformed using the mapping data in Quest-2024-07-03-16-44-46_Transformation.json.
+// This file was transformed using the mapping data in Quest-2024-07-18-14-25-23_Transformation.json.
+
+// JSON ERROR --> Concept ID collision for ID: 784119588 | there are collisions between Quest ID(s): [SRVBLU_LANGUAGE_V1R0, SRVCOV_LANGUAGE_V1R0, SRVLAW_LANGUAGE_V1R0, SRVMC_LANGUAGE_V1R0, SRVMW_LANGUAGE_V1R0, SRVSSN_LANGUAGE_V1R0]
+
+// JSON ERROR --> SRVCOV_LANGUAGE_V1R0 conceptId 784119588 already maps to Quest code: SRVBLU_LANGUAGE_V1R0 | conceptId collision
+// JSON ERROR --> SRVLAW_LANGUAGE_V1R0 conceptId 784119588 already maps to Quest code: SRVBLU_LANGUAGE_V1R0 | conceptId collision
+// JSON ERROR --> SRVMC_LANGUAGE_V1R0 conceptId 784119588 already maps to Quest code: SRVBLU_LANGUAGE_V1R0 | conceptId collision
+// JSON ERROR --> SRVMW_LANGUAGE_V1R0 conceptId 784119588 already maps to Quest code: SRVBLU_LANGUAGE_V1R0 | conceptId collision
+// JSON ERROR --> SRVSSN_LANGUAGE_V1R0 conceptId 784119588 already maps to Quest code: SRVBLU_LANGUAGE_V1R0 | conceptId collision
 
 // JSON WARNING --> Concept ID 101310722 with concept "# Pills per day" is shared between these Textbox codes: [ACIDSUP3_1A, ACIDSUP3_2A, ACIDSUP3_3A, CHOLHTN3_1A, CHOLHTN3_2A, INSULIN3_1A, METFOR3_1A, PAINREL3_1A, PAINREL3_2A, PAINREL3_3A, PAINREL3_4A, PAINREL3_5A, PAINREL3_6A, PAINREL3_7A]
 // JSON WARNING --> Concept ID 206625031 with concept "Age at diagnosis" is shared between these Textbox codes: [ANEMIA_AGE, ARRHYT_AGE, ASTHMA_AGE, BARESO_AGE, BLOODCLOT_AGE, BREASTDIS_AGE, CCD_AGE, CD_AGE, CHESTPAIN_AGE, CHF_AGE, CHILDCANC3A_AGE, CHILDCANC3B_AGE, CHILDCANC3C_AGE, CHILDCANC3D_AGE, CHILDCANC3E_AGE, CHILDCANC3F_AGE, CHILDCANC3G_AGE, CHILDCANC3H_AGE, CHILDCANC3I_AGE, CHILDCANC3J_AGE, CHILDCANC3K_AGE, CHILDCANC3L_AGE, CHILDCANC3M_AGE, CHILDCANC3N_AGE, CHILDCANC3O_AGE, CHILDCANC3P_AGE, CHILDCANC3Q_AGE, CHILDCANC3R_AGE, CHILDCANC3S_AGE, CHILDCANC3T_AGE, CHILDCANC3U_AGE, CHILDCANC3V_AGE, CHILDCANC3W_AGE, CHILDCANC3X_AGE, CHILDCANC3Y_AGE, CHLA_AGE, CHOL_AGE, CKD_AGE, COPD_AGE, CVD_AGE, DADCANC3A_AGE, DADCANC3B_AGE, DADCANC3C_AGE, DADCANC3D_AGE, DADCANC3E_AGE, DADCANC3F_AGE, DADCANC3G_AGE, DADCANC3H_AGE, DADCANC3I_AGE, DADCANC3J_AGE, DADCANC3K_AGE, DADCANC3L_AGE, DADCANC3M_AGE, DADCANC3N_AGE, DADCANC3O_AGE, DADCANC3P_AGE, DADCANC3Q_AGE, DADCANC3R_AGE, DADCANC3S_AGE, DADCANC3T_AGE, DADCANC3U_AGE, DADCANC3V_AGE, DCIS_AGE, DEPRESS2_AGE, DIVERT_AGE, DM2_AGE, ENDO_AGE, ENLGPROS_AGE, GALL_AGE, GENWARTS_AGE, GERD_AGE, GONORR_AGE, GOUT_AGE, GRAVES_AGE, HAYFEVER_AGE, HBVHCV_AGE, HEARTATT_AGE, HEARTVALV_AGE, HIVAIDS_AGE, HPV_AGE, HTN_AGE, IBD_AGE, IBS_AGE, KIDNEY_AGE, LIVCIRR_AGE, LUPUS_AGE, MOMCANC3A_AGE, MOMCANC3B_AGE, MOMCANC3C_AGE, MOMCANC3D_AGE, MOMCANC3E_AGE, MOMCANC3F_AGE, MOMCANC3G_AGE, MOMCANC3H_AGE, MOMCANC3I_AGE, MOMCANC3J_AGE, MOMCANC3K_AGE, MOMCANC3L_AGE, MOMCANC3M_AGE, MOMCANC3N_AGE, MOMCANC3O_AGE, MOMCANC3P_AGE, MOMCANC3Q_AGE, MOMCANC3R_AGE, MOMCANC3S_AGE, MOMCANC3T_AGE, MOMCANC3U_AGE, MOMCANC3V_AGE, MOMCANC3W_AGE, MONO_AGE, PANCREA_AGE, PCOS_AGE, RA_AGE, SHINGLES_AGE, SIBCANC3A_AGE, SIBCANC3B_AGE, SIBCANC3C_AGE, SIBCANC3D_AGE, SIBCANC3E_AGE, SIBCANC3F_AGE, SIBCANC3G_AGE, SIBCANC3H_AGE, SIBCANC3I_AGE, SIBCANC3J_AGE, SIBCANC3K_AGE, SIBCANC3L_AGE, SIBCANC3M_AGE, SIBCANC3N_AGE, SIBCANC3O_AGE, SIBCANC3P_AGE, SIBCANC3Q_AGE, SIBCANC3R_AGE, SIBCANC3S_AGE, SIBCANC3T_AGE, SIBCANC3U_AGE, SIBCANC3V_AGE, SIBCANC3W_AGE, SIBCANC3X_AGE, SIBCANC3Y_AGE, SKINCANC3_AGE, STROKE_AGE, SYPH_AGE, THYROID_AGE, TRICH_AGE, UC_AGE, UF_AGE]
@@ -16,7 +24,7 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Fri Jul 12 14:23:28 2024 -0400 (short timestamp = 2024-07-12-18-23-28)
+//This file was last modified on Thu Jul 18 23:44:55 2024 -0400 (short timestamp = 2024-07-19-03-44-55)
 //{"version":"1.5"}
 {"name":"D_965707586"}
 [INTROM3] Las siguientes preguntas tratan sobre el consumo de tabaco, nicotina, marihuana y bebidas alcohólicas. En la última sección, le preguntaremos sobre su exposición al sol y el uso de camas de bronceado.
@@ -915,7 +923,7 @@ Número de días en que fumaba en un mes de 30 días  |__|__|min=1 max=30|
 [D_780767323?,displayif=equals(D_947205597,686310465)]
 Los días que |displayif=doesNotExist("D_845122623") or valueEquals("D_845122623",317567178)|fuma||displayif=valueIsOneOf("D_845122623",484055234,802197176)|fumaba|, ¿cuántas veces |displayif=doesNotExist("D_845122623") or valueEquals("D_845122623",317567178)|llena||displayif=valueIsOneOf("D_845122623",484055234,802197176)|llenaba| la pipa de tabaco para fumar <b>al día? </b>
 
-Número de veces que [llena/llenaba] la pipa de tabaco para fumar al día |__|__|min=1 max=99|
+Número de veces que |displayif=doesNotExist("D_845122623") or valueEquals("D_845122623",317567178)|llena||displayif=valueIsOneOf("D_845122623",484055234,802197176)|llenaba| la pipa de tabaco para fumar al día |__|__|min=1 max=99|
 
 [D_385490512?,displayif=and(doesNotEqual(or(or(equals(D_458395129,804785430),and(or(or(equals(D_458395129,716761013),equals(D_458395129,299561721)),equals(D_458395129,419415087)),and(equals(D_845122623,484055234),equals(D_311569789,353358909)))),and(or(or(equals(D_458395129,716761013),equals(D_458395129,299561721)),equals(D_458395129,419415087)),and(equals(D_845122623,802197176),equals(D_311569789,353358909)))),1),equals(D_947205597,686310465))] Al pensar en toda su vida, ¿alguna vez fumó tabaco en pipa <b>todos los días? </b>
 
@@ -1101,7 +1109,7 @@ Número de meses desde que fumó marihuana por última vez  |__|__|min=1 max=11|
 
 [D_863664828?,displayif=equals(D_830608495,760521319)] ¿Cuántos años tenía <b>la última vez</b> que fumó marihuana?
 
-Age when last smoked marijuana  |__|__|min=isDefined(isDefined(D_889949861,D_210016366),0) max=sum(isDefined(D_150344905,age),1)|
+Edad que tenía cuando fumó marihuana por última vez  |__|__|min=isDefined(isDefined(D_889949861,D_210016366),0) max=sum(isDefined(D_150344905,age),1)|
 
 [D_129677435?,displayif=equals(D_830608495,760521319)] Durante la última temporada en que fumó marihuana, ¿la fumaba todos los días?
 
@@ -1328,49 +1336,49 @@ NÚMERO DE VECES AL DÍA |__|__|min=1 max=99|
 [D_381268397?,displayif=(exists("D_628818510") and ((valueEquals("D_524914900",132232896) and valueEquals("D_891825638",804785430)) and (valueOrDefault("D_628818510",18)<=17 or valueOrDefault("D_150344905","age",18)<=17))) or (allExist("D_628818510","D_405178123") and ((valueEquals("D_524914900",132232896) and valueEquals("D_698314386",353358909)) and (valueOrDefault("D_628818510",18)<=17 or valueOrDefault("D_405178123",18)<=17)))]
 Los días que fumaba cuando tenía de |displayif=greaterThanOrEqual(isDefined(D_628818510,-1),0)|{$D_628818510}||displayif=lessThan(isDefined(D_628818510,-1),0)|0| a |displayif=and(and(equals(D_698314386,353358909),doesNotEqual(isDefined(D_405178123,-1),-1)),lessThan(isDefined(D_405178123,17),17))|{$D_405178123}||displayif=and(and(equals(D_698314386,353358909),doesNotEqual(isDefined(D_405178123,-1),-1)),greaterThanOrEqual(isDefined(D_405178123,17),17))|17||displayif=and(doesNotEqual(isDefined(D_150344905,-1),-1),and(or(doesNotEqual(D_698314386,353358909),equals(isDefined(D_405178123,-1),-1)),lessThanOrEqual(D_150344905,17)))|{$D_150344905}||displayif=and(equals(isDefined(D_150344905,-1),-1),and(or(doesNotEqual(D_698314386,353358909),equals(isDefined(D_405178123,-1),-1)),lessThanOrEqual(age,17)))|{$u:age}||displayif=and(or(doesNotEqual(D_698314386,353358909),equals(isDefined(D_405178123,-1),-1)),greaterThan(isDefined(D_150344905,age),17))|17|, años de edad, ¿aproximadamente cuántas veces fumaba una combinación de marihuana con tabaco <b>al día</b>?
 
-NÚMERO DE VECES AL DÍA |__|__|min=0 max=99|
+NÚM. DE VECES AL DÍA |__|__|min=0 max=99|
 
 // 18-24
 [D_723763329?,displayif=(exists("D_628818510") and ((valueEquals("D_524914900",132232896) and valueEquals("D_891825638",804785430)) and (valueOrDefault("D_628818510",25)<=24 and valueOrDefault("D_150344905","age",17)>=18))) or (allExist("D_628818510","D_405178123") and ((valueEquals("D_524914900",132232896) and valueEquals("D_698314386",353358909)) and (valueOrDefault("D_628818510",25)<=24 and valueOrDefault("D_405178123",17)>=18)))]
 Los días que fumaba cuando tenía de |displayif=greaterThanOrEqual(isDefined(D_628818510,-1),18)|{$D_628818510}||displayif=lessThan(isDefined(D_628818510,-1),18)|18| a |displayif=and(and(equals(D_698314386,353358909),doesNotEqual(isDefined(D_405178123,-1),-1)),lessThan(isDefined(D_405178123,24),24))|{$D_405178123}||displayif=and(and(equals(D_698314386,353358909),doesNotEqual(isDefined(D_405178123,-1),-1)),greaterThanOrEqual(isDefined(D_405178123,24),24))|24||displayif=and(doesNotEqual(isDefined(D_150344905,-1),-1),and(or(doesNotEqual(D_698314386,353358909),equals(isDefined(D_405178123,-1),-1)),lessThanOrEqual(D_150344905,24)))|{$D_150344905}||displayif=and(equals(isDefined(D_150344905,-1),-1),and(or(doesNotEqual(D_698314386,353358909),equals(isDefined(D_405178123,-1),-1)),lessThanOrEqual(age,24)))|{$u:age}||displayif=and(or(doesNotEqual(D_698314386,353358909),equals(isDefined(D_405178123,-1),-1)),greaterThan(isDefined(D_150344905,age),24))|24|, años de edad, ¿aproximadamente cuántas veces fumaba una combinación de marihuana con tabaco <b>al día</b>?
 
-NÚMERO DE VECES AL DÍA |__|__|min=0 max=99|
+NÚM. DE VECES AL DÍA |__|__|min=0 max=99|
 
 // 25-29
 [D_724990284?,displayif=(exists("D_628818510") and ((valueEquals("D_524914900",132232896) and valueEquals("D_891825638",804785430)) and (valueOrDefault("D_628818510",30)<=29 and valueOrDefault("D_150344905","age",24)>=25))) or (allExist("D_628818510","D_405178123") and ((valueEquals("D_524914900",132232896) and valueEquals("D_698314386",353358909)) and (valueOrDefault("D_628818510",30)<=29 and valueOrDefault("D_405178123",24)>=25)))]
 Los días que fumaba cuando tenía de |displayif=greaterThanOrEqual(isDefined(D_628818510,-1),25)|{$D_628818510}||displayif=lessThan(isDefined(D_628818510,-1),25)|25| a |displayif=and(and(equals(D_698314386,353358909),doesNotEqual(isDefined(D_405178123,-1),-1)),lessThan(isDefined(D_405178123,29),29))|{$D_405178123}||displayif=and(and(equals(D_698314386,353358909),doesNotEqual(isDefined(D_405178123,-1),-1)),greaterThanOrEqual(isDefined(D_405178123,29),29))|29||displayif=and(doesNotEqual(isDefined(D_150344905,-1),-1),and(or(doesNotEqual(D_698314386,353358909),equals(isDefined(D_405178123,-1),-1)),lessThanOrEqual(D_150344905,29)))|{$D_150344905}||displayif=and(equals(isDefined(D_150344905,-1),-1),and(or(doesNotEqual(D_698314386,353358909),equals(isDefined(D_405178123,-1),-1)),lessThanOrEqual(age,29)))|{$u:age}||displayif=and(or(doesNotEqual(D_698314386,353358909),equals(isDefined(D_405178123,-1),-1)),greaterThan(isDefined(D_150344905,age),29))|29|, años de edad, ¿aproximadamente cuántas veces fumaba una combinación de marihuana con tabaco <b>al día</b>?
 
-NÚMERO DE VECES AL DÍA |__|__|min=0 max=99|
+NÚM. DE VECES AL DÍA |__|__|min=0 max=99|
 
 // 30-39
 [D_383748300?,displayif=(exists("D_628818510") and ((valueEquals("D_524914900",132232896) and valueEquals("D_891825638",804785430)) and (valueOrDefault("D_628818510",40)<=39 and valueOrDefault("D_150344905","age",29)>=30))) or (allExist("D_628818510","D_405178123") and ((valueEquals("D_524914900",132232896) and valueEquals("D_698314386",353358909)) and (valueOrDefault("D_628818510",40)<=39 and valueOrDefault("D_405178123",29)>=30)))]
 Los días que fumaba cuando tenía de |displayif=greaterThanOrEqual(isDefined(D_628818510,-1),30)|{$D_628818510}||displayif=lessThan(isDefined(D_628818510,-1),30)|30| a |displayif=and(and(equals(D_698314386,353358909),doesNotEqual(isDefined(D_405178123,-1),-1)),lessThan(isDefined(D_405178123,39),39))|{$D_405178123}||displayif=and(and(equals(D_698314386,353358909),doesNotEqual(isDefined(D_405178123,-1),-1)),greaterThanOrEqual(isDefined(D_405178123,39),39))|39||displayif=and(doesNotEqual(isDefined(D_150344905,-1),-1),and(or(doesNotEqual(D_698314386,353358909),equals(isDefined(D_405178123,-1),-1)),lessThanOrEqual(D_150344905,39)))|{$D_150344905}||displayif=and(equals(isDefined(D_150344905,-1),-1),and(or(doesNotEqual(D_698314386,353358909),equals(isDefined(D_405178123,-1),-1)),lessThanOrEqual(age,39)))|{$u:age}||displayif=and(or(doesNotEqual(D_698314386,353358909),equals(isDefined(D_405178123,-1),-1)),greaterThan(isDefined(D_150344905,age),39))|39|, años de edad, ¿aproximadamente cuántas veces fumaba una combinación de marihuana con tabaco <b>al día</b>?
 
-NÚMERO DE VECES AL DÍA |__|__|min=0 max=99|
+NÚM. DE VECES AL DÍA |__|__|min=0 max=99|
 
 // 40-49
 [D_199612020?,displayif=(exists("D_628818510") and ((valueEquals("D_524914900",132232896) and valueEquals("D_891825638",804785430)) and (valueOrDefault("D_628818510",50)<=49 and valueOrDefault("D_150344905","age",39)>=40))) or (allExist("D_628818510","D_405178123") and ((valueEquals("D_524914900",132232896) and valueEquals("D_698314386",353358909)) and (valueOrDefault("D_628818510",50)<=49 and valueOrDefault("D_405178123",39)>=40)))]
 Los días que fumaba cuando tenía de |displayif=greaterThanOrEqual(isDefined(D_628818510,-1),40)|{$D_628818510}||displayif=lessThan(isDefined(D_628818510,-1),40)|40| a |displayif=and(and(equals(D_698314386,353358909),doesNotEqual(isDefined(D_405178123,-1),-1)),lessThan(isDefined(D_405178123,49),49))|{$D_405178123}||displayif=and(and(equals(D_698314386,353358909),doesNotEqual(isDefined(D_405178123,-1),-1)),greaterThanOrEqual(isDefined(D_405178123,49),49))|49||displayif=and(doesNotEqual(isDefined(D_150344905,-1),-1),and(or(doesNotEqual(D_698314386,353358909),equals(isDefined(D_405178123,-1),-1)),lessThanOrEqual(D_150344905,49)))|{$D_150344905}||displayif=and(equals(isDefined(D_150344905,-1),-1),and(or(doesNotEqual(D_698314386,353358909),equals(isDefined(D_405178123,-1),-1)),lessThanOrEqual(age,49)))|{$u:age}||displayif=and(or(doesNotEqual(D_698314386,353358909),equals(isDefined(D_405178123,-1),-1)),greaterThan(isDefined(D_150344905,age),49))|49|, años de edad, ¿aproximadamente cuántas veces fumaba una combinación de marihuana con tabaco <b>al día</b>?
 
-NÚMERO DE VECES AL DÍA |__|__|min=0 max=99|
+NÚM. DE VECES AL DÍA |__|__|min=0 max=99|
 
 // 50-59
 [D_755298453?,displayif=(exists("D_628818510") and ((valueEquals("D_524914900",132232896) and valueEquals("D_891825638",804785430)) and (valueOrDefault("D_628818510",60)<=59 and valueOrDefault("D_150344905","age",49)>=50))) or (allExist("D_628818510","D_405178123") and ((valueEquals("D_524914900",132232896) and valueEquals("D_698314386",353358909)) and (valueOrDefault("D_628818510",60)<=59 and valueOrDefault("D_405178123",49)>=50)))]
 Los días que fumaba cuando tenía de |displayif=greaterThanOrEqual(isDefined(D_628818510,-1),50)|{$D_628818510}||displayif=lessThan(isDefined(D_628818510,-1),50)|50| a |displayif=and(and(equals(D_698314386,353358909),doesNotEqual(isDefined(D_405178123,-1),-1)),lessThan(isDefined(D_405178123,59),59))|{$D_405178123}||displayif=and(and(equals(D_698314386,353358909),doesNotEqual(isDefined(D_405178123,-1),-1)),greaterThanOrEqual(isDefined(D_405178123,59),59))|59||displayif=and(doesNotEqual(isDefined(D_150344905,-1),-1),and(or(doesNotEqual(D_698314386,353358909),equals(isDefined(D_405178123,-1),-1)),lessThanOrEqual(D_150344905,59)))|{$D_150344905}||displayif=and(equals(isDefined(D_150344905,-1),-1),and(or(doesNotEqual(D_698314386,353358909),equals(isDefined(D_405178123,-1),-1)),lessThanOrEqual(age,59)))|{$u:age}||displayif=and(or(doesNotEqual(D_698314386,353358909),equals(isDefined(D_405178123,-1),-1)),greaterThan(isDefined(D_150344905,age),59))|59|, años de edad, ¿aproximadamente cuántas veces fumaba una combinación de marihuana con tabaco <b>al día</b>?
 
-NÚMERO DE VECES AL DÍA |__|__|min=0 max=99|
+NÚM. DE VECES AL DÍA |__|__|min=0 max=99|
 
 // 60-69
 [D_777877159?,displayif=(exists("D_628818510") and ((valueEquals("D_524914900",132232896) and valueEquals("D_891825638",804785430)) and (valueOrDefault("D_628818510",70)<=69 and valueOrDefault("D_150344905","age",59)>=60))) or (allExist("D_628818510","D_405178123") and ((valueEquals("D_524914900",132232896) and valueEquals("D_698314386",353358909)) and (valueOrDefault("D_628818510",70)<=69 and valueOrDefault("D_405178123",59)>=60)))]
 Los días que fumaba cuando tenía de |displayif=greaterThanOrEqual(isDefined(D_628818510,-1),60)|{$D_628818510}||displayif=lessThan(isDefined(D_628818510,-1),60)|60| a |displayif=and(and(equals(D_698314386,353358909),doesNotEqual(isDefined(D_405178123,-1),-1)),lessThan(isDefined(D_405178123,69),69))|{$D_405178123}||displayif=and(and(equals(D_698314386,353358909),doesNotEqual(isDefined(D_405178123,-1),-1)),greaterThanOrEqual(isDefined(D_405178123,69),69))|69||displayif=and(doesNotEqual(isDefined(D_150344905,-1),-1),and(or(doesNotEqual(D_698314386,353358909),equals(isDefined(D_405178123,-1),-1)),lessThanOrEqual(D_150344905,69)))|{$D_150344905}||displayif=and(equals(isDefined(D_150344905,-1),-1),and(or(doesNotEqual(D_698314386,353358909),equals(isDefined(D_405178123,-1),-1)),lessThanOrEqual(age,69)))|{$u:age}||displayif=and(or(doesNotEqual(D_698314386,353358909),equals(isDefined(D_405178123,-1),-1)),greaterThan(isDefined(D_150344905,age),69))|69|, años de edad, ¿aproximadamente cuántas veces fumaba una combinación de marihuana con tabaco <b>al día</b>?
 
-NÚMERO DE VECES AL DÍA |__|__|min=0 max=99|
+NÚM. DE VECES AL DÍA |__|__|min=0 max=99|
 
 // 70+
 [D_680697711?,displayif=(exists("D_628818510") and ((valueEquals("D_524914900",132232896) and valueEquals("D_891825638",804785430)) and (valueOrDefault("D_628818510",69)>=70 or valueOrDefault("D_150344905","age",69)>=70))) or (allExist("D_628818510","D_405178123") and ((valueEquals("D_524914900",132232896) and valueEquals("D_698314386",353358909)) and (valueOrDefault("D_628818510",69)>=70 or valueOrDefault("D_405178123",69)>=70)))]
 Los días que fumaba cuando tenía de |displayif=greaterThanOrEqual(isDefined(D_628818510,-1),70)|{$D_628818510}||displayif=lessThan(isDefined(D_628818510,-1),70)|70+|, años de edad, ¿aproximadamente cuántas veces fumaba una combinación de marihuana con tabaco <b>al día</b>?
 
-NÚMERO DE VECES AL DÍA |__|__|min=0 max=99|
+NÚM. DE VECES AL DÍA |__|__|min=0 max=99|
 
 [D_325229459?,displayif=equals(D_830608495,349034127)]<b>Dispositivos de suministro electrónico  </b>
 
@@ -1433,7 +1441,7 @@ Edad que tenía la última vez que usó dispositivos de suministro electrónico 
 Número de días en que los usaba en un mes habitual  |__|__|min=1 max=30|
 
 [D_816891201?,displayif=equals(D_830608495,349034127)]
-Los días en que usa|displayif=valueIsOneOf("D_859228803",484055234,802197176)|ba| dispositivos de suministro electrónico de marihuana que se pueden vapear, ¿cuánto tiempo en total los|displayif=valueIsOneOf("D_859228803",484055234,802197176)|ba| <b>al día</b>?
+Los días en que usa|displayif=valueIsOneOf("D_859228803",484055234,802197176)|ba| dispositivos de suministro electrónico de marihuana que se pueden vapear, ¿cuánto tiempo en total los usa|displayif=valueIsOneOf("D_859228803",484055234,802197176)|ba| <b>al día</b>?
 
 (428999623) 15 minutos o menos
 (248303092) De 16 a 30 minutos
