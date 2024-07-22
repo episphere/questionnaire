@@ -24,7 +24,7 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Thu Jul 18 23:44:55 2024 -0400 (short timestamp = 2024-07-19-03-44-55)
+//This file was last modified on Mon Jul 22 12:21:32 2024 -0400 (short timestamp = 2024-07-22-16-21-32)
 //{"version":"1.5"}
 {"name":"D_965707586"}
 [INTROM3] Las siguientes preguntas tratan sobre el consumo de tabaco, nicotina, marihuana y bebidas alcohólicas. En la última sección, le preguntaremos sobre su exposición al sol y el uso de camas de bronceado.
@@ -1781,7 +1781,7 @@ Número de porciones al día  |__|__|__|id=D_810608313 min=1 max=999|
 
 [D_258703325?,displayif=and(doesNotEqual(or(or(equals(D_420155119,804785430),and(or(or(equals(D_420155119,716761013),equals(D_420155119,299561721)),equals(D_420155119,419415087)),and(equals(D_532755074,484055234),equals(D_536166591,353358909)))),and(or(or(equals(D_420155119,716761013),equals(D_420155119,299561721)),equals(D_420155119,419415087)),and(equals(D_532755074,802197176),equals(D_536166591,353358909)))),1),equals(D_830608495,675129470))] ¿Cuántos años tenía cuando dejó de consumir aceites concentrados de THC para fumar <i>(dabbing)</i> <b>todos los días</b>?
 
-|__|__|min=isDefined(isDefined(D_185168695,D_766791333),0) max=sum(isDefined(D_150344905,age),1)|  Edad que tenía cuando dejó de consumir aceites concentrados de THC para fumar <i>(dabbing)</i> todos los días
+Edad que tenía cuando dejó de consumir aceites concentrados de THC para fumar <i>(dabbing)</i> todos los días |__|__|min=isDefined(isDefined(D_185168695,D_766791333),0) max=sum(isDefined(D_150344905,age),1)|
 
 [D_585819411?,displayif=and(doesNotEqual(or(or(equals(D_420155119,804785430),and(or(or(equals(D_420155119,716761013),equals(D_420155119,299561721)),equals(D_420155119,419415087)),and(equals(D_532755074,484055234),equals(D_536166591,353358909)))),and(or(or(equals(D_420155119,716761013),equals(D_420155119,299561721)),equals(D_420155119,419415087)),and(equals(D_532755074,802197176),equals(D_536166591,353358909)))),1),equals(D_830608495,675129470))] Cuando consumía a diario aceites concentrados de THC para fumar <i>(dabbing)</i>, ¿cuántas porciones consumía <b>al día</b>?
 
