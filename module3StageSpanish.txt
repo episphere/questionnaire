@@ -24,7 +24,7 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Mon Jul 22 12:21:32 2024 -0400 (short timestamp = 2024-07-22-16-21-32)
+//This file was last modified on Tue Jul 23 12:07:39 2024 -0400 (short timestamp = 2024-07-23-16-07-39)
 //{"version":"1.5"}
 {"name":"D_965707586"}
 [INTROM3] Las siguientes preguntas tratan sobre el consumo de tabaco, nicotina, marihuana y bebidas alcohólicas. En la última sección, le preguntaremos sobre su exposición al sol y el uso de camas de bronceado.
@@ -1052,7 +1052,7 @@ No se olvide de que protegemos su privacidad. Eliminamos de sus respuestas al cu
 
 [D_830608495?] ¿Ha consumido o usado alguno de estos productos de <b>marihuana</b>, aunque sea solo una vez? Seleccione todas las opciones que correspondan.
 
-[760521319] Fumar marihuana (como porros, pipas, cazoletas o bongs)
+[760521319] Fumar marihuana (como porros, pipas, cazoletas o <i>bongs</i>)
 [158841370] Fumar una combinación de marihuana con tabaco (como cigarrillos liados de marihuana envueltos en hoja de tabaco, cigarrillos liados de marihuana y tabaco envueltos en papel, o puros o cigarros huecos rellenos de marihuana)
 [349034127] Usar dispositivos de suministro electrónico que se pueden vapear, como un cigarrillo electrónico o un <i>pod-mod</i>. Estos dispositivos de suministro electrónico funcionan con pilas y crean vapor.
 [713594719] Comer o beber (como alimentos, dulces o bebidas)
@@ -1060,9 +1060,9 @@ No se olvide de que protegemos su privacidad. Eliminamos de sus respuestas al cu
 [535003378*] <b>No</b> he consumido ni usado ninguno de estos productos de marihuana.
 < #NR->  INTROALC>
 
-[SMMAR,displayif=equals(D_830608495,760521319)]<b>Fumar marihuana (como porros, pipas, cazoletas o bongs)</b>
+[SMMAR,displayif=equals(D_830608495,760521319)]<b>Fumar marihuana (como porros, pipas, cazoletas o <i>bongs</i>)</b>
 
-Las siguientes preguntas tratan sobre fumar marihuana (como porros, pipas, cazoletas o bongs). Estas preguntas no incluyen el uso de dispositivos de suministro electrónico ni el fumar una combinación de marihuana y tabaco. Responda con información solo de sus experiencias de fumar marihuana (como porros, pipas, cazoletas o bongs).
+Las siguientes preguntas tratan sobre fumar marihuana (como porros, pipas, cazoletas o <i>bongs</i>). Estas preguntas no incluyen el uso de dispositivos de suministro electrónico ni el fumar una combinación de marihuana y tabaco. Responda con información solo de sus experiencias de fumar marihuana (como porros, pipas, cazoletas o <i>bongs</i>).
 
 [D_319397722?,displayif=equals(D_830608495,760521319)] ¿Cuántos días <b>ha fumado marihuana</b> en su vida? 
 
