@@ -24,9 +24,10 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Fri Jul 19 16:17:06 2024 -0400 (short timestamp = 2024-07-19-20-17-06)
+//This file was last modified on Mon Jul 29 17:08:27 2024 -0400 (short timestamp = 2024-07-29-21-08-27)
 //{"version":"1.4"}
 {"name":"D_716117817"}
+
 [INTROM4] Las preguntas de esta sección tratan sobre los lugares en los que ha vivido y trabajado. El lugar donde vivimos y nuestros desplazamientos diarios de ida y vuelta a casa, al trabajo y a la escuela pueden afectar nuestra salud de varias formas.
 
 [INTRORH] <b>Antecedentes de vivienda</b></br>
@@ -173,7 +174,7 @@ Nombre completo de la calle #2 |__|id=D_216954796|
 
 Si esta información <b>no</b> es correcta, haga clic en el botón “Atrás” para modificar sus respuestas antes de continuar.
 
-[D_593146348?] <b>En los últimos 20 años</b>, ¿vivió en algún otro lugar durante al menos <b>2 años</b>?
+[D_593146348?] En los <b>últimos 20 años</b>, ¿vivió en algún otro lugar durante al menos <b>2 años</b>?
 (353358909) Sí  -> D_680046149
 (104430631) No 
 
@@ -2144,7 +2145,7 @@ Las siguientes preguntas tratan sobre el lugar donde vivía de niño.
 
 (928670216,displayif=someExist("D_306805272","D_819844467","D_164233037","D_418702418","D_218334768","D_101219440","D_394294282","D_127963610","D_803526907","D_882731998","D_941168091")|valueEquals("D_776406200",353358909)|valueEquals("D_385583361",270752953))|displayif=noneExist("D_306805272","D_819844467","D_164233037","D_418702418","D_218334768","D_101219440","D_394294282","D_127963610","D_803526907","D_882731998","D_941168091")|6ª dirección||displayif=or(equals(isNotDefined(D_306805272,""),false),or(equals(isNotDefined(D_819844467,""),false),or(equals(isNotDefined(D_164233037,""),false),or(equals(isNotDefined(D_418702418,""),false),or(equals(isNotDefined(D_218334768,""),false),or(equals(isNotDefined(D_101219440,""),false),or(equals(isNotDefined(D_394294282,""),false),or(equals(isNotDefined(D_127963610,""),false),or(equals(isNotDefined(D_803526907,""),false),or(equals(isNotDefined(D_882731998,""),false),equals(isNotDefined(D_941168091,""),false))))))))))) |{$D_756458580} {$D_481599610} {$D_306805272} {$D_819844467} {$D_164233037} {$D_418702418} {$D_218334768} {$D_101219440} {$D_394294282} {$D_127963610} {$D_803526907} {$D_882731998} {$D_941168091}|
 
-(354020985,displayif=someExist("D_351559015","D_903490632","D_906119853","D_703944664","D_476697171","D_390463636","D_605344820","D_256790385","D_814644814","D_915222355","D_627992821")|valueEquals("D_135207939",353358909)|valueEquals("D_768802173",270752953))|displayif=noneExist("D_351559015","D_903490632","D_906119853","D_703944664","D_476697171","D_390463636","D_605344820","D_256790385","D_814644814","D_915222355","D_627992821")|7ª dirección: ||displayif=or(equals(isNotDefined(D_351559015,""),false),or(equals(isNotDefined(D_903490632,""),false),or(equals(isNotDefined(D_906119853,""),false),or(equals(isNotDefined(D_703944664,""),false),or(equals(isNotDefined(D_476697171,""),false),or(equals(isNotDefined(D_390463636,""),false),or(equals(isNotDefined(D_605344820,""),false),or(equals(isNotDefined(D_256790385,""),false),or(equals(isNotDefined(D_814644814,""),false),or(equals(isNotDefined(D_915222355,""),false),equals(isNotDefined(D_627992821,""),false))))))))))) |{$D_732107715} {$D_803219073} {$D_351559015} {$D_903490632} {$D_906119853} {$D_703944664} {$D_476697171} {$D_390463636} {$D_605344820} {$D_256790385} {$D_814644814} {$D_915222355} {$D_627992821}|
+(354020985,displayif=someExist("D_351559015","D_903490632","D_906119853","D_703944664","D_476697171","D_390463636","D_605344820","D_256790385","D_814644814","D_915222355","D_627992821")|valueEquals("D_135207939",353358909)|valueEquals("D_768802173",270752953))|displayif=noneExist("D_351559015","D_903490632","D_906119853","D_703944664","D_476697171","D_390463636","D_605344820","D_256790385","D_814644814","D_915222355","D_627992821")|7ª dirección ||displayif=or(equals(isNotDefined(D_351559015,""),false),or(equals(isNotDefined(D_903490632,""),false),or(equals(isNotDefined(D_906119853,""),false),or(equals(isNotDefined(D_703944664,""),false),or(equals(isNotDefined(D_476697171,""),false),or(equals(isNotDefined(D_390463636,""),false),or(equals(isNotDefined(D_605344820,""),false),or(equals(isNotDefined(D_256790385,""),false),or(equals(isNotDefined(D_814644814,""),false),or(equals(isNotDefined(D_915222355,""),false),equals(isNotDefined(D_627992821,""),false))))))))))) |{$D_732107715} {$D_803219073} {$D_351559015} {$D_903490632} {$D_906119853} {$D_703944664} {$D_476697171} {$D_390463636} {$D_605344820} {$D_256790385} {$D_814644814} {$D_915222355} {$D_627992821}|
 
 (583113200,displayif=someExist("D_893639464","D_438475588","D_194165243","D_744290061","D_280877371","D_516936572","D_463064782","D_673034401","D_865310914","D_489019597","D_900377581")|valueEquals("D_647612167",353358909)|valueEquals("D_150560299",270752953))|displayif=noneExist("D_893639464","D_438475588","D_194165243","D_744290061","D_280877371","D_516936572","D_463064782","D_673034401","D_865310914","D_489019597","D_900377581")|8ª dirección ||displayif=or(equals(isNotDefined(D_893639464,""),false),or(equals(isNotDefined(D_438475588,""),false),or(equals(isNotDefined(D_194165243,""),false),or(equals(isNotDefined(D_744290061,""),false),or(equals(isNotDefined(D_280877371,""),false),or(equals(isNotDefined(D_516936572,""),false),or(equals(isNotDefined(D_463064782,""),false),or(equals(isNotDefined(D_673034401,""),false),or(equals(isNotDefined(D_865310914,""),false),or(equals(isNotDefined(D_489019597,""),false),equals(isNotDefined(D_900377581,""),false))))))))))) |{$D_707276214} {$D_462701424} {$D_893639464} {$D_438475588} {$D_194165243} {$D_744290061} {$D_280877371} {$D_516936572} {$D_463064782} {$D_673034401} {$D_865310914} {$D_489019597} {$D_900377581}|
 
@@ -2159,7 +2160,7 @@ Las siguientes preguntas tratan sobre el lugar donde vivía de niño.
 
 Número de la calle  |__|id=D_284547539 min=0 max=999999|
 Nombre completo de la calle  |__|id=D_802585033|
-Apartamento, <b>suite</b>, unidad, edificio, etc.  |__|id=D_746533238|
+Apartamento, <i>suite</i>, unidad, edificio, etc.  |__|id=D_746533238|
 Ciudad  |__|id=D_128827522|
 Estado o provincia 	|__|id=D_439447560|
 Código postal  |__|id=D_286781627|
