@@ -24,7 +24,7 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Thu Jul 18 15:00:24 2024 -0400 (short timestamp = 2024-07-18-19-00-24)
+//This file was last modified on Mon Jul 29 16:28:03 2024 -0400 (short timestamp = 2024-07-29-20-28-03)
 
 //{"version":"3.0"}
 
@@ -2027,7 +2027,7 @@ Si esto <b>no</b> es correcto, seleccione el botón “Atrás” para actualizar
 
 <loop max=25>
 
-[D_714001034?|firstquestion=#loop loopmax=D_446999144|] En el caso de su hijo|displayif=equals(#loop,1)| el mayor||displayif=greaterThan(#loop,1)| el que le sigue a ese|, cree un sobrenombre o escriba las iniciales que podamos usar para referirnos a este hijo de nuevo en cuestionarios futuros. 
+[D_714001034?|firstquestion=#loop loopmax=D_446999144|] En el caso de su hijo|displayif=#loop==1| el mayor||displayif=#loop>1| el que le sigue a ese|, cree un sobrenombre o escriba las iniciales que podamos usar para referirnos a este hijo de nuevo en cuestionarios futuros. 
 <br/>
 |__|
 
