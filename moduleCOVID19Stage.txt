@@ -28,11 +28,11 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Thu Aug 15 14:21:06 2024 -0400 (short timestamp = 2024-08-15-18-21-06)
+//This file was last modified on Tue Aug 20 09:59:10 2024 -0400 (short timestamp = 2024-08-20-13-59-10)
 //{"version":"1.3"}
 {"name":"D_793330426"}
 
-[SRVCOV_COVIDINTRO_V1R0] <b>COVID-19</b>
+[SRVCOV_COVIDINTRO_V1R0] <b>COVID-19 Survey</b>
 
 We have some questions about whether you had COVID-19 and any symptoms, your experience during the pandemic, and if you have been vaccinated. If you have been vaccinated for COVID-19, it may be helpful to have your COVID-19 vaccine card with you while you complete this section of the survey.
 
@@ -148,14 +148,14 @@ We have some questions about whether you had COVID-19 and any symptoms, your exp
 
 |__|__| min=0 max=valueOrDefault("D_744230001",180)| Days
 
-[D_179406442?,displayif=greaterThanOrEqual(D_860011428,#loop)] While you were in the hospital the {##} time you had COVID-19, were you <b>treated in an "intensive care unit" or with ICU monitoring</b>? If you are not sure, please make your best guess.
+[D_179406442?,displayif=greaterThanOrEqual(D_860011428,#loop)] While you were in the hospital the {##} time you had COVID-19, were you treated in an <b>"intensive care unit" or with ICU monitoring</b>? If you are not sure, please make your best guess.
 
 (353358909) Yes
 (104430631) No -> D_893966847
 (178420302) Don't know -> D_893966847
 < #NR -> D_893966847 >
 
-[D_803339020?,displayif=greaterThanOrEqual(D_860011428,#loop)] How many days were you <b>treated in an "intensive care unit" or with ICU monitoring</b> when you had COVID-19 for the {##} time?
+[D_803339020?,displayif=greaterThanOrEqual(D_860011428,#loop)] How many days were you treated in an <b>"intensive care unit" or with ICU monitoring</b> when you had COVID-19 for the {##} time?
 
 |__|__| min=0 max=valueOrDefault("D_744230001",180)| Days
 
@@ -376,7 +376,7 @@ Thank you for your responses. Please click "Next" to move to the next section.
 (807835037) Other |__|id=D_395747093| 
 (178420302) Don't know
 
-[SRVCOV_COV29_V1R0,displayif=greaterThanOrEqual(D_877074400_V2,#loop)] Here's a summary of the information you shared about your COVID-19 vaccinations. If any of the information is incorrect, please select the "Back" button to update your responses. If all the information is correct, please select the "Next" button to move forward.
+[SRVCOV_COV29_V1R0,displayif=greaterThanOrEqual(D_877074400_V2,#loop)] Here's a summary of the information you shared about your COVID-19 vaccination. If any of the information is incorrect, please select the "Back" button to update your responses. If all the information is correct, please select the "Next" button to move forward.
 
 Vaccination number: #loop
 Vaccination date: {$D_141616126}
