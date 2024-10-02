@@ -1,0 +1,299 @@
+// This file was transformed using the mapping data in Quest-2024-09-26-15-32-04_Transformation.json.
+
+// JSON WARNING --> Concept ID 101310722 with concept "# Pills per day" is shared between these Textbox codes: [ACIDSUP3_1A, ACIDSUP3_2A, ACIDSUP3_3A, CHOLHTN3_1A, CHOLHTN3_2A, INSULIN3_1A, METFOR3_1A, PAINREL3_1A, PAINREL3_2A, PAINREL3_3A, PAINREL3_4A, PAINREL3_5A, PAINREL3_6A, PAINREL3_7A]
+// JSON WARNING --> Concept ID 206625031 with concept "Age at diagnosis" is shared between these Textbox codes: [ANEMIA_AGE, ARRHYT_AGE, ASTHMA_AGE, BARESO_AGE, BLOODCLOT_AGE, BREASTDIS_AGE, CCD_AGE, CD_AGE, CHESTPAIN_AGE, CHF_AGE, CHILDCANC3A_AGE, CHILDCANC3B_AGE, CHILDCANC3C_AGE, CHILDCANC3D_AGE, CHILDCANC3E_AGE, CHILDCANC3F_AGE, CHILDCANC3G_AGE, CHILDCANC3H_AGE, CHILDCANC3I_AGE, CHILDCANC3J_AGE, CHILDCANC3K_AGE, CHILDCANC3L_AGE, CHILDCANC3M_AGE, CHILDCANC3N_AGE, CHILDCANC3O_AGE, CHILDCANC3P_AGE, CHILDCANC3Q_AGE, CHILDCANC3R_AGE, CHILDCANC3S_AGE, CHILDCANC3T_AGE, CHILDCANC3U_AGE, CHILDCANC3V_AGE, CHILDCANC3W_AGE, CHILDCANC3X_AGE, CHILDCANC3Y_AGE, CHLA_AGE, CHOL_AGE, CKD_AGE, COPD_AGE, CVD_AGE, DADCANC3A_AGE, DADCANC3B_AGE, DADCANC3C_AGE, DADCANC3D_AGE, DADCANC3E_AGE, DADCANC3F_AGE, DADCANC3G_AGE, DADCANC3H_AGE, DADCANC3I_AGE, DADCANC3J_AGE, DADCANC3K_AGE, DADCANC3L_AGE, DADCANC3M_AGE, DADCANC3N_AGE, DADCANC3O_AGE, DADCANC3P_AGE, DADCANC3Q_AGE, DADCANC3R_AGE, DADCANC3S_AGE, DADCANC3T_AGE, DADCANC3U_AGE, DADCANC3V_AGE, DCIS_AGE, DEPRESS2_AGE, DIVERT_AGE, DM2_AGE, ENDO_AGE, ENLGPROS_AGE, GALL_AGE, GENWARTS_AGE, GERD_AGE, GONORR_AGE, GOUT_AGE, GRAVES_AGE, HAYFEVER_AGE, HBVHCV_AGE, HEARTATT_AGE, HEARTVALV_AGE, HIVAIDS_AGE, HPV_AGE, HTN_AGE, IBD_AGE, IBS_AGE, KIDNEY_AGE, LIVCIRR_AGE, LUPUS_AGE, MOMCANC3A_AGE, MOMCANC3B_AGE, MOMCANC3C_AGE, MOMCANC3D_AGE, MOMCANC3E_AGE, MOMCANC3F_AGE, MOMCANC3G_AGE, MOMCANC3H_AGE, MOMCANC3I_AGE, MOMCANC3J_AGE, MOMCANC3K_AGE, MOMCANC3L_AGE, MOMCANC3M_AGE, MOMCANC3N_AGE, MOMCANC3O_AGE, MOMCANC3P_AGE, MOMCANC3Q_AGE, MOMCANC3R_AGE, MOMCANC3S_AGE, MOMCANC3T_AGE, MOMCANC3U_AGE, MOMCANC3V_AGE, MOMCANC3W_AGE, MONO_AGE, PANCREA_AGE, PCOS_AGE, RA_AGE, SHINGLES_AGE, SIBCANC3A_AGE, SIBCANC3B_AGE, SIBCANC3C_AGE, SIBCANC3D_AGE, SIBCANC3E_AGE, SIBCANC3F_AGE, SIBCANC3G_AGE, SIBCANC3H_AGE, SIBCANC3I_AGE, SIBCANC3J_AGE, SIBCANC3K_AGE, SIBCANC3L_AGE, SIBCANC3M_AGE, SIBCANC3N_AGE, SIBCANC3O_AGE, SIBCANC3P_AGE, SIBCANC3Q_AGE, SIBCANC3R_AGE, SIBCANC3S_AGE, SIBCANC3T_AGE, SIBCANC3U_AGE, SIBCANC3V_AGE, SIBCANC3W_AGE, SIBCANC3X_AGE, SIBCANC3Y_AGE, SKINCANC3_AGE, STROKE_AGE, SYPH_AGE, THYROID_AGE, TRICH_AGE, UC_AGE, UF_AGE]
+// JSON WARNING --> Concept ID 261863326 with concept "Year at diagnosis" is shared between these Textbox codes: [ANEMIA_YEAR, ARRHYT_YEAR, ASTHMA_YEAR, BARESO_YEAR, BLOODCLOT_YEAR, BREASTDIS_YEAR, CCD_YEAR, CD_YEAR, CHESTPAIN_YEAR, CHF_YEAR, CHILDCANC3A_YEAR, CHILDCANC3B_YEAR, CHILDCANC3C_YEAR, CHILDCANC3D_YEAR, CHILDCANC3E_YEAR, CHILDCANC3F_YEAR, CHILDCANC3G_YEAR, CHILDCANC3H_YEAR, CHILDCANC3I_YEAR, CHILDCANC3J_YEAR, CHILDCANC3K_YEAR, CHILDCANC3L_YEAR, CHILDCANC3M_YEAR, CHILDCANC3N_YEAR, CHILDCANC3O_YEAR, CHILDCANC3P_YEAR, CHILDCANC3Q_YEAR, CHILDCANC3R_YEAR, CHILDCANC3S_YEAR, CHILDCANC3T_YEAR, CHILDCANC3U_YEAR, CHILDCANC3V_YEAR, CHILDCANC3W_YEAR, CHILDCANC3X_YEAR, CHILDCANC3Y_YEAR, CHLA_YEAR, CHOL_YEAR, CKD_YEAR, COPD_YEAR, CVD_YEAR, DADCANC3A_YEAR, DADCANC3B_YEAR, DADCANC3C_YEAR, DADCANC3D_YEAR, DADCANC3E_YEAR, DADCANC3F_YEAR, DADCANC3G_YEAR, DADCANC3H_YEAR, DADCANC3I_YEAR, DADCANC3J_YEAR, DADCANC3K_YEAR, DADCANC3L_YEAR, DADCANC3M_YEAR, DADCANC3N_YEAR, DADCANC3O_YEAR, DADCANC3P_YEAR, DADCANC3Q_YEAR, DADCANC3R_YEAR, DADCANC3S_YEAR, DADCANC3T_YEAR, DADCANC3U_YEAR, DADCANC3V_YEAR, DCIS_YEAR, DEPRESS2_YEAR, DIVERT_YEAR, DM2_YEAR, ENDO_YEAR, ENLGPROS_YEAR, GALL_YEAR, GENWARTS_YEAR, GERD_YEAR, GONORR_YEAR, GOUT_YEAR, GRAVES_YEAR, HAYFEVER_YEAR, HBVHCV_YEAR, HEARTATT_YEAR, HEARTVALV_YEAR, HIVAIDS_YEAR, HPV_YEAR, HTN_YEAR, IBD_YEAR, IBS_YEAR, KIDNEY_YEAR, LIVCIRR_YEAR, LUPUS_YEAR, MOMCANC3A_YEAR, MOMCANC3B_YEAR, MOMCANC3C_YEAR, MOMCANC3D_YEAR, MOMCANC3E_YEAR, MOMCANC3F_YEAR, MOMCANC3G_YEAR, MOMCANC3H_YEAR, MOMCANC3I_YEAR, MOMCANC3J_YEAR, MOMCANC3K_YEAR, MOMCANC3L_YEAR, MOMCANC3M_YEAR, MOMCANC3N_YEAR, MOMCANC3O_YEAR, MOMCANC3P_YEAR, MOMCANC3Q_YEAR, MOMCANC3R_YEAR, MOMCANC3S_YEAR, MOMCANC3T_YEAR, MOMCANC3U_YEAR, MOMCANC3V_YEAR, MOMCANC3W_YEAR, MONO_YEAR, PANCREA_YEAR, PCOS_YEAR, RA_YEAR, SHINGLES_YEAR, SIBCANC3A_YEAR, SIBCANC3B_YEAR, SIBCANC3C_YEAR, SIBCANC3D_YEAR, SIBCANC3E_YEAR, SIBCANC3F_YEAR, SIBCANC3G_YEAR, SIBCANC3H_YEAR, SIBCANC3I_YEAR, SIBCANC3J_YEAR, SIBCANC3K_YEAR, SIBCANC3L_YEAR, SIBCANC3M_YEAR, SIBCANC3N_YEAR, SIBCANC3O_YEAR, SIBCANC3P_YEAR, SIBCANC3Q_YEAR, SIBCANC3R_YEAR, SIBCANC3S_YEAR, SIBCANC3T_YEAR, SIBCANC3U_YEAR, SIBCANC3V_YEAR, SIBCANC3W_YEAR, SIBCANC3X_YEAR, SIBCANC3Y_YEAR, SKINCANC3_YEAR, STROKE_YEAR, SYPH_YEAR, THYROID_YEAR, TRICH_YEAR, UC_YEAR, UF_YEAR]
+// JSON WARNING --> Concept ID 314198277 with concept "Last spent time at this address, year" is shared between these Textbox codes: [SEASADDYRS2_10_YEAR, SEASADDYRS2_1_YEAR, SEASADDYRS2_2_YEAR, SEASADDYRS2_3_YEAR, SEASADDYRS2_4_YEAR, SEASADDYRS2_5_YEAR, SEASADDYRS2_6_YEAR, SEASADDYRS2_7_YEAR, SEASADDYRS2_8_YEAR, SEASADDYRS2_9_YEAR]
+// JSON WARNING --> Concept ID 434243220 with concept "Months used" is shared between these Textbox codes: [ANYCOMESTMONTH, COMBINEDMONTH, COPIUDMONTH, DEPROPROVMONTH, ESTOTHERMONTH, ESTSKINMONTH, HORCOMPILLMONTH, HORIUDMONTH, HORMEDOTHERMONTH, HORMEDPATCHMONTH, HORMEDRINGMONTH, MINIPILLMONTH, NORPLANTMONTH, ORALESTMONTH, ORALMEDMONTH, PATCHESTMONTH, PRESHOR2MONTH, PROESTMONTH, RINGMONTH, TWOPILLMONTH]
+// JSON WARNING --> Concept ID 451310566 with concept "Months at address" is shared between these Textbox codes: [MONTHADD1, MONTHADD10, MONTHADD2, MONTHADD3, MONTHADD4, MONTHADD5, MONTHADD6, MONTHADD7, MONTHADD8, MONTHADD9]
+// JSON WARNING --> Concept ID 623218391 with concept "Age at surgery" is shared between these Textbox codes: [APPEND_AGE, BARSUR_AGE, BREASTABSS_AGE, BREASTDBLREM_AGE, BREASTIMPLANTS_AGE, BREASTLACTREM_AGE, BREASTLIFT_AGE, BREASTOTH_AGE, BREASTPARTREM_AGE, BREASTRECON_AGE, BREASTREDN_AGE, BREASTREM_AGE, FTREM2_AGE, GALLREM_AGE, HYSTER_AGE, LIPOSUCT_AGE, OVARYREM2_AGE, PENREM_AGE, PROSREM2_AGE, TESTREM2_AGE, TONSILS_AGE, TUBLIG_AGE, VASEC_AGE]
+// JSON WARNING --> Concept ID 707805344 with concept "# of Hours" is shared between these Textbox codes: [FALLASLEEPHOURS, LAYINBEDHRS, NONWORKAWAKEBEFOREUPHOURS, NONWORKFALLASLEEPHOURS, OUTSIDEHOURS, WORKDAYOUTSIDEHOURS]
+// JSON WARNING --> Concept ID 765748316 with concept "Days per week" is shared between these Textbox codes: [ACETWEEK, ACIDSUP2_1WK, ACIDSUP2_2WK, ACIDSUP2_3WK, BABYASPRINWEEK, CELECOXIBWEEK, CHOLHTN2_1WK, CHOLHTN2_2WK, IBUPROFENWEEK, INSULIN2_1WK, METFOR2_1WK, NAPROXENWEEK, PAINRELWEEK, REGASPRINWEEK]
+// JSON WARNING --> Concept ID 785412329 with concept "Days per month" is shared between these Textbox codes: [ACETMONTH, ACIDSUP2_1MO, ACIDSUP2_2MO, ACIDSUP2_3MO, BABYASPRINMONTH, CELECOXIBMONTH, CHOLHTN2_1MO, CHOLHTN2_2MO, IBUPROFENMONTH, INSULIN2_1MO, METFOR2_1MO, NAPROXENMONTH, PAINRELMONTH, REGASPRINMONTH]
+// JSON WARNING --> Concept ID 802622485 with concept "Year at surgery" is shared between these Textbox codes: [APPEND_YEAR, BARSUR_YEAR, BREASTABSS_YEAR, BREASTDBLREM_YEAR, BREASTIMPLANTS_YEAR, BREASTLACTREM_YEAR, BREASTLIFT_YEAR, BREASTOTH_YEAR, BREASTPARTREM_YEAR, BREASTRECON_YEAR, BREASTREDN_YEAR, BREASTREM_YEAR, FTREM2_YEAR, GALLREM_YEAR, HYSTER_YEAR, LIPOSUCT_YEAR, OVARYREM2_YEAR, PENREM_YEAR, PROSREM2_YEAR, TESTREM2_YEAR, TONSILS_YEAR, TUBLIG_YEAR, VASEC_YEAR]
+// JSON WARNING --> Concept ID 810608313 with concept "# Servings per day" is shared between these Textbox codes: [EAMAR9ANUM, EAMAR9CNUM, THMAR9ANUM, THMAR9CNUM]
+// JSON WARNING --> Concept ID 850393641 with concept "# of Minutes" is shared between these Textbox codes: [FALLASLEEPMIN, LAYINBEDMIN, NONWORKAWAKEBEFOREUPMIN, NONWORKFALLASLEEPMIN, OUTSIDEMIN, WORKDAYOUTSIDEMIN]
+// JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
+// JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
+// JSON WARNING --> Concept ID collision for ID: 784119588 | there are allowed collisions between Quest ID(s): [SRVBLU_LANGUAGE_V1R0, SRVBOH_LANGUAGE_V1R0, SRVBUM_LANGUAGE_V1R0, SRVCOV_LANGUAGE_V1R0, SRVLAW_LANGUAGE_V1R0, SRVMC_LANGUAGE_V1R0, SRVMW_LANGUAGE_V1R0, SRVQOL_LANGUAGE_V1R0, SRVSAS_LANGUAGE_V1R0, SRVSSN_LANGUAGE_V1R0]
+
+//This file was last modified on Mon Sep 23 16:14:03 2024 -0400 (short timestamp = 2024-09-23-20-14-03)
+//{"version":"1.0"}
+{"name":"D_506648060"}
+[SRVPES_PESINTRO_V1R0] <b>2024 Connect Experience Survey</b>
+
+The following questions are designed to help us understand your experience as a participant in the Connect for Cancer Prevention Study. We will use the information you share to improve the study. 
+
+We value the information you share with us and will always protect your privacy. We remove information that can be used to identify you, like your name, from your survey answers before we share them with researchers. You may skip any question you do not feel comfortable answering.
+
+[D_145727599?] <b>MyConnect</b>
+
+Which types of devices do you use for MyConnect? Select all that apply.
+[386252749] Phone
+[153962804] Tablet
+[188067494] Laptop or desktop computer
+<#NR -> D_210120853> 
+
+[D_470013848?,displayif=equals(D_145727599,386252749)] Which type of <b>phone</b> do you use? Select all that apply.
+[482753957] iPhone (Apple)
+[358413399] Android 
+[807835037] Other phone, please describe |__|id=D_495052121|
+[178420302*] Don’t know
+
+[D_731524314?,displayif=equals(D_145727599,153962804)] Which type of <b>tablet</b> do you use? Select all that apply.
+[515798638] iPad (Apple)
+[132115595] Microsoft® Surface
+[299722216] Amazon Fire Tablet
+[115959973] Google Pixel
+[238237869] Samsung Galaxy
+[985034149] Lenovo Tab
+[807835037] Other tablet, please describe |__|id=D_638847244| 
+[178420302*] Don’t know
+
+[D_403175318?,displayif=equals(D_145727599,188067494)] Which type of <b>laptop or desktop computer</b> do you use? Select all that apply.
+[798682161] Mac (Apple)
+[554920493] PC (Windows)
+[200962909] Chromebook
+[807835037] Other computer, please describe |__|id=D_507471937|
+[178420302*] Don’t know
+
+
+[D_260186214?,displayif=selectionCount("D_470013848") + selectionCount("D_731524314") + selectionCount("D_403175318")>1]Which device do you use to access MyConnect most of the time? 
+(482753957,displayif=equals(D_470013848,482753957)) iPhone (Apple) 
+(358413399,displayif=equals(D_470013848,358413399)) Android 
+(793072415,displayif=equals(D_470013848,807835037)) {$D_495052121} |displayif=doesNotExist("D_495052121")|Other phone|
+(515798638,displayif=equals(D_731524314,515798638)) iPad (Apple)
+(132115595,displayif=equals(D_731524314,132115595)) Microsoft® Surface 
+(299722216,displayif=equals(D_731524314,299722216)) Amazon Fire Tablet 
+(115959973,displayif=equals(D_731524314,115959973)) Google Pixel 
+(238237869,displayif=equals(D_731524314,238237869)) Samsung Galaxy 
+(985034149,displayif=equals(D_731524314,985034149)) Lenovo Tab 
+(401230883,displayif=equals(D_731524314,807835037)) {$D_638847244} |displayif=doesNotExist("D_638847244")|Other tablet| 
+(798682161,displayif=equals(D_403175318,798682161)) Mac (Apple) 
+(554920493,displayif=equals(D_403175318,554920493)) PC (Windows) 
+(200962909,displayif=equals(D_403175318,200962909)) Chromebook 
+(320254475,displayif=equals(D_403175318,807835037)) {$D_507471937} |displayif=doesNotExist("D_507471937")|Other computer|
+
+[D_210120853?] Do you use your own personal device to access MyConnect? Select all that apply. 
+[299631230] Yes, I use my own personal device 
+[916319911] Yes, I use my own device provided by my employer
+[572976454] No, I use a device provided by my healthcare provider at a Connect visit
+[191667117] No, I borrow a device from a friend, family member, or someone else
+[217279879] No, I use a public device (like a computer at a library)
+
+[D_875017278?] How <b>easy or hard</b> is it to use MyConnect?
+(371268341)	Very easy
+(417633823)	Easy
+(308765753)	Neutral
+(940801246)	Hard
+(527229910)	Very hard
+
+[D_630940888?] Have you experienced <b>technical problems</b>, like slow loading times, or problems submitting your answers to surveys? 
+(104430631)	No	-> D_646060480
+(353358909)	Yes	->  D_575160226
+<#NR -> D_646060480>
+
+[D_575160226?,displayif=equals(D_630940888,353358909)] If you would like to share more about the <b>technical problems</b> you have experienced, you can do so here.
+
+|__|id=D_108849491| 
+
+[334491616*]	I have no comment
+
+[D_646060480?] Are you able to <b>find everything you are looking for</b> on MyConnect (surveys, support, study information etc.)? 
+(104430631)	No	-> D_579939641
+(353358909)	Yes	-> D_549970786
+<#NR -> D_549970786>
+
+[D_579939641?,displayif=equals(D_646060480,104430631)] If you would like to share more about why you aren’t able to find everything you are looking for on MyConnect, you can do so here. 
+
+|__|id=D_303566606|  
+
+[334491616*]	I have no comment
+
+[D_549970786?] What do you think could <b>make MyConnect better or easier to use</b>? 
+
+|__|id=D_733294715|
+
+[334491616*]	I have no comment
+
+[SRVPES_SECTION2_V1R0]<b>Study Communications</b>
+
+[D_124830305?] What do you think about the number of <b>communications</b> (emails and text messages) <b>you get from the Connect team</b>? Would you say there are:
+(242016061)	<b>Too many</b> - I get far too many emails and/or text messages 
+(185898646)	<b>Just enough</b> - I like the number of emails and/or text messages 
+(803970496)	<b>Not enough</b> - I want to get more emails and/or text messages 
+
+[D_972944307?] Do the Connect communications give you the <b>information you need to complete study tasks</b>?
+(353358909)	Yes
+(104430631)	No
+(178420302)	Unsure
+
+[D_394328384?] Is there <b>anything missing from our study communications that we should add</b>? Please share here.
+
+|__|id=D_887117937|
+
+[104430631*]	No
+
+[SRVPES_SECTION3_V1R0] <b>First Survey</b>
+
+[D_586132480?] Have you <b>completed the first survey</b> for Connect? 
+
+ The first survey includes <b>four sections</b>: Background and Overall Health; Medications, Reproductive Health, Exercise, and Sleep; Smoking, Alcohol, and Sun Exposure; and Where You Live and Work.
+(198030665)	Yes, I completed all four sections -> D_945546878
+(687057737)	Yes, I completed some of the sections, but not all sections 
+(333628672)	No, I did not complete any of the sections 
+(178420302)	Unsure -> D_945546878
+< #NR -> D_945546878>
+
+[D_886084185?,displayif=or(equals(D_586132480,333628672),equals(D_586132480,687057737))] Please choose the <b>reason that best</b> describes <b>why you have not completed all the sections in the first survey</b>:
+(117258272)	I cannot find the survey
+(773860876)	I am having technical issues or glitches, like problems with the survey loading, answers saving, and/or submitting
+(551201830)	I do not have time
+(205790732)	I do not feel comfortable answering the survey questions
+(701389038)	I have Wi-Fi and/or internet connectivity issues
+(807835037)	Other |__|id=D_126388230| 
+
+[D_945546878?] What do you think about <b>the length</b> of the first survey? Think about the number of questions and how long it took you to answer each section of the survey. Would you say the first survey is: 
+(948464607)	<b>Too long</b> - the survey had far too many questions
+(537785073)	<b>Just long enough</b> - the survey had just the right amount of questions
+(672312050)	<b>Not long enough</b> - I want to answer more questions
+
+[D_363878103?] Feel free to share anything else you’d like to tell us <b>about your experience with the first Connect survey</b>. 
+|__|id=D_177096151|
+
+[334491616*]	I have no comment
+
+[SRVPES_SECTION4_V1R0] <b>Biological Samples</b>
+
+[D_472709337?] Have you donated any <b>samples of blood, urine, or saliva for Connect</b>? 
+(353358909)	Yes		
+(104430631)	No		-> D_465287908
+(178420302)	Unsure	-> D_465287908
+< #NR -> D_465287908>
+
+[D_890945599?,displayif=equals(D_472709337,353358909)] How well did the Connect team <b>communicate with you about donating samples</b> (for example, where and how to donate your samples)?
+		(254017984)	Very well
+		(604455183)	Well 
+		(308765753)	Neutral
+		(138752522)	Poor
+		(878535894)	Very poor
+
+
+[D_465287908?] How would you rate your <b>experience donating samples</b>? Please rate your experience on the <b>amount of time donating samples:</b>
+
+(777433416) Too much time
+(589724105) The right amount of time
+(576052130) Too little time
+
+[D_956625094?] How would you rate your <b>experience donating samples</b>? Please rate your experience on the <b>ease of donating samples</b>
+(807574160) Very Easy
+(417633823) Easy
+(308765753) Neutral
+(940801246) Hard
+(527229910) Very Hard
+
+
+[D_476960744?] How was your <b>experience with the Connect team</b> when you donated samples?
+    (565881164)	Very good
+    (719933364)	Good
+    (308765753)	Neutral
+    (138752522)	Poor
+    (878535894)	Very poor
+
+[D_355080680?] You can share more about your <b>experience with the Connect team when you donated samples</b> here. 
+
+  |__|id=D_607064749|
+
+  [334491616*]	I have no comment
+
+[D_307813936?] Did you complete the <b>sample survey</b> on MyConnect?
+    (353358909)	Yes		
+    (104430631)	No	-> D_943119849
+    (178420302) Unsure	-> D_496748977
+    < #NR -> D_496748977>
+
+[D_800057241?,displayif=equals(D_307813936,353358909)] Did you complete the sample survey at your Connect visit?
+		(104430631)	No
+		(353358909)	Yes
+		(178420302)	I don’t remember
+
+[D_649713579?,displayif=equals(D_307813936,353358909)] Did you use your own personal device to complete the sample survey? Select all that apply.
+    [834694858]	Yes, I used my own personal device 
+    [354508982]	Yes, I used my own device provided by my employer
+    [147611720]	No, I used a device provided by the Connect team at my healthcare system when I donated samples
+    [899315984]	No, I borrowed a device from a friend, family member, or someone else
+    [588555669]	No, I used a public device (like a computer at a library)
+
+//<-> SRVPES_BIOSURV5_V1R0>?
+
+[D_943119849?,displayif=equals(D_307813936,104430631)] Please choose the <b>reason that fits best</b> to describe <b>why you have not completed the sample survey</b>:
+    (117258272)	I cannot find the survey
+    (773860876)	I am having technical issues or glitches, like problems with the survey loading, answers saving, or submitting
+    (551201830)	I do not have time
+    (205790732)	I do not feel comfortable answering the survey questions
+    (701389038)	I have Wi-Fi and/or internet connectivity issues
+   (807835037)	Other |__|id=D_314351052|
+
+[D_496748977?] Is there anything that the Connect team could have done to <b>make your experience donating samples better or easier</b>? 
+
+    |__|id=D_492806629|
+    
+   [104430631*]	No
+
+[D_482763096?] <b>Surveys</b>
+
+In general, would you prefer to complete:
+
+(588529567)	Longer surveys, sent less often (such as 60-minute surveys, sent every year)
+(628115953)	Shorter surveys, sent more often (such as 20-minute surveys, sent every 4 months)
+(267441074)	I don’t have a preference for survey length and frequency
+
+
+[SRVPES_SECTION5_V1R0] <b>Participant Experience</b>
+
+[D_176469609?] How would you <b>rate your overall experience</b> as a Connect participant?
+   (565881164)	Very good
+   (719933364)	Good
+   (308765753)	Neutral
+   (138752522)	Poor
+   (878535894)	Very poor
+
+[D_210983898?] What has been <b>good about your experience</b> as a participant so far? 
+
+     |__|id=D_766069692|
+     
+    [334491616*] I have no comment
+
+[D_228922812?] What can our team do to <b>make your experience</b> as a Connect participant <b>better</b>? 
+
+     |__|id=D_587755868|
+     
+    [334491616*] I have no comment
+
+
+[SRVPES_WHYINTRO_V1R0] <b>Why You Joined Connect</b>
+
+Understanding what made you interested in joining Connect can help us improve our efforts to recruit participants and keep them engaged in the study. 
+
+[D_960544981?|max-count=3] Please select the top <b>three</b> reasons that helped you decide to join Connect. 
+
+//[NOTE TO PROGRAMMERS, ONLY ALLOW 3 RESPONSES TO BE SELECTED]
+     [925993577] I want to help others
+     [985468594] I have a friend or family member who is involved in Connect
+     [604524950] Cancer has affected someone I know
+     [815468840] I like participating in research studies
+     [313446770] The research team made me feel comfortable
+     [393996571] I care about cancer research
+     [847753225] I want to earn the payment
+     [101837333] The National Cancer Institute has a good reputation for research
+     [490731188] My healthcare system has a good reputation for research
+
+[D_674994176?] Feel free to share more about these reasons or any other reasons for joining Connect.
+
+	|__|id=D_124300201|
+		
+	[334491616*]	I have no comment
+
+[END,end] Thank you for answering this survey! The information you share may help us improve the experiences of Connect participants now and into the future. If you have any other comments or questions for our team, please contact the Connect Support Center. 
+
+To submit your answers, select the “Submit Survey” button.
