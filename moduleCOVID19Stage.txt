@@ -32,7 +32,7 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Mon Oct 7 11:52:14 2024 -0400 (short timestamp = 2024-10-07-15-52-14)
+//This file was last modified on Mon Oct 21 14:54:28 2024 -0400 (short timestamp = 2024-10-21-18-54-28)
 //{"version":"1.3"}
 {"name":"D_793330426"}
 
@@ -102,7 +102,9 @@ We have some questions about whether you had COVID-19 and any symptoms, your exp
 [283776061] Conjunctivitis (pink eye)
 [807835037] Other |__|id=D_218852075|
 
-[D_928530823?,displayif=greaterThanOrEqual(D_860011428,#loop)] During the {##} time you had COVID-19, did you have septic shock (a life-threatening condition with symptoms like difficulty breathing, chills, peeing less, and confusion) as a complication of COVID-19?
+[D_928530823?,displayif=greaterThanOrEqual(D_860011428,#loop)] <b>Complications</b>
+
+During the {##} time you had COVID-19, did you have septic shock (a life-threatening condition with symptoms like difficulty breathing, chills, peeing less, and confusion) as a complication of COVID-19?
 
 (353358909) Yes
 (104430631) No
