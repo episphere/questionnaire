@@ -43,7 +43,7 @@
 // count: 5 | warning: "HPV | this may be an untransformed Quest code"
 
 
-//This file was last modified on Wed Dec 11 17:28:02 2024 -0500 (short timestamp = 2024-12-11-22-28-02)
+//This file was last modified on Thu Dec 12 14:03:52 2024 -0500 (short timestamp = 2024-12-12-19-03-52)
 //{"version":"1.0"}
 {"name":"D_369168474"}
 
@@ -94,52 +94,52 @@ If you were assigned female at birth, you probably had:
 [532603425,displayif=valueIsOneOf("D_890391968",751402477)]	Removal of one or both testicles (orchiectomy or orchidectomy)  -> D_429157727
 [733236542,displayif=valueIsOneOf("D_890391968",700100953)]	Prostate removed (prostatectomy)  -> D_292314539
 [961987554,displayif=valueIsOneOf("D_890391968",582784267)]	Penis removed (penectomy) -> D_203366781
-[535003378]	I have <b>not</b> had any of these surgeries 
+[535003378*]	I have <b>not</b> had any of these surgeries 
 < -> SRVSCR_ORSCREENINT_V1R0> 
 
 [D_675055475?] How old were you when you had your <b>tonsils removed (tonsillectomy)?</b>
 
-|__|__|id=D_623218391 min=0 max=_value("age")| Age at surgery
+|__|__|xor=SRVSCR_TONSILS_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
 
 Or, if it is easier to remember the year, enter that here:
 
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+|__|__|__|__|xor=SRVSCR_TONSILS_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
 
 
 [D_250003172?] How old were you when you had your <b>gallbladder removed (cholecystectomy)?</b>
 
-|__|__|id=D_623218391 min=0 max=_value("age")| Age at surgery
+|__|__|xor=SRVSCR_GALLREM_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
 
 Or, if it is easier to remember the year, enter that here:
 
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+|__|__|__|__|xor=SRVSCR_GALLREM_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
 
 
 [D_341080024?] How old were you when you had your <b>appendix removed (appendectomy)?</b>
 
-|__|__|id=D_623218391 min=0 max=_value("age")| Age at surgery
+|__|__|xor=SRVSCR_APPEND_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
 
 Or, if it is easier to remember the year, enter that here:
 
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+|__|__|__|__|xor=SRVSCR_APPEND_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
 
 
 [D_841573821?] How old were you when you had your <b>spleen removed (splenectomy)?</b>
 
-|__|__|id=D_623218391 min=0 max=_value("age")| Age at surgery
+|__|__|xor=SRVSCR_SPLEENREM_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
 
 Or, if it is easier to remember the year, enter that here:
 
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+|__|__|__|__|xor=SRVSCR_SPLEENREM_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
 
 
 [D_976626196?] How old were you when you had <b>your thyroid removed (thyroidectomy)?</b>
 
-|__|__|id=D_623218391 min=0 max=_value("age")| Age at surgery
+|__|__|xor=SRVSCR_THYRDREM_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
 
 Or, if it is easier to remember the year, enter that here:
 
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+|__|__|__|__|xor=SRVSCR_THYRDREM_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
 
 
 [D_951847507?] Which of these best describes the type of <b>kidney removal surgery</b> that you had?
@@ -152,30 +152,30 @@ Or, if it is easier to remember the year, enter that here:
 
 [D_998519118?,displayif=valueIsOneOf("D_951847507",113771607,668256654)] How old were you when you had one or both kidneys removed (nephrectomy)? If you have had more than one procedure, at what age did you <b>last</b> have this procedure? 
 
-|__|__|id=D_623218391 min=0 max=_value("age")| Age at surgery
+|__|__|xor=SRVSCR_KIDREM2_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
 
 Or, if it is easier to remember the year, enter that here:
 
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+|__|__|__|__|xor=SRVSCR_KIDREM2_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
 
 
 [D_645149364?] How old were you when you <b>first</b> had <b>liposuction?</b>
 
-|__|__|id=D_623218391 min=0 max=_value("age")| Age at surgery
+|__|__|xor=SRVSCR_LIPOSUCT_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
 
 Or, if it is easier to remember the year, enter that here:
 
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+|__|__|__|__|xor=SRVSCR_LIPOSUCT_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
 
 
 
 [D_839555631?] How old were you when you had your <b>bariatric surgery (lap band, gastric bypass)?</b>
 
-|__|__|id=D_623218391 min=0 max=_value("age")| Age at surgery
+|__|__|xor=SRVSCR_BARSUR_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
 
 Or, if it is easier to remember the year, enter that here:
 
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+|__|__|__|__|xor=SRVSCR_BARSUR_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
 
 
 
@@ -191,62 +191,62 @@ Or, if it is easier to remember the year, enter that here:
 [520432394]	Surgery for a breast abscess (such as incision and draining) -> D_166524009
 [667901971]	Removal of a lactiferous or milk duct (microdochectomy)   -> D_367942006
 [807835037]	Other: Please describe  |__|id=D_942347130|  -> D_907385951
-[535003378]	None of the above 
+[535003378*]	None of the above 
 
 
 
 [D_439760665?] How old were you when you had <b>breast implants surgery</b> (augmentation surgery)? 
 
-|__|__|id=D_623218391 min=0 max=_value("age")| Age at surgery
+|__|__|xor=SRVSCR_BREASTSUR0_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
 
 Or, if it is easier to remember the year, enter that here:
 
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+|__|__|__|__|xor=SRVSCR_BREASTSUR0_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
 
 
 [D_950690103?] How old were you when you had <b>breast lift surgery</b> (mastopexy)? 
 
-|__|__|id=D_623218391 min=0 max=_value("age")| Age at surgery
+|__|__|xor=SRVSCR_BREASTSUR1_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
 
 Or, if it is easier to remember the year, enter that here:
 
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+|__|__|__|__|xor=SRVSCR_BREASTSUR1_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
 
 
 [D_975268706?] How old were you when you had <b>breast reconstruction surgery? </b>
 
-|__|__|id=D_623218391 min=0 max=_value("age")| Age at surgery
+|__|__|xor=SRVSCR_BREASTSUR2_V2R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
 
 Or, if it is easier to remember the year, enter that here:
 
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+|__|__|__|__|xor=SRVSCR_BREASTSUR2_V2R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
 
 
 [D_277890744?] How old were you when you had <b>breast reduction surgery</b> (reduction mammaplasty)? 
 
-|__|__|id=D_623218391 min=0 max=_value("age")| Age at surgery
+|__|__|xor=SRVSCR_BREASTSUR3_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
 
 Or, if it is easier to remember the year, enter that here:
 
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+|__|__|__|__|xor=SRVSCR_BREASTSUR3_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
 
 
 [D_936444833?] How old were you when you had <b>surgery for removal of part of your breast tissue</b> (breast-conserving surgery (BCS), lumpectomy, partial mastectomy, or segmental mastectomy)? 
 
-|__|__|id=D_623218391 min=0 max=_value("age")| Age at surgery
+|__|__|xor=SRVSCR_BREASTSUR4_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
 
 Or, if it is easier to remember the year, enter that here:
 
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+|__|__|__|__|xor=SRVSCR_BREASTSUR4_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
 
 
 [D_758881441?] How old were you when you had <b>surgery for removal of one breast</b> (mastectomy)? 
 
-|__|__|id=D_623218391 min=0 max=_value("age")| Age at surgery
+|__|__|xor=SRVSCR_BREASTSUR5_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
 
 Or, if it is easier to remember the year, enter that here:
 
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+|__|__|__|__|xor=SRVSCR_BREASTSUR5_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
 
 
 [D_765772509?] Which of these best describes the type of breast removal surgery that you had?
@@ -259,70 +259,70 @@ Or, if it is easier to remember the year, enter that here:
 
 [D_250353250?,displayif=equals("D_765772509",308633554)] How old were you when you had <b>surgery for removal of both breasts</b> (double or bilateral mastectomy)? 
 
-|__|__|id=D_623218391 min=0 max=_value("age")| Age at surgery
+|__|__|xor=SRVSCR_BREASTSUR6_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
 
 Or, if it is easier to remember the year, enter that here:
 
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+|__|__|__|__|xor=SRVSCR_BREASTSUR6_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
 
 
 [D_116546181?,displayif=equals("D_765772509",967156738)] How old were you when you had the <b>first surgery for removal of one breast? </b>
 
-|__|__|id=D_623218391 min=0 max=_value("age")| Age at surgery
+|__|__|xor=SRVSCR_BREASTSUR6B_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
 
 Or, if it is easier to remember the year, enter that here:
 
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+|__|__|__|__|xor=SRVSCR_BREASTSUR6B_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
 
 <-> D_496928179>
 
 
 [D_496928179?,displayif=equals("D_765772509",967156738)] How old were you when you had the <b>second surgery for removal of one breast?  </b>
 
-|__|__|id=D_623218391 min=0 max=_value("age")| Age at surgery
+|__|__|xor=SRVSCR_BREASTSUR6C_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
 
 Or, if it is easier to remember the year, enter that here:
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+|__|__|__|__|xor=SRVSCR_BREASTSUR6C_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
 
 
 [D_166524009?] How old were you when you had <b>surgery for a breast abscess</b> (such as incision and draining)? 
 
-|__|__|id=D_623218391 min=0 max=_value("age")| Age at surgery
+|__|__|xor=SRVSCR_BREASTSUR7_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
 
 Or, if it is easier to remember the year, enter that here:
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+|__|__|__|__|xor=SRVSCR_BREASTSUR7_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
 
 
 [D_367942006?] How old were you when you had <b>surgery for removal of a lactiferous or milk duct</b> (microdiscectomy)?  
 
-|__|__|id=D_623218391 min=0 max=_value("age")| Age at surgery
+|__|__|xor=SRVSCR_BREASTSUR8_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
 
 Or, if it is easier to remember the year, enter that here:
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+|__|__|__|__|xor=SRVSCR_BREASTSUR8_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
 
 
 [D_907385951?] How old were you when you had |displayif=exists("D_942347130")|<b>{$D_942347130}</b>||displayif=doesNotExist("D_942347130")|<b>another type of breast surgery</b>|? 
 
-|__|__|id=D_623218391 min=0 max=_value("age")| Age at surgery
+|__|__|xor=SRVSCR_BREASTSUR9_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
 
 Or, if it is easier to remember the year, enter that here:
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+|__|__|__|__|xor=SRVSCR_BREASTSUR9_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
 
 
 [D_350184001?] How old were you when you had your <b>uterus removed (hysterectomy)?</b>
 
-|__|__|id=D_623218391 min=0 max=_value("age")| Age at surgery
+|__|__|xor=SRVSCR_HYSTER_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
 
 Or, if it is easier to remember the year, enter that here:
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+|__|__|__|__|xor=SRVSCR_HYSTER_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
 
 
 [D_522645663?] How old were you when you had your <b>tubes tied (tubal ligation)?</b>
 
-|__|__|id=D_623218391 min=0 max=_value("age")| Age at surgery
+|__|__|xor=SRVSCR_TUBLIG_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
 
 Or, if it is easier to remember the year, enter that here:
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+|__|__|__|__|xor=SRVSCR_TUBLIG_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
 
 
 [D_590067228?] Which of these best describes the type of <b>ovary removal surgery</b> that you had?
@@ -335,10 +335,10 @@ Or, if it is easier to remember the year, enter that here:
 
 [D_787505819?,displayif=valueIsOneOf("D_590067228",333647143,109972911)] How old were you when you had one or both ovaries removed (oophorectomy)? If you have had more than one procedure, at what age did you <b>last</b> have this procedure?
 
-|__|__|id=D_623218391 min=0 max=_value("age")| Age at surgery
+|__|__|xor=SRVSCR_OVARYREM2_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
 
 Or, if it is easier to remember the year, enter that here:
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+|__|__|__|__|xor=SRVSCR_OVARYREM2_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
 
 
 [D_860839849?,displayif=equals("D_729984625",692881833)] Which of these best describes the type of <b>fallopian tube removal surgery</b> that you had?
@@ -350,18 +350,18 @@ Or, if it is easier to remember the year, enter that here:
 
 [D_949587133?,displayif=valueIsOneOf("D_860839849",448068764,537173119)] How old were you when you had one or both fallopian tubes removed (salpingectomy)? If you have had more than one procedure, at what age did you <b>last</b> have this procedure? 
 
-|__|__|id=D_623218391 min=0 max=_value("age")| Age at surgery
+|__|__|xor=SRVSCR_FTREM2_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
 
 Or, if it is easier to remember the year, enter that here:
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+|__|__|__|__|xor=SRVSCR_FTREM2_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
 
 
 [D_671670265?] How old were you when you had a <b>vasectomy?</b>
 
-|__|__|id=D_623218391 min=0 max=_value("age")| Age at surgery
+|__|__|xor=SRVSCR_VASEC_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
 
 Or, if it is easier to remember the year, enter that here:
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+|__|__|__|__|xor=SRVSCR_VASEC_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
 
 
 [D_429157727?] Which of these best describes the type of <b>testicle removal surgery</b> that you had?
@@ -374,10 +374,10 @@ Or, if it is easier to remember the year, enter that here:
 
 [D_314345103?,displayif=valueIsOneOf("D_429157727",770550588,970716952)] How old were you when you had one or both testicles removed (orchiectomy or orchidectomy)? If you have had more than one procedure, at what age did you <b>last</b> have this procedure? 
 
-|__|__|id=D_623218391 min=0 max=_value("age")| Age at surgery
+|__|__|xor=SRVSCR_TESTREM2_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
 
 Or, if it is easier to remember the year, enter that here:
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+|__|__|__|__|xor=SRVSCR_TESTREM2_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
 
 
 [D_292314539?] Which of these best describes the type of <b>prostate removal surgery</b> that you had? 
@@ -390,18 +390,18 @@ Or, if it is easier to remember the year, enter that here:
 
 [D_343990595?,displayif=valueIsOneOf("D_292314539",524029283,500023550)] How old were you when you had part or all of your prostate removed (prostatectomy)? If you have had more than one procedure, at what age did you <b>last</b> have this procedure? 
 
-|__|__|id=D_623218391 min=0 max=_value("age")| Age at surgery
+|__|__|xor=SRVSCR_PROSREM2_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
 
 Or, if it is easier to remember the year, enter that here:
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+|__|__|__|__|xor=SRVSCR_PROSREM2_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
 
 
 [D_203366781?] How old were you when you had your <b>penis removed (penectomy)?</b>
 
-|__|__|id=D_623218391 min=0 max=_value("age")| Age at surgery
+|__|__|xor=SRVSCR_PENREM_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
 
 Or, if it is easier to remember the year, enter that here:
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Year of diagnosis
+|__|__|__|__|xor=SRVSCR_PENREM_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of diagnosis
 
 
 
