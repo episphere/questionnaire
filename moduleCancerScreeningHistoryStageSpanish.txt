@@ -36,7 +36,7 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Wed Dec 11 18:12:01 2024 -0500 (short timestamp = 2024-12-11-23-12-01)
+//This file was last modified on Thu Dec 12 11:05:31 2024 -0500 (short timestamp = 2024-12-12-16-05-31)
 //This file was última modified on Fri Oct 18 09:27:47 2024 -0400 (short timestamp = 2024-10-18-13-27-47)
 //{"version":"1.0"}
 {"name":"D_369168474"}
@@ -87,43 +87,43 @@ Si al nacer le asignaron el sexo femenino, es probable que haya tenido:
 [532603425,displayif=valueIsOneOf("D_890391968",751402477)]	Extirpación de uno o ambos testículos (orquiectomía u orquidectomía)  -> D_429157727
 [733236542,displayif=valueIsOneOf("D_890391968",700100953)]	Extirpación de la próstata (prostatectomía) -> D_292314539
 [961987554,displayif=valueIsOneOf("D_890391968",582784267)]	Extirpación del pene (penectomía) -> D_203366781
-[535003378]	<b>No</b> me he sometido a ninguna de estas operaciones 
+[535003378*]	<b>No</b> me he sometido a ninguna de estas operaciones 
 <  -> SRVSCR_ORSCREENINT_V1R0> 
 
 [D_675055475?] ¿Cuántos años tenía cuando le <b>extirparon las amígdalas (amigdalectomía)</b>?
 
-|__|__|id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
+|__|__|xor=SRVSCR_TONSILS_V1R0 id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
 
 O, si le es más fácil recordar el año, ingréselo aquí:
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
+|__|__|__|__|xor=SRVSCR_TONSILS_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
 
 
 [D_250003172?] ¿Cuántos años tenía cuando le <b>extirparon la vesícula (colecistectomía)?</b>
-|__|__|id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
+|__|__|xor=SRVSCR_GALLREM_V1R0 id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
 
 O, si le es más fácil recordar el año, ingréselo aquí:
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
+|__|__|__|__|xor=SRVSCR_GALLREM_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
 
 
 [D_341080024?] ¿Cuántos años tenía cuando le <b>extirparon el apéndice (apendicectomía)?</b>
-|__|__|id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
+|__|__|xor=SRVSCR_APPEND_V1R0 id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
 
 O, si le es más fácil recordar el año, ingréselo aquí:
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
+|__|__|__|__|xor=SRVSCR_APPEND_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
 
 
 [D_841573821?] ¿Cuántos años tenía cuando le <b>extirparon el bazo (esplenectomía)?</b>
-|__|__|id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
+|__|__|xor=SRVSCR_SPLEENREM_V1R0 id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
 
 O, si le es más fácil recordar el año, ingréselo aquí:
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
+|__|__|__|__|xor=SRVSCR_SPLEENREM_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
 
 
 [D_976626196?] ¿Cuántos años tenía cuando le <b>extirparon la tiroides (tiroidectomía)?</b>
-|__|__|id=D_623218391 min=0 max=_value("age")|  Edad al momento de la operación
+|__|__|xor=SRVSCR_THYRDREM_V1R0 id=D_623218391 min=0 max=_value("age")|  Edad al momento de la operación
 
 O, si le es más fácil recordar el año, ingréselo aquí:
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
+|__|__|__|__|xor=SRVSCR_THYRDREM_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
 
 
 [D_951847507?] ¿Cuál de las siguientes es la mejor descripción del tipo de <b>operación de extirpación de riñón</b> que le hicieron?
@@ -136,27 +136,27 @@ O, si le es más fácil recordar el año, ingréselo aquí:
 
 [D_998519118?,displayif=valueIsOneOf("D_951847507",113771607,668256654)] ¿Cuántos años tenía cuando le extirparon uno o los dos riñones (nefrectomía)? Si se ha sometido a más de una intervención, ¿qué edad tenía cuando se sometió a la <b>última? </b>
 
-|__|__|id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
+|__|__|xor=SRVSCR_KIDREM2_V1R0 id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
 
 O, si le es más fácil recordar el año, ingréselo aquí:
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
+|__|__|__|__|xor=SRVSCR_KIDREM2_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
 
 
 [D_645149364?] ¿Cuántos años tenía cuando se sometió a su <b>primera liposucción?</b>
 
-|__|__|id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
+|__|__|xor=SRVSCR_LIPOSUCT_V1R0 id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
 
 O, si le es más fácil recordar el año, ingréselo aquí:
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
+|__|__|__|__|xor=SRVSCR_LIPOSUCT_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
 
 
 
 [D_839555631?] ¿Cuántos años tenía cuando se sometió a su <b>cirugía bariátrica (banda gástrica, bypass gástrico)?</b>
 
-|__|__|id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
+|__|__|xor=SRVSCR_BARSUR_V1R0 id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
 
 O, si le es más fácil recordar el año, ingréselo aquí:
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
+|__|__|__|__|xor=SRVSCR_BARSUR_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
 
 
 
@@ -172,56 +172,56 @@ O, si le es más fácil recordar el año, ingréselo aquí:
 [520432394]	Cirugía de absceso mamario (por ejemplo, incisión y drenaje) -> D_166524009
 [667901971]	Extirpación de un conducto galactóforo o lácteo (microductectomía)  -> D_367942006
 [807835037]	Otra: Sírvase indicar cuál |__|id=D_942347130|  -> D_907385951
-[535003378]	Nada de lo anterior 
+[535003378*]	Nada de lo anterior 
 
 
 
 [D_439760665?] ¿Cuántos años tenía cuando se sometió a <b>cirugía de implantes de mamas</b> (cirugía de aumento)? 
 
-|__|__|id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
+|__|__|xor=SRVSCR_BREASTSUR0_V1R0 id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
 
 O, si le es más fácil recordar el año, ingréselo aquí:
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
+|__|__|__|__|xor=SRVSCR_BREASTSUR0_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
 
 
 [D_950690103?] ¿Cuántos años tenía cuando se sometió a <b>cirugía de elevación de mamas</b> (mastopexia)? 
 
-|__|__|id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
+|__|__|xor=SRVSCR_BREASTSUR1_V1R0 id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
 
 O, si le es más fácil recordar el año, ingréselo aquí:
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
+|__|__|__|__|xor=SRVSCR_BREASTSUR1_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
 
 
 [D_975268706?] ¿Cuántos años tenía cuando se sometió a <b>cirugía de reconstrucción de mamas?</b>
 
-|__|__|id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
+|__|__|xor=SRVSCR_BREASTSUR2_V2R0 id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
 
 O, si le es más fácil recordar el año, ingréselo aquí:
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
+|__|__|__|__|xor=SRVSCR_BREASTSUR2_V2R0 id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
 
 
 [D_277890744?] ¿Cuántos años tenía cuando se sometió a <b>cirugía de reducción de mamas</b> (mamopúltimaia reductora)? 
 
-|__|__|id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
+|__|__|xor=SRVSCR_BREASTSUR3_V1R0 id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
 
 O, si le es más fácil recordar el año, ingréselo aquí:
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
+|__|__|__|__|xor=SRVSCR_BREASTSUR3_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
 
 
 [D_936444833?] ¿Cuántos años tenía cuando se sometió a <b>cirugía de extirpación de una parte de su tejido mamario</b> (cirugía de conservación de mama, tumorectomía, mastectomía parcial o mastectomía segmentaria)? 
 
-|__|__|id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
+|__|__|xor=SRVSCR_BREASTSUR4_V1R0 id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
 
 O, si le es más fácil recordar el año, ingréselo aquí:
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
+|__|__|__|__|xor=SRVSCR_BREASTSUR4_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
 
 
 [D_758881441?] ¿Cuántos años tenía cuando se sometió a <b>cirugía de extirpación de una mama</b> (mastectomía)? 
 
-|__|__|id=D_623218391 min=0 max=_value("age")|  Edad al momento de la operación
+|__|__|xor=SRVSCR_BREASTSUR5_V1R0 id=D_623218391 min=0 max=_value("age")|  Edad al momento de la operación
 
 O, si le es más fácil recordar el año, ingréselo aquí:
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
+|__|__|__|__|xor=SRVSCR_BREASTSUR5_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
 
 
 [D_765772509?] ¿Cuál de las siguientes es la mejor descripción del tipo de cirugía de extirpación de mama a la que se sometió?
@@ -234,67 +234,67 @@ O, si le es más fácil recordar el año, ingréselo aquí:
 
 [D_250353250?,displayif=equals("D_765772509",308633554)] ¿Cuántos años tenía cuando se sometió a <b>cirugía de extirpación de ambas mamas</b> (mastectomía doble o bilateral)? 
 
-|__|__|id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
+|__|__|xor=SRVSCR_BREASTSUR6_V1R0 id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
 
 O, si le es más fácil recordar el año, ingréselo aquí:
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
+|__|__|__|__|xor=SRVSCR_BREASTSUR6_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
 
 
 [D_116546181?,displayif=equals("D_765772509",967156738)] ¿Cuántos años tenía cuando se sometió a la <b>primera cirugía de extirpación de una mama? </b>
 
-|__|__|id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
+|__|__|xor=SRVSCR_BREASTSUR6B_V1R0 id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
 
 O, si le es más fácil recordar el año, ingréselo aquí:
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
+|__|__|__|__|xor=SRVSCR_BREASTSUR6B_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
 
 <-> D_496928179>
 
 
 [D_496928179?,displayif=equals("D_765772509",967156738)] ¿Cuántos años tenía cuando se sometió a la <b>segunda cirugía de extirpación de una mama?</b>  
 
-|__|__|id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
+|__|__|xor=SRVSCR_BREASTSUR6C_V1R0 id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
 
 O, si le es más fácil recordar el año, ingréselo aquí:
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
+|__|__|__|__|xor=SRVSCR_BREASTSUR6C_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
 
 
 [D_166524009?] ¿Cuántos años tenía cuando se sometió a <b>cirugía de absceso mamario</b> (por ejemplo, incisión y drenaje)? 
 
-|__|__|id=D_623218391 min=0 max=_value("age")|  Edad al momento de la operación
+|__|__|xor=SRVSCR_BREASTSUR7_V1R0 id=D_623218391 min=0 max=_value("age")|  Edad al momento de la operación
 
 O, si le es más fácil recordar el año, ingréselo aquí:
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
+|__|__|__|__|xor=SRVSCR_BREASTSUR7_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
 
 
 [D_367942006?] ¿Cuántos años tenía cuando se sometió a <b>cirugía de extirpación de un conducto galactóforo o lácteo </b>(microductectomía)? 
 
-|__|__|id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
+|__|__|xor=SRVSCR_BREASTSUR8_V1R0 id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
 
 O, si le es más fácil recordar el año, ingréselo aquí:
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
+|__|__|__|__|xor=SRVSCR_BREASTSUR8_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
 
 
 [D_907385951?] ¿Cuántos años tenía cuando se sometió a |displayif=exists("D_942347130")|<b>{$D_942347130}</b>||displayif=doesNotExist("D_942347130")|<b>otro tipo de cirugía de mamas</b>|? 
 
-|__|__|id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
+|__|__|xor=SRVSCR_BREASTSUR9_V1R0 id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
 O, si le es más fácil recordar el año, ingréselo aquí:
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
+|__|__|__|__|xor=SRVSCR_BREASTSUR9_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
 
 
 [D_350184001?] ¿Cuántos años tenía cuando le <b>extirparon el útero (histerectomía)?</b>
 
-|__|__|id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
+|__|__|xor=SRVSCR_HYSTER_V1R0 id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
 
 O, si le es más fácil recordar el año, ingréselo aquí:
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
+|__|__|__|__|xor=SRVSCR_HYSTER_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
 
 
 [D_522645663?] ¿Cuántos años tenía cuando le <b>ligaron las trompas?</b>
 
-|__|__|id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
+|__|__|xor=SRVSCR_TUBLIG_V1R0 id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
 
 O, si le es más fácil recordar el año, ingréselo aquí:
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
+|__|__|__|__|xor=SRVSCR_TUBLIG_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
 
 
 [D_590067228?] ¿Cuál de las siguientes es la mejor descripción del tipo de <b>cirugía de extirpación de ovarios</b> a la que se sometió?
@@ -307,10 +307,10 @@ O, si le es más fácil recordar el año, ingréselo aquí:
 
 [D_787505819?,displayif=valueIsOneOf("D_590067228",333647143,109972911)] ¿Cuántos años tenía cuando le extirparon uno o los dos ovarios (ovariectomía)? Si se ha sometido a más de una intervención, ¿qué edad tenía cuando se sometió a la <b>última?</b>
 
-|__|__|id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
+|__|__|xor=SRVSCR_OVARYREM2_V1R0 id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
 
 O, si le es más fácil recordar el año, ingréselo aquí:
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
+|__|__|__|__|xor=SRVSCR_OVARYREM2_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
 
 
 [D_860839849?] ¿Cuál de las siguientes es la mejor descripción del tipo de <b>cirugía de extirpación de trompas de Falopio</b> a la que se sometió?
@@ -322,18 +322,18 @@ O, si le es más fácil recordar el año, ingréselo aquí:
 
 [D_949587133?,displayif=valueIsOneOf("D_860839849",448068764,537173119)] ¿Cuántos años tenía cuando le extirparon una o las dos trompas de Falopio (salpingectomía o salpingooforectomía)? Si se ha sometido a más de una intervención, ¿qué edad tenía cuando se sometió a la <b>última?</b> 
 
-|__|__|id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
+|__|__|xor=SRVSCR_FTREM2_V1R0 id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
 
 O, si le es más fácil recordar el año, ingréselo aquí:
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
+|__|__|__|__|xor=SRVSCR_FTREM2_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
 
 
 [D_671670265?] ¿Cuántos años tenía cuando le hicieron una <b>vasectomía?</b>
 
-|__|__|id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
+|__|__|xor=SRVSCR_VASEC_V1R0 id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
 
 O, si le es más fácil recordar el año, ingréselo aquí:
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
+|__|__|__|__|xor=SRVSCR_VASEC_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
 
 
 [D_429157727?] ¿Cuál de las siguientes es la mejor descripción del tipo de <b>cirugía de extirpación de testículos</b> a la que se sometió?
@@ -346,10 +346,10 @@ O, si le es más fácil recordar el año, ingréselo aquí:
 
 [D_314345103?,displayif=valueIsOneOf("D_429157727",770550588,970716952)] ¿Cuántos años tenía cuando le extirparon uno o los dos testículos (orquiectomía o orquidectomía)? Si se ha sometido a más de una intervención, ¿qué edad tenía cuando se sometió a la <b>última?</b>
 
-|__|__|id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
+|__|__|xor=SRVSCR_TESTREM2_V1R0 id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
 
 O, si le es más fácil recordar el año, ingréselo aquí:
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
+|__|__|__|__|xor=SRVSCR_TESTREM2_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
 
 
 [D_292314539?] ¿Cuál de las siguientes es la mejor descripción del tipo de <b>cirugía de extirpación de próstata</b> a la que se sometió? 
@@ -362,18 +362,18 @@ O, si le es más fácil recordar el año, ingréselo aquí:
 
 [D_343990595?,displayif=valueIsOneOf("D_292314539",524029283,500023550)] ¿Cuántos años tenía cuando le extirparon toda o una parte de su próstata (prostatectomía)? Si se ha sometido a más de una intervención, ¿qué edad tenía cuando se sometió a la <b>última? </b>
 
-|__|__|id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
+|__|__|xor=SRVSCR_PROSREM2_V1R0 id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
 
 O, si le es más fácil recordar el año, ingréselo aquí:
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear|  Año de la operación
+|__|__|__|__|xor=SRVSCR_PROSREM2_V1R0 id=D_802622485 min=_value("yob") max=#currentYear|  Año de la operación
 
 
 [D_203366781?] ¿Cuántos años tenía cuando le <b>extirparon el pene (penectomía)?</b>
 
-|__|__|id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
+|__|__|xor=SRVSCR_PENREM_V1R0 id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
 
 O, si le es más fácil recordar el año, ingréselo aquí:
-|__|__|__|__|id=D_802622485 min=_value("yob") max=#currentYear| Año de diagnóstico
+|__|__|__|__|xor=SRVSCR_PENREM_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Año de diagnóstico
 
 
 
