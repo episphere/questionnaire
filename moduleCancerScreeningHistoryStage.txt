@@ -43,7 +43,7 @@
 // count: 5 | warning: "HPV | this may be an untransformed Quest code"
 
 
-//This file was last modified on Thu Dec 12 14:03:52 2024 -0500 (short timestamp = 2024-12-12-19-03-52)
+//This file was last modified on Fri Dec 13 11:54:55 2024 -0500 (short timestamp = 2024-12-13-16-54-55)
 //{"version":"1.0"}
 {"name":"D_369168474"}
 
@@ -368,8 +368,8 @@ Or, if it is easier to remember the year, enter that here:
 
 (770550588)	I had surgery to remove one testicle -> D_314345103
 (970716952)	I had surgery to remove both testicles -> D_314345103
-(535003378)	None of the above  -> D_292314539
-<#NR -> D_292314539>
+(535003378)	None of the above  
+
 
 
 [D_314345103?,displayif=valueIsOneOf("D_429157727",770550588,970716952)] How old were you when you had one or both testicles removed (orchiectomy or orchidectomy)? If you have had more than one procedure, at what age did you <b>last</b> have this procedure? 
@@ -384,8 +384,7 @@ Or, if it is easier to remember the year, enter that here:
 
 (524029283)	I had surgery to remove part of my prostate ->D_343990595
 (500023550)	I had surgery to remove my whole prostate -> D_343990595
-(535003378)	None of the above  -> D_203366781
-<#NR -> D_203366781>
+(535003378)	None of the above  
 
 
 [D_343990595?,displayif=valueIsOneOf("D_292314539",524029283,500023550)] How old were you when you had part or all of your prostate removed (prostatectomy)? If you have had more than one procedure, at what age did you <b>last</b> have this procedure? 
@@ -849,7 +848,7 @@ Have you <b>ever</b> had any of these tests to check for prostate cancer or othe
 (640520411)	Over 10 years ago
 (178420302)	Don’t know
 
-[D_961267001?,displayif=valueIsOneOf("D_413039729",104430631,801218076)] <b>Breast Cancer Screening</b>
+[D_961267001?,displayif=valueIsOneOf("D_413039729",145235510,801218076)] <b>Breast Cancer Screening</b>
 
 Have you <b>ever</b> had any of these procedures to check for breast cancer or other conditions? Select all that apply.
 
