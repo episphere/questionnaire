@@ -36,7 +36,7 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Thu Dec 12 11:05:31 2024 -0500 (short timestamp = 2024-12-12-16-05-31)
+//This file was last modified on Fri Dec 13 13:47:14 2024 -0500 (short timestamp = 2024-12-13-18-47-14)
 //This file was última modified on Fri Oct 18 09:27:47 2024 -0400 (short timestamp = 2024-10-18-13-27-47)
 //{"version":"1.0"}
 {"name":"D_369168474"}
@@ -340,8 +340,7 @@ O, si le es más fácil recordar el año, ingréselo aquí:
 
 (770550588)	Me operaron para extirparme uno de los testículos -> D_314345103
 (970716952)	Me operaron para extirparme los dos testículos -> D_314345103
-(535003378)	Nada de lo anterior -> D_292314539
-<#NR -> D_292314539>
+(535003378)	Nada de lo anterior 
 
 
 [D_314345103?,displayif=valueIsOneOf("D_429157727",770550588,970716952)] ¿Cuántos años tenía cuando le extirparon uno o los dos testículos (orquiectomía o orquidectomía)? Si se ha sometido a más de una intervención, ¿qué edad tenía cuando se sometió a la <b>última?</b>
@@ -356,8 +355,7 @@ O, si le es más fácil recordar el año, ingréselo aquí:
 
 (524029283)	Me operaron para extirparme parte de la próstata ->D_343990595
 (500023550)	Me operaron para extirparme toda la próstata -> D_343990595
-(535003378)	Nada de lo anterior -> D_203366781
-<#NR -> D_203366781>
+(535003378)	Nada de lo anterior 
 
 
 [D_343990595?,displayif=valueIsOneOf("D_292314539",524029283,500023550)] ¿Cuántos años tenía cuando le extirparon toda o una parte de su próstata (prostatectomía)? Si se ha sometido a más de una intervención, ¿qué edad tenía cuando se sometió a la <b>última? </b>
@@ -862,7 +860,7 @@ Durante la detección de cáncer oral, su proveedor puede hacer uno de los sigui
 (640520411)	Hace más de 10 años
 (178420302)	No sé 
 
-[D_961267001?,displayif=valueIsOneOf("D_413039729",104430631,801218076)] <b>Detección de cáncer de mama</b>
+[D_961267001?,displayif=valueIsOneOf("D_413039729",145235510,801218076)] <b>Detección de cáncer de mama</b>
 
 ¿<b>Alguna vez</b> se sometió a alguno de estos procedimientos en busca de cáncer de mama u otras afecciones? Marque todo lo que corresponda. 
 
