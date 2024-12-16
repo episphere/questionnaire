@@ -43,7 +43,7 @@
 // count: 5 | warning: "HPV | this may be an untransformed Quest code"
 
 
-//This file was last modified on Fri Dec 13 11:54:55 2024 -0500 (short timestamp = 2024-12-13-16-54-55)
+//This file was last modified on Mon Dec 16 13:03:29 2024 -0500 (short timestamp = 2024-12-16-18-03-29)
 //{"version":"1.0"}
 {"name":"D_369168474"}
 
@@ -51,9 +51,8 @@
 
 In this set of questions, we ask about tests that may be used to screen for cancer. Screening tests are routine tests that look for cancer before a person has symptoms. It may be helpful to review your medical records before you start this survey. If you are not sure of an answer, please make your best guess.
 
-We want to ask questions that make sense for you. First, we will ask about organs you were born with and organs you currently have. 
 
-[D_890391968?] Please select all of the body parts you were <b>born with</b>.
+[D_890391968?] We want to ask questions that make sense for you. First, we will ask about organs you were born with and organs you currently have. Please select all of the body parts you were <b>born with</b>.
 
 If you were assigned male at birth, you probably had:
 [582784267]	Penis (Phallus) 
@@ -887,7 +886,7 @@ Have you <b>ever</b> had any of these procedures to check for breast cancer or o
 (178420302)	Don’t know
 < -> D_372457715>
 
-[D_372457715?,displayif=valueIsOneOf("D_111580947",506053626,119809731,282580702,934779560,178420302)] When you <b>last</b> had a mammogram, what type of mammogram did you have?
+[D_372457715?,,displayif=equals(D_111580947,236949684)] When you <b>last</b> had a mammogram, what type of mammogram did you have?
 (441766026)	<b>2D Mammogram</b> Also known as conventional digital mammography. Two pictures are typically taken of each breast—one from the side and one from above.
 (510907305)	<b>3D Mammogram</b> Also known as digital breast tomosynthesis. Multiple images are taken of the breast from different angles. A computer combines the images to create a 3D picture of the breast, which may give doctors a clearer view of the breast tissue.
 (178420302)	I don’t know what type of mammogram I had. 
@@ -1276,7 +1275,7 @@ Have you <b>ever</b> had any of these tests to check for endometrial cancer or o
 [D_219076879?] <b>Multi-Cancer Screening Tests</b>
 
 Have you <b>ever</b> had any of these tests to check for multiple types of cancers? Select all that apply.
-[875157431] <b>Multi-cancer early detection (MCED) Test</b> Also known as a liquid biopsy. MCED tests (for example, GRAIL’s Galleri ™ test) are blood tests that measure biological signals in body fluids that may be shed by cancer cells. -> D_822790675
+[875157431] <b>Multi-cancer early detection (MCED) Test</b> Also known as a liquid biopsy. MCED tests (for example, GRAIL’s Galleri™ test) are blood tests that measure biological signals in body fluids that may be shed by cancer cells. -> D_822790675
 [309925717] <b>Full body MRI or CT</b> An MRI (Magnetic Resonance Imaging) or CT (CAT scan) of your body. Detailed pictures of the inside of your body were taken while you were laying down in an MRI or CT machine. -> D_553034408 
 [535003378*] I have <b>not</b> had any of these screening tests 	
 < ->  D_431721131>
