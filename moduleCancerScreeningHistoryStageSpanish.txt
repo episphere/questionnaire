@@ -36,7 +36,7 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Fri Dec 13 13:47:14 2024 -0500 (short timestamp = 2024-12-13-18-47-14)
+//This file was last modified on Mon Dec 16 17:04:53 2024 -0500 (short timestamp = 2024-12-16-22-04-53)
 //This file was última modified on Fri Oct 18 09:27:47 2024 -0400 (short timestamp = 2024-10-18-13-27-47)
 //{"version":"1.0"}
 {"name":"D_369168474"}
@@ -45,9 +45,8 @@
 
 Este conjunto de preguntas es sobre las pruebas de detección de cáncer que puedan haberle hecho. Las pruebas de detección son exámenes de rutina que buscan cáncer antes de que las personas presenten síntomas. Puede ser útil que repase su historia clínica antes de comenzar a completar la encuesta. Si hay alguna respuesta que no sepa con seguridad, dé la respuesta más aproximada que pueda.
 
-Queremos hacer preguntas que tengan sentido para usted. En primer lugar, le preguntaremos con qué órganos nació y qué órganos tiene en la actualidad. 
 
-[D_890391968?] Marque todas las partes del cuerpo <b>con las cuales nació.</b>
+[D_890391968?] Queremos hacer preguntas que tengan sentido para usted. En primer lugar, le preguntaremos con qué órganos nació y qué órganos tiene en la actualidad. Marque todas las partes del cuerpo <b>con las cuales nació.</b>
 
 Si al nacer le asignaron el sexo masculino, es probable que haya tenido:
 [582784267]	Pene (falo) 
@@ -130,8 +129,7 @@ O, si le es más fácil recordar el año, ingréselo aquí:
 
 (113771607)	Me operaron para extirparme uno de los riñones -> D_998519118
 (668256654)	Me operaron para extirparme los dos riñones -> D_998519118
-(535003378)	Nada de lo anterior -> D_671670265
-<#NR -> D_671670265>
+(535003378)	Nada de lo anterior 
 
 
 [D_998519118?,displayif=valueIsOneOf("D_951847507",113771607,668256654)] ¿Cuántos años tenía cuando le extirparon uno o los dos riñones (nefrectomía)? Si se ha sometido a más de una intervención, ¿qué edad tenía cuando se sometió a la <b>última? </b>
@@ -176,7 +174,7 @@ O, si le es más fácil recordar el año, ingréselo aquí:
 
 
 
-[D_439760665?] ¿Cuántos años tenía cuando se sometió a <b>cirugía de implantes de mamas</b> (cirugía de aumento)? 
+[D_439760665?,displayif=equals(D_506456253,752953170)] ¿Cuántos años tenía cuando se sometió a <b>cirugía de implantes de mamas</b> (cirugía de aumento)? 
 
 |__|__|xor=SRVSCR_BREASTSUR0_V1R0 id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
 
@@ -184,7 +182,7 @@ O, si le es más fácil recordar el año, ingréselo aquí:
 |__|__|__|__|xor=SRVSCR_BREASTSUR0_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
 
 
-[D_950690103?] ¿Cuántos años tenía cuando se sometió a <b>cirugía de elevación de mamas</b> (mastopexia)? 
+[D_950690103?,displayif=equals(D_506456253,325506683)] ¿Cuántos años tenía cuando se sometió a <b>cirugía de elevación de mamas</b> (mastopexia)? 
 
 |__|__|xor=SRVSCR_BREASTSUR1_V1R0 id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
 
@@ -192,7 +190,7 @@ O, si le es más fácil recordar el año, ingréselo aquí:
 |__|__|__|__|xor=SRVSCR_BREASTSUR1_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
 
 
-[D_975268706?] ¿Cuántos años tenía cuando se sometió a <b>cirugía de reconstrucción de mamas?</b>
+[D_975268706?,displayif=equals(D_506456253,335563082)] ¿Cuántos años tenía cuando se sometió a <b>cirugía de reconstrucción de mamas?</b>
 
 |__|__|xor=SRVSCR_BREASTSUR2_V2R0 id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
 
@@ -200,7 +198,7 @@ O, si le es más fácil recordar el año, ingréselo aquí:
 |__|__|__|__|xor=SRVSCR_BREASTSUR2_V2R0 id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
 
 
-[D_277890744?] ¿Cuántos años tenía cuando se sometió a <b>cirugía de reducción de mamas</b> (mamopúltimaia reductora)? 
+[D_277890744?,displayif=equals(D_506456253,955881350)] ¿Cuántos años tenía cuando se sometió a <b>cirugía de reducción de mamas</b> (mamopúltimaia reductora)? 
 
 |__|__|xor=SRVSCR_BREASTSUR3_V1R0 id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
 
@@ -208,7 +206,7 @@ O, si le es más fácil recordar el año, ingréselo aquí:
 |__|__|__|__|xor=SRVSCR_BREASTSUR3_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
 
 
-[D_936444833?] ¿Cuántos años tenía cuando se sometió a <b>cirugía de extirpación de una parte de su tejido mamario</b> (cirugía de conservación de mama, tumorectomía, mastectomía parcial o mastectomía segmentaria)? 
+[D_936444833?,displayif=equals(D_506456253,492902023)] ¿Cuántos años tenía cuando se sometió a <b>cirugía de extirpación de una parte de su tejido mamario</b> (cirugía de conservación de mama, tumorectomía, mastectomía parcial o mastectomía segmentaria)? 
 
 |__|__|xor=SRVSCR_BREASTSUR4_V1R0 id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
 
@@ -216,7 +214,7 @@ O, si le es más fácil recordar el año, ingréselo aquí:
 |__|__|__|__|xor=SRVSCR_BREASTSUR4_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
 
 
-[D_758881441?] ¿Cuántos años tenía cuando se sometió a <b>cirugía de extirpación de una mama</b> (mastectomía)? 
+[D_758881441?,displayif=equals(D_506456253,256196714)] ¿Cuántos años tenía cuando se sometió a <b>cirugía de extirpación de una mama</b> (mastectomía)? 
 
 |__|__|xor=SRVSCR_BREASTSUR5_V1R0 id=D_623218391 min=0 max=_value("age")|  Edad al momento de la operación
 
@@ -224,7 +222,7 @@ O, si le es más fácil recordar el año, ingréselo aquí:
 |__|__|__|__|xor=SRVSCR_BREASTSUR5_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
 
 
-[D_765772509?] ¿Cuál de las siguientes es la mejor descripción del tipo de cirugía de extirpación de mama a la que se sometió?
+[D_765772509?,displayif=equals(D_506456253,802859122)] ¿Cuál de las siguientes es la mejor descripción del tipo de cirugía de extirpación de mama a la que se sometió?
 
 (308633554)	Me extirparon ambas mamas en una sola operación -> D_250353250
 (967156738)	Me extirparon ambas mamas, cada una en una operación diferente  -> D_116546181
@@ -232,7 +230,7 @@ O, si le es más fácil recordar el año, ingréselo aquí:
 <#NR -> D_166524009>
 
 
-[D_250353250?,displayif=equals("D_765772509",308633554)] ¿Cuántos años tenía cuando se sometió a <b>cirugía de extirpación de ambas mamas</b> (mastectomía doble o bilateral)? 
+[D_250353250?,displayif=equals(D_765772509,308633554)] ¿Cuántos años tenía cuando se sometió a <b>cirugía de extirpación de ambas mamas</b> (mastectomía doble o bilateral)? 
 
 |__|__|xor=SRVSCR_BREASTSUR6_V1R0 id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
 
@@ -240,7 +238,7 @@ O, si le es más fácil recordar el año, ingréselo aquí:
 |__|__|__|__|xor=SRVSCR_BREASTSUR6_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
 
 
-[D_116546181?,displayif=equals("D_765772509",967156738)] ¿Cuántos años tenía cuando se sometió a la <b>primera cirugía de extirpación de una mama? </b>
+[D_116546181?,displayif=equals(D_765772509,967156738)] ¿Cuántos años tenía cuando se sometió a la <b>primera cirugía de extirpación de una mama? </b>
 
 |__|__|xor=SRVSCR_BREASTSUR6B_V1R0 id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
 
@@ -250,7 +248,7 @@ O, si le es más fácil recordar el año, ingréselo aquí:
 <-> D_496928179>
 
 
-[D_496928179?,displayif=equals("D_765772509",967156738)] ¿Cuántos años tenía cuando se sometió a la <b>segunda cirugía de extirpación de una mama?</b>  
+[D_496928179?,displayif=equals(D_765772509,967156738)] ¿Cuántos años tenía cuando se sometió a la <b>segunda cirugía de extirpación de una mama?</b>  
 
 |__|__|xor=SRVSCR_BREASTSUR6C_V1R0 id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
 
@@ -258,7 +256,7 @@ O, si le es más fácil recordar el año, ingréselo aquí:
 |__|__|__|__|xor=SRVSCR_BREASTSUR6C_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
 
 
-[D_166524009?] ¿Cuántos años tenía cuando se sometió a <b>cirugía de absceso mamario</b> (por ejemplo, incisión y drenaje)? 
+[D_166524009?,displayif=equals(D_506456253,520432394)] ¿Cuántos años tenía cuando se sometió a <b>cirugía de absceso mamario</b> (por ejemplo, incisión y drenaje)? 
 
 |__|__|xor=SRVSCR_BREASTSUR7_V1R0 id=D_623218391 min=0 max=_value("age")|  Edad al momento de la operación
 
@@ -266,7 +264,7 @@ O, si le es más fácil recordar el año, ingréselo aquí:
 |__|__|__|__|xor=SRVSCR_BREASTSUR7_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
 
 
-[D_367942006?] ¿Cuántos años tenía cuando se sometió a <b>cirugía de extirpación de un conducto galactóforo o lácteo </b>(microductectomía)? 
+[D_367942006?,displayif=equals(D_506456253,667901971)] ¿Cuántos años tenía cuando se sometió a <b>cirugía de extirpación de un conducto galactóforo o lácteo </b>(microductectomía)? 
 
 |__|__|xor=SRVSCR_BREASTSUR8_V1R0 id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
 
@@ -274,7 +272,7 @@ O, si le es más fácil recordar el año, ingréselo aquí:
 |__|__|__|__|xor=SRVSCR_BREASTSUR8_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
 
 
-[D_907385951?] ¿Cuántos años tenía cuando se sometió a |displayif=exists("D_942347130")|<b>{$D_942347130}</b>||displayif=doesNotExist("D_942347130")|<b>otro tipo de cirugía de mamas</b>|? 
+[D_907385951?,displayif=equals(D_506456253,807835037)] ¿Cuántos años tenía cuando se sometió a |displayif=exists("D_942347130")|<b>{$D_942347130}</b>||displayif=doesNotExist("D_942347130")|<b>otro tipo de cirugía de mamas</b>|? 
 
 |__|__|xor=SRVSCR_BREASTSUR9_V1R0 id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
 O, si le es más fácil recordar el año, ingréselo aquí:
@@ -301,8 +299,7 @@ O, si le es más fácil recordar el año, ingréselo aquí:
 
 (333647143)	Me operaron para extirparme uno de los ovarios -> D_787505819
 (109972911)	Me operaron para extirparme los dos ovarios -> D_787505819
-(535003378)	Nada de lo anterior -> D_860839849
-<#NR -> D_860839849>
+(535003378)	Nada de lo anterior 
 
 
 [D_787505819?,displayif=valueIsOneOf("D_590067228",333647143,109972911)] ¿Cuántos años tenía cuando le extirparon uno o los dos ovarios (ovariectomía)? Si se ha sometido a más de una intervención, ¿qué edad tenía cuando se sometió a la <b>última?</b>
@@ -317,8 +314,7 @@ O, si le es más fácil recordar el año, ingréselo aquí:
 
 (448068764)	Me operaron para extirparme una de las trompas de Falopio -> D_949587133
 (537173119)	Me operaron para extirparme las dos trompas de Falopio -> D_949587133
-(535003378)	Nada de lo anterior -> D_671670265
-<#NR -> D_671670265>
+(535003378)	Nada de lo anterior 
 
 [D_949587133?,displayif=valueIsOneOf("D_860839849",448068764,537173119)] ¿Cuántos años tenía cuando le extirparon una o las dos trompas de Falopio (salpingectomía o salpingooforectomía)? Si se ha sometido a más de una intervención, ¿qué edad tenía cuando se sometió a la <b>última?</b> 
 
@@ -902,7 +898,7 @@ Durante la detección de cáncer oral, su proveedor puede hacer uno de los sigui
 (178420302)	No sé 
 < -> D_372457715>
 
-[D_372457715?,displayif=valueIsOneOf("D_111580947",506053626,119809731,282580702,934779560,178420302)] La <b>última</b> vez que le hicieron una mamografía, ¿de qué tipo fue?
+[D_372457715?,displayif=equals(D_111580947,236949684)] La <b>última</b> vez que le hicieron una mamografía, ¿de qué tipo fue?
 
 (441766026)	<b>Mamografía 2D</b> También conocida como mamografía digital convencional. Suelen tomarse dos imágenes de cada mama: una de costado y una desde arriba.
 (510907305)	<b>Mamografía 3D</b> También conocida como tomosíntesis digital de mama. Se toman varias imágenes de la mama desde diferentes ángulos. Una computadora las combina para crear una imagen tridimensional de la mama que puede permitirles a los médicos ver el tejido mamario con más claridad.
@@ -1366,4 +1362,4 @@ Durante la detección de cáncer oral, su proveedor puede hacer uno de los sigui
 (275706407)	La completó otra persona en nombre del participante del estudio.
 
 
-[END] Observación final de la pantalla de envío de la encuesta: “Ha respondido todas las preguntas de esta encuesta. Para enviar sus respuestas, haga clic en el botón Enviar Encuesta.
+[END] Ha respondido todas las preguntas de esta encuesta. Para enviar sus respuestas, haga clic en el botón "Enviar Encuesta".
