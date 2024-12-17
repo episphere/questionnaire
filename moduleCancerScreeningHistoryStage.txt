@@ -43,7 +43,7 @@
 // count: 5 | warning: "HPV | this may be an untransformed Quest code"
 
 
-//This file was last modified on Mon Dec 16 16:56:49 2024 -0500 (short timestamp = 2024-12-16-21-56-49)
+//This file was last modified on Tue Dec 17 13:53:21 2024 -0500 (short timestamp = 2024-12-17-18-53-21)
 //{"version":"1.0"}
 {"name":"D_369168474"}
 
@@ -603,7 +603,7 @@ Have you <b>ever</b> had any of these tests or procedures for colorectal cancer 
 (178420302)	Don’t know -> D_806961194
 
 
-[D_806961194?,displayif=valueIsOneOf("D_960218176",506053626,119809731,178420302)] When did you <b>last</b> have a stool (fecal) test?
+[D_806961194?,displayif=valueIsOneOf("D_960218176",506053626,119809731,282580702,934779560,178420302)] When did you <b>last</b> have a stool (fecal) test?
 (461386928)	Less than 1 year ago
 (729845236)	More than 1 year ago, but less than 2 years ago
 (669023414)	More than 2 years ago, but less than 5 years ago
@@ -640,7 +640,7 @@ Have you <b>ever</b> had an anal screening test to look for anal cancer or other
 (178420302)	Don’t know
 <#NR ->  D_524918714>
 
-[D_581174597?] When were you <b>last</b> screened for anal cancer?
+[D_581174597?,displayif=valueIsOneOf("D_236655642",506053626,119809731,282580702,934779560,178420302)] When were you <b>last</b> screened for anal cancer?
 (461386928)	Less than 1 year ago 
 (729845236)	More than 1 year ago, but less than 2 years ago
 (669023414)	More than 2 years ago, but less than 5 years ago
@@ -672,7 +672,7 @@ Have you <b>ever</b> had a low dose CT of the lungs to check for lung cancer or 
 (178420302)	Don’t know
 <#NR ->  D_552399966>
 
-[D_737402324?] When did you <b>last</b> have a low dose CT of the lungs?
+[D_737402324?,displayif=valueIsOneOf("D_221189280",506053626,462661976,178420302)] When did you <b>last</b> have a low dose CT of the lungs?
 (461386928)	Less than 1 year ago
 (729845236)	More than 1 year ago, but less than 2 years ago
 (669023414)	More than 2 years ago, but less than 5 years ago
