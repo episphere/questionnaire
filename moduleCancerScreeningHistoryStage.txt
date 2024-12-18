@@ -43,7 +43,7 @@
 // count: 5 | warning: "HPV | this may be an untransformed Quest code"
 
 
-//This file was last modified on Tue Dec 17 15:56:34 2024 -0500 (short timestamp = 2024-12-17-20-56-34)
+//This file was last modified on Tue Dec 17 18:43:39 2024 -0500 (short timestamp = 2024-12-17-23-43-39)
 //{"version":"1.0"}
 {"name":"D_369168474"}
 
@@ -316,7 +316,7 @@ Or, if it is easier to remember the year, enter that here:
 |__|__|__|__|xor=SRVSCR_HYSTER_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
 
 
-[D_522645663?] How old were you when you had your <b>tubes tied (tubal ligation)?</b>
+[D_522645663?] How old were you when you had your <b>tubes tied (tubal ligation)</b>?
 
 |__|__|xor=SRVSCR_TUBLIG_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
 
@@ -1048,11 +1048,11 @@ Have you <b>ever</b> had any of these tests to check for ovarian cancer or other
 [D_229764995?,displayif=equals(D_890391968,505282171)] <b>Cervical Cancer Screening</b>
 
 Have you <b>ever</b> had any of these tests to check for cervical cancer or other conditions? Select all that apply. 
-[405616098]<b> High-risk human papillomavirus (HrHPV) Test</b> A healthcare provider used a plastic or metal instrument called a speculum to open your vagina and used a soft brush or plastic spatula to collect cells from your cervix. The cells were checked for the type of HPV that can lead to cervical cancer. -> D_934385625
+[405616098]<b> High-risk human papillomavirus (HrHPV) Test</b> A healthcare provider used a plastic or metal instrument called a speculum to open your vagina, and used a soft brush or plastic spatula to collect cells from your cervix. The cells were checked for the type of HPV that can lead to cervical cancer. -> D_934385625
 // TRANSFORMER WARNING --> HPV | this may be an untransformed Quest code
 [646114392] <b>Pap Test</b> Also known as Pap smear or cervical cytology. A healthcare provider used a plastic or metal instrument called a speculum to open your vagina, and used a soft brush or plastic spatula to collect cells from your cervix. The cells were checked for cancer or signs that they may become cancer. -> D_723960145
-[673135412] I have had a cervical cancer screening test, but do not know which test I had. -> D_623413449
-[535003378*] I have <b>not</b> had any of these screening tests. 
+[673135412*] I have had a cervical cancer screening test, but do not know which test I had -> D_623413449
+[535003378*] I have <b>not</b> had any of these screening tests 
 < ->  D_356470898>
 
 
