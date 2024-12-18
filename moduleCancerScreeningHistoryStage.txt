@@ -43,7 +43,7 @@
 // count: 5 | warning: "HPV | this may be an untransformed Quest code"
 
 
-//This file was last modified on Tue Dec 17 13:53:21 2024 -0500 (short timestamp = 2024-12-17-18-53-21)
+//This file was last modified on Tue Dec 17 15:56:34 2024 -0500 (short timestamp = 2024-12-17-20-56-34)
 //{"version":"1.0"}
 {"name":"D_369168474"}
 
@@ -132,7 +132,7 @@ Or, if it is easier to remember the year, enter that here:
 |__|__|__|__|xor=SRVSCR_SPLEENREM_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
 
 
-[D_976626196?] How old were you when you had <b>your thyroid removed (thyroidectomy)?</b>
+[D_976626196?] How old were you when you had your <b>thyroid removed (thyroidectomy)?</b>
 
 |__|__|xor=SRVSCR_THYRDREM_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
 
@@ -870,12 +870,12 @@ Have you <b>ever</b> had any of these procedures to check for breast cancer or o
 
 [D_111580947?,displayif=equals(D_961267001,577887061)] How many times have you had a mammogram?
 (236949684)	Once  -> D_372457715
-(506053626)	Twice
-(119809731)	3 to 5 times
-(282580702)	6 to 10 times
-(934779560)	Over 10 times
-(178420302)	Don’t know
-< -> D_709088568>
+(506053626)	Twice -> D_709088568
+(119809731)	3 to 5 times -> D_709088568
+(282580702)	6 to 10 times -> D_709088568
+(934779560)	Over 10 times -> D_709088568
+(178420302)	Don’t know -> D_709088568
+< #NR -> D_372457715>
 
 [D_709088568?,displayif=valueIsOneOf("D_111580947",506053626,119809731,282580702,934779560,178420302)] When did you <b>last</b> have a mammogram?
 (461386928)	Less than 1 year ago
@@ -886,7 +886,7 @@ Have you <b>ever</b> had any of these procedures to check for breast cancer or o
 (178420302)	Don’t know
 < -> D_372457715>
 
-[D_372457715?,,displayif=equals(D_111580947,236949684)] When you <b>last</b> had a mammogram, what type of mammogram did you have?
+[D_372457715?,displayif=equals(D_961267001,577887061)] When you <b>last</b> had a mammogram, what type of mammogram did you have?
 (441766026)	<b>2D Mammogram</b> Also known as conventional digital mammography. Two pictures are typically taken of each breast—one from the side and one from above.
 (510907305)	<b>3D Mammogram</b> Also known as digital breast tomosynthesis. Multiple images are taken of the breast from different angles. A computer combines the images to create a 3D picture of the breast, which may give doctors a clearer view of the breast tissue.
 (178420302)	I don’t know what type of mammogram I had. 
