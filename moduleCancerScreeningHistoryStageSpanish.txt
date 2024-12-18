@@ -36,7 +36,7 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Tue Dec 17 16:05:37 2024 -0500 (short timestamp = 2024-12-17-21-05-37)
+//This file was last modified on Wed Dec 18 09:59:29 2024 -0500 (short timestamp = 2024-12-18-14-59-29)
 //This file was última modified on Fri Oct 18 09:27:47 2024 -0400 (short timestamp = 2024-10-18-13-27-47)
 //{"version":"1.0"}
 {"name":"D_369168474"}
@@ -198,7 +198,7 @@ O, si le es más fácil recordar el año, ingréselo aquí:
 |__|__|__|__|xor=SRVSCR_BREASTSUR2_V2R0 id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
 
 
-[D_277890744?,displayif=equals(D_506456253,955881350)] ¿Cuántos años tenía cuando se sometió a <b>cirugía de reducción de mamas</b> (mamopúltimaia reductora)? 
+[D_277890744?,displayif=equals(D_506456253,955881350)] ¿Cuántos años tenía cuando se sometió a <b>cirugía de reducción de mamas</b> (mamoplastia reductora)? 
 
 |__|__|xor=SRVSCR_BREASTSUR3_V1R0 id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
 
