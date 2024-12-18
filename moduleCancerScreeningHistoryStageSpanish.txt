@@ -36,7 +36,7 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Tue Dec 17 11:21:58 2024 -0500 (short timestamp = 2024-12-17-16-21-58)
+//This file was last modified on Tue Dec 17 16:05:37 2024 -0500 (short timestamp = 2024-12-17-21-05-37)
 //This file was última modified on Fri Oct 18 09:27:47 2024 -0400 (short timestamp = 2024-10-18-13-27-47)
 //{"version":"1.0"}
 {"name":"D_369168474"}
@@ -881,12 +881,12 @@ Durante la detección de cáncer oral, su proveedor puede hacer uno de los sigui
 [D_111580947?,displayif=equals(D_961267001,577887061)] ¿Cuántas veces le hicieron mamografías?
 
 (236949684)	Una vez  -> D_372457715
-(506053626)	Dos veces
-(119809731)	Entre 3 y 5 veces
-(282580702)	Entre 6 y 10 veces
-(934779560)	Más de 10 veces
-(178420302)	No sé 
-< -> D_709088568>
+(506053626)	Dos veces -> D_709088568
+(119809731)	Entre 3 y 5 veces -> D_709088568
+(282580702)	Entre 6 y 10 veces -> D_709088568
+(934779560)	Más de 10 veces -> D_709088568
+(178420302)	No sé  -> D_709088568
+< #NR -> D_372457715>
 
 [D_709088568?,displayif=valueIsOneOf("D_111580947",506053626,119809731,282580702,934779560,178420302)] ¿Cuándo fue la <b>última</b> vez que le hicieron una mamografía?
 
@@ -898,7 +898,7 @@ Durante la detección de cáncer oral, su proveedor puede hacer uno de los sigui
 (178420302)	No sé 
 < -> D_372457715>
 
-[D_372457715?,displayif=equals(D_111580947,236949684)] La <b>última</b> vez que le hicieron una mamografía, ¿de qué tipo fue?
+[D_372457715?,displayif=equals(D_961267001,577887061)] La <b>última</b> vez que le hicieron una mamografía, ¿de qué tipo fue?
 
 (441766026)	<b>Mamografía 2D</b> También conocida como mamografía digital convencional. Suelen tomarse dos imágenes de cada mama: una de costado y una desde arriba.
 (510907305)	<b>Mamografía 3D</b> También conocida como tomosíntesis digital de mama. Se toman varias imágenes de la mama desde diferentes ángulos. Una computadora las combina para crear una imagen tridimensional de la mama que puede permitirles a los médicos ver el tejido mamario con más claridad.
