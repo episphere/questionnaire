@@ -1,0 +1,1348 @@
+// This file was transformed using the mapping data in Quest-2024-12-09-18-12-55_Transformation.json.
+
+// JSON ERROR --> Concept ID collision for ID: 596318751 | there are unexpected collisions between Quest ID(s): [CURWORK1, CURWORKPOSTPAN1, CURWORKPOSTPAN2, CURWORKPOSTPAN3]
+// JSON ERROR --> Concept ID collision for ID: 784119588 | there are unexpected collisions between Quest ID(s): [SRVBLU_LANGUAGE_V1R0, SRVBOH_LANGUAGE_V1R0, SRVBUM_LANGUAGE_V1R0, SRVCOE_LANGUAGE_V1R0, SRVCOV_LANGUAGE_V1R0, SRVLAW_LANGUAGE_V1R0, SRVMC_LANGUAGE_V1R0, SRVMRE_LANGUAGE_V1R0, SRVMW_LANGUAGE_V1R0, SRVQOL_LANGUAGE_V1R0, SRVSAS_LANGUAGE_V1R0, SRVSCR_LANGUAGE_V1R0, SRVSSN_LANGUAGE_V1R0]
+// JSON ERROR --> Concept ID collision for ID: 431721131 | there are unexpected collisions between Quest ID(s): [QXAUTHOR1, SRVSCR_WHOCOMPLQX_V1R0]
+// JSON ERROR --> Concept ID collision for ID: 847533056 | there are unexpected collisions between Quest ID(s): [LONGESTJOBPOSTPAN, WORK5]
+
+// JSON ERROR --> CURWORKPOSTPAN1 conceptId 596318751 already maps to Quest code: CURWORK1 | conceptId collision
+// JSON ERROR --> CURWORKPOSTPAN2 conceptId 596318751 already maps to Quest code: CURWORK1 | conceptId collision
+// JSON ERROR --> CURWORKPOSTPAN3 conceptId 596318751 already maps to Quest code: CURWORK1 | conceptId collision
+// JSON ERROR --> SRVCOE_LANGUAGE_V1R0 conceptId 784119588 already maps to Quest code: SRVBLU_LANGUAGE_V1R0 | conceptId collision
+// JSON ERROR --> SRVMRE_LANGUAGE_V1R0 conceptId 784119588 already maps to Quest code: SRVBLU_LANGUAGE_V1R0 | conceptId collision
+// JSON ERROR --> SRVSCR_LANGUAGE_V1R0 conceptId 784119588 already maps to Quest code: SRVBLU_LANGUAGE_V1R0 | conceptId collision
+// JSON ERROR --> SRVSCR_WHOCOMPLQX_V1R0 conceptId 431721131 already maps to Quest code: QXAUTHOR1 | conceptId collision
+// JSON ERROR --> WORK5 conceptId 847533056 already maps to Quest code: LONGESTJOBPOSTPAN | conceptId collision
+
+// JSON WARNING --> Concept ID 101310722 with concept "# Pills per day" is shared between these Textbox codes: [ACIDSUP3_1A, ACIDSUP3_2A, ACIDSUP3_3A, CHOLHTN3_1A, CHOLHTN3_2A, INSULIN3_1A, METFOR3_1A, PAINREL3_1A, PAINREL3_2A, PAINREL3_3A, PAINREL3_4A, PAINREL3_5A, PAINREL3_6A, PAINREL3_7A]
+// JSON WARNING --> Concept ID 198325058 with concept "Zip code" is shared between these Textbox codes: [CURWORKPOSTPANZIP, CURWORKPOSTPANZIP_FOLLOWUP]
+// JSON WARNING --> Concept ID 206625031 with concept "Age at diagnosis" is shared between these Textbox codes: [ANEMIA_AGE, ARRHYT_AGE, ASTHMA_AGE, BARESO_AGE, BLOODCLOT_AGE, BREASTDIS_AGE, CCD_AGE, CD_AGE, CHESTPAIN_AGE, CHF_AGE, CHILDCANC3A_AGE, CHILDCANC3B_AGE, CHILDCANC3C_AGE, CHILDCANC3D_AGE, CHILDCANC3E_AGE, CHILDCANC3F_AGE, CHILDCANC3G_AGE, CHILDCANC3H_AGE, CHILDCANC3I_AGE, CHILDCANC3J_AGE, CHILDCANC3K_AGE, CHILDCANC3L_AGE, CHILDCANC3M_AGE, CHILDCANC3N_AGE, CHILDCANC3O_AGE, CHILDCANC3P_AGE, CHILDCANC3Q_AGE, CHILDCANC3R_AGE, CHILDCANC3S_AGE, CHILDCANC3T_AGE, CHILDCANC3U_AGE, CHILDCANC3V_AGE, CHILDCANC3W_AGE, CHILDCANC3X_AGE, CHILDCANC3Y_AGE, CHLA_AGE, CHOL_AGE, CKD_AGE, COPD_AGE, CVD_AGE, DADCANC3A_AGE, DADCANC3B_AGE, DADCANC3C_AGE, DADCANC3D_AGE, DADCANC3E_AGE, DADCANC3F_AGE, DADCANC3G_AGE, DADCANC3H_AGE, DADCANC3I_AGE, DADCANC3J_AGE, DADCANC3K_AGE, DADCANC3L_AGE, DADCANC3M_AGE, DADCANC3N_AGE, DADCANC3O_AGE, DADCANC3P_AGE, DADCANC3Q_AGE, DADCANC3R_AGE, DADCANC3S_AGE, DADCANC3T_AGE, DADCANC3U_AGE, DADCANC3V_AGE, DCIS_AGE, DEPRESS2_AGE, DIVERT_AGE, DM2_AGE, ENDO_AGE, ENLGPROS_AGE, GALL_AGE, GENWARTS_AGE, GERD_AGE, GONORR_AGE, GOUT_AGE, GRAVES_AGE, HAYFEVER_AGE, HBVHCV_AGE, HEARTATT_AGE, HEARTVALV_AGE, HIVAIDS_AGE, HPV_AGE, HTN_AGE, IBD_AGE, IBS_AGE, KIDNEY_AGE, LIVCIRR_AGE, LUPUS_AGE, MOMCANC3A_AGE, MOMCANC3B_AGE, MOMCANC3C_AGE, MOMCANC3D_AGE, MOMCANC3E_AGE, MOMCANC3F_AGE, MOMCANC3G_AGE, MOMCANC3H_AGE, MOMCANC3I_AGE, MOMCANC3J_AGE, MOMCANC3K_AGE, MOMCANC3L_AGE, MOMCANC3M_AGE, MOMCANC3N_AGE, MOMCANC3O_AGE, MOMCANC3P_AGE, MOMCANC3Q_AGE, MOMCANC3R_AGE, MOMCANC3S_AGE, MOMCANC3T_AGE, MOMCANC3U_AGE, MOMCANC3V_AGE, MOMCANC3W_AGE, MONO_AGE, PANCREA_AGE, PCOS_AGE, RA_AGE, SHINGLES_AGE, SIBCANC3A_AGE, SIBCANC3B_AGE, SIBCANC3C_AGE, SIBCANC3D_AGE, SIBCANC3E_AGE, SIBCANC3F_AGE, SIBCANC3G_AGE, SIBCANC3H_AGE, SIBCANC3I_AGE, SIBCANC3J_AGE, SIBCANC3K_AGE, SIBCANC3L_AGE, SIBCANC3M_AGE, SIBCANC3N_AGE, SIBCANC3O_AGE, SIBCANC3P_AGE, SIBCANC3Q_AGE, SIBCANC3R_AGE, SIBCANC3S_AGE, SIBCANC3T_AGE, SIBCANC3U_AGE, SIBCANC3V_AGE, SIBCANC3W_AGE, SIBCANC3X_AGE, SIBCANC3Y_AGE, SKINCANC3_AGE, STROKE_AGE, SYPH_AGE, THYROID_AGE, TRICH_AGE, UC_AGE, UF_AGE]
+// JSON WARNING --> Concept ID 232404519 with concept "State/Province" is shared between these Textbox codes: [CURWORKPOSTPANSTATE, CURWORKPOSTPANSTATE_FOLLOWUP]
+// JSON WARNING --> Concept ID 261863326 with concept "Year at diagnosis" is shared between these Textbox codes: [ANEMIA_YEAR, ARRHYT_YEAR, ASTHMA_YEAR, BARESO_YEAR, BLOODCLOT_YEAR, BREASTDIS_YEAR, CCD_YEAR, CD_YEAR, CHESTPAIN_YEAR, CHF_YEAR, CHILDCANC3A_YEAR, CHILDCANC3B_YEAR, CHILDCANC3C_YEAR, CHILDCANC3D_YEAR, CHILDCANC3E_YEAR, CHILDCANC3F_YEAR, CHILDCANC3G_YEAR, CHILDCANC3H_YEAR, CHILDCANC3I_YEAR, CHILDCANC3J_YEAR, CHILDCANC3K_YEAR, CHILDCANC3L_YEAR, CHILDCANC3M_YEAR, CHILDCANC3N_YEAR, CHILDCANC3O_YEAR, CHILDCANC3P_YEAR, CHILDCANC3Q_YEAR, CHILDCANC3R_YEAR, CHILDCANC3S_YEAR, CHILDCANC3T_YEAR, CHILDCANC3U_YEAR, CHILDCANC3V_YEAR, CHILDCANC3W_YEAR, CHILDCANC3X_YEAR, CHILDCANC3Y_YEAR, CHLA_YEAR, CHOL_YEAR, CKD_YEAR, COPD_YEAR, CVD_YEAR, DADCANC3A_YEAR, DADCANC3B_YEAR, DADCANC3C_YEAR, DADCANC3D_YEAR, DADCANC3E_YEAR, DADCANC3F_YEAR, DADCANC3G_YEAR, DADCANC3H_YEAR, DADCANC3I_YEAR, DADCANC3J_YEAR, DADCANC3K_YEAR, DADCANC3L_YEAR, DADCANC3M_YEAR, DADCANC3N_YEAR, DADCANC3O_YEAR, DADCANC3P_YEAR, DADCANC3Q_YEAR, DADCANC3R_YEAR, DADCANC3S_YEAR, DADCANC3T_YEAR, DADCANC3U_YEAR, DADCANC3V_YEAR, DCIS_YEAR, DEPRESS2_YEAR, DIVERT_YEAR, DM2_YEAR, ENDO_YEAR, ENLGPROS_YEAR, GALL_YEAR, GENWARTS_YEAR, GERD_YEAR, GONORR_YEAR, GOUT_YEAR, GRAVES_YEAR, HAYFEVER_YEAR, HBVHCV_YEAR, HEARTATT_YEAR, HEARTVALV_YEAR, HIVAIDS_YEAR, HPV_YEAR, HTN_YEAR, IBD_YEAR, IBS_YEAR, KIDNEY_YEAR, LIVCIRR_YEAR, LUPUS_YEAR, MOMCANC3A_YEAR, MOMCANC3B_YEAR, MOMCANC3C_YEAR, MOMCANC3D_YEAR, MOMCANC3E_YEAR, MOMCANC3F_YEAR, MOMCANC3G_YEAR, MOMCANC3H_YEAR, MOMCANC3I_YEAR, MOMCANC3J_YEAR, MOMCANC3K_YEAR, MOMCANC3L_YEAR, MOMCANC3M_YEAR, MOMCANC3N_YEAR, MOMCANC3O_YEAR, MOMCANC3P_YEAR, MOMCANC3Q_YEAR, MOMCANC3R_YEAR, MOMCANC3S_YEAR, MOMCANC3T_YEAR, MOMCANC3U_YEAR, MOMCANC3V_YEAR, MOMCANC3W_YEAR, MONO_YEAR, PANCREA_YEAR, PCOS_YEAR, RA_YEAR, SHINGLES_YEAR, SIBCANC3A_YEAR, SIBCANC3B_YEAR, SIBCANC3C_YEAR, SIBCANC3D_YEAR, SIBCANC3E_YEAR, SIBCANC3F_YEAR, SIBCANC3G_YEAR, SIBCANC3H_YEAR, SIBCANC3I_YEAR, SIBCANC3J_YEAR, SIBCANC3K_YEAR, SIBCANC3L_YEAR, SIBCANC3M_YEAR, SIBCANC3N_YEAR, SIBCANC3O_YEAR, SIBCANC3P_YEAR, SIBCANC3Q_YEAR, SIBCANC3R_YEAR, SIBCANC3S_YEAR, SIBCANC3T_YEAR, SIBCANC3U_YEAR, SIBCANC3V_YEAR, SIBCANC3W_YEAR, SIBCANC3X_YEAR, SIBCANC3Y_YEAR, SKINCANC3_YEAR, STROKE_YEAR, SYPH_YEAR, THYROID_YEAR, TRICH_YEAR, UC_YEAR, UF_YEAR]
+// JSON WARNING --> Concept ID 314198277 with concept "Last spent time at this address, year" is shared between these Textbox codes: [SEASADDYRS2_10_YEAR, SEASADDYRS2_1_YEAR, SEASADDYRS2_2_YEAR, SEASADDYRS2_3_YEAR, SEASADDYRS2_4_YEAR, SEASADDYRS2_5_YEAR, SEASADDYRS2_6_YEAR, SEASADDYRS2_7_YEAR, SEASADDYRS2_8_YEAR, SEASADDYRS2_9_YEAR]
+// JSON WARNING --> Concept ID 411791779 with concept "Name of employer/company" is shared between these Textbox codes: [CURWORKEMP, CURWORKPOSTPANEMP]
+// JSON WARNING --> Concept ID 434243220 with concept "Months used" is shared between these Textbox codes: [ANYCOMESTMONTH, COMBINEDMONTH, COPIUDMONTH, DEPROPROVMONTH, ESTOTHERMONTH, ESTSKINMONTH, HORCOMPILLMONTH, HORIUDMONTH, HORMEDOTHERMONTH, HORMEDPATCHMONTH, HORMEDRINGMONTH, MINIPILLMONTH, NORPLANTMONTH, ORALESTMONTH, ORALMEDMONTH, PATCHESTMONTH, PRESHOR2MONTH, PROESTMONTH, RINGMONTH, TWOPILLMONTH]
+// JSON WARNING --> Concept ID 451310566 with concept "Months at address" is shared between these Textbox codes: [MONTHADD1, MONTHADD10, MONTHADD2, MONTHADD3, MONTHADD4, MONTHADD5, MONTHADD6, MONTHADD7, MONTHADD8, MONTHADD9]
+// JSON WARNING --> Concept ID 623218391 with concept "Age at surgery" is shared between these Textbox codes: [APPEND_AGE, BARSUR_AGE, BREASTABSS_AGE, BREASTDBLREM_AGE, BREASTIMPLANTS_AGE, BREASTLACTREM_AGE, BREASTLIFT_AGE, BREASTOTH_AGE, BREASTPARTREM_AGE, BREASTRECON_AGE, BREASTREDN_AGE, BREASTREM_AGE, FTREM2_AGE, GALLREM_AGE, HYSTER_AGE, KIDREM2_AGE, LIPOSUCT_AGE, OVARYREM2_AGE, PENREM_AGE, PROSREM2_AGE, SPLEENREM_AGE, SRVSCR_APPENDECAGE_V1R1, SRVSCR_BARSURGAGE_V1R1, SRVSCR_BREASTABSCAGE_V1R1, SRVSCR_BREASTDBLREMAGE_V1R1, SRVSCR_BREASTIMPLAGE_V1R1, SRVSCR_BREASTLACREMAGE_V1R1, SRVSCR_BREASTLIFTAGE_V1R1, SRVSCR_BREASTOTHAGE_V1R1, SRVSCR_BREASTPTREMAGE_V1R1, SRVSCR_BREASTRECONAGE_V1R1, SRVSCR_BREASTREDAGE_V1R1, SRVSCR_BREASTREMAGE_V1R1, SRVSCR_CHOLECAGE_V1R1, SRVSCR_FSTSURGDBLREMAGE_V1R0, SRVSCR_HYSTERAGE_V1R1, SRVSCR_LIPOSUCTAGE_V1R1, SRVSCR_NEPHRECTOMYAGE_V1R0, SRVSCR_OOPHORECAGE_V1R1, SRVSCR_PENREMAGE_V1R1, SRVSCR_PROSREMSURGAGE_V1R1, SRVSCR_SALPINGECAGE_V1R1, SRVSCR_SECSURGDBLREMAGE_V1R0, SRVSCR_SPLENECTOMYAGE_V1R0, SRVSCR_TESTREMSURGAGE_V1R1, SRVSCR_THYROIDECTOMYAGE_V1R0, SRVSCR_TONSILSAGE_V1R1, SRVSCR_TUBLIGAGE_V1R1, SRVSCR_VASECTOMYAGE_V1R1, TESTREM2_AGE, THYRDREM_AGE, TONSILS_AGE, TUBLIG_AGE, VASEC_AGE]
+// JSON WARNING --> Concept ID 703385619 with concept "City" is shared between these Textbox codes: [CURWORKPOSTPANCITY, CURWORKPOSTPANCITY_FOLLOWUP]
+// JSON WARNING --> Concept ID 707805344 with concept "# of Hours" is shared between these Textbox codes: [FALLASLEEPHOURS, LAYINBEDHRS, NONWORKAWAKEBEFOREUPHOURS, NONWORKFALLASLEEPHOURS, OUTSIDEHOURS, WORKDAYOUTSIDEHOURS]
+// JSON WARNING --> Concept ID 765748316 with concept "Days per week" is shared between these Textbox codes: [ACETWEEK, ACIDSUP2_1WK, ACIDSUP2_2WK, ACIDSUP2_3WK, BABYASPRINWEEK, CELECOXIBWEEK, CHOLHTN2_1WK, CHOLHTN2_2WK, IBUPROFENWEEK, INSULIN2_1WK, METFOR2_1WK, NAPROXENWEEK, PAINRELWEEK, REGASPRINWEEK]
+// JSON WARNING --> Concept ID 785412329 with concept "Days per month" is shared between these Textbox codes: [ACETMONTH, ACIDSUP2_1MO, ACIDSUP2_2MO, ACIDSUP2_3MO, BABYASPRINMONTH, CELECOXIBMONTH, CHOLHTN2_1MO, CHOLHTN2_2MO, IBUPROFENMONTH, INSULIN2_1MO, METFOR2_1MO, NAPROXENMONTH, PAINRELMONTH, REGASPRINMONTH]
+// JSON WARNING --> Concept ID 802622485 with concept "Year of surgery" is shared between these Textbox codes: [APPEND_YEAR, BARSUR_YEAR, BREASTABSS_YEAR, BREASTDBLREM_YEAR, BREASTIMPLANTS_YEAR, BREASTLACTREM_YEAR, BREASTLIFT_YEAR, BREASTOTH_YEAR, BREASTPARTREM_YEAR, BREASTRECON_YEAR, BREASTREDN_YEAR, BREASTREM_YEAR, FTREM2_YEAR, GALLREM_YEAR, HYSTER_YEAR, KIDREM2_YEAR, LIPOSUCT_YEAR, OVARYREM2_YEAR, PENREM_YEAR, PROSREM2_YEAR, SPLEENREM_YEAR, SRVSCR_APPENDECYEAR_V1R0, SRVSCR_BARSURGYEAR_V1R0, SRVSCR_BREASTABSCYR_V1R0, SRVSCR_BREASTDBLREMYR_V1R0, SRVSCR_BREASTIMPLYR_V1R0, SRVSCR_BREASTLACREMYR_V1R0, SRVSCR_BREASTLIFTYR_V1R0, SRVSCR_BREASTOTHYR_V1R0, SRVSCR_BREASTPTREMYR_V1R0, SRVSCR_BREASTRECONYR_V1R0, SRVSCR_BREASTREDYR_V1R0, SRVSCR_BREASTREMYR_V1R0, SRVSCR_CHOLECYEAR_V1R0, SRVSCR_FSTSURGDBLREMYR_V1R0, SRVSCR_HYSTYEAR_V1R0, SRVSCR_LIPOSUCTYEAR_V1R0, SRVSCR_NEPHRECTOMYYR_V1R0, SRVSCR_OOPHORECYR_V1R0, SRVSCR_PENREMYEAR_V1R0, SRVSCR_PROSREMSURGYR_V1R0, SRVSCR_SALPINGECYR_V1R0, SRVSCR_SECSURGDBLREMYR_V1R0, SRVSCR_SPLENECTOMYYR_V1R0, SRVSCR_TESTREMSURGYR_V1R0, SRVSCR_THYROIDECTOMYYR_V1R0, SRVSCR_TONSILSYEAR_V1R0, SRVSCR_TUBLIGYEAR_V1R0, SRVSCR_VASECTOMYYR_V1R0, TESTREM2_YEAR, THYRDREM_YEAR, TONSILS_YEAR, TUBLIG_YEAR, VASEC_YEAR]
+// JSON WARNING --> Concept ID 810608313 with concept "# Servings per day" is shared between these Textbox codes: [EAMAR9ANUM, EAMAR9CNUM, THMAR9ANUM, THMAR9CNUM]
+// JSON WARNING --> Concept ID 831524426 with concept "Country" is shared between these Textbox codes: [CURWORKPOSTPANCOUNTRY, CURWORKPOSTPANCOUNTRY_FOLLOWUP]
+// JSON WARNING --> Concept ID 850393641 with concept "# of Minutes" is shared between these Textbox codes: [FALLASLEEPMIN, LAYINBEDMIN, NONWORKAWAKEBEFOREUPMIN, NONWORKFALLASLEEPMIN, OUTSIDEMIN, WORKDAYOUTSIDEMIN]
+// JSON WARNING --> Concept ID 942347130 with concept "Other breast surgeries: Please describe[text box]" is shared between these Textbox codes: [BREASTSUR_TB, SRVSCR_BREASTOTHERDES_V1R0]
+// JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
+// JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
+
+
+// ---------------------------------------------------------
+// TRANSFORMER WARNING COUNT = 5
+// ---------------------------------------------------------
+// count: 5 | warning: "HPV | this may be an untransformed Quest code"
+
+
+//This file was last modified on Tue Dec 17 18:43:39 2024 -0500 (short timestamp = 2024-12-17-23-43-39)
+//{"version":"1.0"}
+{"name":"D_369168474"}
+
+[SRVSCR_INTROSCREEN_V1R0] <b>Cancer Screening History Survey</b>
+
+In this set of questions, we ask about tests that may be used to screen for cancer. Screening tests are routine tests that look for cancer before a person has symptoms. It may be helpful to review your medical records before you start this survey. If you are not sure of an answer, please make your best guess.
+
+
+[D_890391968?] We want to ask questions that make sense for you. First, we will ask about organs you were born with and organs you currently have. Please select all of the body parts you were <b>born with</b>.
+
+If you were assigned male at birth, you probably had:
+[582784267]	Penis (Phallus) 
+[751402477]	Testes (Testicles)
+[700100953]	Prostate
+
+If you were assigned female at birth, you probably had:
+[846483618]	Vagina (Frontal genital opening)
+[505282171]	Cervix
+[578416151]	Uterus (Womb)
+[434651539]	Ovaries
+[108025529]	Fallopian Tubes
+
+
+[D_413039729?] Have you <b>ever</b> had breasts or breast tissue growth? Please do not include breast implants.
+
+(104430631)	No
+(145235510)	Yes, because of puberty or hormones already in my body
+(801218076)	Yes, because of hormonal medication or device
+(178420302) 	Don’t know
+
+[D_729984625?] Have you <b>ever</b> had any of these surgeries? Select all that apply. 
+
+[797189152]	Tonsils removed (tonsillectomy) -> D_675055475
+[633546100]	Gallbladder removed (cholecystectomy) -> D_250003172
+[866002271]	Appendix removed (appendectomy) -> D_341080024
+[209101810]	Spleen removed (splenectomy) -> D_841573821
+[413734739]	Thyroid removed (thyroidectomy) -> D_976626196
+[215525943]	Removal of one or both kidneys (nephrectomy) -> D_951847507
+[118789503]	Liposuction -> D_645149364
+[715563991]	Bariatric surgery (lap band, gastric bypass) -> D_839555631
+[533491176]	Breast surgery -> D_506456253
+[220755749,displayif=valueIsOneOf("D_890391968",578416151)]	Uterus removed (hysterectomy)   -> D_350184001
+[465318416,displayif=valueIsOneOf("D_890391968",108025529)]	Tubes tied (tubal ligation)  -> D_522645663
+[630100221,displayif=valueIsOneOf("D_890391968",434651539)]	Removal of one or both ovaries (oophorectomy)  -> D_590067228
+[692881833,displayif=valueIsOneOf("D_890391968",108025529)]	Removal of one or both fallopian tubes (salpingectomy)  -> D_860839849
+[654450030,displayif=valueIsOneOf("D_890391968",582784267,751402477)]	Vasectomy  -> D_671670265
+[532603425,displayif=valueIsOneOf("D_890391968",751402477)]	Removal of one or both testicles (orchiectomy or orchidectomy)  -> D_429157727
+[733236542,displayif=valueIsOneOf("D_890391968",700100953)]	Prostate removed (prostatectomy)  -> D_292314539
+[961987554,displayif=valueIsOneOf("D_890391968",582784267)]	Penis removed (penectomy) -> D_203366781
+[535003378*]	I have <b>not</b> had any of these surgeries 
+< -> SRVSCR_ORSCREENINT_V1R0> 
+
+[D_675055475?] How old were you when you had your <b>tonsils removed (tonsillectomy)?</b>
+
+|__|__|xor=SRVSCR_TONSILS_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
+
+Or, if it is easier to remember the year, enter that here:
+
+|__|__|__|__|xor=SRVSCR_TONSILS_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+
+
+[D_250003172?] How old were you when you had your <b>gallbladder removed (cholecystectomy)?</b>
+
+|__|__|xor=SRVSCR_GALLREM_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
+
+Or, if it is easier to remember the year, enter that here:
+
+|__|__|__|__|xor=SRVSCR_GALLREM_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+
+
+[D_341080024?] How old were you when you had your <b>appendix removed (appendectomy)?</b>
+
+|__|__|xor=SRVSCR_APPEND_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
+
+Or, if it is easier to remember the year, enter that here:
+
+|__|__|__|__|xor=SRVSCR_APPEND_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+
+
+[D_841573821?] How old were you when you had your <b>spleen removed (splenectomy)?</b>
+
+|__|__|xor=SRVSCR_SPLEENREM_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
+
+Or, if it is easier to remember the year, enter that here:
+
+|__|__|__|__|xor=SRVSCR_SPLEENREM_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+
+
+[D_976626196?] How old were you when you had your <b>thyroid removed (thyroidectomy)?</b>
+
+|__|__|xor=SRVSCR_THYRDREM_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
+
+Or, if it is easier to remember the year, enter that here:
+
+|__|__|__|__|xor=SRVSCR_THYRDREM_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+
+
+[D_951847507?] Which of these best describes the type of <b>kidney removal surgery</b> that you had?
+
+(113771607)	I had surgery to remove one kidney -> D_998519118
+(668256654)	I had surgery to remove both kidneys -> D_998519118
+(535003378)	None of the above  
+
+
+
+[D_998519118?,displayif=valueIsOneOf("D_951847507",113771607,668256654)] How old were you when you had one or both kidneys removed (nephrectomy)? If you have had more than one procedure, at what age did you <b>last</b> have this procedure? 
+
+|__|__|xor=SRVSCR_KIDREM2_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
+
+Or, if it is easier to remember the year, enter that here:
+
+|__|__|__|__|xor=SRVSCR_KIDREM2_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+
+
+[D_645149364?] How old were you when you <b>first</b> had <b>liposuction?</b>
+
+|__|__|xor=SRVSCR_LIPOSUCT_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
+
+Or, if it is easier to remember the year, enter that here:
+
+|__|__|__|__|xor=SRVSCR_LIPOSUCT_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+
+
+
+[D_839555631?] How old were you when you had your <b>bariatric surgery (lap band, gastric bypass)?</b>
+
+|__|__|xor=SRVSCR_BARSUR_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
+
+Or, if it is easier to remember the year, enter that here:
+
+|__|__|__|__|xor=SRVSCR_BARSUR_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+
+
+
+[D_506456253?] Which of these <b>breast surgeries</b> have you had? Please do not include a biopsy. Select all that apply.
+
+[752953170]	Breast implants (augmentation surgery) -> D_439760665
+[325506683]	Breast lift surgery (mastopexy) -> D_950690103
+[335563082]	Breast reconstruction surgery  -> D_975268706
+[955881350]	Breast reduction (reduction mammaplasty) -> D_277890744
+[492902023]	Removal of a part of my breast tissue (breast-conserving surgery (BCS), lumpectomy, partial mastectomy, or segmental mastectomy)  -> D_936444833
+[256196714]	Removal of one breast (mastectomy) -> D_758881441
+[802859122]	Removal of both breasts (double or bilateral mastectomy)  -> D_765772509
+[520432394]	Surgery for a breast abscess (such as incision and draining) -> D_166524009
+[667901971]	Removal of a lactiferous or milk duct (microdochectomy)   -> D_367942006
+[807835037]	Other: Please describe  |__|id=D_942347130|  -> D_907385951
+[535003378*]	None of the above 
+
+
+
+[D_439760665?,displayif=equals(D_506456253,752953170)] How old were you when you had <b>breast implants surgery</b> (augmentation surgery)? 
+
+|__|__|xor=SRVSCR_BREASTSUR0_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
+
+Or, if it is easier to remember the year, enter that here:
+
+|__|__|__|__|xor=SRVSCR_BREASTSUR0_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+
+
+[D_950690103?,displayif=equals(D_506456253,325506683)] How old were you when you had <b>breast lift surgery</b> (mastopexy)? 
+
+|__|__|xor=SRVSCR_BREASTSUR1_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
+
+Or, if it is easier to remember the year, enter that here:
+
+|__|__|__|__|xor=SRVSCR_BREASTSUR1_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+
+
+[D_975268706?,displayif=equals(D_506456253,335563082)] How old were you when you had <b>breast reconstruction surgery? </b>
+
+|__|__|xor=SRVSCR_BREASTSUR2_V2R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
+
+Or, if it is easier to remember the year, enter that here:
+
+|__|__|__|__|xor=SRVSCR_BREASTSUR2_V2R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+
+
+[D_277890744?,displayif=equals(D_506456253,955881350)] How old were you when you had <b>breast reduction surgery</b> (reduction mammaplasty)? 
+
+|__|__|xor=SRVSCR_BREASTSUR3_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
+
+Or, if it is easier to remember the year, enter that here:
+
+|__|__|__|__|xor=SRVSCR_BREASTSUR3_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+
+
+[D_936444833?,displayif=equals(D_506456253,492902023)] How old were you when you had <b>surgery for removal of part of your breast tissue</b> (breast-conserving surgery (BCS), lumpectomy, partial mastectomy, or segmental mastectomy)? 
+
+|__|__|xor=SRVSCR_BREASTSUR4_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
+
+Or, if it is easier to remember the year, enter that here:
+
+|__|__|__|__|xor=SRVSCR_BREASTSUR4_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+
+
+[D_758881441?,displayif=equals(D_506456253,256196714)] How old were you when you had <b>surgery for removal of one breast</b> (mastectomy)? 
+
+|__|__|xor=SRVSCR_BREASTSUR5_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
+
+Or, if it is easier to remember the year, enter that here:
+
+|__|__|__|__|xor=SRVSCR_BREASTSUR5_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+
+
+[D_765772509?,displayif=equals(D_506456253,802859122)] Which of these best describes the type of breast removal surgery that you had?
+
+(308633554)	I had both breasts removed during one surgery  -> D_250353250
+(967156738)	I had both of my breasts removed, each during a separate surgery  -> D_116546181
+(535003378)	None of the above  ->  D_166524009
+<#NR -> D_166524009>
+
+
+[D_250353250?,displayif=equals(D_765772509,308633554)] How old were you when you had <b>surgery for removal of both breasts</b> (double or bilateral mastectomy)? 
+
+|__|__|xor=SRVSCR_BREASTSUR6_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
+
+Or, if it is easier to remember the year, enter that here:
+
+|__|__|__|__|xor=SRVSCR_BREASTSUR6_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+
+
+[D_116546181?,displayif=equals(D_765772509,967156738)] How old were you when you had the <b>first surgery for removal of one breast? </b>
+
+|__|__|xor=SRVSCR_BREASTSUR6B_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
+
+Or, if it is easier to remember the year, enter that here:
+
+|__|__|__|__|xor=SRVSCR_BREASTSUR6B_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+
+<-> D_496928179>
+
+
+[D_496928179?,displayif=equals(D_765772509,967156738)] How old were you when you had the <b>second surgery for removal of one breast?  </b>
+
+|__|__|xor=SRVSCR_BREASTSUR6C_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
+
+Or, if it is easier to remember the year, enter that here:
+|__|__|__|__|xor=SRVSCR_BREASTSUR6C_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+
+
+[D_166524009?,displayif=equals(D_506456253,520432394)] How old were you when you had <b>surgery for a breast abscess</b> (such as incision and draining)? 
+
+|__|__|xor=SRVSCR_BREASTSUR7_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
+
+Or, if it is easier to remember the year, enter that here:
+|__|__|__|__|xor=SRVSCR_BREASTSUR7_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+
+
+[D_367942006?,displayif=equals(D_506456253,667901971)] How old were you when you had <b>surgery for removal of a lactiferous or milk duct</b> (microdiscectomy)?  
+
+|__|__|xor=SRVSCR_BREASTSUR8_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
+
+Or, if it is easier to remember the year, enter that here:
+|__|__|__|__|xor=SRVSCR_BREASTSUR8_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+
+
+[D_907385951?,displayif=equals(D_506456253,807835037)] How old were you when you had |displayif=exists("D_942347130")|<b>{$D_942347130}</b>||displayif=doesNotExist("D_942347130")|<b>another type of breast surgery</b>|? 
+
+|__|__|xor=SRVSCR_BREASTSUR9_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
+
+Or, if it is easier to remember the year, enter that here:
+|__|__|__|__|xor=SRVSCR_BREASTSUR9_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+
+
+[D_350184001?] How old were you when you had your <b>uterus removed (hysterectomy)?</b>
+
+|__|__|xor=SRVSCR_HYSTER_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
+
+Or, if it is easier to remember the year, enter that here:
+|__|__|__|__|xor=SRVSCR_HYSTER_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+
+
+[D_522645663?] How old were you when you had your <b>tubes tied (tubal ligation)</b>?
+
+|__|__|xor=SRVSCR_TUBLIG_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
+
+Or, if it is easier to remember the year, enter that here:
+|__|__|__|__|xor=SRVSCR_TUBLIG_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+
+
+[D_590067228?] Which of these best describes the type of <b>ovary removal surgery</b> that you had?
+
+(333647143)	I had surgery to remove one ovary -> D_787505819
+(109972911)	I had surgery to remove both ovaries -> D_787505819
+(535003378)	None of the above  
+
+
+
+[D_787505819?,displayif=valueIsOneOf("D_590067228",333647143,109972911)] How old were you when you had one or both ovaries removed (oophorectomy)? If you have had more than one procedure, at what age did you <b>last</b> have this procedure?
+
+|__|__|xor=SRVSCR_OVARYREM2_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
+
+Or, if it is easier to remember the year, enter that here:
+|__|__|__|__|xor=SRVSCR_OVARYREM2_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+
+
+[D_860839849?,displayif=equals(D_729984625,692881833)] Which of these best describes the type of <b>fallopian tube removal surgery</b> that you had?
+
+(448068764)	I had surgery to remove one fallopian tube -> D_949587133
+(537173119)	I had surgery to remove both fallopian tubes -> D_949587133
+(535003378)	None of the above  
+
+
+[D_949587133?,displayif=valueIsOneOf("D_860839849",448068764,537173119)] How old were you when you had one or both fallopian tubes removed (salpingectomy)? If you have had more than one procedure, at what age did you <b>last</b> have this procedure? 
+
+|__|__|xor=SRVSCR_FTREM2_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
+
+Or, if it is easier to remember the year, enter that here:
+|__|__|__|__|xor=SRVSCR_FTREM2_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+
+
+[D_671670265?] How old were you when you had a <b>vasectomy?</b>
+
+|__|__|xor=SRVSCR_VASEC_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
+
+Or, if it is easier to remember the year, enter that here:
+|__|__|__|__|xor=SRVSCR_VASEC_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+
+
+[D_429157727?] Which of these best describes the type of <b>testicle removal surgery</b> that you had?
+
+(770550588)	I had surgery to remove one testicle -> D_314345103
+(970716952)	I had surgery to remove both testicles -> D_314345103
+(535003378)	None of the above  
+
+
+
+[D_314345103?,displayif=valueIsOneOf("D_429157727",770550588,970716952)] How old were you when you had one or both testicles removed (orchiectomy or orchidectomy)? If you have had more than one procedure, at what age did you <b>last</b> have this procedure? 
+
+|__|__|xor=SRVSCR_TESTREM2_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
+
+Or, if it is easier to remember the year, enter that here:
+|__|__|__|__|xor=SRVSCR_TESTREM2_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+
+
+[D_292314539?] Which of these best describes the type of <b>prostate removal surgery</b> that you had? 
+
+(524029283)	I had surgery to remove part of my prostate ->D_343990595
+(500023550)	I had surgery to remove my whole prostate -> D_343990595
+(535003378)	None of the above  
+
+
+[D_343990595?,displayif=valueIsOneOf("D_292314539",524029283,500023550)] How old were you when you had part or all of your prostate removed (prostatectomy)? If you have had more than one procedure, at what age did you <b>last</b> have this procedure? 
+
+|__|__|xor=SRVSCR_PROSREM2_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
+
+Or, if it is easier to remember the year, enter that here:
+|__|__|__|__|xor=SRVSCR_PROSREM2_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
+
+
+[D_203366781?] How old were you when you had your <b>penis removed (penectomy)?</b>
+
+|__|__|xor=SRVSCR_PENREM_V1R0 id=D_623218391 min=0 max=_value("age")| Age at surgery
+
+Or, if it is easier to remember the year, enter that here:
+|__|__|__|__|xor=SRVSCR_PENREM_V1R0 id=D_802622485 min=_value("yob") max=#currentYear| Year of diagnosis
+
+
+
+[SRVSCR_ORSCREENINT_V1R0] <b>Oral Cancer Screening</b>
+Oral cancer screening is an examination performed by a dentist or healthcare professional to look for cancer in your mouth. This is different from a regular check-up at your dentist. 
+
+During an oral cancer screening, your provider may do one or both of the following exams: a visual exam in which the provider looks inside your mouth for patches or mouth sores, and a physical exam in which the provider feels for lumps or bumps in your mouth. Your provider may also ask you to rinse your mouth with a special blue dye that highlights abnormal tissue, or use a special light to make abnormal tissue appear white.
+
+[D_802157786?] Have you <b>ever</b> had an oral cancer screening by a dentist or healthcare professional to check for signs of cancer in your mouth?
+	(104430631)	No 	       ->  D_365148290
+	(353358909)	Yes 	       
+	(178420302)	Don’t know ->  D_365148290
+<#NR -> D_365148290>
+
+
+[D_852697610?,displayif=equals(D_802157786,353358909)] When were you <b>first</b> screened for oral cancer?
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+
+[D_860253133?] How many times have you been screened for oral cancer?
+(236949684)	Once ->  D_339142996
+(506053626)	Twice
+(119809731)	3 to 5 times
+(282580702)	6 to 10 times
+(934779560)     Over 10 times 
+(178420302)	Don’t know
+<#NR ->  D_339142996>
+
+[D_682440005?] When were you <b>last</b> screened for oral cancer?
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+
+[D_339142996?] Did you <b>ever</b> have an oral biopsy? (In a biopsy, a small amount of oral tissue or cells are removed and then looked at under a microscope to check for cancer or other problems.) 
+	(104430631)	No		->  D_365148290
+	(353358909)	Yes		
+	(178420302)	Don’t know	->  D_365148290
+	<#NR  -> D_365148290>
+
+
+[D_375662706?,displayif=equals(D_339142996,353358909)] When did you <b>first</b> have an oral biopsy?
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+
+[D_859197222?] How many times have you had an oral biopsy?
+(236949684)	Once ->  D_365148290
+(506053626)	Twice
+(119809731)	3 to 5 times
+(282580702)	6 to 10 times
+(934779560)	Over 10 times
+(178420302)	Don’t know
+<#NR ->  D_365148290>
+
+[D_529358901?] When did you <b>last</b> have an oral biopsy?
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+
+
+[D_365148290?] <b>Colon and Rectal Cancer Screening</b>
+Have you <b>ever</b> had any of these tests or procedures for colorectal cancer or other medical conditions? Select all that apply. 
+
+[203210013] <b>Colonoscopy</b> Before the procedure, it is likely that a medicine was given through a needle in your arm to make you sleepy. A healthcare provider used a long tube-like instrument to examine your colon and check for cancer or other problems. Someone else needed to drive you home. -> D_988661374
+[219088015] <b>CT Colonoscopy</b> Also known as a “virtual” colonoscopy or CT colonography, a special CAT scan of the lower part of your colon that made detailed pictures of your colon to see if there were colon polyps or cancer. Your body passed through a large tunnel-shaped X-ray machine. -> D_884856351
+[283265038]<b>Sigmoidoscopy</b> Also known as flexible sigmoidoscopy. You were awake and not given medicine to make you sleepy. A healthcare provider used a short tube-like instrument to examine the lower part of your colon and check for cancer or other problems. You were probably able to drive yourself home. -> D_869938650
+[691148901] <b>Proctoscopy</b> Also known as a rigid sigmoidoscopy. You were awake and not given medicine to make you sleepy. A healthcare provider used a thin, tube-like instrument with a light and a lens to examine the inside of your rectum and check for cancer or other problems. You were probably able to drive yourself home. This test is rarely used now and was more commonly used in the past. -> D_689280509
+[928432579] <b>Stool (fecal) test</b> A test for blood or abnormal DNA in your stool. This test is sometimes called a fecal occult blood test (a FOBT), or a fecal immunochemical test (FIT), a Stool DNA Test (Cologuard®). These tests should be done at home and the sample is mailed in. -> D_677043723
+[535003378*] I have <b>not</b> had any of these screening tests 
+< -> D_129025755>
+
+
+[D_988661374?,displayif=equals(D_365148290,203210013)] When did you <b>first</b> have a colonoscopy?
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+< -> D_619830872>
+
+[D_619830872?,displayif=equals(D_365148290,203210013)] How many times have you had a colonoscopy?
+(236949684)	Once 
+(506053626)	Twice -> D_226488112
+(462661976)	3 or more times -> D_226488112
+(178420302)	Don’t know -> D_226488112
+
+
+
+[D_226488112?,displayif=valueIsOneOf("D_619830872",506053626,462661976,178420302)] When did you <b>last</b> have a colonoscopy?
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+
+
+[D_884856351?,displayif=equals(D_365148290,219088015)] When did you <b>first</b> have a CT colonoscopy?
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+< -> D_900561740>
+
+[D_900561740?,displayif=equals(D_365148290,219088015)] How many times have you had a CT colonoscopy?
+(236949684)	Once 
+(506053626)	Twice -> D_729390410
+(462661976)	3 or more times -> D_729390410
+(178420302)	Don’t know -> D_729390410
+
+
+[D_729390410?,displayif=valueIsOneOf("D_900561740",506053626,462661976,178420302)] When did you <b>last</b> have a CT colonoscopy?
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago 
+(178420302)	Don’t know
+
+[D_869938650?,displayif=equals(D_365148290,283265038)] When did you <b>first</b> have a sigmoidoscopy?
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+< -> D_541338917>
+
+[D_541338917?,displayif=equals(D_365148290,283265038)] How many times have you had a sigmoidoscopy?
+(236949684)	Once 
+(506053626)	Twice -> D_833553697
+(462661976)	3 or more times -> D_833553697
+(178420302)	Don’t know -> D_833553697
+
+
+[D_833553697?,displayif=valueIsOneOf("D_541338917",506053626,462661976,178420302)] When did you <b>last</b> have a sigmoidoscopy?
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+
+
+[D_689280509?,displayif=equals(D_365148290,691148901)] When did you <b>first</b> have a proctoscopy?
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+< -> D_108417657>
+
+[D_108417657?,displayif=equals(D_365148290,691148901)] How many times have you had a proctoscopy?
+(236949684)	Once 
+(506053626)	Twice ->  D_822995885
+(462661976)	3 or more times ->  D_822995885
+(178420302)	Don’t know ->  D_822995885
+
+
+[D_822995885?,displayif=valueIsOneOf("D_108417657",506053626,462661976,178420302)] When did you <b>last</b> have a proctoscopy?
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+
+
+[D_677043723?,displayif=equals(D_365148290,928432579)] When did you <b>first</b> have a stool (fecal) test?
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+< -> D_960218176>
+
+[D_960218176?,displayif=equals(D_365148290,928432579)] How many times have you had a stool (fecal) test?
+(236949684)	Once 
+(506053626)	Twice -> D_806961194
+(119809731)	3 to 5 times -> D_806961194
+(282580702)	6 to 10 times -> D_806961194
+(934779560)	Over 10 times -> D_806961194
+(178420302)	Don’t know -> D_806961194
+
+
+[D_806961194?,displayif=valueIsOneOf("D_960218176",506053626,119809731,282580702,934779560,178420302)] When did you <b>last</b> have a stool (fecal) test?
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+
+
+[D_129025755?] <b>Anal Cancer Screening</b>
+
+Have you <b>ever</b> had an anal screening test to look for anal cancer or other medical conditions? During an anal screening test, you were lying on your side or bending over an exam table. A healthcare provider inserted a swab (which looks like a long Q-tip) into your anus to collect a small amount of cells. The cells were checked for the type of HPV that can lead to anal cancer. 
+// TRANSFORMER WARNING --> HPV | this may be an untransformed Quest code
+
+	(104430631)	No 	-> D_524918714
+	(353358909)	Yes		
+	(178420302)	Don’t know 	-> D_524918714
+<#NR -> D_524918714>
+
+
+[D_702922820?,displayif=equals(D_129025755,353358909)] When were you <b>first</b> screened for anal cancer?
+(461386928)	Less than 1 year ago 
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+
+[D_236655642?] How many times have you been screened for anal cancer?
+(236949684)	Once ->  D_524918714
+(506053626)	Twice
+(119809731)	3 to 5 times
+(282580702)	6 to 10 times
+(934779560)	Over 10 times
+(178420302)	Don’t know
+<#NR ->  D_524918714>
+
+[D_581174597?,displayif=valueIsOneOf("D_236655642",506053626,119809731,282580702,934779560,178420302)] When were you <b>last</b> screened for anal cancer?
+(461386928)	Less than 1 year ago 
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+
+[D_524918714?]<b> Lung Cancer Screening</b>
+
+Have you <b>ever</b> had a low dose CT of the lungs to check for lung cancer or other conditions? This is a CAT scan of the lungs. Your body would have passed through a large, tunnel shaped x-ray machine. This is not the same as a chest X-ray, where you would be standing during the exam.
+(104430631)	No  ->  D_552399966
+(353358909)	Yes	       
+(178420302)	Don’t know ->  D_552399966
+<#NR ->  D_552399966>
+
+
+[D_584375130?,displayif=equals(D_524918714,353358909)] When did you <b>first</b> have a low dose CT of the lungs?
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+
+[D_221189280?] How many times have you had a low dose CT of the lungs?
+(236949684)	Once ->  D_552399966
+(506053626)	Twice
+(462661976)	3 or more times
+(178420302)	Don’t know
+<#NR ->  D_552399966>
+
+[D_737402324?,displayif=valueIsOneOf("D_221189280",506053626,462661976,178420302)] When did you <b>last</b> have a low dose CT of the lungs?
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+
+[D_552399966?] <b>Skin Cancer Screening</b>
+
+Have you <b>ever</b> had a visual skin examination to check for skin cancer by a healthcare professional? You may have removed your clothing and worn a gown as a healthcare provider examined your skin to look for abnormal spots that could be cancerous. 
+
+(104430631)	No  ->  D_991871399
+(353358909)	Yes	   
+(178420302)	Don’t know -> D_991871399
+<#NR ->  D_991871399>
+
+[D_124071431?,displayif=equals(D_552399966,353358909)] When you had a visual skin examination, how much of your body was screened for skin cancer? Select all that apply.
+[160709137]	I have had a specific spot on my body screened for skin cancer 
+[547567441]	I have had part of my body screened for skin cancer 
+[956827502]	I have had a full body skin examination to screen for skin cancer -> D_113343940
+[178420302*]	Don’t know 
+< -> D_991871399>
+
+[D_113343940?] When did you <b>first</b> have a full body skin examination?
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+< -> D_925516907>
+
+[D_925516907?] How many times have you had a full body skin examination?
+(236949684)	Once -> D_991871399
+(506053626)	Twice
+(119809731)	3 to 5 times
+(282580702)	6 to 10 times
+(934779560)	Over 10 times
+(178420302)	Don’t know
+< -> D_506482920>
+
+[D_506482920?,displayif=valueIsOneOf("D_925516907",506053626,119809731,282580702,934779560,178420302)] When did you <b>last</b> have a full body skin examination?
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+
+[D_991871399?] <b>Upper Endoscopy Screening Test</b>
+
+Have you <b>ever</b> had an upper endoscopy to check for cancer or other conditions? During an upper endoscopy, a thin, tube-like instrument called an endoscope is passed through your mouth and down your throat to look inside your esophagus, stomach, and duodenum (first part of the small intestine). 
+
+(104430631)	No	  ->  D_465056475
+(353358909)	Yes	      
+(178420302)	Don’t know -> D_465056475
+<#NR ->  D_465056475>
+
+[D_761831751?,displayif=equals(D_991871399,353358909)] When did you <b>first</b> have an upper endoscopy?
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+
+[D_588828383?,displayif=equals(D_991871399,353358909)] How many times have you had an upper endoscopy?
+(236949684)	Once  -> D_465056475
+(506053626)	Twice 
+(462661976)	3 or more times 
+(178420302)	Don’t know 
+<#NR -> D_465056475 >
+
+[D_485867936?,displayif=valueIsOneOf("D_588828383",506053626,462661976,178420302)] When did you <b>last</b> have an upper endoscopy?
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+
+
+
+[D_465056475?,displayif=equals(D_890391968,700100953)]<b> Prostate Cancer Screening</b>
+
+Have you <b>ever</b> had any of these tests to check for prostate cancer or other conditions? Select all that apply. 
+
+[312250694] <b>Rectal Examination of Prostate</b> A healthcare provider inserted a gloved, lubricated finger into your rectum to feel the prostate and check for cancer or other problems. -> D_718137053
+[255054078] <b>PSA Blood Test</b> A blood test to check for prostate cancer. -> D_772645761
+[492921091] <b>Prostate Biopsy</b> A small amount of the prostate tissue or cells are removed with a biopsy needle or during surgery. The tissue or cells are then looked at under a microscope to check for cancer or other problems. -> D_214352460
+[535003378*] I have <b>not</b> had any of these screening tests 
+< ->  D_961267001>
+
+
+[D_718137053?,displayif=equals(D_465056475,312250694)] When did you <b>first</b> have a rectal examination of your prostate?
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+< -> D_199704727>
+
+[D_199704727?,displayif=equals(D_465056475,312250694)] How many times have you had a rectal examination of your prostate?
+(236949684)	Once 
+(506053626)	Twice -> D_621714179
+(119809731)	3 to 5 times -> D_621714179
+(282580702)	6 to 10 times -> D_621714179
+(934779560)	Over 10 times -> D_621714179
+(178420302)	Don’t know -> D_621714179
+
+
+[D_621714179?,displayif=valueIsOneOf("D_199704727",506053626,119809731,282580702,934779560,178420302)] When did you <b>last</b> have a rectal examination of your prostate?
+
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+
+
+[D_772645761?,displayif=equals(D_465056475,255054078)] When did you <b>first</b> have a PSA blood test?
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+< -> D_650508014>
+
+[D_650508014?,displayif=equals(D_465056475,255054078)] How many times have you had a PSA blood test?
+(236949684)	Once 
+(506053626)	Twice -> D_903059223
+(119809731)	3 to 5 times -> D_903059223
+(282580702)	6 to 10 times -> D_903059223
+(934779560)	Over 10 times -> D_903059223
+(178420302)	Don’t know -> D_903059223
+
+
+
+[D_903059223?,displayif=valueIsOneOf("D_650508014",506053626,119809731,282580702,934779560,178420302)] When did you <b>last</b> have a PSA blood test?
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+
+[D_214352460?,displayif=equals(D_465056475,492921091)] When did you <b>first</b> have a prostate biopsy?
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+< -> D_770939852>
+
+[D_770939852?,displayif=equals(D_465056475,492921091)] How many times have you had a prostate biopsy?
+(236949684)	Once 
+(506053626)	Twice -> D_423202492
+(462661976)	3 or more times -> D_423202492
+(178420302)	Don’t know -> D_423202492
+
+
+
+[D_423202492?,displayif=valueIsOneOf("D_770939852",506053626,462661976,178420302)] When did you <b>last</b> have a prostate biopsy?
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+
+[D_961267001?,displayif=valueIsOneOf("D_413039729",145235510,801218076)] <b>Breast Cancer Screening</b>
+
+Have you <b>ever</b> had any of these procedures to check for breast cancer or other conditions? Select all that apply.
+
+[577887061] <b>Mammogram</b> An x-ray of the breast. Involves standing in front of mammography machine that compresses your breasts between 2 plates.  -> D_745742553
+[419571068] <b>Breast MRI</b> An MRI (Magnetic Resonance Imaging) of the breast. Detailed pictures of the inside of your breast are taken while you were laying down in an MRI machine. Usually requires getting a dye through a needle in your arm. -> D_315184598
+[726183532] <b>Breast Ultrasound</b> An ultrasound of the breast. A healthcare provider moved a wand-like device called a transducer over your skin to make the images of your breasts. -> D_305769587
+[898042848] <b>Breast Biopsy</b> Small amounts of the breast are removed with a biopsy needle or during surgery. The breast tissue or cells are then looked at under a microscope to check for cancer or other problems.  -> D_861488320
+[535003378*] I have <b>not</b> had any of these screening tests  
+< -> D_957875649>
+
+
+[D_745742553?,displayif=equals(D_961267001,577887061)] When did you <b>first</b> have a mammogram?
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+< ->D_111580947>
+
+[D_111580947?,displayif=equals(D_961267001,577887061)] How many times have you had a mammogram?
+(236949684)	Once  -> D_372457715
+(506053626)	Twice -> D_709088568
+(119809731)	3 to 5 times -> D_709088568
+(282580702)	6 to 10 times -> D_709088568
+(934779560)	Over 10 times -> D_709088568
+(178420302)	Don’t know -> D_709088568
+< #NR -> D_372457715>
+
+[D_709088568?,displayif=valueIsOneOf("D_111580947",506053626,119809731,282580702,934779560,178420302)] When did you <b>last</b> have a mammogram?
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+< -> D_372457715>
+
+[D_372457715?,displayif=equals(D_961267001,577887061)] When you <b>last</b> had a mammogram, what type of mammogram did you have?
+(441766026)	<b>2D Mammogram</b> Also known as conventional digital mammography. Two pictures are typically taken of each breast—one from the side and one from above.
+(510907305)	<b>3D Mammogram</b> Also known as digital breast tomosynthesis. Multiple images are taken of the breast from different angles. A computer combines the images to create a 3D picture of the breast, which may give doctors a clearer view of the breast tissue.
+(178420302)	I don’t know what type of mammogram I had. 
+
+
+[D_315184598?,displayif=equals(D_961267001,419571068)] When did you <b>first</b> have a breast MRI?
+
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+< -> D_560107274>
+
+[D_560107274?,displayif=equals(D_961267001,419571068)] How many times have you had a breast MRI?
+
+(236949684)	Once   
+(506053626)	Twice -> D_569358384
+(119809731)	3 to 5 times -> D_569358384
+(282580702)	6 to 10 times -> D_569358384
+(934779560)	Over 10 times -> D_569358384
+(178420302)	Don’t know -> D_569358384
+
+
+[D_569358384?,displayif=valueIsOneOf("D_560107274",506053626,119809731,282580702,934779560,178420302)] When did you <b>last</b> have a breast MRI?
+
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+
+
+[D_305769587?,displayif=equals(D_961267001,726183532)] When did you <b>first</b> have a breast ultrasound?
+
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+< -> D_434993234>
+
+[D_434993234?,displayif=equals(D_961267001,726183532)] How many times have you had a breast ultrasound?
+(236949684)	Once  
+(506053626)	Twice -> D_846067697
+(119809731)	3 to 5 times -> D_846067697
+(282580702)	6 to 10 times -> D_846067697
+(934779560)	Over 10 times -> D_846067697
+(178420302)	Don’t know -> D_846067697
+
+[D_846067697?,displayif=valueIsOneOf("D_434993234",506053626,119809731,282580702,934779560,178420302)] When did you <b>last</b> have a breast ultrasound?
+
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+
+[D_861488320?,displayif=equals(D_961267001,898042848)] When did you <b>first</b> have a breast biopsy?
+
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+< -> D_891793989>
+
+[D_891793989?,displayif=equals(D_961267001,898042848)] How many times have you had a breast biopsy?
+
+(236949684)	Once  
+(506053626)	Twice -> D_811848389
+(119809731)	3 to 5 times -> D_811848389
+(282580702)	6 to 10 times -> D_811848389
+(934779560)	Over 10 times -> D_811848389
+(178420302)	Don’t know -> D_811848389
+
+
+[D_811848389?,displayif=valueIsOneOf("D_891793989",506053626,119809731,282580702,934779560,178420302)] When did you <b>last</b> have a breast biopsy?
+
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+
+[D_957875649?,displayif=equals(D_890391968,434651539)] <b>Ovarian Cancer Screening</b>
+
+Have you <b>ever</b> had any of these tests to check for ovarian cancer or other conditions? Select all that apply. 
+
+[903156464] <b>Blood test for ovarian cancer (CA-125)</b> A blood test to check for ovarian cancer.  -> D_406370140
+[474921307] <b>Transvaginal Ultrasound</b> Also known as a pelvic ultrasound, pelvic ultrasonography, gynecologic ultrasound, or endovaginal ultrasound. A healthcare provider inserted a wand-like device called a transducer into your vagina to make the images of your tissues and organs. -> D_475018570
+[535003378*] I have <b>not</b> had any of these screening tests 
+< -> D_229764995>
+
+
+[D_406370140?,displayif=equals(D_957875649,903156464)] When did you <b>first</b> have a blood test for ovarian cancer?
+
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+< -> D_951078002> 
+
+[D_951078002?,displayif=equals(D_957875649,903156464)] How many times have you had a blood test for ovarian cancer?
+(236949684)	Once  
+(506053626)	Twice -> D_631089527
+(119809731)	3 to 5 times -> D_631089527
+(282580702)	6 to 10 times -> D_631089527
+(934779560)	Over 10 times -> D_631089527
+(178420302)	Don’t know -> D_631089527
+
+
+[D_631089527?,displayif=valueIsOneOf("D_951078002",506053626,119809731,282580702,934779560,178420302)] When did you <b>last</b> have a blood test for ovarian cancer?
+
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+
+[D_475018570?,displayif=equals(D_957875649,474921307)]  When did you <b>first</b> have a transvaginal ultrasound?
+
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+< -> D_227617345>
+
+[D_227617345?,displayif=equals(D_957875649,474921307)] How many times have you had a transvaginal ultrasound?
+
+(236949684)	Once  
+(506053626)	Twice -> D_274709835
+(119809731)	3 to 5 times -> D_274709835
+(282580702)	6 to 10 times -> D_274709835
+(934779560)	Over 10 times -> D_274709835
+(178420302)	Don’t know -> D_274709835
+
+
+[D_274709835?,displayif=valueIsOneOf("D_227617345",506053626,119809731,282580702,934779560,178420302)] When did you <b>last</b> have a transvaginal ultrasound?
+
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+ 
+[D_229764995?,displayif=equals(D_890391968,505282171)] <b>Cervical Cancer Screening</b>
+
+Have you <b>ever</b> had any of these tests to check for cervical cancer or other conditions? Select all that apply. 
+[405616098]<b> High-risk human papillomavirus (HrHPV) Test</b> A healthcare provider used a plastic or metal instrument called a speculum to open your vagina, and used a soft brush or plastic spatula to collect cells from your cervix. The cells were checked for the type of HPV that can lead to cervical cancer. -> D_934385625
+// TRANSFORMER WARNING --> HPV | this may be an untransformed Quest code
+[646114392] <b>Pap Test</b> Also known as Pap smear or cervical cytology. A healthcare provider used a plastic or metal instrument called a speculum to open your vagina, and used a soft brush or plastic spatula to collect cells from your cervix. The cells were checked for cancer or signs that they may become cancer. -> D_723960145
+[673135412*] I have had a cervical cancer screening test, but do not know which test I had -> D_623413449
+[535003378*] I have <b>not</b> had any of these screening tests 
+< ->  D_356470898>
+
+
+[D_934385625?,displayif=equals(D_229764995,405616098)] When did you <b>first</b> have a HrHPV test?
+// TRANSFORMER WARNING --> HPV | this may be an untransformed Quest code
+
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+< -> D_393386163>
+
+[D_393386163?,displayif=equals(D_229764995,405616098)] How many times have you had a HrHPV test?
+// TRANSFORMER WARNING --> HPV | this may be an untransformed Quest code
+(236949684)	Once  
+(506053626)	Twice -> D_856699079
+(119809731)	3 to 5 times -> D_856699079
+(282580702)	6 to 10 times -> D_856699079
+(934779560)	Over 10 times -> D_856699079
+(178420302)	Don’t know -> D_856699079
+
+
+[D_856699079?,displayif=valueIsOneOf("D_393386163",506053626,119809731,282580702,934779560,178420302)] When did you <b>last</b> have a HrHPV test?
+// TRANSFORMER WARNING --> HPV | this may be an untransformed Quest code
+
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+
+[D_723960145?,displayif=equals(D_229764995,646114392)] When did you <b>first</b> have a Pap test?
+
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+< -> D_353889236>
+
+[D_353889236?,displayif=equals(D_229764995,646114392)] How many times have you had a Pap test?
+
+(236949684)	Once  
+(506053626)	Twice -> D_242001363
+(119809731)	3 to 5 times -> D_242001363
+(282580702)	6 to 10 times -> D_242001363
+(934779560)	Over 10 times -> D_242001363
+(178420302)	Don’t know -> D_242001363
+
+
+[D_242001363?,displayif=valueIsOneOf("D_353889236",506053626,119809731,282580702,934779560,178420302)] When did you <b>last</b> have a Pap test?
+
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+
+[D_623413449?,displayif=equals(D_229764995,673135412)] When were you <b>first</b> screened for cervical cancer?
+
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+< -> D_153215425>
+
+[D_153215425?,displayif=equals(D_229764995,673135412)] How many times have you been screened for cervical cancer?
+
+(236949684)	Once  
+(506053626)	Twice -> D_115504049
+(119809731)	3 to 5 times   -> D_115504049
+(282580702)	6 to 10 times   -> D_115504049
+(934779560)	Over 10 times  -> D_115504049 
+(178420302)	Don’t know   -> D_115504049
+
+
+[D_115504049?,displayif=valueIsOneOf("D_153215425",506053626,119809731,282580702,934779560,178420302)] When were you <b>last</b> screened for cervical cancer?
+
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+
+[D_356470898?,displayif=equals(D_890391968,578416151)] <b>Endometrial Cancer Screening</b>
+Have you <b>ever</b> had any of these tests to check for endometrial cancer or other conditions? Select all that apply. 
+
+[687879041] <b>Transvaginal Ultrasound</b> Also known as a pelvic ultrasound, pelvic ultrasonography, gynecologic ultrasound, or endovaginal ultrasound. A healthcare provider inserted a wand-like device called a transducer into your vagina to make the images of your tissues and organs. -> D_947994136
+[531274737] <b>Hysteroscopy</b> A healthcare provider inserted a thin, flexible tube through your vagina to look inside your uterus and check for cancer or other problems. It is likely that you were awake and may have had numbing medicine, but were able to drive yourself home. Your provider could also have given you a sedative to relax you, in which case someone else needed to drive you home. -> D_655198446
+[650022485] <b> Endometrial Biopsy</b> A healthcare provider used a plastic or metal instrument called a speculum to open your vagina, and inserted a very thin, flexible tube into your uterus. Then, using a suction, the provider took a small amount of tissue through the tube. The suctioning took about a minute or less and was likely done in your provider’s office. The tissue is then looked at under a microscope to check for cancer or other problems. -> D_496588916
+[891052313] <b>Dilation and Curettage (D&C) </b> Before the procedure, it is likely that a medicine was given through a needle in your arm to make you sleepy. During this surgical procedure, a healthcare provider enlarged (dilated) your cervix and inserted an instrument to scrape tissue from inside your uterus. Someone else needed to drive you home. -> D_249853484
+[535003378*] I have <b>not</b> had any of these screening tests  
+< ->  D_219076879>
+
+
+[D_947994136?,displayif=equals(D_356470898,687879041)] When did you <b>first</b> have a transvaginal ultrasound?
+
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+< -> D_898341670>
+
+[D_898341670?,displayif=equals(D_356470898,687879041)] How many times have you had a transvaginal ultrasound?
+
+(236949684)	Once  
+(506053626)	Twice  -> D_913107034
+(119809731)	3 to 5 times  -> D_913107034
+(282580702)	6 to 10 times  -> D_913107034
+(934779560)	Over 10 times  -> D_913107034
+(178420302)	Don’t know  -> D_913107034
+
+
+[D_913107034?,displayif=valueIsOneOf("D_898341670",506053626,119809731,282580702,934779560,178420302)] When did you <b>last</b> have a transvaginal ultrasound?
+
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+
+[D_655198446?,displayif=equals(D_356470898,531274737)] When did you <b> first</b> have a hysteroscopy?
+
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+< -> D_809308794>
+
+[D_809308794?,displayif=equals(D_356470898,531274737)] How many times have you had a hysteroscopy?
+(236949684)	Once  
+(506053626)	Twice -> D_766549014
+(119809731)	3 to 5 times -> D_766549014
+(282580702)	6 to 10 times -> D_766549014
+(934779560)	Over 10 times -> D_766549014
+(178420302)	Don’t know -> D_766549014
+
+
+[D_766549014?,displayif=valueIsOneOf("D_809308794",506053626,119809731,282580702,934779560,178420302)] When did you <b> last</b> have a hysteroscopy?
+
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+
+[D_496588916?,displayif=equals(D_356470898,650022485)] When did you <b>first</b> have an endometrial biopsy?
+
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+< -> D_104842019>
+
+[D_104842019?,displayif=equals(D_356470898,650022485)] How many times have you had an endometrial biopsy?
+
+(236949684)	Once  
+(506053626)	Twice -> D_315199788
+(119809731)	3 to 5 times -> D_315199788
+(282580702)	6 to 10 times -> D_315199788
+(934779560)	Over 10 times -> D_315199788
+(178420302)	Don’t know -> D_315199788
+
+
+[D_315199788?,displayif=valueIsOneOf("D_104842019",506053626,119809731,282580702,934779560,178420302)] When did you <b> last</b> have an endometrial biopsy?
+
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+
+
+[D_249853484?,displayif=equals(D_356470898,891052313)] When did you <b> first</b>  have a dilation and curettage (D&C)?
+
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+< -> D_391300412>
+
+[D_391300412?,displayif=equals(D_356470898,891052313)] How many times have you had a dilation and curettage (D&C)?
+
+(236949684)	Once 
+(506053626)	Twice -> D_808990505
+(119809731)	3 to 5 times -> D_808990505
+(282580702)	6 to 10 times -> D_808990505
+(934779560)	Over 10 times -> D_808990505
+(178420302)	Don’t know -> D_808990505
+
+
+[D_808990505?,displayif=valueIsOneOf("D_391300412",506053626,119809731,282580702,934779560,178420302)] When did you <b>last</b> have a dilation and curettage (D&C)?
+
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+
+[D_219076879?] <b>Multi-Cancer Screening Tests</b>
+
+Have you <b>ever</b> had any of these tests to check for multiple types of cancers? Select all that apply.
+[875157431] <b>Multi-cancer early detection (MCED) Test</b> Also known as a liquid biopsy. MCED tests (for example, GRAIL’s Galleri™ test) are blood tests that measure biological signals in body fluids that may be shed by cancer cells. -> D_822790675
+[309925717] <b>Full body MRI or CT</b> An MRI (Magnetic Resonance Imaging) or CT (CAT scan) of your body. Detailed pictures of the inside of your body were taken while you were laying down in an MRI or CT machine. -> D_553034408 
+[535003378*] I have <b>not</b> had any of these screening tests 	
+< ->  D_431721131>
+
+
+[D_822790675?,displayif=equals(D_219076879,875157431)] When did you <b>first</b> have a MCED test?
+
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+< -> D_459223565>
+
+[D_459223565?,displayif=equals(D_219076879,875157431)] How many times have you had a MCED test?
+
+(236949684)	Once  
+(506053626)	Twice -> D_397748152
+(119809731)	3 to 5 times -> D_397748152
+(282580702)	6 to 10 times -> D_397748152
+(934779560)	Over 10 times -> D_397748152
+(178420302)	Don’t know -> D_397748152
+
+
+[D_397748152?,displayif=valueIsOneOf("D_459223565",506053626,119809731,282580702,934779560,178420302)] When did you <b>last</b> have a MCED test?
+
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+
+
+[D_553034408?,displayif=equals(D_219076879,309925717)] When did you <b>first</b> have a full body MRI?
+
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+< -> D_698242759>
+
+[D_698242759?,displayif=equals(D_219076879,309925717)] How many times have you had a full body MRI?
+
+(236949684)	Once  
+(506053626)	Twice -> D_695772621
+(119809731)	3 to 5 times -> D_695772621
+(282580702)	6 to 10 times -> D_695772621
+(934779560)	Over 10 times -> D_695772621
+(178420302)	Don’t know -> D_695772621
+
+
+[D_695772621?,displayif=valueIsOneOf("D_698242759",506053626,119809731,282580702,934779560,178420302)] When did you <b>last</b> have a full body MRI?
+
+(461386928)	Less than 1 year ago
+(729845236)	More than 1 year ago, but less than 2 years ago
+(669023414)	More than 2 years ago, but less than 5 years ago
+(786431761)	More than 5 years ago, but less than 10 years ago
+(640520411)	Over 10 years ago
+(178420302)	Don’t know
+
+[D_431721131?] Who completed this survey section?
+(589702540)	Completed by study participant
+(275706407)	Completed by someone else on behalf of study participant
+
+
+[END]You have answered all of the questions in this survey. To submit your answers, select the “Submit Survey” button.
