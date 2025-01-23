@@ -37,7 +37,7 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Wed Dec 18 11:04:00 2024 -0500 (short timestamp = 2024-12-18-16-04-00)
+//This file was last modified on Thu Jan 23 12:03:47 2025 -0500 (short timestamp = 2025-01-23-17-03-47)
 //{"version":"4.0"}
 {"name":"D_726699695_V2"}
 [INTROM1] Welcome, {$u:firstName}! This survey is split into sections. Each section has questions that ask you about a wide range of topics. Our goal is to collect information about your medical history, family, work, and health behaviors. You can answer all of the questions in each survey section at one time, or answer some questions, pause, and return to answer the rest later. If you pause, your answers will be saved and you can pick up where you left off. You can also skip any questions that you do not want to answer.
@@ -203,8 +203,8 @@ Please remember that we protect your privacy. We remove information that can ide
 [D_407056417!] Later questions in this survey will ask about surgeries and medical procedures, including the sex organs you were born with. We want to ask questions that will make sense for you. We are also interested in learning how gender identity and gender expression may affect your health and health care.
 
 What was your biological sex assigned at birth?
-(654207589) Male -> D_289664241
 (536341288) Female -> D_289664241
+(654207589) Male -> D_289664241
 (576796184) Intersex or other -> D_750420077
 
 [D_750420077!,displayif=equals(D_407056417,576796184)] Please select the body parts that you were born with. Select all that apply. 
@@ -266,8 +266,10 @@ We also ask about certain medical procedures you may have had.
 [D_537153788?] <b>Cancer</b>
 
 Has a doctor or other health professional ever told you that you have or had <b>non-melanoma skin cancer</b>?
-(353358909) Yes -> D_508846529
+
 (104430631) No -> D_167101091
+(353358909) Yes -> D_508846529
+
 < #NR -> D_167101091 >
 
 [D_508846529?] What type(s) of skin cancer did a doctor or other health professional tell you that you have or had? Select all that apply.
@@ -390,7 +392,7 @@ Has a doctor or other health professional ever told you that you have or had any
 [535003378*] I have <b>not</b> had any of these conditions 
 < -> D_180961306 >
 
-[D_448722126?,displayif=equals(D_894259747,359025642)] How old were you when you a doctor or other health professional <b>first</b> told you that you have or had <b>chronic lung disease (emphysema, chronic bronchitis, or chronic obstructive pulmonary disease (COPD))</b>?<br/>
+[D_448722126?,displayif=equals(D_894259747,359025642)] How old were you when a doctor or other health professional <b>first</b> told you that you have or had <b>chronic lung disease (emphysema, chronic bronchitis, or chronic obstructive pulmonary disease (COPD))</b>?<br/>
 |__|__|xor=COPD id=D_206625031 min=0 max=_value("age")| Age at diagnosis
 
 Or, if it is easier to remember the year, enter that here:<br/>
@@ -411,7 +413,7 @@ Or, if it is easier to remember the year, enter that here:<br/>
 |__|__|__|__|xor=HAYFEVER id=D_261863326 min=_value("yob") max=#currentYear| Year of diagnosis
 
 
-[D_180961306?] <b>Digestive system problems</b>
+[D_180961306?] <b>Digestive System Problems</b>
 
 Has a doctor or other health professional ever told you that you have or had any of these conditions? Select all that apply.
 [406890409] Esophageal Acid Reflux (GERD) -> D_554782332
@@ -525,7 +527,7 @@ Or, if it is easier to remember the year, enter that here:<br/>
 (178420302) Don’t know
 < ->D_301679110 >
 
-[D_301679110?,displayif=equals(D_900541533,158044532)] How old were you when a doctor or other health professional <b>first</b> told you that you have or had diabetes?<br/>
+[D_301679110?,displayif=equals(D_900541533,158044532)] How old were you when a doctor or other health professional <b>first</b> told you that you have or had <b>diabetes</b>?<br/>
 |__|__|xor=DM2 id=D_206625031 min=0 max=_value("age")| Age at diagnosis
 
 Or, if it is easier to remember the year, enter that here:<br/>
@@ -560,7 +562,7 @@ Or, if it is easier to remember the year, enter that here:<br/>
 |__|__|__|__|xor=CKD id=D_261863326 min=_value("yob") max=#currentYear| Year of diagnosis
 
 
-[D_543728565?]<b>Systemic and other problems</b>
+[D_543728565?]<b>Systemic and Other Problems</b>
  Has a doctor or other health professional ever told you that you have or had any of these conditions? Select all that apply.
 [636030086] Rheumatoid Arthritis -> D_173101988
 [239687183] Lupus -> D_245861186
@@ -737,10 +739,12 @@ Or, if it is easier to remember the year, enter that here:<br/>
 |__|__|__|__|xor=BREASTDIS id=D_261863326 min=_value("yob") max=#currentYear| Year of diagnosis
 < -> D_134642404 >
 
-[D_134642404?,displayif=equals(D_725626004,746542057)] When you were told that you have fibrocystic breasts, or other benign breast disease, was it <b>confirmed by biopsy</b>?
-(353358909) Yes
-(104430631) No
+[D_134642404?,displayif=equals(D_725626004,746542057)] When you were told that you have or had fibrocystic breasts, or other benign breast disease, was it <b>confirmed by biopsy</b>?
 
+(104430631) No
+(353358909) Yes
+
+< -> D_219956652 >
 
 [D_219956652?,displayif=equals(D_725626004,854945381)] How old were you when a doctor or other health professional first told you that you have or had <b>ductal carcinoma <i>in situ</i> of the breast</b>?<br/>
 |__|__|xor=BREASTDIS3 id=D_206625031 min=0 max=_value("age")| Age at diagnosis
@@ -758,18 +762,19 @@ Or, if it is easier to remember the year, enter that here:<br/>
 We are interested in learning about your mental health. The following question will ask whether you have ever been diagnosed with clinical depression (major depression, or major depressive disorder). Remember, all of the information you share is protected. We remove information that identifies you from your survey answers before we share them with researchers.
 
 
-[D_347860896?] Has a doctor or other health professional ever told you that you have <b>clinical depression</b>?
+[D_347860896?] Has a doctor or other health professional ever told you that you have or had <b>clinical depression</b>?
+
 (353358909) Yes -> D_301414575
 (104430631) No -> INTROSURG
 < #NR -> INTROSURG >
 
-[D_301414575?] How old were you when a doctor or other health professional <b>first</b> told you that you have or had clinical depression?<br/>
+[D_301414575?] How old were you when a doctor or other health professional <b>first</b> told you that you have or had <b>clinical depression</b>?<br/>
 |__|__|xor=DEPRESS2 id=D_206625031 min=0 max=_value("age")| Age at diagnosis
 
 Or, if it is easier to remember the year, enter that here:<br/>
 |__|__|__|__|xor=DEPRESS2 id=D_261863326 min=_value("yob") max=#currentYear| Year of diagnosis
 
-[INTROSURG] <b>Surgical procedures</b>
+[INTROSURG] <b>Surgical Procedures</b>
 The next questions ask about certain surgical procedures you may have had.
 
 
@@ -869,13 +874,13 @@ Or, if it is easier to remember the year, enter that here:<br/>
 [535003378*] None of the above 
 
 
-[D_477690298?,displayif=equals(D_517307064,752953170)] How old were you when you had <b>breast implants surgery (augmentation surgery)</b>?
+[D_477690298?,displayif=equals(D_517307064,752953170)] How old were you when you had <b>breast implants surgery</b> (augmentation surgery)?
 |__|__|xor=BREASTSUR0 id=D_623218391 min=0 max=_value("age")| Age at surgery
 
 Or, if it is easier to remember the year, enter that here:<br/>
 |__|__|__|__|xor=BREASTSUR0 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
 
-[D_176453768?,displayif=equals(D_517307064,325506683)] How old were you when you had <b>breast lift surgery (mastopexy)</b>?
+[D_176453768?,displayif=equals(D_517307064,325506683)] How old were you when you had <b>breast lift surgery</b> (mastopexy)?
 |__|__|xor=BREASTSUR1 id=D_623218391 min=0 max=_value("age")| Age at surgery
 
 Or, if it is easier to remember the year, enter that here:<br/>
@@ -887,26 +892,26 @@ Or, if it is easier to remember the year, enter that here:<br/>
 Or, if it is easier to remember the year, enter that here:<br/>
 |__|__|__|__|xor=BREASTSUR2 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
 
-[D_287605131?,displayif=equals(D_517307064,955881350)] How old were you when you had <b>breast reduction surgery (reduction mammaplasty)</b>?
+[D_287605131?,displayif=equals(D_517307064,955881350)] How old were you when you had <b>breast reduction surgery</b> (reduction mammaplasty)?
 |__|__|xor=BREASTSUR3 id=D_623218391 min=0 max=_value("age")| Age at surgery
 
 Or, if it is easier to remember the year, enter that here:<br/>
 |__|__|__|__|xor=BREASTSUR3 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
 
-[D_701157499?,displayif=equals(D_517307064,492902023)] How old were you when you had <b>surgery for removal of a part of your breast tissue (breast-conserving surgery (BCS), lumpectomy, partial mastectomy, or segmental mastectomy)</b>?
+[D_701157499?,displayif=equals(D_517307064,492902023)] How old were you when you had <b>surgery for removal of part of your breast tissue</b> (breast-conserving surgery (BCS), lumpectomy, partial mastectomy, or segmental mastectomy)?
 
 |__|__|xor=BREASTSUR4 id=D_623218391 min=0 max=_value("age")| Age at surgery
 
 Or, if it is easier to remember the year, enter that here:<br/>
 |__|__|__|__|xor=BREASTSUR4 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
 
-[D_428639167?,displayif=equals(D_517307064,256196714)] How old were you when you had <b>surgery for removal of one breast (mastectomy)</b>?
+[D_428639167?,displayif=equals(D_517307064,256196714)] How old were you when you had <b>surgery for removal of one breast </b>(mastectomy)?
 |__|__|xor=BREASTSUR5 id=D_623218391 min=0 max=_value("age")| Age at surgery
 
 Or, if it is easier to remember the year, enter that here:<br/>
 |__|__|__|__|xor=BREASTSUR5 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
 
-[D_282355641?,displayif=equals(D_517307064,802859122)] How old were you when you had <b>surgery for removal of both breasts (double or bilateral mastectomy)</b>?
+[D_282355641?,displayif=equals(D_517307064,802859122)] How old were you when you had <b>surgery for removal of both breasts</b> (double or bilateral mastectomy)?
 |__|__|xor=BREASTSUR6 id=D_623218391 min=0 max=_value("age")| Age at surgery
 
 Or, if it is easier to remember the year, enter that here:<br/>
@@ -918,7 +923,7 @@ Or, if it is easier to remember the year, enter that here:<br/>
 Or, if it is easier to remember the year, enter that here:<br/>
 |__|__|__|__|xor=BREASTSUR7 id=D_802622485 min=_value("yob") max=#currentYear| Year of surgery
 
-[D_579225381?,displayif=equals(D_517307064,667901971)] How old were you when you had <b>surgery for removal of a lactiferous or milk duct (microdochectomy)</b>?
+[D_579225381?,displayif=equals(D_517307064,667901971)] How old were you when you had <b>surgery for removal of a lactiferous or milk duct</b> (microdochectomy)?
 |__|__|xor=BREASTSUR8 id=D_623218391 min=0 max=_value("age")| Age at surgery
 
 Or, if it is easier to remember the year, enter that here:<br/>
@@ -1014,8 +1019,10 @@ Or, if it is easier to remember the year, enter that here:<br/>
 
 [D_453252072?] <b>Blood Transfusion</b>
 Have you ever had a <b>blood transfusion</b>?
-(353358909) Yes -> D_795940097
+
 (104430631) No -> D_875208305
+(353358909) Yes -> D_795940097
+
 <#NR -> D_875208305>
 
 [D_795940097?] How many blood transfusions have you had in total?
@@ -2301,12 +2308,12 @@ The following questions ask for more background information about you, including
 
 [D_761310265?]
 
-[D_434316600?] What was your employer’s name for your <b>current</b> job?
+[D_434316600?] What is your employer’s name for your <b>current</b> job?
 
 |__|size=50|
 
 
-[D_700374192?] What type of business was this? (Select all that apply.)
+[D_700374192?] What type of business is this? (Select all that apply.)
 [641572847] Manufacturing
 [592592455] Retail or wholesale sales 
 [149230791] Transportation, warehousing, and utilities (e.g., water, sanitation, electric)
@@ -2324,7 +2331,7 @@ The following questions ask for more background information about you, including
 [178420302*] Don’t Know
 
 
-[D_868232409?] What products were made, or services provided, by your employer? If multiple, please provide the product/services related to your work unit. For example: automotive parts, residential home construction, accounting services, pharmaceutical research.
+[D_868232409?] What products are made, or services provided, by your employer? If multiple, please provide the product/services related to your work unit. For example: automotive parts, residential home construction, accounting services, pharmaceutical research.
 
 |___| 
 
@@ -2336,8 +2343,9 @@ The following questions ask for more background information about you, including
 
 [D_847533056?] Is your <b>current</b> job your <b>longest-held</b> job?
 
-(353358909) Yes  -> D_759004335
 (104430631) No -> D_118061122
+(353358909) Yes  -> D_759004335
+
 < #NR -> D_118061122 >
 
 [D_403258164?] Have you ever worked for pay (full-time or part-time)?
@@ -2403,6 +2411,7 @@ The following questions ask for more background information about you, including
 (746038746) Prefer not to answer
 
 [D_641651634?] How many people currently live in your household? Please include yourself in the total number. (Include students living away at school, deployed military, etc.)
+
 |__|__|id=D_173508724 min=1 max=99| #People living in household
 [746038746*] Prefer not to answer
 
