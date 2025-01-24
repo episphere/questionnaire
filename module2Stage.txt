@@ -1,16 +1,24 @@
-// This file was transformed using the mapping data in Quest-2024-08-15-05-25-39_Transformation.json.
+// This file was transformed using the mapping data in Quest-2025-01-10-17-29-30_Transformation.json.
 
-// JSON ERROR --> Concept ID collision for ID: 784119588 | there are collisions between Quest ID(s): [SRVBLU_LANGUAGE_V1R0, SRVBOH_LANGUAGE_V1R0, SRVBUM_LANGUAGE_V1R0, SRVCOV_LANGUAGE_V1R0, SRVLAW_LANGUAGE_V1R0, SRVMC_LANGUAGE_V1R0, SRVMW_LANGUAGE_V1R0, SRVQOL_LANGUAGE_V1R0, SRVSAS_LANGUAGE_V1R0, SRVSSN_LANGUAGE_V1R0]
+// JSON ERROR --> Concept ID collision for ID: 285545471 | there are unexpected collisions between Quest ID(s): [DRINKSWTR2A_SRC] and Concept(s): [In a usual week, about how often do you drink tap water from your home? We are interested in all tap water, whether or not it has been filtered or treated.]
+// JSON ERROR --> Concept ID collision for ID: 961178879 | there are unexpected collisions between Quest ID(s): [DRINKSWTR2B_SRC] and Concept(s): [In a usual week, about how often do you use tap water from your home to make a cup of coffee? We are interested in all tap water, whether or not it has been filtered or treated.]
+// JSON ERROR --> Concept ID collision for ID: 138116092 | there are unexpected collisions between Quest ID(s): [DRINKSWTR2C_SRC] and Concept(s): [In a usual week, about how often do you use tap water from your home to make a cup of hot tea? We are interested in all tap water, whether or not it has been filtered or treated.]
+// JSON ERROR --> Concept ID collision for ID: 393682471 | there are unexpected collisions between Quest ID(s): [DRINKSWTR2D_SRC] and Concept(s): [In a usual week, about how often do you use tap water from your home to make a glass of iced tea? We are interested in all tap water, whether or not it has been filtered or treated.]
+// JSON ERROR --> Concept ID collision for ID: 364303962 | there are unexpected collisions between Quest ID(s): [DRINKSWTR2E_SRC] and Concept(s): [In a usual week, about how often do you use tap water from your home to make any other beverages or soup? We are interested in all tap water, whether or not it has been filtered or treated.]
+// JSON ERROR --> Concept ID collision for ID: 944517297 | there are unexpected collisions between Quest ID(s): [DRINKSWTR2F_SRC] and Concept(s): [In a usual week, about how often do you use tap water from your home to make [insert response from DRINKSWTR1/other beverages]? We are interested in all tap water, whether or not it has been filtered or treated.]
+// JSON ERROR --> Concept ID collision for ID: 784119588 | there are unexpected collisions between Quest ID(s): [SRVBLU_LANGUAGE_V1R0, SRVBOH_LANGUAGE_V1R0, SRVBUM_LANGUAGE_V1R0, SRVCOE_LANGUAGE_V1R0, SRVCOV_LANGUAGE_V1R0, SRVLAW_LANGUAGE_V1R0, SRVMC_LANGUAGE_V1R0, SRVMRE_LANGUAGE_V1R0, SRVMW_LANGUAGE_V1R0, SRVQOL_LANGUAGE_V1R0, SRVSAS_LANGUAGE_V1R0, SRVSCR_LANGUAGE_V1R0, SRVSSN_LANGUAGE_V1R0]
+// JSON ERROR --> Concept ID collision for ID: 431721131 | there are unexpected collisions between Quest ID(s): [QXAUTHOR1, SRVSCR_WHOCOMPLQX_V1R0]
 
-// JSON ERROR --> SRVBOH_LANGUAGE_V1R0 conceptId 784119588 already maps to Quest code: SRVBLU_LANGUAGE_V1R0 | conceptId collision
-// JSON ERROR --> SRVBUM_LANGUAGE_V1R0 conceptId 784119588 already maps to Quest code: SRVBLU_LANGUAGE_V1R0 | conceptId collision
-// JSON ERROR --> SRVCOV_LANGUAGE_V1R0 conceptId 784119588 already maps to Quest code: SRVBLU_LANGUAGE_V1R0 | conceptId collision
-// JSON ERROR --> SRVLAW_LANGUAGE_V1R0 conceptId 784119588 already maps to Quest code: SRVBLU_LANGUAGE_V1R0 | conceptId collision
-// JSON ERROR --> SRVMC_LANGUAGE_V1R0 conceptId 784119588 already maps to Quest code: SRVBLU_LANGUAGE_V1R0 | conceptId collision
-// JSON ERROR --> SRVMW_LANGUAGE_V1R0 conceptId 784119588 already maps to Quest code: SRVBLU_LANGUAGE_V1R0 | conceptId collision
-// JSON ERROR --> SRVQOL_LANGUAGE_V1R0 conceptId 784119588 already maps to Quest code: SRVBLU_LANGUAGE_V1R0 | conceptId collision
-// JSON ERROR --> SRVSAS_LANGUAGE_V1R0 conceptId 784119588 already maps to Quest code: SRVBLU_LANGUAGE_V1R0 | conceptId collision
-// JSON ERROR --> SRVSSN_LANGUAGE_V1R0 conceptId 784119588 already maps to Quest code: SRVBLU_LANGUAGE_V1R0 | conceptId collision
+// JSON ERROR --> DRINKSWTR2A_SRC option DRINKSWTR2A conceptId 285545471 already maps to Quest code: DRINKSWTR2A_SRC | conceptId collision
+// JSON ERROR --> DRINKSWTR2B_SRC option DRINKSWTR2B conceptId 961178879 already maps to Quest code: DRINKSWTR2B_SRC | conceptId collision
+// JSON ERROR --> DRINKSWTR2C_SRC option DRINKSWTR2C conceptId 138116092 already maps to Quest code: DRINKSWTR2C_SRC | conceptId collision
+// JSON ERROR --> DRINKSWTR2D_SRC option DRINKSWTR2D conceptId 393682471 already maps to Quest code: DRINKSWTR2D_SRC | conceptId collision
+// JSON ERROR --> DRINKSWTR2E_SRC option DRINKSWTR2E conceptId 364303962 already maps to Quest code: DRINKSWTR2E_SRC | conceptId collision
+// JSON ERROR --> DRINKSWTR2F_SRC option DRINKSWTR2F conceptId 944517297 already maps to Quest code: DRINKSWTR2F_SRC | conceptId collision
+// JSON ERROR --> SRVCOE_LANGUAGE_V1R0 conceptId 784119588 already maps to Quest code: SRVBLU_LANGUAGE_V1R0 | conceptId collision
+// JSON ERROR --> SRVMRE_LANGUAGE_V1R0 conceptId 784119588 already maps to Quest code: SRVBLU_LANGUAGE_V1R0 | conceptId collision
+// JSON ERROR --> SRVSCR_LANGUAGE_V1R0 conceptId 784119588 already maps to Quest code: SRVBLU_LANGUAGE_V1R0 | conceptId collision
+// JSON ERROR --> SRVSCR_WHOCOMPLQX_V1R0 conceptId 431721131 already maps to Quest code: QXAUTHOR1 | conceptId collision
 
 // JSON WARNING --> Concept ID 101310722 with concept "# Pills per day" is shared between these Textbox codes: [ACIDSUP3_1A, ACIDSUP3_2A, ACIDSUP3_3A, CHOLHTN3_1A, CHOLHTN3_2A, INSULIN3_1A, METFOR3_1A, PAINREL3_1A, PAINREL3_2A, PAINREL3_3A, PAINREL3_4A, PAINREL3_5A, PAINREL3_6A, PAINREL3_7A]
 // JSON WARNING --> Concept ID 206625031 with concept "Age at diagnosis" is shared between these Textbox codes: [ANEMIA_AGE, ARRHYT_AGE, ASTHMA_AGE, BARESO_AGE, BLOODCLOT_AGE, BREASTDIS_AGE, CCD_AGE, CD_AGE, CHESTPAIN_AGE, CHF_AGE, CHILDCANC3A_AGE, CHILDCANC3B_AGE, CHILDCANC3C_AGE, CHILDCANC3D_AGE, CHILDCANC3E_AGE, CHILDCANC3F_AGE, CHILDCANC3G_AGE, CHILDCANC3H_AGE, CHILDCANC3I_AGE, CHILDCANC3J_AGE, CHILDCANC3K_AGE, CHILDCANC3L_AGE, CHILDCANC3M_AGE, CHILDCANC3N_AGE, CHILDCANC3O_AGE, CHILDCANC3P_AGE, CHILDCANC3Q_AGE, CHILDCANC3R_AGE, CHILDCANC3S_AGE, CHILDCANC3T_AGE, CHILDCANC3U_AGE, CHILDCANC3V_AGE, CHILDCANC3W_AGE, CHILDCANC3X_AGE, CHILDCANC3Y_AGE, CHLA_AGE, CHOL_AGE, CKD_AGE, COPD_AGE, CVD_AGE, DADCANC3A_AGE, DADCANC3B_AGE, DADCANC3C_AGE, DADCANC3D_AGE, DADCANC3E_AGE, DADCANC3F_AGE, DADCANC3G_AGE, DADCANC3H_AGE, DADCANC3I_AGE, DADCANC3J_AGE, DADCANC3K_AGE, DADCANC3L_AGE, DADCANC3M_AGE, DADCANC3N_AGE, DADCANC3O_AGE, DADCANC3P_AGE, DADCANC3Q_AGE, DADCANC3R_AGE, DADCANC3S_AGE, DADCANC3T_AGE, DADCANC3U_AGE, DADCANC3V_AGE, DCIS_AGE, DEPRESS2_AGE, DIVERT_AGE, DM2_AGE, ENDO_AGE, ENLGPROS_AGE, GALL_AGE, GENWARTS_AGE, GERD_AGE, GONORR_AGE, GOUT_AGE, GRAVES_AGE, HAYFEVER_AGE, HBVHCV_AGE, HEARTATT_AGE, HEARTVALV_AGE, HIVAIDS_AGE, HPV_AGE, HTN_AGE, IBD_AGE, IBS_AGE, KIDNEY_AGE, LIVCIRR_AGE, LUPUS_AGE, MOMCANC3A_AGE, MOMCANC3B_AGE, MOMCANC3C_AGE, MOMCANC3D_AGE, MOMCANC3E_AGE, MOMCANC3F_AGE, MOMCANC3G_AGE, MOMCANC3H_AGE, MOMCANC3I_AGE, MOMCANC3J_AGE, MOMCANC3K_AGE, MOMCANC3L_AGE, MOMCANC3M_AGE, MOMCANC3N_AGE, MOMCANC3O_AGE, MOMCANC3P_AGE, MOMCANC3Q_AGE, MOMCANC3R_AGE, MOMCANC3S_AGE, MOMCANC3T_AGE, MOMCANC3U_AGE, MOMCANC3V_AGE, MOMCANC3W_AGE, MONO_AGE, PANCREA_AGE, PCOS_AGE, RA_AGE, SHINGLES_AGE, SIBCANC3A_AGE, SIBCANC3B_AGE, SIBCANC3C_AGE, SIBCANC3D_AGE, SIBCANC3E_AGE, SIBCANC3F_AGE, SIBCANC3G_AGE, SIBCANC3H_AGE, SIBCANC3I_AGE, SIBCANC3J_AGE, SIBCANC3K_AGE, SIBCANC3L_AGE, SIBCANC3M_AGE, SIBCANC3N_AGE, SIBCANC3O_AGE, SIBCANC3P_AGE, SIBCANC3Q_AGE, SIBCANC3R_AGE, SIBCANC3S_AGE, SIBCANC3T_AGE, SIBCANC3U_AGE, SIBCANC3V_AGE, SIBCANC3W_AGE, SIBCANC3X_AGE, SIBCANC3Y_AGE, SKINCANC3_AGE, STROKE_AGE, SYPH_AGE, THYROID_AGE, TRICH_AGE, UC_AGE, UF_AGE]
@@ -18,20 +26,20 @@
 // JSON WARNING --> Concept ID 314198277 with concept "Last spent time at this address, year" is shared between these Textbox codes: [SEASADDYRS2_10_YEAR, SEASADDYRS2_1_YEAR, SEASADDYRS2_2_YEAR, SEASADDYRS2_3_YEAR, SEASADDYRS2_4_YEAR, SEASADDYRS2_5_YEAR, SEASADDYRS2_6_YEAR, SEASADDYRS2_7_YEAR, SEASADDYRS2_8_YEAR, SEASADDYRS2_9_YEAR]
 // JSON WARNING --> Concept ID 434243220 with concept "Months used" is shared between these Textbox codes: [ANYCOMESTMONTH, COMBINEDMONTH, COPIUDMONTH, DEPROPROVMONTH, ESTOTHERMONTH, ESTSKINMONTH, HORCOMPILLMONTH, HORIUDMONTH, HORMEDOTHERMONTH, HORMEDPATCHMONTH, HORMEDRINGMONTH, MINIPILLMONTH, NORPLANTMONTH, ORALESTMONTH, ORALMEDMONTH, PATCHESTMONTH, PRESHOR2MONTH, PROESTMONTH, RINGMONTH, TWOPILLMONTH]
 // JSON WARNING --> Concept ID 451310566 with concept "Months at address" is shared between these Textbox codes: [MONTHADD1, MONTHADD10, MONTHADD2, MONTHADD3, MONTHADD4, MONTHADD5, MONTHADD6, MONTHADD7, MONTHADD8, MONTHADD9]
-// JSON WARNING --> Concept ID 623218391 with concept "Age at surgery" is shared between these Textbox codes: [APPEND_AGE, BARSUR_AGE, BREASTABSS_AGE, BREASTDBLREM_AGE, BREASTIMPLANTS_AGE, BREASTLACTREM_AGE, BREASTLIFT_AGE, BREASTOTH_AGE, BREASTPARTREM_AGE, BREASTRECON_AGE, BREASTREDN_AGE, BREASTREM_AGE, FTREM2_AGE, GALLREM_AGE, HYSTER_AGE, LIPOSUCT_AGE, OVARYREM2_AGE, PENREM_AGE, PROSREM2_AGE, TESTREM2_AGE, TONSILS_AGE, TUBLIG_AGE, VASEC_AGE]
+// JSON WARNING --> Concept ID 623218391 with concept "Age at surgery" is shared between these Textbox codes: [APPEND_AGE, BARSUR_AGE, BREASTABSS_AGE, BREASTDBLREM_AGE, BREASTIMPLANTS_AGE, BREASTLACTREM_AGE, BREASTLIFT_AGE, BREASTOTH_AGE, BREASTPARTREM_AGE, BREASTRECON_AGE, BREASTREDN_AGE, BREASTREM_AGE, FTREM2_AGE, GALLREM_AGE, HYSTER_AGE, KIDREM2_AGE, LIPOSUCT_AGE, OVARYREM2_AGE, PENREM_AGE, PROSREM2_AGE, SPLEENREM_AGE, SRVSCR_APPENDECAGE_V1R1, SRVSCR_BARSURGAGE_V1R1, SRVSCR_BREASTABSCAGE_V1R1, SRVSCR_BREASTDBLREMAGE_V1R1, SRVSCR_BREASTIMPLAGE_V1R1, SRVSCR_BREASTLACREMAGE_V1R1, SRVSCR_BREASTLIFTAGE_V1R1, SRVSCR_BREASTOTHAGE_V1R1, SRVSCR_BREASTPTREMAGE_V1R1, SRVSCR_BREASTRECONAGE_V1R1, SRVSCR_BREASTREDAGE_V1R1, SRVSCR_BREASTREMAGE_V1R1, SRVSCR_CHOLECAGE_V1R1, SRVSCR_FSTSURGDBLREMAGE_V1R0, SRVSCR_HYSTERAGE_V1R1, SRVSCR_LIPOSUCTAGE_V1R1, SRVSCR_NEPHRECTOMYAGE_V1R0, SRVSCR_OOPHORECAGE_V1R1, SRVSCR_PENREMAGE_V1R1, SRVSCR_PROSREMSURGAGE_V1R1, SRVSCR_SALPINGECAGE_V1R1, SRVSCR_SECSURGDBLREMAGE_V1R0, SRVSCR_SPLENECTOMYAGE_V1R0, SRVSCR_TESTREMSURGAGE_V1R1, SRVSCR_THYROIDECTOMYAGE_V1R0, SRVSCR_TONSILSAGE_V1R1, SRVSCR_TUBLIGAGE_V1R1, SRVSCR_VASECTOMYAGE_V1R1, TESTREM2_AGE, THYRDREM_AGE, TONSILS_AGE, TUBLIG_AGE, VASEC_AGE]
 // JSON WARNING --> Concept ID 707805344 with concept "# of Hours" is shared between these Textbox codes: [FALLASLEEPHOURS, LAYINBEDHRS, NONWORKAWAKEBEFOREUPHOURS, NONWORKFALLASLEEPHOURS, OUTSIDEHOURS, WORKDAYOUTSIDEHOURS]
 // JSON WARNING --> Concept ID 765748316 with concept "Days per week" is shared between these Textbox codes: [ACETWEEK, ACIDSUP2_1WK, ACIDSUP2_2WK, ACIDSUP2_3WK, BABYASPRINWEEK, CELECOXIBWEEK, CHOLHTN2_1WK, CHOLHTN2_2WK, IBUPROFENWEEK, INSULIN2_1WK, METFOR2_1WK, NAPROXENWEEK, PAINRELWEEK, REGASPRINWEEK]
 // JSON WARNING --> Concept ID 785412329 with concept "Days per month" is shared between these Textbox codes: [ACETMONTH, ACIDSUP2_1MO, ACIDSUP2_2MO, ACIDSUP2_3MO, BABYASPRINMONTH, CELECOXIBMONTH, CHOLHTN2_1MO, CHOLHTN2_2MO, IBUPROFENMONTH, INSULIN2_1MO, METFOR2_1MO, NAPROXENMONTH, PAINRELMONTH, REGASPRINMONTH]
-// JSON WARNING --> Concept ID 802622485 with concept "Year at surgery" is shared between these Textbox codes: [APPEND_YEAR, BARSUR_YEAR, BREASTABSS_YEAR, BREASTDBLREM_YEAR, BREASTIMPLANTS_YEAR, BREASTLACTREM_YEAR, BREASTLIFT_YEAR, BREASTOTH_YEAR, BREASTPARTREM_YEAR, BREASTRECON_YEAR, BREASTREDN_YEAR, BREASTREM_YEAR, FTREM2_YEAR, GALLREM_YEAR, HYSTER_YEAR, LIPOSUCT_YEAR, OVARYREM2_YEAR, PENREM_YEAR, PROSREM2_YEAR, TESTREM2_YEAR, TONSILS_YEAR, TUBLIG_YEAR, VASEC_YEAR]
+// JSON WARNING --> Concept ID 802622485 with concept "Year of surgery" is shared between these Textbox codes: [APPEND_YEAR, BARSUR_YEAR, BREASTABSS_YEAR, BREASTDBLREM_YEAR, BREASTIMPLANTS_YEAR, BREASTLACTREM_YEAR, BREASTLIFT_YEAR, BREASTOTH_YEAR, BREASTPARTREM_YEAR, BREASTRECON_YEAR, BREASTREDN_YEAR, BREASTREM_YEAR, FTREM2_YEAR, GALLREM_YEAR, HYSTER_YEAR, KIDREM2_YEAR, LIPOSUCT_YEAR, OVARYREM2_YEAR, PENREM_YEAR, PROSREM2_YEAR, SPLEENREM_YEAR, SRVSCR_APPENDECYEAR_V1R0, SRVSCR_BARSURGYEAR_V1R0, SRVSCR_BREASTABSCYR_V1R0, SRVSCR_BREASTDBLREMYR_V1R0, SRVSCR_BREASTIMPLYR_V1R0, SRVSCR_BREASTLACREMYR_V1R0, SRVSCR_BREASTLIFTYR_V1R0, SRVSCR_BREASTOTHYR_V1R0, SRVSCR_BREASTPTREMYR_V1R0, SRVSCR_BREASTRECONYR_V1R0, SRVSCR_BREASTREDYR_V1R0, SRVSCR_BREASTREMYR_V1R0, SRVSCR_CHOLECYEAR_V1R0, SRVSCR_FSTSURGDBLREMYR_V1R0, SRVSCR_HYSTYEAR_V1R0, SRVSCR_LIPOSUCTYEAR_V1R0, SRVSCR_NEPHRECTOMYYR_V1R0, SRVSCR_OOPHORECYR_V1R0, SRVSCR_PENREMYEAR_V1R0, SRVSCR_PROSREMSURGYR_V1R0, SRVSCR_SALPINGECYR_V1R0, SRVSCR_SECSURGDBLREMYR_V1R0, SRVSCR_SPLENECTOMYYR_V1R0, SRVSCR_TESTREMSURGYR_V1R0, SRVSCR_THYROIDECTOMYYR_V1R0, SRVSCR_TONSILSYEAR_V1R0, SRVSCR_TUBLIGYEAR_V1R0, SRVSCR_VASECTOMYYR_V1R0, TESTREM2_YEAR, THYRDREM_YEAR, TONSILS_YEAR, TUBLIG_YEAR, VASEC_YEAR]
 // JSON WARNING --> Concept ID 810608313 with concept "# Servings per day" is shared between these Textbox codes: [EAMAR9ANUM, EAMAR9CNUM, THMAR9ANUM, THMAR9CNUM]
 // JSON WARNING --> Concept ID 850393641 with concept "# of Minutes" is shared between these Textbox codes: [FALLASLEEPMIN, LAYINBEDMIN, NONWORKAWAKEBEFOREUPMIN, NONWORKFALLASLEEPMIN, OUTSIDEMIN, WORKDAYOUTSIDEMIN]
+// JSON WARNING --> Concept ID 942347130 with concept "Other breast surgeries: Please describe[text box]" is shared between these Textbox codes: [BREASTSUR_TB, SRVSCR_BREASTOTHERDES_V1R0]
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Fri Aug 16 14:28:53 2024 -0400 (short timestamp = 2024-08-16-18-28-53)
+//This file was last modified on Fri Jan 17 15:02:33 2025 -0500 (short timestamp = 2025-01-17-20-02-33)
 //{"version":"2.3"}
 {"name":"D_745268907_V2"}
-
 [INTROM2] In this set of questions we ask about a few topics that affect your health. These topics include your current and past use of medications, your physical activity (including exercise), and your sleep habits.
 
 |displayif=or(equals(D_407056417,536341288),and(equals(D_407056417,576796184),or(equals(D_750420077,578416151),equals(D_750420077,434651539))))|We also ask some questions about your reproductive health. These questions will focus mainly on your menstrual periods, pregnancies, and if you have used any hormonal medications.|
@@ -71,7 +79,7 @@ Or
 
 [D_113681507?] About how many years did you take baby or low-dose aspirin (81 mg or less)?
 
-#Years |__|__|min=1 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+#Years |__|__|min=1 max=_value("age")|
 < -> D_177526169 >
 
 [D_177526169?] When was the <b>last</b> time you took baby or low-dose aspirin (81 mg or less)?
@@ -82,7 +90,7 @@ Or
 
 [D_564374538?] How many years ago did you <b>last</b> take baby or low-dose aspirin (81 mg or less)?
 
-#Years ago |__|__|min=1 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+#Years ago |__|__|min=1 max=_value("age")|
 < -> D_643807999 >
 
 [D_643807999?] Why did you take baby or low-dose aspirin (81 mg or less)? Select all that apply.
@@ -111,7 +119,7 @@ Or
 
 [D_615979584?] About how many years did you take regular or extra strength aspirin?
 
-#Years |__|__|min=1 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+#Years |__|__|min=1 max=_value("age")|
 < -> D_814141708 >
 
 [D_814141708?] When was the <b>last</b> time you took regular or extra strength aspirin?
@@ -122,7 +130,7 @@ Or
 
 [D_265428345?] How many years ago did you <b>last</b> take regular or extra strength aspirin?
 
-#Years ago |__|__|min=1 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+#Years ago |__|__|min=1 max=_value("age")|
 < -> D_275143071 >
 
 [D_275143071?] Why did you take regular or extra strength aspirin? Select all that apply.
@@ -151,7 +159,7 @@ Or
 
 [D_771526486?] About how many years did you take ibuprofen?
 
-#Years |__|__|min=1 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+#Years |__|__|min=1 max=_value("age")|
 < -> D_292658699 >
 
 [D_292658699?] When was the <b>last</b> time you took ibuprofen?
@@ -162,7 +170,7 @@ Or
 
 [D_491549803?] How many years ago did you <b>last</b> take ibuprofen?
 
-#Years ago |__|__|min=1 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+#Years ago |__|__|min=1 max=_value("age")|
 < -> D_152138929 >
 
 [D_152138929?] Why did you take ibuprofen? Select all that apply.
@@ -191,7 +199,7 @@ Or
 
 [D_270254670?] About how many years did you take acetaminophen?
 
-#Years |__|__|min=1 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+#Years |__|__|min=1 max=_value("age")|
 < -> D_861824298 >
 
 [D_861824298?] When was the <b>last</b> time you took acetaminophen?
@@ -202,7 +210,7 @@ Or
 
 [D_846227588?] How many years ago did you <b>last</b> take acetaminophen?
 
-#Years ago |__|__|min=1 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+#Years ago |__|__|min=1 max=_value("age")|
 < -> D_630231395 >
 
 [D_630231395?] Why did you take acetaminophen? Select all that apply.
@@ -231,7 +239,7 @@ Or
 
 [D_376720409?] About how many years did you take naproxen?
 
-#Years |__|__|min=1 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+#Years |__|__|min=1 max=_value("age")|
 < -> D_575646308 >
 
 [D_575646308?] When was the <b>last</b> time you took naproxen?
@@ -242,7 +250,7 @@ Or
 
 [D_798182168?] How many years ago did you <b>last</b> take naproxen?
 
-#Years ago |__|__|min=1 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+#Years ago |__|__|min=1 max=_value("age")|
 < -> D_655266993 >
 
 [D_655266993?] Why did you take naproxen? Select all that apply.
@@ -271,7 +279,7 @@ Or
 
 [D_439072744?] About how many years did you take Celebrex® (celecoxib)?
 
-#Years |__|__|min=1 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+#Years |__|__|min=1 max=_value("age")|
 < -> D_733861762 >
 
 [D_733861762?] When was the <b>last</b> time you took Celebrex® (celecoxib)?
@@ -282,7 +290,7 @@ Or
 
 [D_322479862?] How many years ago did you <b>last</b> take Celebrex® (celecoxib)?
 
-#Years ago |__|__|min=1 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+#Years ago |__|__|min=1 max=_value("age")|
 < -> D_509383583 >
 
 [D_509383583?] Why did you take Celebrex® (celecoxib)? Select all that apply.
@@ -311,7 +319,7 @@ Or
 
 [D_445571225?] About how many years did you take prescription pain relievers containing opioids?
 
-#Years |__|__|min=1 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+#Years |__|__|min=1 max=_value("age")|
 < -> D_761822652 >
 
 [D_761822652?] When was the <b>last</b> time you took prescription pain relievers containing opioids?
@@ -322,7 +330,7 @@ Or
 
 [D_737490587?] How many years ago did you <b>last</b> take prescription pain relievers containing opioids?
 
-#Years ago |__|__|min=1 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+#Years ago |__|__|min=1 max=_value("age")|
 < -> D_887435355 >
 
 [D_887435355?] Why did you take prescription pain relievers containing opioids? Select all that apply.
@@ -365,7 +373,7 @@ Or
 
 [D_163057677?] About how many years did you take statins/cholesterol or lipid lowering drugs?
 
-#Years |__|__|min=1 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+#Years |__|__|min=1 max=_value("age")|
 < -> D_225047594 >
 
 [D_225047594?] When was the <b>last</b> time you took statins/cholesterol or lipid lowering drugs?
@@ -376,7 +384,7 @@ Or
 
 [D_297084062?] How many years ago did you <b>last</b> take statins/cholesterol or lipid lowering drugs?
 
-#Years ago |__|__|min=1 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+#Years ago |__|__|min=1 max=_value("age")|
 
 
 [D_305292465?] During the time(s) that you were taking <b>anti-hypertensive medication/drugs used to treat hypertension (high blood pressure)</b>, about how many <b>days per week OR per month</b> did you take it? Please fill out either days per week or days per month.
@@ -396,7 +404,7 @@ Or
 
 [D_147792229?] About how many years did you take anti-hypertensive medication/drugs used to treat hypertension (high blood pressure)?
 
-#Years |__|__|min=1 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+#Years |__|__|min=1 max=_value("age")|
 < -> D_976052812 >
 
 [D_976052812?] When was the <b>last</b> time you took anti-hypertensive medication/drugs used to treat hypertension (high blood pressure)?
@@ -407,7 +415,7 @@ Or
 
 [D_991427384?] How many years ago did you <b>last</b> take anti-hypertensive medication/drugs used to treat hypertension (high blood pressure)?
 
-#Years ago |__|__|min=1 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+#Years ago |__|__|min=1 max=_value("age")|
 
 
 [D_112024853?]<b>Metformin</b>
@@ -430,7 +438,7 @@ Or
 
 [D_450131058?] About how many years did you take metformin?
 
-#Years |__|__|min=1 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+#Years |__|__|min=1 max=_value("age")|
 
 [D_991873978?] When was the <b>last</b> time you took metformin?
 (317567178) In the past month -> D_982448213
@@ -439,7 +447,7 @@ Or
 < #NR -> D_982448213 >
 
 [D_371176229?] How many years ago did you <b>last</b> take metformin?
-#Years ago |__|__|min=1 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+#Years ago |__|__|min=1 max=_value("age")|
 
 
 [D_982448213?]<b>Insulin</b>
@@ -468,7 +476,7 @@ Or
 
 [D_799903478?] About how many years did you take insulin?
 
-#Years |__|__|min=1 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+#Years |__|__|min=1 max=_value("age")|
 
 [D_465635548?] When was the <b>last</b> time you took insulin?
 (317567178) In the past month -> D_643361372
@@ -478,7 +486,7 @@ Or
 
 [D_556235252?] How many years ago did you <b>last</b> take insulin?
 
-#Years ago |__|__|min=1 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+#Years ago |__|__|min=1 max=_value("age")|
 
 
 [D_643361372?]<b>Acid Suppressive Drugs</b>
@@ -506,7 +514,7 @@ Or
 
 [D_424183977?,displayif=equals(D_643361372,933374659)] About how many years did you take prescription proton pump inhibitors?
 
-#Years |__|__|min=1 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+#Years |__|__|min=1 max=_value("age")|
 < -> D_824287808 >
 
 [D_824287808?,displayif=equals(D_643361372,933374659)] When was the <b>last</b> time you took prescription proton pump inhibitors?
@@ -517,7 +525,7 @@ Or
 
 [D_889053435?,displayif=equals(D_643361372,933374659)] How many years ago did you <b>last</b> take prescription proton pump inhibitors?
 
-#Years ago |__|__|max=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+#Years ago |__|__|max=_value("age")|
 
 
 [D_416865817?,displayif=equals(D_643361372,920460744)] During the time(s) that you were taking <b>over-the-counter proton pump inhibitors</b>, about how many <b>days per week OR per month</b> did you take it? Please fill out either days per week or days per month.
@@ -536,7 +544,7 @@ Or
 
 [D_378572291?,displayif=equals(D_643361372,920460744)] About how many years did you take over-the-counter proton pump inhibitors?
 
-#Years |__|__|min=1 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+#Years |__|__|min=1 max=_value("age")|
 < -> D_846978339 >
 
 [D_846978339?,displayif=equals(D_643361372,920460744)] When was the <b>last</b> time you took over-the-counter proton pump inhibitors?
@@ -547,7 +555,7 @@ Or
 
 [D_936366310?,displayif=equals(D_643361372,920460744)] How many years ago did you <b>last</b> take over-the-counter proton pump inhibitors?
 
-#Years ago |__|__|max=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+#Years ago |__|__|max=_value("age")|
 
 [D_266752903?,displayif=equals(D_643361372,449861632)] During the time(s) that you were taking <b>over-the-counter H2 receptor blockers</b>, about how many <b>days per week OR per month</b> did you take it? Please fill out either days per week or days per month.
 
@@ -565,7 +573,7 @@ Or
 
 [D_774514900?,displayif=equals(D_643361372,449861632)] About how many years did you take over-the-counter H2 receptor blockers?
 
-#Years |__|__|min=1 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+#Years |__|__|min=1 max=_value("age")|
 < -> D_368595692 >
 
 [D_368595692?,displayif=equals(D_643361372,449861632)] When was the <b>last</b> time you took over-the-counter H2 receptor blockers?
@@ -576,7 +584,7 @@ Or
 
 [D_497904005?,displayif=equals(D_643361372,449861632)] How many years ago did you <b>last</b> take over-the-counter H2 receptor blockers?
 
-#Years ago |__|__|max=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+#Years ago |__|__|max=_value("age")|
 
 [SECTION2] <b>Reproductive Health</b>
 
@@ -606,7 +614,7 @@ First, we ask you some questions about your first menstrual period and your mens
 [D_496539718?]
 How old were you when you had your <b>first</b> menstrual period? Please make your best guess if you are not sure.
 
-Age |__|__|id=D_969451837 min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+Age |__|__|id=D_969451837 min=0 max=_value("age")|
 [648960871*] I have never had a menstrual period -> INTROMENSHIS2 
 < #NR -> INTROMENSHIS2  >
 
@@ -671,7 +679,7 @@ Age |__|__|id=D_969451837 min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1
 < #NR-> PREG >
 
 [D_534920374?,displayif=doesNotEqual(D_496539718,648960871)] How old were you when you had your <b>last</b> menstrual period?
-Age |__|__|min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+Age |__|__|min=0 max=_value("age")|
 < #NR-> PREG >
 
 
@@ -699,9 +707,10 @@ Next, we will ask you some questions about pregnancies that you may have had.
 //If this is <b>not</b> correct, please select the “Back” button to update your response. If this is correct, please select the “Next” button to move forward.
 
 <loop max=25>
+
 [D_968816827?,displayif=greaterThanOrEqual(D_405571048,#loop)]
 How old were you when your {##} pregnancy began?
-Age |__|__|min=isDefined(D_969451837,0) maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+Age |__|__|min=isDefined(D_969451837,0) max=_value("age")|
 
 [D_391951010?,displayif=or(and(equals(D_849945160,353358909),greaterThan(D_405571048,#loop)),and(doesNotEqual(D_849945160,353358909),greaterThanOrEqual(D_405571048,#loop)))]
 What was the outcome of this pregnancy?
@@ -770,7 +779,7 @@ Next we will ask you some questions about your efforts to get pregnant and your 
 < #NR -> D_224681201>
 
 [D_760801131?] How old were you when you <b>first</b> tried to get pregnant for over a year?
-Age |__|__|min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+Age |__|__|min=0 max=_value("age")|
 
 [D_424047361?] Did you ever seek medical advice when you tried to get pregnant for over a year?
 (353358909) Yes 
@@ -886,7 +895,7 @@ The next few questions ask about your use of hormone medications and/or contrace
 
 [D_880331901?]
 How old were you when you <b>first</b> used <b>combined oral contraceptive pills</b>?
-Age |__|__|min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+Age |__|__|min=0 max=_value("age")|
 < -> D_301052397 >
 
 [D_301052397?]
@@ -897,7 +906,7 @@ Are you currently using combined oral contraceptive pills?
 
 [D_734836192?]
 How old were you when you <b>last</b> used combined oral contraceptive pills?
-Age |__|__|min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+Age |__|__|min=0 max=_value("age")|
 < -> D_215455305 >
 
 [D_215455305?]
@@ -905,13 +914,13 @@ In total, how many months OR years have you used combined oral contraceptive pil
 
 #Months |__|__|xor=HORMED5_1 id=D_434243220 min=0 max=99|
 Or, if it is easier to remember years, enter that here:
-#Years |__|__| xor=HORMED5_1 id=D_970604592 min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+#Years |__|__| xor=HORMED5_1 id=D_970604592 min=0 max=_value("age")|
 
 
 [D_809735528?]
 How old were you when you <b>first</b> used <b>progesterone-only or progestin-only contraceptive pills</b>?
 
-Age |__|__|min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+Age |__|__|min=0 max=_value("age")|
 < -> D_958009220 >
 
 [D_958009220?]
@@ -923,7 +932,7 @@ Are you currently using progesterone-only or progestin-only contraceptive pills?
 [D_946211808?]
 How old were you when you <b>last</b> used progesterone-only or progestin-only contraceptive pills?
 
-Age |__|__|min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+Age |__|__|min=0 max=_value("age")|
 < -> D_654271781 >
 
 [D_654271781?]
@@ -931,13 +940,13 @@ In total, how many months OR years have you used progesterone-only or progestin-
 
 #Months |__|__|xor=HORMED5_2 id=D_434243220 min=0 max=99|
 Or, if it is easier to remember years, enter that here:
-#Years |__|__| xor=HORMED5_2 id=D_970604592 min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+#Years |__|__| xor=HORMED5_2 id=D_970604592 min=0 max=_value("age")|
 
 
 [D_220105997?]
 How old were you when you <b>first</b> used <b>Norplant®</b>?
 
-Age |__|__|min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+Age |__|__|min=0 max=_value("age")|
 < -> D_806253825 >
 
 [D_806253825?]
@@ -949,7 +958,7 @@ Are you currently using Norplant®?
 [D_819957363?]
 How old were you when you <b>last</b> used Norplant®?
 
-Age |__|__|min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+Age |__|__|min=0 max=_value("age")|
 < -> D_604086099 >
 
 [D_604086099?]
@@ -957,13 +966,13 @@ In total, how many months OR years have you used Norplant®?
 
 #Months |__|__|xor=HORMED5_3 id=D_434243220 min=0 max=99|
 Or, if it is easier to remember years, enter that here:
-#Years |__|__| xor=HORMED5_3 id=D_970604592 min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+#Years |__|__| xor=HORMED5_3 id=D_970604592 min=0 max=_value("age")|
 
 
 [D_938969985?]
 How old were you when you <b>first</b> used <b>Depo-Provera®</b>?
 
-Age |__|__|min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+Age |__|__|min=0 max=_value("age")|
 < -> D_876683805 >
 
 [D_876683805?]
@@ -975,7 +984,7 @@ Are you currently using <b>Depo-Provera®</b>?
 [D_118237712?]
 How old were you when you <b>last</b> used Depo-Provera®?
 
-Age |__|__|min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+Age |__|__|min=0 max=_value("age")|
 < -> D_899455852 >
 
 [D_899455852?]
@@ -983,13 +992,13 @@ In total, how many months OR years have you used Depo-Provera®?
 
 #Months |__|__|xor=HORMED5_4 id=D_434243220 min=0 max=99|
 Or, if it is easier to remember years, enter that here:
-#Years |__|__| xor=HORMED5_4 id=D_970604592 min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+#Years |__|__| xor=HORMED5_4 id=D_970604592 min=0 max=_value("age")|
 
 
 [D_902999015?]
 How old were you when you <b>first</b> used <b>vaginal ring</b>?
 
-Age |__|__|min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+Age |__|__|min=0 max=_value("age")|
 < -> D_484006644 >
 
 [D_484006644?]
@@ -1001,7 +1010,7 @@ Are you currently using vaginal ring?
 [D_190721176?]
 How old were you when you <b>last</b> used vaginal ring?
 
-Age |__|__|min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+Age |__|__|min=0 max=_value("age")|
 < -> D_358011592 >
 
 [D_358011592?]
@@ -1009,12 +1018,12 @@ In total, how many months OR years have you used vaginal ring?
 
 #Months |__|__|xor=HORMED5_5 id=D_434243220 min=0 max=99|
 Or, if it is easier to remember years, enter that here:
-#Years |__|__| xor=HORMED5_5 id=D_970604592 min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+#Years |__|__| xor=HORMED5_5 id=D_970604592 min=0 max=_value("age")|
 
 [D_807214881?]
 How old were you when you <b>first</b> used <b>birth control patch</b>?
 
-Age |__|__|min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+Age |__|__|min=0 max=_value("age")|
 < -> D_344573484 >
 
 [D_344573484?]
@@ -1026,7 +1035,7 @@ Are you currently using birth control patch?
 [D_708921303?]
 How old were you when you <b>last</b> used birth control patch?
 
-Age |__|__|min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+Age |__|__|min=0 max=_value("age")|
 < -> D_535533643 >
 
 [D_535533643?]
@@ -1034,13 +1043,13 @@ In total, how many months OR years have you used birth control patch?
 
 #Months |__|__|xor=HORMED5_6 id=D_434243220 min=0 max=99|
 Or, if it is easier to remember years, enter that here:
-#Years |__|__| xor=HORMED5_6 id=D_970604592 min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+#Years |__|__| xor=HORMED5_6 id=D_970604592 min=0 max=_value("age")|
 
 
 [D_901154649?]
 How old were you when you <b>first</b> used <b>copper IUD</b>?
 
-Age |__|__|min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+Age |__|__|min=0 max=_value("age")|
 < -> D_100937200 >
 
 [D_100937200?]
@@ -1052,7 +1061,7 @@ Are you currently using copper IUD?
 [D_452984435?]
 How old were you when you last used copper IUD?
 
-Age |__|__|min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+Age |__|__|min=0 max=_value("age")|
 < -> D_129924389 >
 
 [D_129924389?]
@@ -1060,12 +1069,12 @@ In total, how many months OR years have you used copper IUD?
 
 #Months |__|__|xor=HORMED5_7 id=D_434243220 min=0 max=99|
 Or, if it is easier to remember years, enter that here:
-#Years |__|__| xor=HORMED5_7 id=D_970604592 min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+#Years |__|__| xor=HORMED5_7 id=D_970604592 min=0 max=_value("age")|
 
 [D_404596261?]
 How old were you when you <b>first</b> used <b>hormonal IUD</b>?
 
-Age |__|__|min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+Age |__|__|min=0 max=_value("age")|
 < -> D_465017353 >
 
 [D_465017353?]
@@ -1077,7 +1086,7 @@ Are you currently using hormonal IUD?
 [D_370798456?]
 How old were you when you <b>last</b> used hormonal IUD?
 
-Age |__|__|min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+Age |__|__|min=0 max=_value("age")|
 < -> D_101144925 >
 
 [D_101144925?]
@@ -1085,13 +1094,13 @@ In total, how many months OR years have you used hormonal IUD?
 
 #Months |__|__|xor=HORMED5_8 id=D_434243220 min=0 max=99|
 Or, if it is easier to remember years, enter that here:
-#Years |__|__| xor=HORMED5_8 id=D_970604592 min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+#Years |__|__| xor=HORMED5_8 id=D_970604592 min=0 max=_value("age")|
 
 
 [D_583012139?]
 How old were you when you <b>first</b> used other hormonal medications or devices?
 
-Age |__|__|min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+Age |__|__|min=0 max=_value("age")|
 < -> D_991330361 >
 
 [D_991330361?]
@@ -1103,7 +1112,7 @@ Are you currently using other hormonal medications or devices?
 [D_184692605?]
 How old were you when you <b>last</b> used other hormonal medications or devices?
 
-Age |__|__|min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+Age |__|__|min=0 max=_value("age")|
 < -> D_139348254 >
 
 [D_139348254?]
@@ -1113,7 +1122,7 @@ In total, how many months OR years have you used other hormonal medications or d
 
 Or, if it is easier to remember years, enter that here:
 
-#Years |__|__| xor=HORMED5_9 id=D_970604592 min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+#Years |__|__| xor=HORMED5_9 id=D_970604592 min=0 max=_value("age")|
 
 
 [MENOHOR]<b>Hormone Therapy</b>
@@ -1137,7 +1146,7 @@ In the next set of questions, we ask you about your use of hormones. Some common
 [D_856627601?,displayif=equals(D_668834883,246843973)]
 How old were you when you <b>first</b> used <b>oral estrogen-only medication</b>?
 
-Age |__|__|min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+Age |__|__|min=0 max=_value("age")|
 <-> D_801749224>
 
 [D_801749224?,displayif=equals(D_668834883,246843973)]
@@ -1149,7 +1158,7 @@ Are you currently using oral estrogen-only medication?
 [D_799382711?,displayif=equals(D_668834883,246843973)]
 How old were you when you <b>last</b> used oral estrogen-only medication?
 
-Age |__|__|min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+Age |__|__|min=0 max=_value("age")|
 <-> D_623759247>
 
 [D_623759247?,displayif=equals(D_668834883,246843973)]
@@ -1157,12 +1166,12 @@ In total, how many months OR years have you used oral estrogen-only medication?
 
 #Months |__|__|xor=ESTROHOR5_1 id=D_434243220 min=0 max=99|
 Or, if it is easier to remember years, enter that here:
-#Years |__|__| xor=ESTROHOR5_1 id=D_970604592 min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+#Years |__|__| xor=ESTROHOR5_1 id=D_970604592 min=0 max=_value("age")|
 
 [D_564185028?,displayif=equals(D_668834883,854184254)]
 How old were you when you <b>first</b> used <b>patch estrogen-only medication</b>?
 
-Age |__|__|min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+Age |__|__|min=0 max=_value("age")|
 <-> D_560845692>
 
 [D_560845692?,displayif=equals(D_668834883,854184254)]
@@ -1174,7 +1183,7 @@ Are you currently using patch estrogen-only medication?
 [D_779165920?,displayif=equals(D_668834883,854184254)]
 How old were you when you <b>last</b> used patch estrogen-only medication?
 
-Age |__|__|min=isDefined(D_564185028,1) maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+Age |__|__|min=isDefined(D_564185028,1) max=_value("age")|
 <-> D_745775718>
 
 [D_745775718?,displayif=equals(D_668834883,854184254)]
@@ -1182,12 +1191,12 @@ In total, how many months OR years have you used patch estrogen-only medication?
 
 #Months |__|__|xor=ESTROHOR5_2 id=D_434243220 min=0 max=99|
 Or, if it is easier to remember years, enter that here:
-#Years |__|__| xor=ESTROHOR5_2 id=D_970604592 min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+#Years |__|__| xor=ESTROHOR5_2 id=D_970604592 min=0 max=_value("age")|
 
 [D_648678282?,displayif=equals(D_668834883,515434780)]
 How old were you when you <b>first</b> used <b>vaginal ring, vaginal cream, or vaginal tablet estrogen-only medication</b>?
 
-Age |__|__|min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+Age |__|__|min=0 max=_value("age")|
 <-> D_850536692>
 
 [D_850536692?,displayif=equals(D_668834883,515434780)]
@@ -1199,7 +1208,7 @@ Are you currently using vaginal ring, vaginal cream, or vaginal tablet estrogen-
 [D_774992239?,displayif=equals(D_668834883,515434780)]
 How old were you when you <b>last</b> used vaginal ring, vaginal cream, or vaginal tablet estrogen-only medication?
 
-Age |__|__|min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+Age |__|__|min=0 max=_value("age")|
 <-> D_695206943>
 
 [D_695206943?,displayif=equals(D_668834883,515434780)]
@@ -1207,13 +1216,13 @@ In total, how many months OR years have you used vaginal ring, vaginal cream, or
 
 #Months |__|__|xor=ESTROHOR5_3 id=D_434243220 min=0 max=99|
 Or, if it is easier to remember years, enter that here:
-#Years |__|__| xor=ESTROHOR5_3 id=D_970604592 min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+#Years |__|__| xor=ESTROHOR5_3 id=D_970604592 min=0 max=_value("age")|
 
 
 [D_291707744?,displayif=equals(D_668834883,674148137)]
 How old were you when you <b>first</b> used <b>estrogen-only skin gel, cream, or spray-on medication</b>?
 
-Age |__|__|min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+Age |__|__|min=0 max=_value("age")|
 <-> D_792792066>
 
 [D_792792066?,displayif=equals(D_668834883,674148137)]
@@ -1225,7 +1234,7 @@ Are you currently using estrogen-only skin gel, cream, or spray-on medication?
 [D_894363067?,displayif=equals(D_668834883,674148137)]
 How old were you when you <b>last</b> used estrogen-only skin gel, cream, or spray-on medication?
 
-Age |__|__|min=isDefined(D_291707744,1) maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+Age |__|__|min=isDefined(D_291707744,1) max=_value("age")|
 <-> D_984901301>
 
 [D_984901301?,displayif=equals(D_668834883,674148137)]
@@ -1233,13 +1242,13 @@ In total, how many months OR years have you used estrogen-only skin gel, cream, 
 
 #Months |__|__|xor=ESTROHOR5_4 id=D_434243220 min=0 max=99|
 Or, if it is easier to remember years, enter that here:
-#Years |__|__| xor=ESTROHOR5_4 id=D_970604592 min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+#Years |__|__| xor=ESTROHOR5_4 id=D_970604592 min=0 max=_value("age")|
 
 
 [D_872509317?,displayif=valueIsOneOf("D_668834883",807835037) or valueLength("D_640559281")>0]
 How old were you when you first used |displayif=valueLength("D_640559281")>0|<b>{$D_640559281}</b>||displayif=valueLength("D_640559281")==0|the other type of estrogen-only medication|?
 
-Age |__|__|min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+Age |__|__|min=0 max=_value("age")|
 <-> D_378921620>
 
 [D_378921620?,displayif=valueIsOneOf("D_668834883",807835037) or valueLength("D_640559281")>0]
@@ -1251,7 +1260,7 @@ Are you currently using |displayif=valueLength("D_640559281")>0|<b>{$D_640559281
 [D_854078473?,displayif=valueIsOneOf("D_668834883",807835037) or valueLength("D_640559281")>0]
 How old were you when you <b>last</b> used |displayif=valueLength("D_640559281")>0|<b>{$D_640559281}</b>||displayif=valueLength("D_640559281")==0|the other type of estrogen-only medication|?
 
-Age |__|__|min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+Age |__|__|min=0 max=_value("age")|
 < -> D_268372217 >
 
 [D_268372217?,displayif=valueIsOneOf("D_668834883",807835037) or valueLength("D_640559281")>0]
@@ -1259,7 +1268,7 @@ In total, how many months OR years have you used |displayif=valueLength("D_64055
 
 #Months |__|__|xor=ESTROHOR5_5 id=D_434243220 min=0 max=99|
 Or, if it is easier to remember years, enter that here:
-#Years |__|__| xor=ESTROHOR5_5 id=D_970604592 min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+#Years |__|__| xor=ESTROHOR5_5 id=D_970604592 min=0 max=_value("age")|
 
 
 
@@ -1273,7 +1282,7 @@ Have you ever taken any of these types of <b>progestin-only prescription hormone
 [D_590329439?,displayif=equals(D_800943768,687050279)]
 How old were you when you <b>first</b> used <b>oral progestin-only medication</b>?
 
-Age |__|__|min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+Age |__|__|min=0 max=_value("age")|
 < -> D_906459952 >
 
 [D_906459952?,displayif=equals(D_800943768,687050279)]
@@ -1285,7 +1294,7 @@ Are you currently using oral progestin-only medication?
 [D_747629521?,displayif=equals(D_800943768,687050279)]
 How old were you when you <b>last</b> used oral progestin-only medication?
 
-Age |__|__|min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+Age |__|__|min=0 max=_value("age")|
 < -> D_556129044 >
 
 [D_556129044?,displayif=equals(D_800943768,687050279)]
@@ -1293,13 +1302,13 @@ In total, how many months OR years have you used oral progestin-only medication?
 
 #Months |__|__|xor=PROGHOR5_1 id=D_434243220 min=0 max=99|
 Or, if it is easier to remember years, enter that here:
-#Years |__|__| xor=PROGHOR5_1 id=D_970604592 min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+#Years |__|__| xor=PROGHOR5_1 id=D_970604592 min=0 max=_value("age")|
 
 
 [D_356969766?,displayif=valueIsOneOf("D_800943768",807835037) or valueLength("D_235516216")>0]
 How old were you when you <b>first</b> used |displayif=valueLength("D_235516216")>0|<b>{$D_235516216}</b>||displayif=valueLength("D_235516216")==0|the other progestin/progesterone-only medication|?
 
-Age |__|__|min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+Age |__|__|min=0 max=_value("age")|
 < -> D_453820991 >
 
 [D_453820991?,displayif=valueIsOneOf("D_800943768",807835037) or valueLength("D_235516216")>0]
@@ -1311,7 +1320,7 @@ Are you currently using |displayif=valueLength("D_235516216")>0|<b>{$D_235516216
 [D_111271067?,displayif=valueIsOneOf("D_800943768",807835037) or valueLength("D_235516216")>0]
 How old were you when you <b>last</b> used |displayif=valueLength("D_235516216")>0|<b>{$D_235516216}</b>||displayif=valueLength("D_235516216")==0|the other progestin/progesterone-only medication|?
 
-Age |__|__|min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+Age |__|__|min=0 max=_value("age")|
 < -> D_597869478 >
 
 [D_597869478?,displayif=valueIsOneOf("D_800943768",807835037) or valueLength("D_235516216")>0]
@@ -1319,7 +1328,7 @@ In total, how many months OR years have you used |displayif=valueLength("D_23551
 
 #Months |__|__|xor=PROGHOR5_2 id=D_434243220 min=0 max=99|
 Or, if it is easier to remember years, enter that here:
-#Years |__|__| xor=PROGHOR5_2 id= D_970604592 min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+#Years |__|__| xor=PROGHOR5_2 id= D_970604592 min=0 max=_value("age")|
 
 < -> D_563663099 >
 
@@ -1350,7 +1359,7 @@ How many <b>days per cycle</b> did you use this progestin/progesterone-only pres
 [D_824165133?,displayif=equals(D_263785082,837393880)]
 How old were you when you <b>first</b> used <b>combined oral estrogen plus progestin pill</b>?
 
-Age |__|__|min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+Age |__|__|min=0 max=_value("age")|
 < -> D_295472931>
 
 [D_295472931?,displayif=equals(D_263785082,837393880)]
@@ -1362,7 +1371,7 @@ Are you currently using combined oral estrogen plus progestin pill?
 [D_728437398?,displayif=equals(D_263785082,837393880)]
 How old were you when you <b>last</b> used combined oral estrogen plus progestin pill?
 
-Age |__|__|min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+Age |__|__|min=0 max=_value("age")|
 < -> D_578176688>
 
 [D_578176688?,displayif=equals(D_263785082,837393880)]
@@ -1370,12 +1379,12 @@ In total, how many months OR years have you used combined oral estrogen plus pro
 
 #Months |__|__|xor=COMBHOR5_1 id=D_434243220 min=0 max=99|
 Or, if it is easier to remember years, enter that here:
-#Years |__|__| xor=COMBHOR5_1 id=D_970604592 min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+#Years |__|__| xor=COMBHOR5_1 id=D_970604592 min=0 max=_value("age")|
 
 [D_922903688?,displayif=equals(D_263785082,944874693)]
 How old were you when you <b>first</b> used <b>two separate pills</b>?
 
-Age |__|__|min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+Age |__|__|min=0 max=_value("age")|
 < -> D_963284259>
 
 [D_963284259?,displayif=equals(D_263785082,944874693)]
@@ -1387,7 +1396,7 @@ Are you currently using two separate pills?
 [D_615905904?,displayif=equals(D_263785082,944874693)]
 How old were you when you <b>last</b> used two separate pills?
 
-Age |__|__|min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+Age |__|__|min=0 max=_value("age")|
 < -> D_946710366>
 
 [D_946710366?,displayif=equals(D_263785082,944874693)]
@@ -1395,13 +1404,13 @@ In total, how many months OR years have you used two separate pills?
 
 #Months |__|__|xor=COMBHOR5_2 id=D_434243220 min=0 max=99|
 Or, if it is easier to remember years, enter that here:
-#Years |__|__| xor=COMBHOR5_2 id=D_970604592 min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+#Years |__|__| xor=COMBHOR5_2 id=D_970604592 min=0 max=_value("age")|
 
 
 [D_219538082?,displayif=valueIsOneOf("D_263785082",807835037) or valueLength("D_542108835")>0]
 How old were you when you <b>first</b> used |displayif=valueLength("D_542108835")>0|<b>{$D_542108835}</b>||displayif=valueLength("D_542108835")==0|<b>the other combined estrogen plus progestin prescription hormone</b>|?
 
-Age |__|__|min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+Age |__|__|min=0 max=_value("age")|
 < -> D_583111732>
 
 [D_583111732?,displayif=valueIsOneOf("D_263785082",807835037) or valueLength("D_542108835")>0]
@@ -1413,7 +1422,7 @@ Are you currently using |displayif=valueLength("D_542108835")>0|<b>{$D_542108835
 [D_603209609?,displayif=valueIsOneOf("D_263785082",807835037) or valueLength("D_542108835")>0]
 How old were you when you <b>last</b> used |displayif=valueLength("D_542108835")>0|<b>{$D_542108835}</b>||displayif=valueLength("D_542108835")==0|the other combined estrogen plus progestin prescription hormone|?
 
-Age |__|__|min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+Age |__|__|min=0 max=_value("age")|
 < -> D_824251330>
 
 [D_824251330?,displayif=valueIsOneOf("D_263785082",807835037) or valueLength("D_542108835")>0]
@@ -1421,7 +1430,7 @@ In total, how many months OR years have you used |displayif=valueLength("D_54210
 
 #Months |__|__|xor=COMBHOR5_3 id=D_434243220 min=0 max=99|
 Or, if it is easier to remember years, enter that here:
-#Years |__|__| xor=COMBHOR5_3 id=D_970604592 min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+#Years |__|__| xor=COMBHOR5_3 id=D_970604592 min=0 max=_value("age")|
 
 
 [D_912818075?,displayif=equals(D_263785082,837393880)]
@@ -1469,7 +1478,7 @@ How many <b>days per cycle</b> did you use <b>this other type of combined estrog
 
 [D_797076693?] How old were you when you <b>first</b> used testosterone therapy?
 
-Age |__|__|min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+Age |__|__|min=0 max=_value("age")|
 
 // IF TESTTHER2 = 05 ONLY, DO NOT DISPLAY TESTTHER4. OTHERWISE, DISPLAY TESTTHER4.
 // So if anything other than 5 was selected or 5 was not selected then show this question
@@ -1485,7 +1494,7 @@ How often did you use testosterone therapy? If you currently use testosterone th
 [D_414663452?]
 How old were you when you <b>last</b> used testosterone therapy? If you are currently using testosterone therapy, please enter your current age.
 
-Age |__|__|min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+Age |__|__|min=0 max=_value("age")|
 
 [D_570187182?]
 Have you ever taken any other type(s) of prescription or over-the-counter hormones (or bioidenticals)?
@@ -1498,7 +1507,7 @@ What other type(s) of prescription hormones did you take? |__|
 
 [D_492822047?]
 How old were you when you <b>first</b> used |displayif=exists("D_557526470")|<b>{$D_557526470}</b>?</br></br>||displayif=doesNotExist("D_557526470")|<b>the other type of prescription hormone</b>?</br>|
-Age |__|__|min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+Age |__|__|min=0 max=_value("age")|
 
 [D_466727144?]
 Are you currently using |displayif=exists("D_557526470")|<b>{$D_557526470}</b>?</br>||displayif=doesNotExist("D_557526470")|<b>the other type of prescription hormone</b>?|
@@ -1507,14 +1516,14 @@ Are you currently using |displayif=exists("D_557526470")|<b>{$D_557526470}</b>?<
 
 [D_307736999?]
 How old were you when you <b>last</b> used |displayif=exists("D_557526470")|<b>{$D_557526470}</b>?</br></br>||displayif=doesNotExist("D_557526470")|<b>the other type of prescription hormone</b>?</br>|
-Age |__|__|min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+Age |__|__|min=0 max=_value("age")|
 < -> WORKACT>
 
 [D_305195766?]
 In total, how many months OR years have you used |displayif=exists("D_557526470")|<b>{$D_557526470}</b>?</br></br>||displayif=doesNotExist("D_557526470")|<b>the other type of prescription hormone</b>?</br>|
 #Months |__|__|xor=PRESHOR6 id=D_434243220 min=0 max=99|
 Or, if it is easier to remember years, enter that here:
-#Years |__|__| xor=PRESHOR6 id=D_970604592 min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+#Years |__|__| xor=PRESHOR6 id=D_970604592 min=0 max=_value("age")|
 
 [WORKACT] <b>Physical Activity</b>
 
@@ -1726,7 +1735,7 @@ During the <b>past 12 months</b>, did you do any of these exercise or recreation
 (645894551) 1 to 2 days a week
 (996315715) 3 to 4 days a week
 (671267928) 5 to 6 days a week
-(647504893) Everyday
+(647504893) Every day
 < ->  D_901660173>
 
 [D_901660173?,displayif=equals(D_517976064,904954920)] On the days that you walked or hiked for exercise, about <b>how much time per day</b> did you spend doing this activity?
@@ -1751,7 +1760,7 @@ During the <b>past 12 months</b>, did you do any of these exercise or recreation
 (645894551) 1 to 2 days a week
 (996315715) 3 to 4 days a week
 (671267928) 5 to 6 days a week
-(647504893) Everyday
+(647504893) Every day
 < -> D_422260069>
 
 [D_422260069?,displayif=equals(D_517976064,619501806)] On the days that you went jogging or running, about <b>how much time per day</b> did you spend doing this activity?
@@ -1776,7 +1785,7 @@ During the <b>past 12 months</b>, did you do any of these exercise or recreation
 (645894551) 1 to 2 days a week
 (996315715) 3 to 4 days a week
 (671267928) 5 to 6 days a week
-(647504893) Everyday
+(647504893) Every day
 < -> D_141251197>
 
 [D_141251197?,displayif=equals(D_517976064,203192394)] On the days that you played tennis, squash, or racquetball, about <b>how much time per day</b> did you spend doing this activity?
@@ -1801,7 +1810,7 @@ During the <b>past 12 months</b>, did you do any of these exercise or recreation
 (645894551) 1 to 2 days a week
 (996315715) 3 to 4 days a week
 (671267928) 5 to 6 days a week
-(647504893) Everyday
+(647504893) Every day
 < -> D_768302347>
 
 [D_768302347?,displayif=equals(D_517976064,261267696)] On the days that you played golf, about <b>how much time per day</b> did you spend doing this activity?
@@ -1826,7 +1835,7 @@ During the <b>past 12 months</b>, did you do any of these exercise or recreation
 (645894551) 1 to 2 days a week
 (996315715) 3 to 4 days a week
 (671267928) 5 to 6 days a week
-(647504893) Everyday
+(647504893) Every day
 < -> D_658018390>
 
 [D_658018390?,displayif=equals(D_517976064,926584500)] On the days that you swam laps, about <b>how much time per day</b> did you spend doing this activity?
@@ -1851,7 +1860,7 @@ During the <b>past 12 months</b>, did you do any of these exercise or recreation
 (645894551) 1 to 2 days a week
 (996315715) 3 to 4 days a week
 (671267928) 5 to 6 days a week
-(647504893) Everyday
+(647504893) Every day
 < ->  D_406846149>
 
 [D_406846149?,displayif=equals(D_517976064,420058896)] On the days that you rode a bicycle (including a stationary bike), about <b>how much time per day</b> did you spend doing this activity?
@@ -1876,7 +1885,7 @@ During the <b>past 12 months</b>, did you do any of these exercise or recreation
 (645894551) 1 to 2 days a week
 (996315715) 3 to 4 days a week
 (671267928) 5 to 6 days a week
-(647504893) Everyday
+(647504893) Every day
 < ->  D_725713485>
 
 [D_725713485?,displayif=equals(D_517976064,868685663)] On the days that you did strengthening exercises such as weightlifting, using weight machines, or calisthenics (such as sit-ups or push-ups), about <b>how much time per day</b> did you spend doing this activity?
@@ -1901,7 +1910,7 @@ During the <b>past 12 months</b>, did you do any of these exercise or recreation
 (645894551) 1 to 2 days a week
 (996315715) 3 to 4 days a week
 (671267928) 5 to 6 days a week
-(647504893) Everyday
+(647504893) Every day
 < -> D_571361258>
 
 [D_571361258?,displayif=equals(D_517976064,760484278)] On the days that you did Yoga, Pilates, or Tai Chi, about <b>how much time per day</b> did you spend doing this activity?
@@ -1926,7 +1935,7 @@ During the <b>past 12 months</b>, did you do any of these exercise or recreation
 (645894551) 1 to 2 days a week
 (996315715) 3 to 4 days a week
 (671267928) 5 to 6 days a week
-(647504893) Everyday
+(647504893) Every day
 < ->  D_904844824>
 
 [D_904844824?,displayif=equals(D_517976064,345916806)] On the days that you did Martial Arts (such as Karate or Judo), about <b>how much time per day</b> did you spend doing this activity?
@@ -1951,7 +1960,7 @@ During the <b>past 12 months</b>, did you do any of these exercise or recreation
 (645894551) 1 to 2 days a week
 (996315715) 3 to 4 days a week
 (671267928) 5 to 6 days a week
-(647504893) Everyday
+(647504893) Every day
 < ->  D_650405110>
 
 [D_650405110?,displayif=equals(D_517976064,936042582)] On the days that you danced, about <b>how much time per day</b> did you spend doing this activity?
@@ -1976,7 +1985,7 @@ During the <b>past 12 months</b>, did you do any of these exercise or recreation
 (645894551) 1 to 2 days a week
 (996315715) 3 to 4 days a week
 (671267928) 5 to 6 days a week
-(647504893) Everyday
+(647504893) Every day
 < -> D_831643763>
 
 [D_831643763?,displayif=equals(D_517976064,182827107)] On the days that you did downhill skiing or snowboarding, about <b>how much time per day</b> did you spend doing this activity?
@@ -2001,7 +2010,7 @@ During the <b>past 12 months</b>, did you do any of these exercise or recreation
 (645894551) 1 to 2 days a week
 (996315715) 3 to 4 days a week
 (671267928) 5 to 6 days a week
-(647504893) Everyday
+(647504893) Every day
 < ->  D_921220809>
 
 [D_921220809?,displayif=equals(D_517976064,734860227)] On the days that you did cross-country skiing, about <b>how much time per day</b> did you spend doing this activity?
@@ -2026,7 +2035,7 @@ During the <b>past 12 months</b>, did you do any of these exercise or recreation
 (645894551) 1 to 2 days a week
 (996315715) 3 to 4 days a week
 (671267928) 5 to 6 days a week
-(647504893) Everyday
+(647504893) Every day
 < -> D_621878019>
 
 [D_621878019?,displayif=equals(D_517976064,371531887)] On the days that you did surfing or bodyboarding, about <b>how much time per day</b> did you spend doing this activity?
@@ -2051,7 +2060,7 @@ During the <b>past 12 months</b>, did you do any of these exercise or recreation
 (645894551) 1 to 2 days a week
 (996315715) 3 to 4 days a week
 (671267928) 5 to 6 days a week
-(647504893) Everyday
+(647504893) Every day
 < -> D_305312165>
 
 [D_305312165?,displayif=equals(D_517976064,423631576)] On the days that you did high-intensity circuit training (such as P90x® or CrossFit®), about <b>how much time per day</b> did you spend doing this activity?
@@ -2076,7 +2085,7 @@ During the <b>past 12 months</b>, did you do any of these exercise or recreation
 (645894551) 1 to 2 days a week
 (996315715) 3 to 4 days a week
 (671267928) 5 to 6 days a week
-(647504893) Everyday
+(647504893) Every day
 < ->  D_272119228>
 
 [D_272119228?,displayif=equals(D_517976064,181769837)] On the days that you did other exercise, about <b>how much time per day</b> did you spend doing this activity?
@@ -2355,16 +2364,16 @@ Have you worked as a |popup|shift worker|Shift work is work that takes place on 
 
 [D_392874924?] How many total years |displayif=equals(D_674976924,958538953)|have||displayif=equals(D_674976924,274062548)|did| you work|displayif=equals(D_674976924,958538953)|ed| as a shift worker?
 
-Years |__|__|__|__|min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+Years |__|__|__|__|min=0 max=_value("age")|
 
 
 
 [D_199254974?,displayif=equals(D_674976924,274062548)] How old were you when you last worked as a shift worker?
 
-Age |__|__|xor=SHIFTWORK10 id=D_863007380 min=0 maxval=sum(difference(#currentYear,RCRTUP_YOB_V1R0),1)|
+Age |__|__|xor=SHIFTWORK10 id=D_863007380 min=0 max=_value("age")|
 
 Or, if it is easier to remember the year, enter that here:
-Year |__|__|__|__|xor=SHIFTWORK10 id=D_120485458|
+Year |__|__|__|__|xor=SHIFTWORK10 id=D_120485458 minval=_value("yob") max=#currentYear|
 
 
 
