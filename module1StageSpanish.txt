@@ -37,7 +37,7 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Wed Dec 18 11:05:51 2024 -0500 (short timestamp = 2024-12-18-16-05-51)
+//This file was last modified on Mon Jan 27 13:24:27 2025 -0500 (short timestamp = 2025-01-27-18-24-27)
 
 //{"version":"4.0"}
 
@@ -65,7 +65,7 @@ No se olvide de que protegemos su privacidad. Antes de dárselas a los investiga
 
 [RACEETHINTRO] A continuación, le haremos una serie de preguntas sobre  raza/origen étnico. La primera pregunta será más general y las siguientes le solicitarán información más específica.
 
-[D_384191091?] ¿Cuál de las siguientes opciones lo describen? Seleccione todas las opciones que correspondan. Nota: puede seleccionar más de un grupo.
+[D_384191091?] ¿Cuál de las siguientes opciones lo describen? Seleccione todas las que correspondan. Nota: puede seleccionar más de un grupo.
 [583826374] Indígena americano o nativo de Alaska  -> D_362270886
 [636411467] Asiático  -> D_525535977
 [458435048] Negro, afroamericano o africano -> D_976808005
@@ -152,7 +152,7 @@ No se olvide de que protegemos su privacidad. Antes de dárselas a los investiga
 [746038746*] Prefiero no responder 
 
 
-[D_115616118?,displayif=equals(D_384191091,586825330)] ¿Cuál de estas categorías lo describe mejor? Seleccione todas las opciones que correspondan.
+[D_115616118?,displayif=equals(D_384191091,586825330)] ¿Cuál de estas opciones lo describe mejor? Seleccione todas las que correspondan.
 [664730658] Chamorro
 [949727109] Chuukés
 [496132363] Fiyiano
@@ -210,8 +210,9 @@ No se olvide de que protegemos su privacidad. Antes de dárselas a los investiga
 [D_407056417!] Posteriormente en este cuestionario se le harán preguntas sobre cirugías y procedimientos médicos, incluso sobre los órganos sexuales con los que nació. Queremos hacerle preguntas que tengan sentido para usted. También nos interesa saber cómo la identidad y la expresión de género le afectan la salud y su atención médica.
 
 ¿Qué sexo biológico se le asignó al nacer? 
-(654207589) Masculino -> D_289664241
+
 (536341288) Femenino -> D_289664241
+(654207589) Masculino -> D_289664241
 (576796184) Intersexual u otro  -> D_750420077
 
 [D_750420077!,displayif=equals(D_407056417,576796184)] Seleccione las partes del cuerpo con las que nació.
@@ -277,8 +278,9 @@ También le preguntaremos sobre determinados procedimientos médicos que pudo ha
 
 ¿Le ha dicho alguna vez un médico u otro profesional de la salud que tiene o tenía <b>cáncer de piel distinto del melanoma</b>? 
 
-(353358909) Sí 
 (104430631) No -> D_167101091
+(353358909) Sí 
+
 < #NR -> D_167101091 >
 
 [D_508846529?] ¿Qué tipo(s) de cáncer de piel le dijo que tiene o tenía un médico u otro profesional de la salud? Seleccione todas las opciones que correspondan.
@@ -288,6 +290,7 @@ También le preguntaremos sobre determinados procedimientos médicos que pudo ha
 
 
 [D_904550680?] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía cáncer de piel? 
+
 |__|__|xor=SKINCANC3 id=D_206625031 min=0 max=_value("age")| Edad
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
@@ -755,16 +758,18 @@ O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
 
 
 [D_134642404?,displayif=equals(D_725626004,746542057)] Cuando le dijeron que tiene o tenía mamas fibroquísticas u otra enfermedad mamaria benigna, ¿lo <b>confirmaron con biopsia?</b>
-(353358909) Sí
-(104430631) No
 
+(104430631) No
+(353358909) Sí
+
+< -> D_219956652>
 
 [D_219956652?,displayif=equals(D_725626004,854945381)] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>carcinoma ductal <i>in situ</i> de la mama? </b>?<br/>
 |__|__|xor=BREASTDIS3 id=D_206625031 min=0 max=_value("age")| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
 |__|__|__|__|xor=BREASTDIS3 id=D_261863326 min=_value("yob") max=#currentYear| Año del diagnóstico
-
+< -> D_852236900>
 
 [D_852236900?,displayif=equals(D_725626004,854945381)] Cuando le dijeron que tiene o tenía carcinoma ductal <i>in situ</i> de la mama, ¿lo <b>confirmaron con biopsia?</b> 
 (353358909)	Sí
@@ -776,11 +781,12 @@ Nos interesa conocer su salud mental. A continuación, se le preguntará si algu
 
 [D_347860896?] ¿Le ha dicho alguna vez un médico u otro profesional de la salud que tiene o tenía <b>depresión clínica</b>?
 
-(353358909) Sí -> D_301414575
 (104430631) No -> INTROSURG
+(353358909) Sí -> D_301414575
+
 < #NR -> INTROSURG >
 
-[D_301414575?] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía depresión clínica?
+[D_301414575?] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>depresión clínica</b>?
 |__|__|xor=DEPRESS2 id=D_206625031 min=0 max=_value("age")| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
@@ -846,7 +852,7 @@ O, si le es más fácil recordar el año, ingréselo aquí:
 |__|__|__|__|xor=THYRDREM id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
 
 
-[D_439736294?,displayif=equals(D_624179836,215525943)] ¿Cuál de las siguientes es la mejor descripción del tipo de operación de <b>extirpación de riñón</b> que le hicieron?
+[D_439736294?,displayif=equals(D_624179836,215525943)] ¿Cuál de las siguientes es la mejor descripción del tipo de <b>operación de extirpación de riñón</b> que le hicieron?
 
 (113771607)	Me operaron para extirparme uno de los riñones -> D_216506024
 (668256654)	Me operaron para extirparme los dos riñones -> D_216506024
@@ -941,7 +947,7 @@ O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
 |__|__|__|__|xor=BREASTSUR8 id=D_802622485 min=_value("yob") max=#currentYear| Año de la cirugía
 
-[D_891214661?,displayif=equals(D_517307064,807835037)] ¿A qué edad tuvo la |displayif=exists("D_942347130")|<b>{$D_942347130}</b>||displayif=doesNotExist("D_942347130")|<b>otro tipo de cirugía a mamaria</b>|?<br/>
+[D_891214661?,displayif=equals(D_517307064,807835037)] ¿A qué edad tuvo la |displayif=exists("D_942347130")|<b>{$D_942347130}</b>||displayif=doesNotExist("D_942347130")|<b>otro tipo de cirugía mamaria</b>|?<br/>
 
 |__|__|xor=BREASTSUR9 id=D_623218391 min=0 max=_value("age")| Edad que tenía cuando la operaron
 
@@ -1034,8 +1040,10 @@ O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
 [D_453252072?] <b>Transfusión de sangre</b>
 
 ¿Ha recibido alguna vez una <b>transfusión de sangre? </b>
-(353358909) Sí -> D_795940097
+
 (104430631) No -> D_875208305
+(353358909) Sí -> D_795940097
+
 <#NR -> D_875208305>
 
 [D_795940097?] ¿Cuántas transfusiones de sangre ha recibido en total? 
@@ -1050,10 +1058,11 @@ O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
 
 
 [D_593017220?,displayif=greaterThan(D_795940097,1)] ¿A qué edad recibió su <b>última</b> transfusión de sangre?
+
 |__|__|xor=BLDTRANS4 id=D_434556295 min=valueOrDefault("D_380275309",0) max=_value("age")| Edad que tenía cuando recibió la última transfusión
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=BLDTRANS4 id=D_106010694 minval=valueOrDefault("D_197994844",difference(yob,1)) max=#currentYear| Año de la última transfusión
+|__|__|__|__|xor=BLDTRANS4 id=D_106010694 minval=valueOrDefault("D_197994844",_value("yob")) max=#currentYear| Año de la última transfusión
 
 
 [D_875208305?]<b>Salud general </b>
@@ -2414,14 +2423,17 @@ En las siguientes preguntas, se le pide más información sobre sus antecedentes
 
 
 [D_847533056?] ¿Es su el empleo <b>actual</b> en <b>el que ha trabajado por más tiempo</b>? 
-(353358909) Sí  -> D_759004335
+
 (104430631) No -> D_118061122
+(353358909) Sí  -> D_759004335
+
 < #NR -> D_118061122 >
 
 [D_403258164?] ¿Ha tenido alguna vez un trabajo remunerado (a tiempo completo o parcial)?
 
-(353358909) Sí -> D_118061122
 (104430631) No -> D_759004335
+(353358909) Sí -> D_118061122
+
 < #NR -> D_759004335 >
 
 [D_118061122?] ¿Cuál es el puesto de trabajo <b>que ha tenido por más tiempo</b>? Describa. Por ejemplo, maestro de matemáticas de preparatoria (bachillerato), enfermero de urgencias, pintor de automóviles, etc.
