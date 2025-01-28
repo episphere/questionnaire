@@ -1041,7 +1041,7 @@ Or, if it is easier to remember the year, enter that here:<br/>
 |__|__|xor=BLDTRANS4 id=D_434556295 min=valueOrDefault("D_380275309",0) max=_value("age")| Age at last transfusion
 
 Or, if it is easier to remember the year, enter that here:<br/>
-|__|__|__|__|xor=BLDTRANS4 id=D_106010694 minval=valueOrDefault("D_197994844",_value("yob")-1) max=#currentYear| Year at last transfusion
+|__|__|__|__|xor=BLDTRANS4 id=D_106010694 minval=valueOrDefault("D_197994844",_value("yob")) max=#currentYear| Year at last transfusion
 
 
 [D_875208305?]<b>General Health</b>
