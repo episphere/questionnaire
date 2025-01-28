@@ -37,7 +37,7 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Thu Jan 23 09:23:28 2025 -0500 (short timestamp = 2025-01-23-14-23-28)
+//This file was last modified on Tue Jan 28 09:33:51 2025 -0500 (short timestamp = 2025-01-28-14-33-51)
 //{"version":"2.3"}
 {"name":"D_745268907_V2"}
 [INTROM2] Esta serie de preguntas trata sobre algunos temas que le afectan la salud, los cuales incluyen su consumo actual y pasado de medicamentos, su actividad física (incluso el ejercicio) y sus hábitos de sueño.
@@ -765,6 +765,7 @@ A continuación, le haremos algunas preguntas sobre los embarazos que haya tenid
 
 [PREGSUMMARY,displayif=greaterThanOrEqual(D_405571048,#loop)] El siguiente es un resumen de la información que nos dio sobre este embarazo. Si alguna parte de la información es incorrecta, seleccione el botón “Atrás” para actualizar sus respuestas. Si toda la información es correcta, seleccione el botón “Siguiente” para avanzar.
 
+Número de embarazo: #loop
 Edad en la que comenzó el embarazo: {$D_968816827} <br/>
 |displayif=or(and(equals(D_849945160,353358909),greaterThan(D_405571048,#loop)),and(doesNotEqual(D_849945160,353358909),greaterThanOrEqual(D_405571048,#loop)))|Desenlace del embarazo: ||displayif=equals(D_391951010,223216393)| Nacimiento de un niño vivo: un solo bebé||displayif=equals(D_391951010,628445697)| Nacimiento de niños vivos: gemelos, trillizos o parto múltiple superior a tres||displayif=equals(D_391951010,419220239)| Nacimiento de niño(s) vivo(s) y muerte de uno o más de los bebés de un parto múltiple||displayif=equals(D_391951010,306890578)| Aborto espontáneo antes de las 20 semanas ||displayif=equals(D_391951010,858244199)| Aborto espontáneo después de las 20 semanas ||displayif=equals(D_391951010,746038746)| Prefiero no responder|<br/>
 |displayif=valueIsOneOf("D_391951010",628445697,419220239)| Número de bebés:||displayif=equals(D_281494550,582602017)| Dos (gemelos o mellizos)||displayif=equals(D_281494550,105727261)| Tres (trillizos)||displayif=equals(D_281494550,720288326)| Cuatro o más|<br/>
