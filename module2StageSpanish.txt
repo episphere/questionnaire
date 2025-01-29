@@ -1,4 +1,4 @@
-// This file was transformed using the mapping data in Quest-2025-01-10-17-29-30_Transformation.json.
+// This file was transformed using the mapping data in Quest-2025-01-15-16-17-00_Transformation.json.
 
 // JSON ERROR --> Concept ID collision for ID: 285545471 | there are unexpected collisions between Quest ID(s): [DRINKSWTR2A_SRC] and Concept(s): [In a usual week, about how often do you drink tap water from your home? We are interested in all tap water, whether or not it has been filtered or treated.]
 // JSON ERROR --> Concept ID collision for ID: 961178879 | there are unexpected collisions between Quest ID(s): [DRINKSWTR2B_SRC] and Concept(s): [In a usual week, about how often do you use tap water from your home to make a cup of coffee? We are interested in all tap water, whether or not it has been filtered or treated.]
@@ -37,7 +37,7 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Tue Jan 28 09:33:51 2025 -0500 (short timestamp = 2025-01-28-14-33-51)
+//This file was last modified on Tue Jan 28 16:39:45 2025 -0500 (short timestamp = 2025-01-28-21-39-45)
 //{"version":"2.3"}
 {"name":"D_745268907_V2"}
 [INTROM2] Esta serie de preguntas trata sobre algunos temas que le afectan la salud, los cuales incluyen su consumo actual y pasado de medicamentos, su actividad física (incluso el ejercicio) y sus hábitos de sueño.
@@ -2181,7 +2181,7 @@ En |displayif=equals(D_591723682,353358909)|los días laborables||displayif=does
 [D_424807655?]
 La exposición a la luz solar natural puede afectar sus patrones del sueño. Durante un |displayif=equals(D_591723682,353358909)|día laborable||displayif=doesNotEqual(D_591723682,353358909)|día|, habitual, ¿cuánto tiempo pasa al aire libre bajo la luz directa del sol?
 
-|__|__|id=D_707805344 min=0 max=24| Núm. de horas 
+|__|__|id=D_707805344 min=0 max=9| Núm. de horas 
 
  |__|__|id=D_850393641 min=0 max=59| Núm. de minutos
 
