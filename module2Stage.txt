@@ -1,4 +1,4 @@
-// This file was transformed using the mapping data in Quest-2025-01-10-17-29-30_Transformation.json.
+// This file was transformed using the mapping data in Quest-2025-01-15-16-17-00_Transformation.json.
 
 // JSON ERROR --> Concept ID collision for ID: 285545471 | there are unexpected collisions between Quest ID(s): [DRINKSWTR2A_SRC] and Concept(s): [In a usual week, about how often do you drink tap water from your home? We are interested in all tap water, whether or not it has been filtered or treated.]
 // JSON ERROR --> Concept ID collision for ID: 961178879 | there are unexpected collisions between Quest ID(s): [DRINKSWTR2B_SRC] and Concept(s): [In a usual week, about how often do you use tap water from your home to make a cup of coffee? We are interested in all tap water, whether or not it has been filtered or treated.]
@@ -37,7 +37,7 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Fri Jan 17 15:02:33 2025 -0500 (short timestamp = 2025-01-17-20-02-33)
+//This file was last modified on Tue Jan 28 16:35:41 2025 -0500 (short timestamp = 2025-01-28-21-35-41)
 //{"version":"2.3"}
 {"name":"D_745268907_V2"}
 [INTROM2] In this set of questions we ask about a few topics that affect your health. These topics include your current and past use of medications, your physical activity (including exercise), and your sleep habits.
@@ -525,7 +525,7 @@ Or
 
 [D_889053435?,displayif=equals(D_643361372,933374659)] How many years ago did you <b>last</b> take prescription proton pump inhibitors?
 
-#Years ago |__|__|max=_value("age")|
+#Years ago |__|__|min=1 max=_value("age")|
 
 
 [D_416865817?,displayif=equals(D_643361372,920460744)] During the time(s) that you were taking <b>over-the-counter proton pump inhibitors</b>, about how many <b>days per week OR per month</b> did you take it? Please fill out either days per week or days per month.
@@ -555,7 +555,7 @@ Or
 
 [D_936366310?,displayif=equals(D_643361372,920460744)] How many years ago did you <b>last</b> take over-the-counter proton pump inhibitors?
 
-#Years ago |__|__|max=_value("age")|
+#Years ago |__|__|min=1 max=_value("age")|
 
 [D_266752903?,displayif=equals(D_643361372,449861632)] During the time(s) that you were taking <b>over-the-counter H2 receptor blockers</b>, about how many <b>days per week OR per month</b> did you take it? Please fill out either days per week or days per month.
 
@@ -584,7 +584,7 @@ Or
 
 [D_497904005?,displayif=equals(D_643361372,449861632)] How many years ago did you <b>last</b> take over-the-counter H2 receptor blockers?
 
-#Years ago |__|__|max=_value("age")|
+#Years ago |__|__|min=1 max=_value("age")|
 
 [SECTION2] <b>Reproductive Health</b>
 
@@ -2168,7 +2168,7 @@ On |displayif=equals(D_591723682,353358909)|workdays||displayif=doesNotEqual(D_5
 [D_424807655?]
 Exposure to natural sunlight can affect your sleep patterns. During a usual |displayif=equals(D_591723682,353358909)|workday||displayif=doesNotEqual(D_591723682,353358909)|day|, about how much time do you spend outside in direct sunlight?
 
-# of Hours |__|__|id=D_707805344 min=0 max=24|
+# of Hours |__|__|id=D_707805344 min=0 max=9|
 
 # of Minutes |__|__|id=D_850393641 min=0 max=59|
 
