@@ -1,4 +1,4 @@
-// This file was transformed using the mapping data in Quest-2025-01-10-17-29-30_Transformation.json.
+// This file was transformed using the mapping data in Quest-2025-01-15-16-17-00_Transformation.json.
 
 // JSON ERROR --> Concept ID collision for ID: 285545471 | there are unexpected collisions between Quest ID(s): [DRINKSWTR2A_SRC] and Concept(s): [In a usual week, about how often do you drink tap water from your home? We are interested in all tap water, whether or not it has been filtered or treated.]
 // JSON ERROR --> Concept ID collision for ID: 961178879 | there are unexpected collisions between Quest ID(s): [DRINKSWTR2B_SRC] and Concept(s): [In a usual week, about how often do you use tap water from your home to make a cup of coffee? We are interested in all tap water, whether or not it has been filtered or treated.]
@@ -44,7 +44,7 @@
 // count: 8 | warning: "TOBACCO | this may be an untransformed Quest code"
 
 
-//This file was last modified on Thu Dec 12 09:48:59 2024 -0500 (short timestamp = 2024-12-12-14-48-59)
+//This file was last modified on Tue Jan 28 13:21:20 2025 -0500 (short timestamp = 2025-01-28-18-21-20)
 //{"version":"1.6"}
 {"name":"D_965707586"}
 
@@ -1507,7 +1507,7 @@ On days that you vaped cannabis when you were age |displayif=greaterThanOrEqual(
 (998679771) 31 to 59 minutes
 (638092100) 1 hour
 (127455035) 2 hours or more
-(352316035) Didn’t use electronic marijuana delivery devices during this time
+(352316035) Didn’t vape cannabis during this time
 
 // 18-24
 [D_319252189?,displayif=(exists("D_742716427") and ((valueEquals("D_325229459",132232896) and valueEquals("D_521073718",804785430)) and (valueOrDefault("D_742716427",25)<=24 and valueOrDefault("age",17)>=18))) or (allExist("D_742716427","D_445187084") and ((valueEquals("D_325229459",132232896) and valueEquals("D_142164107",353358909)) and (valueOrDefault("D_742716427",25)<=24 and valueOrDefault("D_445187084",17)>=18)))]
@@ -1518,7 +1518,7 @@ On days that you vaped cannabis when you were age |displayif=greaterThanOrEqual(
 (998679771) 31 to 59 minutes
 (638092100) 1 hour
 (127455035) 2 hours or more
-(352316035) Didn’t use electronic marijuana delivery devices during this time
+(352316035) Didn’t vape cannabis during this time
 
 // 25-29
 [D_822964046?,displayif=(exists("D_742716427") and ((valueEquals("D_325229459",132232896) and valueEquals("D_521073718",804785430)) and (valueOrDefault("D_742716427",30)<=29 and valueOrDefault("age",24)>=25))) or (allExist("D_742716427","D_445187084") and ((valueEquals("D_325229459",132232896) and valueEquals("D_142164107",353358909)) and (valueOrDefault("D_742716427",30)<=29 and valueOrDefault("D_445187084",24)>=25)))]
@@ -1529,7 +1529,7 @@ On days that you vaped cannabis when you were age |displayif=greaterThanOrEqual(
 (998679771) 31 to 59 minutes
 (638092100) 1 hour
 (127455035) 2 hours or more
-(352316035) Didn’t use electronic marijuana delivery devices during this time
+(352316035) Didn’t vape cannabis during this time
 
 // 30-39
 [D_878281875?,displayif=(exists("D_742716427") and ((valueEquals("D_325229459",132232896) and valueEquals("D_521073718",804785430)) and (valueOrDefault("D_742716427",40)<=39 and valueOrDefault("age",29)>=30))) or (allExist("D_742716427","D_445187084") and ((valueEquals("D_325229459",132232896) and valueEquals("D_142164107",353358909)) and (valueOrDefault("D_742716427",40)<=39 and valueOrDefault("D_445187084",29)>=30)))]
@@ -1540,7 +1540,7 @@ On days that you vaped cannabis when you were age |displayif=greaterThanOrEqual(
 (998679771) 31 to 59 minutes
 (638092100) 1 hour
 (127455035) 2 hours or more
-(352316035) Didn’t use electronic marijuana delivery devices during this time
+(352316035) Didn’t vape cannabis during this time
 
 // 40-49
 [D_989594002?,displayif=(exists("D_742716427") and ((valueEquals("D_325229459",132232896) and valueEquals("D_521073718",804785430)) and (valueOrDefault("D_742716427",50)<=49 and valueOrDefault("age",39)>=40))) or (allExist("D_742716427","D_445187084") and ((valueEquals("D_325229459",132232896) and valueEquals("D_142164107",353358909)) and (valueOrDefault("D_742716427",50)<=49 and valueOrDefault("D_445187084",39)>=40)))]
@@ -1551,7 +1551,7 @@ On days that you vaped cannabis when you were age |displayif=greaterThanOrEqual(
 (998679771) 31 to 59 minutes
 (638092100) 1 hour
 (127455035) 2 hours or more
-(352316035) Didn’t use electronic marijuana delivery devices during this time
+(352316035) Didn’t vape cannabis during this time
 
 // 50-59
 [D_596004621?,displayif=(exists("D_742716427") and ((valueEquals("D_325229459",132232896) and valueEquals("D_521073718",804785430)) and (valueOrDefault("D_742716427",60)<=59 and valueOrDefault("age",49)>=50))) or (allExist("D_742716427","D_445187084") and ((valueEquals("D_325229459",132232896) and valueEquals("D_142164107",353358909)) and (valueOrDefault("D_742716427",60)<=59 and valueOrDefault("D_445187084",49)>=50)))]
@@ -1562,7 +1562,7 @@ On days that you vaped cannabis when you were age |displayif=greaterThanOrEqual(
 (998679771) 31 to 59 minutes
 (638092100) 1 hour
 (127455035) 2 hours or more
-(352316035) Didn’t use electronic marijuana delivery devices during this time
+(352316035) Didn’t vape cannabis during this time
 
 // 60-69
 [D_459096272?,displayif=(exists("D_742716427") and ((valueEquals("D_325229459",132232896) and valueEquals("D_521073718",804785430)) and (valueOrDefault("D_742716427",70)<=69 and valueOrDefault("age",59)>=60))) or (allExist("D_742716427","D_445187084") and ((valueEquals("D_325229459",132232896) and valueEquals("D_142164107",353358909)) and (valueOrDefault("D_742716427",70)<=69 and valueOrDefault("D_445187084",59)>=60)))]
@@ -1573,7 +1573,7 @@ On days that you vaped cannabis when you were age |displayif=greaterThanOrEqual(
 (998679771) 31 to 59 minutes
 (638092100) 1 hour
 (127455035) 2 hours or more
-(352316035) Didn’t use electronic marijuana delivery devices during this time
+(352316035) Didn’t vape cannabis during this time
 
 // 70+
 [D_586306068?,displayif=(exists("D_742716427") and ((valueEquals("D_325229459",132232896) and valueEquals("D_521073718",804785430)) and (valueOrDefault("D_742716427",69)>=70 or valueOrDefault("age",69)>=70))) or (allExist("D_742716427","D_445187084") and ((valueEquals("D_325229459",132232896) and valueEquals("D_142164107",353358909)) and (valueOrDefault("D_742716427",69)>=70 or valueOrDefault("D_445187084",69)>=70)))]
@@ -1584,7 +1584,7 @@ On days that you vaped cannabis when you were age |displayif=greaterThanOrEqual(
 (998679771) 31 to 59 minutes
 (638092100) 1 hour
 (127455035) 2 hours or more
-(352316035) Didn’t use electronic marijuana delivery devices during this time
+(352316035) Didn’t vape cannabis during this time
 
 [D_101170268?,displayif=equals(D_830608495,713594719)]<b>Consuming Cannabis Edibles, Drinks, or Capsules</b>
 
