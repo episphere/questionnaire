@@ -1,20 +1,12 @@
-// This file was transformed using the mapping data in Quest-2025-01-10-17-29-30_Transformation.json.
+// This file was transformed using the mapping data in Quest-2025-02-11-14-26-03_Transformation.json.
 
-// JSON ERROR --> Concept ID collision for ID: 285545471 | there are unexpected collisions between Quest ID(s): [DRINKSWTR2A_SRC] and Concept(s): [In a usual week, about how often do you drink tap water from your home? We are interested in all tap water, whether or not it has been filtered or treated.]
-// JSON ERROR --> Concept ID collision for ID: 961178879 | there are unexpected collisions between Quest ID(s): [DRINKSWTR2B_SRC] and Concept(s): [In a usual week, about how often do you use tap water from your home to make a cup of coffee? We are interested in all tap water, whether or not it has been filtered or treated.]
-// JSON ERROR --> Concept ID collision for ID: 138116092 | there are unexpected collisions between Quest ID(s): [DRINKSWTR2C_SRC] and Concept(s): [In a usual week, about how often do you use tap water from your home to make a cup of hot tea? We are interested in all tap water, whether or not it has been filtered or treated.]
-// JSON ERROR --> Concept ID collision for ID: 393682471 | there are unexpected collisions between Quest ID(s): [DRINKSWTR2D_SRC] and Concept(s): [In a usual week, about how often do you use tap water from your home to make a glass of iced tea? We are interested in all tap water, whether or not it has been filtered or treated.]
-// JSON ERROR --> Concept ID collision for ID: 364303962 | there are unexpected collisions between Quest ID(s): [DRINKSWTR2E_SRC] and Concept(s): [In a usual week, about how often do you use tap water from your home to make any other beverages or soup? We are interested in all tap water, whether or not it has been filtered or treated.]
-// JSON ERROR --> Concept ID collision for ID: 944517297 | there are unexpected collisions between Quest ID(s): [DRINKSWTR2F_SRC] and Concept(s): [In a usual week, about how often do you use tap water from your home to make [insert response from DRINKSWTR1/other beverages]? We are interested in all tap water, whether or not it has been filtered or treated.]
+// JSON ERROR --> Concept ID collision for ID: 714365367 | there are unexpected collisions between Quest ID(s): [CHILDWTR1_SRC] and Concept(s): [What was the source of water to [insert address from CHILDADD1 - CHILDADD3/your childhood home]?]
+// JSON ERROR --> Concept ID collision for ID: 665593888 | there are unexpected collisions between Quest ID(s): [CHILDWTR2_SRC] and Concept(s): [What was the main source of water that you drank at [insert address from CHILDADD1 - CHILDADD3/your childhood home]? Please think about water used to make drinks.]
 // JSON ERROR --> Concept ID collision for ID: 784119588 | there are unexpected collisions between Quest ID(s): [SRVBLU_LANGUAGE_V1R0, SRVBOH_LANGUAGE_V1R0, SRVBUM_LANGUAGE_V1R0, SRVCOE_LANGUAGE_V1R0, SRVCOV_LANGUAGE_V1R0, SRVLAW_LANGUAGE_V1R0, SRVMC_LANGUAGE_V1R0, SRVMRE_LANGUAGE_V1R0, SRVMW_LANGUAGE_V1R0, SRVQOL_LANGUAGE_V1R0, SRVSAS_LANGUAGE_V1R0, SRVSCR_LANGUAGE_V1R0, SRVSSN_LANGUAGE_V1R0]
 // JSON ERROR --> Concept ID collision for ID: 431721131 | there are unexpected collisions between Quest ID(s): [QXAUTHOR1, SRVSCR_WHOCOMPLQX_V1R0]
 
-// JSON ERROR --> DRINKSWTR2A_SRC option DRINKSWTR2A conceptId 285545471 already maps to Quest code: DRINKSWTR2A_SRC | conceptId collision
-// JSON ERROR --> DRINKSWTR2B_SRC option DRINKSWTR2B conceptId 961178879 already maps to Quest code: DRINKSWTR2B_SRC | conceptId collision
-// JSON ERROR --> DRINKSWTR2C_SRC option DRINKSWTR2C conceptId 138116092 already maps to Quest code: DRINKSWTR2C_SRC | conceptId collision
-// JSON ERROR --> DRINKSWTR2D_SRC option DRINKSWTR2D conceptId 393682471 already maps to Quest code: DRINKSWTR2D_SRC | conceptId collision
-// JSON ERROR --> DRINKSWTR2E_SRC option DRINKSWTR2E conceptId 364303962 already maps to Quest code: DRINKSWTR2E_SRC | conceptId collision
-// JSON ERROR --> DRINKSWTR2F_SRC option DRINKSWTR2F conceptId 944517297 already maps to Quest code: DRINKSWTR2F_SRC | conceptId collision
+// JSON ERROR --> CHILDWTR1_SRC option CHILDWTR1 conceptId 714365367 already maps to Quest code: CHILDWTR1_SRC | conceptId collision
+// JSON ERROR --> CHILDWTR2_SRC option CHILDWTR2 conceptId 665593888 already maps to Quest code: CHILDWTR2_SRC | conceptId collision
 // JSON ERROR --> SRVCOE_LANGUAGE_V1R0 conceptId 784119588 already maps to Quest code: SRVBLU_LANGUAGE_V1R0 | conceptId collision
 // JSON ERROR --> SRVMRE_LANGUAGE_V1R0 conceptId 784119588 already maps to Quest code: SRVBLU_LANGUAGE_V1R0 | conceptId collision
 // JSON ERROR --> SRVSCR_LANGUAGE_V1R0 conceptId 784119588 already maps to Quest code: SRVBLU_LANGUAGE_V1R0 | conceptId collision
@@ -37,7 +29,8 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Thu Jan 23 12:03:47 2025 -0500 (short timestamp = 2025-01-23-17-03-47)
+//This file was last modified on Wed Feb 12 13:56:21 2025 -0500 (short timestamp = 2025-02-12-18-56-21)
+
 //{"version":"4.0"}
 {"name":"D_726699695_V2"}
 [INTROM1] Welcome, {$u:firstName}! This survey is split into sections. Each section has questions that ask you about a wide range of topics. Our goal is to collect information about your medical history, family, work, and health behaviors. You can answer all of the questions in each survey section at one time, or answer some questions, pause, and return to answer the rest later. If you pause, your answers will be saved and you can pick up where you left off. You can also skip any questions that you do not want to answer.
@@ -49,6 +42,9 @@ Let’s get started.
 [INTROBAC] First, we are interested in learning some general information about you, your medical history, and your family history. This information will help us better understand your current health status. It will also help us understand how your health may be different from the health of other people.
 
 Please remember that we protect your privacy. We remove information that can identify you from your survey answers before we share them with researchers.
+
+[SECTION1] <b>Background Information </b>
+To start, please tell us a bit about yourself.
 
 [D_783167257?] Are you now married, widowed, divorced, separated, never married, or living with a partner?
 (514080822) Never Married
@@ -200,61 +196,23 @@ Please remember that we protect your privacy. We remove information that can ide
 [807835037] Other language(s): Please describe |__|id=D_486535201|
 
 
-[D_407056417!] Later questions in this survey will ask about surgeries and medical procedures, including the sex organs you were born with. We want to ask questions that will make sense for you. We are also interested in learning how gender identity and gender expression may affect your health and health care.
+[D_407056417?] Later questions in this survey will ask about surgeries and medical procedures, including the sex organs you were born with. 
 
-What was your biological sex assigned at birth?
-(536341288) Female -> D_289664241
-(654207589) Male -> D_289664241
-(576796184) Intersex or other -> D_750420077
+What is your sex?
+(536341288) Female 
+(654207589) Male 
 
-[D_750420077!,displayif=equals(D_407056417,576796184)] Please select the body parts that you were born with. Select all that apply. 
+
+[D_750420077!] Please select the body parts that you were born with. Select all that apply. 
 
 [582784267] Penis (Phallus)
 [751402477] Testes (Testicles)
 [700100953] Prostate
-[846483618] Vagina (Frontal genital opening)
+[846483618] Vagina 
 [505282171] Cervix
 [578416151] Uterus (Womb)
 [434651539] Ovaries
 [108025529] Fallopian Tubes
-
-[D_289664241?] Do you think of yourself as:
-(218837028) Woman
-(983318667) Man
-(405267600) Transgender Man
-(873138103) Transgender Woman
-(805712793) Genderqueer
-(486192236) Non-binary
-(807835037) Additional gender category: Please describe |__|id=D_918409306|
-(746038746) Prefer not to answer
-
-
-[D_987107433?] A person’s appearance, style, dress, or mannerisms (the way they walk or talk) may affect the way people think of them. On average, how do you think people would describe your appearance, style, dress, or mannerisms?
-(220083334) Very feminine
-(541300533) Mostly feminine
-(878286618) Somewhat feminine
-(910745276) Equally feminine and masculine
-(510148951) Somewhat masculine
-(265452386) Mostly masculine
-(915528806) Very masculine
-(746038746) Prefer not to answer
-
-[SEXORIENTINTRO] We are interested in learning more about your sexual orientation. If some of these orientations are not familiar to you, that's OK! We are offering as many options as we can to make sure that all communities are included in Connect. We are collecting this information to learn more about health and cancer prevention in these communities. The more information we have, the better we may be able to answer research questions and tailor prevention and health recommendations to all communities.
-
-[D_555481393?] Do you think of yourself as:
-(271882746) Straight or heterosexual
-(903084185) Lesbian, gay, or homosexual 
-(999994434) Bisexual
-(727200870) Asexual
-(854349138) Pansexual
-(832978839) Mostly straight
-(197935377) Queer
-(410008111) Two-Spirit
-(831942158) Questioning
-(210894509) No labels
-(807835037) Something else: Please describe |__|id=D_979809707|
-(178420302) I don’t know
-(746038746) Prefer not to answer
 
 
 [INTROMH] <b>Medical History</b>
@@ -299,7 +257,7 @@ Has a doctor or other health professional ever told you that you have or had any
 [336505365] Abnormal Heart Rhythm (Arrhythmia) -> D_337278854
 [132548932] Chest Pain (Angina) -> D_681229479
 [747787163] Heart Valve Problems -> D_660358706
-[693851465] High Blood Pressure (Hypertension) |displayif=or(equals(D_407056417,536341288),equals(D_407056417,576796184))|Please do not include hypertension during pregnancy.| -> D_884793537
+[693851465] High Blood Pressure (Hypertension) |displayif=equals(D_407056417,536341288)|Please do not include hypertension during pregnancy.| -> D_884793537
 [512012656] Blood Clots (Deep Vein Thrombosis, Pulmonary Embolism) -> D_460062034
 [619337095] Stroke -> D_110652436
 [535003378*] I have <b>not</b> had any of these conditions 
@@ -683,13 +641,13 @@ Or, if it is easier to remember the year, enter that here:<br/>
 [D_725626004?]<b>Urinary and Reproductive System Problems</b>
 
 Has a doctor or other health professional ever told you that you have or had any of these conditions? Select all that apply.
-[509721537,displayif=or(equals(D_407056417,536341288),and(equals(D_407056417,576796184),equals(D_750420077,578416151)))] Uterine Fibroids -> D_846786840
+[509721537,displayif=equals(D_750420077,578416151)] Uterine Fibroids -> D_846786840
 
-[863286658,displayif=or(equals(D_407056417,536341288),and(equals(D_407056417,576796184),equals(D_750420077,578416151)))] Endometriosis -> D_423547108
+[863286658,displayif=equals(D_750420077,578416151)] Endometriosis -> D_423547108
 
-[386524148,displayif=or(equals(D_407056417,536341288),and(equals(D_407056417,576796184),equals(D_750420077,434651539)))] Polycystic Ovary Syndrome (PCOS) -> D_852898339
+[386524148,displayif=equals(D_750420077,434651539)] Polycystic Ovary Syndrome (PCOS) -> D_852898339
 
-[937208760,displayif=or(equals(D_407056417,654207589),and(equals(D_407056417,576796184),equals(D_750420077,700100953)))] Enlarged Prostate -> D_467061940
+[937208760,displayif=equals(D_750420077,700100953)] Enlarged Prostate -> D_467061940
 
 [746542057] Fibrocystic Breast, or other Benign Breast Disease (such as proliferative Benign Breast Disease or LCIS) -> D_619481697
 
@@ -788,14 +746,14 @@ The next questions ask about certain surgical procedures you may have had.
 [118789503] Liposuction -> D_860920332
 [715563991] Bariatric surgery (lap band, gastric bypass) -> D_986613440
 [533491176] Breast surgery -> D_517307064
-[220755749,displayif=or(equals(D_407056417,536341288),and(equals(D_407056417,576796184),equals(D_750420077,578416151)))] Uterus removed (hysterectomy) -> D_150352141
-[465318416,displayif=or(equals(D_407056417,536341288),and(equals(D_407056417,576796184),equals(D_750420077,108025529)))] Tubes tied (tubal ligation) -> D_122887481
-[630100221,displayif=or(equals(D_407056417,536341288),and(equals(D_407056417,576796184),equals(D_750420077,434651539)))] Removal of one or both ovaries (oophorectomy) -> D_378892977
-[692881833,displayif=or(equals(D_407056417,536341288),and(equals(D_407056417,576796184),equals(D_750420077,108025529)))] Removal of one or both fallopian tubes (salpingectomy) -> D_224791140
-[654450030,displayif=or(equals(D_407056417,654207589),and(equals(D_750420077,582784267),equals(D_750420077,751402477)))] Vasectomy -> D_518750011
-[532603425,displayif=or(equals(D_407056417,654207589),equals(D_750420077,751402477))] Removal of one or both testicles (orchiectomy or orchidectomy) -> D_946504570
-[733236542,displayif=or(equals(D_407056417,654207589),equals(D_750420077,700100953))] Prostate removed (prostatectomy) -> D_107060069
-[961987554,displayif=or(equals(D_407056417,654207589),equals(D_750420077,582784267))] Penis removed (penectomy) -> D_527057404
+[220755749,displayif=equals(D_750420077,578416151)] Uterus removed (hysterectomy) -> D_150352141
+[465318416,displayif=equals(D_750420077,108025529)] Tubes tied (tubal ligation) -> D_122887481
+[630100221,displayif=equals(D_750420077,434651539)] Removal of one or both ovaries (oophorectomy) -> D_378892977
+[692881833,displayif=equals(D_750420077,108025529)] Removal of one or both fallopian tubes (salpingectomy) -> D_224791140
+[654450030,displayif=and(equals(D_750420077,582784267),equals(D_750420077,751402477))] Vasectomy -> D_518750011
+[532603425,displayif=equals(D_750420077,751402477)] Removal of one or both testicles (orchiectomy or orchidectomy) -> D_946504570
+[733236542,displayif=equals(D_750420077,700100953)] Prostate removed (prostatectomy) -> D_107060069
+[961987554,displayif=equals(D_750420077,582784267)] Penis removed (penectomy) -> D_527057404
 [535003378*] I have <b>not</b> had any of these surgeries 
 < -> D_453252072 >
 
@@ -1082,7 +1040,7 @@ Over the <b>past three months</b>, have you felt any physical pain on most days?
 (597477164) A lot
 
 
-[D_746012894?] <b>Height and weight</b> <br/> <br/> How much do you weigh without clothes or shoes on? |displayif=or(equals(D_407056417,536341288),equals(D_407056417,576796184))|If you are pregnant, how much did you weigh before your pregnancy?|
+[D_746012894?] <b>Height and weight</b> <br/> <br/> How much do you weigh without clothes or shoes on? |displayif=equals(D_407056417,536341288)|If you are pregnant, how much did you weigh before your pregnancy?|
 <br/>
 |__|__|__|min=0 max=999 softedit=true modalif=value<70 modalvalue='Is this weight correct?'| #Pounds (lbs)
 
@@ -1108,12 +1066,12 @@ Over the <b>past three months</b>, have you felt any physical pain on most days?
 (839266527) Heavier than average
 
 
-[D_724181652?] How much did you weigh three years ago? If you don’t know your exact weight, please make your best guess. |displayif=or(equals(D_407056417,536341288),equals(D_407056417,576796184))|If you were pregnant three years ago, how much did you weigh before your pregnancy?|
+[D_724181652?] How much did you weigh three years ago? If you don’t know your exact weight, please make your best guess. |displayif=equals(D_407056417,536341288)|If you were pregnant three years ago, how much did you weigh before your pregnancy?|
 <br/>
 |__|__|__|min=0 max=999 softedit=true modalif=value<70 modalvalue='Is this weight correct?'| #Pounds (lbs)
 
 
-[D_912857732?] The next questions ask about how much you weighed at different times in your life. If you don’t remember your exact weight, please make your best guess. |displayif=or(equals(D_407056417,536341288),equals(D_407056417,576796184))|If you were pregnant at any of these times, how much did you weigh before your pregnancy?| How much did you weigh when you were...
+[D_912857732?] The next questions ask about how much you weighed at different times in your life. If you don’t remember your exact weight, please make your best guess. |displayif=equals(D_407056417,536341288)|If you were pregnant at any of these times, how much did you weigh before your pregnancy?| How much did you weigh when you were...
 
 |displayif=_value("age") >= 18|a. 18 years old|
 |__|__|__|id=D_821387277 displayif=(_value("age") >= 18) min=0 max=999 softedit=true modalif=value<70 modalvalue='Is the weight correct?'||displayif=_value("age") >=18|#Pounds (lbs)|
@@ -1203,7 +1161,7 @@ Over the <b>past three months</b>, have you felt any physical pain on most days?
 [601057066] Around the hips or thighs
 < -> D_365851428 >
 
-[D_365851428?,displayif=valueIsOneOf("D_289664241",218837028) and valueIsOneOf("D_407056417",536341288) and _value("age") >= 40]<b>Hair pattern</b>
+[D_365851428?,displayif=valueIsOneOf("D_407056417",536341288) and _value("age") >= 40]<b>Hair pattern</b>
 
 Which one of these figures most closely resembles your hair pattern at <b>age 40</b>?
 |image|episphere.github.io/quest/images/FemaleBaldness1.png|140,140|
@@ -1233,7 +1191,7 @@ Which one of these figures most closely resembles your hair pattern at <b>age 40
 |image|episphere.github.io/quest/images/FemaleBaldness9.png|140,140|
 (452963767) Figure 9 – Moderate hair loss on the sides of the head at the forehead and moderate-to-severe hair loss on the top of the head.< -> D_206319592 >
 
-[D_206319592?,displayif=valueIsOneOf("D_289664241",983318667) and valueIsOneOf("D_407056417",654207589) and _value("age") >= 40] <b>Hair pattern</b>
+[D_206319592?,displayif=valueIsOneOf("D_407056417",654207589) and _value("age") >= 40] <b>Hair pattern</b>
 Which one of these figures most closely resembles your hair pattern at <b>age 40</b>?
 
 |image|episphere.github.io/quest/images/MaleBaldness1.png|200,340|
@@ -1750,10 +1708,9 @@ If this is <b>not</b> correct, please select the “Back” button to update you
 <br/>
 |__|
 
-[D_579563781?] Thinking of |displayif=equals(isNotDefined(D_406098499,false),false)|{$D_406098499}||displayif=doesNotEqual(isNotDefined(D_406098499,false),false)|your ||displayif=and(doesNotEqual(isNotDefined(D_406098499,false),false),greaterThan(#loop,1))|next ||displayif=doesNotEqual(isNotDefined(D_406098499,false),false)|oldest sibling|, what biological sex was this sibling assigned at birth?
+[D_579563781?] Thinking of |displayif=equals(isNotDefined(D_406098499,false),false)|{$D_406098499}||displayif=doesNotEqual(isNotDefined(D_406098499,false),false)|your ||displayif=and(doesNotEqual(isNotDefined(D_406098499,false),false),greaterThan(#loop,1))|next ||displayif=doesNotEqual(isNotDefined(D_406098499,false),false)|oldest sibling|, what sex is this sibling?
 (536341288) Female
 (654207589) Male
-(576796184) Intersex or other
 (178420302) Don’t know
 
 [D_807431780?,displayif=valueIsOneOf("D_992987417",353358909,288105839,626558982)]You said you were born a twin, triplet, or other multiple. Is this sibling your twin, triplet, or multiple?
@@ -1775,7 +1732,7 @@ If this is <b>not</b> correct, please select the “Back” button to update you
 |__|__|__|id=D_478706011 min=0 max=125| Sibling’s age
 [178420302*] Don’t know
 
-[D_537137982?] How old was |displayif=equals(isNotDefined(D_406098499,false),false)|{$D_406098499}||displayif=doesNotEqual(isNotDefined(D_406098499,false),false)|your sibling| when they died?</p>
+[D_537137982?] How old was |displayif=equals(isNotDefined(D_406098499,false),false)|{$D_406098499}||displayif=doesNotEqual(isNotDefined(D_406098499,false),false)|your sibling| when |displayif=equals(D_579563781,654207589)|he||displayif=equals(D_579563781,536341288)|she||displayif=or(equals(D_579563781,178420302),equals(D_579563781,undefined))|they| died?</p>
 |__|__|__|id=D_338020179 min=0 max=125| Sibling’s age
 [178420302*] Don’t know
 
@@ -1980,7 +1937,7 @@ Or, if it is easier to remember the year, enter that here: <br/>
 [SIBSUM,displayif=selectionCount("D_578895128",true)>0 or valueLength("D_957429734")>0] Here is a summary of the information you shared about this sibling. If any of the information is incorrect, please select the “Back” button to update your responses. If all of the information is correct, please select the “Next” button to move forward.
 
 	Name/Nickname: |displayif=valueLength("D_406098499")>0|{$D_406098499}|<br/>
-	Sex: |displayif=equals(D_579563781,536341288)|Female||displayif=equals(D_579563781,654207589)|Male||displayif=equals(D_579563781,576796184)|Intersex or other||displayif=equals(D_579563781,178420302)|Don't Know|<br/>
+	Sex: |displayif=equals(D_579563781,536341288)|Female||displayif=equals(D_579563781,654207589)|Male||displayif=equals(D_579563781,178420302)|Don't Know|<br/>
 	 |displayif=allExist("D_807431780","D_578895128")|Sibling is your twin, triplet, or multiple:||displayif=equals(D_807431780,353358909)| Yes||displayif=equals(D_807431780,104430631)| No|<br/>
 	Relationship: |displayif=valueIsOneOf("D_589588769",555374628)|Full Sibling| |displayif=valueIsOneOf("D_589588769",871673221)|Half sibling, same mother||displayif=valueIsOneOf("D_589588769",198654048)|Half sibling, same father||displayif=valueIsOneOf("D_807431780",353358909)| Twin, triplet, or other multiple| <br/><br/>
 	Ever have cancer: |displayif=equals(D_607773106,104430631)| No||displayif=equals(D_607773106,353358909)| Yes||displayif=equals(D_607773106,178420302)| Don't Know|	<br/> 
@@ -2009,10 +1966,9 @@ If this is <b>not</b> correct, please select the “Back” button to update you
 |__|
 
 
-[D_887697329?] Thinking of |displayif=equals(isNotDefined(D_714001034,false),false)|{$D_714001034}||displayif=doesNotEqual(isNotDefined(D_714001034,false),false)|your child|, what biological sex was this child assigned at birth?
+[D_887697329?] Thinking of |displayif=equals(isNotDefined(D_714001034,false),false)|{$D_714001034}||displayif=doesNotEqual(isNotDefined(D_714001034,false),false)|your child|, what sex is this child?
 (536341288) Female
 (654207589) Male
-(576796184) Intersex or other
 (178420302) Don’t know
 
 [D_473529484?,displayif=greaterThan(D_446999144,1)] Was this child born a twin, triplet, or other multiple?
@@ -2037,7 +1993,7 @@ If this is <b>not</b> correct, please select the “Back” button to update you
 [958239616*] Less than 1 year old
 [178420302*] Don’t know
 
-[D_236590500?] How old was |displayif=equals(isNotDefined(D_714001034,false),false)|{$D_714001034}||displayif=doesNotEqual(isNotDefined(D_714001034,false),false)|your child| when |displayif=equals(D_887697329,654207589)|he||displayif=equals(D_887697329,536341288)|she||displayif=or(equals(D_887697329,576796184),or(equals(D_887697329,178420302),equals(D_887697329,undefined)))|they| died?</p>
+[D_236590500?] How old was |displayif=equals(isNotDefined(D_714001034,false),false)|{$D_714001034}||displayif=doesNotEqual(isNotDefined(D_714001034,false),false)|your child| when |displayif=equals(D_887697329,654207589)|he||displayif=equals(D_887697329,536341288)|she||displayif=or(equals(D_887697329,178420302),equals(D_887697329,undefined))|they| died?</p>
 |__|__|id=D_182786508 min=1 max=125| Child’s age
 [958239616*] Less than 1 year old
 [178420302*] Don’t know
@@ -2253,7 +2209,7 @@ Or, if it is easier to remember the year, enter that here:<br/>
 [CHILDSUM,displayif=selectionCount("D_812370563",true)>0 or valueLength("D_933110091")>0] Here is a summary of the information you shared about this child. If any of the information is incorrect, please select the “Back” button to update your responses. If all of the information is correct, please select the “Next” button to move forward.
 
 	Name/Nickname: |displayif=valueLength("D_714001034")>0|{$D_714001034}|<br/>
-	Sex: |displayif=equals(D_887697329,536341288)|Female||displayif=equals(D_887697329,654207589)|Male||displayif=equals(D_887697329,576796184)|Intersex or other||displayif=equals(D_887697329,178420302)|Don't Know|<br/>
+	Sex: |displayif=equals(D_887697329,536341288)|Female||displayif=equals(D_887697329,654207589)|Male||displayif=equals(D_887697329,178420302)|Don't Know|<br/>
 	 |displayif=allExist("D_473529484","D_812370563")|Born a twin, triplet, or multiple:||displayif=equals(D_473529484,353358909)| Yes||displayif=equals(D_473529484,104430631)| No|<br/>
 	Relationship: |displayif=equals(D_873968217,709650750)| Your biological child| |displayif=equals(D_873968217,810290359)|Adopted||displayif=equals(D_873968217,509607548)|A step child||displayif=equals(D_873968217,784922042)|Related to me in some other way|<br/>
 	Ever have cancer: |displayif=equals(D_718867914,104430631)| No||displayif=equals(D_718867914,353358909)| Yes||displayif=equals(D_718867914,178420302)| Don't Know|	<br/> 
