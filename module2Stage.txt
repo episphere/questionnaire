@@ -1,20 +1,12 @@
-// This file was transformed using the mapping data in Quest-2025-01-15-16-17-00_Transformation.json.
+// This file was transformed using the mapping data in Quest-2025-02-11-14-26-03_Transformation.json.
 
-// JSON ERROR --> Concept ID collision for ID: 285545471 | there are unexpected collisions between Quest ID(s): [DRINKSWTR2A_SRC] and Concept(s): [In a usual week, about how often do you drink tap water from your home? We are interested in all tap water, whether or not it has been filtered or treated.]
-// JSON ERROR --> Concept ID collision for ID: 961178879 | there are unexpected collisions between Quest ID(s): [DRINKSWTR2B_SRC] and Concept(s): [In a usual week, about how often do you use tap water from your home to make a cup of coffee? We are interested in all tap water, whether or not it has been filtered or treated.]
-// JSON ERROR --> Concept ID collision for ID: 138116092 | there are unexpected collisions between Quest ID(s): [DRINKSWTR2C_SRC] and Concept(s): [In a usual week, about how often do you use tap water from your home to make a cup of hot tea? We are interested in all tap water, whether or not it has been filtered or treated.]
-// JSON ERROR --> Concept ID collision for ID: 393682471 | there are unexpected collisions between Quest ID(s): [DRINKSWTR2D_SRC] and Concept(s): [In a usual week, about how often do you use tap water from your home to make a glass of iced tea? We are interested in all tap water, whether or not it has been filtered or treated.]
-// JSON ERROR --> Concept ID collision for ID: 364303962 | there are unexpected collisions between Quest ID(s): [DRINKSWTR2E_SRC] and Concept(s): [In a usual week, about how often do you use tap water from your home to make any other beverages or soup? We are interested in all tap water, whether or not it has been filtered or treated.]
-// JSON ERROR --> Concept ID collision for ID: 944517297 | there are unexpected collisions between Quest ID(s): [DRINKSWTR2F_SRC] and Concept(s): [In a usual week, about how often do you use tap water from your home to make [insert response from DRINKSWTR1/other beverages]? We are interested in all tap water, whether or not it has been filtered or treated.]
+// JSON ERROR --> Concept ID collision for ID: 714365367 | there are unexpected collisions between Quest ID(s): [CHILDWTR1_SRC] and Concept(s): [What was the source of water to [insert address from CHILDADD1 - CHILDADD3/your childhood home]?]
+// JSON ERROR --> Concept ID collision for ID: 665593888 | there are unexpected collisions between Quest ID(s): [CHILDWTR2_SRC] and Concept(s): [What was the main source of water that you drank at [insert address from CHILDADD1 - CHILDADD3/your childhood home]? Please think about water used to make drinks.]
 // JSON ERROR --> Concept ID collision for ID: 784119588 | there are unexpected collisions between Quest ID(s): [SRVBLU_LANGUAGE_V1R0, SRVBOH_LANGUAGE_V1R0, SRVBUM_LANGUAGE_V1R0, SRVCOE_LANGUAGE_V1R0, SRVCOV_LANGUAGE_V1R0, SRVLAW_LANGUAGE_V1R0, SRVMC_LANGUAGE_V1R0, SRVMRE_LANGUAGE_V1R0, SRVMW_LANGUAGE_V1R0, SRVQOL_LANGUAGE_V1R0, SRVSAS_LANGUAGE_V1R0, SRVSCR_LANGUAGE_V1R0, SRVSSN_LANGUAGE_V1R0]
 // JSON ERROR --> Concept ID collision for ID: 431721131 | there are unexpected collisions between Quest ID(s): [QXAUTHOR1, SRVSCR_WHOCOMPLQX_V1R0]
 
-// JSON ERROR --> DRINKSWTR2A_SRC option DRINKSWTR2A conceptId 285545471 already maps to Quest code: DRINKSWTR2A_SRC | conceptId collision
-// JSON ERROR --> DRINKSWTR2B_SRC option DRINKSWTR2B conceptId 961178879 already maps to Quest code: DRINKSWTR2B_SRC | conceptId collision
-// JSON ERROR --> DRINKSWTR2C_SRC option DRINKSWTR2C conceptId 138116092 already maps to Quest code: DRINKSWTR2C_SRC | conceptId collision
-// JSON ERROR --> DRINKSWTR2D_SRC option DRINKSWTR2D conceptId 393682471 already maps to Quest code: DRINKSWTR2D_SRC | conceptId collision
-// JSON ERROR --> DRINKSWTR2E_SRC option DRINKSWTR2E conceptId 364303962 already maps to Quest code: DRINKSWTR2E_SRC | conceptId collision
-// JSON ERROR --> DRINKSWTR2F_SRC option DRINKSWTR2F conceptId 944517297 already maps to Quest code: DRINKSWTR2F_SRC | conceptId collision
+// JSON ERROR --> CHILDWTR1_SRC option CHILDWTR1 conceptId 714365367 already maps to Quest code: CHILDWTR1_SRC | conceptId collision
+// JSON ERROR --> CHILDWTR2_SRC option CHILDWTR2 conceptId 665593888 already maps to Quest code: CHILDWTR2_SRC | conceptId collision
 // JSON ERROR --> SRVCOE_LANGUAGE_V1R0 conceptId 784119588 already maps to Quest code: SRVBLU_LANGUAGE_V1R0 | conceptId collision
 // JSON ERROR --> SRVMRE_LANGUAGE_V1R0 conceptId 784119588 already maps to Quest code: SRVBLU_LANGUAGE_V1R0 | conceptId collision
 // JSON ERROR --> SRVSCR_LANGUAGE_V1R0 conceptId 784119588 already maps to Quest code: SRVBLU_LANGUAGE_V1R0 | conceptId collision
@@ -37,12 +29,12 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Tue Jan 28 16:35:41 2025 -0500 (short timestamp = 2025-01-28-21-35-41)
+//This file was last modified on Tue Feb 11 13:48:00 2025 -0500 (short timestamp = 2025-02-11-18-48-00)
 //{"version":"2.3"}
 {"name":"D_745268907_V2"}
 [INTROM2] In this set of questions we ask about a few topics that affect your health. These topics include your current and past use of medications, your physical activity (including exercise), and your sleep habits.
 
-|displayif=or(equals(D_407056417,536341288),and(equals(D_407056417,576796184),or(equals(D_750420077,578416151),equals(D_750420077,434651539))))|We also ask some questions about your reproductive health. These questions will focus mainly on your menstrual periods, pregnancies, and if you have used any hormonal medications.|
+|displayif=valueIsOneOf("D_750420077",578416151,434651539) or valueEquals("D_407056417",536341288)|We also ask some questions about your reproductive health. These questions will focus mainly on your menstrual periods, pregnancies, and if you have used any hormonal medications.|
 
 [SECTION1] <b>Medications</b>
 
@@ -96,7 +88,7 @@ Or
 [D_643807999?] Why did you take baby or low-dose aspirin (81 mg or less)? Select all that apply.
 [323106499] Arthritis
 [769901710] Back pain/backache
-[727773491,displayif=or(equals(D_407056417,576796184),equals(D_407056417,536341288))] Menstrual Pain
+[727773491,displayif=valueIsOneOf("D_750420077",578416151,434651539) or valueEquals("D_407056417",536341288)] Menstrual Pain
 [283652434] Disease prevention
 [243596698] Headaches/migraine
 [853261835] Illness, cold/flu, fever
@@ -136,7 +128,7 @@ Or
 [D_275143071?] Why did you take regular or extra strength aspirin? Select all that apply.
 [323106499] Arthritis
 [769901710] Back pain/backache
-[727773491,displayif=or(equals(D_407056417,576796184),equals(D_407056417,536341288))] Menstrual Pain
+[727773491,displayif=valueIsOneOf("D_750420077",578416151,434651539) or valueEquals("D_407056417",536341288)] Menstrual Pain
 [283652434] Disease prevention
 [243596698] Headaches/migraine
 [853261835] Illness, cold/flu, fever
@@ -176,7 +168,7 @@ Or
 [D_152138929?] Why did you take ibuprofen? Select all that apply.
 [323106499] Arthritis
 [769901710] Back pain/backache
-[727773491,displayif=or(equals(D_407056417,576796184),equals(D_407056417,536341288))] Menstrual Pain
+[727773491,displayif=valueIsOneOf("D_750420077",578416151,434651539) or valueEquals("D_407056417",536341288)] Menstrual Pain
 [283652434] Disease prevention
 [243596698] Headaches/migraine
 [853261835] Illness, cold/flu, fever
@@ -216,7 +208,7 @@ Or
 [D_630231395?] Why did you take acetaminophen? Select all that apply.
 [323106499] Arthritis
 [769901710] Back pain/backache
-[727773491,displayif=or(equals(D_407056417,576796184),equals(D_407056417,536341288))] Menstrual Pain
+[727773491,displayif=valueIsOneOf("D_750420077",578416151,434651539) or valueEquals("D_407056417",536341288)] Menstrual Pain
 [283652434] Disease prevention
 [243596698] Headaches/migraine
 [853261835] Illness, cold/flu, fever
@@ -256,7 +248,7 @@ Or
 [D_655266993?] Why did you take naproxen? Select all that apply.
 [323106499] Arthritis
 [769901710] Back pain/backache
-[727773491,displayif=or(equals(D_407056417,576796184),equals(D_407056417,536341288))] Menstrual Pain
+[727773491,displayif=valueIsOneOf("D_750420077",578416151,434651539) or valueEquals("D_407056417",536341288)] Menstrual Pain
 [283652434] Disease prevention
 [243596698] Headaches/migraine
 [853261835] Illness, cold/flu, fever
@@ -296,7 +288,7 @@ Or
 [D_509383583?] Why did you take Celebrex® (celecoxib)? Select all that apply.
 [323106499] Arthritis
 [769901710] Back pain/backache
-[727773491,displayif=or(equals(D_407056417,576796184),equals(D_407056417,536341288))] Menstrual Pain
+[727773491,displayif=valueIsOneOf("D_750420077",578416151,434651539) or valueEquals("D_407056417",536341288)] Menstrual Pain
 [283652434] Disease prevention
 [243596698] Headaches/migraine
 [853261835] Illness, cold/flu, fever
@@ -336,7 +328,7 @@ Or
 [D_887435355?] Why did you take prescription pain relievers containing opioids? Select all that apply.
 [323106499] Arthritis
 [769901710] Back pain/backache
-[727773491,displayif=or(equals(D_407056417,576796184),equals(D_407056417,536341288))] Menstrual Pain
+[727773491,displayif=valueIsOneOf("D_750420077",578416151,434651539) or valueEquals("D_407056417",536341288)] Menstrual Pain
 [283652434] Disease prevention
 [243596698] Headaches/migraine
 [853261835] Illness, cold/flu, fever
@@ -590,21 +582,15 @@ Or
 
  In the next set of questions, we ask about your reproductive health. Remember, we protect your privacy. We remove information that can identify you from your survey answers before we share them with researchers.
 
-[INTRONONCISWOM,displayif=and(or(equals(D_407056417,654207589),equals(D_407056417,576796184)),or(or(or(or(equals(D_289664241,218837028),equals(D_289664241,873138103)),equals(D_289664241,805712793)),equals(D_289664241,486192236)),equals(D_289664241,807835037)))]Our next questions will ask you about your use of hormones.
 
-[D_798889867?,displayif=and(or(equals(D_407056417,654207589),equals(D_407056417,576796184)),or(or(or(or(equals(D_289664241,218837028),equals(D_289664241,873138103)),equals(D_289664241,805712793)),equals(D_289664241,486192236)),equals(D_289664241,807835037)))] Have you ever used hormones or other medications to make your body better reflect your gender (for example, estrogen or testosterone-blockers)?
-(104430631) No
-(200323667) Yes, I used hormones or other medications to make my body look more feminine in the past
-(249673703) Yes, I am currently using hormones or other medications to make my body look more feminine
-
-// duplicating the start of Testosterone Therapy to do a skip instead of adding this displayif to every question in section 2
-// see squish issue #34 for why this was added
 // PTH - recoded SECTION2_SKIPPED to account for changes in the updated Quex, so all males are skipped to TESTTHER
-[SECTION2_SKIPPED,displayif=or(equals(D_407056417,654207589),and(equals(D_407056417,576796184),and(doesNotEqual(D_750420077,578416151),doesNotEqual(D_750420077,434651539))))]
+
+[SECTION2_SKIPPED,displayif=not (equals("D_407056417",536341288) or valueIsOneOf("D_750420077",578416151,434651539))]
+
 <b>Testosterone & Other Hormone Therapy</b>
 < -> D_111235606 >
 
-[INTROWH,displayif=or(equals(D_407056417,536341288),and(equals(D_407056417,576796184),or(equals(D_750420077,434651539),equals(D_750420077,578416151))))]This section asks about your menstrual history, past or current pregnancies and your use of hormone medications.
+[INTROWH,displayif=equals("D_407056417",536341288) or valueIsOneOf("D_750420077",578416151,434651539)]This section asks about your menstrual history, past or current pregnancies and your use of hormone medications.
 
 When we ask you to give an exact date, age, or number, please make your best guess if you are not sure.
 
@@ -674,7 +660,6 @@ Age |__|__|id=D_969451837 min=0 max=_value("age")|
 (655309065) I am currently using a hormonal medication or device (such as an intrauterine device (IUD)) to prevent pregnancy, manage my menstrual cycle symptoms, and/or manage conditions like endometriosis or polycystic ovarian syndrome (PCOS)  -> D_534920374
 (757609794) I was pregnant or breastfeeding during the last year  -> D_534920374
 (585076356) My periods stopped after radiation or chemotherapy  -> D_534920374
-(351584248,displayif=doesNotEqual(D_289664241,218837028)) My periods stopped because I began taking gender affirming hormones 
 (807835037) My periods stopped for other reasons: Please describe |__|id=D_672810476| -> D_534920374
 < #NR-> PREG >
 
@@ -1252,7 +1237,7 @@ Age |__|__|min=0 max=_value("age")|
 <-> D_378921620>
 
 [D_378921620?,displayif=valueIsOneOf("D_668834883",807835037) or valueLength("D_640559281")>0]
-Are you currently using |displayif=valueLength("D_640559281")>0|<b>{$D_640559281}</b>||displayif=valueLength("D_640559281")==0|the other type of estrogen-only medication|?
+Are you currently using |displayif=valueLength("D_640559281")>0|<b>{$D_640559281}</b>||displayif=valueLength("D_640559281")==0|other type of estrogen-only medication|?
 (353358909) Yes -> D_268372217
 (104430631) No -> D_854078473
 < #NR -> D_854078473 >
@@ -1312,19 +1297,19 @@ Age |__|__|min=0 max=_value("age")|
 < -> D_453820991 >
 
 [D_453820991?,displayif=valueIsOneOf("D_800943768",807835037) or valueLength("D_235516216")>0]
-Are you currently using |displayif=valueLength("D_235516216")>0|<b>{$D_235516216}</b>||displayif=valueLength("D_235516216")==0|the other progestin/progesterone-only medication|?
+Are you currently using |displayif=valueLength("D_235516216")>0|<b>{$D_235516216}</b>||displayif=valueLength("D_235516216")==0|other progestin/progesterone-only medication|?
 (353358909) Yes -> D_597869478
 (104430631) No -> D_111271067
 < #NR -> D_111271067 >
 
 [D_111271067?,displayif=valueIsOneOf("D_800943768",807835037) or valueLength("D_235516216")>0]
-How old were you when you <b>last</b> used |displayif=valueLength("D_235516216")>0|<b>{$D_235516216}</b>||displayif=valueLength("D_235516216")==0|the other progestin/progesterone-only medication|?
+How old were you when you <b>last</b> used |displayif=valueLength("D_235516216")>0|<b>{$D_235516216}</b>||displayif=valueLength("D_235516216")==0|other progestin/progesterone-only medication|?
 
 Age |__|__|min=0 max=_value("age")|
 < -> D_597869478 >
 
 [D_597869478?,displayif=valueIsOneOf("D_800943768",807835037) or valueLength("D_235516216")>0]
-In total, how many months OR years have you used |displayif=valueLength("D_235516216")>0|<b>{$D_235516216}</b>||displayif=valueLength("D_235516216")==0|the other progestin/progesterone-only medication|?
+In total, how many months OR years have you used |displayif=valueLength("D_235516216")>0|<b>{$D_235516216}</b>||displayif=valueLength("D_235516216")==0|other progestin/progesterone-only medication|?
 
 #Months |__|__|xor=PROGHOR5_2 id=D_434243220 min=0 max=99|
 Or, if it is easier to remember years, enter that here:
@@ -1408,25 +1393,25 @@ Or, if it is easier to remember years, enter that here:
 
 
 [D_219538082?,displayif=valueIsOneOf("D_263785082",807835037) or valueLength("D_542108835")>0]
-How old were you when you <b>first</b> used |displayif=valueLength("D_542108835")>0|<b>{$D_542108835}</b>||displayif=valueLength("D_542108835")==0|<b>the other combined estrogen plus progestin prescription hormone</b>|?
+How old were you when you <b>first</b> used |displayif=valueLength("D_542108835")>0|<b>{$D_542108835}</b>||displayif=valueLength("D_542108835")==0|<b>other combined estrogen plus progestin prescription hormone</b>|?
 
 Age |__|__|min=0 max=_value("age")|
 < -> D_583111732>
 
 [D_583111732?,displayif=valueIsOneOf("D_263785082",807835037) or valueLength("D_542108835")>0]
-Are you currently using |displayif=valueLength("D_542108835")>0|<b>{$D_542108835}</b>||displayif=valueLength("D_542108835")==0|the other combined estrogen plus progestin prescription hormone|?
+Are you currently using |displayif=valueLength("D_542108835")>0|<b>{$D_542108835}</b>||displayif=valueLength("D_542108835")==0|other combined estrogen plus progestin prescription hormone|?
 (353358909) Yes -> D_824251330
 (104430631) No -> D_603209609
 < #NR -> D_603209609 >
 
 [D_603209609?,displayif=valueIsOneOf("D_263785082",807835037) or valueLength("D_542108835")>0]
-How old were you when you <b>last</b> used |displayif=valueLength("D_542108835")>0|<b>{$D_542108835}</b>||displayif=valueLength("D_542108835")==0|the other combined estrogen plus progestin prescription hormone|?
+How old were you when you <b>last</b> used |displayif=valueLength("D_542108835")>0|<b>{$D_542108835}</b>||displayif=valueLength("D_542108835")==0|other combined estrogen plus progestin prescription hormone|?
 
 Age |__|__|min=0 max=_value("age")|
 < -> D_824251330>
 
 [D_824251330?,displayif=valueIsOneOf("D_263785082",807835037) or valueLength("D_542108835")>0]
-In total, how many months OR years have you used |displayif=valueLength("D_542108835")>0|<b>{$D_542108835}</b>||displayif=valueLength("D_542108835")==0|the other combined estrogen plus progestin prescription hormone|?
+In total, how many months OR years have you used |displayif=valueLength("D_542108835")>0|<b>{$D_542108835}</b>||displayif=valueLength("D_542108835")==0|other combined estrogen plus progestin prescription hormone|?
 
 #Months |__|__|xor=COMBHOR5_3 id=D_434243220 min=0 max=99|
 Or, if it is easier to remember years, enter that here:
@@ -2101,7 +2086,7 @@ During the <b>past 12 months</b>, did you do any of these exercise or recreation
 
 Lastly, we will ask you some questions about your sleep, including your usual sleep schedule and your sleep habits.
 
-|displayif=or(equals(D_407056417,536341288),and(equals(D_407056417,576796184),or(equals(D_750420077,578416151),equals(D_750420077,434651539))))|If you are currently pregnant or have been pregnant in the last year, please answer the following questions with information from the time <b>before you got pregnant.</b>|
+|displayif=valueIsOneOf("D_750420077",578416151,434651539) or valueEquals("D_407056417",536341288)|If you are currently pregnant or have been pregnant in the last year, please answer the following questions with information from the time <b>before you got pregnant.</b>|
 
 [D_591723682?]<b>Sleep Schedule</b>
 
