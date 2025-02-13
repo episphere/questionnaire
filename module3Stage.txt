@@ -1,20 +1,12 @@
-// This file was transformed using the mapping data in Quest-2025-01-15-16-17-00_Transformation.json.
+// This file was transformed using the mapping data in Quest-2025-02-11-14-26-03_Transformation.json.
 
-// JSON ERROR --> Concept ID collision for ID: 285545471 | there are unexpected collisions between Quest ID(s): [DRINKSWTR2A_SRC] and Concept(s): [In a usual week, about how often do you drink tap water from your home? We are interested in all tap water, whether or not it has been filtered or treated.]
-// JSON ERROR --> Concept ID collision for ID: 961178879 | there are unexpected collisions between Quest ID(s): [DRINKSWTR2B_SRC] and Concept(s): [In a usual week, about how often do you use tap water from your home to make a cup of coffee? We are interested in all tap water, whether or not it has been filtered or treated.]
-// JSON ERROR --> Concept ID collision for ID: 138116092 | there are unexpected collisions between Quest ID(s): [DRINKSWTR2C_SRC] and Concept(s): [In a usual week, about how often do you use tap water from your home to make a cup of hot tea? We are interested in all tap water, whether or not it has been filtered or treated.]
-// JSON ERROR --> Concept ID collision for ID: 393682471 | there are unexpected collisions between Quest ID(s): [DRINKSWTR2D_SRC] and Concept(s): [In a usual week, about how often do you use tap water from your home to make a glass of iced tea? We are interested in all tap water, whether or not it has been filtered or treated.]
-// JSON ERROR --> Concept ID collision for ID: 364303962 | there are unexpected collisions between Quest ID(s): [DRINKSWTR2E_SRC] and Concept(s): [In a usual week, about how often do you use tap water from your home to make any other beverages or soup? We are interested in all tap water, whether or not it has been filtered or treated.]
-// JSON ERROR --> Concept ID collision for ID: 944517297 | there are unexpected collisions between Quest ID(s): [DRINKSWTR2F_SRC] and Concept(s): [In a usual week, about how often do you use tap water from your home to make [insert response from DRINKSWTR1/other beverages]? We are interested in all tap water, whether or not it has been filtered or treated.]
+// JSON ERROR --> Concept ID collision for ID: 714365367 | there are unexpected collisions between Quest ID(s): [CHILDWTR1_SRC] and Concept(s): [What was the source of water to [insert address from CHILDADD1 - CHILDADD3/your childhood home]?]
+// JSON ERROR --> Concept ID collision for ID: 665593888 | there are unexpected collisions between Quest ID(s): [CHILDWTR2_SRC] and Concept(s): [What was the main source of water that you drank at [insert address from CHILDADD1 - CHILDADD3/your childhood home]? Please think about water used to make drinks.]
 // JSON ERROR --> Concept ID collision for ID: 784119588 | there are unexpected collisions between Quest ID(s): [SRVBLU_LANGUAGE_V1R0, SRVBOH_LANGUAGE_V1R0, SRVBUM_LANGUAGE_V1R0, SRVCOE_LANGUAGE_V1R0, SRVCOV_LANGUAGE_V1R0, SRVLAW_LANGUAGE_V1R0, SRVMC_LANGUAGE_V1R0, SRVMRE_LANGUAGE_V1R0, SRVMW_LANGUAGE_V1R0, SRVQOL_LANGUAGE_V1R0, SRVSAS_LANGUAGE_V1R0, SRVSCR_LANGUAGE_V1R0, SRVSSN_LANGUAGE_V1R0]
 // JSON ERROR --> Concept ID collision for ID: 431721131 | there are unexpected collisions between Quest ID(s): [QXAUTHOR1, SRVSCR_WHOCOMPLQX_V1R0]
 
-// JSON ERROR --> DRINKSWTR2A_SRC option DRINKSWTR2A conceptId 285545471 already maps to Quest code: DRINKSWTR2A_SRC | conceptId collision
-// JSON ERROR --> DRINKSWTR2B_SRC option DRINKSWTR2B conceptId 961178879 already maps to Quest code: DRINKSWTR2B_SRC | conceptId collision
-// JSON ERROR --> DRINKSWTR2C_SRC option DRINKSWTR2C conceptId 138116092 already maps to Quest code: DRINKSWTR2C_SRC | conceptId collision
-// JSON ERROR --> DRINKSWTR2D_SRC option DRINKSWTR2D conceptId 393682471 already maps to Quest code: DRINKSWTR2D_SRC | conceptId collision
-// JSON ERROR --> DRINKSWTR2E_SRC option DRINKSWTR2E conceptId 364303962 already maps to Quest code: DRINKSWTR2E_SRC | conceptId collision
-// JSON ERROR --> DRINKSWTR2F_SRC option DRINKSWTR2F conceptId 944517297 already maps to Quest code: DRINKSWTR2F_SRC | conceptId collision
+// JSON ERROR --> CHILDWTR1_SRC option CHILDWTR1 conceptId 714365367 already maps to Quest code: CHILDWTR1_SRC | conceptId collision
+// JSON ERROR --> CHILDWTR2_SRC option CHILDWTR2 conceptId 665593888 already maps to Quest code: CHILDWTR2_SRC | conceptId collision
 // JSON ERROR --> SRVCOE_LANGUAGE_V1R0 conceptId 784119588 already maps to Quest code: SRVBLU_LANGUAGE_V1R0 | conceptId collision
 // JSON ERROR --> SRVMRE_LANGUAGE_V1R0 conceptId 784119588 already maps to Quest code: SRVBLU_LANGUAGE_V1R0 | conceptId collision
 // JSON ERROR --> SRVSCR_LANGUAGE_V1R0 conceptId 784119588 already maps to Quest code: SRVBLU_LANGUAGE_V1R0 | conceptId collision
@@ -44,7 +36,7 @@
 // count: 8 | warning: "TOBACCO | this may be an untransformed Quest code"
 
 
-//This file was last modified on Tue Jan 28 13:21:20 2025 -0500 (short timestamp = 2025-01-28-18-21-20)
+//This file was last modified on Wed Feb 12 08:39:35 2025 -0500 (short timestamp = 2025-02-12-13-39-35)
 //{"version":"1.6"}
 {"name":"D_965707586"}
 
@@ -1157,11 +1149,11 @@ On days that you |displayif=doesNotExist("D_180308733") or valueEquals("D_180308
 (353358909) Yes -> D_556963634
 < #NR -> D_377064836>
 
-[D_556963634?,displayif=and(doesNotEqual(or(or(equals(D_503058092,804785430),and(or(or(equals(D_503058092,716761013),equals(D_503058092,299561721)),equals(D_503058092,419415087)),and(equals(D_180308733,484055234),equals(D_129677435,353358909)))),and(or(or(equals(D_503058092,716761013),equals(D_503058092,299561721)),equals(D_503058092,419415087)),and(equals(D_180308733,802197176),equals(D_129677435,353358909)))),1),equals(D_830608495,760521319))] How old were you when you stopped smoking cannabis every day?
+[D_556963634?,displayif=and(doesNotEqual(or(or(equals(D_503058092,804785430),and(or(or(equals(D_503058092,716761013),equals(D_503058092,299561721)),equals(D_503058092,419415087)),and(equals(D_180308733,484055234),equals(D_129677435,353358909)))),and(or(or(equals(D_503058092,716761013),equals(D_503058092,299561721)),equals(D_503058092,419415087)),and(equals(D_180308733,802197176),equals(D_129677435,353358909)))),1),equals(D_830608495,760521319))] How old were you when you stopped smoking cannabis <b>every day</b>?
 
 Age stopped smoking every day |__|__|min=valueOrDefault("D_889949861","D_210016366",0) max=_value("age")|
 
-[D_492742957?,displayif=and(doesNotEqual(or(or(equals(D_503058092,804785430),and(or(or(equals(D_503058092,716761013),equals(D_503058092,299561721)),equals(D_503058092,419415087)),and(equals(D_180308733,484055234),equals(D_129677435,353358909)))),and(or(or(equals(D_503058092,716761013),equals(D_503058092,299561721)),equals(D_503058092,419415087)),and(equals(D_180308733,802197176),equals(D_129677435,353358909)))),1),equals(D_830608495,760521319))] When you were a daily smoker of cannabis, what is the total amount of time you smoked <b>per day</b>?
+[D_492742957?,displayif=and(doesNotEqual(or(or(equals(D_503058092,804785430),and(or(or(equals(D_503058092,716761013),equals(D_503058092,299561721)),equals(D_503058092,419415087)),and(equals(D_180308733,484055234),equals(D_129677435,353358909)))),and(or(or(equals(D_503058092,716761013),equals(D_503058092,299561721)),equals(D_503058092,419415087)),and(equals(D_180308733,802197176),equals(D_129677435,353358909)))),1),equals(D_830608495,760521319))] When you were a daily smoker of cannabis, what was the total amount of time you smoked <b>per day</b>?
 
 (428999623) 15 minutes or less
 (248303092) 16 to 30 minutes
@@ -1266,7 +1258,7 @@ On days that you smoked cannabis when you were age |displayif=greaterThanOrEqual
 (127455035) 2 hours or more
 (347968905) Didn’t smoke cannabis during this time
 
-[D_524914900?,displayif=equals(D_830608495,158841370)]<b>Smoking a Combination of cannabis with Tobacco (Including Blunts or Spliffs)</b>
+[D_524914900?,displayif=equals(D_830608495,158841370)]<b>Smoking a Combination of Cannabis with Tobacco (Including Blunts or Spliffs)</b>
 
 Next we have some questions about your use of a combination of cannabis with tobacco (including blunts or spliffs).
 
@@ -1402,9 +1394,9 @@ On days that you smoked when you were age |displayif=greaterThanOrEqual(isDefine
 
 #TIMES PER DAY |__|__|min=0 max=99|
 
-[D_325229459?,displayif=equals(D_830608495,349034127)]<b>Electronic Delivery Devices </b>
+[D_325229459?,displayif=equals(D_830608495,349034127)]<b>Vaping Cannabis Using Electronic Delivery Devices </b>
 
-The following questions ask vaping cannabis using electronic delivery devices, such as vape pens or pod-mods. These electronic devices sometimes look like regular cigarettes but are battery-powered and create vapor instead of smoke.
+The following questions ask about vaping cannabis using electronic delivery devices, such as vape pens or pod-mods. These electronic devices sometimes look like regular cigarettes but are battery-powered and create vapor instead of smoke.
 
 How many days have you used an <b>electronic delivery device</b> for vaping cannabis in your life?
 
@@ -1414,7 +1406,7 @@ How many days have you used an <b>electronic delivery device</b> for vaping cann
 (132232896) 100 or more -> D_116510981
 < #NR -> D_101170268>
 
-[D_116510981?,displayif=equals(D_830608495,349034127)] How old were you when you <b>first</b> used an electronic delivery device for vaping cannabis?
+[D_116510981?,displayif=equals(D_830608495,349034127)] How old were you when you <b>first</b> vaped cannabis?
 
 Age first vaped cannabis |__|__|min=0 max=_value("age")|
 
@@ -1653,15 +1645,15 @@ On days that you consume|displayif=valueIsOneOf("D_921663542",484055234,80219717
 
 [178420302*] Don’t know
 
-[D_891996278?,displayif=and(doesNotEqual(or(or(equals(D_742544044,804785430),and(or(or(equals(D_742544044,716761013),equals(D_742544044,299561721)),equals(D_742544044,419415087)),and(equals(D_921663542,484055234),equals(D_259481608,353358909)))),and(or(or(equals(D_742544044,716761013),equals(D_742544044,299561721)),equals(D_742544044,419415087)),and(equals(D_921663542,802197176),equals(D_259481608,353358909)))),1),equals(D_830608495,713594719))] Now thinking about your entire life, did you ever consume cannabis edibles, drinks, or capsules every day?
+[D_891996278?,displayif=and(doesNotEqual(or(or(equals(D_742544044,804785430),and(or(or(equals(D_742544044,716761013),equals(D_742544044,299561721)),equals(D_742544044,419415087)),and(equals(D_921663542,484055234),equals(D_259481608,353358909)))),and(or(or(equals(D_742544044,716761013),equals(D_742544044,299561721)),equals(D_742544044,419415087)),and(equals(D_921663542,802197176),equals(D_259481608,353358909)))),1),equals(D_830608495,713594719))] Now thinking about your entire life, did you ever consume cannabis edibles, drinks, or capsules <b>every day</b>?
 
 (104430631) No -> D_810324917
 (353358909) Yes -> D_238953261
 < #NR -> D_810324917>
 
-[D_238953261?,displayif=and(doesNotEqual(or(or(equals(D_742544044,804785430),and(or(or(equals(D_742544044,716761013),equals(D_742544044,299561721)),equals(D_742544044,419415087)),and(equals(D_921663542,484055234),equals(D_259481608,353358909)))),and(or(or(equals(D_742544044,716761013),equals(D_742544044,299561721)),equals(D_742544044,419415087)),and(equals(D_921663542,802197176),equals(D_259481608,353358909)))),1),equals(D_830608495,713594719))] How old were you when you stopped consuming cannabis edibles, drinks, or capsules every day?
+[D_238953261?,displayif=and(doesNotEqual(or(or(equals(D_742544044,804785430),and(or(or(equals(D_742544044,716761013),equals(D_742544044,299561721)),equals(D_742544044,419415087)),and(equals(D_921663542,484055234),equals(D_259481608,353358909)))),and(or(or(equals(D_742544044,716761013),equals(D_742544044,299561721)),equals(D_742544044,419415087)),and(equals(D_921663542,802197176),equals(D_259481608,353358909)))),1),equals(D_830608495,713594719))] How old were you when you stopped consuming cannabis edibles, drinks, or capsules <b>every day</b>?
 
-Age stopped consuming cannabis edibles, drinks, or capsules every day |__|__|min=valueOrDefault("D_622843252","D_908399883",0) ) max=_value("age")|
+Age stopped consuming cannabis edibles, drinks, or capsules every day |__|__|min=valueOrDefault("D_622843252","D_908399883",0) max=_value("age")|
 
 [D_517100968?,displayif=and(doesNotEqual(or(or(equals(D_742544044,804785430),and(or(or(equals(D_742544044,716761013),equals(D_742544044,299561721)),equals(D_742544044,419415087)),and(equals(D_921663542,484055234),equals(D_259481608,353358909)))),and(or(or(equals(D_742544044,716761013),equals(D_742544044,299561721)),equals(D_742544044,419415087)),and(equals(D_921663542,802197176),equals(D_259481608,353358909)))),1),equals(D_830608495,713594719))] When you were a daily consumer of cannabis edibles, drinks, or capsules, how many servings did you have <b>per day</b>?
 
@@ -1730,7 +1722,7 @@ On days that you consumed cannabis edibles, drinks, or capsules when you were ag
 
 The next questions are about dabbing THC concentrates (such as wax, shatter, or Rosin).
 
-How many days have you used <b>dabbed THC concentrates </b>in your life?
+How many days have you <b>dabbed THC concentrates </b>in your life?
 
 (151488193) 10 or less -> INTROALC
 (805449318) 11 to 49 -> INTROALC
@@ -1740,7 +1732,7 @@ How many days have you used <b>dabbed THC concentrates </b>in your life?
 
 [D_766791333?,displayif=equals(D_830608495,675129470)] How old were you when you <b>first</b> dabbed THC concentrates ?
 
-Age first used dabbed THC concentrates  |__|__|min=0 max=_value("age")|
+Age first dabbed THC concentrates  |__|__|min=0 max=_value("age")|
 
 [D_742254559?,displayif=equals(D_830608495,675129470)]
 How old were you when you started dabbing THC concentrates  on a |popup|regular basis|Informational Text|We understand that the meaning of 'regular basis' might be different for different people. When you answer this question, please think about what "regular basis" means to you.|?
@@ -1777,7 +1769,7 @@ Age started dabbing THC concentrates on a regular basis |__|__|id=D_185168695 mi
 
 Age when last dabbed THC concentrates |__|__|min=valueOrDefault("D_185168695","D_766791333",0) max=_value("age")|
 
-[D_536166591?,displayif=equals(D_830608495,675129470)] During the time you last dabbed THC concentrates, did you dab them <b>every day</b>?
+[D_536166591?,displayif=equals(D_830608495,675129470)] During the time you last dabbed THC concentrates, did you dab <b>every day</b>?
 
 (104430631) No -> D_119257304
 (353358909) Yes -> D_933417196
@@ -1803,7 +1795,7 @@ On days that you |displayif=doesNotExist("D_532755074") or valueEquals("D_532755
 
 |__|__|min=valueOrDefault("D_185168695","D_766791333",0) max=_value("age")|  Age stopped dabbing THC concentrates every day
 
-[D_585819411?,displayif=and(doesNotEqual(or(or(equals(D_420155119,804785430),and(or(or(equals(D_420155119,716761013),equals(D_420155119,299561721)),equals(D_420155119,419415087)),and(equals(D_532755074,484055234),equals(D_536166591,353358909)))),and(or(or(equals(D_420155119,716761013),equals(D_420155119,299561721)),equals(D_420155119,419415087)),and(equals(D_532755074,802197176),equals(D_536166591,353358909)))),1),equals(D_830608495,675129470))] When you were dabbing THC concentrates, how many servings did you have <b>per day</b>?
+[D_585819411?,displayif=and(doesNotEqual(or(or(equals(D_420155119,804785430),and(or(or(equals(D_420155119,716761013),equals(D_420155119,299561721)),equals(D_420155119,419415087)),and(equals(D_532755074,484055234),equals(D_536166591,353358909)))),and(or(or(equals(D_420155119,716761013),equals(D_420155119,299561721)),equals(D_420155119,419415087)),and(equals(D_532755074,802197176),equals(D_536166591,353358909)))),1),equals(D_830608495,675129470))] When you were dabbing THC concentrates daily, how many servings did you have <b>per day</b>?
 
 #Servings per day |__|__|__|id=D_810608313 min=1 max=999|
 
@@ -1993,7 +1985,7 @@ Over the <b>past 12 months</b>, how often did you usually drink <b>other alcohol
 (900343645) 5 servings
 (554549266) 6 or more servings
 
-[D_254739443?,displayif=valueEquals("D_429228540",132232896) and valueLength("D_141874857")>=1 and valueEquals("D_338467033",353358909)] Over the past 12 months, how often did you have |displayif=or(equals(D_407056417,536341288),equals(D_407056417,576796184))|4||displayif=equals(D_407056417,654207589)|5| or more alcoholic beverages at the same sitting or occasion? (One drink is equal to a 12-ounce beer, a 5-ounce glass of wine, one mixed drink, or a shot of liquor.)
+[D_254739443?,displayif=valueEquals("D_429228540",132232896) and valueLength("D_141874857")>=1 and valueEquals("D_338467033",353358909)] Over the past 12 months, how often did you have |displayif=equals(D_407056417,536341288)|4||displayif=equals(D_407056417,654207589)|5| or more alcoholic beverages at the same sitting or occasion? (One drink is equal to a 12-ounce beer, a 5-ounce glass of wine, one mixed drink, or a shot of liquor.)
 (648960871) Never
 (351028096) 1 to 5 times per year
 (690077051) 6 to 11 times per year
