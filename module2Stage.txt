@@ -29,7 +29,7 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Tue Feb 11 13:48:00 2025 -0500 (short timestamp = 2025-02-11-18-48-00)
+//This file was last modified on Thu Feb 13 09:30:36 2025 -0500 (short timestamp = 2025-02-13-14-30-36)
 //{"version":"2.3"}
 {"name":"D_745268907_V2"}
 [INTROM2] In this set of questions we ask about a few topics that affect your health. These topics include your current and past use of medications, your physical activity (including exercise), and your sleep habits.
@@ -1231,7 +1231,7 @@ Or, if it is easier to remember years, enter that here:
 
 
 [D_872509317?,displayif=valueIsOneOf("D_668834883",807835037) or valueLength("D_640559281")>0]
-How old were you when you first used |displayif=valueLength("D_640559281")>0|<b>{$D_640559281}</b>||displayif=valueLength("D_640559281")==0|the other type of estrogen-only medication|?
+How old were you when you first used |displayif=valueLength("D_640559281")>0|<b>{$D_640559281}</b>||displayif=valueLength("D_640559281")==0|other type of estrogen-only medication|?
 
 Age |__|__|min=0 max=_value("age")|
 <-> D_378921620>
@@ -1243,13 +1243,13 @@ Are you currently using |displayif=valueLength("D_640559281")>0|<b>{$D_640559281
 < #NR -> D_854078473 >
 
 [D_854078473?,displayif=valueIsOneOf("D_668834883",807835037) or valueLength("D_640559281")>0]
-How old were you when you <b>last</b> used |displayif=valueLength("D_640559281")>0|<b>{$D_640559281}</b>||displayif=valueLength("D_640559281")==0|the other type of estrogen-only medication|?
+How old were you when you <b>last</b> used |displayif=valueLength("D_640559281")>0|<b>{$D_640559281}</b>||displayif=valueLength("D_640559281")==0|other type of estrogen-only medication|?
 
 Age |__|__|min=0 max=_value("age")|
 < -> D_268372217 >
 
 [D_268372217?,displayif=valueIsOneOf("D_668834883",807835037) or valueLength("D_640559281")>0]
-In total, how many months OR years have you used |displayif=valueLength("D_640559281")>0|<b>{$D_640559281}</b>||displayif=valueLength("D_640559281")==0|the other type of estrogen-only medication|?
+In total, how many months OR years have you used |displayif=valueLength("D_640559281")>0|<b>{$D_640559281}</b>||displayif=valueLength("D_640559281")==0|other type of estrogen-only medication|?
 
 #Months |__|__|xor=ESTROHOR5_5 id=D_434243220 min=0 max=99|
 Or, if it is easier to remember years, enter that here:
@@ -1291,7 +1291,7 @@ Or, if it is easier to remember years, enter that here:
 
 
 [D_356969766?,displayif=valueIsOneOf("D_800943768",807835037) or valueLength("D_235516216")>0]
-How old were you when you <b>first</b> used |displayif=valueLength("D_235516216")>0|<b>{$D_235516216}</b>||displayif=valueLength("D_235516216")==0|the other progestin/progesterone-only medication|?
+How old were you when you <b>first</b> used |displayif=valueLength("D_235516216")>0|<b>{$D_235516216}</b>||displayif=valueLength("D_235516216")==0|other progestin/progesterone-only medication|?
 
 Age |__|__|min=0 max=_value("age")|
 < -> D_453820991 >
