@@ -29,7 +29,7 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Wed Feb 12 13:56:21 2025 -0500 (short timestamp = 2025-02-12-18-56-21)
+//This file was last modified on Fri Feb 14 12:43:16 2025 -0500 (short timestamp = 2025-02-14-17-43-16)
 
 //{"version":"4.0"}
 {"name":"D_726699695_V2"}
@@ -1297,7 +1297,7 @@ Is your biological mother still living?
 [178420302*] Don’t know
 
 
-[D_276353712?] |displayif=equals(D_170440011,353358909)|Has a doctor or other health professional ever said that your mother has or had any type of <b>cancer</b>?| |displayif=or(equals(D_170440011,104430631),or(equals(D_170440011,178420302),equals(D_170440011,undefined)))|Did a doctor or other health professional ever say that your mother had any type of <b>cancer</b>?|
+[D_276353712?] |displayif=equals(D_170440011,353358909)|Has||displayif=doesNotEqual(D_170440011,353358909)|Did| a doctor or other health professional ever |displayif=equals(D_170440011,353358909)|said||displayif=doesNotEqual(D_170440011,353358909)|say| that your mother |displayif=equals(D_170440011,353358909)|has or had||displayif=doesNotEqual(D_170440011,353358909)|had| any type of <b>cancer</b>? 
 (104430631) No -> D_367374606
 (353358909) Yes -> D_814510313
 (178420302) Don’t know -> D_367374606
@@ -1506,7 +1506,8 @@ Or, if it is easier to remember the year, enter that here:<br/>
 [178420302*] Don’t know
 
 
-[D_659784914?] |displayif=equals(D_367374606,353358909)|Has a doctor or other health professional ever said that your father has or had any type of <b>cancer</b>?||displayif=or(equals(D_367374606,104430631),or(equals(D_367374606,178420302),equals(D_367374606,undefined)))|Did a doctor or other health professional ever say that your father  had any type of <b>cancer</b>?|
+[D_659784914?] |displayif=equals(D_367374606,353358909)|Has||displayif=doesNotEqual(D_367374606,353358909)|Did| a doctor or other health professional ever |displayif=equals(D_367374606,353358909)|said||displayif=doesNotEqual(D_367374606,353358909)|say| that your father |displayif=equals(D_367374606,353358909)|has or had||displayif=doesNotEqual(D_367374606,353358909)|had| any type of <b>cancer</b>? 
+
 (104430631) No -> SIB
 (353358909) Yes -> D_173240848
 (178420302) Don’t know -> SIB
@@ -1732,7 +1733,8 @@ If this is <b>not</b> correct, please select the “Back” button to update you
 |__|__|__|id=D_478706011 min=0 max=125| Sibling’s age
 [178420302*] Don’t know
 
-[D_537137982?] How old was |displayif=equals(isNotDefined(D_406098499,false),false)|{$D_406098499}||displayif=doesNotEqual(isNotDefined(D_406098499,false),false)|your sibling| when |displayif=equals(D_579563781,654207589)|he||displayif=equals(D_579563781,536341288)|she||displayif=or(equals(D_579563781,178420302),equals(D_579563781,undefined))|they| died?</p>
+[D_537137982?] How old was |displayif=equals(isNotDefined(D_406098499,false),false)|{$D_406098499}||displayif=doesNotEqual(isNotDefined(D_406098499,false),false)|your sibling| when |displayif=equals(D_579563781,654207589)|he||displayif=equals(D_579563781,536341288)|she||displayif=and(doesNotEqual(D_579563781,654207589),doesNotEqual(D_579563781,536341288))|they| died?</p>
+
 |__|__|__|id=D_338020179 min=0 max=125| Sibling’s age
 [178420302*] Don’t know
 
@@ -1993,7 +1995,7 @@ If this is <b>not</b> correct, please select the “Back” button to update you
 [958239616*] Less than 1 year old
 [178420302*] Don’t know
 
-[D_236590500?] How old was |displayif=equals(isNotDefined(D_714001034,false),false)|{$D_714001034}||displayif=doesNotEqual(isNotDefined(D_714001034,false),false)|your child| when |displayif=equals(D_887697329,654207589)|he||displayif=equals(D_887697329,536341288)|she||displayif=or(equals(D_887697329,178420302),equals(D_887697329,undefined))|they| died?</p>
+[D_236590500?] How old was |displayif=equals(isNotDefined(D_714001034,false),false)|{$D_714001034}||displayif=doesNotEqual(isNotDefined(D_714001034,false),false)|your child| when |displayif=equals(D_887697329,654207589)|he||displayif=equals(D_887697329,536341288)|she||displayif=and(doesNotEqual(D_887697329,654207589),doesNotEqual(D_887697329,536341288))|they| died?</p>
 |__|__|id=D_182786508 min=1 max=125| Child’s age
 [958239616*] Less than 1 year old
 [178420302*] Don’t know
