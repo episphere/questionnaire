@@ -29,7 +29,7 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Thu Feb 13 11:09:35 2025 -0500 (short timestamp = 2025-02-13-16-09-35)
+//This file was last modified on Fri Feb 14 14:20:11 2025 -0500 (short timestamp = 2025-02-14-19-20-11)
 //{"version":"1.6"}
 {"name":"D_965707586"}
 [INTROM3] Las siguientes preguntas tratan sobre el consumo de tabaco, nicotina, cánnabis (marihuana) y bebidas alcohólicas. En la última sección, le preguntaremos sobre su exposición al sol y el uso de camas de bronceado.
@@ -1805,7 +1805,7 @@ Número de porciones al día  |__|__|__|id=D_810608313 min=1 max=999|
 // Same logic as CIGLIFEA-CIGLIFEH just with different variable names
 // 0-17
 [D_349510816?,displayif=(exists("D_185168695") and ((valueEquals("D_355689185",132232896) and valueEquals("D_420155119",804785430)) and (valueOrDefault("D_185168695",18)<=17 or valueOrDefault("age",18)<=17))) or (allExist("D_185168695","D_970325871") and ((valueEquals("D_355689185",132232896) and valueEquals("D_536166591",353358909)) and (valueOrDefault("D_185168695",18)<=17 or valueOrDefault("D_970325871",18)<=17)))]
-Los días en que hacía dabbing con concentrados de THC cuando tenía de |displayif=greaterThanOrEqual(isDefined(D_185168695,-1),0)|{$D_185168695}||displayif=lessThan(isDefined(D_185168695,-1),0)|0| a |displayif=and(and(equals(D_259481608,353358909),doesNotEqual(isDefined(D_700173707,-1),-1)),lessThan(isDefined(D_700173707,69),69))|{$D_700173707}||displayif=and(and(equals(D_259481608,353358909),doesNotEqual(isDefined(D_700173707,-1),-1)),greaterThanOrEqual(isDefined(D_700173707,69),69))|69||displayif=and(or(doesNotEqual(D_259481608,353358909),equals(isDefined(D_700173707,-1),-1)),lessThanOrEqual(age,69))|{$u:age}||displayif=and(or(doesNotEqual(D_259481608,353358909),equals(isDefined(D_700173707,-1),-1)),greaterThan(age,69))|69|, años de edad, ¿aproximadamente cuántas porciones consumía <b>al día</b>?
+Los días en que hacía dabbing con concentrados de THC cuando tenía de |displayif=greaterThanOrEqual(isDefined(D_185168695,-1),0)|{$D_185168695}||displayif=lessThan(isDefined(D_185168695,-1),0)|0| a |displayif=and(and(equals(D_259481608,353358909),doesNotEqual(isDefined(D_700173707,-1),-1)),lessThan(isDefined(D_700173707,17),17))|{$D_700173707}||displayif=and(and(equals(D_259481608,353358909),doesNotEqual(isDefined(D_700173707,-1),-1)),greaterThanOrEqual(isDefined(D_700173707,17),17))|17||displayif=and(or(doesNotEqual(D_259481608,353358909),equals(isDefined(D_700173707,-1),-1)),lessThanOrEqual(age,17))|{$u:age}||displayif=and(or(doesNotEqual(D_259481608,353358909),equals(isDefined(D_700173707,-1),-1)),greaterThan(age,17))|17|, años de edad, ¿aproximadamente cuántas porciones consumía <b>al día</b>?
 
 NÚM. DE PORCIONES AL DÍA   |__|__|min=0 max=99|
 
