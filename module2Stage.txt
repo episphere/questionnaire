@@ -29,7 +29,7 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Thu Feb 13 09:30:36 2025 -0500 (short timestamp = 2025-02-13-14-30-36)
+//This file was last modified on Fri Feb 14 14:09:21 2025 -0500 (short timestamp = 2025-02-14-19-09-21)
 //{"version":"2.3"}
 {"name":"D_745268907_V2"}
 [INTROM2] In this set of questions we ask about a few topics that affect your health. These topics include your current and past use of medications, your physical activity (including exercise), and your sleep habits.
@@ -1289,6 +1289,15 @@ In total, how many months OR years have you used oral progestin-only medication?
 Or, if it is easier to remember years, enter that here:
 #Years |__|__| xor=PROGHOR5_1 id=D_970604592 min=0 max=_value("age")|
 
+< -> D_563663099 >
+
+[D_563663099?,displayif=equals(D_800943768,687050279)]
+How many <b>days per cycle</b> did you use this oral progestin-only hormone?
+(862918284) Less than 10 days per month
+(275059825) 10 to 14 days per month
+(481217808) 15 to 19 days per month
+(565450397) 20 to 25 days per month
+(647504893) Every day
 
 [D_356969766?,displayif=valueIsOneOf("D_800943768",807835037) or valueLength("D_235516216")>0]
 How old were you when you <b>first</b> used |displayif=valueLength("D_235516216")>0|<b>{$D_235516216}</b>||displayif=valueLength("D_235516216")==0|other progestin/progesterone-only medication|?
@@ -1315,16 +1324,8 @@ In total, how many months OR years have you used |displayif=valueLength("D_23551
 Or, if it is easier to remember years, enter that here:
 #Years |__|__| xor=PROGHOR5_2 id= D_970604592 min=0 max=_value("age")|
 
-< -> D_563663099 >
-
-[D_563663099?,displayif=equals(D_800943768,687050279)]
-How many <b>days per cycle</b> did you use this oral progestin-only hormone?
-(862918284) Less than 10 days per month
-(275059825) 10 to 14 days per month
-(481217808) 15 to 19 days per month
-(565450397) 20 to 25 days per month
-(647504893) Every day
 < -> D_949663397 >
+
 
 [D_949663397?,displayif=valueIsOneOf("D_800943768",807835037) or valueLength("D_235516216")>0]
 How many <b>days per cycle</b> did you use this progestin/progesterone-only prescription hormone?
