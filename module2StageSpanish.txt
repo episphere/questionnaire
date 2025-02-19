@@ -1,20 +1,12 @@
-// This file was transformed using the mapping data in Quest-2025-01-15-16-17-00_Transformation.json.
+// This file was transformed using the mapping data in Quest-2025-02-11-14-26-03_Transformation.json.
 
-// JSON ERROR --> Concept ID collision for ID: 285545471 | there are unexpected collisions between Quest ID(s): [DRINKSWTR2A_SRC] and Concept(s): [In a usual week, about how often do you drink tap water from your home? We are interested in all tap water, whether or not it has been filtered or treated.]
-// JSON ERROR --> Concept ID collision for ID: 961178879 | there are unexpected collisions between Quest ID(s): [DRINKSWTR2B_SRC] and Concept(s): [In a usual week, about how often do you use tap water from your home to make a cup of coffee? We are interested in all tap water, whether or not it has been filtered or treated.]
-// JSON ERROR --> Concept ID collision for ID: 138116092 | there are unexpected collisions between Quest ID(s): [DRINKSWTR2C_SRC] and Concept(s): [In a usual week, about how often do you use tap water from your home to make a cup of hot tea? We are interested in all tap water, whether or not it has been filtered or treated.]
-// JSON ERROR --> Concept ID collision for ID: 393682471 | there are unexpected collisions between Quest ID(s): [DRINKSWTR2D_SRC] and Concept(s): [In a usual week, about how often do you use tap water from your home to make a glass of iced tea? We are interested in all tap water, whether or not it has been filtered or treated.]
-// JSON ERROR --> Concept ID collision for ID: 364303962 | there are unexpected collisions between Quest ID(s): [DRINKSWTR2E_SRC] and Concept(s): [In a usual week, about how often do you use tap water from your home to make any other beverages or soup? We are interested in all tap water, whether or not it has been filtered or treated.]
-// JSON ERROR --> Concept ID collision for ID: 944517297 | there are unexpected collisions between Quest ID(s): [DRINKSWTR2F_SRC] and Concept(s): [In a usual week, about how often do you use tap water from your home to make [insert response from DRINKSWTR1/other beverages]? We are interested in all tap water, whether or not it has been filtered or treated.]
+// JSON ERROR --> Concept ID collision for ID: 714365367 | there are unexpected collisions between Quest ID(s): [CHILDWTR1_SRC] and Concept(s): [What was the source of water to [insert address from CHILDADD1 - CHILDADD3/your childhood home]?]
+// JSON ERROR --> Concept ID collision for ID: 665593888 | there are unexpected collisions between Quest ID(s): [CHILDWTR2_SRC] and Concept(s): [What was the main source of water that you drank at [insert address from CHILDADD1 - CHILDADD3/your childhood home]? Please think about water used to make drinks.]
 // JSON ERROR --> Concept ID collision for ID: 784119588 | there are unexpected collisions between Quest ID(s): [SRVBLU_LANGUAGE_V1R0, SRVBOH_LANGUAGE_V1R0, SRVBUM_LANGUAGE_V1R0, SRVCOE_LANGUAGE_V1R0, SRVCOV_LANGUAGE_V1R0, SRVLAW_LANGUAGE_V1R0, SRVMC_LANGUAGE_V1R0, SRVMRE_LANGUAGE_V1R0, SRVMW_LANGUAGE_V1R0, SRVQOL_LANGUAGE_V1R0, SRVSAS_LANGUAGE_V1R0, SRVSCR_LANGUAGE_V1R0, SRVSSN_LANGUAGE_V1R0]
 // JSON ERROR --> Concept ID collision for ID: 431721131 | there are unexpected collisions between Quest ID(s): [QXAUTHOR1, SRVSCR_WHOCOMPLQX_V1R0]
 
-// JSON ERROR --> DRINKSWTR2A_SRC option DRINKSWTR2A conceptId 285545471 already maps to Quest code: DRINKSWTR2A_SRC | conceptId collision
-// JSON ERROR --> DRINKSWTR2B_SRC option DRINKSWTR2B conceptId 961178879 already maps to Quest code: DRINKSWTR2B_SRC | conceptId collision
-// JSON ERROR --> DRINKSWTR2C_SRC option DRINKSWTR2C conceptId 138116092 already maps to Quest code: DRINKSWTR2C_SRC | conceptId collision
-// JSON ERROR --> DRINKSWTR2D_SRC option DRINKSWTR2D conceptId 393682471 already maps to Quest code: DRINKSWTR2D_SRC | conceptId collision
-// JSON ERROR --> DRINKSWTR2E_SRC option DRINKSWTR2E conceptId 364303962 already maps to Quest code: DRINKSWTR2E_SRC | conceptId collision
-// JSON ERROR --> DRINKSWTR2F_SRC option DRINKSWTR2F conceptId 944517297 already maps to Quest code: DRINKSWTR2F_SRC | conceptId collision
+// JSON ERROR --> CHILDWTR1_SRC option CHILDWTR1 conceptId 714365367 already maps to Quest code: CHILDWTR1_SRC | conceptId collision
+// JSON ERROR --> CHILDWTR2_SRC option CHILDWTR2 conceptId 665593888 already maps to Quest code: CHILDWTR2_SRC | conceptId collision
 // JSON ERROR --> SRVCOE_LANGUAGE_V1R0 conceptId 784119588 already maps to Quest code: SRVBLU_LANGUAGE_V1R0 | conceptId collision
 // JSON ERROR --> SRVMRE_LANGUAGE_V1R0 conceptId 784119588 already maps to Quest code: SRVBLU_LANGUAGE_V1R0 | conceptId collision
 // JSON ERROR --> SRVSCR_LANGUAGE_V1R0 conceptId 784119588 already maps to Quest code: SRVBLU_LANGUAGE_V1R0 | conceptId collision
@@ -37,12 +29,12 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Tue Jan 28 16:39:45 2025 -0500 (short timestamp = 2025-01-28-21-39-45)
+//This file was last modified on Tue Feb 18 16:23:58 2025 -0500 (short timestamp = 2025-02-18-21-23-58)
 //{"version":"2.3"}
 {"name":"D_745268907_V2"}
 [INTROM2] Esta serie de preguntas trata sobre algunos temas que le afectan la salud, los cuales incluyen su consumo actual y pasado de medicamentos, su actividad física (incluso el ejercicio) y sus hábitos de sueño.
 
-|displayif=or(equals(D_407056417,536341288),and(equals(D_407056417,576796184),or(equals(D_750420077,578416151),equals(D_750420077,434651539))))|También le haremos algunas preguntas sobre su salud reproductiva. Estas preguntas se centrarán sobre todo en sus períodos menstruales, en los embarazos y en si ha usado algún medicamento hormonal.|
+|displayif=or(equals(D_407056417,536341288),or(equals(D_750420077,578416151),equals(D_750420077,434651539)))|También le haremos algunas preguntas sobre su salud reproductiva. Estas preguntas se centrarán sobre todo en sus períodos menstruales, en los embarazos y en si ha usado algún medicamento hormonal.|
 
 [SECTION1] <b>Medicamentos</b>
 
@@ -96,7 +88,7 @@ O
 [D_643807999?] ¿Por qué tomó aspirina (ácido acetilsalicílico) infantil u otra aspirina de dosis baja (de 81 mg o menos)? Seleccione todas las opciones que correspondan.
 [323106499] Artritis
 [769901710] Dolor de espalda
-[727773491,displayif=or(equals(D_407056417,576796184),equals(D_407056417,536341288))] Cólicos menstruales
+[727773491,displayif=valueIsOneOf("D_750420077",578416151,434651539) or valueEquals("D_407056417",536341288)] Cólicos menstruales
 [283652434] Prevención de enfermedades
 [243596698] Dolor de cabeza o migraña
 [853261835] Enfermedad, resfriado, gripe, fiebre
@@ -136,7 +128,7 @@ O
 [D_275143071?] ¿Por qué tomó aspirina ordinaria o de mayor concentración (<i>extra strength</i>)? Seleccione todas las opciones que correspondan.
 [323106499] Artritis
 [769901710] Dolor de espalda
-[727773491,displayif=or(equals(D_407056417,576796184),equals(D_407056417,536341288))] Cólicos menstruales
+[727773491,displayif=valueIsOneOf("D_750420077",578416151,434651539) or valueEquals("D_407056417",536341288)] Cólicos menstruales
 [283652434] Prevención de enfermedades
 [243596698] Dolor de cabeza o migraña
 [853261835] Enfermedad, resfriado, gripe, fiebre
@@ -176,7 +168,7 @@ O
 [D_152138929?] ¿Por qué tomó ibuprofeno? Seleccione todas las opciones que correspondan.
 [323106499] Artritis
 [769901710] Dolor de espalda
-[727773491,displayif=or(equals(D_407056417,576796184),equals(D_407056417,536341288))] Cólicos menstruales
+[727773491,displayif=valueIsOneOf("D_750420077",578416151,434651539) or valueEquals("D_407056417",536341288)] Cólicos menstruales
 [283652434] Prevención de enfermedades
 [243596698] Dolor de cabeza o migraña
 [853261835] Enfermedad, resfriado, gripe, fiebre
@@ -216,7 +208,7 @@ O
 [D_630231395?] ¿Por qué tomó paracetamol? Seleccione todas las opciones que correspondan.
 [323106499] Artritis
 [769901710] Dolor de espalda
-[727773491,displayif=or(equals(D_407056417,576796184),equals(D_407056417,536341288))] Cólicos menstruales
+[727773491,displayif=valueIsOneOf("D_750420077",578416151,434651539) or valueEquals("D_407056417",536341288)] Cólicos menstruales
 [283652434] Prevención de enfermedades
 [243596698] Dolor de cabeza o migraña
 [853261835] Enfermedad, resfriado, gripe, fiebre
@@ -256,7 +248,7 @@ O
 [D_655266993?] ¿Por qué tomó naproxeno? Seleccione todas las opciones que correspondan.
 [323106499] Artritis
 [769901710] Dolor de espalda
-[727773491,displayif=or(equals(D_407056417,576796184),equals(D_407056417,536341288))] Cólicos menstruales
+[727773491,displayif=valueIsOneOf("D_750420077",578416151,434651539) or valueEquals("D_407056417",536341288)] Cólicos menstruales
 [283652434] Prevención de enfermedades
 [243596698] Dolor de cabeza o migraña
 [853261835] Enfermedad, resfriado, gripe, fiebre
@@ -296,7 +288,7 @@ O
 [D_509383583?] ¿Por qué tomó Celebrex® (celecoxib)? Seleccione todas las opciones que correspondan.
 [323106499] Artritis
 [769901710] Dolor de espalda
-[727773491,displayif=or(equals(D_407056417,576796184),equals(D_407056417,536341288))] Cólicos menstruales
+[727773491,displayif=valueIsOneOf("D_750420077",578416151,434651539) or valueEquals("D_407056417",536341288)] Cólicos menstruales
 [283652434] Prevención de enfermedades
 [243596698] Dolor de cabeza o migraña
 [853261835] Enfermedad, resfriado, gripe, fiebre
@@ -336,7 +328,7 @@ O
 [D_887435355?] ¿Por qué tomó analgésicos de venta con receta que contienen opioides? Seleccione todas las opciones que correspondan.
 [323106499] Artritis
 [769901710] Dolor de espalda
-[727773491,displayif=or(equals(D_407056417,576796184),equals(D_407056417,536341288))] Cólicos menstruales
+[727773491,displayif=valueIsOneOf("D_750420077",578416151,434651539) or valueEquals("D_407056417",536341288)] Cólicos menstruales
 [283652434] Prevención de enfermedades
 [243596698] Dolor de cabeza o migraña
 [853261835] Enfermedad, resfriado, gripe, fiebre
@@ -601,21 +593,16 @@ O
 
 Las siguientes preguntas tratan sobre la salud reproductiva. No se olvide de que protegemos su privacidad. Eliminamos de sus respuestas al cuestionario la información que pueda identificarlo antes de dárselas a los investigadores.
 
-[INTRONONCISWOM,displayif=and(or(equals(D_407056417,654207589),equals(D_407056417,576796184)),or(or(or(or(equals(D_289664241,218837028),equals(D_289664241,873138103)),equals(D_289664241,805712793)),equals(D_289664241,486192236)),equals(D_289664241,807835037)))]Las siguientes preguntas tratan sobre su uso de hormonas.
-
-[D_798889867?,displayif=and(or(equals(D_407056417,654207589),equals(D_407056417,576796184)),or(or(or(or(equals(D_289664241,218837028),equals(D_289664241,873138103)),equals(D_289664241,805712793)),equals(D_289664241,486192236)),equals(D_289664241,807835037)))] ¿Ha usado alguna vez hormonas u otros medicamentos para que su cuerpo refleje mejor su sexo (por ejemplo, estrógenos o antagonistas de la testosterona)?
-(104430631) No
-(200323667) Sí, en el pasado usé hormonas u otros medicamentos para que mi cuerpo tuviera un aspecto más femenino
-(249673703) Sí, actualmente uso hormonas u otros medicamentos para que mi cuerpo tenga un aspecto más femenino
-
 // duplicating the start of Testosterone Therapy to do a skip instead of adding this displayif to every question in section 2
 // see squish issue #34 for why this was added
 // PTH - recoded SECTION2_SKIPPED to account for changes in the updated Quex, so all males are skipped to TESTTHER
-[SECTION2_SKIPPED,displayif=or(equals(D_407056417,654207589),and(equals(D_407056417,576796184),and(doesNotEqual(D_750420077,578416151),doesNotEqual(D_750420077,434651539))))]
+
+[SECTION2_SKIPPED,displayif=not (equals("D_407056417",536341288) or valueIsOneOf("D_750420077",578416151,434651539))]
+
 <b>Testosterona y otros tratamientos hormonales</b>
 < -> D_111235606 >
 
-[INTROWH,displayif=or(equals(D_407056417,536341288),and(equals(D_407056417,576796184),or(equals(D_750420077,434651539),equals(D_750420077,578416151))))]En esta sección, se le pregunta sobre sus antecedentes menstruales, embarazos pasados o actuales y el uso de medicamentos hormonales.
+[INTROWH,displayif=equals("D_407056417",536341288) or valueIsOneOf("D_750420077",578416151,434651539)]En esta sección, se le pregunta sobre sus antecedentes menstruales, embarazos pasados o actuales y el uso de medicamentos hormonales.
 
 Cuando le pidamos que nos diga una fecha, una edad o un número exacto, dé su mejor aproximación si no está seguro.
 
@@ -679,7 +666,7 @@ Para empezar, le haremos algunas preguntas sobre su primera menstruación y su p
 < -> PREG>
 
 [D_614145455?,displayif=doesNotEqual(D_496539718,648960871)] Elija la opción que mejor describa por qué <b>no</b> ha tenido una menstruación en los <b>últimos 12 meses</b>:
-(351584248,displayif=doesNotEqual(D_289664241,218837028)) Dejé de tener la menstruación porque empecé a tomar hormonas de reafirmación de género
+
 (582425113) Mis períodos cesaron de forma natural por la menopausia -> PREG 
 (330745988) Mis períodos cesaron porque empecé a tomar hormonas femeninas durante la transición menopáusica (perimenopausia) o la menopausia -> PREG 
 (909774794) Mis períodos cesaron después de una extirpación quirúrgica del útero o ambos ovarios -> D_534920374
@@ -1107,25 +1094,25 @@ O, si le es más fácil recordar en qué año, anótelo aquí:
 
 
 [D_583012139?]
-¿Cuántos años tenía <b>la primera vez</b> que usó <b>los otros medicamentos o dispositivos hormonales</b>?
+¿Cuántos años tenía <b>la primera vez</b> que usó <b>otros medicamentos o dispositivos hormonales</b>?
 
 |__|__|min=0 max=_value("age")| Edad 
 < -> D_991330361 >
 
 [D_991330361?]
-¿Usa actualmente los otros medicamentos o dispositivos hormonales?
+¿Usa actualmente otros medicamentos o dispositivos hormonales?
 (353358909) Sí -> D_139348254
 (104430631) No -> D_184692605
 < #NR -> D_184692605 >
 
 [D_184692605?]
-¿Cuántos años tenía <b>la última vez</b> que usó los otros medicamentos o dispositivos hormonales?
+¿Cuántos años tenía <b>la última vez</b> que usó otros medicamentos o dispositivos hormonales?
 
  |__|__|min=0 max=_value("age")| Edad 
 < -> D_139348254 >
 
 [D_139348254?]
-En total, ¿cuántos meses O años ha usado los otros medicamentos o dispositivos hormonales?
+En total, ¿cuántos meses O años ha usado otros medicamentos o dispositivos hormonales?
 
  |__|__|xor=HORMED5_9 id=D_434243220 min=0 max=99| Núm. de meses
 O, si le es más fácil recordar en qué año, anótelo aquí:
@@ -1253,25 +1240,25 @@ O, si le es más fácil recordar en qué año, anótelo aquí:
 
 
 [D_872509317?,displayif=valueIsOneOf("D_668834883",807835037) or valueLength("D_640559281")>0]
-¿Cuántos años tenía <b>la primera vez</b> que usó |displayif=valueLength("D_640559281")>0|<b>{$D_640559281}</b>||displayif=valueLength("D_640559281")==0|<b>el otro tipo de medicamento que contiene solo estrógeno</b>|?
+¿Cuántos años tenía <b>la primera vez</b> que usó |displayif=valueLength("D_640559281")>0|<b>{$D_640559281}</b>||displayif=valueLength("D_640559281")==0|<b>otro tipo de medicamento que contiene solo estrógeno</b>|?
 
 |__|__|min=0 max=_value("age")| Edad 
 <-> D_378921620>
 
 [D_378921620?,displayif=valueIsOneOf("D_668834883",807835037) or valueLength("D_640559281")>0]
-¿Usa actualmente |displayif=valueLength("D_640559281")>0|{$D_640559281}||displayif=valueLength("D_640559281")==0|el otro tipo de medicamento que contiene solo estrógeno|?
+¿Usa actualmente |displayif=valueLength("D_640559281")>0|{$D_640559281}||displayif=valueLength("D_640559281")==0|otro tipo de medicamento que contiene solo estrógeno|?
 (353358909) Sí -> D_268372217
 (104430631) No -> D_854078473
 < #NR -> D_854078473 >
 
 [D_854078473?,displayif=valueIsOneOf("D_668834883",807835037) or valueLength("D_640559281")>0]
-¿Cuántos años tenía <b>la última vez</b> que usó |displayif=valueLength("D_640559281")>0|{$D_640559281}||displayif=valueLength("D_640559281")==0|el otro tipo de medicamento que contiene solo estrógeno|?
+¿Cuántos años tenía <b>la última vez</b> que usó |displayif=valueLength("D_640559281")>0|{$D_640559281}||displayif=valueLength("D_640559281")==0|otro tipo de medicamento que contiene solo estrógeno|?
 
 |__|__|min=0 max=_value("age")| Edad 
 < -> D_268372217 >
 
 [D_268372217?,displayif=valueIsOneOf("D_668834883",807835037) or valueLength("D_640559281")>0]
-En total, ¿cuántos meses O años ha usado |displayif=valueLength("D_640559281")>0|{$D_640559281}||displayif=valueLength("D_640559281")==0|el otro tipo de medicamento que contiene solo estrógeno|?
+En total, ¿cuántos meses O años ha usado |displayif=valueLength("D_640559281")>0|{$D_640559281}||displayif=valueLength("D_640559281")==0|otro tipo de medicamento que contiene solo estrógeno|?
 
  |__|__|xor=ESTROHOR5_5 id=D_434243220 min=0 max=99| Núm. de meses
 O, si le es más fácil recordar en qué año, anótelo aquí:
@@ -1310,32 +1297,6 @@ En total, ¿cuántos meses O años ha usado medicamento oral que contiene solo g
 O, si le es más fácil recordar en qué año, anótelo aquí:
  |__|__| xor=PROGHOR5_1 id=D_970604592 min=0 max=_value("age")| Núm. de años
 
-
-[D_356969766?,displayif=valueIsOneOf("D_800943768",807835037) or valueLength("D_235516216")>0]
-¿Cuántos años tenía <b>la primera vez</b> que usó |displayif=valueLength("D_235516216")>0|<b>{$D_235516216}</b>||displayif=valueLength("D_235516216")==0|<b>el otro medicamento que contiene solo gestágeno o progesterona </b>|?
-
- |__|__|min=0 max=_value("age")| Edad 
-< -> D_453820991 >
-
-[D_453820991?,displayif=valueIsOneOf("D_800943768",807835037) or valueLength("D_235516216")>0]
-¿Usa actualmente |displayif=valueLength("D_235516216")>0|{$D_235516216}||displayif=valueLength("D_235516216")==0|el otro medicamento solo con progesterona/gestágeno|?
-(353358909) Sí -> D_597869478
-(104430631) No -> D_111271067
-< #NR -> D_111271067 >
-
-[D_111271067?,displayif=valueIsOneOf("D_800943768",807835037) or valueLength("D_235516216")>0]
-¿Cuántos años tenía <b>la última vez</b> que usó |displayif=valueLength("D_235516216")>0|{$D_235516216}||displayif=valueLength("D_235516216")==0|el otro medicamento solo con progesterona/gestágeno|?
-
-|__|__|min=0 max=_value("age")| Edad 
-< -> D_597869478 >
-
-[D_597869478?,displayif=valueIsOneOf("D_800943768",807835037) or valueLength("D_235516216")>0]
-En total, ¿cuántos meses O años ha usado |displayif=valueLength("D_235516216")>0|{$D_235516216}||displayif=valueLength("D_235516216")==0|el otro medicamento solo con progesterona/gestágeno|?
-
- |__|__|xor=PROGHOR5_2 id=D_434243220 min=0 max=99| Núm. de meses
-O, si le es más fácil recordar en qué año, anótelo aquí:
- |__|__| xor=PROGHOR5_2 id= D_970604592 min=0 max=_value("age")| Núm. de años
-
 < -> D_563663099 >
 
 [D_563663099?,displayif=equals(D_800943768,687050279)]
@@ -1345,6 +1306,33 @@ O, si le es más fácil recordar en qué año, anótelo aquí:
 (481217808) De 15 a 19 días al mes
 (565450397) De 20 a 25 días al mes
 (647504893) Todos los días
+
+[D_356969766?,displayif=valueIsOneOf("D_800943768",807835037) or valueLength("D_235516216")>0]
+¿Cuántos años tenía <b>la primera vez</b> que usó |displayif=valueLength("D_235516216")>0|<b>{$D_235516216}</b>||displayif=valueLength("D_235516216")==0|<b>otro medicamento que contiene solo gestágeno o progesterona </b>|?
+
+ |__|__|min=0 max=_value("age")| Edad 
+< -> D_453820991 >
+
+[D_453820991?,displayif=valueIsOneOf("D_800943768",807835037) or valueLength("D_235516216")>0]
+¿Usa actualmente |displayif=valueLength("D_235516216")>0|{$D_235516216}||displayif=valueLength("D_235516216")==0|otro medicamento que contiene solo gestágeno o progesterona|?
+(353358909) Sí -> D_597869478
+(104430631) No -> D_111271067
+< #NR -> D_111271067 >
+
+[D_111271067?,displayif=valueIsOneOf("D_800943768",807835037) or valueLength("D_235516216")>0]
+¿Cuántos años tenía <b>la última vez</b> que usó |displayif=valueLength("D_235516216")>0|{$D_235516216}||displayif=valueLength("D_235516216")==0|otro medicamento que contiene solo gestágeno o progesterona|?
+
+|__|__|min=0 max=_value("age")| Edad 
+< -> D_597869478 >
+
+[D_597869478?,displayif=valueIsOneOf("D_800943768",807835037) or valueLength("D_235516216")>0]
+En total, ¿cuántos meses O años ha usado |displayif=valueLength("D_235516216")>0|{$D_235516216}||displayif=valueLength("D_235516216")==0|otro medicamento que contiene solo gestágeno o progesterona|?
+
+ |__|__|xor=PROGHOR5_2 id=D_434243220 min=0 max=99| Núm. de meses
+O, si le es más fácil recordar en qué año, anótelo aquí:
+ |__|__| xor=PROGHOR5_2 id= D_970604592 min=0 max=_value("age")| Núm. de años
+
+
 < -> D_949663397 >
 
 [D_949663397?,displayif=valueIsOneOf("D_800943768",807835037) or valueLength("D_235516216")>0]
@@ -1414,25 +1402,25 @@ O, si le es más fácil recordar en qué año, anótelo aquí:
 
 
 [D_219538082?,displayif=valueIsOneOf("D_263785082",807835037) or valueLength("D_542108835")>0]
-¿Cuántos años tenía <b>la primera vez</b> que usó |displayif=valueLength("D_542108835")>0|<b>{$D_542108835}</b>||displayif=valueLength("D_542108835")==0|<b>la otra hormona mixta recetada que contiene estrógeno y gestágeno</b>|?
+¿Cuántos años tenía <b>la primera vez</b> que usó |displayif=valueLength("D_542108835")>0|<b>{$D_542108835}</b>||displayif=valueLength("D_542108835")==0|<b>otra hormona mixta recetada que contiene estrógeno y gestágeno</b>|?
 
 |__|__|min=0 max=_value("age")| Edad 
 < -> D_583111732>
 
 [D_583111732?,displayif=valueIsOneOf("D_263785082",807835037) or valueLength("D_542108835")>0]
-¿Usa actualmente |displayif=valueLength("D_542108835")>0|{$D_542108835}||displayif=valueLength("D_542108835")==0|el otro medicamento hormonal mixto con estrógeno y gestágeno con receta médica|?
+¿Usa actualmente |displayif=valueLength("D_542108835")>0|{$D_542108835}||displayif=valueLength("D_542108835")==0|otra hormona mixta recetada que contiene estrógeno y gestágeno|?
 (353358909) Sí -> D_824251330
 (104430631) No -> D_603209609
 < #NR -> D_603209609 >
 
 [D_603209609?,displayif=valueIsOneOf("D_263785082",807835037) or valueLength("D_542108835")>0]
-¿Cuántos años tenía <b>la última vez</b> que usó |displayif=valueLength("D_542108835")>0|{$D_542108835}||displayif=valueLength("D_542108835")==0|el otro medicamento hormonal mixto con estrógeno y gestágeno con receta médica|?
+¿Cuántos años tenía <b>la última vez</b> que usó |displayif=valueLength("D_542108835")>0|{$D_542108835}||displayif=valueLength("D_542108835")==0|otra hormona mixta recetada que contiene estrógeno y gestágeno|?
 
  |__|__|min=0 max=_value("age")| Edad 
 < -> D_824251330>
 
 [D_824251330?,displayif=valueIsOneOf("D_263785082",807835037) or valueLength("D_542108835")>0]
-En total, ¿cuántos meses O años ha usado |displayif=valueLength("D_542108835")>0|{$D_542108835}||displayif=valueLength("D_542108835")==0|el otro medicamento hormonal mixto con estrógeno y gestágeno con receta médica|?
+En total, ¿cuántos meses O años ha usado |displayif=valueLength("D_542108835")>0|{$D_542108835}||displayif=valueLength("D_542108835")==0|otra hormona mixta recetada que contiene estrógeno y gestágeno|?
 
  |__|__|xor=COMBHOR5_3 id=D_434243220 min=0 max=99| Núm. de meses
 O, si le es más fácil recordar en qué año, anótelo aquí:
@@ -1524,19 +1512,19 @@ O, si le es más fácil recordar en qué año, anótelo aquí:
 < -> D_466727144 >
 
 [D_466727144?]
-¿Usa actualmente |displayif=doesNotEqual(D_557526470,"")|{$D_557526470}||displayif=doesNotExist("D_557526470")|el otro tipo de medicamento hormonal|?
+¿Usa actualmente |displayif=doesNotEqual(D_557526470,"")|{$D_557526470}||displayif=doesNotExist("D_557526470")|el otro tipo de hormona con receta|?
 (353358909) Sí -> D_305195766
 (104430631) No -> D_307736999
 
 
 [D_307736999?]
-¿Cuántos años tenía <b>la última vez</b> que usó |displayif=doesNotEqual(D_557526470,"")|{$D_557526470}||displayif=doesNotExist("D_557526470")|el otro tipo de medicamento hormonal|?
+¿Cuántos años tenía <b>la última vez</b> que usó |displayif=doesNotEqual(D_557526470,"")|{$D_557526470}||displayif=doesNotExist("D_557526470")|el otro tipo de hormona con receta|?
 
  |__|__|min=0 max=_value("age")| Edad 
 < -> WORKACT>
 
 [D_305195766?]
-En total, ¿cuántos meses O años ha usado |displayif=doesNotEqual(D_557526470,"")|{$D_557526470}||displayif=doesNotExist("D_557526470")|el otro tipo de medicamento hormonal|?
+En total, ¿cuántos meses O años ha usado |displayif=doesNotEqual(D_557526470,"")|{$D_557526470}||displayif=doesNotExist("D_557526470")|el otro tipo de hormona con receta|?
 
 |__|__|xor=PRESHOR6 id=D_434243220 min=0 max=99| Núm. de meses 
 O, si le es más fácil recordar en qué año, anótelo aquí:
@@ -2118,7 +2106,7 @@ Durante <b>los últimos 12 meses</b>, ¿hizo alguno de los siguientes ejercicios
 
 Por último, le haremos algunas preguntas sobre el sueño, incluso sobre su horario habitual de sueño y sus hábitos de sueño.
 
-|displayif=or(equals(D_407056417,536341288),and(equals(D_407056417,576796184),or(equals(D_750420077,578416151),equals(D_750420077,434651539))))|Si está embarazada actualmente o lo estuvo el año pasado, responda a las siguientes preguntas con información del tiempo <b>anterior a que estuviera embarazada.</b>|
+|displayif=valueIsOneOf("D_750420077",578416151,434651539) or valueEquals("D_407056417",536341288)|Si está embarazada actualmente o lo estuvo el año pasado, responda a las siguientes preguntas con información del tiempo <b>anterior a que estuviera embarazada.</b>|
 
 [D_591723682?]<b>Horario de sueño</b>
 
