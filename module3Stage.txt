@@ -1260,7 +1260,7 @@ On days that you smoked cannabis when you were age |displayif=greaterThanOrEqual
 
 [D_524914900?,displayif=equals(D_830608495,158841370)]<b>Smoking a Combination of Cannabis with Tobacco (Including Blunts or Spliffs)</b>
 
-Next we have some questions about your use of a combination of cannabis with tobacco (including blunts or spliffs).
+Next, we have some questions about your use of a combination of cannabis with tobacco (including blunts or spliffs).
 
 How many <b>cannabis products with tobacco</b> have you smoked in your life?
 
