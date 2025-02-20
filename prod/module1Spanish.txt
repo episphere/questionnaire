@@ -1,12 +1,16 @@
-// This file was transformed using the mapping data in Quest-2024-07-18-14-25-23_Transformation.json.
+// This file was transformed using the mapping data in Quest-2025-02-11-14-26-03_Transformation.json.
 
-// JSON ERROR --> Concept ID collision for ID: 784119588 | there are collisions between Quest ID(s): [SRVBLU_LANGUAGE_V1R0, SRVCOV_LANGUAGE_V1R0, SRVLAW_LANGUAGE_V1R0, SRVMC_LANGUAGE_V1R0, SRVMW_LANGUAGE_V1R0, SRVSSN_LANGUAGE_V1R0]
+// JSON ERROR --> Concept ID collision for ID: 714365367 | there are unexpected collisions between Quest ID(s): [CHILDWTR1_SRC] and Concept(s): [What was the source of water to [insert address from CHILDADD1 - CHILDADD3/your childhood home]?]
+// JSON ERROR --> Concept ID collision for ID: 665593888 | there are unexpected collisions between Quest ID(s): [CHILDWTR2_SRC] and Concept(s): [What was the main source of water that you drank at [insert address from CHILDADD1 - CHILDADD3/your childhood home]? Please think about water used to make drinks.]
+// JSON ERROR --> Concept ID collision for ID: 784119588 | there are unexpected collisions between Quest ID(s): [SRVBLU_LANGUAGE_V1R0, SRVBOH_LANGUAGE_V1R0, SRVBUM_LANGUAGE_V1R0, SRVCOE_LANGUAGE_V1R0, SRVCOV_LANGUAGE_V1R0, SRVLAW_LANGUAGE_V1R0, SRVMC_LANGUAGE_V1R0, SRVMRE_LANGUAGE_V1R0, SRVMW_LANGUAGE_V1R0, SRVQOL_LANGUAGE_V1R0, SRVSAS_LANGUAGE_V1R0, SRVSCR_LANGUAGE_V1R0, SRVSSN_LANGUAGE_V1R0]
+// JSON ERROR --> Concept ID collision for ID: 431721131 | there are unexpected collisions between Quest ID(s): [QXAUTHOR1, SRVSCR_WHOCOMPLQX_V1R0]
 
-// JSON ERROR --> SRVCOV_LANGUAGE_V1R0 conceptId 784119588 already maps to Quest code: SRVBLU_LANGUAGE_V1R0 | conceptId collision
-// JSON ERROR --> SRVLAW_LANGUAGE_V1R0 conceptId 784119588 already maps to Quest code: SRVBLU_LANGUAGE_V1R0 | conceptId collision
-// JSON ERROR --> SRVMC_LANGUAGE_V1R0 conceptId 784119588 already maps to Quest code: SRVBLU_LANGUAGE_V1R0 | conceptId collision
-// JSON ERROR --> SRVMW_LANGUAGE_V1R0 conceptId 784119588 already maps to Quest code: SRVBLU_LANGUAGE_V1R0 | conceptId collision
-// JSON ERROR --> SRVSSN_LANGUAGE_V1R0 conceptId 784119588 already maps to Quest code: SRVBLU_LANGUAGE_V1R0 | conceptId collision
+// JSON ERROR --> CHILDWTR1_SRC option CHILDWTR1 conceptId 714365367 already maps to Quest code: CHILDWTR1_SRC | conceptId collision
+// JSON ERROR --> CHILDWTR2_SRC option CHILDWTR2 conceptId 665593888 already maps to Quest code: CHILDWTR2_SRC | conceptId collision
+// JSON ERROR --> SRVCOE_LANGUAGE_V1R0 conceptId 784119588 already maps to Quest code: SRVBLU_LANGUAGE_V1R0 | conceptId collision
+// JSON ERROR --> SRVMRE_LANGUAGE_V1R0 conceptId 784119588 already maps to Quest code: SRVBLU_LANGUAGE_V1R0 | conceptId collision
+// JSON ERROR --> SRVSCR_LANGUAGE_V1R0 conceptId 784119588 already maps to Quest code: SRVBLU_LANGUAGE_V1R0 | conceptId collision
+// JSON ERROR --> SRVSCR_WHOCOMPLQX_V1R0 conceptId 431721131 already maps to Quest code: QXAUTHOR1 | conceptId collision
 
 // JSON WARNING --> Concept ID 101310722 with concept "# Pills per day" is shared between these Textbox codes: [ACIDSUP3_1A, ACIDSUP3_2A, ACIDSUP3_3A, CHOLHTN3_1A, CHOLHTN3_2A, INSULIN3_1A, METFOR3_1A, PAINREL3_1A, PAINREL3_2A, PAINREL3_3A, PAINREL3_4A, PAINREL3_5A, PAINREL3_6A, PAINREL3_7A]
 // JSON WARNING --> Concept ID 206625031 with concept "Age at diagnosis" is shared between these Textbox codes: [ANEMIA_AGE, ARRHYT_AGE, ASTHMA_AGE, BARESO_AGE, BLOODCLOT_AGE, BREASTDIS_AGE, CCD_AGE, CD_AGE, CHESTPAIN_AGE, CHF_AGE, CHILDCANC3A_AGE, CHILDCANC3B_AGE, CHILDCANC3C_AGE, CHILDCANC3D_AGE, CHILDCANC3E_AGE, CHILDCANC3F_AGE, CHILDCANC3G_AGE, CHILDCANC3H_AGE, CHILDCANC3I_AGE, CHILDCANC3J_AGE, CHILDCANC3K_AGE, CHILDCANC3L_AGE, CHILDCANC3M_AGE, CHILDCANC3N_AGE, CHILDCANC3O_AGE, CHILDCANC3P_AGE, CHILDCANC3Q_AGE, CHILDCANC3R_AGE, CHILDCANC3S_AGE, CHILDCANC3T_AGE, CHILDCANC3U_AGE, CHILDCANC3V_AGE, CHILDCANC3W_AGE, CHILDCANC3X_AGE, CHILDCANC3Y_AGE, CHLA_AGE, CHOL_AGE, CKD_AGE, COPD_AGE, CVD_AGE, DADCANC3A_AGE, DADCANC3B_AGE, DADCANC3C_AGE, DADCANC3D_AGE, DADCANC3E_AGE, DADCANC3F_AGE, DADCANC3G_AGE, DADCANC3H_AGE, DADCANC3I_AGE, DADCANC3J_AGE, DADCANC3K_AGE, DADCANC3L_AGE, DADCANC3M_AGE, DADCANC3N_AGE, DADCANC3O_AGE, DADCANC3P_AGE, DADCANC3Q_AGE, DADCANC3R_AGE, DADCANC3S_AGE, DADCANC3T_AGE, DADCANC3U_AGE, DADCANC3V_AGE, DCIS_AGE, DEPRESS2_AGE, DIVERT_AGE, DM2_AGE, ENDO_AGE, ENLGPROS_AGE, GALL_AGE, GENWARTS_AGE, GERD_AGE, GONORR_AGE, GOUT_AGE, GRAVES_AGE, HAYFEVER_AGE, HBVHCV_AGE, HEARTATT_AGE, HEARTVALV_AGE, HIVAIDS_AGE, HPV_AGE, HTN_AGE, IBD_AGE, IBS_AGE, KIDNEY_AGE, LIVCIRR_AGE, LUPUS_AGE, MOMCANC3A_AGE, MOMCANC3B_AGE, MOMCANC3C_AGE, MOMCANC3D_AGE, MOMCANC3E_AGE, MOMCANC3F_AGE, MOMCANC3G_AGE, MOMCANC3H_AGE, MOMCANC3I_AGE, MOMCANC3J_AGE, MOMCANC3K_AGE, MOMCANC3L_AGE, MOMCANC3M_AGE, MOMCANC3N_AGE, MOMCANC3O_AGE, MOMCANC3P_AGE, MOMCANC3Q_AGE, MOMCANC3R_AGE, MOMCANC3S_AGE, MOMCANC3T_AGE, MOMCANC3U_AGE, MOMCANC3V_AGE, MOMCANC3W_AGE, MONO_AGE, PANCREA_AGE, PCOS_AGE, RA_AGE, SHINGLES_AGE, SIBCANC3A_AGE, SIBCANC3B_AGE, SIBCANC3C_AGE, SIBCANC3D_AGE, SIBCANC3E_AGE, SIBCANC3F_AGE, SIBCANC3G_AGE, SIBCANC3H_AGE, SIBCANC3I_AGE, SIBCANC3J_AGE, SIBCANC3K_AGE, SIBCANC3L_AGE, SIBCANC3M_AGE, SIBCANC3N_AGE, SIBCANC3O_AGE, SIBCANC3P_AGE, SIBCANC3Q_AGE, SIBCANC3R_AGE, SIBCANC3S_AGE, SIBCANC3T_AGE, SIBCANC3U_AGE, SIBCANC3V_AGE, SIBCANC3W_AGE, SIBCANC3X_AGE, SIBCANC3Y_AGE, SKINCANC3_AGE, STROKE_AGE, SYPH_AGE, THYROID_AGE, TRICH_AGE, UC_AGE, UF_AGE]
@@ -14,21 +18,23 @@
 // JSON WARNING --> Concept ID 314198277 with concept "Last spent time at this address, year" is shared between these Textbox codes: [SEASADDYRS2_10_YEAR, SEASADDYRS2_1_YEAR, SEASADDYRS2_2_YEAR, SEASADDYRS2_3_YEAR, SEASADDYRS2_4_YEAR, SEASADDYRS2_5_YEAR, SEASADDYRS2_6_YEAR, SEASADDYRS2_7_YEAR, SEASADDYRS2_8_YEAR, SEASADDYRS2_9_YEAR]
 // JSON WARNING --> Concept ID 434243220 with concept "Months used" is shared between these Textbox codes: [ANYCOMESTMONTH, COMBINEDMONTH, COPIUDMONTH, DEPROPROVMONTH, ESTOTHERMONTH, ESTSKINMONTH, HORCOMPILLMONTH, HORIUDMONTH, HORMEDOTHERMONTH, HORMEDPATCHMONTH, HORMEDRINGMONTH, MINIPILLMONTH, NORPLANTMONTH, ORALESTMONTH, ORALMEDMONTH, PATCHESTMONTH, PRESHOR2MONTH, PROESTMONTH, RINGMONTH, TWOPILLMONTH]
 // JSON WARNING --> Concept ID 451310566 with concept "Months at address" is shared between these Textbox codes: [MONTHADD1, MONTHADD10, MONTHADD2, MONTHADD3, MONTHADD4, MONTHADD5, MONTHADD6, MONTHADD7, MONTHADD8, MONTHADD9]
-// JSON WARNING --> Concept ID 623218391 with concept "Age at surgery" is shared between these Textbox codes: [APPEND_AGE, BARSUR_AGE, BREASTABSS_AGE, BREASTDBLREM_AGE, BREASTIMPLANTS_AGE, BREASTLACTREM_AGE, BREASTLIFT_AGE, BREASTOTH_AGE, BREASTPARTREM_AGE, BREASTRECON_AGE, BREASTREDN_AGE, BREASTREM_AGE, FTREM2_AGE, GALLREM_AGE, HYSTER_AGE, LIPOSUCT_AGE, OVARYREM2_AGE, PENREM_AGE, PROSREM2_AGE, TESTREM2_AGE, TONSILS_AGE, TUBLIG_AGE, VASEC_AGE]
+// JSON WARNING --> Concept ID 623218391 with concept "Age at surgery" is shared between these Textbox codes: [APPEND_AGE, BARSUR_AGE, BREASTABSS_AGE, BREASTDBLREM_AGE, BREASTIMPLANTS_AGE, BREASTLACTREM_AGE, BREASTLIFT_AGE, BREASTOTH_AGE, BREASTPARTREM_AGE, BREASTRECON_AGE, BREASTREDN_AGE, BREASTREM_AGE, FTREM2_AGE, GALLREM_AGE, HYSTER_AGE, KIDREM2_AGE, LIPOSUCT_AGE, OVARYREM2_AGE, PENREM_AGE, PROSREM2_AGE, SPLEENREM_AGE, SRVSCR_APPENDECAGE_V1R1, SRVSCR_BARSURGAGE_V1R1, SRVSCR_BREASTABSCAGE_V1R1, SRVSCR_BREASTDBLREMAGE_V1R1, SRVSCR_BREASTIMPLAGE_V1R1, SRVSCR_BREASTLACREMAGE_V1R1, SRVSCR_BREASTLIFTAGE_V1R1, SRVSCR_BREASTOTHAGE_V1R1, SRVSCR_BREASTPTREMAGE_V1R1, SRVSCR_BREASTRECONAGE_V1R1, SRVSCR_BREASTREDAGE_V1R1, SRVSCR_BREASTREMAGE_V1R1, SRVSCR_CHOLECAGE_V1R1, SRVSCR_FSTSURGDBLREMAGE_V1R0, SRVSCR_HYSTERAGE_V1R1, SRVSCR_LIPOSUCTAGE_V1R1, SRVSCR_NEPHRECTOMYAGE_V1R0, SRVSCR_OOPHORECAGE_V1R1, SRVSCR_PENREMAGE_V1R1, SRVSCR_PROSREMSURGAGE_V1R1, SRVSCR_SALPINGECAGE_V1R1, SRVSCR_SECSURGDBLREMAGE_V1R0, SRVSCR_SPLENECTOMYAGE_V1R0, SRVSCR_TESTREMSURGAGE_V1R1, SRVSCR_THYROIDECTOMYAGE_V1R0, SRVSCR_TONSILSAGE_V1R1, SRVSCR_TUBLIGAGE_V1R1, SRVSCR_VASECTOMYAGE_V1R1, TESTREM2_AGE, THYRDREM_AGE, TONSILS_AGE, TUBLIG_AGE, VASEC_AGE]
 // JSON WARNING --> Concept ID 707805344 with concept "# of Hours" is shared between these Textbox codes: [FALLASLEEPHOURS, LAYINBEDHRS, NONWORKAWAKEBEFOREUPHOURS, NONWORKFALLASLEEPHOURS, OUTSIDEHOURS, WORKDAYOUTSIDEHOURS]
 // JSON WARNING --> Concept ID 765748316 with concept "Days per week" is shared between these Textbox codes: [ACETWEEK, ACIDSUP2_1WK, ACIDSUP2_2WK, ACIDSUP2_3WK, BABYASPRINWEEK, CELECOXIBWEEK, CHOLHTN2_1WK, CHOLHTN2_2WK, IBUPROFENWEEK, INSULIN2_1WK, METFOR2_1WK, NAPROXENWEEK, PAINRELWEEK, REGASPRINWEEK]
 // JSON WARNING --> Concept ID 785412329 with concept "Days per month" is shared between these Textbox codes: [ACETMONTH, ACIDSUP2_1MO, ACIDSUP2_2MO, ACIDSUP2_3MO, BABYASPRINMONTH, CELECOXIBMONTH, CHOLHTN2_1MO, CHOLHTN2_2MO, IBUPROFENMONTH, INSULIN2_1MO, METFOR2_1MO, NAPROXENMONTH, PAINRELMONTH, REGASPRINMONTH]
-// JSON WARNING --> Concept ID 802622485 with concept "Year at surgery" is shared between these Textbox codes: [APPEND_YEAR, BARSUR_YEAR, BREASTABSS_YEAR, BREASTDBLREM_YEAR, BREASTIMPLANTS_YEAR, BREASTLACTREM_YEAR, BREASTLIFT_YEAR, BREASTOTH_YEAR, BREASTPARTREM_YEAR, BREASTRECON_YEAR, BREASTREDN_YEAR, BREASTREM_YEAR, FTREM2_YEAR, GALLREM_YEAR, HYSTER_YEAR, LIPOSUCT_YEAR, OVARYREM2_YEAR, PENREM_YEAR, PROSREM2_YEAR, TESTREM2_YEAR, TONSILS_YEAR, TUBLIG_YEAR, VASEC_YEAR]
+// JSON WARNING --> Concept ID 802622485 with concept "Year of surgery" is shared between these Textbox codes: [APPEND_YEAR, BARSUR_YEAR, BREASTABSS_YEAR, BREASTDBLREM_YEAR, BREASTIMPLANTS_YEAR, BREASTLACTREM_YEAR, BREASTLIFT_YEAR, BREASTOTH_YEAR, BREASTPARTREM_YEAR, BREASTRECON_YEAR, BREASTREDN_YEAR, BREASTREM_YEAR, FTREM2_YEAR, GALLREM_YEAR, HYSTER_YEAR, KIDREM2_YEAR, LIPOSUCT_YEAR, OVARYREM2_YEAR, PENREM_YEAR, PROSREM2_YEAR, SPLEENREM_YEAR, SRVSCR_APPENDECYEAR_V1R0, SRVSCR_BARSURGYEAR_V1R0, SRVSCR_BREASTABSCYR_V1R0, SRVSCR_BREASTDBLREMYR_V1R0, SRVSCR_BREASTIMPLYR_V1R0, SRVSCR_BREASTLACREMYR_V1R0, SRVSCR_BREASTLIFTYR_V1R0, SRVSCR_BREASTOTHYR_V1R0, SRVSCR_BREASTPTREMYR_V1R0, SRVSCR_BREASTRECONYR_V1R0, SRVSCR_BREASTREDYR_V1R0, SRVSCR_BREASTREMYR_V1R0, SRVSCR_CHOLECYEAR_V1R0, SRVSCR_FSTSURGDBLREMYR_V1R0, SRVSCR_HYSTYEAR_V1R0, SRVSCR_LIPOSUCTYEAR_V1R0, SRVSCR_NEPHRECTOMYYR_V1R0, SRVSCR_OOPHORECYR_V1R0, SRVSCR_PENREMYEAR_V1R0, SRVSCR_PROSREMSURGYR_V1R0, SRVSCR_SALPINGECYR_V1R0, SRVSCR_SECSURGDBLREMYR_V1R0, SRVSCR_SPLENECTOMYYR_V1R0, SRVSCR_TESTREMSURGYR_V1R0, SRVSCR_THYROIDECTOMYYR_V1R0, SRVSCR_TONSILSYEAR_V1R0, SRVSCR_TUBLIGYEAR_V1R0, SRVSCR_VASECTOMYYR_V1R0, TESTREM2_YEAR, THYRDREM_YEAR, TONSILS_YEAR, TUBLIG_YEAR, VASEC_YEAR]
 // JSON WARNING --> Concept ID 810608313 with concept "# Servings per day" is shared between these Textbox codes: [EAMAR9ANUM, EAMAR9CNUM, THMAR9ANUM, THMAR9CNUM]
 // JSON WARNING --> Concept ID 850393641 with concept "# of Minutes" is shared between these Textbox codes: [FALLASLEEPMIN, LAYINBEDMIN, NONWORKAWAKEBEFOREUPMIN, NONWORKFALLASLEEPMIN, OUTSIDEMIN, WORKDAYOUTSIDEMIN]
+// JSON WARNING --> Concept ID 942347130 with concept "Other breast surgeries: Please describe[text box]" is shared between these Textbox codes: [BREASTSUR_TB, SRVSCR_BREASTOTHERDES_V1R0]
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Mon Jul 29 16:28:03 2024 -0400 (short timestamp = 2024-07-29-20-28-03)
+//This file was last modified on Thu Feb 20 11:45:18 2025 -0500 (short timestamp = 2025-02-20-16-45-18)
 
-//{"version":"3.0"}
+//{"version":"4.0"}
 
-{"name":"D_726699695_V2"} [INTROM1] ¡Bienvenido, {$u:firstName}! Este cuestionario se divide en secciones. Cada sección incluye preguntas sobre una gran variedad de temas. Nuestro objetivo es recopilar información sobre sus antecedentes médicos, su familia, su trabajo y sus conductas saludables. Puede responder a todas las preguntas de cada sección del cuestionario de una sola vez, o responder a algunas preguntas, tomar un descanso y volver para responder el resto después. Si toma un descanso, sus respuestas se guardarán, y podrá continuar donde se quedó. Se puede saltar cualquier pregunta que no desee responder. 
+{"name":"D_726699695_V2"}
+[INTROM1] ¡Bienvenido, {$u:firstName}! Este cuestionario se divide en secciones. Cada sección incluye preguntas sobre una gran variedad de temas. Nuestro objetivo es recopilar información sobre sus antecedentes médicos, su familia, su trabajo y sus conductas saludables. Puede responder a todas las preguntas de cada sección del cuestionario de una sola vez, o responder a algunas preguntas, tomar un descanso y volver para responder el resto después. Si toma un descanso, sus respuestas se guardarán, y podrá continuar donde se quedó. Se puede saltar cualquier pregunta que no desee responder. 
 
 En algunas preguntas, verá una palabra o frase en forma de botón. Al hacer clic en el botón, verá más información que le puede ayudar a responder a la pregunta. Este es |popup|ejemplo.|ejemplo| Este es un ejemplo de cómo se verá la información adicional|
 
@@ -38,15 +44,8 @@ Comencemos.
 
 No se olvide de que protegemos su privacidad. Antes de dárselas a los investigadores, eliminaremos de sus respuestas al cuestionario la información que pueda identificarlo. 
 
-
-[D_479353866!]<b>Información general </b> <br/> <br/> Para empezar, díganos un poco sobre usted.
-
-Según la información que dio cuando se inscribió en este estudio, hoy tiene {$u:age} años. ¿Es correcto? 
-(104430631) No -> D_150344905
-(353358909) Sí -> D_783167257
-
-[D_150344905!] ¿Cuántos años tiene el día de hoy? 
-Edad: |__|__|min=30 max=75|
+[SECTION1]<b>Información general </b>
+Para empezar, díganos un poco sobre usted.
 
 [D_783167257?] ¿Actualmente está casado(a), divorciado(a), separado(a), es viudo(a), nunca se casó o vive con su pareja?
 (514080822) Nunca se casó
@@ -58,7 +57,10 @@ Edad: |__|__|min=30 max=75|
 (746038746) Prefiero no responder
 
 
-[D_384191091?] ¿Qué categorías lo describen? Seleccione todas las opciones que correspondan. Nota: puede seleccionar más de un grupo.
+[RACEETHINTRO] A continuación, le haremos una serie de preguntas sobre  raza/origen étnico. La primera pregunta será más general y las siguientes le solicitarán información más específica.
+
+[D_384191091?] ¿Cuál de las siguientes opciones lo describen? Seleccione todas las que correspondan. Nota: puede seleccionar más de un grupo.
+
 [583826374] Indígena americano o nativo de Alaska  -> D_362270886
 [636411467] Asiático  -> D_525535977
 [458435048] Negro, afroamericano o africano -> D_976808005
@@ -71,15 +73,17 @@ Edad: |__|__|min=30 max=75|
 [746038746*] Prefiero no responder  -> D_588212264
 < #NR -> D_588212264 >
 
-[D_362270886?,displayif=equals(D_384191091,583826374)] ¿Cuál de estas categorías lo describe mejor? Seleccione todas las opciones que correspondan.
+[D_362270886?,displayif=equals(D_384191091,583826374)] ¿Cuál de estas opciones lo describe mejor? Seleccione todas las que correspondan.
 [249603425] Indígena americano
 [530063091] Nativo de Alaska
 [643489668] Indígena centroamericano o sudamericano
 [807835037] Ninguna de estas me describe por completo: describa  |__|id=D_650100414|
-[746038746*] Prefiero no responder 
+[178420302*] No sé
+[746038746*] Prefiero No responder 
 
 
-[D_525535977?,displayif=equals(D_384191091,636411467)] ¿Cuál de estas categorías lo describe mejor? Seleccione todas las opciones que correspondan.
+[D_525535977?,displayif=equals(D_384191091,636411467)] ¿Cuál de estas opciones lo describe mejor? Seleccione todas las que correspondan.
+
 [773844957] Indígena asiático
 [901439277] Camboyano
 [750168061] Chino
@@ -90,10 +94,11 @@ Edad: |__|__|min=30 max=75|
 [571633051] Pakistaní 
 [964924704] Vietnamita
 [807835037] Ninguna de estas me describe por completo: describa  |__|id=D_396618548|
+[178420302*] No sé
 [746038746*] Prefiero no responder 
 
 
-[D_976808005?,displayif=equals(D_384191091,458435048)] ¿Cuál de estas categorías lo describe mejor? Seleccione todas las opciones que correspondan.
+[D_976808005?,displayif=equals(D_384191091,458435048)] ¿Cuál de estas opciones lo describe mejor? Seleccione todas las que correspondan.
 [704774349] Afroamericano
 [240854115] Barbadense
 [280957170] Caribeño
@@ -106,24 +111,27 @@ Edad: |__|__|min=30 max=75|
 [304643362] Somalí
 [151821009] Sudafricano
 [807835037] Ninguna de estas me describe por completo: describa  |__|id=D_852296096|
+[178420302*] No sé
 [746038746*] Prefiero no responder 
 
 
-[D_308014437?,displayif=equals(D_384191091,706998638)] ¿Cuál de estas categorías lo describe mejor? Seleccione todas las opciones que correspondan.
+[D_308014437?,displayif=equals(D_384191091,706998638)] ¿Cuál de estas opciones lo describe mejor? Seleccione todas las que correspondan.
 [810637250] Colombiano
 [248444252] Cubano
 [764331628] Dominicano
 [412757551] Ecuatoriano
+[324416332] Guatemalteco
 [981774939] Hondureño
 [432305109] Mexicano o méxicoestadounidense
 [862718552] Puertorriqueño
 [988121468] Salvadoreño
 [773342525] Español
 [807835037] Ninguna de estas me describe por completo: describa  |__|id=D_440307926|
+[178420302*] No sé
 [746038746*] Prefiero no responder 
 
 
-[D_351657815?,displayif=equals(D_384191091,973565052)] ¿Cuál de estas categorías lo describe mejor? Seleccione todas las opciones que correspondan.
+[D_351657815?,displayif=equals(D_384191091,973565052)] ¿Cuál de estas opciones lo describe mejor? Seleccione todas las que correspondan.
 [190152384] Afgano
 [119632587] Argelino
 [578616917] Egipcio
@@ -135,10 +143,11 @@ Edad: |__|__|min=30 max=75|
 [336596477] Sirio 
 [380583570] Tunecino
 [807835037] Ninguna de estas me describe por completo: describa  |__|id=D_576646485|
+[178420302*] No sé
 [746038746*] Prefiero no responder 
 
 
-[D_115616118?,displayif=equals(D_384191091,586825330)] ¿Cuál de estas categorías lo describe mejor? Seleccione todas las opciones que correspondan.
+[D_115616118?,displayif=equals(D_384191091,586825330)] ¿Cuál de estas opciones lo describe mejor? Seleccione todas las que correspondan.
 [664730658] Chamorro
 [949727109] Chuukés
 [496132363] Fiyiano
@@ -149,10 +158,11 @@ Edad: |__|__|min=30 max=75|
 [167028305] Tahitiano
 [345861266] Tongano
 [807835037] Ninguna de estas me describe por completo: describa  |__|id=D_403180970|
+[178420302*] No sé
 [746038746*] Prefiero no responder 
 
 
-[D_797626610?,displayif=equals(D_384191091,412790539)] ¿Cuál de estas categorías lo describe mejor? Seleccione todas las opciones que correspondan.
+[D_797626610?,displayif=equals(D_384191091,412790539)] ¿Cuál de estas opciones lo describe mejor? Seleccione todas las que correspondan.
 [664571574] Holandés o neerlandés
 [163149180] Inglés
 [192776753] Europeo
@@ -164,7 +174,9 @@ Edad: |__|__|min=30 max=75|
 [381749264] Polaco
 [704661219] Escocés
 [773342525] Español
+[533527231] Sueco
 [807835037] Ninguna de estas me describe por completo: describa  |__|id=D_774928994|
+[178420302*] No sé
 [746038746*] Prefiero no responder 
 
 
@@ -190,62 +202,22 @@ Edad: |__|__|min=30 max=75|
 [807835037] Otro(s) idioma(s): describa  |__|id=D_486535201|
 
 
-[D_407056417!] Posteriormente en este cuestionario se le harán preguntas sobre cirugías y procedimientos médicos, incluso sobre los órganos sexuales con los que nació. Queremos hacerle preguntas que tengan sentido para usted. También nos interesa saber cómo la identidad y la expresión de género le afectan la salud y su atención médica.
+[D_407056417?] Posteriormente en este cuestionario se le harán preguntas sobre cirugías y procedimientos médicos, incluso sobre los órganos sexuales con los que nació. ¿Cuál es su sexo?   
 
-¿Qué sexo biológico se le asignó al nacer? 
-(654207589) Masculino -> D_289664241
-(536341288) Femenino -> D_289664241
-(576796184) Intersexual u otro  -> D_750420077
+(536341288) Femenino 
+(654207589) Masculino 
 
-[D_750420077!,displayif=equals(D_407056417,576796184)] Seleccione las partes del cuerpo con las que nació.
-[582784267] Pene
+
+[D_750420077!] Seleccione las partes del cuerpo con las que nació. Seleccionar todos los que aplican.
+
+[582784267] Pene (falo)
 [751402477] Testículos
 [700100953] Próstata
-[846483618] Vagina
+[846483618] Vagina 
 [505282171] Cuello uterino
 [578416151] Útero
 [434651539] Ovarios
 [108025529] Trompas de Falopio
-
-[D_289664241?] ¿Se considera usted...?
-(218837028) Mujer
-(983318667) Hombre
-(405267600) Hombre transexual
-(873138103) Mujer transexual
-(805712793) Cuirgénero
-(486192236) Género no binario
-(807835037) Categoría de sexo adicional: describa  |__|id=D_918409306|
-(746038746) Prefiero no responder 
-
-
-[D_987107433?] El aspecto, el estilo, la forma de vestir o los gestos (la manera de andar o de hablar) de una persona pueden influir en la opinión que otros tengan de ella. En promedio, ¿cómo cree que las personas describirían su aspecto, estilo, forma de vestir o gestos?
-
-(220083334) Muy femeninos
-(541300533) En su mayoría, femeninos
-(878286618) Un poco femeninos
-(910745276) Femeninos y masculinos por igual
-(510148951) Un poco masculinos
-(265452386) En su mayoría, masculinos
-(915528806) Muy masculinos
-(746038746) Prefiero no responder 
-
-[SEXORIENTINTRO] Nos interesa saber más sobre su orientación sexual. Si no conoce algunas de estas orientaciones, no pasa nada. Ofrecemos todas las opciones que podemos para asegurarnos de que todas las comunidades estén incluidas en Connect. Recopilamos esta información para saber más de la salud y la prevención del cáncer en estas comunidades. Cuanta más información tengamos, mejor podremos responder las preguntas de investigación, y adaptar las recomendaciones de prevención y salud a todas las comunidades.
-
-[D_555481393?] ¿Se considera usted...? 
-
-(271882746) Heterosexual
-(903084185) Lesbiana, gay u homosexual  
-(999994434) Bisexual
-(727200870) Asexual
-(854349138) Pansexual
-(832978839) Principalmente heterosexual
-(197935377) Queer
-(410008111) Dos espíritus
-(831942158) Cuestionándose
-(210894509) Sin etiquetas
-(807835037) Algo diferente: describa  |__|id=D_979809707|
-(178420302) No sé
-(746038746) Prefiero no responder 
 
 
 [INTROMH] <b>Antecedentes médicos </b>
@@ -259,8 +231,9 @@ También le preguntaremos sobre determinados procedimientos médicos que pudo ha
 
 ¿Le ha dicho alguna vez un médico u otro profesional de la salud que tiene o tenía <b>cáncer de piel distinto del melanoma</b>? 
 
-(353358909) Sí 
 (104430631) No -> D_167101091
+(353358909) Sí 
+
 < #NR -> D_167101091 >
 
 [D_508846529?] ¿Qué tipo(s) de cáncer de piel le dijo que tiene o tenía un médico u otro profesional de la salud? Seleccione todas las opciones que correspondan.
@@ -270,10 +243,11 @@ También le preguntaremos sobre determinados procedimientos médicos que pudo ha
 
 
 [D_904550680?] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía cáncer de piel? 
-|__|__|xor=SKINCANC3 id=D_206625031 min=0 max=sum(isDefined(D_150344905,age),1)| Edad
+
+|__|__|xor=SKINCANC3 id=D_206625031 min=0 max=_value("age")| Edad
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=SKINCANC3 id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año
+|__|__|__|__|xor=SKINCANC3 id=D_261863326 min=_value("yob") max=#currentYear| Año
 
 
 [D_167101091?]
@@ -289,87 +263,87 @@ O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
 [336505365] Ritmo cardíaco irregular (arritmia) -> D_337278854
 [132548932] Dolor de pecho (angina de pecho) -> D_681229479
 [747787163] Problemas de las válvulas cardíacas -> D_660358706
-[693851465] Presión arterial alta (hipertensión)  |displayif=or(equals(D_407056417,536341288),equals(D_407056417,576796184))|<b>No</b> incluya la hipertensión durante el embarazo| -> D_884793537
+[693851465] Presión arterial alta (hipertensión)  |displayif=equals(D_407056417,536341288)|<b>No</b> incluya la hipertensión durante el embarazo| -> D_884793537
 [512012656] Coágulos sanguíneos (trombosis venosa profunda, embolia pulmonar) -> D_460062034
 [619337095] Derrame cerebral (accidente cerebrovascular) -> D_110652436
 [535003378*] <b>No</b> he tenido ninguna de estas afecciones  -> D_894259747
 
 
 [D_965917116?,displayif=equals(D_167101091,698944820)] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>carencia de vitamina B-12 (anemia perniciosa)?</b><br/>
-|__|__|xor=ANEMIA id=D_206625031 min=0 max=sum(isDefined(D_150344905,age),1)| Edad en el momento del diagnóstico
+|__|__|xor=ANEMIA id=D_206625031 min=0 max=_value("age")| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=ANEMIA id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año del diagnóstico
+|__|__|__|__|xor=ANEMIA id=D_261863326 min=_value("yob") max=#currentYear| Año del diagnóstico
 
 
 [D_929240175?,displayif=equals(D_167101091,838744325)] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>cardiopatía coronaria o arteriopatía coronaria? </b><br/>
-|__|__|xor=CVD id=D_206625031 min=0 max=sum(isDefined(D_150344905,age),1)| Edad en el momento del diagnóstico
+|__|__|xor=CVD id=D_206625031 min=0 max=_value("age")| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=CVD id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año del diagnóstico
+|__|__|__|__|xor=CVD id=D_261863326 min=_value("yob") max=#currentYear| Año del diagnóstico
 
 
 [D_836712013?,displayif=equals(D_167101091,769790179)]¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>insuficiencia cardíaca congestiva? </b><br/>
-|__|__|xor=CHF id=D_206625031 min=0 max=sum(isDefined(D_150344905,age),1)| Edad en el momento del diagnóstico
+|__|__|xor=CHF id=D_206625031 min=0 max=_value("age")| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=CHF id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año del diagnóstico
+|__|__|__|__|xor=CHF id=D_261863326 min=_value("yob") max=#currentYear| Año del diagnóstico
 
 
 [D_836890480?,displayif=equals(D_167101091,699553344)] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía el <b>colesterol elevado? </b><br/>
-|__|__|xor=CHOL id=D_206625031 min=0 max=sum(isDefined(D_150344905,age),1)| Edad en el momento del diagnóstico
+|__|__|xor=CHOL id=D_206625031 min=0 max=_value("age")| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=CHOL id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año del diagnóstico
+|__|__|__|__|xor=CHOL id=D_261863326 min=_value("yob") max=#currentYear| Año del diagnóstico
 
 
 [D_624479779?,displayif=equals(D_167101091,700811160)] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que había tenido un <b>ataque al corazón (infarto de miocardio)? </b><br/>
-|__|__|xor=HEARTATT id=D_206625031 min=0 max=sum(isDefined(D_150344905,age),1)| Edad en el momento del diagnóstico
+|__|__|xor=HEARTATT id=D_206625031 min=0 max=_value("age")| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=HEARTATT id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año del diagnóstico
+|__|__|__|__|xor=HEARTATT id=D_261863326 min=_value("yob") max=#currentYear| Año del diagnóstico
 
 
 [D_337278854?,displayif=equals(D_167101091,336505365)] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>ritmo cardíaco irregular (arritmia)?</b><br/>
-|__|__|xor=ARRHYT id=D_206625031 min=0 max=sum(isDefined(D_150344905,age),1)| Edad en el momento del diagnóstico
+|__|__|xor=ARRHYT id=D_206625031 min=0 max=_value("age")| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=ARRHYT id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año del diagnóstico
+|__|__|__|__|xor=ARRHYT id=D_261863326 min=_value("yob") max=#currentYear| Año del diagnóstico
 
 
 [D_681229479?,displayif=equals(D_167101091,132548932)] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>dolor de pecho (angina de pecho)?</b><br/>
-|__|__|xor=CHESTPAIN id=D_206625031 min=0 max=sum(isDefined(D_150344905,age),1)| Edad en el momento del diagnóstico
+|__|__|xor=CHESTPAIN id=D_206625031 min=0 max=_value("age")| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=CHESTPAIN id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año del diagnóstico
+|__|__|__|__|xor=CHESTPAIN id=D_261863326 min=_value("yob") max=#currentYear| Año del diagnóstico
 
 
 [D_660358706?,displayif=equals(D_167101091,747787163)] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>problemas de las válvulas cardíacas? </b><br/>
-|__|__|xor=HEARTVALV id=D_206625031 min=0 max=sum(isDefined(D_150344905,age),1)| Edad en el momento del diagnóstico
+|__|__|xor=HEARTVALV id=D_206625031 min=0 max=_value("age")| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=HEARTVALV id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año del diagnóstico
+|__|__|__|__|xor=HEARTVALV id=D_261863326 min=_value("yob") max=#currentYear| Año del diagnóstico
 
 
 [D_884793537?,displayif=equals(D_167101091,693851465)] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>presión arterial alta (hipertensión)? </b><br/>
-|__|__|xor=HTN id=D_206625031 min=0 max=sum(isDefined(D_150344905,age),1)| Edad en el momento del diagnóstico
+|__|__|xor=HTN id=D_206625031 min=0 max=_value("age")| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=HTN id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año del diagnóstico
+|__|__|__|__|xor=HTN id=D_261863326 min=_value("yob") max=#currentYear| Año del diagnóstico
 
 
 [D_460062034?,displayif=equals(D_167101091,512012656)] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>coágulos sanguíneos (trombosis venosa profunda, embolia pulmonar)?</b><br/>
-|__|__|xor=BLOODCLOT id=D_206625031 min=0 max=sum(isDefined(D_150344905,age),1)| Edad en el momento del diagnóstico
+|__|__|xor=BLOODCLOT id=D_206625031 min=0 max=_value("age")| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=BLOODCLOT id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año del diagnóstico
+|__|__|__|__|xor=BLOODCLOT id=D_261863326 min=_value("yob") max=#currentYear| Año del diagnóstico
 
 
 [D_110652436?,displayif=equals(D_167101091,619337095)] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que había tenido un <b>derrame cerebral (accidente cerebrovascular)?</b><br/>
-|__|__|xor=STROKE id=D_206625031 min=0 max=sum(isDefined(D_150344905,age),1)| Edad en el momento del diagnóstico
+|__|__|xor=STROKE id=D_206625031 min=0 max=_value("age")| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=STROKE id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año del diagnóstico
+|__|__|__|__|xor=STROKE id=D_261863326 min=_value("yob") max=#currentYear| Año del diagnóstico
 
 
 [D_894259747?]
@@ -385,24 +359,24 @@ O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
 
 [D_448722126?,displayif=equals(D_894259747,359025642)] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>enfermedad pulmonar crónica (enfisema, bronquitis crónica o enfermedad pulmonar obstructiva crónica (EPOC))? </b><br/>
 
-|__|__|xor=COPD id=D_206625031 min=0 max=sum(isDefined(D_150344905,age),1)| Edad en el momento del diagnóstico
+|__|__|xor=COPD id=D_206625031 min=0 max=_value("age")| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=COPD id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año del diagnóstico
+|__|__|__|__|xor=COPD id=D_261863326 min=_value("yob") max=#currentYear| Año del diagnóstico
 
 
 [D_201449164?,displayif=equals(D_894259747,407340134)] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>asma?</b><br/>
-|__|__|xor=ASTHMA id=D_206625031 min=0 max=sum(isDefined(D_150344905,age),1)| Edad en el momento del diagnóstico
+|__|__|xor=ASTHMA id=D_206625031 min=0 max=_value("age")| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=ASTHMA id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año del diagnóstico
+|__|__|__|__|xor=ASTHMA id=D_261863326 min=_value("yob") max=#currentYear| Año del diagnóstico
 
 
 [D_436333358?,displayif=equals(D_894259747,427219143)] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>alergia al polen o rinitis alérgica?</b><br/>
-|__|__|xor=HAYFEVER id=D_206625031 min=0 max=sum(isDefined(D_150344905,age),1)| Edad en el momento del diagnóstico
+|__|__|xor=HAYFEVER id=D_206625031 min=0 max=_value("age")| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=HAYFEVER id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año del diagnóstico
+|__|__|__|__|xor=HAYFEVER id=D_261863326 min=_value("yob") max=#currentYear| Año del diagnóstico
 
 
 [D_180961306?] <b>Problemas del aparato digestivo</b>
@@ -424,80 +398,80 @@ O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
 
 
 [D_554782332?,displayif=equals(D_180961306,406890409)] ¿Cuántos años tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>enfermedad por reflujo gastroesofágico (GERD)? </b><br/>
-|__|__|xor=GERD id=D_206625031 min=0 max=sum(isDefined(D_150344905,age),1)| Edad en el momento del diagnóstico
+|__|__|xor=GERD id=D_206625031 min=0 max=_value("age")| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=GERD id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año del diagnóstico
+|__|__|__|__|xor=GERD id=D_261863326 min=_value("yob") max=#currentYear| Año del diagnóstico
 
 
 [D_409622468?,displayif=equals(D_180961306,704544306)] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>síndrome de Barrett</b>?<br/>
-|__|__|xor=BARESO id=D_206625031 min=0 max=sum(isDefined(D_150344905,age),1)| Edad en el momento del diagnóstico
+|__|__|xor=BARESO id=D_206625031 min=0 max=_value("age")| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=BARESO id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año del diagnóstico
+|__|__|__|__|xor=BARESO id=D_261863326 min=_value("yob") max=#currentYear| Año del diagnóstico
 
 
 [D_448476881?,displayif=equals(D_180961306,691766591)] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>síndrome del intestino irritable</b>?<br/>
-|__|__|xor=IBS id=D_206625031 min=0 max=sum(isDefined(D_150344905,age),1)| Edad en el momento del diagnóstico
+|__|__|xor=IBS id=D_206625031 min=0 max=_value("age")| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=IBS id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año del diagnóstico
+|__|__|__|__|xor=IBS id=D_261863326 min=_value("yob") max=#currentYear| Año del diagnóstico
 
 
 [D_459764934?,displayif=equals(D_180961306,308645635)] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>enfermedad intestinal inflamatoria</b>?<br/>
-|__|__|xor=IBD id=D_206625031 min=0 max=sum(isDefined(D_150344905,age),1)| Edad en el momento del diagnóstico
+|__|__|xor=IBD id=D_206625031 min=0 max=_value("age")| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=IBD id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año del diagnóstico
+|__|__|__|__|xor=IBD id=D_261863326 min=_value("yob") max=#currentYear| Año del diagnóstico
 
 
 [D_374697037?,displayif=equals(D_180961306,731115613)] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>diverticulitis o diverticulosis</b>?<br/>
-|__|__|xor=DIVERT id=D_206625031 min=0 max=sum(isDefined(D_150344905,age),1)| Edad en el momento del diagnóstico
+|__|__|xor=DIVERT id=D_206625031 min=0 max=_value("age")| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=DIVERT id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año del diagnóstico
+|__|__|__|__|xor=DIVERT id=D_261863326 min=_value("yob") max=#currentYear| Año del diagnóstico
 
 
 [D_580911251?,displayif=equals(D_180961306,567284980)] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>colitis ulcerosa</b>?<br/>
-|__|__|xor=UC id=D_206625031 min=0 max=sum(isDefined(D_150344905,age),1)| Edad en el momento del diagnóstico
+|__|__|xor=UC id=D_206625031 min=0 max=_value("age")| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=UC id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año del diagnóstico
+|__|__|__|__|xor=UC id=D_261863326 min=_value("yob") max=#currentYear| Año del diagnóstico
 
 
 [D_190347832?,displayif=equals(D_180961306,986548173)] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>enfermedad de Crohn</b>?<br/>
-|__|__|xor=CD id=D_206625031 min=0 max=sum(isDefined(D_150344905,age),1)| Edad en el momento del diagnóstico
+|__|__|xor=CD id=D_206625031 min=0 max=_value("age")| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=CD id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año del diagnóstico
+|__|__|__|__|xor=CD id=D_261863326 min=_value("yob") max=#currentYear| Año del diagnóstico
 
 
 [D_624777141?,displayif=equals(D_180961306,285995100)] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía  <b>celiaquía o enfermedad celíaca (también conocida como intolerancia al gluten)</b>?<br/>
-|__|__|xor=CCD id=D_206625031 min=0 max=sum(isDefined(D_150344905,age),1)| Edad en el momento del diagnóstico
+|__|__|xor=CCD id=D_206625031 min=0 max=_value("age")| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=CCD id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año del diagnóstico
+|__|__|__|__|xor=CCD id=D_261863326 min=_value("yob") max=#currentYear| Año del diagnóstico
 
 
 [D_980403315?,displayif=equals(D_180961306,545628561)] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>cálculos biliares</b>?<br/>
-|__|__|xor=GALL id=D_206625031 min=0 max=sum(isDefined(D_150344905,age),1)| Edad en el momento del diagnóstico
+|__|__|xor=GALL id=D_206625031 min=0 max=_value("age")| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=GALL id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año del diagnóstico
+|__|__|__|__|xor=GALL id=D_261863326 min=_value("yob") max=#currentYear| Año del diagnóstico
 
 
 [D_936039586?,displayif=equals(D_180961306,709786039)] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>cirrosis hepática</b>?<br/>
-|__|__|xor=LIVCIRR id=D_206625031 min=0 max=sum(isDefined(D_150344905,age),1)| Edad en el momento del diagnóstico
+|__|__|xor=LIVCIRR id=D_206625031 min=0 max=_value("age")| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=LIVCIRR id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año del diagnóstico
+|__|__|__|__|xor=LIVCIRR id=D_261863326 min=_value("yob") max=#currentYear| Año del diagnóstico
 
 
 [D_430472084?,displayif=equals(D_180961306,984479578)] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>pancreatitis</b>?<br/>
-|__|__|xor=PANCREA id=D_206625031 min=0 max=sum(isDefined(D_150344905,age),1)| Edad en el momento del diagnóstico
+|__|__|xor=PANCREA id=D_206625031 min=0 max=_value("age")| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=PANCREA id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año del diagnóstico
+|__|__|__|__|xor=PANCREA id=D_261863326 min=_value("yob") max=#currentYear| Año del diagnóstico
 
 
 [D_900541533?] ¿Le ha dicho alguna vez un médico u otro profesional de la salud que tiene o tenía alguna de estas afecciones? Seleccione todas las opciones que correspondan. 
@@ -508,10 +482,10 @@ O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
 
 
 [D_139655599?,displayif=equals(D_900541533,726539692)] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía un <b>trastorno tiroideo (hipertiroidismo o hipotiroidismo)</b>?<br/>
-|__|__|xor=THYROID id=D_206625031 min=0 max=sum(isDefined(D_150344905,age),1)| Edad en el momento del diagnóstico
+|__|__|xor=THYROID id=D_206625031 min=0 max=_value("age")| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=THYROID id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año del diagnóstico
+|__|__|__|__|xor=THYROID id=D_261863326 min=_value("yob") max=#currentYear| Año del diagnóstico
 
 
 [D_494032093?,displayif=equals(D_900541533,158044532)] ¿Qué tipo de <b>diabetes</b> le dijo que tiene o tenía un médico u otro profesional de la salud?
@@ -521,17 +495,17 @@ O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
 < -> D_301679110 >
 
 [D_301679110?,displayif=equals(D_900541533,158044532)] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>diabetes?</b><br/>
-|__|__|xor=DM2 id=D_206625031 min=0 max=sum(isDefined(D_150344905,age),1)| Edad en el momento del diagnóstico
+|__|__|xor=DM2 id=D_206625031 min=0 max=_value("age")| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=DM2 id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año del diagnóstico
+|__|__|__|__|xor=DM2 id=D_261863326 min=_value("yob") max=#currentYear| Año del diagnóstico
 
 
 [D_810918716?,displayif=equals(D_900541533,943054522)] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>enfermedad de Graves-Basedow</b>?<br/>
-|__|__|xor=GRAVES id=D_206625031 min=0 max=sum(isDefined(D_150344905,age),1)| Edad en el momento del diagnóstico
+|__|__|xor=GRAVES id=D_206625031 min=0 max=_value("age")| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=GRAVES id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año del diagnóstico
+|__|__|__|__|xor=GRAVES id=D_261863326 min=_value("yob") max=#currentYear| Año del diagnóstico
 
 
 [D_874046190?] <b>Enfermedad renal (de los riñones)</b>
@@ -544,17 +518,17 @@ O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
 
 
 [D_989016875?,displayif=equals(D_874046190,827542780)] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>cálculos renales</b>?<br/>
-|__|__|xor=KIDNEY id=D_206625031 min=0 max=sum(isDefined(D_150344905,age),1)| Edad en el momento del diagnóstico
+|__|__|xor=KIDNEY id=D_206625031 min=0 max=_value("age")| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=KIDNEY id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año del diagnóstico
+|__|__|__|__|xor=KIDNEY id=D_261863326 min=_value("yob") max=#currentYear| Año del diagnóstico
 
 
 [D_878094302?,displayif=equals(D_874046190,167238688)] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>enfermedad renal crónica (también conocida como insuficiencia renal crónica)</b>?<br/>
-|__|__|xor=CKD id=D_206625031 min=0 max=sum(isDefined(D_150344905,age),1)| Edad en el momento del diagnóstico
+|__|__|xor=CKD id=D_206625031 min=0 max=_value("age")| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=CKD id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año del diagnóstico
+|__|__|__|__|xor=CKD id=D_261863326 min=_value("yob") max=#currentYear| Año del diagnóstico
 
 
 [D_543728565?]<b>Problemas sistémicos y de otro tipo</b>
@@ -568,24 +542,24 @@ O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
 
 
 [D_173101988?,displayif=equals(D_543728565,636030086)] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>artritis reumatoide</b>?<br/>
-|__|__|xor=RA id=D_206625031 min=0 max=sum(isDefined(D_150344905,age),1)| Edad en el momento del diagnóstico
+|__|__|xor=RA id=D_206625031 min=0 max=_value("age")| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=RA id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año del diagnóstico
+|__|__|__|__|xor=RA id=D_261863326 min=_value("yob") max=#currentYear| Año del diagnóstico
 
 
 [D_245861186?,displayif=equals(D_543728565,239687183)] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>lupus</b>?<br/>
-|__|__|xor=LUPUS id=D_206625031 min=0 max=sum(isDefined(D_150344905,age),1)| Edad en el momento del diagnóstico
+|__|__|xor=LUPUS id=D_206625031 min=0 max=_value("age")| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=LUPUS id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año del diagnóstico
+|__|__|__|__|xor=LUPUS id=D_261863326 min=_value("yob") max=#currentYear| Año del diagnóstico
 
 
 [D_420423416?,displayif=equals(D_543728565,134592375)] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>gota</b>?<br/>
-|__|__|xor=GOUT id=D_206625031 min=0 max=sum(isDefined(D_150344905,age),1)| Edad en el momento del diagnóstico
+|__|__|xor=GOUT id=D_206625031 min=0 max=_value("age")| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=GOUT id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año del diagnóstico
+|__|__|__|__|xor=GOUT id=D_261863326 min=_value("yob") max=#currentYear| Año del diagnóstico
 
 
 [INTROSTD]<b>Infecciones</b>
@@ -608,85 +582,85 @@ Las siguientes preguntas tratan sobre las infecciones. Algunas de las preguntas 
 
 
 [D_915230886?,displayif=equals(D_874709643,164910211)] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>mononucleosis infecciosa</b>?<br/>
-|__|__|xor=MONO id=D_206625031 min=0 max=sum(isDefined(D_150344905,age),1)| Edad en el momento del diagnóstico
+|__|__|xor=MONO id=D_206625031 min=0 max=_value("age")| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=MONO id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año del diagnóstico
+|__|__|__|__|xor=MONO id=D_261863326 min=_value("yob") max=#currentYear| Año del diagnóstico
 
 
 [D_530548878?,displayif=equals(D_874709643,796616844)] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>herpes zóster (culebrilla)</b>?<br/>
-|__|__|xor=SHINGLES id=D_206625031 min=0 max=sum(isDefined(D_150344905,age),1)| Edad en el momento del diagnóstico
+|__|__|xor=SHINGLES id=D_206625031 min=0 max=_value("age")| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=SHINGLES id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año del diagnóstico
+|__|__|__|__|xor=SHINGLES id=D_261863326 min=_value("yob") max=#currentYear| Año del diagnóstico
 
 
 [D_469947273?,displayif=equals(D_874709643,436689514)] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>hepatitis B o C crónica</b>?<br/>
-|__|__|xor=HBVHCV id=D_206625031 min=0 max=sum(isDefined(D_150344905,age),1)| Edad en el momento del diagnóstico
+|__|__|xor=HBVHCV id=D_206625031 min=0 max=_value("age")| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=HBVHCV id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año del diagnóstico
+|__|__|__|__|xor=HBVHCV id=D_261863326 min=_value("yob") max=#currentYear| Año del diagnóstico
 
 
 [D_685735916?,displayif=equals(D_874709643,296357383)] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>gonorrea</b>?<br/>
-|__|__|xor=GONORR id=D_206625031 min=0 max=sum(isDefined(D_150344905,age),1)| Edad en el momento del diagnóstico
+|__|__|xor=GONORR id=D_206625031 min=0 max=_value("age")| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=GONORR id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año del diagnóstico
+|__|__|__|__|xor=GONORR id=D_261863326 min=_value("yob") max=#currentYear| Año del diagnóstico
 
 
 [D_954405492?,displayif=equals(D_874709643,901077233)] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>infección por clamidias</b>?<br/>
-|__|__|xor=CHLA id=D_206625031 min=0 max=sum(isDefined(D_150344905,age),1)| Edad en el momento del diagnóstico
+|__|__|xor=CHLA id=D_206625031 min=0 max=_value("age")| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=CHLA id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año del diagnóstico
+|__|__|__|__|xor=CHLA id=D_261863326 min=_value("yob") max=#currentYear| Año del diagnóstico
 
 
 [D_103397024?,displayif=equals(D_874709643,136956596)] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>tricomoniasis</b>?<br/>
-|__|__|xor=TRICH id=D_206625031 min=0 max=sum(isDefined(D_150344905,age),1)| Edad en el momento del diagnóstico
+|__|__|xor=TRICH id=D_206625031 min=0 max=_value("age")| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=TRICH id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año del diagnóstico
+|__|__|__|__|xor=TRICH id=D_261863326 min=_value("yob") max=#currentYear| Año del diagnóstico
 
 [D_931470797?,displayif=equals(D_874709643,455776698)] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>sífilis</b>?<br/>
-|__|__|xor=SYPH id=D_206625031 min=0 max=sum(isDefined(D_150344905,age),1)| Edad en el momento del diagnóstico
+|__|__|xor=SYPH id=D_206625031 min=0 max=_value("age")| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=SYPH id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año del diagnóstico
+|__|__|__|__|xor=SYPH id=D_261863326 min=_value("yob") max=#currentYear| Año del diagnóstico
 
 
 [D_922524563?,displayif=equals(D_874709643,155874194)] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>condiloma acuminado (verrugas genitales)</b>?<br/>
-|__|__|xor=GENWARTS id=D_206625031 min=0 max=sum(isDefined(D_150344905,age),1)| Edad en el momento del diagnóstico
+|__|__|xor=GENWARTS id=D_206625031 min=0 max=_value("age")| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=GENWARTS id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año del diagnóstico
+|__|__|__|__|xor=GENWARTS id=D_261863326 min=_value("yob") max=#currentYear| Año del diagnóstico
 
 
 [D_978485677?,displayif=equals(D_874709643,880962432)] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>virus de los papilomas humanos (VPH)</b>?<br/>
-|__|__|xor=HPV id=D_206625031 min=0 max=sum(isDefined(D_150344905,age),1)| Edad en el momento del diagnóstico
+|__|__|xor=HPV id=D_206625031 min=0 max=_value("age")| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=HPV id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año del diagnóstico
+|__|__|__|__|xor=HPV id=D_261863326 min=_value("yob") max=#currentYear| Año del diagnóstico
 
 
 [D_523188839?,displayif=equals(D_874709643,691450854)] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>VIH o SIDA</b>?<br/>
-|__|__|xor=HIVAIDS id=D_206625031 min=0 max=sum(isDefined(D_150344905,age),1)| Edad en el momento del diagnóstico
+|__|__|xor=HIVAIDS id=D_206625031 min=0 max=_value("age")| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=HIVAIDS id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año del diagnóstico
+|__|__|__|__|xor=HIVAIDS id=D_261863326 min=_value("yob") max=#currentYear| Año del diagnóstico
 
 
 [D_725626004?]<b>Problemas del aparato urinario y reproductor</b>
 
 ¿Le ha dicho alguna vez un médico u otro profesional de la salud que tiene o tenía alguna de estas afecciones? Seleccione todas las opciones que correspondan. 
 
-[509721537,displayif=or(equals(D_407056417,536341288),and(equals(D_407056417,576796184),equals(D_750420077,578416151)))] Miomas uterinos  -> D_846786840
+[509721537,displayif=equals(D_750420077,578416151)] Miomas uterinos  -> D_846786840
 
-[863286658,displayif=or(equals(D_407056417,536341288),and(equals(D_407056417,576796184),equals(D_750420077,578416151)))] Endometriosis -> D_423547108
+[863286658,displayif=equals(D_750420077,578416151)] Endometriosis -> D_423547108
 
-[386524148,displayif=or(equals(D_407056417,536341288),and(equals(D_407056417,576796184),equals(D_750420077,434651539)))] Síndrome del ovario poliquístico (SOP)  -> D_852898339
+[386524148,displayif=equals(D_750420077,434651539)] Síndrome del ovario poliquístico (SOP)  -> D_852898339
 
-[937208760,displayif=or(equals(D_407056417,654207589),and(equals(D_407056417,576796184),equals(D_750420077,700100953)))] Próstata agrandada (hipertrofia prostática benigna)  -> D_467061940
+[937208760,displayif=equals(D_750420077,700100953)] Próstata agrandada (hipertrofia prostática benigna)  -> D_467061940
 
 [746542057] Mamas fibroquísticas u otra enfermedad mamaria benigna (como la enfermedad mamaria benigna proliferativa o el carcinoma lobulillar <i>in situ</i> (CLIS)) -> D_619481697
 
@@ -697,17 +671,17 @@ O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
 
 
 [D_846786840?,displayif=equals(D_725626004,509721537)] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>miomas uterinos </b>?<br/>
-|__|__|xor=UF id=D_206625031 min=0 max=sum(isDefined(D_150344905,age),1)| Edad en el momento del diagnóstico
+|__|__|xor=UF id=D_206625031 min=0 max=_value("age")| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=UF id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año del diagnóstico
+|__|__|__|__|xor=UF id=D_261863326 min=_value("yob") max=#currentYear| Año del diagnóstico
 
 
 [D_423547108?,displayif=equals(D_725626004,863286658)] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>endometriosis</b>?<br/>
-|__|__|xor=ENDO id=D_206625031 min=0 max=sum(isDefined(D_150344905,age),1)| Edad en el momento del diagnóstico
+|__|__|xor=ENDO id=D_206625031 min=0 max=_value("age")| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=ENDO id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año del diagnóstico
+|__|__|__|__|xor=ENDO id=D_261863326 min=_value("yob") max=#currentYear| Año del diagnóstico
 <-> D_266847650 >
 
 [D_266847650?,displayif=equals(D_725626004,863286658)] ¿Le confirmaron la endometriosis con cirugía?
@@ -716,37 +690,39 @@ O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
 
 
 [D_852898339?,displayif=equals(D_725626004,386524148)] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>síndrome del ovario poliquístico (SOP)</b>?<br/>
-|__|__|xor=PCOS id=D_206625031 min=0 max=sum(isDefined(D_150344905,age),1)| Edad en el momento del diagnóstico
+|__|__|xor=PCOS id=D_206625031 min=0 max=_value("age")| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=PCOS id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año del diagnóstico
+|__|__|__|__|xor=PCOS id=D_261863326 min=_value("yob") max=#currentYear| Año del diagnóstico
 
 
-[D_467061940?,displayif=equals(D_725626004,937208760)] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía an <b>próstata agrandada (hipertrofia prostática benigna)</b>?<br/>
-|__|__|xor=ENLGPROS id=D_206625031 min=0 max=sum(isDefined(D_150344905,age),1)| Edad en el momento del diagnóstico
+[D_467061940?,displayif=equals(D_725626004,937208760)] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>próstata agrandada (hipertrofia prostática benigna)</b>?<br/>
+|__|__|xor=ENLGPROS id=D_206625031 min=0 max=_value("age")| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=ENLGPROS id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año del diagnóstico
+|__|__|__|__|xor=ENLGPROS id=D_261863326 min=_value("yob") max=#currentYear| Año del diagnóstico
 
 
 [D_619481697?,displayif=equals(D_725626004,746542057)] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>mamas fibroquísticas u otra enfermedad mamaria benigna</b>?<br/>
-|__|__|xor=BREASTDIS id=D_206625031 min=0 max=sum(isDefined(D_150344905,age),1)| Edad en el momento del diagnóstico
+|__|__|xor=BREASTDIS id=D_206625031 min=0 max=_value("age")| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=BREASTDIS id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año del diagnóstico
+|__|__|__|__|xor=BREASTDIS id=D_261863326 min=_value("yob") max=#currentYear| Año del diagnóstico
 
 
 [D_134642404?,displayif=equals(D_725626004,746542057)] Cuando le dijeron que tiene o tenía mamas fibroquísticas u otra enfermedad mamaria benigna, ¿lo <b>confirmaron con biopsia?</b>
-(353358909) Sí
-(104430631) No
 
+(104430631) No
+(353358909) Sí
+
+< -> D_219956652>
 
 [D_219956652?,displayif=equals(D_725626004,854945381)] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>carcinoma ductal <i>in situ</i> de la mama? </b>?<br/>
-|__|__|xor=BREASTDIS3 id=D_206625031 min=0 max=sum(isDefined(D_150344905,age),1)| Edad en el momento del diagnóstico
+|__|__|xor=BREASTDIS3 id=D_206625031 min=0 max=_value("age")| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=BREASTDIS3 id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año del diagnóstico
-
+|__|__|__|__|xor=BREASTDIS3 id=D_261863326 min=_value("yob") max=#currentYear| Año del diagnóstico
+< -> D_852236900>
 
 [D_852236900?,displayif=equals(D_725626004,854945381)] Cuando le dijeron que tiene o tenía carcinoma ductal <i>in situ</i> de la mama, ¿lo <b>confirmaron con biopsia?</b> 
 (353358909)	Sí
@@ -758,15 +734,16 @@ Nos interesa conocer su salud mental. A continuación, se le preguntará si algu
 
 [D_347860896?] ¿Le ha dicho alguna vez un médico u otro profesional de la salud que tiene o tenía <b>depresión clínica</b>?
 
-(353358909) Sí -> D_301414575
 (104430631) No -> INTROSURG
+(353358909) Sí -> D_301414575
+
 < #NR -> INTROSURG >
 
-[D_301414575?] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía depresión clínica?
-|__|__|xor=DEPRESS2 id=D_206625031 min=0 max=sum(isDefined(D_150344905,age),1)| Edad en el momento del diagnóstico
+[D_301414575?] ¿Qué edad tenía cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>depresión clínica</b>?
+|__|__|xor=DEPRESS2 id=D_206625031 min=0 max=_value("age")| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=DEPRESS2 id=D_261863326 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año del diagnóstico
+|__|__|__|__|xor=DEPRESS2 id=D_261863326 min=_value("yob") max=#currentYear| Año del diagnóstico
 
 [INTROSURG] <b>Procedimientos quirúrgicos</b>
 
@@ -777,53 +754,82 @@ Las siguientes preguntas tratan sobre determinados procedimientos quirúrgicos q
 [797189152] Extirpación quirúrgica de las amígdalas (amigdalectomía) -> D_367884741
 [633546100] Extirpación quirúrgica de la vesícula biliar (colecistectomía) -> D_178353079
 [866002271] Extirpación quirúrgica del apéndice (apendicectomía) -> D_550075233
+[209101810] Extirpación de bazo (esplenectomía) -> D_927516732
+[413734739] Extirpación de la tiroides (tiroidectomía) -> D_552788665
+[215525943] Extirpación de uno o los dos riñones (nefrectomía) -> D_439736294
 [118789503] Liposucción -> D_860920332
 [715563991] Cirugía bariátrica (cerclaje gástrico laparoscópico, derivación gástrica) -> D_986613440
 [533491176] Cirugía mamaria -> D_517307064
-[220755749,displayif=or(equals(D_407056417,536341288),and(equals(D_407056417,576796184),equals(D_750420077,578416151)))] Extirpación quirúrgica del útero (histerectomía)  -> D_150352141
-[465318416,displayif=or(equals(D_407056417,536341288),and(equals(D_407056417,576796184),equals(D_750420077,108025529)))] Ligadura de trompas  -> D_122887481
-[630100221,displayif=or(equals(D_407056417,536341288),and(equals(D_407056417,576796184),equals(D_750420077,434651539)))] Extirpación quirúrgica de uno o ambos ovarios (ooforectomía u ovariectomía)  -> D_378892977
-[692881833,displayif=or(equals(D_407056417,536341288),and(equals(D_407056417,576796184),equals(D_750420077,108025529)))] Extirpación quirúrgica de una o ambas trompas de Falopio (salpingectomía)  -> D_224791140
-[654450030,displayif=or(equals(D_407056417,654207589),and(equals(D_750420077,582784267),equals(D_750420077,751402477)))] Vasectomía -> D_518750011
-[532603425,displayif=or(equals(D_407056417,654207589),equals(D_750420077,751402477))] Extirpación quirúrgica de uno o ambos testículos (orquiectomía u orquidectomía)  -> D_946504570
-[733236542,displayif=or(equals(D_407056417,654207589),equals(D_750420077,700100953))] Extirpación quirúrgica de la próstata (prostatectomía)  -> D_107060069
-[961987554,displayif=or(equals(D_407056417,654207589),equals(D_750420077,582784267))] Amputación quirúrgica del pene (penectomía)  -> D_527057404
+[220755749,displayif=equals(D_750420077,578416151)] Extirpación quirúrgica del útero (histerectomía)  -> D_150352141
+[465318416,displayif=equals(D_750420077,108025529)] Ligadura de trompas  -> D_122887481
+[630100221,displayif=equals(D_750420077,434651539)] Extirpación quirúrgica de uno o ambos ovarios (ooforectomía u ovariectomía)  -> D_378892977
+[692881833,displayif=equals(D_750420077,108025529)] Extirpación quirúrgica de una o ambas trompas de Falopio (salpingectomía)  -> D_224791140
+[654450030,displayif=and(equals(D_750420077,582784267),equals(D_750420077,751402477))] Vasectomía -> D_518750011
+[532603425,displayif=equals(D_750420077,751402477)] Extirpación quirúrgica de uno o ambos testículos (orquiectomía u orquidectomía)  -> D_946504570
+[733236542,displayif=equals(D_750420077,700100953)] Extirpación quirúrgica de la próstata (prostatectomía)  -> D_107060069
+[961987554,displayif=equals(D_750420077,582784267)] Amputación quirúrgica del pene (penectomía)  -> D_527057404
 [535003378*] <b>No</b> se me ha realizado ninguna de estas cirugías 
 < ->D_453252072>
 
 [D_367884741?,displayif=equals(D_624179836,797189152)] ¿A qué edad <b>le extirparon las amígdalas (amigdalectomía)?</b><br/>
-|__|__|xor=TONSILS id=D_623218391 min=0 max=sum(isDefined(D_150344905,age),1)| Edad que tenía cuando lo operaron
+|__|__|xor=TONSILS id=D_623218391 min=0 max=_value("age")| Edad que tenía cuando lo operaron
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=TONSILS id=D_802622485 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año de la cirugía
+|__|__|__|__|xor=TONSILS id=D_802622485 min=_value("yob") max=#currentYear| Año de la cirugía
 
 
 [D_178353079?,displayif=equals(D_624179836,633546100)] ¿A qué edad <b>le extirparon la vesícula biliar (colecistectomía)?</b><br/>
-|__|__|xor=GALLREM id=D_623218391 min=0 max=sum(isDefined(D_150344905,age),1)| Edad que tenía cuando lo operaron
+|__|__|xor=GALLREM id=D_623218391 min=0 max=_value("age")| Edad que tenía cuando lo operaron
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=GALLREM id=D_802622485 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año de la cirugía
+|__|__|__|__|xor=GALLREM id=D_802622485 min=_value("yob") max=#currentYear| Año de la cirugía
 
 
 [D_550075233?,displayif=equals(D_624179836,866002271)] ¿A qué edad <b>le extirparon el apéndice (apendicectomía)?</b><br/>
-|__|__|xor=APPEND id=D_623218391 min=0 max=sum(isDefined(D_150344905,age),1)| Edad que tenía cuando lo operaron
+|__|__|xor=APPEND id=D_623218391 min=0 max=_value("age")| Edad que tenía cuando lo operaron
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=APPEND id=D_802622485 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año de la cirugía
+|__|__|__|__|xor=APPEND id=D_802622485 min=_value("yob") max=#currentYear| Año de la cirugía
+
+ [D_927516732?,displayif=equals(D_624179836,209101810)] ¿Cuántos años tenía cuando le <b>extirparon el bazo (esplenectomía)</b>?
+|__|__|xor=SPLEENREM id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
+
+O, si le es más fácil recordar el año, ingréselo aquí:
+|__|__|__|__|xor=SPLEENREM id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
+
+
+[D_552788665?,displayif=equals(D_624179836,413734739)] ¿Cuántos años tenía cuando le <b>extirparon la tiroides (tiroidectomía)</b>?
+|__|__|xor=THYRDREM id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
+
+O, si le es más fácil recordar el año, ingréselo aquí:
+|__|__|__|__|xor=THYRDREM id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
+
+
+[D_439736294?,displayif=equals(D_624179836,215525943)] ¿Cuál de las siguientes es la mejor descripción del tipo de <b>operación de extirpación de riñón</b> que le hicieron?
+
+(113771607)	Me operaron para extirparme uno de los riñones -> D_216506024
+(668256654)	Me operaron para extirparme los dos riñones -> D_216506024
+(535003378)	Nada de lo anterior 
+
+[D_216506024?,valueIsOneOf("D_439736294",113771607,668256654)] ¿Cuántos años tenía cuando le extirparon uno o los dos riñones (nefrectomía)? Si se ha sometido a más de una intervención, ¿qué edad tenía cuando se sometió a la <b>última</b>? 
+|__|__|xor=KIDREM2 id=D_623218391 min=0 max=_value("age")| Edad al momento de la operación
+
+O, si le es más fácil recordar el año, ingréselo aquí:
+|__|__|__|__|xor=KIDREM2 id=D_802622485 min=_value("yob") max=#currentYear| Año de la operación
 
 
 [D_860920332?,displayif=equals(D_624179836,118789503)] ¿A qué edad le hicieron una <b>liposucción por primera vez?</b>?<br/>
-|__|__|xor=LIPOSUCT id=D_623218391 min=0 max=sum(isDefined(D_150344905,age),1)| Edad que tenía cuando lo operaron
+|__|__|xor=LIPOSUCT id=D_623218391 min=0 max=_value("age")| Edad que tenía cuando lo operaron
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=LIPOSUCT id=D_802622485 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año de la cirugía
+|__|__|__|__|xor=LIPOSUCT id=D_802622485 min=_value("yob") max=#currentYear| Año de la cirugía
 
 
 [D_986613440?,displayif=equals(D_624179836,715563991)] ¿A qué edad tuvo la <b>cirugía bariátrica (cerclaje gástrico laparoscópico, derivación gástrica)</b>?<br/>
-|__|__|xor=BARSUR id=D_623218391 min=0 max=sum(isDefined(D_150344905,age),1)| Edad que tenía cuando lo operaron
+|__|__|xor=BARSUR id=D_623218391 min=0 max=_value("age")| Edad que tenía cuando lo operaron
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=BARSUR id=D_802622485 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año de la cirugía
+|__|__|__|__|xor=BARSUR id=D_802622485 min=_value("yob") max=#currentYear| Año de la cirugía
 
 
 [D_517307064?,displayif=equals(D_624179836,533491176)] ¿Cuál de estas <b>cirugías mamarias</b> ha tenido? No incluya biopsias. Seleccione todas las opciones que correspondan.
@@ -836,84 +842,84 @@ O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
 [256196714] Extirpación de una mama (mastectomía) -> D_428639167
 [802859122] Extirpación de ambas mamas (mastectomía bilateral o doble) -> D_282355641
 [520432394] Cirugía para un absceso mamario (como incisión y drenaje) -> D_539301647
-[667901971] Extirpación de un conducto galactóforo -> D_579225381
+[667901971] Extirpación de un conducto galactóforo (microdoquectomía)-> D_579225381
 [807835037] Otra: describa  |__|id=D_942347130| -> D_891214661
 [535003378*] Ninguna de las anteriores 
 
 [D_477690298?,displayif=equals(D_517307064,752953170)] ¿A qué edad tuvo la <b>cirugía de implantes mamarios</b> (mamoplastia de aumento)?
-|__|__|xor=BREASTSUR0 id=D_623218391 min=0 max=sum(isDefined(D_150344905,age),1)| Edad que tenía cuando la operaron
+|__|__|xor=BREASTSUR0 id=D_623218391 min=0 max=_value("age")| Edad que tenía cuando la operaron
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=BREASTSUR0 id=D_802622485 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año de la cirugía
+|__|__|__|__|xor=BREASTSUR0 id=D_802622485 min=_value("yob") max=#currentYear| Año de la cirugía
 
 [D_176453768?,displayif=equals(D_517307064,325506683)] ¿A qué edad tuvo la <b>cirugía de levantamiento de mamas</b> (mastopexia)?
-|__|__|xor=BREASTSUR1 id=D_623218391 min=0 max=sum(isDefined(D_150344905,age),1)| Edad que tenía cuando la operaron
+|__|__|xor=BREASTSUR1 id=D_623218391 min=0 max=_value("age")| Edad que tenía cuando la operaron
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=BREASTSUR1 id=D_802622485 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año de la cirugía
+|__|__|__|__|xor=BREASTSUR1 id=D_802622485 min=_value("yob") max=#currentYear| Año de la cirugía
 
 [D_145786416?,displayif=equals(D_517307064,335563082)] ¿A qué edad tuvo la <b>cirugía de reconstrucción mamaria</b>?
-|__|__|xor=BREASTSUR2 id=D_623218391 min=0 max=sum(isDefined(D_150344905,age),1)| Edad que tenía cuando la operaron
+|__|__|xor=BREASTSUR2 id=D_623218391 min=0 max=_value("age")| Edad que tenía cuando la operaron
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=BREASTSUR2 id=D_802622485 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año de la cirugía
+|__|__|__|__|xor=BREASTSUR2 id=D_802622485 min=_value("yob") max=#currentYear| Año de la cirugía
 
 [D_287605131?,displayif=equals(D_517307064,955881350)] ¿A qué edad tuvo la <b>cirugía de reducción de mamas</b> (mamoplastia de reducción)?
-|__|__|xor=BREASTSUR3 id=D_623218391 min=0 max=sum(isDefined(D_150344905,age),1)| Edad que tenía cuando la operaron
+|__|__|xor=BREASTSUR3 id=D_623218391 min=0 max=_value("age")| Edad que tenía cuando la operaron
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=BREASTSUR3 id=D_802622485 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año de la cirugía
+|__|__|__|__|xor=BREASTSUR3 id=D_802622485 min=_value("yob") max=#currentYear| Año de la cirugía
 
 [D_701157499?,displayif=equals(D_517307064,492902023)] ¿A qué edad tuvo la <b>extirpación quirúrgica de una parte del tejido mamario </b> (cirugía de conservación de mama, tumorectomía mamaria, mastectomía parcial o mastectomía segmentaria)? 
-|__|__|xor=BREASTSUR4 id=D_623218391 min=0 max=sum(isDefined(D_150344905,age),1)| Edad que tenía cuando la operaron
+|__|__|xor=BREASTSUR4 id=D_623218391 min=0 max=_value("age")| Edad que tenía cuando la operaron
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=BREASTSUR4 id=D_802622485 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año de la cirugía
+|__|__|__|__|xor=BREASTSUR4 id=D_802622485 min=_value("yob") max=#currentYear| Año de la cirugía
 
 [D_428639167?,displayif=equals(D_517307064,256196714)] ¿A qué edad tuvo la <b>extirpación quirúrgica de una mama</b> (mastectomía)? 
-|__|__|xor=BREASTSUR5 id=D_623218391 min=0 max=sum(isDefined(D_150344905,age),1)| Edad que tenía cuando la operaron
+|__|__|xor=BREASTSUR5 id=D_623218391 min=0 max=_value("age")| Edad que tenía cuando la operaron
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=BREASTSUR5 id=D_802622485 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año de la cirugía
+|__|__|__|__|xor=BREASTSUR5 id=D_802622485 min=_value("yob") max=#currentYear| Año de la cirugía
 
 [D_282355641?,displayif=equals(D_517307064,802859122)] ¿A qué edad tuvo la <b>extirpación quirúrgica de ambas mamas</b> (mastectomía bilateral o doble)?
-|__|__|xor=BREASTSUR6 id=D_623218391 min=0 max=sum(isDefined(D_150344905,age),1)| Edad que tenía cuando la operaron
+|__|__|xor=BREASTSUR6 id=D_623218391 min=0 max=_value("age")| Edad que tenía cuando la operaron
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=BREASTSUR6 id=D_802622485 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año de la cirugía
+|__|__|__|__|xor=BREASTSUR6 id=D_802622485 min=_value("yob") max=#currentYear| Año de la cirugía
 
 [D_539301647?,displayif=equals(D_517307064,520432394)] ¿A qué edad tuvo la <b>cirugía para un absceso mamario</b> (como incisión y drenaje)? 
-|__|__|xor=BREASTSUR7 id=D_623218391 min=0 max=sum(isDefined(D_150344905,age),1)| Edad que tenía cuando la operaron
+|__|__|xor=BREASTSUR7 id=D_623218391 min=0 max=_value("age")| Edad que tenía cuando la operaron
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=BREASTSUR7 id=D_802622485 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año de la cirugía
+|__|__|__|__|xor=BREASTSUR7 id=D_802622485 min=_value("yob") max=#currentYear| Año de la cirugía
 
-[D_579225381?,displayif=equals(D_517307064,667901971)] ¿A qué edad tuvo la <b>extirpación quirúrgica de un conducto galactóforo</b>? 
-|__|__|xor=BREASTSUR8 id=D_623218391 min=0 max=sum(isDefined(D_150344905,age),1)| Edad que tenía cuando la operaron
-
-O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=BREASTSUR8 id=D_802622485 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año de la cirugía
-
-[D_891214661?,displayif=equals(D_517307064,807835037)] ¿A qué edad tuvo la |displayif=exists("D_942347130")|<b>{$D_942347130}</b>||displayif=doesNotExist("D_942347130")|<b>otro tipo de cirugía a mamaria</b>|?<br/>
-
-|__|__|xor=BREASTSUR9 id=D_623218391 min=0 max=sum(isDefined(D_150344905,age),1)| Edad que tenía cuando la operaron
+[D_579225381?,displayif=equals(D_517307064,667901971)] ¿A qué edad tuvo la <b>extirpación quirúrgica de un conducto galactóforo </b>(microdoquectomía)? 
+|__|__|xor=BREASTSUR8 id=D_623218391 min=0 max=_value("age")| Edad que tenía cuando la operaron
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=BREASTSUR9 id=D_802622485 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año de la cirugía
+|__|__|__|__|xor=BREASTSUR8 id=D_802622485 min=_value("yob") max=#currentYear| Año de la cirugía
+
+[D_891214661?,displayif=equals(D_517307064,807835037)] ¿A qué edad tuvo la |displayif=exists("D_942347130")|<b>{$D_942347130}</b>||displayif=doesNotExist("D_942347130")|<b>otro tipo de cirugía mamaria</b>|?<br/>
+
+|__|__|xor=BREASTSUR9 id=D_623218391 min=0 max=_value("age")| Edad que tenía cuando la operaron
+
+O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
+|__|__|__|__|xor=BREASTSUR9 id=D_802622485 min=_value("yob") max=#currentYear| Año de la cirugía
 
 
 [D_150352141?,displayif=equals(D_624179836,220755749)] ¿A qué edad tuvo la <b>extirpación quirúrgica del útero (histerectomía)</b>?<br/>
-|__|__|xor=HYSTER id=D_623218391 min=0 max=sum(isDefined(D_150344905,age),1)| Edad que tenía cuando la operaron
+|__|__|xor=HYSTER id=D_623218391 min=0 max=_value("age")| Edad que tenía cuando la operaron
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=HYSTER id=D_802622485 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año de la cirugía
+|__|__|__|__|xor=HYSTER id=D_802622485 min=_value("yob") max=#currentYear| Año de la cirugía
 
 
 [D_122887481?,displayif=equals(D_624179836,465318416)] ¿A qué edad <b>le ligaron las trompas (ligadura de trompas)</b>?<br/>
-|__|__|xor=TUBLIG id=D_623218391 min=0 max=sum(isDefined(D_150344905,age),1)| Edad que tenía cuando la operaron
+|__|__|xor=TUBLIG id=D_623218391 min=0 max=_value("age")| Edad que tenía cuando la operaron
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=TUBLIG id=D_802622485 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año de la cirugía
+|__|__|__|__|xor=TUBLIG id=D_802622485 min=_value("yob") max=#currentYear| Año de la cirugía
 < #NR -> D_378892977 >
 
 [D_378892977?,displayif=equals(D_624179836,630100221)] ¿Cuál de estas opciones describe mejor el tipo de <b>extirpación quirúrgica de ovarios</b> que tuvo?
@@ -924,10 +930,10 @@ O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
 
 [D_534007917?,displayif=and(equals(D_624179836,630100221),or(equals(D_378892977,109972911),equals(D_378892977,333647143)))] ¿Qué edad tenía cuando le extirparon uno o ambos ovarios (ooforectomía u ovariectomía)? Si tuvo más de una operación, ¿a qué edad le hicieron esta operación <b>por última vez?</b><br/>
 
-|__|__|xor=OVARYREM2 id=D_623218391 min=0 max=sum(isDefined(D_150344905,age),1)| Edad que tenía cuando la operaron
+|__|__|xor=OVARYREM2 id=D_623218391 min=0 max=_value("age")| Edad que tenía cuando la operaron
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=OVARYREM2 id=D_802622485 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año de la cirugía
+|__|__|__|__|xor=OVARYREM2 id=D_802622485 min=_value("yob") max=#currentYear| Año de la cirugía
 
 
 [D_224791140?,displayif=equals(D_624179836,692881833)] ¿Cuál de estas opciones describe mejor el tipo de <b>extirpación quirúrgica de trompas de Falopio</b> que tuvo?
@@ -938,17 +944,17 @@ O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
 
 [D_752636038?,displayif=and(equals(D_624179836,692881833),or(equals(D_224791140,537173119),equals(D_224791140,448068764)))] ¿Qué edad tenía cuando le extirparon una o ambas trompas de Falopio (salpingectomía)? Si tuvo más de una operación, ¿a qué edad le hicieron esta operación <b>por última vez?</b> <br/>
 
-|__|__|xor=FTREM2 id=D_623218391 min=0 max=sum(isDefined(D_150344905,age),1)| Edad que tenía cuando la operaron
+|__|__|xor=FTREM2 id=D_623218391 min=0 max=_value("age")| Edad que tenía cuando la operaron
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=FTREM2 id=D_802622485 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año de la cirugía
+|__|__|__|__|xor=FTREM2 id=D_802622485 min=_value("yob") max=#currentYear| Año de la cirugía
 
 
 [D_518750011?,displayif=equals(D_624179836,654450030)] ¿A qué edad tuvo la <b>vasectomía</b>?<br/>
-|__|__|xor=VASEC id=D_623218391 min=0 max=sum(isDefined(D_150344905,age),1)| Edad que tenía cuando lo operaron
+|__|__|xor=VASEC id=D_623218391 min=0 max=_value("age")| Edad que tenía cuando lo operaron
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=VASEC id=D_802622485 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año de la cirugía
+|__|__|__|__|xor=VASEC id=D_802622485 min=_value("yob") max=#currentYear| Año de la cirugía
 
 
 [D_946504570?,displayif=equals(D_624179836,532603425)] ¿Cuál de estas opciones describe mejor el tipo de <b>extirpación quirúrgica de testículos</b> que tuvo?
@@ -958,10 +964,10 @@ O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
 
 
 [D_275770221?,displayif=and(equals(D_624179836,532603425),or(equals(D_946504570,970716952),equals(D_946504570,770550588)))] ¿Qué edad tenía cuando le extirparon uno o ambos testículos (orquiectomía u orquidectomía)? Si tuvo más de una operación, ¿a qué edad le hicieron esta operación <b>por última vez?</b> <br/>
-|__|__|xor=TESTREM2 id=D_623218391 min=0 max=sum(isDefined(D_150344905,age),1)| Edad que tenía cuando lo operaron
+|__|__|xor=TESTREM2 id=D_623218391 min=0 max=_value("age")| Edad que tenía cuando lo operaron
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=TESTREM2 id=D_802622485 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año de la cirugía
+|__|__|__|__|xor=TESTREM2 id=D_802622485 min=_value("yob") max=#currentYear| Año de la cirugía
 
 
 [D_107060069?,displayif=equals(D_624179836,733236542)] ¿Cuál de estas opciones describe mejor el tipo de <b>extirpación quirúrgica de próstata</b> que tuvo? 
@@ -972,23 +978,25 @@ O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
 
 [D_882152987?,displayif=and(equals(D_624179836,733236542),or(equals(D_107060069,500023550),equals(D_107060069,524029283)))] ¿Qué edad tenía cuando le extirparon parte de la próstata o toda (prostatectomía)? Si tuvo más de una operación, ¿a qué edad le hicieron esta operación <b>por última vez?</b> <br/>
 
-|__|__|xor=PROSREM2 id=D_623218391 min=0 max=sum(isDefined(D_150344905,age),1)| Edad que tenía cuando lo operaron
+|__|__|xor=PROSREM2 id=D_623218391 min=0 max=_value("age")| Edad que tenía cuando lo operaron
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=PROSREM2 id=D_802622485 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año de la cirugía
+|__|__|__|__|xor=PROSREM2 id=D_802622485 min=_value("yob") max=#currentYear| Año de la cirugía
 
 
 [D_527057404?,displayif=equals(D_624179836,961987554)] ¿Qué edad tenía cuando le <b>amputaron el pene (penectomía)? </b><br/>
-|__|__|xor=PENREM id=D_623218391 min=0 max=sum(isDefined(D_150344905,age),1)| Edad que tenía cuando lo operaron
+|__|__|xor=PENREM id=D_623218391 min=0 max=_value("age")| Edad que tenía cuando lo operaron
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=PENREM id=D_802622485 minval=difference(difference(#currentYear,isDefined(D_150344905,age)),1) max=#currentYear| Año del diagnóstico
+|__|__|__|__|xor=PENREM id=D_802622485 min=_value("yob") max=#currentYear| Año del diagnóstico
 
 [D_453252072?] <b>Transfusión de sangre</b>
 
 ¿Ha recibido alguna vez una <b>transfusión de sangre? </b>
-(353358909) Sí -> D_795940097
+
 (104430631) No -> D_875208305
+(353358909) Sí -> D_795940097
+
 <#NR -> D_875208305>
 
 [D_795940097?] ¿Cuántas transfusiones de sangre ha recibido en total? 
@@ -996,17 +1004,18 @@ O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
 <#NR -> D_406011084 >
 
 [D_406011084?,displayif=greaterThanOrEqual(D_795940097,1)] ¿A qué edad recibió su <b>primera</b> transfusión de sangre?
-|__|__|xor=BLDTRANS3 id=D_380275309 min=0 max=valueOrDefault("D_150344905","age",100)+1| Edad que tenía cuando recibió la primera transfusión
+|__|__|xor=BLDTRANS3 id=D_380275309 min=0 max=_value("age")| Edad que tenía cuando recibió la primera transfusión
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=BLDTRANS3 id=D_197994844 minval=#currentYear-valueOrDefault("D_150344905","age",100)-1 max=#currentYear| Año de la primera transfusión
+|__|__|__|__|xor=BLDTRANS3 id=D_197994844 min=_value("yob") max=#currentYear| Año de la primera transfusión
 
 
 [D_593017220?,displayif=greaterThan(D_795940097,1)] ¿A qué edad recibió su <b>última</b> transfusión de sangre?
-|__|__|xor=BLDTRANS4 id=D_434556295 min=valueOrDefault("D_380275309",0) max=valueOrDefault("D_150344905","age",100)+1| Edad que tenía cuando recibió la última transfusión
+
+|__|__|xor=BLDTRANS4 id=D_434556295 min=valueOrDefault("D_380275309",0) max=_value("age")| Edad que tenía cuando recibió la última transfusión
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
-|__|__|__|__|xor=BLDTRANS4 id=D_106010694 minval=valueOrDefault("D_197994844",#currentYear-valueOrDefault("D_150344905","age",100)-1) max=#currentYear| Año de la última transfusión
+|__|__|__|__|xor=BLDTRANS4 id=D_106010694 minval=valueOrDefault("D_197994844",_value("yob")) max=#currentYear| Año de la última transfusión
 
 
 [D_875208305?]<b>Salud general </b>
@@ -1047,7 +1056,7 @@ Durante los <b>últimos tres meses</b>, ¿ha sentido algún dolor físico la may
 (597477164) Mucho
 
 
-[D_746012894?] <b>Estatura y peso</b> <br/> <br/> ¿Cuánto pesa sin ropa ni zapatos? |displayif=or(equals(D_407056417,536341288),equals(D_407056417,576796184))|Si está embarazada, ¿cuánto pesaba antes del embarazo?|
+[D_746012894?] <b>Estatura y peso</b> <br/> <br/> ¿Cuánto pesa sin ropa ni zapatos? |displayif=equals(D_407056417,536341288)|Si está embarazada, ¿cuánto pesaba antes del embarazo?|
 <br/>
 |__|__|__|min=0 max=999 softedit=true modalif=value<70 modalvalue='Is this weight correct?'| Núm. de libras (lb)
 
@@ -1058,7 +1067,7 @@ Durante los <b>últimos tres meses</b>, ¿ha sentido algún dolor físico la may
 
 
 [D_677262300?] ¿A qué edad llegó a su estatura adulta? Si no está seguro, dé su mejor aproximación.
-|__|__|min=0 max=sum(isDefined(D_150344905,age),1)| Edad
+|__|__|min=0 max=_value("age")| Edad
 
 
 [D_650399623?] Cuando tenía aproximadamente 10 años, en comparación con una persona promedio de su edad, ¿se describiría como...?
@@ -1073,27 +1082,27 @@ Durante los <b>últimos tres meses</b>, ¿ha sentido algún dolor físico la may
 (839266527) Más gordo que el promedio
 
 
-[D_724181652?] ¿Cuánto pesaba hace tres años? Si no sabe el peso exacto, dé su mejor aproximación. |displayif=or(equals(D_407056417,536341288),equals(D_407056417,576796184))|Si hace tres años estuvo embarazada, ¿cuánto pesaba antes del embarazo?|
+[D_724181652?] ¿Cuánto pesaba hace tres años? Si no sabe el peso exacto, dé su mejor aproximación. |displayif=equals(D_407056417,536341288)|Si hace tres años estuvo embarazada, ¿cuánto pesaba antes del embarazo?|
 <br/>
 |__|__|__|min=0 max=999 softedit=true modalif=value<70 modalvalue='Is this weight correct?'| Núm. de libras  (lbs)
 
 
-[D_912857732?] Las siguientes preguntas tratan sobre cuánto pesaba en diferentes momentos de su vida. Si no recuerda el peso exacto, dé su mejor aproximación. |displayif=or(equals(D_407056417,536341288),equals(D_407056417,576796184))|Si estuvo embarazada en cualquiera de estos momentos, ¿cuánto pesaba antes del embarazo?| ¿Cuánto pesaba cuando tenía...?
+[D_912857732?] Las siguientes preguntas tratan sobre cuánto pesaba en diferentes momentos de su vida. Si no recuerda el peso exacto, dé su mejor aproximación. |displayif=equals(D_407056417,536341288)|Si estuvo embarazada en cualquiera de estos momentos, ¿cuánto pesaba antes del embarazo?| ¿Cuánto pesaba cuando tenía...?
 
-|displayif=greaterThanOrEqual(isDefined(D_150344905,age),18)|a. 18 años|
-|displayif=greaterThanOrEqual(isDefined(D_150344905,age),18)||__|__|__|id=D_821387277 min=0 max=999 softedit=true modalif=value<70 modalvalue='Is the weight correct?'||displayif=greaterThanOrEqual(isDefined(D_150344905,age),18)|NÚM. DE LIBRAS (lbs)|
+|displayif=_value("age") >=18|a. 18 años|
+|displayif=_value("age") >=18||__|__|__|id=D_821387277 min=0 max=999 softedit=true modalif=value<70 modalvalue='Is the weight correct?'||displayif=_value("age") >=18|NÚM. DE LIBRAS (lbs)|
 
-|displayif=greaterThanOrEqual(isDefined(D_150344905,age),25)|b. 25 años|
-|displayif=greaterThanOrEqual(isDefined(D_150344905,age),25)||__|__|__|id=D_121646540 min=0 max=999 softedit=true modalif=value<70 modalvalue='Is the weight correct?'||displayif=greaterThanOrEqual(isDefined(D_150344905,age),25)|NÚM. DE LIBRAS (lbs)|
+|displayif=_value("age") >=25|b. 25 años|
+|displayif=_value("age") >=25||__|__|__|id=D_121646540 min=0 max=999 softedit=true modalif=value<70 modalvalue='Is the weight correct?'||displayif=_value("age") >=25|NÚM. DE LIBRAS (lbs)|
 
-|displayif=greaterThanOrEqual(isDefined(D_150344905,age),35)|c. 35 años|
-|displayif=greaterThanOrEqual(isDefined(D_150344905,age),35)||__|__|__|id=D_950080618 min=0 max=999 softedit=true modalif=value<70 modalvalue='Is the weight correct?'||displayif=greaterThanOrEqual(isDefined(D_150344905,age),35)|NÚM. DE LIBRAS (lbs)|
+|displayif=_value("age") >=35|c. 35 años|
+|displayif=_value("age") >=35||__|__|__|id=D_950080618 min=0 max=999 softedit=true modalif=value<70 modalvalue='Is the weight correct?'||displayif=_value("age") >=35|NÚM. DE LIBRAS (lbs)|
 
-|displayif=greaterThanOrEqual(isDefined(D_150344905,age),45)|d. 45 años|
-|displayif=greaterThanOrEqual(isDefined(D_150344905,age),45)||__|__|__|id=D_407167089 min=0 max=999 softedit=true modalif=value<70 modalvalue='Is the weight correct?'||displayif=greaterThanOrEqual(isDefined(D_150344905,age),45)|NÚM. DE LIBRAS (lbs)|
+|displayif=_value("age") >=45|d. 45 años|
+|displayif=_value("age") >=45||__|__|__|id=D_407167089 min=0 max=999 softedit=true modalif=value<70 modalvalue='Is the weight correct?'||displayif=_value("age") >=45|NÚM. DE LIBRAS (lbs)|
 
-|displayif=greaterThanOrEqual(isDefined(D_150344905,age),55)|e. 55 años|
-|displayif=greaterThanOrEqual(isDefined(D_150344905,age),55)||__|__|__|id=D_503154158 min=0 max=999 softedit=true modalif=value<70 modalvalue='Is the weight correct?'||displayif=greaterThanOrEqual(isDefined(D_150344905,age),55)|NÚM. DE LIBRAS (lbs)|
+|displayif=_value("age") >=55|e. 55 años|
+|displayif=_value("age") >=55||__|__|__|id=D_503154158 min=0 max=999 softedit=true modalif=value<70 modalvalue='Is the weight correct?'||displayif=_value("age") >=55|NÚM. DE LIBRAS (lbs)|
 
 [D_808806810?,displayif=greaterThanOrEqual(percentDiff(D_821387277,D_121646540),.05)] ¿Bajó de peso a propósito cuando tenía entre 18 y 25 años?
 (353358909) Sí
@@ -1152,13 +1161,13 @@ Durante los <b>últimos tres meses</b>, ¿ha sentido algún dolor físico la may
 [448594163] Empezó a fumar o volvió a fumar
 [807835037] Otra: describa  |__|id=D_963867920|
 
-[D_848580651?] ¿Es más bajo de estatura ahora que cuando tenía entre 20 y 40 años?
+[D_848580651?,displayif=_value("age") >= 40] ¿Es más bajo de estatura ahora que cuando tenía entre 20 y 40 años?
 (104430631) No -> D_936904328
 (589959753) Un poco más bajo de estatura
 (623310018) Mucho más bajo de estatura
 < #NR -> D_936904328>
 
-[D_207494582?] ¿Qué tanto más bajo de estatura es ahora comparado a cuando tenía entre 20 y 40 años? Si no está seguro, dé su mejor aproximación.
+[D_207494582?,displayif=_value("age") >= 40] ¿Qué tanto más bajo de estatura es ahora comparado a cuando tenía entre 20 y 40 años? Si no está seguro, dé su mejor aproximación.
 |__|__|min=0 max=10| Pulgadas
 
 
@@ -1169,7 +1178,7 @@ Durante los <b>últimos tres meses</b>, ¿ha sentido algún dolor físico la may
 [601057066] Alrededor de las caderas o los muslos
 
 
-[D_365851428?,displayif=valueIsOneOf("D_289664241",218837028) and valueIsOneOf("D_407056417",536341288) and valueOrDefault("D_150344905","age",39)>=40]<b>Patrón de cabello</b>
+[D_365851428?,displayif=valueIsOneOf("D_407056417",536341288) and _value("age") >= 40]<b>Patrón de cabello</b>
 
 ¿Cuál de estas figuras se parece más a su patrón de cabello <b>a los 40 años?</b>?
 
@@ -1200,7 +1209,7 @@ Durante los <b>últimos tres meses</b>, ¿ha sentido algún dolor físico la may
 |image|episphere.github.io/quest/images/FemaleBaldness9.png|140,140|
 (452963767) Figure 9 –Caída moderada del cabello a los lados de la cabeza en la frente, y de moderada a grave en la parte superior de la cabeza. < -> D_206319592 >
 
-[D_206319592?,displayif=valueIsOneOf("D_289664241",983318667) and valueIsOneOf("D_407056417",654207589) and valueOrDefault("D_150344905","age",39)>=40] <b>Patrón de cabello</b>
+[D_206319592?,displayif=valueIsOneOf("D_407056417",654207589) and _value("age") >= 40] <b>Patrón de cabello</b>
 ¿Cuál de estas figuras se parece más a su patrón de cabello <b>a los 40 años?</b>?
 
 |image|episphere.github.io/quest/images/MaleBaldness1.png|200,340|
@@ -1275,11 +1284,11 @@ Durante los <b>últimos tres meses</b>, ¿ha sentido algún dolor físico la may
 [807835037] Otra: describa  |__|id=D_787193493|
 
 [D_109544008?] ¿Cuántos años tenía cuando usó <b>por primera vez</b> medicamento para tratar el cabello escaso o la caída del cabello?
-|__|__|min=0 max=sum(isDefined(D_150344905,age),1)| Edad
+|__|__|min=0 max=_value("age")| Edad
 
 [D_186831207?] ¿Cuántos años tenía la <b>última vez</b> que usó medicamento para tratar el cabello escaso o la caída del cabello? Si actualmente usa medicamento para tratar el cabello escaso o la caída del cabello, anote su edad actual.
 
-|__|__|min=0 max=sum(isDefined(D_150344905,age),1)| Edad
+|__|__|min=0 max=_value("age")| Edad
 
 [D_283634623?] <b>Acné</b>
 
@@ -1291,7 +1300,7 @@ Durante los <b>últimos tres meses</b>, ¿ha sentido algún dolor físico la may
 
 [D_164752169?] ¿Cuántos años tenía cuando consultó <b>por primera vez</b> a un médico u otro profesional de la salud por un acné grave o persistente? 
 
-|__|__|min=0 max=sum(isDefined(D_150344905,age),1)| Edad
+|__|__|min=0 max=_value("age")| Edad
 < #NR -> D_512167179 >
 
 [D_512167179?] ¿Ha usado alguna vez medicamentos recetados para tratar el acné grave o persistente? 
@@ -1302,12 +1311,12 @@ Durante los <b>últimos tres meses</b>, ¿ha sentido algún dolor físico la may
 
 [D_509933065?] ¿Cuántos años tenía cuando usó <b>por primera vez</b> medicamentos recetados para tratar el acné grave o persistente?
 
-|__|__|min=0 max=sum(isDefined(D_150344905,age),1)| Edad
+|__|__|min=0 max=_value("age")| Edad
 < #NR -> D_967093163 >
 
 [D_967093163?] ¿Cuántos años tenía la <b>última vez</b> que usó medicamentos recetados para tratar el acné grave o persistente? Si usa actualmente este medicamento recetado, anote su edad actual.
 
-|__|__|min=0 max=sum(isDefined(D_150344905,age),1)| Edad
+|__|__|min=0 max=_value("age")| Edad
 < #NR -> FAMHISTINTRO >
 
 [FAMHISTINTRO] <b>Antecedentes familiares </b> <br/>
@@ -1339,7 +1348,7 @@ Las siguientes preguntas tratan sobre sus antecedentes familiares. Estas pregunt
 
 [D_354326265?] ¿Cuántos años tiene su madre el día de hoy?
 
-|__|__|__|id=D_378988419 minval=max(isDefined(D_150344905,age),5) max=125| Edad de la madre 
+|__|__|__|id=D_378988419 minval=sum(age,5) max=125| Edad de la madre 
 
 [178420302*] No sé
 < -> D_276353712 >
@@ -1349,7 +1358,7 @@ Las siguientes preguntas tratan sobre sus antecedentes familiares. Estas pregunt
 [178420302*] No sé
 
 
-[D_276353712?] |displayif=equals(D_170440011,353358909)|¿Le ha dicho alguna vez un médico u otro profesional de la salud que su madre tiene o tenía algún tipo de <b>cáncer</b>?| |displayif=or(equals(D_170440011,104430631),or(equals(D_170440011,178420302),equals(D_170440011,undefined)))|¿Le dijo alguna vez un médico u otro profesional de la salud que su madre tenía algún tipo de <b>cáncer</b>?|
+[D_276353712?] |displayif=equals(D_170440011,353358909)|¿Le ha dicho alguna vez un médico u otro profesional de la salud que su madre tiene o tenía algún tipo de <b>cáncer</b>?| |displayif=doesNotEqual(D_170440011,353358909)|¿Le dijo alguna vez un médico u otro profesional de la salud que su madre tenía algún tipo de <b>cáncer</b>?|
 
 (104430631) No -> D_367374606
 (353358909) Sí -> D_814510313
@@ -1550,7 +1559,7 @@ O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
 < #NR -> D_659784914 >
 
 [D_178774803?] ¿Cuántos años tiene su padre el día de hoy?
-|__|__|__|id=D_334956961 minval=max(isDefined(D_150344905,age),5) max=125| Edad del padre 
+|__|__|__|id=D_334956961 minval=sum(age,5) max=125| Edad del padre 
 [178420302*] No sé
 < -> D_659784914 >
 
@@ -1559,7 +1568,7 @@ O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
 [178420302*] No sé
 
 
-[D_659784914?] |displayif=equals(D_367374606,353358909)|¿Le ha dicho alguna vez un médico u otro profesional de la salud que su padre tiene o tenía algún tipo de <b>cáncer</b>?||displayif=or(equals(D_367374606,104430631),or(equals(D_367374606,178420302),equals(D_367374606,undefined)))|¿Le dijo alguna vez un médico u otro profesional de la salud que su padre tenía algún tipo de <b>cáncer</b>?|
+[D_659784914?] |displayif=equals(D_367374606,353358909)|¿Le ha dicho alguna vez un médico u otro profesional de la salud que su padre tiene o tenía algún tipo de <b>cáncer</b>?||displayif=doesNotEqual(D_367374606,353358909)|¿Le dijo alguna vez un médico u otro profesional de la salud que su padre tenía algún tipo de <b>cáncer</b>?|
 (104430631) No -> SIB
 (353358909) Sí -> D_173240848
 (178420302) No sé -> SIB
@@ -1762,11 +1771,10 @@ Si esto <b>no</b> es correcto, seleccione el botón “Atrás” para actualizar
 <br/>
 |__|
 
-[D_579563781?] En cuanto a |displayif=equals(isNotDefined(D_406098499,false),false)|{$D_406098499}||displayif=doesNotEqual(isNotDefined(D_406098499,false),false)|su hermano||displayif=and(doesNotEqual(isNotDefined(D_406098499,false),false),greaterThan(#loop,1))|, el que le sigue a ese||displayif=and(and(doesNotEqual(isNotDefined(D_406098499,false),false),equals(#loop,1)),doesNotEqual(D_694265648,1))|, el mayor|, ¿qué sexo biológico se le asignó a este hermano al nacer?
+[D_579563781?] En cuanto a |displayif=equals(isNotDefined(D_406098499,false),false)|{$D_406098499}||displayif=doesNotEqual(isNotDefined(D_406098499,false),false)|su hermano|,|displayif=and(doesNotEqual(isNotDefined(D_406098499,false),false),greaterThan(#loop,1))| el que le sigue a ese,||displayif=and(and(doesNotEqual(isNotDefined(D_406098499,false),false),equals(#loop,1)),doesNotEqual(D_694265648,1))| el mayor,| ¿De qué sexo es este hermano?
 
 (536341288) Femenino
 (654207589) Masculino
-(576796184) Intersexual u otro
 (178420302) No sé
 
 [D_807431780?,displayif=valueIsOneOf("D_992987417",353358909,288105839,626558982)] Dijo que tiene un gemelo o que nació de otro parto múltiple, por ejemplo, es trillizo, cuatrillizo, etc. ¿Este hermano es su gemelo o trillizo, etc.?
@@ -1999,7 +2007,7 @@ O, si le es más fácil recordar en qué año, anótelo aquí: <br/>
 
 	Nombre/Apodo: |displayif=valueLength("D_406098499")>0|{$D_406098499}|<br/><br/>
 
-	Sexo: |displayif=equals(D_579563781,536341288)|Femenino||displayif=equals(D_579563781,654207589)|Masculino||displayif=equals(D_579563781,576796184)|Intersexual u otro||displayif=equals(D_579563781,178420302)| No sé|<br/><br/>
+	Sexo: |displayif=equals(D_579563781,536341288)|Femenino||displayif=equals(D_579563781,654207589)|Masculino||displayif=equals(D_579563781,178420302)| No sé|<br/><br/>
 
 	 |displayif=allExist("D_807431780","D_578895128")|Su hermano es su mellizo, trillizo o de un parto múltiple:||displayif=equals(D_807431780,353358909)| Sí||displayif=equals(D_807431780,104430631)| No|<br/><br/>
 
@@ -2032,11 +2040,10 @@ Si esto <b>no</b> es correcto, seleccione el botón “Atrás” para actualizar
 |__|
 
 
-[D_887697329?] En cuanto a |displayif=equals(isNotDefined(D_714001034,false),false)|{$D_714001034}||displayif=doesNotEqual(isNotDefined(D_714001034,false),false)|su hijo||displayif=and(doesNotEqual(isNotDefined(D_714001034,false),false),greaterThan(#loop,1))|, el que le sigue a ese||displayif=and(and(doesNotEqual(isNotDefined(D_714001034,false),false),equals(#loop,1)),doesNotEqual(D_446999144,1))|, el mayor|, ¿qué sexo biológico se le asignó a este hijo al nacer?
+[D_887697329?] En cuanto a |displayif=equals(isNotDefined(D_714001034,false),false)|{$D_714001034}||displayif=doesNotEqual(isNotDefined(D_714001034,false),false)|su hijo|,|displayif=and(doesNotEqual(isNotDefined(D_714001034,false),false),greaterThan(#loop,1))| el que le sigue a ese,||displayif=and(and(doesNotEqual(isNotDefined(D_714001034,false),false),equals(#loop,1)),doesNotEqual(D_446999144,1))| el mayor,| ¿De qué sexo es este hijo?
 
 (536341288) Femenino
 (654207589) Masculino
-(576796184) Intersexual u otro
 (178420302) No sé
 
 [D_473529484?,displayif=greaterThan(D_446999144,1)] ¿Tiene este hijo un gemelo o nació de otro parto múltiple, por ejemplo, es trillizo, cuatrillizo, etc.?
@@ -2278,7 +2285,7 @@ O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
 [CHILDSUM,displayif=selectionCount("D_812370563",true)>0 or valueLength("D_933110091")>0] El siguiente es un resumen de la información que nos dio sobre este(a) hermano(a). Si alguna parte de la información es incorrecta, seleccione el botón “Atrás” para actualizar sus respuestas. Si toda la información es correcta, seleccione el botón “Siguiente” para avanzar.
 
 	Nombre/Apodo:  |displayif=valueLength("D_714001034")>0|{$D_714001034}|<br/>
-	Sexo: |displayif=equals(D_887697329,536341288)|Femenino||displayif=equals(D_887697329,654207589)|Masculino||displayif=equals(D_887697329,576796184)|Intersexual u otro||displayif=equals(D_887697329,178420302)|No sé |<br/>
+	Sexo: |displayif=equals(D_887697329,536341288)|Femenino||displayif=equals(D_887697329,654207589)|Masculino||displayif=equals(D_887697329,178420302)|No sé |<br/>
 	 |displayif=allExist("D_473529484","D_812370563")|Nacido como mellizo, trillizo o de un parto múltiple: ||displayif=equals(D_473529484,353358909)| Sí||displayif=equals(D_473529484,104430631)| No|<br/>
 	Relación:  |displayif=equals(D_873968217,709650750)| Un hijo biológico| |displayif=equals(D_873968217,810290359)|Adoptado||displayif=equals(D_873968217,509607548)|Un hijastro||displayif=equals(D_873968217,784922042)|Tiene otro tipo de parentesco conmigo|<br/>
 	Alguna vez tuvo cáncer: |displayif=equals(D_718867914,104430631)| No||displayif=equals(D_718867914,353358909)| Sí||displayif=equals(D_718867914,178420302)|No sé |	<br/> 
@@ -2290,7 +2297,7 @@ Tipo(s) de cáncer:  |displayList(valueIsOneOf("D_812370563",939782495),"De ano"
 
 [SECTION5] <b>Educación y empleo </b>
 
-En las siguientes preguntas, se le pide más información sobre sus antecedentes, incluso sobre su educación y trabajo.
+En las siguientes preguntas, se le pide más información sobre sus antecedentes, incluso sobre su educación y trabajo, así como su empleo <b>actual</b> y el empleo <b>en el que ha trabajado por más tiempo</b>.
 
 [D_367803647?] ¿Cuál es el nivel más alto de educación escolar que completó?
 (978204320) Escuela primaria (grados 1 a 8)
@@ -2327,13 +2334,13 @@ En las siguientes preguntas, se le pide más información sobre sus antecedentes
 
 
 
-[D_796828094?] ¿Cuáles son sus principales tareas y actividades en este trabajo? Sea descriptivo. Por ejemplo, construyó viviendas residenciales, llevó a pacientes de la casa a consultas médicas, ayudó a alumnos de primaria con necesidades especiales.
+[D_796828094?] ¿Cuáles son sus principales tareas y actividades en su trabajo <b>actual</b>? Sea descriptivo. Por ejemplo, construyó viviendas residenciales, llevó a pacientes de la casa a consultas médicas, ayudó a alumnos de primaria con necesidades especiales.
 |__|size=50|
 
 
 [D_761310265?]
 
-[D_434316600?] ¿Cuál era el nombre de su empleador en este trabajo?
+[D_434316600?] ¿Cuál era el nombre de su empleador en este trabajo <b>actual</b>?
 
 |__|size=50|
 
@@ -2356,39 +2363,42 @@ En las siguientes preguntas, se le pide más información sobre sus antecedentes
 [178420302*] No sé
 
 
-[D_868232409?] ¿Qué productos fabricaba o qué servicios prestaba este empleador? Si son varios, indique el producto o el servicio que estaba relacionado con su unidad de trabajo. Por ejemplo: refacciones de automóviles, construcción de viviendas residenciales, servicios de contabilidad, investigaciones farmacéuticas, etc. 
+[D_868232409?] ¿Qué productos fabricaba o qué servicios prestaba su empleador? Si son varios, indique el producto o el servicio que estaba relacionado con su unidad de trabajo. Por ejemplo: refacciones de automóviles, construcción de viviendas residenciales, servicios de contabilidad, investigaciones farmacéuticas, etc. 
 
 |___| 
-< #NR -> D_686172464>
-
-[D_739294356?] ¿Cuántos años lleva trabajando en ese empleo?
-
-|__|__|min=0 max=sum(isDefined(D_150344905,age),1)| Núm. de años
 
 
-[D_847533056?] ¿Es este el empleo en el que ha trabajado por más tiempo? 
-(353358909) Sí  -> D_759004335
+[D_739294356?] ¿Cuántos años lleva trabajando en su empleo <b>actual</b>?
+
+|__|__|min=0 max=_value("age")| Núm. de años
+
+
+[D_847533056?] ¿Es su el empleo <b>actual</b> en <b>el que ha trabajado por más tiempo</b>? 
+
 (104430631) No -> D_118061122
+(353358909) Sí  -> D_759004335
+
 < #NR -> D_118061122 >
 
 [D_403258164?] ¿Ha tenido alguna vez un trabajo remunerado (a tiempo completo o parcial)?
 
-(353358909) Sí -> D_118061122
 (104430631) No -> D_759004335
+(353358909) Sí -> D_118061122
+
 < #NR -> D_759004335 >
 
-[D_118061122?] ¿Cuál es el empleo en el que ha trabajado por más tiempo? Describa. Por ejemplo, maestro de matemáticas de preparatoria (bachillerato), enfermero de urgencias, pintor de automóviles, etc.
+[D_118061122?] ¿Cuál es el puesto de trabajo <b>que ha tenido por más tiempo</b>? Describa. Por ejemplo, maestro de matemáticas de preparatoria (bachillerato), enfermero de urgencias, pintor de automóviles, etc.
 
 |__|size=50|
 
 
-[D_518387017?] ¿Cuáles son sus principales tareas y actividades en este trabajo? Sea descriptivo. Por ejemplo, construyó viviendas residenciales, llevó a pacientes de la casa a consultas médicas, ayudó a alumnos de primaria con necesidades especiales.
+[D_518387017?] ¿Cuáles eran sus principales tareas y actividades en el empleo <b>en el que ha trabajado por más tiempo</b>? Sea descriptivo. Por ejemplo, construyó viviendas residenciales, llevó a pacientes de la casa a consultas médicas, ayudó a alumnos de primaria con necesidades especiales.
 
 |__|size=50|
 
 [D_279637054?]
 
-[D_988878019?] ¿Cuál era el nombre de su empleador en el lugar en el que trabajó por más tiempo?
+[D_988878019?] ¿Cuál era el nombre de su empleador en el lugar <b>en el que trabajó por más tiempo</b>?
 |__|size=50|
 
 
@@ -2417,7 +2427,7 @@ En las siguientes preguntas, se le pide más información sobre sus antecedentes
 
 [D_686172464?] ¿Cuántos años trabajó en ese empleo?
 
-|__|__|min=0 max=sum(isDefined(D_150344905,age),1)| Núm. de años
+|__|__|min=0 max=_value("age")| Núm. de años
 
 [D_759004335?] ¿Cuál de estas opciones describe mejor los ingresos familiares combinados totales de su hogar durante los <b>últimos 12 meses</b>? Esto debe incluir el dinero ganado de todos los lugares: salarios o sueldos, alquileres de propiedades, ingresos por inversiones, Seguro Social, prestaciones por discapacidad o para veteranos, prestaciones por desempleo, indemnizaciones laborales, pagos de manutención de hijos, pensiones alimentarias, etc. Responda con los montos antes de impuestos.
 
@@ -2438,49 +2448,6 @@ En las siguientes preguntas, se le pide más información sobre sus antecedentes
 |__|__|id=D_173508724 min=1 max=99| Número de personas que viven en el hogar
 
 [746038746*] Prefiero no responder 
-
-[INTROCNT] <b>Otra información de contacto</b>
-
-Nos gustaría estar en contacto con usted mientras participa en el estudio. Dennos más información de contacto para que podamos comunicarnos con usted en el futuro. 
-
-[D_646504105?] Cuando se inscribió en este estudio, nos dio su dirección postal. ¿Hay alguna otra dirección postal que use?
-(353358909) Sí -> D_857915436
-(104430631) No -> D_986275155
-
-[D_857915436?] ¿Cuál es la dirección?
-
-Línea 1 (calle, apartado de correos, camino rural)
-|__|id=D_284580415|
-
-Línea 2 (departamento, suite, unidad, edificio)
-|__|id=D_728926441|
-
-Ciudad
-|__|id=D_907038282|
-
-Estado
-|state|id=D_970839481|
-
-Código postal
-|__|id=D_379899229|
-
-[D_986275155?] A veces, nos enteramos de que las personas se han mudado cuando intentamos contactarlas de nuevo. Sería muy útil que nos diera los datos de contacto de alguien cercano a usted (como un pariente o un amigo) que estuviera dispuesto a que lo contactemos en caso de que no pudiéramos comunicarnos con usted. Deje esta sección en blanco si no desea dar estos datos de contacto adicionales.
-
-Nombre
-|__|id=D_661719912|
-Apellido
-|__|id=D_801653230|
-
-
-[D_285718391?] ¿Cómo podemos contactar a esta persona?
-Teléfono móvil
-|tel|id=D_286149234|
-
-Teléfono de casa
-|tel|id=D_318130543|
-
-Correo electrónico
-|@|id=D_750097000|
 
 [D_431721131?] ¿Quién respondió a esta sección del cuestionario?
 (589702540) El participante del estudio respondió el cuestionario
