@@ -1,23 +1,133 @@
-// This file was transformed using the mapping data in Quest-2024-05-09-20-33-16_Transformation.json.
+// This file was transformed using the mapping data in Quest-2024-11-14-21-16-47_Transformation.json.
+
+// JSON ERROR --> Concept ID collision for ID: 596318751 | there are unexpected collisions between Quest ID(s): [CURWORK1, CURWORKPOSTPAN1, CURWORKPOSTPAN2, CURWORKPOSTPAN3]
+// JSON ERROR --> Concept ID collision for ID: 784119588 | there are unexpected collisions between Quest ID(s): [SRVBLU_LANGUAGE_V1R0, SRVBOH_LANGUAGE_V1R0, SRVBUM_LANGUAGE_V1R0, SRVCOE_LANGUAGE_V1R0, SRVCOV_LANGUAGE_V1R0, SRVLAW_LANGUAGE_V1R0, SRVMC_LANGUAGE_V1R0, SRVMRE_LANGUAGE_V1R0, SRVMW_LANGUAGE_V1R0, SRVQOL_LANGUAGE_V1R0, SRVSAS_LANGUAGE_V1R0, SRVSCR_LANGUAGE_V1R0, SRVSSN_LANGUAGE_V1R0]
+// JSON ERROR --> Concept ID collision for ID: 550075233 | there are unexpected collisions between Quest ID(s): [APPEND, SRVSCR_APPENDAGE_V1R0, SRVSCR_APPENDYR_V1R0]
+// JSON ERROR --> Concept ID collision for ID: 986613440 | there are unexpected collisions between Quest ID(s): [BARSUR, SRVSCR_BARSURAGE_V1R0, SRVSCR_BARSURYR_V1R0]
+// JSON ERROR --> Concept ID collision for ID: 477690298 | there are unexpected collisions between Quest ID(s): [BREASTSUR0, SRVSCR_BREASTSUR0AGE_V1R0, SRVSCR_BREASTSUR0YR_V1R0]
+// JSON ERROR --> Concept ID collision for ID: 176453768 | there are unexpected collisions between Quest ID(s): [BREASTSUR1, SRVSCR_BREASTSUR1AGE_V1R0, SRVSCR_BREASTSUR1YR_V1R0]
+// JSON ERROR --> Concept ID collision for ID: 145786416 | there are unexpected collisions between Quest ID(s): [BREASTSUR2, SRVSCR_BREASTSUR2AGE_V2R0, SRVSCR_BREASTSUR2YR_V2R0]
+// JSON ERROR --> Concept ID collision for ID: 287605131 | there are unexpected collisions between Quest ID(s): [BREASTSUR3, SRVSCR_BREASTSUR3AGE_V1R0, SRVSCR_BREASTSUR3YR_V1R0]
+// JSON ERROR --> Concept ID collision for ID: 701157499 | there are unexpected collisions between Quest ID(s): [BREASTSUR4, SRVSCR_BREASTSUR4AGE_V1R0, SRVSCR_BREASTSUR4YR_V1R0]
+// JSON ERROR --> Concept ID collision for ID: 428639167 | there are unexpected collisions between Quest ID(s): [BREASTSUR5, SRVSCR_BREASTSUR5AGE_V1R0, SRVSCR_BREASTSUR5YR_V1R0]
+// JSON ERROR --> Concept ID collision for ID: 282355641 | there are unexpected collisions between Quest ID(s): [BREASTSUR6, SRVSCR_BREASTSUR6AGE_V1R0, SRVSCR_BREASTSUR6YR_V1R0]
+// JSON ERROR --> Concept ID collision for ID: 539301647 | there are unexpected collisions between Quest ID(s): [BREASTSUR7, SRVSCR_BREASTSUR7AGE_V1R0, SRVSCR_BREASTSUR7YR_V1R0]
+// JSON ERROR --> Concept ID collision for ID: 579225381 | there are unexpected collisions between Quest ID(s): [BREASTSUR8, SRVSCR_BREASTSUR8AGE_V1R0, SRVSCR_BREASTSUR8YR_V1R0]
+// JSON ERROR --> Concept ID collision for ID: 891214661 | there are unexpected collisions between Quest ID(s): [BREASTSUR9, SRVSCR_BREASTSUR9AGE_V1R0, SRVSCR_BREASTSUR9YR_V1R0]
+// JSON ERROR --> Concept ID collision for ID: 517307064 | there are unexpected collisions between Quest ID(s): [BREASTSUR, SRVSCR_BREASTSUR_V1R0]
+// JSON ERROR --> Concept ID collision for ID: 224791140 | there are unexpected collisions between Quest ID(s): [FTREM, SRVSCR_FALLTUBESURG_V1R0]
+// JSON ERROR --> Concept ID collision for ID: 752636038 | there are unexpected collisions between Quest ID(s): [FTREM2, SRVSCR_FTREM2AGE_V1R0, SRVSCR_FTREM2YR_V1R0]
+// JSON ERROR --> Concept ID collision for ID: 178353079 | there are unexpected collisions between Quest ID(s): [GALLREM, SRVSCR_GALLREMAGE_V1R0, SRVSCR_GALLREMYR_V1R0]
+// JSON ERROR --> Concept ID collision for ID: 150352141 | there are unexpected collisions between Quest ID(s): [HYSTER, SRVSCR_HYSTERAGE_V1R0, SRVSCR_HYSTERYR_V1R0]
+// JSON ERROR --> Concept ID collision for ID: 216506024 | there are unexpected collisions between Quest ID(s): [KIDREM2, SRVSCR_KIDNEYREMAGE_V1R0, SRVSCR_KIDNEYREMYR_V1R0]
+// JSON ERROR --> Concept ID collision for ID: 860920332 | there are unexpected collisions between Quest ID(s): [LIPOSUCT, SRVSCR_LIPOSUCTAGE_V1R0, SRVSCR_LIPOSUCTYR_V1R0]
+// JSON ERROR --> Concept ID collision for ID: 624179836 | there are unexpected collisions between Quest ID(s): [MHGROUP9, SRVSCR_MHGROUP9_V1R1]
+// JSON ERROR --> Concept ID collision for ID: 534007917 | there are unexpected collisions between Quest ID(s): [OVARYREM2, SRVSCR_OVARYREM2AGE_V1R0, SRVSCR_OVARYREM2YR_V1R0]
+// JSON ERROR --> Concept ID collision for ID: 378892977 | there are unexpected collisions between Quest ID(s): [OVARYREM, SRVSCR_OVARYSURG_V1R0]
+// JSON ERROR --> Concept ID collision for ID: 527057404 | there are unexpected collisions between Quest ID(s): [PENREM, SRVSCR_PENREMAGE_V1R0, SRVSCR_PENREMYR_V1R0]
+// JSON ERROR --> Concept ID collision for ID: 882152987 | there are unexpected collisions between Quest ID(s): [PROSREM2, SRVSCR_PROSREM2AGE_V1R0, SRVSCR_PROSREM2YR_V1R0]
+// JSON ERROR --> Concept ID collision for ID: 107060069 | there are unexpected collisions between Quest ID(s): [PROSREM, SRVSCR_PROSREMSURG_V1R0]
+// JSON ERROR --> Concept ID collision for ID: 750420077 | there are unexpected collisions between Quest ID(s): [SEX2, SRVSCR_SEX2_V2R1]
+// JSON ERROR --> Concept ID collision for ID: 927516732 | there are unexpected collisions between Quest ID(s): [SPLEENREM, SRVSCR_SPLEENREMAGE_V1R0, SRVSCR_SPLEENREMYR_V1R0]
+// JSON ERROR --> Concept ID collision for ID: 275770221 | there are unexpected collisions between Quest ID(s): [SRVSCR_TESTREM2AGE_V1R0, SRVSCR_TESTREM2YR_V1R0, TESTREM2]
+// JSON ERROR --> Concept ID collision for ID: 552788665 | there are unexpected collisions between Quest ID(s): [SRVSCR_THYROIDREMAGE_V1R0, SRVSCR_THYROIDREMYR_V1R0, THYRDREM]
+// JSON ERROR --> Concept ID collision for ID: 367884741 | there are unexpected collisions between Quest ID(s): [SRVSCR_TONSILSAGE_V1R0, SRVSCR_TONSILSYR_V1R0, TONSILS]
+// JSON ERROR --> Concept ID collision for ID: 122887481 | there are unexpected collisions between Quest ID(s): [SRVSCR_TUBLIGAGE_V1R0, SRVSCR_TUBLIGYR_V1R0, TUBLIG]
+// JSON ERROR --> Concept ID collision for ID: 518750011 | there are unexpected collisions between Quest ID(s): [SRVSCR_VASECAGE_V1R0, SRVSCR_VASECYR_V1R0, VASEC]
+// JSON ERROR --> Concept ID collision for ID: 946504570 | there are unexpected collisions between Quest ID(s): [SRVSCR_TESTREMSURG_V1R0, TESTREM]
+// JSON ERROR --> Concept ID collision for ID: 847533056 | there are unexpected collisions between Quest ID(s): [LONGESTJOBPOSTPAN, WORK5]
+
+// JSON ERROR --> CURWORKPOSTPAN1 conceptId 596318751 already maps to Quest code: CURWORK1 | conceptId collision
+// JSON ERROR --> CURWORKPOSTPAN2 conceptId 596318751 already maps to Quest code: CURWORK1 | conceptId collision
+// JSON ERROR --> CURWORKPOSTPAN3 conceptId 596318751 already maps to Quest code: CURWORK1 | conceptId collision
+// JSON ERROR --> SRVCOE_LANGUAGE_V1R0 conceptId 784119588 already maps to Quest code: SRVBLU_LANGUAGE_V1R0 | conceptId collision
+// JSON ERROR --> SRVMRE_LANGUAGE_V1R0 conceptId 784119588 already maps to Quest code: SRVBLU_LANGUAGE_V1R0 | conceptId collision
+// JSON ERROR --> SRVSCR_APPENDAGE_V1R0 conceptId 550075233 already maps to Quest code: APPEND | conceptId collision
+// JSON ERROR --> SRVSCR_APPENDYR_V1R0 conceptId 550075233 already maps to Quest code: APPEND | conceptId collision
+// JSON ERROR --> SRVSCR_BARSURAGE_V1R0 conceptId 986613440 already maps to Quest code: BARSUR | conceptId collision
+// JSON ERROR --> SRVSCR_BARSURYR_V1R0 conceptId 986613440 already maps to Quest code: BARSUR | conceptId collision
+// JSON ERROR --> SRVSCR_BREASTSUR0AGE_V1R0 conceptId 477690298 already maps to Quest code: BREASTSUR0 | conceptId collision
+// JSON ERROR --> SRVSCR_BREASTSUR0YR_V1R0 conceptId 477690298 already maps to Quest code: BREASTSUR0 | conceptId collision
+// JSON ERROR --> SRVSCR_BREASTSUR1AGE_V1R0 conceptId 176453768 already maps to Quest code: BREASTSUR1 | conceptId collision
+// JSON ERROR --> SRVSCR_BREASTSUR1YR_V1R0 conceptId 176453768 already maps to Quest code: BREASTSUR1 | conceptId collision
+// JSON ERROR --> SRVSCR_BREASTSUR2AGE_V2R0 conceptId 145786416 already maps to Quest code: BREASTSUR2 | conceptId collision
+// JSON ERROR --> SRVSCR_BREASTSUR2YR_V2R0 conceptId 145786416 already maps to Quest code: BREASTSUR2 | conceptId collision
+// JSON ERROR --> SRVSCR_BREASTSUR3AGE_V1R0 conceptId 287605131 already maps to Quest code: BREASTSUR3 | conceptId collision
+// JSON ERROR --> SRVSCR_BREASTSUR3YR_V1R0 conceptId 287605131 already maps to Quest code: BREASTSUR3 | conceptId collision
+// JSON ERROR --> SRVSCR_BREASTSUR4AGE_V1R0 conceptId 701157499 already maps to Quest code: BREASTSUR4 | conceptId collision
+// JSON ERROR --> SRVSCR_BREASTSUR4YR_V1R0 conceptId 701157499 already maps to Quest code: BREASTSUR4 | conceptId collision
+// JSON ERROR --> SRVSCR_BREASTSUR5AGE_V1R0 conceptId 428639167 already maps to Quest code: BREASTSUR5 | conceptId collision
+// JSON ERROR --> SRVSCR_BREASTSUR5YR_V1R0 conceptId 428639167 already maps to Quest code: BREASTSUR5 | conceptId collision
+// JSON ERROR --> SRVSCR_BREASTSUR6AGE_V1R0 conceptId 282355641 already maps to Quest code: BREASTSUR6 | conceptId collision
+// JSON ERROR --> SRVSCR_BREASTSUR6YR_V1R0 conceptId 282355641 already maps to Quest code: BREASTSUR6 | conceptId collision
+// JSON ERROR --> SRVSCR_BREASTSUR7AGE_V1R0 conceptId 539301647 already maps to Quest code: BREASTSUR7 | conceptId collision
+// JSON ERROR --> SRVSCR_BREASTSUR7YR_V1R0 conceptId 539301647 already maps to Quest code: BREASTSUR7 | conceptId collision
+// JSON ERROR --> SRVSCR_BREASTSUR8AGE_V1R0 conceptId 579225381 already maps to Quest code: BREASTSUR8 | conceptId collision
+// JSON ERROR --> SRVSCR_BREASTSUR8YR_V1R0 conceptId 579225381 already maps to Quest code: BREASTSUR8 | conceptId collision
+// JSON ERROR --> SRVSCR_BREASTSUR9AGE_V1R0 conceptId 891214661 already maps to Quest code: BREASTSUR9 | conceptId collision
+// JSON ERROR --> SRVSCR_BREASTSUR9YR_V1R0 conceptId 891214661 already maps to Quest code: BREASTSUR9 | conceptId collision
+// JSON ERROR --> SRVSCR_BREASTSUR_V1R0 conceptId 517307064 already maps to Quest code: BREASTSUR | conceptId collision
+// JSON ERROR --> SRVSCR_FALLTUBESURG_V1R0 conceptId 224791140 already maps to Quest code: FTREM | conceptId collision
+// JSON ERROR --> SRVSCR_FTREM2AGE_V1R0 conceptId 752636038 already maps to Quest code: FTREM2 | conceptId collision
+// JSON ERROR --> SRVSCR_FTREM2YR_V1R0 conceptId 752636038 already maps to Quest code: FTREM2 | conceptId collision
+// JSON ERROR --> SRVSCR_GALLREMAGE_V1R0 conceptId 178353079 already maps to Quest code: GALLREM | conceptId collision
+// JSON ERROR --> SRVSCR_GALLREMYR_V1R0 conceptId 178353079 already maps to Quest code: GALLREM | conceptId collision
+// JSON ERROR --> SRVSCR_HYSTERAGE_V1R0 conceptId 150352141 already maps to Quest code: HYSTER | conceptId collision
+// JSON ERROR --> SRVSCR_HYSTERYR_V1R0 conceptId 150352141 already maps to Quest code: HYSTER | conceptId collision
+// JSON ERROR --> SRVSCR_KIDNEYREMAGE_V1R0 conceptId 216506024 already maps to Quest code: KIDREM2 | conceptId collision
+// JSON ERROR --> SRVSCR_KIDNEYREMYR_V1R0 conceptId 216506024 already maps to Quest code: KIDREM2 | conceptId collision
+// JSON ERROR --> SRVSCR_LANGUAGE_V1R0 conceptId 784119588 already maps to Quest code: SRVBLU_LANGUAGE_V1R0 | conceptId collision
+// JSON ERROR --> SRVSCR_LIPOSUCTAGE_V1R0 conceptId 860920332 already maps to Quest code: LIPOSUCT | conceptId collision
+// JSON ERROR --> SRVSCR_LIPOSUCTYR_V1R0 conceptId 860920332 already maps to Quest code: LIPOSUCT | conceptId collision
+// JSON ERROR --> SRVSCR_MHGROUP9_V1R1 conceptId 624179836 already maps to Quest code: MHGROUP9 | conceptId collision
+// JSON ERROR --> SRVSCR_OVARYREM2AGE_V1R0 conceptId 534007917 already maps to Quest code: OVARYREM2 | conceptId collision
+// JSON ERROR --> SRVSCR_OVARYREM2YR_V1R0 conceptId 534007917 already maps to Quest code: OVARYREM2 | conceptId collision
+// JSON ERROR --> SRVSCR_OVARYSURG_V1R0 conceptId 378892977 already maps to Quest code: OVARYREM | conceptId collision
+// JSON ERROR --> SRVSCR_PENREMAGE_V1R0 conceptId 527057404 already maps to Quest code: PENREM | conceptId collision
+// JSON ERROR --> SRVSCR_PENREMYR_V1R0 conceptId 527057404 already maps to Quest code: PENREM | conceptId collision
+// JSON ERROR --> SRVSCR_PROSREM2AGE_V1R0 conceptId 882152987 already maps to Quest code: PROSREM2 | conceptId collision
+// JSON ERROR --> SRVSCR_PROSREM2YR_V1R0 conceptId 882152987 already maps to Quest code: PROSREM2 | conceptId collision
+// JSON ERROR --> SRVSCR_PROSREMSURG_V1R0 conceptId 107060069 already maps to Quest code: PROSREM | conceptId collision
+// JSON ERROR --> SRVSCR_SEX2_V2R1 conceptId 750420077 already maps to Quest code: SEX2 | conceptId collision
+// JSON ERROR --> SRVSCR_SPLEENREMAGE_V1R0 conceptId 927516732 already maps to Quest code: SPLEENREM | conceptId collision
+// JSON ERROR --> SRVSCR_SPLEENREMYR_V1R0 conceptId 927516732 already maps to Quest code: SPLEENREM | conceptId collision
+// JSON ERROR --> SRVSCR_TESTREM2YR_V1R0 conceptId 275770221 already maps to Quest code: SRVSCR_TESTREM2AGE_V1R0 | conceptId collision
+// JSON ERROR --> SRVSCR_THYROIDREMYR_V1R0 conceptId 552788665 already maps to Quest code: SRVSCR_THYROIDREMAGE_V1R0 | conceptId collision
+// JSON ERROR --> SRVSCR_TONSILSYR_V1R0 conceptId 367884741 already maps to Quest code: SRVSCR_TONSILSAGE_V1R0 | conceptId collision
+// JSON ERROR --> SRVSCR_TUBLIGYR_V1R0 conceptId 122887481 already maps to Quest code: SRVSCR_TUBLIGAGE_V1R0 | conceptId collision
+// JSON ERROR --> SRVSCR_VASECYR_V1R0 conceptId 518750011 already maps to Quest code: SRVSCR_VASECAGE_V1R0 | conceptId collision
+// JSON ERROR --> TESTREM conceptId 946504570 already maps to Quest code: SRVSCR_TESTREMSURG_V1R0 | conceptId collision
+// JSON ERROR --> TESTREM2 conceptId 275770221 already maps to Quest code: SRVSCR_TESTREM2AGE_V1R0 | conceptId collision
+// JSON ERROR --> THYRDREM conceptId 552788665 already maps to Quest code: SRVSCR_THYROIDREMAGE_V1R0 | conceptId collision
+// JSON ERROR --> TONSILS conceptId 367884741 already maps to Quest code: SRVSCR_TONSILSAGE_V1R0 | conceptId collision
+// JSON ERROR --> TUBLIG conceptId 122887481 already maps to Quest code: SRVSCR_TUBLIGAGE_V1R0 | conceptId collision
+// JSON ERROR --> VASEC conceptId 518750011 already maps to Quest code: SRVSCR_VASECAGE_V1R0 | conceptId collision
+// JSON ERROR --> WORK5 conceptId 847533056 already maps to Quest code: LONGESTJOBPOSTPAN | conceptId collision
 
 // JSON WARNING --> Concept ID 101310722 with concept "# Pills per day" is shared between these Textbox codes: [ACIDSUP3_1A, ACIDSUP3_2A, ACIDSUP3_3A, CHOLHTN3_1A, CHOLHTN3_2A, INSULIN3_1A, METFOR3_1A, PAINREL3_1A, PAINREL3_2A, PAINREL3_3A, PAINREL3_4A, PAINREL3_5A, PAINREL3_6A, PAINREL3_7A]
+// JSON WARNING --> Concept ID 198325058 with concept "Zip code" is shared between these Textbox codes: [CURWORKPOSTPANZIP, CURWORKPOSTPANZIP_FOLLOWUP]
 // JSON WARNING --> Concept ID 206625031 with concept "Age at diagnosis" is shared between these Textbox codes: [ANEMIA_AGE, ARRHYT_AGE, ASTHMA_AGE, BARESO_AGE, BLOODCLOT_AGE, BREASTDIS_AGE, CCD_AGE, CD_AGE, CHESTPAIN_AGE, CHF_AGE, CHILDCANC3A_AGE, CHILDCANC3B_AGE, CHILDCANC3C_AGE, CHILDCANC3D_AGE, CHILDCANC3E_AGE, CHILDCANC3F_AGE, CHILDCANC3G_AGE, CHILDCANC3H_AGE, CHILDCANC3I_AGE, CHILDCANC3J_AGE, CHILDCANC3K_AGE, CHILDCANC3L_AGE, CHILDCANC3M_AGE, CHILDCANC3N_AGE, CHILDCANC3O_AGE, CHILDCANC3P_AGE, CHILDCANC3Q_AGE, CHILDCANC3R_AGE, CHILDCANC3S_AGE, CHILDCANC3T_AGE, CHILDCANC3U_AGE, CHILDCANC3V_AGE, CHILDCANC3W_AGE, CHILDCANC3X_AGE, CHILDCANC3Y_AGE, CHLA_AGE, CHOL_AGE, CKD_AGE, COPD_AGE, CVD_AGE, DADCANC3A_AGE, DADCANC3B_AGE, DADCANC3C_AGE, DADCANC3D_AGE, DADCANC3E_AGE, DADCANC3F_AGE, DADCANC3G_AGE, DADCANC3H_AGE, DADCANC3I_AGE, DADCANC3J_AGE, DADCANC3K_AGE, DADCANC3L_AGE, DADCANC3M_AGE, DADCANC3N_AGE, DADCANC3O_AGE, DADCANC3P_AGE, DADCANC3Q_AGE, DADCANC3R_AGE, DADCANC3S_AGE, DADCANC3T_AGE, DADCANC3U_AGE, DADCANC3V_AGE, DCIS_AGE, DEPRESS2_AGE, DIVERT_AGE, DM2_AGE, ENDO_AGE, ENLGPROS_AGE, GALL_AGE, GENWARTS_AGE, GERD_AGE, GONORR_AGE, GOUT_AGE, GRAVES_AGE, HAYFEVER_AGE, HBVHCV_AGE, HEARTATT_AGE, HEARTVALV_AGE, HIVAIDS_AGE, HPV_AGE, HTN_AGE, IBD_AGE, IBS_AGE, KIDNEY_AGE, LIVCIRR_AGE, LUPUS_AGE, MOMCANC3A_AGE, MOMCANC3B_AGE, MOMCANC3C_AGE, MOMCANC3D_AGE, MOMCANC3E_AGE, MOMCANC3F_AGE, MOMCANC3G_AGE, MOMCANC3H_AGE, MOMCANC3I_AGE, MOMCANC3J_AGE, MOMCANC3K_AGE, MOMCANC3L_AGE, MOMCANC3M_AGE, MOMCANC3N_AGE, MOMCANC3O_AGE, MOMCANC3P_AGE, MOMCANC3Q_AGE, MOMCANC3R_AGE, MOMCANC3S_AGE, MOMCANC3T_AGE, MOMCANC3U_AGE, MOMCANC3V_AGE, MOMCANC3W_AGE, MONO_AGE, PANCREA_AGE, PCOS_AGE, RA_AGE, SHINGLES_AGE, SIBCANC3A_AGE, SIBCANC3B_AGE, SIBCANC3C_AGE, SIBCANC3D_AGE, SIBCANC3E_AGE, SIBCANC3F_AGE, SIBCANC3G_AGE, SIBCANC3H_AGE, SIBCANC3I_AGE, SIBCANC3J_AGE, SIBCANC3K_AGE, SIBCANC3L_AGE, SIBCANC3M_AGE, SIBCANC3N_AGE, SIBCANC3O_AGE, SIBCANC3P_AGE, SIBCANC3Q_AGE, SIBCANC3R_AGE, SIBCANC3S_AGE, SIBCANC3T_AGE, SIBCANC3U_AGE, SIBCANC3V_AGE, SIBCANC3W_AGE, SIBCANC3X_AGE, SIBCANC3Y_AGE, SKINCANC3_AGE, STROKE_AGE, SYPH_AGE, THYROID_AGE, TRICH_AGE, UC_AGE, UF_AGE]
+// JSON WARNING --> Concept ID 232404519 with concept "State/Province" is shared between these Textbox codes: [CURWORKPOSTPANSTATE, CURWORKPOSTPANSTATE_FOLLOWUP]
 // JSON WARNING --> Concept ID 261863326 with concept "Year at diagnosis" is shared between these Textbox codes: [ANEMIA_YEAR, ARRHYT_YEAR, ASTHMA_YEAR, BARESO_YEAR, BLOODCLOT_YEAR, BREASTDIS_YEAR, CCD_YEAR, CD_YEAR, CHESTPAIN_YEAR, CHF_YEAR, CHILDCANC3A_YEAR, CHILDCANC3B_YEAR, CHILDCANC3C_YEAR, CHILDCANC3D_YEAR, CHILDCANC3E_YEAR, CHILDCANC3F_YEAR, CHILDCANC3G_YEAR, CHILDCANC3H_YEAR, CHILDCANC3I_YEAR, CHILDCANC3J_YEAR, CHILDCANC3K_YEAR, CHILDCANC3L_YEAR, CHILDCANC3M_YEAR, CHILDCANC3N_YEAR, CHILDCANC3O_YEAR, CHILDCANC3P_YEAR, CHILDCANC3Q_YEAR, CHILDCANC3R_YEAR, CHILDCANC3S_YEAR, CHILDCANC3T_YEAR, CHILDCANC3U_YEAR, CHILDCANC3V_YEAR, CHILDCANC3W_YEAR, CHILDCANC3X_YEAR, CHILDCANC3Y_YEAR, CHLA_YEAR, CHOL_YEAR, CKD_YEAR, COPD_YEAR, CVD_YEAR, DADCANC3A_YEAR, DADCANC3B_YEAR, DADCANC3C_YEAR, DADCANC3D_YEAR, DADCANC3E_YEAR, DADCANC3F_YEAR, DADCANC3G_YEAR, DADCANC3H_YEAR, DADCANC3I_YEAR, DADCANC3J_YEAR, DADCANC3K_YEAR, DADCANC3L_YEAR, DADCANC3M_YEAR, DADCANC3N_YEAR, DADCANC3O_YEAR, DADCANC3P_YEAR, DADCANC3Q_YEAR, DADCANC3R_YEAR, DADCANC3S_YEAR, DADCANC3T_YEAR, DADCANC3U_YEAR, DADCANC3V_YEAR, DCIS_YEAR, DEPRESS2_YEAR, DIVERT_YEAR, DM2_YEAR, ENDO_YEAR, ENLGPROS_YEAR, GALL_YEAR, GENWARTS_YEAR, GERD_YEAR, GONORR_YEAR, GOUT_YEAR, GRAVES_YEAR, HAYFEVER_YEAR, HBVHCV_YEAR, HEARTATT_YEAR, HEARTVALV_YEAR, HIVAIDS_YEAR, HPV_YEAR, HTN_YEAR, IBD_YEAR, IBS_YEAR, KIDNEY_YEAR, LIVCIRR_YEAR, LUPUS_YEAR, MOMCANC3A_YEAR, MOMCANC3B_YEAR, MOMCANC3C_YEAR, MOMCANC3D_YEAR, MOMCANC3E_YEAR, MOMCANC3F_YEAR, MOMCANC3G_YEAR, MOMCANC3H_YEAR, MOMCANC3I_YEAR, MOMCANC3J_YEAR, MOMCANC3K_YEAR, MOMCANC3L_YEAR, MOMCANC3M_YEAR, MOMCANC3N_YEAR, MOMCANC3O_YEAR, MOMCANC3P_YEAR, MOMCANC3Q_YEAR, MOMCANC3R_YEAR, MOMCANC3S_YEAR, MOMCANC3T_YEAR, MOMCANC3U_YEAR, MOMCANC3V_YEAR, MOMCANC3W_YEAR, MONO_YEAR, PANCREA_YEAR, PCOS_YEAR, RA_YEAR, SHINGLES_YEAR, SIBCANC3A_YEAR, SIBCANC3B_YEAR, SIBCANC3C_YEAR, SIBCANC3D_YEAR, SIBCANC3E_YEAR, SIBCANC3F_YEAR, SIBCANC3G_YEAR, SIBCANC3H_YEAR, SIBCANC3I_YEAR, SIBCANC3J_YEAR, SIBCANC3K_YEAR, SIBCANC3L_YEAR, SIBCANC3M_YEAR, SIBCANC3N_YEAR, SIBCANC3O_YEAR, SIBCANC3P_YEAR, SIBCANC3Q_YEAR, SIBCANC3R_YEAR, SIBCANC3S_YEAR, SIBCANC3T_YEAR, SIBCANC3U_YEAR, SIBCANC3V_YEAR, SIBCANC3W_YEAR, SIBCANC3X_YEAR, SIBCANC3Y_YEAR, SKINCANC3_YEAR, STROKE_YEAR, SYPH_YEAR, THYROID_YEAR, TRICH_YEAR, UC_YEAR, UF_YEAR]
 // JSON WARNING --> Concept ID 314198277 with concept "Last spent time at this address, year" is shared between these Textbox codes: [SEASADDYRS2_10_YEAR, SEASADDYRS2_1_YEAR, SEASADDYRS2_2_YEAR, SEASADDYRS2_3_YEAR, SEASADDYRS2_4_YEAR, SEASADDYRS2_5_YEAR, SEASADDYRS2_6_YEAR, SEASADDYRS2_7_YEAR, SEASADDYRS2_8_YEAR, SEASADDYRS2_9_YEAR]
+// JSON WARNING --> Concept ID 411791779 with concept "Name of employer/company" is shared between these Textbox codes: [CURWORKEMP, CURWORKPOSTPANEMP]
 // JSON WARNING --> Concept ID 434243220 with concept "Months used" is shared between these Textbox codes: [ANYCOMESTMONTH, COMBINEDMONTH, COPIUDMONTH, DEPROPROVMONTH, ESTOTHERMONTH, ESTSKINMONTH, HORCOMPILLMONTH, HORIUDMONTH, HORMEDOTHERMONTH, HORMEDPATCHMONTH, HORMEDRINGMONTH, MINIPILLMONTH, NORPLANTMONTH, ORALESTMONTH, ORALMEDMONTH, PATCHESTMONTH, PRESHOR2MONTH, PROESTMONTH, RINGMONTH, TWOPILLMONTH]
 // JSON WARNING --> Concept ID 451310566 with concept "Months at address" is shared between these Textbox codes: [MONTHADD1, MONTHADD10, MONTHADD2, MONTHADD3, MONTHADD4, MONTHADD5, MONTHADD6, MONTHADD7, MONTHADD8, MONTHADD9]
-// JSON WARNING --> Concept ID 623218391 with concept "Age at surgery" is shared between these Textbox codes: [APPEND_AGE, BARSUR_AGE, BREASTABSS_AGE, BREASTDBLREM_AGE, BREASTIMPLANTS_AGE, BREASTLACTREM_AGE, BREASTLIFT_AGE, BREASTOTH_AGE, BREASTPARTREM_AGE, BREASTRECON_AGE, BREASTREDN_AGE, BREASTREM_AGE, FTREM2_AGE, GALLREM_AGE, HYSTER_AGE, LIPOSUCT_AGE, OVARYREM2_AGE, PENREM_AGE, PROSREM2_AGE, TESTREM2_AGE, TONSILS_AGE, TUBLIG_AGE, VASEC_AGE]
+// JSON WARNING --> Concept ID 623218391 with concept "Age at surgery" is shared between these Textbox codes: [APPEND_AGE, BARSUR_AGE, BREASTABSS_AGE, BREASTDBLREM_AGE, BREASTIMPLANTS_AGE, BREASTLACTREM_AGE, BREASTLIFT_AGE, BREASTOTH_AGE, BREASTPARTREM_AGE, BREASTRECON_AGE, BREASTREDN_AGE, BREASTREM_AGE, FTREM2_AGE, GALLREM_AGE, HYSTER_AGE, KIDREM2_AGE, LIPOSUCT_AGE, OVARYREM2_AGE, PENREM_AGE, PROSREM2_AGE, SPLEENREM_AGE, SRVSCR_APPENDECAGE_V1R1, SRVSCR_BARSURGAGE_V1R1, SRVSCR_BREASTABSCAGE_V1R1, SRVSCR_BREASTDBLREMAGE_V1R1, SRVSCR_BREASTIMPLAGE_V1R1, SRVSCR_BREASTLACREMAGE_V1R1, SRVSCR_BREASTLIFTAGE_V1R1, SRVSCR_BREASTOTHAGE_V1R1, SRVSCR_BREASTPTREMAGE_V1R1, SRVSCR_BREASTRECONAGE_V1R1, SRVSCR_BREASTREDAGE_V1R1, SRVSCR_BREASTREMAGE_V1R1, SRVSCR_CHOLECAGE_V1R1, SRVSCR_HYSTERAGE_V1R1, SRVSCR_LIPOSUCTAGE_V1R1, SRVSCR_NEPHRECTOMYAGE_V1R0, SRVSCR_OOPHORECAGE_V1R1, SRVSCR_PENREMAGE_V1R1, SRVSCR_PROSREMSURGAGE_V1R1, SRVSCR_SALPINGECAGE_V1R1, SRVSCR_SPLENECTOMYAGE_V1R0, SRVSCR_TESTREMSURGAGE_V1R1, SRVSCR_THYROIDECTOMYAGE_V1R0, SRVSCR_TONSILSAGE_V1R1, SRVSCR_TUBLIGAGE_V1R1, SRVSCR_VASECTOMYAGE_V1R1, TESTREM2_AGE, THYRDREM_AGE, TONSILS_AGE, TUBLIG_AGE, VASEC_AGE]
+// JSON WARNING --> Concept ID 703385619 with concept "City" is shared between these Textbox codes: [CURWORKPOSTPANCITY, CURWORKPOSTPANCITY_FOLLOWUP]
 // JSON WARNING --> Concept ID 707805344 with concept "# of Hours" is shared between these Textbox codes: [FALLASLEEPHOURS, LAYINBEDHRS, NONWORKAWAKEBEFOREUPHOURS, NONWORKFALLASLEEPHOURS, OUTSIDEHOURS, WORKDAYOUTSIDEHOURS]
 // JSON WARNING --> Concept ID 765748316 with concept "Days per week" is shared between these Textbox codes: [ACETWEEK, ACIDSUP2_1WK, ACIDSUP2_2WK, ACIDSUP2_3WK, BABYASPRINWEEK, CELECOXIBWEEK, CHOLHTN2_1WK, CHOLHTN2_2WK, IBUPROFENWEEK, INSULIN2_1WK, METFOR2_1WK, NAPROXENWEEK, PAINRELWEEK, REGASPRINWEEK]
 // JSON WARNING --> Concept ID 785412329 with concept "Days per month" is shared between these Textbox codes: [ACETMONTH, ACIDSUP2_1MO, ACIDSUP2_2MO, ACIDSUP2_3MO, BABYASPRINMONTH, CELECOXIBMONTH, CHOLHTN2_1MO, CHOLHTN2_2MO, IBUPROFENMONTH, INSULIN2_1MO, METFOR2_1MO, NAPROXENMONTH, PAINRELMONTH, REGASPRINMONTH]
-// JSON WARNING --> Concept ID 802622485 with concept "Year at surgery" is shared between these Textbox codes: [APPEND_YEAR, BARSUR_YEAR, BREASTABSS_YEAR, BREASTDBLREM_YEAR, BREASTIMPLANTS_YEAR, BREASTLACTREM_YEAR, BREASTLIFT_YEAR, BREASTOTH_YEAR, BREASTPARTREM_YEAR, BREASTRECON_YEAR, BREASTREDN_YEAR, BREASTREM_YEAR, FTREM2_YEAR, GALLREM_YEAR, HYSTER_YEAR, LIPOSUCT_YEAR, OVARYREM2_YEAR, PENREM_YEAR, PROSREM2_YEAR, TESTREM2_YEAR, TONSILS_YEAR, TUBLIG_YEAR, VASEC_YEAR]
+// JSON WARNING --> Concept ID 802622485 with concept "Year at surgery" is shared between these Textbox codes: [APPEND_YEAR, BARSUR_YEAR, BREASTABSS_YEAR, BREASTDBLREM_YEAR, BREASTIMPLANTS_YEAR, BREASTLACTREM_YEAR, BREASTLIFT_YEAR, BREASTOTH_YEAR, BREASTPARTREM_YEAR, BREASTRECON_YEAR, BREASTREDN_YEAR, BREASTREM_YEAR, FTREM2_YEAR, GALLREM_YEAR, HYSTER_YEAR, KIDREM2_YEAR, LIPOSUCT_YEAR, OVARYREM2_YEAR, PENREM_YEAR, PROSREM2_YEAR, SPLEENREM_YEAR, SRVSCR_APPENDECYEAR_V1R0, SRVSCR_BARSURGYEAR_V1R0, SRVSCR_BREASTABSCYR_V1R0, SRVSCR_BREASTDBLREMYR_V1R0, SRVSCR_BREASTIMPLYR_V1R0, SRVSCR_BREASTLACREMYR_V1R0, SRVSCR_BREASTLIFTYR_V1R0, SRVSCR_BREASTOTHYR_V1R0, SRVSCR_BREASTPTREMYR_V1R0, SRVSCR_BREASTRECONYR_V1R0, SRVSCR_BREASTREDYR_V1R0, SRVSCR_BREASTREMYR_V1R0, SRVSCR_CHOLECYEAR_V1R0, SRVSCR_HYSTYEAR_V1R0, SRVSCR_LIPOSUCTYEAR_V1R0, SRVSCR_NEPHRECTOMYYR_V1R0, SRVSCR_OOPHORECYR_V1R0, SRVSCR_PENREMYEAR_V1R0, SRVSCR_PROSREMSURGYR_V1R0, SRVSCR_SALPINGECYR_V1R0, SRVSCR_SPLENECTOMYYR_V1R0, SRVSCR_TESTREMSURGYR_V1R0, SRVSCR_THYROIDECTOMYYR_V1R0, SRVSCR_TONSILSYEAR_V1R0, SRVSCR_TUBLIGYEAR_V1R0, SRVSCR_VASECTOMYYR_V1R0, TESTREM2_YEAR, THYRDREM_YEAR, TONSILS_YEAR, TUBLIG_YEAR, VASEC_YEAR]
 // JSON WARNING --> Concept ID 810608313 with concept "# Servings per day" is shared between these Textbox codes: [EAMAR9ANUM, EAMAR9CNUM, THMAR9ANUM, THMAR9CNUM]
+// JSON WARNING --> Concept ID 831524426 with concept "Country" is shared between these Textbox codes: [CURWORKPOSTPANCOUNTRY, CURWORKPOSTPANCOUNTRY_FOLLOWUP]
 // JSON WARNING --> Concept ID 850393641 with concept "# of Minutes" is shared between these Textbox codes: [FALLASLEEPMIN, LAYINBEDMIN, NONWORKAWAKEBEFOREUPMIN, NONWORKFALLASLEEPMIN, OUTSIDEMIN, WORKDAYOUTSIDEMIN]
+// JSON WARNING --> Concept ID 942347130 with concept "Other breast surgeries: Please describe[text box]" is shared between these Textbox codes: [BREASTSUR_TB, SRVSCR_BREASTOTHERDES_V1R0]
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Thu May 16 09:59:59 2024 -0400 (short timestamp = 2024-05-16-13-59-59)
-//{"version":"1.2"}
+//This file was last modified on Thu Nov 14 06:45:01 2024 -0500 (short timestamp = 2024-11-14-11-45-01)
+//{"version":"1.3"}
 {"name":"D_793330426"}
 
 [SRVCOV_COVIDINTRO_V1R0] <b>Encuesta sobre la COVID-19</b>
@@ -35,9 +145,10 @@ La pandemia de COVID-19 empezó desde el año 2020 en los Estados Unidos. Nos gu
 |__|__| min=1| veces
 
 <loop max=25>
-[D_980800222_V2!,displayif=greaterThanOrEqual(D_860011428,#loop)] ¿Cuándo fue la <b>{##}</b> vez que tuvo COVID-19? Si no está seguro, dé su mejor aproximación.
 
-|month|id=D_686508359 min=valueOrDefault("D_686508359#prev","2020-03") max=#currentYear-#currentMonth|
+[D_980800222_V2!,displayif=greaterThanOrEqual(D_860011428,#loop)] ¿Cuándo fue la <b>{##}</b> vez que tuvo COVID-19? Si no está seguro, dé su mejor aproximación. Si está usando un teléfono o una tableta, pulse el recuadro gris para poner su respuesta.
+
+|month|id=D_686508359 min=valueOrDefault("D_686508359#prev","2020-01") max=#currentYear-#currentMonth|
 
 
 [D_366980310?,displayif=greaterThanOrEqual(D_860011428,#loop)] La {##} vez que tuvo COVID-19, ¿tuvo alguna prueba que dio <b>positiva</b>?
@@ -160,7 +271,7 @@ Durante la {##} vez que tuvo COVID-19, ¿tuvo un choque séptico (una afección 
 
 |__|__| min=0 max=valueOrDefault("D_744230001",180)| días
 
-[SRVCOV_COVSUMMARY_V1R0,displayif=greaterThanOrEqual(D_860011428,#loop)] El siguiente es un resumen de la información que nos dio sobre cuando tuvo COVID-19 la {##} vez. Si alguna parte de la información es incorrecta, seleccione el botón "Atrás" ("Back") para actualizar su respuesta. Si toda la información es correcta, seleccione el botón "Siguiente" ("Next") para avanzar.
+[SRVCOV_COVSUMMARY_V1R0,displayif=greaterThanOrEqual(D_860011428,#loop)] El siguiente es un resumen de la información que nos dio sobre cuando tuvo COVID-19 la {##} vez. Si alguna parte de la información es incorrecta, seleccione el botón "Atrás" para actualizar su respuesta. Si toda la información es correcta, seleccione el botón "Siguiente" para avanzar.
 
 Fecha: |displayif=exists("D_686508359")|{$D_686508359}|<br/>
 Prueba que dio positiva: |displayif=equals(D_366980310,353358909)| Sí||displayif=equals(D_366980310,104430631)| No|<br/>|displayif=equals(D_366980310,178420302)| No estoy seguro| 
@@ -178,7 +289,7 @@ Síntomas presentes:|displayif=equals(D_694503437,353358909)| Sí||displayif=equ
 </loop>
 
 [COV19_SKIP,displayif=and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(doesNotEqual(D_694503437_1_1,353358909),doesNotEqual(D_694503437_2_2,353358909)),doesNotEqual(D_694503437_3_3,353358909)),doesNotEqual(D_694503437_4_4,353358909)),doesNotEqual(D_694503437_5_5,353358909)),doesNotEqual(D_694503437_6_6,353358909)),doesNotEqual(D_694503437_7_7,353358909)),doesNotEqual(D_694503437_8_8,353358909)),doesNotEqual(D_694503437_9_9,353358909)),doesNotEqual(D_694503437_10_10,353358909)),doesNotEqual(D_694503437_11_11,353358909)),doesNotEqual(D_694503437_12_12,353358909)),doesNotEqual(D_694503437_13_13,353358909)),doesNotEqual(D_694503437_14_14,353358909)),doesNotEqual(D_694503437_15_15,353358909)),doesNotEqual(D_694503437_16_16,353358909)),doesNotEqual(D_694503437_17_17,353358909)),doesNotEqual(D_694503437_18_18,353358909)),doesNotEqual(D_694503437_19_19,353358909)),doesNotEqual(D_694503437_20_20,353358909)),doesNotEqual(D_694503437_21_21,353358909)),doesNotEqual(D_694503437_22_22,353358909)),doesNotEqual(D_694503437_23_23,353358909)),doesNotEqual(D_694503437_24_24,353358909)),doesNotEqual(D_694503437_25_25,353358909))]
-Gracias por sus respuestas. Seleccione el botón “Siguiente” ("Next") para avanzar a la siguiente sección.
+Gracias por sus respuestas. Seleccione el botón “Siguiente” para avanzar a la siguiente sección.
 < -> COV23_SKIP >
 
 |grid?|id="D_847578001" displayif=or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(equals(D_694503437_1_1,353358909),equals(D_694503437_2_2,353358909)),equals(D_694503437_3_3,353358909)),equals(D_694503437_4_4,353358909)),equals(D_694503437_5_5,353358909)),equals(D_694503437_6_6,353358909)),equals(D_694503437_7_7,353358909)),equals(D_694503437_8_8,353358909)),equals(D_694503437_9_9,353358909)),equals(D_694503437_10_10,353358909)),equals(D_694503437_11_11,353358909)),equals(D_694503437_12_12,353358909)),equals(D_694503437_13_13,353358909)),equals(D_694503437_14_14,353358909)),equals(D_694503437_15_15,353358909)),equals(D_694503437_16_16,353358909)),equals(D_694503437_17_17,353358909)),equals(D_694503437_18_18,353358909)),equals(D_694503437_19_19,353358909)),equals(D_694503437_20_20,353358909)),equals(D_694503437_21_21,353358909)),equals(D_694503437_22_22,353358909)),equals(D_694503437_23_23,353358909)),equals(D_694503437_24_24,353358909)),equals(D_694503437_25_25,353358909))|<b>COVID-19 persistente</b> <br/> <br/>
@@ -234,7 +345,7 @@ Algunas personas que tuvieron COVID-19 informaron de efectos a largo plazo de su
 (104430631) No
 
 [COV20_SKIP,displayif=noneSelected("D_488415137_0","D_488415137_1","D_167695804_0","D_167695804_1","D_730334054_0","D_730334054_1","D_215996690_0","D_215996690_1","D_462737492_0","D_462737492_1","D_469675296_0","D_469675296_1","D_962475128_0","D_962475128_1","D_989576239_0","D_989576239_1","D_338613869_0","D_338613869_1","D_126794793_0","D_126794793_1","D_218793117_0","D_218793117_1","D_524096053_0","D_524096053_1","D_814101706_0","D_814101706_1","D_635026188_0","D_635026188_1","D_238135048_0","D_238135048_1","D_632714520_0","D_632714520_1")]
-Gracias por sus respuestas. Seleccione el botón “Siguiente” ("Next") para avanzar a la siguiente sección.
+Gracias por sus respuestas. Seleccione el botón “Siguiente” para avanzar a la siguiente sección.
 < -> COV20A17_SKIP >
 
 
@@ -265,7 +376,7 @@ Gracias por sus respuestas. Seleccione el botón “Siguiente” ("Next") para a
 |
 
 [COV20A17_SKIP,displayif=doesNotEqual(D_110872086,707601969)]
-Gracias por sus respuestas. Seleccione el botón “Siguiente” ("Next") para avanzar a la siguiente sección.
+Gracias por sus respuestas. Seleccione el botón “Siguiente” para avanzar a la siguiente sección.
 < -> SRVCOV_COV25INTRO_V1R0 >
 
 [D_934384452?,displayif=equals(D_110872086,707601969)] ¿Cuánto tiempo tuvo |displayif=exists("D_637540387")|{$D_637540387}||displayif=doesNotExist("D_637540387")|estos otros síntomas|?
@@ -285,7 +396,7 @@ días |__|__|__|id=D_908044428|
 < -> SRVCOV_COV25INTRO_V1R0 >
 
 [COV23_SKIP,displayif=and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(and(doesNotEqual(D_494226443,104430631),doesNotEqual(D_494226443,178420302)),doesNotEqual(isDefined(D_494226443,-1),-1)),doesNotEqual(D_498462481_1_1,104430631)),doesNotEqual(D_694503437_1_1,104430631)),doesNotEqual(D_498462481_2_2,104430631)),doesNotEqual(D_694503437_2_2,104430631)),doesNotEqual(D_498462481_3_3,104430631)),doesNotEqual(D_694503437_3_3,104430631)),doesNotEqual(D_498462481_4_4,104430631)),doesNotEqual(D_694503437_4_4,104430631)),doesNotEqual(D_498462481_5_5,104430631)),doesNotEqual(D_694503437_5_5,104430631)),doesNotEqual(D_498462481_6_6,104430631)),doesNotEqual(D_694503437_6_6,104430631)),doesNotEqual(D_498462481_7_7,104430631)),doesNotEqual(D_694503437_7_7,104430631)),doesNotEqual(D_498462481_8_8,104430631)),doesNotEqual(D_694503437_8_8,104430631)),doesNotEqual(D_498462481_9_9,104430631)),doesNotEqual(D_694503437_9_9,104430631)),doesNotEqual(D_498462481_10_10,104430631)),doesNotEqual(D_694503437_10_10,104430631)),doesNotEqual(D_498462481_11_11,104430631)),doesNotEqual(D_694503437_11_11,104430631)),doesNotEqual(D_498462481_12_12,104430631)),doesNotEqual(D_694503437_12_12,104430631)),doesNotEqual(D_498462481_13_13,104430631)),doesNotEqual(D_694503437_13_13,104430631)),doesNotEqual(D_498462481_14_14,104430631)),doesNotEqual(D_694503437_14_14,104430631)),doesNotEqual(D_498462481_15_15,104430631)),doesNotEqual(D_694503437_15_15,104430631)),doesNotEqual(D_498462481_16_16,104430631)),doesNotEqual(D_694503437_16_16,104430631)),doesNotEqual(D_498462481_17_17,104430631)),doesNotEqual(D_694503437_17_17,104430631)),doesNotEqual(D_498462481_18_18,104430631)),doesNotEqual(D_694503437_18_18,104430631)),doesNotEqual(D_498462481_19_19,104430631)),doesNotEqual(D_694503437_19_19,104430631)),doesNotEqual(D_498462481_20_20,104430631)),doesNotEqual(D_694503437_20_20,104430631)),doesNotEqual(D_498462481_21_21,104430631)),doesNotEqual(D_694503437_21_21,104430631)),doesNotEqual(D_498462481_22_22,104430631)),doesNotEqual(D_694503437_22_22,104430631)),doesNotEqual(D_498462481_23_23,104430631)),doesNotEqual(D_694503437_23_23,104430631)),doesNotEqual(D_498462481_24_24,104430631)),doesNotEqual(D_694503437_24_24,104430631)),doesNotEqual(D_498462481_25_25,104430631)),doesNotEqual(D_694503437_25_25,104430631))]
-Gracias por sus respuestas. Seleccione el botón “Siguiente” ("Next") para avanzar a la siguiente sección.
+Gracias por sus respuestas. Seleccione el botón “Siguiente” para avanzar a la siguiente sección.
 < -> SRVCOV_COV25INTRO_V1R0 >
 
 |grid?|id="D_813989715" displayif=or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(or(equals(D_494226443,104430631),equals(D_494226443,178420302)),equals(isDefined(D_494226443,-1),-1)),equals(D_498462481_1_1,104430631)),equals(D_694503437_1_1,104430631)),equals(D_498462481_2_2,104430631)),equals(D_694503437_2_2,104430631)),equals(D_498462481_3_3,104430631)),equals(D_694503437_3_3,104430631)),equals(D_498462481_4_4,104430631)),equals(D_694503437_4_4,104430631)),equals(D_498462481_5_5,104430631)),equals(D_694503437_5_5,104430631)),equals(D_498462481_6_6,104430631)),equals(D_694503437_6_6,104430631)),equals(D_498462481_7_7,104430631)),equals(D_694503437_7_7,104430631)),equals(D_498462481_8_8,104430631)),equals(D_694503437_8_8,104430631)),equals(D_498462481_9_9,104430631)),equals(D_694503437_9_9,104430631)),equals(D_498462481_10_10,104430631)),equals(D_694503437_10_10,104430631)),equals(D_498462481_11_11,104430631)),equals(D_694503437_11_11,104430631)),equals(D_498462481_12_12,104430631)),equals(D_694503437_12_12,104430631)),equals(D_498462481_13_13,104430631)),equals(D_694503437_13_13,104430631)),equals(D_498462481_14_14,104430631)),equals(D_694503437_14_14,104430631)),equals(D_498462481_15_15,104430631)),equals(D_694503437_15_15,104430631)),equals(D_498462481_16_16,104430631)),equals(D_694503437_16_16,104430631)),equals(D_498462481_17_17,104430631)),equals(D_694503437_17_17,104430631)),equals(D_498462481_18_18,104430631)),equals(D_694503437_18_18,104430631)),equals(D_498462481_19_19,104430631)),equals(D_694503437_19_19,104430631)),equals(D_498462481_20_20,104430631)),equals(D_694503437_20_20,104430631)),equals(D_498462481_21_21,104430631)),equals(D_694503437_21_21,104430631)),equals(D_498462481_22_22,104430631)),equals(D_694503437_22_22,104430631)),equals(D_498462481_23_23,104430631)),equals(D_694503437_23_23,104430631)),equals(D_498462481_24_24,104430631)),equals(D_694503437_24_24,104430631)),equals(D_498462481_25_25,104430631)),equals(D_694503437_25_25,104430631))| <b>Efectos de la pandemia en la salud</b> <br/> <br/>
@@ -353,9 +464,9 @@ Muchas personas informaron de problemas relacionados con la vida durante la pand
 
 <loop max=25>
 
-[D_715581797_V2?,displayif=greaterThanOrEqual(D_877074400_V2,#loop)] ¿Cuándo se vacunó con su {##} inyección? 
+[D_715581797_V2?,displayif=greaterThanOrEqual(D_877074400_V2,#loop)] ¿Cuándo se vacunó? Si está usando un teléfono o una tableta, pulse el recuadro gris para poner su respuesta.
 
-|month|id=D_141616126 min=valueOrDefault("D_141616126#prev","2020-03") max=#currentYear-#currentMonth|
+|month|id=D_141616126 min=valueOrDefault("D_141616126#prev","2020-01") max=#currentYear-#currentMonth|
 
 
 [D_220055064?,displayif=greaterThanOrEqual(D_877074400_V2,#loop)] ¿Qué vacuna le pusieron contra la COVID-19?
@@ -368,7 +479,7 @@ Muchas personas informaron de problemas relacionados con la vida durante la pand
 (807835037) Otra |__|id=D_395747093| 
 (178420302) No sé
 
-[SRVCOV_COV29_V1R0,displayif=greaterThanOrEqual(D_877074400_V2,#loop)] El siguiente es un resumen de la información que nos dio sobre su vacunación contra la COVID-19. Si alguna parte de la información es incorrecta, seleccione el botón "Atrás" ("Back") para actualizar sus respuestas. Si toda la información es correcta, seleccione el botón "Siguiente" ("Next") para avanzar.
+[SRVCOV_COV29_V1R0,displayif=greaterThanOrEqual(D_877074400_V2,#loop)] El siguiente es un resumen de la información que nos dio sobre su vacunación contra la COVID-19. Si alguna parte de la información es incorrecta, seleccione el botón "Atrás" para actualizar sus respuestas. Si toda la información es correcta, seleccione el botón "Siguiente" para avanzar.
 
 Número de vacunación: #loop
 Fecha de vacunación: {$D_141616126}
@@ -376,4 +487,4 @@ Vacuna contra el COVID-19: |displayif=equals(D_220055064,661871565)| Moderna||di
 
 </loop>
 
-[END] Respondió a todas las preguntas de este cuestionario. Para enviar sus respuestas, seleccione el botón "Enviar cuestionario" ("Submit Survey").
+[END] Respondió a todas las preguntas de este cuestionario. Para enviar sus respuestas, seleccione el botón "Enviar Encuesta".
