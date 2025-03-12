@@ -53,4 +53,4 @@ If you are using a phone or tablet, please tap the gray box to enter your respon
  
 |date|min=#today-60 max=#today|
  
-[END,end]
+[END,end] |displayif=equals(D_951357171,104430631)|Thank you. When your next menstrual period starts, please return to complete this survey.||displayif=equals(D_951357171,353358909)|You have answered all of the questions in this survey. To submit your answers, select the “Submit Survey” button.|
