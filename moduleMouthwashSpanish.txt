@@ -1,20 +1,8 @@
-// This file was transformed using the mapping data in Quest-2025-01-15-16-17-00_Transformation.json.
+// This file was transformed using the mapping data in Quest-2025-03-11-16-30-15_Transformation.json.
 
-// JSON ERROR --> Concept ID collision for ID: 285545471 | there are unexpected collisions between Quest ID(s): [DRINKSWTR2A_SRC] and Concept(s): [In a usual week, about how often do you drink tap water from your home? We are interested in all tap water, whether or not it has been filtered or treated.]
-// JSON ERROR --> Concept ID collision for ID: 961178879 | there are unexpected collisions between Quest ID(s): [DRINKSWTR2B_SRC] and Concept(s): [In a usual week, about how often do you use tap water from your home to make a cup of coffee? We are interested in all tap water, whether or not it has been filtered or treated.]
-// JSON ERROR --> Concept ID collision for ID: 138116092 | there are unexpected collisions between Quest ID(s): [DRINKSWTR2C_SRC] and Concept(s): [In a usual week, about how often do you use tap water from your home to make a cup of hot tea? We are interested in all tap water, whether or not it has been filtered or treated.]
-// JSON ERROR --> Concept ID collision for ID: 393682471 | there are unexpected collisions between Quest ID(s): [DRINKSWTR2D_SRC] and Concept(s): [In a usual week, about how often do you use tap water from your home to make a glass of iced tea? We are interested in all tap water, whether or not it has been filtered or treated.]
-// JSON ERROR --> Concept ID collision for ID: 364303962 | there are unexpected collisions between Quest ID(s): [DRINKSWTR2E_SRC] and Concept(s): [In a usual week, about how often do you use tap water from your home to make any other beverages or soup? We are interested in all tap water, whether or not it has been filtered or treated.]
-// JSON ERROR --> Concept ID collision for ID: 944517297 | there are unexpected collisions between Quest ID(s): [DRINKSWTR2F_SRC] and Concept(s): [In a usual week, about how often do you use tap water from your home to make [insert response from DRINKSWTR1/other beverages]? We are interested in all tap water, whether or not it has been filtered or treated.]
 // JSON ERROR --> Concept ID collision for ID: 784119588 | there are unexpected collisions between Quest ID(s): [SRVBLU_LANGUAGE_V1R0, SRVBOH_LANGUAGE_V1R0, SRVBUM_LANGUAGE_V1R0, SRVCOE_LANGUAGE_V1R0, SRVCOV_LANGUAGE_V1R0, SRVLAW_LANGUAGE_V1R0, SRVMC_LANGUAGE_V1R0, SRVMRE_LANGUAGE_V1R0, SRVMW_LANGUAGE_V1R0, SRVQOL_LANGUAGE_V1R0, SRVSAS_LANGUAGE_V1R0, SRVSCR_LANGUAGE_V1R0, SRVSSN_LANGUAGE_V1R0]
 // JSON ERROR --> Concept ID collision for ID: 431721131 | there are unexpected collisions between Quest ID(s): [QXAUTHOR1, SRVSCR_WHOCOMPLQX_V1R0]
 
-// JSON ERROR --> DRINKSWTR2A_SRC option DRINKSWTR2A conceptId 285545471 already maps to Quest code: DRINKSWTR2A_SRC | conceptId collision
-// JSON ERROR --> DRINKSWTR2B_SRC option DRINKSWTR2B conceptId 961178879 already maps to Quest code: DRINKSWTR2B_SRC | conceptId collision
-// JSON ERROR --> DRINKSWTR2C_SRC option DRINKSWTR2C conceptId 138116092 already maps to Quest code: DRINKSWTR2C_SRC | conceptId collision
-// JSON ERROR --> DRINKSWTR2D_SRC option DRINKSWTR2D conceptId 393682471 already maps to Quest code: DRINKSWTR2D_SRC | conceptId collision
-// JSON ERROR --> DRINKSWTR2E_SRC option DRINKSWTR2E conceptId 364303962 already maps to Quest code: DRINKSWTR2E_SRC | conceptId collision
-// JSON ERROR --> DRINKSWTR2F_SRC option DRINKSWTR2F conceptId 944517297 already maps to Quest code: DRINKSWTR2F_SRC | conceptId collision
 // JSON ERROR --> SRVCOE_LANGUAGE_V1R0 conceptId 784119588 already maps to Quest code: SRVBLU_LANGUAGE_V1R0 | conceptId collision
 // JSON ERROR --> SRVMRE_LANGUAGE_V1R0 conceptId 784119588 already maps to Quest code: SRVBLU_LANGUAGE_V1R0 | conceptId collision
 // JSON ERROR --> SRVSCR_LANGUAGE_V1R0 conceptId 784119588 already maps to Quest code: SRVBLU_LANGUAGE_V1R0 | conceptId collision
@@ -37,7 +25,7 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Fri Jan 31 09:53:23 2025 -0500 (short timestamp = 2025-01-31-14-53-23)
+//This file was last modified on Mon Mar 10 13:42:04 2025 -0400 (short timestamp = 2025-03-10-17-42-04)
 //This file was last modified on Wed Mar 27 11:54:17 2024 -0400 (short timestamp = 2024-03-27-15-54-17)
 //{"version":"1.1"}
 {"name":"D_390351864"}
@@ -46,7 +34,7 @@
 
 Tenemos algunas preguntas sobre usted y sus antecedentes de salud bucal. Esta información nos ayudará a comprender más a fondo su estado de salud actual y cómo se relaciona con la muestra de enjuague bucal (saliva) que donó.
 
-[D_667908442?] Por favor, responda este cuestionario solamente después de haberse tomado la muestra de enjuague bucal en su casa. Si no lo ha hecho todavía, cierre el cuestionario y vuelva después de haber obtenido su muestra.
+[D_667908442!] Por favor, responda este cuestionario solamente después de haberse tomado la muestra de enjuague bucal en su casa. Si no lo ha hecho todavía, cierre el cuestionario y vuelva después de haber obtenido su muestra.
 
 (668770150) Sí, ya realicé la donación de muestra de enjuague bucal que me tomé en mi casa -> D_350251057
 (141992510) No, regresaré a este cuestionario después de haber realizado la donación de muestra de enjuague bucal tomada en mi casa -> END
