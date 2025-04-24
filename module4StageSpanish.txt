@@ -25,7 +25,7 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Wed Apr 23 13:37:34 2025 -0400 (short timestamp = 2025-04-23-17-37-34)
+//This file was last modified on Wed Apr 23 20:50:39 2025 -0400 (short timestamp = 2025-04-24-00-50-39)
 //{"version":"2.0"}
 {"name":"D_716117817"}
 
@@ -2380,29 +2380,28 @@ Las siguientes preguntas hacen referencia al lugar donde trabaja <b>actualmente<
 
 [D_263959391?] ¿Cuál es el nombre y la dirección del lugar de trabajo al que se desplaza con más frecuencia?
 
-Nombre del empleador o compañía	     |__|id=D_560853245| 
-Número de la calle   |__|id=D_307515427| 			
-Nombre completo de la calle 			|__|id=D_422521705|  
-Apartamento, suite, unidad, edificio, etc.    |__|id=D_146107174|  
-Ciudad 						|__|id=D_627183798|
-Estado o provincia 				|__|id=D_901141257|
-Código postal 					|__|__|id=D_599770535|
-País				|__|id=D_268600708|
+Nombre del empleador o compañía  |__|id=D_560853245|
+Número de la calle  |__|id=D_307515427 minlen=0 maxlen=6|
+Nombre completo de la calle  |__|id=D_422521705|
+Apartamento, suite, unidad, edificio, etc.  |__|id=D_146107174|
+Ciudad  |__|id=D_627183798|
+Estado o provincia  |__|id=D_901141257|
+Código postal  |__|id=D_599770535|
+País  |__|id=D_268600708|
 
 [D_986316055?,displayif=or(or(isNotDefined(D_627183798,false),isNotDefined(D_901141257,false)),or(isNotDefined(D_599770535,false),isNotDefined(D_268600708,false)))] Suministre la siguiente información:
 
-Ciudad 	|displayif=exists("D_627183798")| {$D_627183798}|
-|__|id=D_515150210|
+Ciudad: |displayif=exists("D_627183798")| {$D_627183798}|
+|__|id=D_515150210 displayif=doesNotExist("D_627183798")|
 
-Estado o provincia    |displayif=exists("D_901141257")| {$D_901141257}|
-|__|id=D_182449282|
+Estado o provincia: |displayif=exists("D_901141257")| {$D_901141257}|
+|__|id=D_182449282 displayif=doesNotExist("D_901141257")|
 
-Código postal 	 	|displayif=exists("D_599770535")| {$D_599770535}|
-|__|id=D_609408466|
+Código postal: |displayif=exists("D_599770535")| {$D_599770535}|
+|__|id=D_609408466 displayif=doesNotExist("D_599770535")|
 
-País	|displayif=exists("D_268600708")|{$D_268600708}|
-|__|id=D_702591232|
-
+País: |displayif=exists("D_268600708")|{$D_268600708}|
+|__|id=D_702591232 displayif=doesNotExist("D_268600708")|
 [178420302*]	No sé
 
 
@@ -3204,7 +3203,7 @@ Si esta información <b>no</b> es correcta, haga clic en el botón “Atrás” 
 (104430631) No -> D_251048648
 < #NR -> D_251048648>
 
-[D_839233937?] ¿El desplazamiento de vuelta a casa solía durar más o menos lo mismo que el desplazamiento para ir de su casa a |displayif=or(equals(isNotDefined(D_903896611,""),false),or(equals(isNotDefined(D_855583262,""),false),or(equals(isNotDefined(D_371588177,""),false),or(equals(isNotDefined(D_962868433,""),false),or(equals(isNotDefined(D_652022112,""),false),or(equals(isNotDefined(D_108530997,""),false),or(equals(isNotDefined(D_730666903,""),false),or(equals(isNotDefined(D_110852652,""),false),or(equals(isNotDefined(D_168091937,""),false),or(equals(isNotDefined(D_867109611,""),false),equals(isNotDefined(D_132779701,""),false)))))))))))|<b>{$D_584350267} {$D_840147245} {$D_903896611} {$D_855583262} {$D_371588177} {$D_962868433}{$D_652022112} {$D_108530997}{$D_730666903} {$D_110852652}{$D_168091937} {$D_867109611}{$D_132779701}</b>||displayif=and(equals(isNotDefined(D_903896611,""),true),and(equals(isNotDefined(D_855583262,""),true),and(equals(isNotDefined(D_371588177,""),true),and(equals(isNotDefined(D_962868433,""),true),and(equals(isNotDefined(D_652022112,""),true),and(equals(isNotDefined(D_108530997,""),true),and(equals(isNotDefined(D_730666903,""),true),and(equals(isNotDefined(D_110852652,""),true),and(equals(isNotDefined(D_168091937,""),true),and(equals(isNotDefined(D_867109611,""),true),equals(isNotDefined(D_132779701,""),true)))))))))))|<b>esta dirección</b>|?
+[D_839233937?] ¿Su desplazamiento de vuelta a casa solía durar más o menos lo mismo que el desplazamiento para ir de su casa a |displayif=or(equals(isNotDefined(D_903896611,""),false),or(equals(isNotDefined(D_855583262,""),false),or(equals(isNotDefined(D_371588177,""),false),or(equals(isNotDefined(D_962868433,""),false),or(equals(isNotDefined(D_652022112,""),false),or(equals(isNotDefined(D_108530997,""),false),or(equals(isNotDefined(D_730666903,""),false),or(equals(isNotDefined(D_110852652,""),false),or(equals(isNotDefined(D_168091937,""),false),or(equals(isNotDefined(D_867109611,""),false),equals(isNotDefined(D_132779701,""),false)))))))))))|<b>{$D_584350267} {$D_840147245} {$D_903896611} {$D_855583262} {$D_371588177} {$D_962868433}{$D_652022112} {$D_108530997}{$D_730666903} {$D_110852652}{$D_168091937} {$D_867109611}{$D_132779701}</b>||displayif=and(equals(isNotDefined(D_903896611,""),true),and(equals(isNotDefined(D_855583262,""),true),and(equals(isNotDefined(D_371588177,""),true),and(equals(isNotDefined(D_962868433,""),true),and(equals(isNotDefined(D_652022112,""),true),and(equals(isNotDefined(D_108530997,""),true),and(equals(isNotDefined(D_730666903,""),true),and(equals(isNotDefined(D_110852652,""),true),and(equals(isNotDefined(D_168091937,""),true),and(equals(isNotDefined(D_867109611,""),true),equals(isNotDefined(D_132779701,""),true)))))))))))|<b>esta dirección</b>|?
 
 (353358909) Sí  -> D_475144270
 (104430631) No -> D_679430807
