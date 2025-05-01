@@ -29,7 +29,7 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Thu Feb 20 11:45:18 2025 -0500 (short timestamp = 2025-02-20-16-45-18)
+//This file was last modified on Thu May 01 03:13:18 2025 -0500 (short timestamp = 2025-05-01-16-45-18)
 
 //{"version":"4.0"}
 
@@ -1058,7 +1058,7 @@ Durante los <b>últimos tres meses</b>, ¿ha sentido algún dolor físico la may
 
 [D_746012894?] <b>Estatura y peso</b> <br/> <br/> ¿Cuánto pesa sin ropa ni zapatos? |displayif=equals(D_407056417,536341288)|Si está embarazada, ¿cuánto pesaba antes del embarazo?|
 <br/>
-|__|__|__|min=0 max=999 softedit=true modalif=value<70 modalvalue='Is this weight correct?'| Núm. de libras (lb)
+|__|__|__|min=0 max=999 softedit=true modalif=value<70 modalvalue='¿Este peso es correcto?'| Núm. de libras (lb)
 
 
 [D_114314839?] ¿Cuánto mide de estatura sin zapatos? 
