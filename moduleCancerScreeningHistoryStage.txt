@@ -749,7 +749,7 @@ Have you <b>ever</b> had an upper endoscopy to check for cancer or other conditi
 
 
 
-[D_465056475?,displayif=equals("D_890391968",700100953),or("D_729984625",733236542)]<b> Prostate Cancer Screening</b>
+[D_465056475?,displayif=or(equals("D_890391968",700100953),equals("D_729984625",733236542))]<b> Prostate Cancer Screening</b>
 
 Have you <b>ever</b> had any of these tests to check for prostate cancer or other conditions? Select all that apply. 
 
