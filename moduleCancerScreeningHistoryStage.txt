@@ -78,14 +78,14 @@ If you are female, you probably have:
 [118789503]	Liposuction -> D_645149364
 [715563991]	Bariatric surgery (lap band, gastric bypass) -> D_839555631
 [533491176]	Breast surgery -> D_506456253
-[220755749,displayif=valueIsOneOf("D_890391968",578416151)]	Uterus removed (hysterectomy)   -> D_350184001
-[465318416,displayif=valueIsOneOf("D_890391968",108025529)]	Tubes tied (tubal ligation)  -> D_522645663
-[630100221,displayif=valueIsOneOf("D_890391968",434651539)]	Removal of one or both ovaries (oophorectomy)  -> D_590067228
-[692881833,displayif=valueIsOneOf("D_890391968",108025529)]	Removal of one or both fallopian tubes (salpingectomy)  -> D_860839849
-[654450030,displayif=and(equals(D_890391968,582784267),equals(D_890391968,751402477))]	Vasectomy  -> D_671670265
-[532603425,displayif=valueIsOneOf("D_890391968",751402477)]	Removal of one or both testicles (orchiectomy or orchidectomy)  -> D_429157727
-[733236542,displayif=valueIsOneOf("D_890391968",700100953)]	Prostate removed (prostatectomy)  -> D_292314539
-[961987554,displayif=valueIsOneOf("D_890391968",582784267)]	Penis removed (penectomy) -> D_203366781
+[220755749]	Uterus removed (hysterectomy)   -> D_350184001
+[465318416]	Tubes tied (tubal ligation)  -> D_522645663
+[630100221]	Removal of one or both ovaries (oophorectomy)  -> D_590067228
+[692881833]	Removal of one or both fallopian tubes (salpingectomy)  -> D_860839849
+[654450030]	Vasectomy  -> D_671670265
+[532603425]	Removal of one or both testicles (orchiectomy or orchidectomy)  -> D_429157727
+[733236542]	Prostate removed (prostatectomy)  -> D_292314539
+[961987554]	Penis removed (penectomy) -> D_203366781
 [535003378*]	I have <b>not</b> had any of these surgeries 
 < -> SRVSCR_ORSCREENINT_V1R0> 
 
@@ -749,7 +749,7 @@ Have you <b>ever</b> had an upper endoscopy to check for cancer or other conditi
 
 
 
-[D_465056475?,displayif=equals(D_890391968,700100953)]<b> Prostate Cancer Screening</b>
+[D_465056475?,displayif=or(D_890391968,700100953),or(D_729984625,733236542)]<b> Prostate Cancer Screening</b>
 
 Have you <b>ever</b> had any of these tests to check for prostate cancer or other conditions? Select all that apply. 
 
