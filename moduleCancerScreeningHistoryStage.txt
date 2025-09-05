@@ -36,7 +36,7 @@
 // count: 5 | warning: "HPV | this may be an untransformed Quest code"
 
 
-//This file was last modified on Thu Sep 4 AC,MJH
+//This file was last modified on Thu Sep 4 2025 AC,MJH
 //{"version":"1.2"}
 {"name":"D_369168474"}
 
@@ -971,7 +971,7 @@ Have you <b>ever</b> had any of these procedures to check for breast cancer or o
 (640520411)	Over 10 years ago
 (178420302)	Don’t know
 
-[D_957875649?,displayif=or(or(equals(D_890391968,434651539),equals(D_729984625,220755749),equals(D_729984625,630100221))] <b>Ovarian Cancer Screening</b>
+[D_957875649?,displayif=or(or(equals(D_890391968,434651539),equals(D_729984625,220755749)),equals(D_729984625,630100221))] <b>Ovarian Cancer Screening</b>
 
 Have you <b>ever</b> had any of these tests to check for ovarian cancer or other conditions? Select all that apply. 
 
