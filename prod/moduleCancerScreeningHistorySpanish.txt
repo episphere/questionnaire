@@ -29,9 +29,9 @@
 // JSON WARNING --> Concept ID 943813942 with concept "Year moved out" is shared between these Textbox codes: [CHILDADD6_1_YEAR, HOMEMOVEOUT10_YEAR, HOMEMOVEOUT11_YEAR, HOMEMOVEOUT1_YEAR, HOMEMOVEOUT2_YEAR, HOMEMOVEOUT3_YEAR, HOMEMOVEOUT4_YEAR, HOMEMOVEOUT5_YEAR, HOMEMOVEOUT6_YEAR, HOMEMOVEOUT7_YEAR, HOMEMOVEOUT8_YEAR, HOMEMOVEOUT9_YEAR]
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
-//This file was last modified on Thu Feb 13 16:22:49 2025 -0500 (short timestamp = 2025-02-13-21-22-49)
-//This file was última modified on Fri Oct 18 09:27:47 2024 -0400 (short timestamp = 2024-10-18-13-27-47)
-//{"version":"1.1"}
+//This file was last modified on Wed Sep 10 2025
+//This file was última modified on Wed Sep 10 2025
+//{"version":"1.2"}
 {"name":"D_369168474"}
 
 [SRVSCR_INTROSCREEN_V1R0] <b>Encuesta sobre historial de exámenes de detección de cáncer</b>
@@ -71,14 +71,14 @@ Si usted es del sexo feminino, probablemente tiene:
 [118789503]	Liposucción -> D_645149364
 [715563991]	Cirugía bariátrica (banda gástrica, bypass gástrico) -> D_839555631
 [533491176]	Cirugía de mamas -> D_506456253
-[220755749,displayif=valueIsOneOf("D_890391968",578416151)]	Extirpación del útero (histerectomía)  -> D_350184001
-[465318416,displayif=valueIsOneOf("D_890391968",108025529)]	Ligadura de trompas -> D_522645663
-[630100221,displayif=valueIsOneOf("D_890391968",434651539)]	Extirpación de uno o ambos ovarios (ovariectomía) -> D_590067228
-[692881833,displayif=valueIsOneOf("D_890391968",108025529)]	Extirpación de una o ambas trompas de Falopio (salpingectomía o salpingooforectomía)  -> D_860839849
-[654450030,displayif=and(equals(D_890391968,582784267),equals(D_890391968,751402477))]	Vasectomía -> D_671670265
-[532603425,displayif=valueIsOneOf("D_890391968",751402477)]	Extirpación de uno o ambos testículos (orquiectomía u orquidectomía)  -> D_429157727
-[733236542,displayif=valueIsOneOf("D_890391968",700100953)]	Extirpación de la próstata (prostatectomía) -> D_292314539
-[961987554,displayif=valueIsOneOf("D_890391968",582784267)]	Extirpación del pene (penectomía) -> D_203366781
+[220755749]	Extirpación del útero (histerectomía)  -> D_350184001
+[465318416]	Ligadura de trompas -> D_522645663
+[630100221]	Extirpación de uno o ambos ovarios (ovariectomía) -> D_590067228
+[692881833]	Extirpación de una o ambas trompas de Falopio (salpingectomía o salpingooforectomía)  -> D_860839849
+[654450030]	Vasectomía -> D_671670265
+[532603425]	Extirpación de uno o ambos testículos (orquiectomía u orquidectomía)  -> D_429157727
+[733236542]	Extirpación de la próstata (prostatectomía) -> D_292314539
+[961987554]	Extirpación del pene (penectomía) -> D_203366781
 [535003378*]	<b>No</b> me he sometido a ninguna de estas operaciones 
 <  -> SRVSCR_ORSCREENINT_V1R0> 
 
@@ -754,7 +754,7 @@ Durante la detección de cáncer oral, su proveedor puede hacer uno de los sigui
 (178420302)	No sé 
 
 
-[D_465056475?,displayif=equals(D_890391968,700100953)]<b> Detección de cáncer de próstata</b>
+[D_465056475?,displayif=or(equals(D_890391968,700100953),equals(D_729984625,733236542))]<b> Detección de cáncer de próstata</b>
 
 ¿<b>Alguna vez </b>se sometió a una de estas pruebas en busca de cáncer de próstata u otras afecciones? Marque todo lo que corresponda. 
 
@@ -986,7 +986,7 @@ Durante la detección de cáncer oral, su proveedor puede hacer uno de los sigui
 (640520411)	Hace más de 10 años
 (178420302)	No sé 
 
-[D_957875649?,displayif=equals(D_890391968,434651539)] <b>Detección de cáncer de ovarios</b>
+[D_957875649?,displayif=or(or(equals(D_890391968,434651539),equals(D_729984625,220755749)),equals(D_729984625,630100221))] <b>Detección de cáncer de ovarios</b>
 
 ¿<b>Alguna vez</b> se sometió a una de estas pruebas en busca de cáncer de ovario u otras afecciones? Marque todo lo que corresponda. 
 
@@ -1053,7 +1053,7 @@ Durante la detección de cáncer oral, su proveedor puede hacer uno de los sigui
 (640520411)	Hace más de 10 años
 (178420302)	No sé 
  
-[D_229764995?,displayif=equals(D_890391968,505282171)] <b>Detección de cáncer del cuello uterino</b>
+[D_229764995?,displayif=or(equals(D_890391968,505282171),equals(D_729984625,220755749))] <b>Detección de cáncer del cuello uterino</b>
 
 ¿<b>Alguna vez</b> se sometió a una de estas pruebas en busca de cáncer del cuello uterino u otras afecciones? Marque todo lo que corresponda. 
 
@@ -1151,7 +1151,7 @@ Durante la detección de cáncer oral, su proveedor puede hacer uno de los sigui
 (640520411)	Hace más de 10 años
 (178420302)	No sé 
 
-[D_356470898?,displayif=equals(D_890391968,578416151)] <b>Detección de cáncer de endometrio</b>
+[D_356470898?,displayif=or(equals(D_890391968,578416151),equals(D_729984625,220755749))] <b>Detección de cáncer de endometrio</b>
 
 ¿<b>Alguna vez</b> se sometió a una de estas pruebas en busca de cáncer de endometrio u otras afecciones? Marque todo lo que corresponda. 
 
