@@ -36,8 +36,8 @@
 // count: 5 | warning: "HPV | this may be an untransformed Quest code"
 
 
-//This file was last modified on Tue Feb 11 17:46:50 2025 -0500 (short timestamp = 2025-02-11-22-46-50)
-//{"version":"1.1"}
+//This file was last modified on Thu Sep 4 2025 AC,MJH
+//{"version":"1.2"}
 {"name":"D_369168474"}
 
 [SRVSCR_INTROSCREEN_V1R0] <b>Cancer Screening History Survey</b>
@@ -78,14 +78,14 @@ If you are female, you probably have:
 [118789503]	Liposuction -> D_645149364
 [715563991]	Bariatric surgery (lap band, gastric bypass) -> D_839555631
 [533491176]	Breast surgery -> D_506456253
-[220755749,displayif=valueIsOneOf("D_890391968",578416151)]	Uterus removed (hysterectomy)   -> D_350184001
-[465318416,displayif=valueIsOneOf("D_890391968",108025529)]	Tubes tied (tubal ligation)  -> D_522645663
-[630100221,displayif=valueIsOneOf("D_890391968",434651539)]	Removal of one or both ovaries (oophorectomy)  -> D_590067228
-[692881833,displayif=valueIsOneOf("D_890391968",108025529)]	Removal of one or both fallopian tubes (salpingectomy)  -> D_860839849
-[654450030,displayif=and(equals(D_890391968,582784267),equals(D_890391968,751402477))]	Vasectomy  -> D_671670265
-[532603425,displayif=valueIsOneOf("D_890391968",751402477)]	Removal of one or both testicles (orchiectomy or orchidectomy)  -> D_429157727
-[733236542,displayif=valueIsOneOf("D_890391968",700100953)]	Prostate removed (prostatectomy)  -> D_292314539
-[961987554,displayif=valueIsOneOf("D_890391968",582784267)]	Penis removed (penectomy) -> D_203366781
+[220755749]	Uterus removed (hysterectomy)   -> D_350184001
+[465318416]	Tubes tied (tubal ligation)  -> D_522645663
+[630100221]	Removal of one or both ovaries (oophorectomy)  -> D_590067228
+[692881833]	Removal of one or both fallopian tubes (salpingectomy)  -> D_860839849
+[654450030]	Vasectomy  -> D_671670265
+[532603425]	Removal of one or both testicles (orchiectomy or orchidectomy)  -> D_429157727
+[733236542]	Prostate removed (prostatectomy)  -> D_292314539
+[961987554]	Penis removed (penectomy) -> D_203366781
 [535003378*]	I have <b>not</b> had any of these surgeries 
 < -> SRVSCR_ORSCREENINT_V1R0> 
 
@@ -749,7 +749,7 @@ Have you <b>ever</b> had an upper endoscopy to check for cancer or other conditi
 
 
 
-[D_465056475?,displayif=equals(D_890391968,700100953)]<b> Prostate Cancer Screening</b>
+[D_465056475?,displayif=or(equals(D_890391968,700100953),equals(D_729984625,733236542))]<b> Prostate Cancer Screening</b>
 
 Have you <b>ever</b> had any of these tests to check for prostate cancer or other conditions? Select all that apply. 
 
@@ -971,7 +971,7 @@ Have you <b>ever</b> had any of these procedures to check for breast cancer or o
 (640520411)	Over 10 years ago
 (178420302)	Don’t know
 
-[D_957875649?,displayif=equals(D_890391968,434651539)] <b>Ovarian Cancer Screening</b>
+[D_957875649?,displayif=or(or(equals(D_890391968,434651539),equals(D_729984625,220755749)),equals(D_729984625,630100221))] <b>Ovarian Cancer Screening</b>
 
 Have you <b>ever</b> had any of these tests to check for ovarian cancer or other conditions? Select all that apply. 
 
@@ -1038,7 +1038,7 @@ Have you <b>ever</b> had any of these tests to check for ovarian cancer or other
 (640520411)	Over 10 years ago
 (178420302)	Don’t know
  
-[D_229764995?,displayif=equals(D_890391968,505282171)] <b>Cervical Cancer Screening</b>
+[D_229764995?,displayif=or(equals(D_890391968,505282171),equals(D_729984625,220755749))] <b>Cervical Cancer Screening</b>
 
 Have you <b>ever</b> had any of these tests to check for cervical cancer or other conditions? Select all that apply. 
 [405616098]<b> High-risk human papillomavirus (HrHPV) Test</b> A healthcare provider used a plastic or metal instrument called a speculum to open your vagina, and used a soft brush or plastic spatula to collect cells from your cervix. The cells were checked for the type of HPV that can lead to cervical cancer. -> D_934385625
@@ -1138,7 +1138,7 @@ Have you <b>ever</b> had any of these tests to check for cervical cancer or othe
 (640520411)	Over 10 years ago
 (178420302)	Don’t know
 
-[D_356470898?,displayif=equals(D_890391968,578416151)] <b>Endometrial Cancer Screening</b>
+[D_356470898?,displayif=or(equals(D_890391968,578416151),equals(D_729984625,220755749))] <b>Endometrial Cancer Screening</b>
 Have you <b>ever</b> had any of these tests to check for endometrial cancer or other conditions? Select all that apply. 
 
 [687879041] <b>Transvaginal Ultrasound</b> Also known as a pelvic ultrasound, pelvic ultrasonography, gynecologic ultrasound, or endovaginal ultrasound. A healthcare provider inserted a wand-like device called a transducer into your vagina to make the images of your tissues and organs. -> D_947994136
