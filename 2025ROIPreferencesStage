@@ -1,0 +1,193 @@
+//{"version":"1.0"}
+{"name":"D_312845734"}
+
+[INTROPREF] <b>Your Preferences for Receiving Study Results</b> 
+
+Over time, we’ll share with you what we learn from Connect research. This survey asks about your preferences for the types of information Connect might share with you. Your input will help Connect make decisions about what to share with participants in the future.
+
+The topics within this survey are examples of personal research results and study findings we may return. When we return results, participants will have the choice to view or decline their personal results report. We may decide not to return results on some of the topics in this survey.
+
+For a few topics here, researchers do not yet know how the results may affect health, health care, or health-related decision-making. However, even with this uncertainty, we want to keep you informed about what we are learning from Connect research. We also want to share research information that means the most to you. Your voice matters- thank you for your participation!
+
+
+
+[INTROGEO] <b>Neighborhood Information</b>
+
+Knowing information about where you live may help you make more informed decisions about protecting your health and the health of your environment. Certain information, such as access to public transit, cost of living, and environmental pollution, can be linked to a specific geographic location. Researchers can collect these data for a specific location by using address information.  As part of a previous Connect survey, you may have already shared your address and where you’ve lived over the past 20 years.  This information allows researchers to study how social, physical, and man-made spaces may affect health outcomes. Data linked to location can also help researchers identify areas that may benefit from efforts to improve community health.
+
+
+
+[D_144761753?] How interested are you in receiving information about...
+
+Outdoor spaces and transportation in your neighborhood, such as presence of community spaces, access to public transit, walkability, and bikeability?
+
+(525453860:D_258232940) Not interested
+(389550600:D_258232940) Slightly interested
+(233944056:D_258232940) Somewhat interested
+(567539823:D_258232940) Fairly interested
+(135672398:D_258232940) Very interested
+
+Retail spaces in your neighborhood, such as number of tobacco shops and access to healthy food options?
+
+(525453860:D_829592217) Not interested
+(389550600:D_829592217) Slightly interested
+(233944056:D_829592217) Somewhat interested
+(567539823:D_829592217) Fairly interested
+(135672398:D_829592217) Very interested
+
+The people and events in your neighborhood, for example, average income and education levels of the people living in your neighborhood or zip code, or rates of traffic incidents?
+
+(525453860:D_958757635) Not interested
+(389550600:D_958757635) Slightly interested
+(233944056:D_958757635) Somewhat interested
+(567539823:D_958757635) Fairly interested
+(135672398:D_958757635) Very interested
+
+Possible environmental pollutants in your neighborhood, such as drinking water quality or outdoor air pollution levels?
+
+(525453860:D_121884258) Not interested
+(389550600:D_121884258) Slightly interested
+(233944056:D_121884258) Somewhat interested
+(567539823:D_121884258) Fairly interested
+(135672398:D_121884258) Very interested
+
+
+
+[D_769359476?|max-count=5] Please select the top five neighborhood topics that you find most interesting.
+
+[362882148] Community spaces
+[478235149] Number of tobacco shops
+[713190902] Access to healthy food options
+[460968021] Rates of traffic incidents
+[148692319] Access to public transit
+[526672486] Community snapshot
+[390426962] Walkability and bikeability
+[735210186] Environmental pollutants
+
+
+
+[INTROINDIVRISK] <b>Known Personal Cancer Risks and Those Still Under Study</b>
+
+Current and future Connect surveys will ask about things in daily life that may affect cancer risk, including some we already know about and others that scientists are still exploring as potential risks. We may share a report with you that shows how your survey answers compare to the general population, and how your behavior compares to health guidelines. We may also share averages across the entire community of Connect participants. The items below may affect cancer risk or are being studied for their potential risks.
+
+
+
+[D_863590289?] How interested are you in receiving information from Connect survey data about...
+
+Vaping?
+
+(525453860:D_992466690) Not interested
+(389550600:D_992466690) Slightly interested
+(233944056:D_992466690) Somewhat interested
+(567539823:D_992466690) Fairly interested
+(135672398:D_992466690) Very interested
+
+Alcohol use?
+
+(525453860:D_441711468) Not interested
+(389550600:D_441711468) Slightly interested
+(233944056:D_441711468) Somewhat interested
+(567539823:D_441711468) Fairly interested
+(135672398:D_441711468) Very interested
+
+Ingredients in hair products?
+
+(525453860:D_543037789) Not interested
+(389550600:D_543037789) Slightly interested
+(233944056:D_543037789) Somewhat interested
+(567539823:D_543037789) Fairly interested
+(135672398:D_543037789) Very interested
+
+Ingredients in scented air fresheners?
+
+(525453860:D_206053854) Not interested
+(389550600:D_206053854) Slightly interested
+(233944056:D_206053854) Somewhat interested
+(567539823:D_206053854) Fairly interested
+(135672398:D_206053854) Very interested
+
+Tattoos?
+
+(525453860:D_690766963) Not interested
+(389550600:D_690766963) Slightly interested
+(233944056:D_690766963) Somewhat interested
+(567539823:D_690766963) Fairly interested
+(135672398:D_690766963) Very interested
+
+
+
+[INTROGENETICS] <b>Genetic Traits</b>
+
+Through the process of studying your DNA, scientists may uncover information about your genes that isn't directly related to your health. For example, your genes may predict whether you:
+* Have a high sensitivity to bitter foods
+* Perceive cilantro as tasting “soapy” 
+* Are lactose intolerant 
+* Have wet or dry earwax 
+* Smell an unfamiliar odor in urine after eating asparagus
+
+[D_136941196?] How interested are you in receiving genetic information like this that is not directly related to your health?
+
+(525453860) Not interested
+(389550600) Slightly interested
+(233944056) Somewhat interested
+(567539823) Fairly interested
+(135672398) Very interested
+
+
+
+[INTRORSRCH] <b>Learning About Research</b>
+
+Many of the topics in the questions above are examples of personal results. Connect may also share information about the study’s future goals and educational topics related to cancer.
+
+[D_913318697?] How interested are you in receiving information about...
+
+Connect’s future goals?
+
+(525453860:D_214194963) Not interested
+(389550600:D_214194963) Slightly interested
+(233944056:D_214194963) Somewhat interested
+(567539823:D_214194963) Fairly interested
+(135672398:D_214194963) Very interested
+
+Educational topics on cancer?
+
+(525453860:D_179827949) Not interested
+(389550600:D_179827949) Slightly interested
+(233944056:D_179827949) Somewhat interested
+(567539823:D_179827949) Fairly interested
+(135672398:D_179827949) Very interested
+
+
+
+[INTRORSRCHDISC] <b>Research Discoveries in Connect</b>
+
+Studies like Connect often lead to new discoveries, but scientists need to confirm and carefully interpret the findings before they can be considered conclusive. Study findings may not be definitive, for example, when studies are still ongoing, or when scientists are debating the findings.  Some people may want to learn about new research discoveries, even if they are not definitive, while others may not. There is no right or wrong answer. It’s about your personal preference.
+
+[D_486040313?] How interested are you in receiving news about research discoveries even if the study findings are not yet conclusive?
+
+(525453860) Not interested
+(389550600) Slightly interested
+(233944056) Somewhat interested
+(567539823) Fairly interested
+(135672398) Very interested
+
+
+
+[INTRO2RSRCHDISC]
+
+Scientists are developing new tests that may find cancers earlier when they are easier to treat. These new tests are called Multi-Cancer Early Detection (MCED) tests. The tests are designed to find more than one type of cancer from a single blood sample. Scientists are still evaluating how well MCED tests work.
+
+[D_151535519?] How interested would you be in learning more about Multi-Cancer Early Detection tests given that scientists are unsure of how well they work right now?
+
+(525453860) Not interested
+(389550600) Slightly interested
+(233944056) Somewhat interested
+(567539823) Fairly interested
+(135672398) Very interested
+
+
+[D_395168461?] Is there anything else you want to tell us about your preferences for receiving personal results from Connect and other study information?
+
+|___|
+
+[END,end]  You have answered all of the questions in this survey. To submit your answers, select the “Submit Survey” button.
