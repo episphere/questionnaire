@@ -1,7 +1,7 @@
 //{"version":"1.0"}
 {"name":"D_312845734"}
 
-[INTROPREF] <b>Your Preferences for Receiving Study Results</b> 
+[INTROPREF] <b>Your Preferences for Receiving Study Results</b>
 
 Over time, we’ll share with you what we learn from Connect research. This survey asks about your preferences for the types of information Connect might share with you. Your input will help Connect make decisions about what to share with participants in the future.
 
