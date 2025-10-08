@@ -13,7 +13,7 @@ For a few topics here, researchers do not yet know how the results may affect he
 
 [INTROGEO] <b>Neighborhood Information</b>
 
-Knowing information about where you live may help you make more informed decisions about protecting your health and the health of your environment. Certain information, such as access to public transit, cost of living, and environmental pollution, can be linked to a specific geographic location. Researchers can collect these data for a specific location by using address information.  As part of a previous Connect survey, you may have already shared your address and where you’ve lived over the past 20 years.  This information allows researchers to study how social, physical, and man-made spaces may affect health outcomes. Data linked to location can also help researchers identify areas that may benefit from efforts to improve community health.
+Knowing information about where you live may help you make more informed decisions about your health and the health of your environment. Certain information, such as access to public transit, cost of living, and environmental pollution, can be linked to a specific geographic location. Researchers can collect these data for a specific location by using address information. As part of a previous Connect survey, you may have already shared your address and where you’ve lived over the past 20 years. This information allows researchers to study how social and built spaces may affect health outcomes. Data linked to location can also help researchers identify areas that may benefit from efforts to improve community health.
 
 
 
