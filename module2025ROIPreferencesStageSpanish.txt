@@ -55,14 +55,14 @@ posibles contaminantes ambientales de su vecindario, como la calidad del agua po
 
 [D_769359476?|max-count=5] Marque los cinco temas que más le interesen sobre su vecindario:
 
-[362882148] Community spaces
-[478235149] Number of tobacco shops
-[713190902] Access to healthy food options
-[460968021] Rates of traffic incidents
-[148692319] Access to public transit
-[526672486] Community snapshot
-[390426962] Walkability and bikeability
-[735210186] Environmental pollutants
+[362882148] Espacios comunitarios
+[478235149] Cantidad de tabaquerías
+[713190902] Acceso a tiendas con alimentos saludables
+[460968021] Tasas de accidentes de tránsito
+[148692319] Acceso al transporte público
+[526672486] Instantánea de la comunidad
+[390426962] Posibilidad de desplazarse caminando o en bicicleta
+[735210186] Contaminantes ambientales
 
 
 
