@@ -119,6 +119,7 @@ Tattoos?
 [INTROGENETICS] <b>Genetic Traits</b>
 
 Through the process of studying your DNA, scientists may uncover information about your genes that isn't directly related to your health. For example, your genes may predict whether you:
+
 * Have a high sensitivity to bitter foods
 * Perceive cilantro as tasting “soapy” 
 * Are lactose intolerant 
