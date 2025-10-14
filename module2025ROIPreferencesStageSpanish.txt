@@ -118,7 +118,8 @@ tatuajes?
 
 [INTROGENETICS] <b>Rasgos genéticos</b>
 
-Mediante el proceso de estudiar su ADN, los científicos pueden descubrir información sobre sus genes que no tiene relación directa con su salud. Por ejemplo, sus genes podrían predecir si usted:  
+Mediante el proceso de estudiar su ADN, los científicos pueden descubrir información sobre sus genes que no tiene relación directa con su salud. Por ejemplo, sus genes podrían predecir si usted:
+
 * es muy sensible a los alimentos amargos; 
 * le encuentra un sabor “jabonoso” al cilantro; 
 * es intolerante a la lactosa; 
