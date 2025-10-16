@@ -191,4 +191,4 @@ Los científicos están desarrollando nuevas pruebas que podrían detectar cánc
 
 |___|
 
-[END,end]  “Ha respondido a todas las preguntas de este cuestionario. Para enviar sus respuestas, seleccione el botón “Enviar Encuesta.””
+[END,end]  Ha respondido a todas las preguntas de este cuestionario. Para enviar sus respuestas, seleccione el botón “Enviar Encuesta.”
