@@ -1,0 +1,194 @@
+//{"version":"1.0"}
+{"name":"D_312845734"}
+
+[INTROPREF] <b>Sus preferencias para recibir resultados del estudio</b> 
+
+Con el tiempo, le comunicaremos lo que descubramos con las investigaciones científicas de Connect. Esta encuesta le pregunta sobre sus preferencias de los tipos de información que Connect podría compartir con usted. Sus respuestas ayudarán a Connect a tomar decisiones sobre qué compartir con los participantes en el futuro. 
+ 
+Los temas incluidos en esta encuesta son ejemplos de resultados de investigación personales y hallazgos del estudio que podríamos devolver. Cuando devolvamos resultados, los participantes tendrán la opción de ver o rechazar su informe de resultados personales. Podríamos decidir no devolver resultados de algunos de los temas incluidos en esta encuesta. 
+ 
+ En el caso de unos pocos temas mencionados en esta encuesta, los investigadores todavía no saben cómo los resultados podrían afectar la salud, la atención médica o la toma de decisiones sobre salud. Sin embargo, incluso con esta incertidumbre, queremos mantenerlo informado sobre lo que descubramos con las investigaciones científicas de Connect. También queremos brindarle la información científica que sea más importante para usted. Su opinión es importante. ¡Gracias por participar!
+
+
+
+[INTROGEO] <b>Información sobre el vecindario</b>
+
+Tener información sobre el lugar donde vive puede ayudarle a tomar decisiones bien fundadas sobre su salud y la salud de su entorno. Cierta información, como el acceso a transporte público, el costo de vida y la contaminación ambiental, puede vincularse con una ubicación geográfica específica. Los investigadores pueden usar información sobre el domicilio para reunir estos datos de un lugar en particular. Es posible que en una encuesta anterior de Connect ya haya mencionado su domicilio y los lugares donde vivió en los últimos 20 años. Esta información les permite a los investigadores estudiar cómo los espacios sociales y los espacios construidos podrían afectar los resultados de salud. Los datos vinculados con el lugar también pueden ayudar a los investigadores a identificar áreas que podrían beneficiarse de proyectos para mejorar la salud de la comunidad. 
+
+
+
+[D_144761753?] ¿Cuánto le interesa recibir información sobre... 
+
+espacios al aire libre y transporte en su vecindario, por ejemplo, presencia de espacios comunitarios, acceso al transporte público, posibilidad de desplazarse caminando y posibilidad de desplazarse en bicicleta?
+
+(525453860:D_258232940) No me interesa
+(389550600:D_258232940) Me interesa poco
+(233944056:D_258232940) Me interesa algo
+(567539823:D_258232940) Me interesa bastante
+(135672398:D_258232940) Me interesa mucho
+
+tiendas minoristas de su vecindario, como la cantidad de tabaquerías y el acceso a tiendas con alimentos saludables? 
+
+(525453860:D_829592217) No me interesa
+(389550600:D_829592217) Me interesa poco
+(233944056:D_829592217) Me interesa algo
+(567539823:D_829592217) Me interesa bastante
+(135672398:D_829592217) Me interesa mucho
+
+la gente y eventos de su vecindario, por ejemplo, el promedio de ingresos y nivel educativo de las personas que viven en su vecindario o tienen su mismo código postal, o las tasas de accidentes de tránsito?
+
+(525453860:D_958757635) No me interesa
+(389550600:D_958757635) Me interesa poco
+(233944056:D_958757635) Me interesa algo
+(567539823:D_958757635) Me interesa bastante
+(135672398:D_958757635) Me interesa mucho
+
+posibles contaminantes ambientales de su vecindario, como la calidad del agua potable o los niveles de contaminación del aire exterior? 
+
+(525453860:D_121884258) No me interesa
+(389550600:D_121884258) Me interesa poco
+(233944056:D_121884258) Me interesa algo
+(567539823:D_121884258) Me interesa bastante
+(135672398:D_121884258) Me interesa mucho
+
+
+
+[D_769359476?|max-count=5] Marque los cinco temas que más le interesen sobre su vecindario:
+
+[362882148] Espacios comunitarios
+[478235149] Cantidad de tabaquerías
+[713190902] Acceso a tiendas con alimentos saludables
+[460968021] Tasas de accidentes de tránsito
+[148692319] Acceso al transporte público
+[526672486] Instantánea de la comunidad
+[390426962] Posibilidad de desplazarse caminando o en bicicleta
+[735210186] Contaminantes ambientales
+
+
+
+[INTROINDIVRISK] <b>Riesgos personales de cáncer conocidos y los que todavía están investigándose</b>
+
+Esta y futuras encuestas de Connect tendrán preguntas sobre cosas de la vida cotidiana que podrían afectar el riesgo de padecer cáncer, incluidas algunas que ya conocemos y otras que los científicos todavía están estudiando como posibles riesgos. Podemos compartir con usted un informe que compare las respuestas que dio en la encuesta con los datos de la población general, y que compare su comportamiento con las pautas de salud. También podemos proporcionarle promedios de toda la comunidad de participantes de Connect. Los siguientes factores pueden afectar el riesgo de padecer cáncer o están estudiándose por sus posibles riesgos. 
+
+
+
+[D_863590289?] ¿Cuánto le interesa recibir información de la encuesta de Connect sobre... 
+
+consumo de cigarrillos electrónicos?
+
+(525453860:D_992466690) No me interesa
+(389550600:D_992466690) Me interesa poco
+(233944056:D_992466690) Me interesa algo
+(567539823:D_992466690) Me interesa bastante
+(135672398:D_992466690) Me interesa mucho
+
+consumo de alcohol?
+
+(525453860:D_441711468) No me interesa
+(389550600:D_441711468) Me interesa poco
+(233944056:D_441711468) Me interesa algo
+(567539823:D_441711468) Me interesa bastante
+(135672398:D_441711468) Me interesa mucho
+
+ingredientes de productos para el cabello?
+
+(525453860:D_543037789) No me interesa
+(389550600:D_543037789) Me interesa poco
+(233944056:D_543037789) Me interesa algo
+(567539823:D_543037789) Me interesa bastante
+(135672398:D_543037789) Me interesa mucho
+
+ingredientes de desodorantes de ambiente con fragancia?
+
+(525453860:D_206053854) No me interesa
+(389550600:D_206053854) Me interesa poco
+(233944056:D_206053854) Me interesa algo
+(567539823:D_206053854) Me interesa bastante
+(135672398:D_206053854) Me interesa mucho
+
+tatuajes?
+
+(525453860:D_690766963) No me interesa
+(389550600:D_690766963) Me interesa poco
+(233944056:D_690766963) Me interesa algo
+(567539823:D_690766963) Me interesa bastante
+(135672398:D_690766963) Me interesa mucho
+
+
+
+[INTROGENETICS] <b>Rasgos genéticos</b>
+
+Mediante el proceso de estudiar su ADN, los científicos pueden descubrir información sobre sus genes que no tiene relación directa con su salud. Por ejemplo, sus genes podrían predecir si usted:
+
+* es muy sensible a los alimentos amargos; 
+* le encuentra un sabor “jabonoso” al cilantro; 
+* es intolerante a la lactosa; 
+* la cera de sus oídos es húmeda o seca; 
+* percibe un olor raro en la orina después de comer espárragos. 
+
+[D_136941196?] ¿Cuánto le interesa recibir información genética como esta que no tenga relación directa con su salud?
+
+(525453860) No me interesa
+(389550600) Me interesa poco
+(233944056) Me interesa algo
+(567539823) Me interesa bastante
+(135672398) Me interesa mucho
+
+
+
+[INTRORSRCH] <b>Enterarse sobre las investigaciones científicas</b>
+
+Muchos de los temas de las preguntas de arriba son ejemplos de resultados personales. Connect también puede brindarle información sobre las metas futuras del estudio y temas educativos relacionados con el cáncer. 
+
+[D_913318697?] ¿Cuánto le interesa recibir información sobre... 
+
+metas de estudio futuras de Connect?
+
+(525453860:D_214194963) No me interesa
+(389550600:D_214194963) Me interesa poco
+(233944056:D_214194963) Me interesa algo
+(567539823:D_214194963) Me interesa bastante
+(135672398:D_214194963) Me interesa mucho
+
+temas educativos sobre el cáncer?
+
+(525453860:D_179827949) No me interesa
+(389550600:D_179827949) Me interesa poco
+(233944056:D_179827949) Me interesa algo
+(567539823:D_179827949) Me interesa bastante
+(135672398:D_179827949) Me interesa mucho
+
+
+
+[INTRORSRCHDISC] <b>Descubrimientos científicos en Connect</b>
+
+Con frecuencia, los estudios como Connect pueden llevar a lograr nuevos descubrimientos, pero los científicos necesitan confirmar e interpretar con cuidado los resultados antes de que se los pueda considerar concluyentes. Los resultados de los estudios podrían no ser definitivos, por ejemplo, cuando los estudios todavía no terminaron o cuando los científicos están debatiendo sobre ellos.  Algunas personas podrían querer enterarse de nuevos descubrimientos científicos aunque no sean definitivos, mientras que otras no. No hay respuesta correcta o incorrecta. Es una cuestión de preferencia personal. 
+
+[D_486040313?] ¿Cuánto le interesa recibir noticias sobre descubrimientos científicos aunque los hallazgos todavía no sea definitivos?
+
+(525453860) No me interesa
+(389550600) Me interesa poco
+(233944056) Me interesa algo
+(567539823) Me interesa bastante
+(135672398) Me interesa mucho
+
+
+
+[INTRO2RSRCHDISC]
+
+Los científicos están desarrollando nuevas pruebas que podrían detectar cánceres en sus primeras etapas, cuando es más fácil tratarlos. Se llaman pruebas de detección temprana de múltiples tipos de cáncer (DTMC). Se las diseña para detectar más de un tipo de cáncer a partir de una única muestra de sangre. Los científicos todavía están evaluando qué tan bien funcionan las pruebas DTMC.
+
+[D_151535519?] ¿Cuánto le interesa recibir más información sobre las pruebas de detección temprana de múltiples tipos de cáncer, dado que los científicos no saben con seguridad qué tan bien funcionan en la actualidad?
+
+(525453860) No me interesa
+(389550600) Me interesa poco
+(233944056) Me interesa algo
+(567539823) Me interesa bastante
+(135672398) Me interesa mucho
+
+
+[D_395168461?] ¿Hay algo más que desee contarnos sobre sus preferencias para recibir resultados personales de Connect y otra información del estudio?
+
+|___|
+
+[END,end]  Ha respondido a todas las preguntas de este cuestionario. Para enviar sus respuestas, seleccione el botón “Enviar Encuesta.”
