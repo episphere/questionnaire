@@ -1322,7 +1322,7 @@ In total, how many months OR years have you used |displayif=valueLength("D_23551
 
 #Months |__|__|xor=PROGHOR5_2 id=D_434243220 min=0 max=99|
 Or, if it is easier to remember years, enter that here:
-#Years |__|__| xor=PROGHOR5_2 id= D_970604592 min=0 max=_value("age")|
+#Years |__|__| xor=PROGHOR5_2 id=D_970604592 min=0 max=_value("age")|
 
 < -> D_949663397 >
 
