@@ -1330,7 +1330,7 @@ En total, ¿cuántos meses O años ha usado |displayif=valueLength("D_235516216"
 
  |__|__|xor=PROGHOR5_2 id=D_434243220 min=0 max=99| Núm. de meses
 O, si le es más fácil recordar en qué año, anótelo aquí:
- |__|__| xor=PROGHOR5_2 id= D_970604592 min=0 max=_value("age")| Núm. de años
+ |__|__| xor=PROGHOR5_2 id=D_970604592 min=0 max=_value("age")| Núm. de años
 
 
 < -> D_949663397 >
