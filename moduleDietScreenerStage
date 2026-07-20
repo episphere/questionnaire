@@ -1,0 +1,255 @@
+//{"version":"1.0"}
+{"name":"D_301686481"}
+
+/*
+====================================================================
+ Diet Screener (SrvDSQ)
+ Source / nesting concept: D_916948380  (NEST_SrvDSQ_CONSUME_v1r0)
+ Generated from "Diet Screener_Mark Up.docx" requirements.
+
+ Layout: single page under the source question. All items are
+ separate radio sub-questions (each radio group is named by its
+ concept ID via the (value:groupName) syntax), so every response
+ is stored as  D_916948380 -> { <sub-conceptID>: <response-conceptID> }.
+
+ Conventions (Quest renderer, tag v26.4.1):
+   - Page/question IDs use the D_<conceptID> form.
+   - Radio option VALUE = the response concept ID.
+   - Radio option :groupName = the sub-question concept ID (D_<cid>).
+
+ Sub-question concept ID  ->  data-dictionary variable name
+   D_970075000  SrvDSQ_Veg_v1r0
+   D_724001040  SrvDSQ_Fruit_v1r0
+   D_529369529  SrvDSQ_FruitJuice_v1r0
+   D_181240315  SrvDSQ_WholeGrain_v1r0
+   D_848411929  SrvDSQ_RefinedGrain_v1r0
+   D_593777242  SrvDSQ_RedMeat_v1r0
+   D_930916389  SrvDSQ_ProcMeat_v1r0
+   D_284856542  SrvDSQ_SaltySnack_v1r0
+   D_876252122  SrvDSQ_Dessert_v1r0
+   D_174911197  SrvDSQ_ProbioticDairy_v1r0
+   D_896562194  SrvDSQ_Milk_v1r0
+   D_736936997  SrvDSQ_Cheese_v1r0
+   D_379851141  SrvDSQ_IceCream_v1r0
+   D_172676248  SrvDSQ_SugaryDrinks_v1r0
+   D_136695974  SrvDSQ_DietDrinks_v1r0
+   D_827631896  SrvDSQ_CafCoffee_v1r0
+   D_771538757  SrvDSQ_DecafCoffee_v1r0
+   D_910980928  SrvDSQ_CafTea_v1r0
+   D_412397796  SrvDSQ_DecafTea_v1r0
+   D_484124027  SrvDSQ_DrinkTemp_v1r0
+
+ Shared frequency-scale responses (value = response concept ID):
+   648960871  Never, or less than once per month
+   660669070  1-3 per month
+   192247286  1 per week
+   240437781  2-4 per week
+   629699641  5-6 per week
+   351464854  1 per day
+   454222764  2-3 per day
+   746143595  4+ per day
+====================================================================
+*/
+
+[INTRO_SRVDSQ] This survey asks questions about your usual dietary habits from the past year. It should only take about five minutes to complete.
+
+[D_916948380] On average over the past year, how often did you consume the following foods and beverages?
+
+Vegetables (not including potatoes or iceberg lettuce) (1 cup raw leafy, ½ cup cooked)
+(648960871:D_970075000) Never, or less than once per month
+(660669070:D_970075000) 1-3 per month
+(192247286:D_970075000) 1 per week
+(240437781:D_970075000) 2-4 per week
+(629699641:D_970075000) 5-6 per week
+(351464854:D_970075000) 1 per day
+(454222764:D_970075000) 2-3 per day
+(746143595:D_970075000) 4+ per day
+
+Fruit (include fresh, frozen or canned) (1 apple, ½ berries or 1 oz dried). Do not include juices.
+(648960871:D_724001040) Never, or less than once per month
+(660669070:D_724001040) 1-3 per month
+(192247286:D_724001040) 1 per week
+(240437781:D_724001040) 2-4 per week
+(629699641:D_724001040) 5-6 per week
+(351464854:D_724001040) 1 per day
+(454222764:D_724001040) 2-3 per day
+(746143595:D_724001040) 4+ per day
+
+100% fruit juice (1 cup)
+(648960871:D_529369529) Never, or less than once per month
+(660669070:D_529369529) 1-3 per month
+(192247286:D_529369529) 1 per week
+(240437781:D_529369529) 2-4 per week
+(629699641:D_529369529) 5-6 per week
+(351464854:D_529369529) 1 per day
+(454222764:D_529369529) 2-3 per day
+(746143595:D_529369529) 4+ per day
+
+Whole grain foods (e.g., brown rice, whole grain pasta) or whole grain bread (1 cup or 1 slice)
+(648960871:D_181240315) Never, or less than once per month
+(660669070:D_181240315) 1-3 per month
+(192247286:D_181240315) 1 per week
+(240437781:D_181240315) 2-4 per week
+(629699641:D_181240315) 5-6 per week
+(351464854:D_181240315) 1 per day
+(454222764:D_181240315) 2-3 per day
+(746143595:D_181240315) 4+ per day
+
+Refined grain foods (e.g., white rice, pasta, bread) (1 cup or 1 slice)
+(648960871:D_848411929) Never, or less than once per month
+(660669070:D_848411929) 1-3 per month
+(192247286:D_848411929) 1 per week
+(240437781:D_848411929) 2-4 per week
+(629699641:D_848411929) 5-6 per week
+(351464854:D_848411929) 1 per day
+(454222764:D_848411929) 2-3 per day
+(746143595:D_848411929) 4+ per day
+
+Red meat, such as beef, pork or lamb, including mixed dishes (1 patty, 1 serving)
+(648960871:D_593777242) Never, or less than once per month
+(660669070:D_593777242) 1-3 per month
+(192247286:D_593777242) 1 per week
+(240437781:D_593777242) 2-4 per week
+(629699641:D_593777242) 5-6 per week
+(351464854:D_593777242) 1 per day
+(454222764:D_593777242) 2-3 per day
+(746143595:D_593777242) 4+ per day
+
+Processed meat, such as bacon, lunch meats or hot dogs (2 slices or 2 oz)
+(648960871:D_930916389) Never, or less than once per month
+(660669070:D_930916389) 1-3 per month
+(192247286:D_930916389) 1 per week
+(240437781:D_930916389) 2-4 per week
+(629699641:D_930916389) 5-6 per week
+(351464854:D_930916389) 1 per day
+(454222764:D_930916389) 2-3 per day
+(746143595:D_930916389) 4+ per day
+
+Salty snacks (e.g., chips, pretzels) (1 small bag or 1 oz)
+(648960871:D_284856542) Never, or less than once per month
+(660669070:D_284856542) 1-3 per month
+(192247286:D_284856542) 1 per week
+(240437781:D_284856542) 2-4 per week
+(629699641:D_284856542) 5-6 per week
+(351464854:D_284856542) 1 per day
+(454222764:D_284856542) 2-3 per day
+(746143595:D_284856542) 4+ per day
+
+Desserts and sweets (e.g., cake, cookies, candy) (1 piece or 1 oz)
+(648960871:D_876252122) Never, or less than once per month
+(660669070:D_876252122) 1-3 per month
+(192247286:D_876252122) 1 per week
+(240437781:D_876252122) 2-4 per week
+(629699641:D_876252122) 5-6 per week
+(351464854:D_876252122) 1 per day
+(454222764:D_876252122) 2-3 per day
+(746143595:D_876252122) 4+ per day
+
+Probiotic-containing dairy foods (e.g., Yogurt, Kefir) (1 serving)
+(648960871:D_174911197) Never, or less than once per month
+(660669070:D_174911197) 1-3 per month
+(192247286:D_174911197) 1 per week
+(240437781:D_174911197) 2-4 per week
+(629699641:D_174911197) 5-6 per week
+(351464854:D_174911197) 1 per day
+(454222764:D_174911197) 2-3 per day
+(746143595:D_174911197) 4+ per day
+
+Milk, to drink or in cereal (e.g., regular, flavored, or lactose-free milk) (½ cup or 4 oz) Do not include non-dairy milk or small amounts of milk added to coffee or tea.
+(648960871:D_896562194) Never, or less than once per month
+(660669070:D_896562194) 1-3 per month
+(192247286:D_896562194) 1 per week
+(240437781:D_896562194) 2-4 per week
+(629699641:D_896562194) 5-6 per week
+(351464854:D_896562194) 1 per day
+(454222764:D_896562194) 2-3 per day
+(746143595:D_896562194) 4+ per day
+
+Cheese (1 slice or 1 oz)
+(648960871:D_736936997) Never, or less than once per month
+(660669070:D_736936997) 1-3 per month
+(192247286:D_736936997) 1 per week
+(240437781:D_736936997) 2-4 per week
+(629699641:D_736936997) 5-6 per week
+(351464854:D_736936997) 1 per day
+(454222764:D_736936997) 2-3 per day
+(746143595:D_736936997) 4+ per day
+
+Ice cream or other frozen yogurt (1 serving)
+(648960871:D_379851141) Never, or less than once per month
+(660669070:D_379851141) 1-3 per month
+(192247286:D_379851141) 1 per week
+(240437781:D_379851141) 2-4 per week
+(629699641:D_379851141) 5-6 per week
+(351464854:D_379851141) 1 per day
+(454222764:D_379851141) 2-3 per day
+(746143595:D_379851141) 4+ per day
+
+Sugary beverages (e.g., soda, lemonade) (12 oz glass, bottle or can)
+(648960871:D_172676248) Never, or less than once per month
+(660669070:D_172676248) 1-3 per month
+(192247286:D_172676248) 1 per week
+(240437781:D_172676248) 2-4 per week
+(629699641:D_172676248) 5-6 per week
+(351464854:D_172676248) 1 per day
+(454222764:D_172676248) 2-3 per day
+(746143595:D_172676248) 4+ per day
+
+Diet beverages (e.g., soda, lemonade) (12 oz glass, bottle or can)
+(648960871:D_136695974) Never, or less than once per month
+(660669070:D_136695974) 1-3 per month
+(192247286:D_136695974) 1 per week
+(240437781:D_136695974) 2-4 per week
+(629699641:D_136695974) 5-6 per week
+(351464854:D_136695974) 1 per day
+(454222764:D_136695974) 2-3 per day
+(746143595:D_136695974) 4+ per day
+
+Caffeinated coffee (8 oz cup)
+(648960871:D_827631896) Never, or less than once per month
+(660669070:D_827631896) 1-3 per month
+(192247286:D_827631896) 1 per week
+(240437781:D_827631896) 2-4 per week
+(629699641:D_827631896) 5-6 per week
+(351464854:D_827631896) 1 per day
+(454222764:D_827631896) 2-3 per day
+(746143595:D_827631896) 4+ per day
+
+Decaffeinated coffee (8 oz cup)
+(648960871:D_771538757) Never, or less than once per month
+(660669070:D_771538757) 1-3 per month
+(192247286:D_771538757) 1 per week
+(240437781:D_771538757) 2-4 per week
+(629699641:D_771538757) 5-6 per week
+(351464854:D_771538757) 1 per day
+(454222764:D_771538757) 2-3 per day
+(746143595:D_771538757) 4+ per day
+
+Caffeinated tea (8 oz cup)
+(648960871:D_910980928) Never, or less than once per month
+(660669070:D_910980928) 1-3 per month
+(192247286:D_910980928) 1 per week
+(240437781:D_910980928) 2-4 per week
+(629699641:D_910980928) 5-6 per week
+(351464854:D_910980928) 1 per day
+(454222764:D_910980928) 2-3 per day
+(746143595:D_910980928) 4+ per day
+
+Decaffeinated or herbal tea (8 oz cup)
+(648960871:D_412397796) Never, or less than once per month
+(660669070:D_412397796) 1-3 per month
+(192247286:D_412397796) 1 per week
+(240437781:D_412397796) 2-4 per week
+(629699641:D_412397796) 5-6 per week
+(351464854:D_412397796) 1 per day
+(454222764:D_412397796) 2-3 per day
+(746143595:D_412397796) 4+ per day
+
+How do you like your hot drinks? (such as coffee or tea)
+(773207854:D_484124027) Very hot
+(776030694:D_484124027) Hot
+(494937029:D_484124027) Warm
+(155662905:D_484124027) Do not like hot drinks
+(746038746:D_484124027) Prefer not to say
+
+[END] You have answered all of the questions in this survey. To submit your answers, select the "Submit Survey" button.
