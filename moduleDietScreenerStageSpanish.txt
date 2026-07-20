@@ -1,0 +1,257 @@
+//{"version":"1.0"}
+{"name":"D_301686481"}
+
+/*
+====================================================================
+ Diet Screener (SrvDSQ) — SPANISH
+ Source / nesting concept: D_916948380  (NEST_SrvDSQ_CONSUME_v1r0)
+ Generated from "Diet Screener_Mark Up_Spanish.docx" requirements.
+ Structure verified identical to the English version: same concept
+ IDs, variable names, ordering, and response mappings.
+
+ Layout matches the English markdown: single page under the source
+ question; each item is a radio group named by its concept ID via
+ the (value:groupName) syntax, stored as
+   D_916948380 -> { <sub-conceptID>: <response-conceptID> }.
+
+ Note: the closing remark is in English per the requirements doc
+ (left untranslated in the source document).
+
+ Sub-question concept ID  ->  data-dictionary variable name
+   D_970075000  SrvDSQ_Veg_v1r0
+   D_724001040  SrvDSQ_Fruit_v1r0
+   D_529369529  SrvDSQ_FruitJuice_v1r0
+   D_181240315  SrvDSQ_WholeGrain_v1r0
+   D_848411929  SrvDSQ_RefinedGrain_v1r0
+   D_593777242  SrvDSQ_RedMeat_v1r0
+   D_930916389  SrvDSQ_ProcMeat_v1r0
+   D_284856542  SrvDSQ_SaltySnack_v1r0
+   D_876252122  SrvDSQ_Dessert_v1r0
+   D_174911197  SrvDSQ_ProbioticDairy_v1r0
+   D_896562194  SrvDSQ_Milk_v1r0
+   D_736936997  SrvDSQ_Cheese_v1r0
+   D_379851141  SrvDSQ_IceCream_v1r0
+   D_172676248  SrvDSQ_SugaryDrinks_v1r0
+   D_136695974  SrvDSQ_DietDrinks_v1r0
+   D_827631896  SrvDSQ_CafCoffee_v1r0
+   D_771538757  SrvDSQ_DecafCoffee_v1r0
+   D_910980928  SrvDSQ_CafTea_v1r0
+   D_412397796  SrvDSQ_DecafTea_v1r0
+   D_484124027  SrvDSQ_DrinkTemp_v1r0
+
+ Shared frequency-scale responses (value = response concept ID):
+   648960871  Nunca, o menos de una vez al mes
+   660669070  1-3 por mes
+   192247286  1 por semana
+   240437781  2-4 por semana
+   629699641  5-6 por semana
+   351464854  1 por día
+   454222764  2-3 por día
+   746143595  4 o más por día
+====================================================================
+*/
+
+[INTRO_SRVDSQ] Esta encuesta tiene preguntas sobre sus hábitos alimentarios habituales del año pasado. Completarla solo le llevará unos cinco minutos.
+
+[D_916948380] En promedio, durante el último año, ¿con qué frecuencia consumió los siguientes alimentos y bebidas?
+
+Verduras (sin incluir papas ni lechuga iceberg) (1 taza de hojas crudas, 1/2 taza cocida)
+(648960871:D_970075000) Nunca, o menos de una vez al mes
+(660669070:D_970075000) 1-3 por mes
+(192247286:D_970075000) 1 por semana
+(240437781:D_970075000) 2-4 por semana
+(629699641:D_970075000) 5-6 por semana
+(351464854:D_970075000) 1 por día
+(454222764:D_970075000) 2-3 por día
+(746143595:D_970075000) 4 o más por día
+
+Fruta (incluya fresca, congelada o enlatada) (1 manzana, ½ taza de frutos rojos o 1 onza de fruta deshidratada) No incluya jugos.
+(648960871:D_724001040) Nunca, o menos de una vez al mes
+(660669070:D_724001040) 1-3 por mes
+(192247286:D_724001040) 1 por semana
+(240437781:D_724001040) 2-4 por semana
+(629699641:D_724001040) 5-6 por semana
+(351464854:D_724001040) 1 por día
+(454222764:D_724001040) 2-3 por día
+(746143595:D_724001040) 4 o más por día
+
+100 % jugo de fruta (1 taza)
+(648960871:D_529369529) Nunca, o menos de una vez al mes
+(660669070:D_529369529) 1-3 por mes
+(192247286:D_529369529) 1 por semana
+(240437781:D_529369529) 2-4 por semana
+(629699641:D_529369529) 5-6 por semana
+(351464854:D_529369529) 1 por día
+(454222764:D_529369529) 2-3 por día
+(746143595:D_529369529) 4 o más por día
+
+Alimentos integrales (p. ej., arroz integral, pasta integral) o pan integral (1 taza o 1 rebanada)
+(648960871:D_181240315) Nunca, o menos de una vez al mes
+(660669070:D_181240315) 1-3 por mes
+(192247286:D_181240315) 1 por semana
+(240437781:D_181240315) 2-4 por semana
+(629699641:D_181240315) 5-6 por semana
+(351464854:D_181240315) 1 por día
+(454222764:D_181240315) 2-3 por día
+(746143595:D_181240315) 4 o más por día
+
+Alimentos de grano refinado (p. ej., arroz blanco, pasta, pan) (1 taza o 1 rebanada)
+(648960871:D_848411929) Nunca, o menos de una vez al mes
+(660669070:D_848411929) 1-3 por mes
+(192247286:D_848411929) 1 por semana
+(240437781:D_848411929) 2-4 por semana
+(629699641:D_848411929) 5-6 por semana
+(351464854:D_848411929) 1 por día
+(454222764:D_848411929) 2-3 por día
+(746143595:D_848411929) 4 o más por día
+
+Carnes rojas, como res, cerdo o cordero, incluidos platos mixtos (1 hamburguesa, 1 porción)
+(648960871:D_593777242) Nunca, o menos de una vez al mes
+(660669070:D_593777242) 1-3 por mes
+(192247286:D_593777242) 1 por semana
+(240437781:D_593777242) 2-4 por semana
+(629699641:D_593777242) 5-6 por semana
+(351464854:D_593777242) 1 por día
+(454222764:D_593777242) 2-3 por día
+(746143595:D_593777242) 4 o más por día
+
+Carne procesada, como tocino, fiambres o salchichas (2 rebanadas o 2 onzas)
+(648960871:D_930916389) Nunca, o menos de una vez al mes
+(660669070:D_930916389) 1-3 por mes
+(192247286:D_930916389) 1 por semana
+(240437781:D_930916389) 2-4 por semana
+(629699641:D_930916389) 5-6 por semana
+(351464854:D_930916389) 1 por día
+(454222764:D_930916389) 2-3 por día
+(746143595:D_930916389) 4 o más por día
+
+Aperitivos salados (p. ej., papas fritas, pretzels) (1 bolsa pequeña o 1 onza)
+(648960871:D_284856542) Nunca, o menos de una vez al mes
+(660669070:D_284856542) 1-3 por mes
+(192247286:D_284856542) 1 por semana
+(240437781:D_284856542) 2-4 por semana
+(629699641:D_284856542) 5-6 por semana
+(351464854:D_284856542) 1 por día
+(454222764:D_284856542) 2-3 por día
+(746143595:D_284856542) 4 o más por día
+
+Postres y dulces (p. ej., pastel, galletas, dulces) (1 pieza o 1 onza)
+(648960871:D_876252122) Nunca, o menos de una vez al mes
+(660669070:D_876252122) 1-3 por mes
+(192247286:D_876252122) 1 por semana
+(240437781:D_876252122) 2-4 por semana
+(629699641:D_876252122) 5-6 por semana
+(351464854:D_876252122) 1 por día
+(454222764:D_876252122) 2-3 por día
+(746143595:D_876252122) 4 o más por día
+
+Productos lácteos que contienen probióticos (p. ej., yogur, kéfir) (1 porción)
+(648960871:D_174911197) Nunca, o menos de una vez al mes
+(660669070:D_174911197) 1-3 por mes
+(192247286:D_174911197) 1 por semana
+(240437781:D_174911197) 2-4 por semana
+(629699641:D_174911197) 5-6 por semana
+(351464854:D_174911197) 1 por día
+(454222764:D_174911197) 2-3 por día
+(746143595:D_174911197) 4 o más por día
+
+Leche, para beber o con cereales (p. ej., leche común, saborizada o sin lactosa) (½ taza o 4 onzas) No incluya leche no láctea ni cantidades pequeñas de leche que agrega al café o al té.
+(648960871:D_896562194) Nunca, o menos de una vez al mes
+(660669070:D_896562194) 1-3 por mes
+(192247286:D_896562194) 1 por semana
+(240437781:D_896562194) 2-4 por semana
+(629699641:D_896562194) 5-6 por semana
+(351464854:D_896562194) 1 por día
+(454222764:D_896562194) 2-3 por día
+(746143595:D_896562194) 4 o más por día
+
+Queso (1 rebanada o 1 onza)
+(648960871:D_736936997) Nunca, o menos de una vez al mes
+(660669070:D_736936997) 1-3 por mes
+(192247286:D_736936997) 1 por semana
+(240437781:D_736936997) 2-4 por semana
+(629699641:D_736936997) 5-6 por semana
+(351464854:D_736936997) 1 por día
+(454222764:D_736936997) 2-3 por día
+(746143595:D_736936997) 4 o más por día
+
+Helado u otro yogur congelado (1 porción)
+(648960871:D_379851141) Nunca, o menos de una vez al mes
+(660669070:D_379851141) 1-3 por mes
+(192247286:D_379851141) 1 por semana
+(240437781:D_379851141) 2-4 por semana
+(629699641:D_379851141) 5-6 por semana
+(351464854:D_379851141) 1 por día
+(454222764:D_379851141) 2-3 por día
+(746143595:D_379851141) 4 o más por día
+
+Bebidas azucaradas (p. ej., refrescos, limonada) (vaso, botella o lata de 12 onzas)
+(648960871:D_172676248) Nunca, o menos de una vez al mes
+(660669070:D_172676248) 1-3 por mes
+(192247286:D_172676248) 1 por semana
+(240437781:D_172676248) 2-4 por semana
+(629699641:D_172676248) 5-6 por semana
+(351464854:D_172676248) 1 por día
+(454222764:D_172676248) 2-3 por día
+(746143595:D_172676248) 4 o más por día
+
+Bebidas dietéticas (p. ej., refrescos, limonada) (vaso, botella o lata de 12 onzas)
+(648960871:D_136695974) Nunca, o menos de una vez al mes
+(660669070:D_136695974) 1-3 por mes
+(192247286:D_136695974) 1 por semana
+(240437781:D_136695974) 2-4 por semana
+(629699641:D_136695974) 5-6 por semana
+(351464854:D_136695974) 1 por día
+(454222764:D_136695974) 2-3 por día
+(746143595:D_136695974) 4 o más por día
+
+Café con cafeína (taza de 8 onzas)
+(648960871:D_827631896) Nunca, o menos de una vez al mes
+(660669070:D_827631896) 1-3 por mes
+(192247286:D_827631896) 1 por semana
+(240437781:D_827631896) 2-4 por semana
+(629699641:D_827631896) 5-6 por semana
+(351464854:D_827631896) 1 por día
+(454222764:D_827631896) 2-3 por día
+(746143595:D_827631896) 4 o más por día
+
+Café descafeinado (taza de 8 onzas)
+(648960871:D_771538757) Nunca, o menos de una vez al mes
+(660669070:D_771538757) 1-3 por mes
+(192247286:D_771538757) 1 por semana
+(240437781:D_771538757) 2-4 por semana
+(629699641:D_771538757) 5-6 por semana
+(351464854:D_771538757) 1 por día
+(454222764:D_771538757) 2-3 por día
+(746143595:D_771538757) 4 o más por día
+
+Té con cafeína (taza de 8 onzas)
+(648960871:D_910980928) Nunca, o menos de una vez al mes
+(660669070:D_910980928) 1-3 por mes
+(192247286:D_910980928) 1 por semana
+(240437781:D_910980928) 2-4 por semana
+(629699641:D_910980928) 5-6 por semana
+(351464854:D_910980928) 1 por día
+(454222764:D_910980928) 2-3 por día
+(746143595:D_910980928) 4 o más por día
+
+Té de hierbas o descafeinado (taza de 8 onzas)
+(648960871:D_412397796) Nunca, o menos de una vez al mes
+(660669070:D_412397796) 1-3 por mes
+(192247286:D_412397796) 1 por semana
+(240437781:D_412397796) 2-4 por semana
+(629699641:D_412397796) 5-6 por semana
+(351464854:D_412397796) 1 por día
+(454222764:D_412397796) 2-3 por día
+(746143595:D_412397796) 4 o más por día
+
+¿Cómo le gusta tomar las bebidas calientes? (como el café o el té)
+(773207854:D_484124027) Muy calientes
+(776030694:D_484124027) Calientes
+(494937029:D_484124027) Tibias
+(155662905:D_484124027) No me gustan las bebidas calientes
+(746038746:D_484124027) Prefiero no decirlo
+
+[END] Respondió a todas las preguntas de este cuestionario. Para enviar sus respuestas, seleccione el botón “Enviar Encuesta”.
+
+
