@@ -53,7 +53,7 @@
 
 [INTRO_SRVDSQ] This survey asks questions about your usual dietary habits from the past year. It should only take about five minutes to complete.
 
-[D_916948380] On average over the past year, how often did you consume the following foods and beverages?
+[D_916948380] **On average over the <past year>**, how often did you consume the following foods and beverages?
 
 Vegetables (not including potatoes or iceberg lettuce) (1 cup raw leafy, ½ cup cooked)
 (648960871:D_970075000) Never, or less than once per month
@@ -65,7 +65,7 @@ Vegetables (not including potatoes or iceberg lettuce) (1 cup raw leafy, ½ cup 
 (454222764:D_970075000) 2-3 per day
 (746143595:D_970075000) 4+ per day
 
-Fruit (include fresh, frozen or canned) (1 apple, ½ berries or 1 oz dried). Do not include juices.
+Fruit (include fresh, frozen or canned) (1 apple, ½ cup berries or 1 oz dried). Do not include juices.
 (648960871:D_724001040) Never, or less than once per month
 (660669070:D_724001040) 1-3 per month
 (192247286:D_724001040) 1 per week
@@ -155,7 +155,7 @@ Probiotic-containing dairy foods (e.g., Yogurt, Kefir) (1 serving)
 (454222764:D_174911197) 2-3 per day
 (746143595:D_174911197) 4+ per day
 
-Milk, to drink or in cereal (e.g., regular, flavored, or lactose-free milk) (½ cup or 4 oz) Do not include non-dairy milk or small amounts of milk added to coffee or tea.
+Milk, to drink or on cereal (e.g., regular, flavored, or lactose-free milk) (½ cup or 4 oz) Do not include non-dairy milk or small amounts of milk added to coffee or tea.
 (648960871:D_896562194) Never, or less than once per month
 (660669070:D_896562194) 1-3 per month
 (192247286:D_896562194) 1 per week
