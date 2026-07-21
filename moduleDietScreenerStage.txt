@@ -53,7 +53,7 @@
 
 [INTRO_SRVDSQ] This survey asks questions about your usual dietary habits from the past year. It should only take about five minutes to complete.
 
-[D_916948380] **On average over the <past year>**, how often did you consume the following foods and beverages?
+[D_916948380] **On average over the** <u>**past year**</u>, how often did you consume the following foods and beverages?
 
 Vegetables (not including potatoes or iceberg lettuce) (1 cup raw leafy, ½ cup cooked)
 (648960871:D_970075000) Never, or less than once per month
