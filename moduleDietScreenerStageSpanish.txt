@@ -53,7 +53,7 @@
 
 [INTRO_SRVDSQ] Esta encuesta tiene preguntas sobre sus hábitos alimentarios habituales del año pasado. Completarla solo le llevará unos cinco minutos.
 
-[D_916948380] En promedio, durante el último año, ¿con qué frecuencia consumió los siguientes alimentos y bebidas?
+[D_916948380] En <b>promedio, durante el <u>último año</u></b>, ¿con qué frecuencia consumió los siguientes alimentos y bebidas?
 
 Verduras (sin incluir papas ni lechuga iceberg) (1 taza de hojas crudas, 1/2 taza cocida)
 (648960871:D_970075000) Nunca, o menos de una vez al mes
