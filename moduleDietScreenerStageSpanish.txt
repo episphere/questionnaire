@@ -55,7 +55,7 @@
 
 [D_916948380] En <b>promedio, durante el <u>último año</u></b>, ¿con qué frecuencia consumió los siguientes alimentos y bebidas?
 
-Verduras (sin incluir papas ni lechuga iceberg) (1 taza de hojas crudas, 1/2 taza cocida)
+Verduras (sin incluir papas ni lechuga iceberg) (1 taza de hojas crudas, ½ taza cocida)
 (648960871:D_970075000) Nunca, o menos de una vez al mes
 (660669070:D_970075000) 1-3 por mes
 (192247286:D_970075000) 1 por semana
