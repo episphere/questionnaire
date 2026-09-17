@@ -26,7 +26,7 @@
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
 //This file was last modified on Wed Apr 23 20:50:39 2025 -0400 (short timestamp = 2025-04-24-00-50-39)
-//{"version":"2.0"}
+//{"version":"2.1"}
 {"name":"D_716117817"}
 
 [INTROM4] Las preguntas de esta sección tratan sobre los lugares en los que ha vivido y trabajado. El lugar donde vivimos y nuestros desplazamientos diarios de ida y vuelta a casa, al trabajo y a la escuela pueden afectar nuestra salud de varias formas.
@@ -723,11 +723,11 @@ Año en que se fue de esta dirección |__|__|__|__|id=D_943813942 min=valueOrDef
 
 [D_958419506?] ¿Cuál es la fuente del agua que usa en|displayif=noneExist("D_255248624","D_945532934","D_469838242","D_303500597","D_725583683","D_195068098","D_917021073","D_202784871","D_970000442","D_831127170","D_500100435")| <b>la dirección actual que nos dio</b>||displayif=someExist("D_255248624","D_945532934","D_469838242","D_303500597","D_725583683","D_195068098","D_917021073","D_202784871","D_970000442","D_831127170","D_500100435")|: <b>{$D_105043152} {$D_543135391} {$D_255248624} {$D_945532934} {$D_469838242} {$D_303500597}{$D_725583683} {$D_195068098}{$D_917021073} {$D_202784871}{$D_970000442} {$D_831127170}{$D_500100435}</b>|? 
 
-(901693169) Un suministro de agua público o municipal  -> D_539909957
-(519767819) Un sistema de agua rural, un pozo comunitario o un manantial que abastece al menos a 25 personas o 15 hogares  -> D_539909957
-(388690303) Un pozo o un manantial particular -> D_725408440
-(807835037) Otra fuente: describa  |__|id=D_799451743| -> D_539909957
-(178420302) No sé -> D_539909957
+(901693169:D_396924473) Un suministro de agua público o municipal  -> D_539909957
+(519767819:D_396924473) Un sistema de agua rural, un pozo comunitario o un manantial que abastece al menos a 25 personas o 15 hogares  -> D_539909957
+(388690303:D_396924473) Un pozo o un manantial particular -> D_725408440
+(807835037:D_396924473) Otra fuente: describa  |__|id=D_799451743| -> D_539909957
+(178420302:D_396924473) No sé -> D_539909957
 < #NR -> D_539909957>
 
 [D_725408440?] ¿Cuál es la profundidad aproximada de su pozo particular?
@@ -741,22 +741,22 @@ Año en que se fue de esta dirección |__|__|__|__|id=D_943813942 min=valueOrDef
 
 [D_539909957?] ¿Cuál es la fuente principal del agua que bebe en |displayif=noneExist("D_255248624","D_945532934","D_469838242","D_303500597","D_725583683","D_195068098","D_917021073","D_202784871","D_970000442","D_831127170","D_500100435")| <b>la dirección actual que nos dio</b>||displayif=someExist("D_255248624","D_945532934","D_469838242","D_303500597","D_725583683","D_195068098","D_917021073","D_202784871","D_970000442","D_831127170","D_500100435")|: <b>{$D_105043152} {$D_543135391} {$D_255248624} {$D_945532934} {$D_469838242} {$D_303500597}{$D_725583683} {$D_195068098}{$D_917021073} {$D_202784871}{$D_970000442} {$D_831127170}{$D_500100435}</b>|?  Piense en el agua que usa para preparar bebidas como el café y el té, y el agua pura que bebe.
 
-(123108471) Agua de la llave (grifo) o del refrigerador que <b>no</b> se haya |popup|filtrado o potabilizado|Texto de ayuda|Incluya solo agua que no se filtró ni que se potabilizó mediante ósmosis inversa, destilación o filtros que eliminan plomo, cloro, plaguicidas u otras sustancias químicas. Puede incluir agua filtrada con descalcificadores, que son filtros que solo eliminan los sedimentos del agua.|
-(463122075) Agua de un refrigerador que tiene un filtro para agua
-(254061941) Agua que se pasa por un filtro como Brita® o PUR® que se pone en una jarra o en la llave del agua
-(404651070) Agua que se filtra por ósmosis inversa (debajo del fregadero o en toda la casa) 
-(354856090) Agua que se pasa por otro tipo de filtro (debajo del fregadero o en toda la casa) 
-(311981718) Agua embotellada, incluso del dispensador de una tienda o que se entrega a domicilio
-(807835037) Otra fuente: describa  |__|id=D_994632550|
-(178420302) No sé
+(123108471:D_146384116) Agua de la llave (grifo) o del refrigerador que <b>no</b> se haya |popup|filtrado o potabilizado|Texto de ayuda|Incluya solo agua que no se filtró ni que se potabilizó mediante ósmosis inversa, destilación o filtros que eliminan plomo, cloro, plaguicidas u otras sustancias químicas. Puede incluir agua filtrada con descalcificadores, que son filtros que solo eliminan los sedimentos del agua.|
+(463122075:D_146384116) Agua de un refrigerador que tiene un filtro para agua
+(254061941:D_146384116) Agua que se pasa por un filtro como Brita® o PUR® que se pone en una jarra o en la llave del agua
+(404651070:D_146384116) Agua que se filtra por ósmosis inversa (debajo del fregadero o en toda la casa) 
+(354856090:D_146384116) Agua que se pasa por otro tipo de filtro (debajo del fregadero o en toda la casa) 
+(311981718:D_146384116) Agua embotellada, incluso del dispensador de una tienda o que se entrega a domicilio
+(807835037:D_146384116) Otra fuente: describa  |__|id=D_994632550|
+(178420302:D_146384116) No sé
 
 [D_505863509?,displayif=or(equals(D_290969423,353358909),or(equals(D_869829679,270752953),or(equals(isNotDefined(D_985267931,""),false),or(equals(isNotDefined(D_111275683,""),false),or(equals(isNotDefined(D_129226572,""),false),or(equals(isNotDefined(D_536516743,""),false),or(equals(isNotDefined(D_288498031,""),false),or(equals(isNotDefined(D_283900560,""),false),or(equals(isNotDefined(D_195845897,""),false),or(equals(isNotDefined(D_467947502,""),false),or(equals(isNotDefined(D_936129960,""),false),or(equals(isNotDefined(D_368486703,""),false),equals(isNotDefined(D_924583345,""),false)))))))))))))] ¿Cuál era la fuente del agua que usaba en |displayif=noneExist("D_985267931","D_111275683","D_129226572","D_536516743","D_288498031","D_283900560","D_195845897","D_467947502","D_936129960","D_368486703","D_924583345")| <b>la 2ª dirección que nos dio</b>||displayif=someExist("D_985267931","D_111275683","D_129226572","D_536516743","D_288498031","D_283900560","D_195845897","D_467947502","D_936129960","D_368486703","D_924583345")|: <b>{$D_553357862} {$D_474541595} {$D_985267931} {$D_111275683} {$D_129226572} {$D_536516743}{$D_288498031} {$D_283900560}{$D_195845897} {$D_467947502}{$D_936129960} {$D_368486703}{$D_924583345}</b>|? 
 
-(901693169) Un suministro de agua público o municipal  -> D_250486386
-(519767819) Un sistema de agua rural, un pozo comunitario o un manantial que abastece al menos a 25 personas o 15 hogares  -> D_250486386
-(388690303) Un pozo o un manantial particular -> D_651233069
-(807835037) Otra fuente: describa  |__|id=D_441314504| -> D_250486386
-(178420302) No sé -> D_250486386
+(901693169:D_550044118) Un suministro de agua público o municipal  -> D_250486386
+(519767819:D_550044118) Un sistema de agua rural, un pozo comunitario o un manantial que abastece al menos a 25 personas o 15 hogares  -> D_250486386
+(388690303:D_550044118) Un pozo o un manantial particular -> D_651233069
+(807835037:D_550044118) Otra fuente: describa  |__|id=D_441314504| -> D_250486386
+(178420302:D_550044118) No sé -> D_250486386
 < #NR -> D_250486386>
 
 [D_651233069?,displayif=or(equals(D_290969423,353358909),or(equals(D_869829679,270752953),or(equals(isNotDefined(D_985267931,""),false),or(equals(isNotDefined(D_111275683,""),false),or(equals(isNotDefined(D_129226572,""),false),or(equals(isNotDefined(D_536516743,""),false),or(equals(isNotDefined(D_288498031,""),false),or(equals(isNotDefined(D_283900560,""),false),or(equals(isNotDefined(D_195845897,""),false),or(equals(isNotDefined(D_467947502,""),false),or(equals(isNotDefined(D_936129960,""),false),or(equals(isNotDefined(D_368486703,""),false),equals(isNotDefined(D_924583345,""),false)))))))))))))] ¿Cuál era la profundidad aproximada de su pozo particular?
@@ -771,23 +771,23 @@ Año en que se fue de esta dirección |__|__|__|__|id=D_943813942 min=valueOrDef
 
 [D_250486386?,displayif=or(equals(D_290969423,353358909),or(equals(D_869829679,270752953),or(equals(isNotDefined(D_985267931,""),false),or(equals(isNotDefined(D_111275683,""),false),or(equals(isNotDefined(D_129226572,""),false),or(equals(isNotDefined(D_536516743,""),false),or(equals(isNotDefined(D_288498031,""),false),or(equals(isNotDefined(D_283900560,""),false),or(equals(isNotDefined(D_195845897,""),false),or(equals(isNotDefined(D_467947502,""),false),or(equals(isNotDefined(D_936129960,""),false),or(equals(isNotDefined(D_368486703,""),false),equals(isNotDefined(D_924583345,""),false)))))))))))))] ¿Cuál era la fuente principal del agua que bebía en |displayif=noneExist("D_985267931","D_111275683","D_129226572","D_536516743","D_288498031","D_283900560","D_195845897","D_467947502","D_936129960","D_368486703","D_924583345")| <b>la 2ª dirección que nos dio</b>||displayif=someExist("D_985267931","D_111275683","D_129226572","D_536516743","D_288498031","D_283900560","D_195845897","D_467947502","D_936129960","D_368486703","D_924583345")|: <b>{$D_553357862} {$D_474541595} {$D_985267931} {$D_111275683} {$D_129226572} {$D_536516743}{$D_288498031} {$D_283900560}{$D_195845897} {$D_467947502}{$D_936129960} {$D_368486703}{$D_924583345}</b>|?  Piense en el agua que usaba para preparar bebidas como el café y el té, y el agua pura que bebía. 
 
-(123108471) Agua de la llave (grifo) o del refrigerador que <b>no</b> se haya |popup|filtrado o potabilizado|Texto de ayuda|Incluya solo agua que no se filtró ni que se potabilizó mediante ósmosis inversa, destilación o filtros que eliminan plomo, cloro, plaguicidas u otras sustancias químicas. Puede incluir agua filtrada con descalcificadores, que son filtros que solo eliminan los sedimentos del agua.|
-(463122075) Agua de un refrigerador que tiene un filtro para agua
-(254061941) Agua que se pasa por un filtro como Brita® o PUR® que se pone en una jarra o en la llave del agua
-(404651070) Agua que se filtra por ósmosis inversa (debajo del fregadero o en toda la casa) 
-(354856090) Agua que se pasa por otro tipo de filtro (debajo del fregadero o en toda la casa) 
-(311981718) Agua embotellada, incluso del dispensador de una tienda o que se entrega a domicilio
-(807835037) Otra fuente: describa  |__|id=D_224594497|
-(178420302) No sé
+(123108471:D_913746491) Agua de la llave (grifo) o del refrigerador que <b>no</b> se haya |popup|filtrado o potabilizado|Texto de ayuda|Incluya solo agua que no se filtró ni que se potabilizó mediante ósmosis inversa, destilación o filtros que eliminan plomo, cloro, plaguicidas u otras sustancias químicas. Puede incluir agua filtrada con descalcificadores, que son filtros que solo eliminan los sedimentos del agua.|
+(463122075:D_913746491) Agua de un refrigerador que tiene un filtro para agua
+(254061941:D_913746491) Agua que se pasa por un filtro como Brita® o PUR® que se pone en una jarra o en la llave del agua
+(404651070:D_913746491) Agua que se filtra por ósmosis inversa (debajo del fregadero o en toda la casa) 
+(354856090:D_913746491) Agua que se pasa por otro tipo de filtro (debajo del fregadero o en toda la casa) 
+(311981718:D_913746491) Agua embotellada, incluso del dispensador de una tienda o que se entrega a domicilio
+(807835037:D_913746491) Otra fuente: describa  |__|id=D_224594497|
+(178420302:D_913746491) No sé
 
 
 [D_957717014?,displayif=or(equals(D_862052821,353358909),or(equals(D_845483079,270752953),or(equals(isNotDefined(D_875706715,""),false),or(equals(isNotDefined(D_645150792,""),false),or(equals(isNotDefined(D_585360350,""),false),or(equals(isNotDefined(D_588699608,""),false),or(equals(isNotDefined(D_648495207,""),false),or(equals(isNotDefined(D_544692849,""),false),or(equals(isNotDefined(D_300933270,""),false),or(equals(isNotDefined(D_335435992,""),false),or(equals(isNotDefined(D_649864362,""),false),or(equals(isNotDefined(D_337088272,""),false),equals(isNotDefined(D_723108194,""),false)))))))))))))] ¿Cuál era la fuente del agua que usaba en |displayif=noneExist("D_875706715","D_645150792","D_585360350","D_588699608","D_648495207","D_544692849","D_300933270","D_335435992","D_649864362","D_337088272","D_723108194")| la 3ª dirección que nos dio||displayif=someExist("D_875706715","D_645150792","D_585360350","D_588699608","D_648495207","D_544692849","D_300933270","D_335435992","D_649864362","D_337088272","D_723108194")|: <b>{$D_469679476} {$D_216954796} {$D_875706715} {$D_645150792} {$D_585360350} {$D_588699608}{$D_648495207} {$D_544692849}{$D_300933270} {$D_335435992}{$D_649864362} {$D_337088272}{$D_723108194}</b>|? 
 
-(901693169) Un suministro de agua público o municipal  -> D_726654963
-(519767819) Un sistema de agua rural, un pozo comunitario o un manantial que abastece al menos a 25 personas o 15 hogares  -> D_726654963
-(388690303) Un pozo o un manantial particular -> D_809387606
-(807835037) Otra fuente: describa  |__|id=D_984805254| -> D_726654963
-(178420302) No sé -> D_726654963
+(901693169:D_533281093) Un suministro de agua público o municipal  -> D_726654963
+(519767819:D_533281093) Un sistema de agua rural, un pozo comunitario o un manantial que abastece al menos a 25 personas o 15 hogares  -> D_726654963
+(388690303:D_533281093) Un pozo o un manantial particular -> D_809387606
+(807835037:D_533281093) Otra fuente: describa  |__|id=D_984805254| -> D_726654963
+(178420302:D_533281093) No sé -> D_726654963
 < #NR -> D_726654963>
 
 [D_809387606?,displayif=or(equals(D_862052821,353358909),or(equals(D_845483079,270752953),or(equals(isNotDefined(D_875706715,""),false),or(equals(isNotDefined(D_645150792,""),false),or(equals(isNotDefined(D_585360350,""),false),or(equals(isNotDefined(D_588699608,""),false),or(equals(isNotDefined(D_648495207,""),false),or(equals(isNotDefined(D_544692849,""),false),or(equals(isNotDefined(D_300933270,""),false),or(equals(isNotDefined(D_335435992,""),false),or(equals(isNotDefined(D_649864362,""),false),or(equals(isNotDefined(D_337088272,""),false),equals(isNotDefined(D_723108194,""),false)))))))))))))] ¿Cuál era la profundidad aproximada de su pozo particular?
@@ -802,22 +802,22 @@ Año en que se fue de esta dirección |__|__|__|__|id=D_943813942 min=valueOrDef
 
 [D_726654963?,displayif=or(equals(D_862052821,353358909),or(equals(D_845483079,270752953),or(equals(isNotDefined(D_875706715,""),false),or(equals(isNotDefined(D_645150792,""),false),or(equals(isNotDefined(D_585360350,""),false),or(equals(isNotDefined(D_588699608,""),false),or(equals(isNotDefined(D_648495207,""),false),or(equals(isNotDefined(D_544692849,""),false),or(equals(isNotDefined(D_300933270,""),false),or(equals(isNotDefined(D_335435992,""),false),or(equals(isNotDefined(D_649864362,""),false),or(equals(isNotDefined(D_337088272,""),false),equals(isNotDefined(D_723108194,""),false)))))))))))))] ¿Cuál era la fuente principal del agua que bebía en |displayif=noneExist("D_875706715","D_645150792","D_585360350","D_588699608","D_648495207","D_544692849","D_300933270","D_335435992","D_649864362","D_337088272","D_723108194")| la 3ª dirección que nos dio||displayif=someExist("D_875706715","D_645150792","D_585360350","D_588699608","D_648495207","D_544692849","D_300933270","D_335435992","D_649864362","D_337088272","D_723108194")|: <b>{$D_469679476} {$D_216954796} {$D_875706715} {$D_645150792} {$D_585360350} {$D_588699608}{$D_648495207} {$D_544692849}{$D_300933270} {$D_335435992}{$D_649864362} {$D_337088272}{$D_723108194}</b>|?  Piense en el agua que usaba para preparar bebidas como el café y el té, y el agua pura que bebía. 
 
-(123108471) Agua de la llave (grifo) o del refrigerador que <b>no</b> se haya |popup|filtrado o potabilizado|Texto de ayuda|Incluya solo agua que no se filtró ni que se potabilizó mediante ósmosis inversa, destilación o filtros que eliminan plomo, cloro, plaguicidas u otras sustancias químicas. Puede incluir agua filtrada con descalcificadores, que son filtros que solo eliminan los sedimentos del agua.|
-(463122075) Agua de un refrigerador que tiene un filtro para agua
-(254061941) Agua que se pasa por un filtro como Brita® o PUR® que se pone en una jarra o en la llave del agua
-(404651070) Agua que se filtra por ósmosis inversa (debajo del fregadero o en toda la casa) 
-(354856090) Agua que se pasa por otro tipo de filtro (debajo del fregadero o en toda la casa) 
-(311981718) Agua embotellada, incluso del dispensador de una tienda o que se entrega a domicilio
-(807835037) Otra fuente: describa  |__|id=D_276249147|
-(178420302) No sé
+(123108471:D_352237976) Agua de la llave (grifo) o del refrigerador que <b>no</b> se haya |popup|filtrado o potabilizado|Texto de ayuda|Incluya solo agua que no se filtró ni que se potabilizó mediante ósmosis inversa, destilación o filtros que eliminan plomo, cloro, plaguicidas u otras sustancias químicas. Puede incluir agua filtrada con descalcificadores, que son filtros que solo eliminan los sedimentos del agua.|
+(463122075:D_352237976) Agua de un refrigerador que tiene un filtro para agua
+(254061941:D_352237976) Agua que se pasa por un filtro como Brita® o PUR® que se pone en una jarra o en la llave del agua
+(404651070:D_352237976) Agua que se filtra por ósmosis inversa (debajo del fregadero o en toda la casa) 
+(354856090:D_352237976) Agua que se pasa por otro tipo de filtro (debajo del fregadero o en toda la casa) 
+(311981718:D_352237976) Agua embotellada, incluso del dispensador de una tienda o que se entrega a domicilio
+(807835037:D_352237976) Otra fuente: describa  |__|id=D_276249147|
+(178420302:D_352237976) No sé
 
 [D_195367894?,displayif=or(equals(D_593146348,353358909),or(equals(D_736086261,270752953),or(equals(isNotDefined(D_130174162,""),false),or(equals(isNotDefined(D_563832508,""),false),or(equals(isNotDefined(D_817839081,""),false),or(equals(isNotDefined(D_930511603,""),false),or(equals(isNotDefined(D_931999203,""),false),or(equals(isNotDefined(D_756548442,""),false),or(equals(isNotDefined(D_486511102,""),false),or(equals(isNotDefined(D_455968200,""),false),or(equals(isNotDefined(D_267027102,""),false),or(equals(isNotDefined(D_728704613,""),false),equals(isNotDefined(D_734345879,""),false)))))))))))))] ¿Cuál era la fuente del agua que usaba en |displayif=noneExist("D_130174162","D_563832508","D_817839081","D_930511603","D_931999203","D_756548442","D_486511102","D_455968200","D_267027102","D_728704613","D_734345879")|la 4ª dirección que nos dio||displayif=someExist("D_130174162","D_563832508","D_817839081","D_930511603","D_931999203","D_756548442","D_486511102","D_455968200","D_267027102","D_728704613","D_734345879")|:  <b>{$D_423713680} {$D_555767576} {$D_130174162} {$D_563832508} {$D_817839081} {$D_930511603}{$D_931999203} {$D_756548442}{$D_486511102} {$D_455968200}{$D_267027102} {$D_728704613}{$D_734345879}</b>|? 
 
-(901693169) Un suministro de agua público o municipal  -> D_934184033
-(519767819) Un sistema de agua rural, un pozo comunitario o un manantial que abastece al menos a 25 personas o 15 hogares  -> D_934184033
-(388690303) Un pozo o un manantial particular -> D_428044531
-(807835037) Otra fuente: describa  |__|id=D_300611347| -> D_934184033
-(178420302) No sé -> D_934184033
+(901693169:D_292827049) Un suministro de agua público o municipal  -> D_934184033
+(519767819:D_292827049) Un sistema de agua rural, un pozo comunitario o un manantial que abastece al menos a 25 personas o 15 hogares  -> D_934184033
+(388690303:D_292827049) Un pozo o un manantial particular -> D_428044531
+(807835037:D_292827049) Otra fuente: describa  |__|id=D_300611347| -> D_934184033
+(178420302:D_292827049) No sé -> D_934184033
 < #NR -> D_934184033>
 
 [D_428044531?,displayif=or(equals(D_593146348,353358909),or(equals(D_736086261,270752953),or(equals(isNotDefined(D_130174162,""),false),or(equals(isNotDefined(D_563832508,""),false),or(equals(isNotDefined(D_817839081,""),false),or(equals(isNotDefined(D_930511603,""),false),or(equals(isNotDefined(D_931999203,""),false),or(equals(isNotDefined(D_756548442,""),false),or(equals(isNotDefined(D_486511102,""),false),or(equals(isNotDefined(D_455968200,""),false),or(equals(isNotDefined(D_267027102,""),false),or(equals(isNotDefined(D_728704613,""),false),equals(isNotDefined(D_734345879,""),false)))))))))))))] ¿Cuál era la profundidad aproximada de su pozo particular?
@@ -832,22 +832,22 @@ Año en que se fue de esta dirección |__|__|__|__|id=D_943813942 min=valueOrDef
 
 [D_934184033?,displayif=or(equals(D_593146348,353358909),or(equals(D_736086261,270752953),or(equals(isNotDefined(D_130174162,""),false),or(equals(isNotDefined(D_563832508,""),false),or(equals(isNotDefined(D_817839081,""),false),or(equals(isNotDefined(D_930511603,""),false),or(equals(isNotDefined(D_931999203,""),false),or(equals(isNotDefined(D_756548442,""),false),or(equals(isNotDefined(D_486511102,""),false),or(equals(isNotDefined(D_455968200,""),false),or(equals(isNotDefined(D_267027102,""),false),or(equals(isNotDefined(D_728704613,""),false),equals(isNotDefined(D_734345879,""),false)))))))))))))] ¿Cuál era la fuente principal del agua que bebía en |displayif=noneExist("D_130174162","D_563832508","D_817839081","D_930511603","D_931999203","D_756548442","D_486511102","D_455968200","D_267027102","D_728704613","D_734345879")|la 4ª dirección que nos dio||displayif=someExist("D_130174162","D_563832508","D_817839081","D_930511603","D_931999203","D_756548442","D_486511102","D_455968200","D_267027102","D_728704613","D_734345879")|: <b>{$D_423713680} {$D_555767576} {$D_130174162} {$D_563832508} {$D_817839081} {$D_930511603}{$D_931999203} {$D_756548442}{$D_486511102} {$D_455968200}{$D_267027102} {$D_728704613}{$D_734345879}</b>|?  Piense en el agua que usaba para preparar bebidas como el café y el té, y el agua pura que bebía. 
 
-(123108471) Agua de la llave (grifo) o del refrigerador que <b>no</b> se haya |popup|filtrado o potabilizado|Texto de ayuda|Incluya solo agua que no se filtró ni que se potabilizó mediante ósmosis inversa, destilación o filtros que eliminan plomo, cloro, plaguicidas u otras sustancias químicas. Puede incluir agua filtrada con descalcificadores, que son filtros que solo eliminan los sedimentos del agua.|
-(463122075) Agua de un refrigerador que tiene un filtro para agua
-(254061941) Agua que se pasa por un filtro como Brita® o PUR® que se pone en una jarra o en la llave del agua
-(404651070) Agua que se filtra por ósmosis inversa (debajo del fregadero o en toda la casa) 
-(354856090) Agua que se pasa por otro tipo de filtro (debajo del fregadero o en toda la casa) 
-(311981718) Agua embotellada, incluso del dispensador de una tienda o que se entrega a domicilio
-(807835037) Otra fuente: describa  |__|id=D_675539614|
-(178420302) No sé
+(123108471:D_313246521) Agua de la llave (grifo) o del refrigerador que <b>no</b> se haya |popup|filtrado o potabilizado|Texto de ayuda|Incluya solo agua que no se filtró ni que se potabilizó mediante ósmosis inversa, destilación o filtros que eliminan plomo, cloro, plaguicidas u otras sustancias químicas. Puede incluir agua filtrada con descalcificadores, que son filtros que solo eliminan los sedimentos del agua.|
+(463122075:D_313246521) Agua de un refrigerador que tiene un filtro para agua
+(254061941:D_313246521) Agua que se pasa por un filtro como Brita® o PUR® que se pone en una jarra o en la llave del agua
+(404651070:D_313246521) Agua que se filtra por ósmosis inversa (debajo del fregadero o en toda la casa) 
+(354856090:D_313246521) Agua que se pasa por otro tipo de filtro (debajo del fregadero o en toda la casa) 
+(311981718:D_313246521) Agua embotellada, incluso del dispensador de una tienda o que se entrega a domicilio
+(807835037:D_313246521) Otra fuente: describa  |__|id=D_675539614|
+(178420302:D_313246521) No sé
 
 [D_986989731?,displayif=or(equals(D_983592172,353358909),or(equals(D_294308065,270752953),or(equals(isNotDefined(D_838725845,""),false),or(equals(isNotDefined(D_565515774,""),false),or(equals(isNotDefined(D_848348504,""),false),or(equals(isNotDefined(D_742177990,""),false),or(equals(isNotDefined(D_445867902,""),false),or(equals(isNotDefined(D_843508307,""),false),or(equals(isNotDefined(D_348049244,""),false),or(equals(isNotDefined(D_554901696,""),false),or(equals(isNotDefined(D_684217044,""),false),or(equals(isNotDefined(D_819429013,""),false),equals(isNotDefined(D_600319581,""),false)))))))))))))] ¿Cuál era la fuente del agua que usaba en |displayif=noneExist("D_838725845","D_565515774","D_848348504","D_742177990","D_445867902","D_843508307","D_348049244","D_554901696","D_684217044","D_819429013","D_600319581")|la 5ª dirección que nos dio||displayif=someExist("D_838725845","D_565515774","D_848348504","D_742177990","D_445867902","D_843508307","D_348049244","D_554901696","D_684217044","D_819429013","D_600319581")|: <b>{$D_915527263} {$D_325919807} {$D_838725845} {$D_565515774} {$D_848348504} {$D_742177990}{$D_445867902} {$D_843508307}{$D_348049244} {$D_554901696}{$D_684217044} {$D_819429013}{$D_600319581}</b>|? 
 
-(901693169) Un suministro de agua público o municipal  -> D_508187475
-(519767819) Un sistema de agua rural, un pozo comunitario o un manantial que abastece al menos a 25 personas o 15 hogares  -> D_508187475
-(388690303) Un pozo o un manantial particular -> D_441498892
-(807835037) Otra fuente: describa  |__|id=D_431488717| -> D_508187475
-(178420302) No sé -> D_508187475
+(901693169:D_890059935) Un suministro de agua público o municipal  -> D_508187475
+(519767819:D_890059935) Un sistema de agua rural, un pozo comunitario o un manantial que abastece al menos a 25 personas o 15 hogares  -> D_508187475
+(388690303:D_890059935) Un pozo o un manantial particular -> D_441498892
+(807835037:D_890059935) Otra fuente: describa  |__|id=D_431488717| -> D_508187475
+(178420302:D_890059935) No sé -> D_508187475
 < #NR -> D_508187475>
 
 [D_441498892?,displayif=or(equals(D_983592172,353358909),or(equals(D_294308065,270752953),or(equals(isNotDefined(D_838725845,""),false),or(equals(isNotDefined(D_565515774,""),false),or(equals(isNotDefined(D_848348504,""),false),or(equals(isNotDefined(D_742177990,""),false),or(equals(isNotDefined(D_445867902,""),false),or(equals(isNotDefined(D_843508307,""),false),or(equals(isNotDefined(D_348049244,""),false),or(equals(isNotDefined(D_554901696,""),false),or(equals(isNotDefined(D_684217044,""),false),or(equals(isNotDefined(D_819429013,""),false),equals(isNotDefined(D_600319581,""),false)))))))))))))] ¿Cuál era la profundidad aproximada de su pozo particular?
@@ -861,22 +861,22 @@ Año en que se fue de esta dirección |__|__|__|__|id=D_943813942 min=valueOrDef
 
 [D_508187475?,displayif=or(equals(D_983592172,353358909),or(equals(D_294308065,270752953),or(equals(isNotDefined(D_838725845,""),false),or(equals(isNotDefined(D_565515774,""),false),or(equals(isNotDefined(D_848348504,""),false),or(equals(isNotDefined(D_742177990,""),false),or(equals(isNotDefined(D_445867902,""),false),or(equals(isNotDefined(D_843508307,""),false),or(equals(isNotDefined(D_348049244,""),false),or(equals(isNotDefined(D_554901696,""),false),or(equals(isNotDefined(D_684217044,""),false),or(equals(isNotDefined(D_819429013,""),false),equals(isNotDefined(D_600319581,""),false)))))))))))))] ¿Cuál era la fuente principal del agua que usaba en |displayif=noneExist("D_838725845","D_565515774","D_848348504","D_742177990","D_445867902","D_843508307","D_348049244","D_554901696","D_684217044","D_819429013","D_600319581")|la 5ª dirección que nos dio||displayif=someExist("D_838725845","D_565515774","D_848348504","D_742177990","D_445867902","D_843508307","D_348049244","D_554901696","D_684217044","D_819429013","D_600319581")|: <b>{$D_915527263} {$D_325919807} {$D_838725845} {$D_565515774} {$D_848348504} {$D_742177990}{$D_445867902} {$D_843508307}{$D_348049244} {$D_554901696}{$D_684217044} {$D_819429013}{$D_600319581}</b>|?  Piense en el agua que usaba para preparar bebidas como el café y el té, y el agua pura que bebía. 
 
-(123108471) Agua de la llave (grifo) o del refrigerador que <b>no</b> se haya |popup|filtrado o potabilizado|Texto de ayuda|Incluya solo agua que no se filtró ni que se potabilizó mediante ósmosis inversa, destilación o filtros que eliminan plomo, cloro, plaguicidas u otras sustancias químicas. Puede incluir agua filtrada con descalcificadores, que son filtros que solo eliminan los sedimentos del agua.|
-(463122075) Agua de un refrigerador que tiene un filtro para agua
-(254061941) Agua que se pasa por un filtro como Brita® o PUR® que se pone en una jarra o en la llave del agua
-(404651070) Agua que se filtra por ósmosis inversa (debajo del fregadero o en toda la casa) 
-(354856090) Agua que se pasa por otro tipo de filtro (debajo del fregadero o en toda la casa) 
-(311981718) Agua embotellada, incluso del dispensador de una tienda o que se entrega a domicilio
-(807835037) Otra fuente: describa  |__|id=D_209510432|
-(178420302) No sé
+(123108471:D_937608354) Agua de la llave (grifo) o del refrigerador que <b>no</b> se haya |popup|filtrado o potabilizado|Texto de ayuda|Incluya solo agua que no se filtró ni que se potabilizó mediante ósmosis inversa, destilación o filtros que eliminan plomo, cloro, plaguicidas u otras sustancias químicas. Puede incluir agua filtrada con descalcificadores, que son filtros que solo eliminan los sedimentos del agua.|
+(463122075:D_937608354) Agua de un refrigerador que tiene un filtro para agua
+(254061941:D_937608354) Agua que se pasa por un filtro como Brita® o PUR® que se pone en una jarra o en la llave del agua
+(404651070:D_937608354) Agua que se filtra por ósmosis inversa (debajo del fregadero o en toda la casa) 
+(354856090:D_937608354) Agua que se pasa por otro tipo de filtro (debajo del fregadero o en toda la casa) 
+(311981718:D_937608354) Agua embotellada, incluso del dispensador de una tienda o que se entrega a domicilio
+(807835037:D_937608354) Otra fuente: describa  |__|id=D_209510432|
+(178420302:D_937608354) No sé
 
 [D_665978055?,displayif=or(equals(D_776406200,353358909),or(equals(D_385583361,270752953),or(equals(isNotDefined(D_306805272,""),false),or(equals(isNotDefined(D_819844467,""),false),or(equals(isNotDefined(D_164233037,""),false),or(equals(isNotDefined(D_418702418,""),false),or(equals(isNotDefined(D_218334768,""),false),or(equals(isNotDefined(D_101219440,""),false),or(equals(isNotDefined(D_394294282,""),false),or(equals(isNotDefined(D_127963610,""),false),or(equals(isNotDefined(D_803526907,""),false),or(equals(isNotDefined(D_882731998,""),false),equals(isNotDefined(D_941168091,""),false)))))))))))))] ¿Cuál era la fuente del agua que usaba en |displayif=noneExist("D_306805272","D_819844467","D_164233037","D_418702418","D_218334768","D_101219440","D_394294282","D_127963610","D_803526907","D_882731998","D_941168091")|la 6ª dirección que nos dio||displayif=someExist("D_306805272","D_819844467","D_164233037","D_418702418","D_218334768","D_101219440","D_394294282","D_127963610","D_803526907","D_882731998","D_941168091")|: <b>{$D_756458580} {$D_481599610} {$D_306805272} {$D_819844467} {$D_164233037} {$D_418702418}{$D_218334768} {$D_101219440}{$D_394294282} {$D_127963610}{$D_803526907} {$D_882731998}{$D_941168091}</b>|? 
 
-(901693169) Un suministro de agua público o municipal  -> D_933017499
-(519767819) Un sistema de agua rural, un pozo comunitario o un manantial que abastece al menos a 25 personas o 15 hogares  -> D_933017499
-(388690303) Un pozo o un manantial particular -> D_113557709
-(807835037) Otra fuente: describa  |__|id=D_513925041| -> D_933017499
-(178420302) No sé -> D_933017499
+(901693169:D_383001913) Un suministro de agua público o municipal  -> D_933017499
+(519767819:D_383001913) Un sistema de agua rural, un pozo comunitario o un manantial que abastece al menos a 25 personas o 15 hogares  -> D_933017499
+(388690303:D_383001913) Un pozo o un manantial particular -> D_113557709
+(807835037:D_383001913) Otra fuente: describa  |__|id=D_513925041| -> D_933017499
+(178420302:D_383001913) No sé -> D_933017499
 < #NR -> D_933017499>
 
 [D_113557709?,displayif=or(equals(D_776406200,353358909),or(equals(D_385583361,270752953),or(equals(isNotDefined(D_306805272,""),false),or(equals(isNotDefined(D_819844467,""),false),or(equals(isNotDefined(D_164233037,""),false),or(equals(isNotDefined(D_418702418,""),false),or(equals(isNotDefined(D_218334768,""),false),or(equals(isNotDefined(D_101219440,""),false),or(equals(isNotDefined(D_394294282,""),false),or(equals(isNotDefined(D_127963610,""),false),or(equals(isNotDefined(D_803526907,""),false),or(equals(isNotDefined(D_882731998,""),false),equals(isNotDefined(D_941168091,""),false)))))))))))))] ¿Cuál era la profundidad aproximada de su pozo particular?
@@ -891,22 +891,22 @@ Año en que se fue de esta dirección |__|__|__|__|id=D_943813942 min=valueOrDef
 
 [D_933017499?,displayif=or(equals(D_776406200,353358909),or(equals(D_385583361,270752953),or(equals(isNotDefined(D_306805272,""),false),or(equals(isNotDefined(D_819844467,""),false),or(equals(isNotDefined(D_164233037,""),false),or(equals(isNotDefined(D_418702418,""),false),or(equals(isNotDefined(D_218334768,""),false),or(equals(isNotDefined(D_101219440,""),false),or(equals(isNotDefined(D_394294282,""),false),or(equals(isNotDefined(D_127963610,""),false),or(equals(isNotDefined(D_803526907,""),false),or(equals(isNotDefined(D_882731998,""),false),equals(isNotDefined(D_941168091,""),false)))))))))))))] ¿Cuál era la fuente principal del agua que bebía en |displayif=noneExist("D_306805272","D_819844467","D_164233037","D_418702418","D_218334768","D_101219440","D_394294282","D_127963610","D_803526907","D_882731998","D_941168091")|la 6ª dirección que nos dio||displayif=someExist("D_306805272","D_819844467","D_164233037","D_418702418","D_218334768","D_101219440","D_394294282","D_127963610","D_803526907","D_882731998","D_941168091")|: <b>{$D_756458580} {$D_481599610} {$D_306805272} {$D_819844467} {$D_164233037} {$D_418702418}{$D_218334768} {$D_101219440}{$D_394294282} {$D_127963610}{$D_803526907} {$D_882731998}{$D_941168091}</b>|?  Piense en el agua que usaba para preparar bebidas como el café y el té, y el agua pura que bebía. 
 
-(123108471) Agua de la llave (grifo) o del refrigerador que <b>no</b> se haya |popup|filtrado o potabilizado|Texto de ayuda|Incluya solo agua que no se filtró ni que se potabilizó mediante ósmosis inversa, destilación o filtros que eliminan plomo, cloro, plaguicidas u otras sustancias químicas. Puede incluir agua filtrada con descalcificadores, que son filtros que solo eliminan los sedimentos del agua.|
-(463122075) Agua de un refrigerador que tiene un filtro para agua
-(254061941) Agua que se pasa por un filtro como Brita® o PUR® que se pone en una jarra o en la llave del agua
-(404651070) Agua que se filtra por ósmosis inversa (debajo del fregadero o en toda la casa) 
-(354856090) Agua que se pasa por otro tipo de filtro (debajo del fregadero o en toda la casa) 
-(311981718) Agua embotellada, incluso del dispensador de una tienda o que se entrega a domicilio
-(807835037) Otra fuente: describa  |__|id=D_980497607|
-(178420302) No sé
+(123108471:D_502877419) Agua de la llave (grifo) o del refrigerador que <b>no</b> se haya |popup|filtrado o potabilizado|Texto de ayuda|Incluya solo agua que no se filtró ni que se potabilizó mediante ósmosis inversa, destilación o filtros que eliminan plomo, cloro, plaguicidas u otras sustancias químicas. Puede incluir agua filtrada con descalcificadores, que son filtros que solo eliminan los sedimentos del agua.|
+(463122075:D_502877419) Agua de un refrigerador que tiene un filtro para agua
+(254061941:D_502877419) Agua que se pasa por un filtro como Brita® o PUR® que se pone en una jarra o en la llave del agua
+(404651070:D_502877419) Agua que se filtra por ósmosis inversa (debajo del fregadero o en toda la casa) 
+(354856090:D_502877419) Agua que se pasa por otro tipo de filtro (debajo del fregadero o en toda la casa) 
+(311981718:D_502877419) Agua embotellada, incluso del dispensador de una tienda o que se entrega a domicilio
+(807835037:D_502877419) Otra fuente: describa  |__|id=D_980497607|
+(178420302:D_502877419) No sé
 
 [D_386487941?,displayif=or(equals(D_135207939,353358909),or(equals(D_768802173,270752953),or(equals(isNotDefined(D_351559015,""),false),or(equals(isNotDefined(D_903490632,""),false),or(equals(isNotDefined(D_906119853,""),false),or(equals(isNotDefined(D_703944664,""),false),or(equals(isNotDefined(D_476697171,""),false),or(equals(isNotDefined(D_390463636,""),false),or(equals(isNotDefined(D_605344820,""),false),or(equals(isNotDefined(D_256790385,""),false),or(equals(isNotDefined(D_814644814,""),false),or(equals(isNotDefined(D_915222355,""),false),equals(isNotDefined(D_627992821,""),false)))))))))))))] ¿Cuál era la fuente del agua que usaba en |displayif=noneExist("D_351559015","D_903490632","D_906119853","D_703944664","D_476697171","D_390463636","D_605344820","D_256790385","D_814644814","D_915222355","D_627992821")|la 7ª dirección que nos dio||displayif=someExist("D_351559015","D_903490632","D_906119853","D_703944664","D_476697171","D_390463636","D_605344820","D_256790385","D_814644814","D_915222355","D_627992821")| <b>{$D_732107715} {$D_803219073} {$D_351559015} {$D_903490632} {$D_906119853} {$D_703944664}{$D_476697171} {$D_390463636}{$D_605344820} {$D_256790385}{$D_814644814} {$D_915222355}{$D_627992821}</b>|? 
 
-(901693169) Un suministro de agua público o municipal  -> D_494698740
-(519767819) Un sistema de agua rural, un pozo comunitario o un manantial que abastece al menos a 25 personas o 15 hogares  -> D_494698740
-(388690303) Un pozo o un manantial particular -> D_268661616
-(807835037) Otra fuente: describa  |__|id=D_527558834| -> D_494698740
-(178420302) No sé -> D_494698740
+(901693169:D_443279888) Un suministro de agua público o municipal  -> D_494698740
+(519767819:D_443279888) Un sistema de agua rural, un pozo comunitario o un manantial que abastece al menos a 25 personas o 15 hogares  -> D_494698740
+(388690303:D_443279888) Un pozo o un manantial particular -> D_268661616
+(807835037:D_443279888) Otra fuente: describa  |__|id=D_527558834| -> D_494698740
+(178420302:D_443279888) No sé -> D_494698740
 < #NR -> D_494698740>
 
 [D_268661616?,displayif=or(equals(D_135207939,353358909),or(equals(D_768802173,270752953),or(equals(isNotDefined(D_351559015,""),false),or(equals(isNotDefined(D_903490632,""),false),or(equals(isNotDefined(D_906119853,""),false),or(equals(isNotDefined(D_703944664,""),false),or(equals(isNotDefined(D_476697171,""),false),or(equals(isNotDefined(D_390463636,""),false),or(equals(isNotDefined(D_605344820,""),false),or(equals(isNotDefined(D_256790385,""),false),or(equals(isNotDefined(D_814644814,""),false),or(equals(isNotDefined(D_915222355,""),false),equals(isNotDefined(D_627992821,""),false)))))))))))))] ¿Cuál era la profundidad aproximada de su pozo particular?
@@ -921,22 +921,22 @@ Año en que se fue de esta dirección |__|__|__|__|id=D_943813942 min=valueOrDef
 
 [D_494698740?,displayif=or(equals(D_135207939,353358909),or(equals(D_768802173,270752953),or(equals(isNotDefined(D_351559015,""),false),or(equals(isNotDefined(D_903490632,""),false),or(equals(isNotDefined(D_906119853,""),false),or(equals(isNotDefined(D_703944664,""),false),or(equals(isNotDefined(D_476697171,""),false),or(equals(isNotDefined(D_390463636,""),false),or(equals(isNotDefined(D_605344820,""),false),or(equals(isNotDefined(D_256790385,""),false),or(equals(isNotDefined(D_814644814,""),false),or(equals(isNotDefined(D_915222355,""),false),equals(isNotDefined(D_627992821,""),false)))))))))))))]¿Cuál era la fuente principal del agua que bebía en |displayif=noneExist("D_351559015","D_903490632","D_906119853","D_703944664","D_476697171","D_390463636","D_605344820","D_256790385","D_814644814","D_915222355","D_627992821")|la 7ª dirección que nos dio||displayif=someExist("D_351559015","D_903490632","D_906119853","D_703944664","D_476697171","D_390463636","D_605344820","D_256790385","D_814644814","D_915222355","D_627992821")|: <b>{$D_732107715} {$D_803219073} {$D_351559015} {$D_903490632} {$D_906119853} {$D_703944664}{$D_476697171} {$D_390463636}{$D_605344820} {$D_256790385}{$D_814644814} {$D_915222355}{$D_627992821}</b>|?  Piense en el agua que usaba para preparar bebidas como el café y el té, y el agua pura que bebía. 
 
-(123108471) Agua de la llave (grifo) o del refrigerador que <b>no</b> se haya |popup|filtrado o potabilizado|Texto de ayuda|Incluya solo agua que no se filtró ni que se potabilizó mediante ósmosis inversa, destilación o filtros que eliminan plomo, cloro, plaguicidas u otras sustancias químicas. Puede incluir agua filtrada con descalcificadores, que son filtros que solo eliminan los sedimentos del agua.|
-(463122075) Agua de un refrigerador que tiene un filtro para agua
-(254061941) Agua que se pasa por un filtro como Brita® o PUR® que se pone en una jarra o en la llave del agua
-(404651070) Agua que se filtra por ósmosis inversa (debajo del fregadero o en toda la casa) 
-(354856090) Agua que se pasa por otro tipo de filtro (debajo del fregadero o en toda la casa) 
-(311981718) Agua embotellada, incluso del dispensador de una tienda o que se entrega a domicilio
-(807835037) Otra fuente: describa  |__|id=D_285968511|
-(178420302) No sé
+(123108471:D_745985679) Agua de la llave (grifo) o del refrigerador que <b>no</b> se haya |popup|filtrado o potabilizado|Texto de ayuda|Incluya solo agua que no se filtró ni que se potabilizó mediante ósmosis inversa, destilación o filtros que eliminan plomo, cloro, plaguicidas u otras sustancias químicas. Puede incluir agua filtrada con descalcificadores, que son filtros que solo eliminan los sedimentos del agua.|
+(463122075:D_745985679) Agua de un refrigerador que tiene un filtro para agua
+(254061941:D_745985679) Agua que se pasa por un filtro como Brita® o PUR® que se pone en una jarra o en la llave del agua
+(404651070:D_745985679) Agua que se filtra por ósmosis inversa (debajo del fregadero o en toda la casa) 
+(354856090:D_745985679) Agua que se pasa por otro tipo de filtro (debajo del fregadero o en toda la casa) 
+(311981718:D_745985679) Agua embotellada, incluso del dispensador de una tienda o que se entrega a domicilio
+(807835037:D_745985679) Otra fuente: describa  |__|id=D_285968511|
+(178420302:D_745985679) No sé
 
 [D_211740798?,displayif=or(equals(D_647612167,353358909),or(equals(D_150560299,270752953),or(equals(isNotDefined(D_893639464,""),false),or(equals(isNotDefined(D_438475588,""),false),or(equals(isNotDefined(D_194165243,""),false),or(equals(isNotDefined(D_744290061,""),false),or(equals(isNotDefined(D_280877371,""),false),or(equals(isNotDefined(D_516936572,""),false),or(equals(isNotDefined(D_463064782,""),false),or(equals(isNotDefined(D_673034401,""),false),or(equals(isNotDefined(D_865310914,""),false),or(equals(isNotDefined(D_489019597,""),false),equals(isNotDefined(D_900377581,""),false)))))))))))))] ¿Cuál era la fuente del agua que usaba en |displayif=noneExist("D_893639464","D_438475588","D_194165243","D_744290061","D_280877371","D_516936572","D_463064782","D_673034401","D_865310914","D_489019597","D_900377581")|la 8ª dirección que nos dio||displayif=someExist("D_893639464","D_438475588","D_194165243","D_744290061","D_280877371","D_516936572","D_463064782","D_673034401","D_865310914","D_489019597","D_900377581")|: <b>{$D_707276214} {$D_462701424} {$D_893639464} {$D_438475588} {$D_194165243} {$D_744290061}{$D_280877371} {$D_516936572}{$D_463064782} {$D_673034401}{$D_865310914} {$D_489019597}{$D_900377581}</b>|? 
 
-(901693169) Un suministro de agua público o municipal  -> D_542086156
-(519767819) Un sistema de agua rural, un pozo comunitario o un manantial que abastece al menos a 25 personas o 15 hogares  -> D_542086156
-(388690303) Un pozo o un manantial particular -> D_318621931
-(807835037) Otra fuente: describa  |__|id=D_325825550| -> D_542086156
-(178420302) No sé -> D_542086156
+(901693169:D_155987172) Un suministro de agua público o municipal  -> D_542086156
+(519767819:D_155987172) Un sistema de agua rural, un pozo comunitario o un manantial que abastece al menos a 25 personas o 15 hogares  -> D_542086156
+(388690303:D_155987172) Un pozo o un manantial particular -> D_318621931
+(807835037:D_155987172) Otra fuente: describa  |__|id=D_325825550| -> D_542086156
+(178420302:D_155987172) No sé -> D_542086156
 < #NR -> D_542086156>
 
 [D_318621931?,displayif=or(equals(D_647612167,353358909),or(equals(D_150560299,270752953),or(equals(isNotDefined(D_893639464,""),false),or(equals(isNotDefined(D_438475588,""),false),or(equals(isNotDefined(D_194165243,""),false),or(equals(isNotDefined(D_744290061,""),false),or(equals(isNotDefined(D_280877371,""),false),or(equals(isNotDefined(D_516936572,""),false),or(equals(isNotDefined(D_463064782,""),false),or(equals(isNotDefined(D_673034401,""),false),or(equals(isNotDefined(D_865310914,""),false),or(equals(isNotDefined(D_489019597,""),false),equals(isNotDefined(D_900377581,""),false)))))))))))))] ¿Cuál era la profundidad aproximada de su pozo particular?
@@ -950,22 +950,22 @@ Año en que se fue de esta dirección |__|__|__|__|id=D_943813942 min=valueOrDef
 
 [D_542086156?,displayif=or(equals(D_647612167,353358909),or(equals(D_150560299,270752953),or(equals(isNotDefined(D_893639464,""),false),or(equals(isNotDefined(D_438475588,""),false),or(equals(isNotDefined(D_194165243,""),false),or(equals(isNotDefined(D_744290061,""),false),or(equals(isNotDefined(D_280877371,""),false),or(equals(isNotDefined(D_516936572,""),false),or(equals(isNotDefined(D_463064782,""),false),or(equals(isNotDefined(D_673034401,""),false),or(equals(isNotDefined(D_865310914,""),false),or(equals(isNotDefined(D_489019597,""),false),equals(isNotDefined(D_900377581,""),false)))))))))))))] ¿Cuál era la fuente principal del agua que bebía en |displayif=noneExist("D_893639464","D_438475588","D_194165243","D_744290061","D_280877371","D_516936572","D_463064782","D_673034401","D_865310914","D_489019597","D_900377581")|la 8ª dirección que nos dio||displayif=someExist("D_893639464","D_438475588","D_194165243","D_744290061","D_280877371","D_516936572","D_463064782","D_673034401","D_865310914","D_489019597","D_900377581")|: <b>{$D_707276214} {$D_462701424} {$D_893639464} {$D_438475588} {$D_194165243} {$D_744290061}{$D_280877371} {$D_516936572}{$D_463064782} {$D_673034401}{$D_865310914} {$D_489019597}{$D_900377581}</b>|?  Piense en el agua que usaba para preparar bebidas como el café y el té, y el agua pura que bebía. 
 
-(123108471) Agua de la llave (grifo) o del refrigerador que <b>no</b> se haya |popup|filtrado o potabilizado|Texto de ayuda|Incluya solo agua que no se filtró ni que se potabilizó mediante ósmosis inversa, destilación o filtros que eliminan plomo, cloro, plaguicidas u otras sustancias químicas. Puede incluir agua filtrada con descalcificadores, que son filtros que solo eliminan los sedimentos del agua.|
-(463122075) Agua de un refrigerador que tiene un filtro para agua
-(254061941) Agua que se pasa por un filtro como Brita® o PUR® que se pone en una jarra o en la llave del agua
-(404651070) Agua que se filtra por ósmosis inversa (debajo del fregadero o en toda la casa) 
-(354856090) Agua que se pasa por otro tipo de filtro (debajo del fregadero o en toda la casa) 
-(311981718) Agua embotellada, incluso del dispensador de una tienda o que se entrega a domicilio
-(807835037) Otra fuente: describa  |__|id=D_997984387|
-(178420302) No sé
+(123108471:D_206484262) Agua de la llave (grifo) o del refrigerador que <b>no</b> se haya |popup|filtrado o potabilizado|Texto de ayuda|Incluya solo agua que no se filtró ni que se potabilizó mediante ósmosis inversa, destilación o filtros que eliminan plomo, cloro, plaguicidas u otras sustancias químicas. Puede incluir agua filtrada con descalcificadores, que son filtros que solo eliminan los sedimentos del agua.|
+(463122075:D_206484262) Agua de un refrigerador que tiene un filtro para agua
+(254061941:D_206484262) Agua que se pasa por un filtro como Brita® o PUR® que se pone en una jarra o en la llave del agua
+(404651070:D_206484262) Agua que se filtra por ósmosis inversa (debajo del fregadero o en toda la casa) 
+(354856090:D_206484262) Agua que se pasa por otro tipo de filtro (debajo del fregadero o en toda la casa) 
+(311981718:D_206484262) Agua embotellada, incluso del dispensador de una tienda o que se entrega a domicilio
+(807835037:D_206484262) Otra fuente: describa  |__|id=D_997984387|
+(178420302:D_206484262) No sé
 
 [D_190307069?,displayif=or(equals(D_532944666,353358909),or(equals(D_122054737,270752953),or(equals(isNotDefined(D_988266183,""),false),or(equals(isNotDefined(D_709374950,""),false),or(equals(isNotDefined(D_853931010,""),false),or(equals(isNotDefined(D_351559021,""),false),or(equals(isNotDefined(D_548773158,""),false),or(equals(isNotDefined(D_290370013,""),false),or(equals(isNotDefined(D_487043303,""),false),or(equals(isNotDefined(D_453691095,""),false),or(equals(isNotDefined(D_659122266,""),false),or(equals(isNotDefined(D_202104231,""),false),equals(isNotDefined(D_388427546,""),false)))))))))))))] ¿Cuál era la fuente del agua que usaba en |displayif=noneExist("D_988266183","D_709374950","D_853931010","D_351559021","D_548773158","D_290370013","D_487043303","D_453691095","D_659122266","D_202104231","D_388427546")|la 9ª dirección que nos dio||displayif=someExist("D_988266183","D_709374950","D_853931010","D_351559021","D_548773158","D_290370013","D_487043303","D_453691095","D_659122266","D_202104231","D_388427546")|: <b>{$D_174111872} {$D_735022625} {$D_988266183} {$D_709374950} {$D_853931010} {$D_351559021}{$D_548773158} {$D_290370013}{$D_487043303} {$D_453691095}{$D_659122266} {$D_202104231}{$D_388427546}</b>|? 
 
-(901693169) Un suministro de agua público o municipal  -> D_740535024
-(519767819) Un sistema de agua rural, un pozo comunitario o un manantial que abastece al menos a 25 personas o 15 hogares  -> D_740535024
-(388690303) Un pozo o un manantial particular -> D_697751634
-(807835037) Otra fuente: describa  |__|id=D_988941261| -> D_740535024
-(178420302) No sé -> D_740535024
+(901693169:D_329423052) Un suministro de agua público o municipal  -> D_740535024
+(519767819:D_329423052) Un sistema de agua rural, un pozo comunitario o un manantial que abastece al menos a 25 personas o 15 hogares  -> D_740535024
+(388690303:D_329423052) Un pozo o un manantial particular -> D_697751634
+(807835037:D_329423052) Otra fuente: describa  |__|id=D_988941261| -> D_740535024
+(178420302:D_329423052) No sé -> D_740535024
 < #NR -> D_740535024>
 
 [D_697751634?,displayif=or(equals(D_532944666,353358909),or(equals(D_122054737,270752953),or(equals(isNotDefined(D_988266183,""),false),or(equals(isNotDefined(D_709374950,""),false),or(equals(isNotDefined(D_853931010,""),false),or(equals(isNotDefined(D_351559021,""),false),or(equals(isNotDefined(D_548773158,""),false),or(equals(isNotDefined(D_290370013,""),false),or(equals(isNotDefined(D_487043303,""),false),or(equals(isNotDefined(D_453691095,""),false),or(equals(isNotDefined(D_659122266,""),false),or(equals(isNotDefined(D_202104231,""),false),equals(isNotDefined(D_388427546,""),false)))))))))))))] ¿Cuál era la profundidad aproximada de su pozo particular?
@@ -980,22 +980,22 @@ Año en que se fue de esta dirección |__|__|__|__|id=D_943813942 min=valueOrDef
 
 [D_740535024?,displayif=or(equals(D_532944666,353358909),or(equals(D_122054737,270752953),or(equals(isNotDefined(D_988266183,""),false),or(equals(isNotDefined(D_709374950,""),false),or(equals(isNotDefined(D_853931010,""),false),or(equals(isNotDefined(D_351559021,""),false),or(equals(isNotDefined(D_548773158,""),false),or(equals(isNotDefined(D_290370013,""),false),or(equals(isNotDefined(D_487043303,""),false),or(equals(isNotDefined(D_453691095,""),false),or(equals(isNotDefined(D_659122266,""),false),or(equals(isNotDefined(D_202104231,""),false),equals(isNotDefined(D_388427546,""),false)))))))))))))] ¿Cuál era la fuente principal del agua que bebía en |displayif=noneExist("D_988266183","D_709374950","D_853931010","D_351559021","D_548773158","D_290370013","D_487043303","D_453691095","D_659122266","D_202104231","D_388427546")|la 9ª dirección que nos dio||displayif=someExist("D_988266183","D_709374950","D_853931010","D_351559021","D_548773158","D_290370013","D_487043303","D_453691095","D_659122266","D_202104231","D_388427546")|: <b>{$D_174111872} {$D_735022625} {$D_988266183} {$D_709374950} {$D_853931010} {$D_351559021}{$D_548773158} {$D_290370013}{$D_487043303} {$D_453691095}{$D_659122266} {$D_202104231}{$D_388427546}</b>|?  Piense en el agua que usaba para preparar bebidas como el café y el té, y el agua pura que bebía. 
 
-(123108471) Agua de la llave (grifo) o del refrigerador que <b>no</b> se haya |popup|filtrado o potabilizado|Texto de ayuda|Incluya solo agua que no se filtró ni que se potabilizó mediante ósmosis inversa, destilación o filtros que eliminan plomo, cloro, plaguicidas u otras sustancias químicas. Puede incluir agua filtrada con descalcificadores, que son filtros que solo eliminan los sedimentos del agua.|
-(463122075) Agua de un refrigerador que tiene un filtro para agua
-(254061941) Agua que se pasa por un filtro como Brita® o PUR® que se pone en una jarra o en la llave del agua
-(404651070) Agua que se filtra por ósmosis inversa (debajo del fregadero o en toda la casa) 
-(354856090) Agua que se pasa por otro tipo de filtro (debajo del fregadero o en toda la casa) 
-(311981718) Agua embotellada, incluso del dispensador de una tienda o que se entrega a domicilio
-(807835037) Otra fuente: describa  |__|id=D_104666483|
-(178420302) No sé
+(123108471:D_211515619) Agua de la llave (grifo) o del refrigerador que <b>no</b> se haya |popup|filtrado o potabilizado|Texto de ayuda|Incluya solo agua que no se filtró ni que se potabilizó mediante ósmosis inversa, destilación o filtros que eliminan plomo, cloro, plaguicidas u otras sustancias químicas. Puede incluir agua filtrada con descalcificadores, que son filtros que solo eliminan los sedimentos del agua.|
+(463122075:D_211515619) Agua de un refrigerador que tiene un filtro para agua
+(254061941:D_211515619) Agua que se pasa por un filtro como Brita® o PUR® que se pone en una jarra o en la llave del agua
+(404651070:D_211515619) Agua que se filtra por ósmosis inversa (debajo del fregadero o en toda la casa) 
+(354856090:D_211515619) Agua que se pasa por otro tipo de filtro (debajo del fregadero o en toda la casa) 
+(311981718:D_211515619) Agua embotellada, incluso del dispensador de una tienda o que se entrega a domicilio
+(807835037:D_211515619) Otra fuente: describa  |__|id=D_104666483|
+(178420302:D_211515619) No sé
 
 [D_154170916?,displayif=or(equals(D_548863580,353358909),or(equals(D_948492967,270752953),or(equals(isNotDefined(D_264707783,""),false),or(equals(isNotDefined(D_666011940,""),false),or(equals(isNotDefined(D_981594981,""),false),or(equals(isNotDefined(D_282089547,""),false),or(equals(isNotDefined(D_891573875,""),false),or(equals(isNotDefined(D_612617245,""),false),or(equals(isNotDefined(D_862255177,""),false),or(equals(isNotDefined(D_674024553,""),false),or(equals(isNotDefined(D_972332937,""),false),or(equals(isNotDefined(D_886247195,""),false),equals(isNotDefined(D_429200007,""),false)))))))))))))] ¿Cuál era la fuente del agua que usaba en |displayif=noneExist("D_264707783","D_666011940","D_981594981","D_282089547","D_891573875","D_612617245","D_862255177","D_674024553","D_972332937","D_886247195","D_429200007")|la 10ª dirección que nos dio||displayif=someExist("D_264707783","D_666011940","D_981594981","D_282089547","D_891573875","D_612617245","D_862255177","D_674024553","D_972332937","D_886247195","D_429200007")|: <b>{$D_633590687} {$D_857265979} {$D_264707783} {$D_666011940} {$D_981594981} {$D_282089547}{$D_891573875} {$D_612617245}{$D_862255177} {$D_674024553}{$D_972332937} {$D_886247195}{$D_429200007}</b>|? 
 
-(901693169) Un suministro de agua público o municipal  -> D_825109070
-(519767819) Un sistema de agua rural, un pozo comunitario o un manantial que abastece al menos a 25 personas o 15 hogares  -> D_825109070
-(388690303) Un pozo o un manantial particular -> D_277745320
-(807835037) Otra fuente: describa  |__|id=D_175293001| -> D_825109070
-(178420302) No sé -> D_825109070
+(901693169:D_940253045) Un suministro de agua público o municipal  -> D_825109070
+(519767819:D_940253045) Un sistema de agua rural, un pozo comunitario o un manantial que abastece al menos a 25 personas o 15 hogares  -> D_825109070
+(388690303:D_940253045) Un pozo o un manantial particular -> D_277745320
+(807835037:D_940253045) Otra fuente: describa  |__|id=D_175293001| -> D_825109070
+(178420302:D_940253045) No sé -> D_825109070
 < #NR -> D_825109070>
 
 [D_277745320?,displayif=or(equals(D_548863580,353358909),or(equals(D_948492967,270752953),or(equals(isNotDefined(D_264707783,""),false),or(equals(isNotDefined(D_666011940,""),false),or(equals(isNotDefined(D_981594981,""),false),or(equals(isNotDefined(D_282089547,""),false),or(equals(isNotDefined(D_891573875,""),false),or(equals(isNotDefined(D_612617245,""),false),or(equals(isNotDefined(D_862255177,""),false),or(equals(isNotDefined(D_674024553,""),false),or(equals(isNotDefined(D_972332937,""),false),or(equals(isNotDefined(D_886247195,""),false),equals(isNotDefined(D_429200007,""),false)))))))))))))] ¿Cuál era la profundidad aproximada de su pozo particular?
@@ -1009,23 +1009,23 @@ Año en que se fue de esta dirección |__|__|__|__|id=D_943813942 min=valueOrDef
 
 [D_825109070?,displayif=or(equals(D_548863580,353358909),or(equals(D_948492967,270752953),or(equals(isNotDefined(D_264707783,""),false),or(equals(isNotDefined(D_666011940,""),false),or(equals(isNotDefined(D_981594981,""),false),or(equals(isNotDefined(D_282089547,""),false),or(equals(isNotDefined(D_891573875,""),false),or(equals(isNotDefined(D_612617245,""),false),or(equals(isNotDefined(D_862255177,""),false),or(equals(isNotDefined(D_674024553,""),false),or(equals(isNotDefined(D_972332937,""),false),or(equals(isNotDefined(D_886247195,""),false),equals(isNotDefined(D_429200007,""),false)))))))))))))] ¿Cuál era la fuente principal del agua que bebía en |displayif=noneExist("D_264707783","D_666011940","D_981594981","D_282089547","D_891573875","D_612617245","D_862255177","D_674024553","D_972332937","D_886247195","D_429200007")|la 10ª dirección que nos dio||displayif=someExist("D_264707783","D_666011940","D_981594981","D_282089547","D_891573875","D_612617245","D_862255177","D_674024553","D_972332937","D_886247195","D_429200007")|: <b>{$D_633590687} {$D_857265979} {$D_264707783} {$D_666011940} {$D_981594981} {$D_282089547}{$D_891573875} {$D_612617245}{$D_862255177} {$D_674024553}{$D_972332937} {$D_886247195}{$D_429200007}</b>|?  Piense en el agua que usaba para preparar bebidas como el café y el té, y el agua pura que bebía. 
 
-(123108471) Agua de la llave (grifo) o del refrigerador que <b>no</b> se haya |popup|filtrado o potabilizado|Texto de ayuda|Incluya solo agua que no se filtró ni que se potabilizó mediante ósmosis inversa, destilación o filtros que eliminan plomo, cloro, plaguicidas u otras sustancias químicas. Puede incluir agua filtrada con descalcificadores, que son filtros que solo eliminan los sedimentos del agua.|
-(463122075) Agua de un refrigerador que tiene un filtro para agua
-(254061941) Agua que se pasa por un filtro como Brita® o PUR® que se pone en una jarra o en la llave del agua
-(404651070) Agua que se filtra por ósmosis inversa (debajo del fregadero o en toda la casa) 
-(354856090) Agua que se pasa por otro tipo de filtro (debajo del fregadero o en toda la casa) 
-(311981718) Agua embotellada, incluso del dispensador de una tienda o que se entrega a domicilio
-(807835037) Otra fuente: describa  |__|id=D_744039577|
-(178420302) No sé
+(123108471:D_592289305) Agua de la llave (grifo) o del refrigerador que <b>no</b> se haya |popup|filtrado o potabilizado|Texto de ayuda|Incluya solo agua que no se filtró ni que se potabilizó mediante ósmosis inversa, destilación o filtros que eliminan plomo, cloro, plaguicidas u otras sustancias químicas. Puede incluir agua filtrada con descalcificadores, que son filtros que solo eliminan los sedimentos del agua.|
+(463122075:D_592289305) Agua de un refrigerador que tiene un filtro para agua
+(254061941:D_592289305) Agua que se pasa por un filtro como Brita® o PUR® que se pone en una jarra o en la llave del agua
+(404651070:D_592289305) Agua que se filtra por ósmosis inversa (debajo del fregadero o en toda la casa) 
+(354856090:D_592289305) Agua que se pasa por otro tipo de filtro (debajo del fregadero o en toda la casa) 
+(311981718:D_592289305) Agua embotellada, incluso del dispensador de una tienda o que se entrega a domicilio
+(807835037:D_592289305) Otra fuente: describa  |__|id=D_744039577|
+(178420302:D_592289305) No sé
 
 
 [D_337574535?,displayif=or(equals(D_124320444,353358909),or(equals(D_805353966,270752953),or(equals(isNotDefined(D_622968789,""),false),or(equals(isNotDefined(D_696874548,""),false),or(equals(isNotDefined(D_450630128,""),false),or(equals(isNotDefined(D_309461541,""),false),or(equals(isNotDefined(D_706592013,""),false),or(equals(isNotDefined(D_789637860,""),false),or(equals(isNotDefined(D_585473282,""),false),or(equals(isNotDefined(D_795253129,""),false),or(equals(isNotDefined(D_814137809,""),false),or(equals(isNotDefined(D_780298998,""),false),equals(isNotDefined(D_876521406,""),false)))))))))))))] ¿Cuál era la fuente del agua que usaba en |displayif=noneExist("D_622968789","D_696874548","D_450630128","D_309461541","D_706592013","D_789637860","D_585473282","D_795253129","D_814137809","D_780298998","D_876521406")|la 11ª dirección que nos dio||displayif=someExist("D_622968789","D_696874548","D_450630128","D_309461541","D_706592013","D_789637860","D_585473282","D_795253129","D_814137809","D_780298998","D_876521406")|: <b>{$D_573998459} {$D_760197341} {$D_622968789} {$D_696874548} {$D_450630128} {$D_309461541}{$D_706592013} {$D_789637860}{$D_585473282} {$D_795253129}{$D_814137809} {$D_780298998}{$D_876521406}</b>|? 
 
-(901693169) Un suministro de agua público o municipal  -> D_927932321
-(519767819) Un sistema de agua rural, un pozo comunitario o un manantial que abastece al menos a 25 personas o 15 hogares  -> D_927932321
-(388690303) Un pozo o un manantial particular -> D_535386940
-(807835037) Otra fuente: describa  |__|id=D_495342185| -> D_927932321
-(178420302) No sé -> D_927932321
+(901693169:D_794421227) Un suministro de agua público o municipal  -> D_927932321
+(519767819:D_794421227) Un sistema de agua rural, un pozo comunitario o un manantial que abastece al menos a 25 personas o 15 hogares  -> D_927932321
+(388690303:D_794421227) Un pozo o un manantial particular -> D_535386940
+(807835037:D_794421227) Otra fuente: describa  |__|id=D_495342185| -> D_927932321
+(178420302:D_794421227) No sé -> D_927932321
 < #NR -> D_927932321>
 
 [D_535386940?,displayif=or(equals(D_124320444,353358909),or(equals(D_805353966,270752953),or(equals(isNotDefined(D_622968789,""),false),or(equals(isNotDefined(D_696874548,""),false),or(equals(isNotDefined(D_450630128,""),false),or(equals(isNotDefined(D_309461541,""),false),or(equals(isNotDefined(D_706592013,""),false),or(equals(isNotDefined(D_789637860,""),false),or(equals(isNotDefined(D_585473282,""),false),or(equals(isNotDefined(D_795253129,""),false),or(equals(isNotDefined(D_814137809,""),false),or(equals(isNotDefined(D_780298998,""),false),equals(isNotDefined(D_876521406,""),false)))))))))))))] ¿Cuál era la profundidad aproximada de su pozo particular?
@@ -1040,14 +1040,14 @@ Año en que se fue de esta dirección |__|__|__|__|id=D_943813942 min=valueOrDef
 
 [D_927932321?,displayif=or(equals(D_124320444,353358909),or(equals(D_805353966,270752953),or(equals(isNotDefined(D_622968789,""),false),or(equals(isNotDefined(D_696874548,""),false),or(equals(isNotDefined(D_450630128,""),false),or(equals(isNotDefined(D_309461541,""),false),or(equals(isNotDefined(D_706592013,""),false),or(equals(isNotDefined(D_789637860,""),false),or(equals(isNotDefined(D_585473282,""),false),or(equals(isNotDefined(D_795253129,""),false),or(equals(isNotDefined(D_814137809,""),false),or(equals(isNotDefined(D_780298998,""),false),equals(isNotDefined(D_876521406,""),false)))))))))))))] ¿Cuál era la fuente principal del agua que bebía en |displayif=noneExist("D_622968789","D_696874548","D_450630128","D_309461541","D_706592013","D_789637860","D_585473282","D_795253129","D_814137809","D_780298998","D_876521406")|la 11ª dirección que nos dio||displayif=someExist("D_622968789","D_696874548","D_450630128","D_309461541","D_706592013","D_789637860","D_585473282","D_795253129","D_814137809","D_780298998","D_876521406")|: <b>{$D_573998459} {$D_760197341} {$D_622968789} {$D_696874548} {$D_450630128} {$D_309461541}{$D_706592013} {$D_789637860}{$D_585473282} {$D_795253129}{$D_814137809} {$D_780298998}{$D_876521406}</b>|?  Piense en el agua que usaba para preparar bebidas como el café y el té, y el agua pura que bebía. 
 
-(123108471) Agua de la llave (grifo) o del refrigerador que <b>no</b> se haya |popup|filtrado o potabilizado|Texto de ayuda|Incluya solo agua que no se filtró ni que se potabilizó mediante ósmosis inversa, destilación o filtros que eliminan plomo, cloro, plaguicidas u otras sustancias químicas. Puede incluir agua filtrada con descalcificadores, que son filtros que solo eliminan los sedimentos del agua.|
-(463122075) Agua de un refrigerador que tiene un filtro para agua
-(254061941) Agua que se pasa por un filtro como Brita® o PUR® que se pone en una jarra o en la llave del agua
-(404651070) Agua que se filtra por ósmosis inversa (debajo del fregadero o en toda la casa)  
-(354856090) Agua que se pasa por otro tipo de filtro (debajo del fregadero o en toda la casa) 
-(311981718) Agua embotellada, incluso del dispensador de una tienda o que se entrega a domicilio
-(807835037) Otra fuente: describa  |__|id=D_270011675|
-(178420302) No sé
+(123108471:D_943398317) Agua de la llave (grifo) o del refrigerador que <b>no</b> se haya |popup|filtrado o potabilizado|Texto de ayuda|Incluya solo agua que no se filtró ni que se potabilizó mediante ósmosis inversa, destilación o filtros que eliminan plomo, cloro, plaguicidas u otras sustancias químicas. Puede incluir agua filtrada con descalcificadores, que son filtros que solo eliminan los sedimentos del agua.|
+(463122075:D_943398317) Agua de un refrigerador que tiene un filtro para agua
+(254061941:D_943398317) Agua que se pasa por un filtro como Brita® o PUR® que se pone en una jarra o en la llave del agua
+(404651070:D_943398317) Agua que se filtra por ósmosis inversa (debajo del fregadero o en toda la casa)  
+(354856090:D_943398317) Agua que se pasa por otro tipo de filtro (debajo del fregadero o en toda la casa) 
+(311981718:D_943398317) Agua embotellada, incluso del dispensador de una tienda o que se entrega a domicilio
+(807835037:D_943398317) Otra fuente: describa  |__|id=D_270011675|
+(178420302:D_943398317) No sé
 
 < -> INTROSH>
 
@@ -1793,11 +1793,11 @@ Gracias por sus respuestas. Introdujo el número máximo de direcciones de vivie
 
 [D_426743354?,displayif=or(equals(D_342677547,353358909),or(equals(D_710449106,991158851),or(equals(isNotDefined(D_234037089,""),false),or(equals(isNotDefined(D_416862112,""),false),or(equals(isNotDefined(D_671149035,""),false),or(equals(isNotDefined(D_556576930,""),false),or(equals(isNotDefined(D_416620941,""),false),or(equals(isNotDefined(D_304326324,""),false),or(equals(isNotDefined(D_915859406,""),false),or(equals(isNotDefined(D_812433386,""),false),or(equals(isNotDefined(D_354833686,""),false),or(equals(isNotDefined(D_477319994,""),false),equals(isNotDefined(D_661148931,""),false)))))))))))))] ¿Cuál era la fuente del agua que usaba en |displayif=noneExist("D_234037089","D_416862112","D_671149035","D_556576930","D_416620941","D_304326324","D_915859406","D_812433386","D_354833686","D_477319994","D_274940131")| <b>la 1ª dirección que nos dio</b>||displayif=someExist("D_234037089","D_416862112","D_671149035","D_556576930","D_416620941","D_304326324","D_915859406","D_812433386","D_354833686","D_477319994","D_274940131")| <b>{$D_351319555} {$D_154163153} {$D_234037089} {$D_416862112} {$D_671149035} {$D_556576930}{$D_416620941} {$D_304326324}{$D_915859406} {$D_812433386}{$D_354833686} {$D_477319994}{$D_661148931}</b>?|
 
-(901693169) Un suministro de agua público o municipal  -> D_598478268
-(519767819) Un sistema de agua rural, un pozo comunitario o un manantial que abastece al menos a 25 personas o 15 hogares  -> D_598478268
-(388690303) Un pozo o un manantial particular -> D_809682067
-(807835037) Otra fuente: describa  |__|id=D_490504789| -> D_598478268
-(178420302) No sé -> D_598478268
+(901693169:D_394783260) Un suministro de agua público o municipal  -> D_598478268
+(519767819:D_394783260) Un sistema de agua rural, un pozo comunitario o un manantial que abastece al menos a 25 personas o 15 hogares  -> D_598478268
+(388690303:D_394783260) Un pozo o un manantial particular -> D_809682067
+(807835037:D_394783260) Otra fuente: describa  |__|id=D_490504789| -> D_598478268
+(178420302:D_394783260) No sé -> D_598478268
 < #NR -> D_598478268>
 
 [D_809682067?,displayif=or(equals(D_342677547,353358909),or(equals(D_710449106,991158851),or(equals(isNotDefined(D_234037089,""),false),or(equals(isNotDefined(D_416862112,""),false),or(equals(isNotDefined(D_671149035,""),false),or(equals(isNotDefined(D_556576930,""),false),or(equals(isNotDefined(D_416620941,""),false),or(equals(isNotDefined(D_304326324,""),false),or(equals(isNotDefined(D_915859406,""),false),or(equals(isNotDefined(D_812433386,""),false),or(equals(isNotDefined(D_354833686,""),false),or(equals(isNotDefined(D_477319994,""),false),equals(isNotDefined(D_661148931,""),false)))))))))))))] ¿Cuál era la profundidad aproximada de su pozo particular?
@@ -1813,22 +1813,22 @@ Gracias por sus respuestas. Introdujo el número máximo de direcciones de vivie
 
 [D_598478268?,displayif=or(equals(D_342677547,353358909),or(equals(D_710449106,991158851),or(equals(isNotDefined(D_234037089,""),false),or(equals(isNotDefined(D_416862112,""),false),or(equals(isNotDefined(D_671149035,""),false),or(equals(isNotDefined(D_556576930,""),false),or(equals(isNotDefined(D_416620941,""),false),or(equals(isNotDefined(D_304326324,""),false),or(equals(isNotDefined(D_915859406,""),false),or(equals(isNotDefined(D_812433386,""),false),or(equals(isNotDefined(D_354833686,""),false),or(equals(isNotDefined(D_477319994,""),false),equals(isNotDefined(D_661148931,""),false)))))))))))))] ¿Cuál era la fuente principal del agua que bebía en |displayif=noneExist("D_234037089","D_416862112","D_671149035","D_556576930","D_416620941","D_304326324","D_915859406","D_812433386","D_354833686","D_477319994","D_274940131")| <b>la 1ª dirección que nos dio</b>||displayif=someExist("D_234037089","D_416862112","D_671149035","D_556576930","D_416620941","D_304326324","D_915859406","D_812433386","D_354833686","D_477319994","D_274940131")| <b>{$D_351319555} {$D_154163153} {$D_234037089} {$D_416862112} {$D_671149035} {$D_556576930}{$D_416620941} {$D_304326324}{$D_915859406} {$D_812433386}{$D_354833686} {$D_477319994}{$D_661148931}</b>|? Piense en el agua que usaba para preparar bebidas como el café y el té, y el agua pura que bebía. 
 
-(123108471) Agua de la llave (grifo) o del refrigerador que <b>no</b> se haya |popup|filtrado o potabilizado|Texto de ayuda|Incluya solo agua que no se filtró ni que se potabilizó mediante ósmosis inversa, destilación o filtros que eliminan plomo, cloro, plaguicidas u otras sustancias químicas. Puede incluir agua filtrada con descalcificadores, que son filtros que solo eliminan los sedimentos del agua.|
-(463122075) Agua de un refrigerador que tiene un filtro para agua
-(254061941) Agua que se pasa por un filtro como Brita® o PUR® que se pone en una jarra o en la llave del agua
-(404651070) Agua que se filtra por ósmosis inversa (debajo del fregadero o en toda la casa) 
-(354856090) Agua que se pasa por otro tipo de filtro (debajo del fregadero o en toda la casa) 
-(311981718) Agua embotellada, incluso del dispensador de una tienda o que se entrega a domicilio
-(807835037) Otra fuente: describa  |__|id=D_670605457|
-(178420302) No sé
+(123108471:D_256150169) Agua de la llave (grifo) o del refrigerador que <b>no</b> se haya |popup|filtrado o potabilizado|Texto de ayuda|Incluya solo agua que no se filtró ni que se potabilizó mediante ósmosis inversa, destilación o filtros que eliminan plomo, cloro, plaguicidas u otras sustancias químicas. Puede incluir agua filtrada con descalcificadores, que son filtros que solo eliminan los sedimentos del agua.|
+(463122075:D_256150169) Agua de un refrigerador que tiene un filtro para agua
+(254061941:D_256150169) Agua que se pasa por un filtro como Brita® o PUR® que se pone en una jarra o en la llave del agua
+(404651070:D_256150169) Agua que se filtra por ósmosis inversa (debajo del fregadero o en toda la casa) 
+(354856090:D_256150169) Agua que se pasa por otro tipo de filtro (debajo del fregadero o en toda la casa) 
+(311981718:D_256150169) Agua embotellada, incluso del dispensador de una tienda o que se entrega a domicilio
+(807835037:D_256150169) Otra fuente: describa  |__|id=D_670605457|
+(178420302:D_256150169) No sé
 
 [D_170035952?,displayif=or(equals(D_576956950,353358909),or(equals(D_512143997,171498611),or(equals(isNotDefined(D_476938134,""),false),or(equals(isNotDefined(D_561635035,""),false),or(equals(isNotDefined(D_134210521,""),false),or(equals(isNotDefined(D_715370929,""),false),or(equals(isNotDefined(D_726739712,""),false),or(equals(isNotDefined(D_109991481,""),false),or(equals(isNotDefined(D_149514187,""),false),or(equals(isNotDefined(D_494380686,""),false),or(equals(isNotDefined(D_845446624,""),false),or(equals(isNotDefined(D_440796912,""),false),equals(isNotDefined(D_677739650,""),false)))))))))))))] ¿Cuál era la fuente del agua que usaba en |displayif=noneExist("D_476938134","D_561635035","D_134210521","D_715370929","D_726739712","D_109991481","D_149514187","D_494380686","D_845446624","D_440796912","D_677739650")|<b> la 2ª dirección que nos dio</b>||displayif=someExist("D_476938134","D_561635035","D_134210521","D_715370929","D_726739712","D_109991481","D_149514187","D_494380686","D_845446624","D_440796912","D_677739650")| <b>{$D_542763783} {$D_351069956} {$D_476938134} {$D_561635035} {$D_134210521} {$D_715370929}{$D_726739712} {$D_109991481}{$D_149514187} {$D_494380686}{$D_845446624} {$D_440796912}{$D_677739650}</b>?|
 
-(901693169) Un suministro de agua público o municipal  -> D_823509509
-(519767819) Un sistema de agua rural, un pozo comunitario o un manantial que abastece al menos a 25 personas o 15 hogares  -> D_823509509
-(388690303) Un pozo o un manantial particular -> D_734596352
-(807835037) Otra fuente: describa  |__|id=D_674785575| -> D_823509509
-(178420302) No sé -> D_823509509
+(901693169:D_580265128) Un suministro de agua público o municipal  -> D_823509509
+(519767819:D_580265128) Un sistema de agua rural, un pozo comunitario o un manantial que abastece al menos a 25 personas o 15 hogares  -> D_823509509
+(388690303:D_580265128) Un pozo o un manantial particular -> D_734596352
+(807835037:D_580265128) Otra fuente: describa  |__|id=D_674785575| -> D_823509509
+(178420302:D_580265128) No sé -> D_823509509
 < #NR -> D_823509509>
 
 [D_734596352?,displayif=or(equals(D_576956950,353358909),or(equals(D_512143997,171498611),or(equals(isNotDefined(D_476938134,""),false),or(equals(isNotDefined(D_561635035,""),false),or(equals(isNotDefined(D_134210521,""),false),or(equals(isNotDefined(D_715370929,""),false),or(equals(isNotDefined(D_726739712,""),false),or(equals(isNotDefined(D_109991481,""),false),or(equals(isNotDefined(D_149514187,""),false),or(equals(isNotDefined(D_494380686,""),false),or(equals(isNotDefined(D_845446624,""),false),or(equals(isNotDefined(D_440796912,""),false),equals(isNotDefined(D_677739650,""),false)))))))))))))] ¿Cuál era la profundidad aproximada de su pozo particular?
@@ -1843,22 +1843,22 @@ Gracias por sus respuestas. Introdujo el número máximo de direcciones de vivie
 
 [D_823509509?,displayif=or(equals(D_576956950,353358909),or(equals(D_512143997,171498611),or(equals(isNotDefined(D_476938134,""),false),or(equals(isNotDefined(D_561635035,""),false),or(equals(isNotDefined(D_134210521,""),false),or(equals(isNotDefined(D_715370929,""),false),or(equals(isNotDefined(D_726739712,""),false),or(equals(isNotDefined(D_109991481,""),false),or(equals(isNotDefined(D_149514187,""),false),or(equals(isNotDefined(D_494380686,""),false),or(equals(isNotDefined(D_845446624,""),false),or(equals(isNotDefined(D_440796912,""),false),equals(isNotDefined(D_677739650,""),false)))))))))))))] ¿Cuál era la fuente principal del agua que bebía en |displayif=noneExist("D_476938134","D_561635035","D_134210521","D_715370929","D_726739712","D_109991481","D_149514187","D_494380686","D_845446624","D_440796912","D_677739650")|<b> la 2ª dirección que nos dio</b>||displayif=someExist("D_476938134","D_561635035","D_134210521","D_715370929","D_726739712","D_109991481","D_149514187","D_494380686","D_845446624","D_440796912","D_677739650")| <b>{$D_542763783} {$D_351069956} {$D_476938134} {$D_561635035} {$D_134210521} {$D_715370929}{$D_726739712} {$D_109991481}{$D_149514187} {$D_494380686}{$D_845446624} {$D_440796912}{$D_677739650}</b>|? Piense en el agua que usaba para preparar bebidas como el café y el té, y el agua pura que bebía. 
 
-(123108471) Agua de la llave (grifo) o del refrigerador que <b>no</b> se haya |popup|filtrado o potabilizado|Texto de ayuda|Incluya solo agua que no se filtró ni que se potabilizó mediante ósmosis inversa, destilación o filtros que eliminan plomo, cloro, plaguicidas u otras sustancias químicas. Puede incluir agua filtrada con descalcificadores, que son filtros que solo eliminan los sedimentos del agua.|
-(463122075) Agua de un refrigerador que tiene un filtro para agua
-(254061941) Agua que se pasa por un filtro como Brita® o PUR® que se pone en una jarra o en la llave del agua
-(404651070) Agua que se filtra por ósmosis inversa (debajo del fregadero o en toda la casa) 
-(354856090) Agua que se pasa por otro tipo de filtro (debajo del fregadero o en toda la casa) 
-(311981718) Agua embotellada, incluso del dispensador de una tienda o que se entrega a domicilio
-(807835037) Otra fuente: describa  |__|id=D_971016509|
-(178420302) No sé
+(123108471:D_175758099) Agua de la llave (grifo) o del refrigerador que <b>no</b> se haya |popup|filtrado o potabilizado|Texto de ayuda|Incluya solo agua que no se filtró ni que se potabilizó mediante ósmosis inversa, destilación o filtros que eliminan plomo, cloro, plaguicidas u otras sustancias químicas. Puede incluir agua filtrada con descalcificadores, que son filtros que solo eliminan los sedimentos del agua.|
+(463122075:D_175758099) Agua de un refrigerador que tiene un filtro para agua
+(254061941:D_175758099) Agua que se pasa por un filtro como Brita® o PUR® que se pone en una jarra o en la llave del agua
+(404651070:D_175758099) Agua que se filtra por ósmosis inversa (debajo del fregadero o en toda la casa) 
+(354856090:D_175758099) Agua que se pasa por otro tipo de filtro (debajo del fregadero o en toda la casa) 
+(311981718:D_175758099) Agua embotellada, incluso del dispensador de una tienda o que se entrega a domicilio
+(807835037:D_175758099) Otra fuente: describa  |__|id=D_971016509|
+(178420302:D_175758099) No sé
 
 [D_771505558?,displayif=or(equals(D_463952618,353358909),or(equals(D_982650994,171498611),or(equals(isNotDefined(D_119483547,""),false),or(equals(isNotDefined(D_194338739,""),false),or(equals(isNotDefined(D_387077376,""),false),or(equals(isNotDefined(D_113352592,""),false),or(equals(isNotDefined(D_148846635,""),false),or(equals(isNotDefined(D_768114466,""),false),or(equals(isNotDefined(D_192663941,""),false),or(equals(isNotDefined(D_938180781,""),false),or(equals(isNotDefined(D_245044197,""),false),or(equals(isNotDefined(D_733365745,""),false),equals(isNotDefined(D_261025083,""),false)))))))))))))] ¿Cuál era la fuente del agua que usaba en |displayif=noneExist("D_119483547","D_194338739","D_387077376","D_113352592","D_148846635","D_768114466","D_192663941","D_938180781","D_245044197","D_733365745","D_261025083")| <b>la 3ª dirección que nos dio</b>||displayif=someExist("D_119483547","D_194338739","D_387077376","D_113352592","D_148846635","D_768114466","D_192663941","D_938180781","D_245044197","D_733365745","D_261025083")| <b>{$D_580185896} {$D_599607007} {$D_119483547} {$D_194338739} {$D_387077376} {$D_113352592}{$D_148846635} {$D_768114466}{$D_192663941} {$D_938180781}{$D_245044197} {$D_733365745}{$D_261025083}</b>?|
 
-(901693169) Un suministro de agua público o municipal  -> D_149476435
-(519767819) Un sistema de agua rural, un pozo comunitario o un manantial que abastece al menos a 25 personas o 15 hogares  -> D_149476435
-(388690303) Un pozo o un manantial particular -> D_524305502
-(807835037) Otra fuente: describa  |__|id=D_184681822| -> D_149476435
-(178420302) No sé -> D_149476435
+(901693169:D_934555632) Un suministro de agua público o municipal  -> D_149476435
+(519767819:D_934555632) Un sistema de agua rural, un pozo comunitario o un manantial que abastece al menos a 25 personas o 15 hogares  -> D_149476435
+(388690303:D_934555632) Un pozo o un manantial particular -> D_524305502
+(807835037:D_934555632) Otra fuente: describa  |__|id=D_184681822| -> D_149476435
+(178420302:D_934555632) No sé -> D_149476435
 < #NR -> D_149476435>
 
 [D_524305502?,displayif=or(equals(D_463952618,353358909),or(equals(D_982650994,171498611),or(equals(isNotDefined(D_119483547,""),false),or(equals(isNotDefined(D_194338739,""),false),or(equals(isNotDefined(D_387077376,""),false),or(equals(isNotDefined(D_113352592,""),false),or(equals(isNotDefined(D_148846635,""),false),or(equals(isNotDefined(D_768114466,""),false),or(equals(isNotDefined(D_192663941,""),false),or(equals(isNotDefined(D_938180781,""),false),or(equals(isNotDefined(D_245044197,""),false),or(equals(isNotDefined(D_733365745,""),false),equals(isNotDefined(D_261025083,""),false)))))))))))))]
@@ -1874,22 +1874,22 @@ Gracias por sus respuestas. Introdujo el número máximo de direcciones de vivie
 
 [D_149476435?,displayif=or(equals(D_463952618,353358909),or(equals(D_982650994,171498611),or(equals(isNotDefined(D_119483547,""),false),or(equals(isNotDefined(D_194338739,""),false),or(equals(isNotDefined(D_387077376,""),false),or(equals(isNotDefined(D_113352592,""),false),or(equals(isNotDefined(D_148846635,""),false),or(equals(isNotDefined(D_768114466,""),false),or(equals(isNotDefined(D_192663941,""),false),or(equals(isNotDefined(D_938180781,""),false),or(equals(isNotDefined(D_245044197,""),false),or(equals(isNotDefined(D_733365745,""),false),equals(isNotDefined(D_261025083,""),false)))))))))))))] ¿Cuál era la fuente principal del agua que bebía en |displayif=noneExist("D_119483547","D_194338739","D_387077376","D_113352592","D_148846635","D_768114466","D_192663941","D_938180781","D_245044197","D_733365745","D_261025083")| <b>la 3ª dirección que nos dio</b>||displayif=someExist("D_119483547","D_194338739","D_387077376","D_113352592","D_148846635","D_768114466","D_192663941","D_938180781","D_245044197","D_733365745","D_261025083")| <b>{$D_580185896} {$D_599607007} {$D_119483547} {$D_194338739} {$D_387077376} {$D_113352592}{$D_148846635} {$D_768114466}{$D_192663941} {$D_938180781}{$D_245044197} {$D_733365745}{$D_261025083}</b>|? Piense en el agua que usaba para preparar bebidas como el café y el té, y el agua pura que bebía. 
 
-(123108471) Agua de la llave (grifo) o del refrigerador que <b>no</b> se haya |popup|filtrado o potabilizado|Texto de ayuda|Incluya solo agua que no se filtró ni que se potabilizó mediante ósmosis inversa, destilación o filtros que eliminan plomo, cloro, plaguicidas u otras sustancias químicas. Puede incluir agua filtrada con descalcificadores, que son filtros que solo eliminan los sedimentos del agua.|
-(463122075) Agua de un refrigerador que tiene un filtro para agua
-(254061941) Agua que se pasa por un filtro como Brita® o PUR® que se pone en una jarra o en la llave del agua
-(404651070) Agua que se filtra por ósmosis inversa (debajo del fregadero o en toda la casa) 
-(354856090) Agua que se pasa por otro tipo de filtro (debajo del fregadero o en toda la casa) 
-(311981718) Agua embotellada, incluso del dispensador de una tienda o que se entrega a domicilio
-(807835037) Otra fuente: describa  |__|id=D_708136662|
-(178420302) No sé
+(123108471:D_526578016) Agua de la llave (grifo) o del refrigerador que <b>no</b> se haya |popup|filtrado o potabilizado|Texto de ayuda|Incluya solo agua que no se filtró ni que se potabilizó mediante ósmosis inversa, destilación o filtros que eliminan plomo, cloro, plaguicidas u otras sustancias químicas. Puede incluir agua filtrada con descalcificadores, que son filtros que solo eliminan los sedimentos del agua.|
+(463122075:D_526578016) Agua de un refrigerador que tiene un filtro para agua
+(254061941:D_526578016) Agua que se pasa por un filtro como Brita® o PUR® que se pone en una jarra o en la llave del agua
+(404651070:D_526578016) Agua que se filtra por ósmosis inversa (debajo del fregadero o en toda la casa) 
+(354856090:D_526578016) Agua que se pasa por otro tipo de filtro (debajo del fregadero o en toda la casa) 
+(311981718:D_526578016) Agua embotellada, incluso del dispensador de una tienda o que se entrega a domicilio
+(807835037:D_526578016) Otra fuente: describa  |__|id=D_708136662|
+(178420302:D_526578016) No sé
 
 [D_105941645?,displayif=or(equals(D_959488634,353358909),or(equals(D_945794974,171498611),or(equals(isNotDefined(D_785588454,""),false),or(equals(isNotDefined(D_419659205,""),false),or(equals(isNotDefined(D_653181757,""),false),or(equals(isNotDefined(D_733619119,""),false),or(equals(isNotDefined(D_571926996,""),false),or(equals(isNotDefined(D_843680322,""),false),or(equals(isNotDefined(D_645589113,""),false),or(equals(isNotDefined(D_716343828,""),false),or(equals(isNotDefined(D_701056236,""),false),or(equals(isNotDefined(D_497260033,""),false),equals(isNotDefined(D_398249766,""),false)))))))))))))] ¿Cuál era la fuente del agua que usaba en |displayif=noneExist("D_785588454","D_419659205","D_653181757","D_733619119","D_571926996","D_843680322","D_645589113","D_716343828","D_701056236","D_497260033","D_398249766")| <b>la 4ª dirección que nos dio</b>||displayif=someExist("D_785588454","D_419659205","D_653181757","D_733619119","D_571926996","D_843680322","D_645589113","D_716343828","D_701056236","D_497260033","D_398249766")| <b>{$D_117544868} {$D_868650023} {$D_785588454} {$D_419659205} {$D_653181757} {$D_733619119}{$D_571926996} {$D_843680322}{$D_645589113} {$D_716343828}{$D_701056236} {$D_497260033}{$D_398249766}</b>?|
 
-(901693169) Un suministro de agua público o municipal  -> D_719647239
-(519767819) Un sistema de agua rural, un pozo comunitario o un manantial que abastece al menos a 25 personas o 15 hogares  -> D_719647239
-(388690303) Un pozo o un manantial particular -> D_120942783
-(807835037) Otra fuente: describa  |__|id=D_132979567| -> D_719647239
-(178420302) No sé -> D_719647239
+(901693169:D_274203387) Un suministro de agua público o municipal  -> D_719647239
+(519767819:D_274203387) Un sistema de agua rural, un pozo comunitario o un manantial que abastece al menos a 25 personas o 15 hogares  -> D_719647239
+(388690303:D_274203387) Un pozo o un manantial particular -> D_120942783
+(807835037:D_274203387) Otra fuente: describa  |__|id=D_132979567| -> D_719647239
+(178420302:D_274203387) No sé -> D_719647239
 < #NR -> D_719647239>
 
 [D_120942783?,displayif=or(equals(D_959488634,353358909),or(equals(D_945794974,171498611),or(equals(isNotDefined(D_785588454,""),false),or(equals(isNotDefined(D_419659205,""),false),or(equals(isNotDefined(D_653181757,""),false),or(equals(isNotDefined(D_733619119,""),false),or(equals(isNotDefined(D_571926996,""),false),or(equals(isNotDefined(D_843680322,""),false),or(equals(isNotDefined(D_645589113,""),false),or(equals(isNotDefined(D_716343828,""),false),or(equals(isNotDefined(D_701056236,""),false),or(equals(isNotDefined(D_497260033,""),false),equals(isNotDefined(D_398249766,""),false)))))))))))))]
@@ -1905,22 +1905,22 @@ Gracias por sus respuestas. Introdujo el número máximo de direcciones de vivie
 
 [D_719647239?,displayif=or(equals(D_959488634,353358909),or(equals(D_945794974,171498611),or(equals(isNotDefined(D_785588454,""),false),or(equals(isNotDefined(D_419659205,""),false),or(equals(isNotDefined(D_653181757,""),false),or(equals(isNotDefined(D_733619119,""),false),or(equals(isNotDefined(D_571926996,""),false),or(equals(isNotDefined(D_843680322,""),false),or(equals(isNotDefined(D_645589113,""),false),or(equals(isNotDefined(D_716343828,""),false),or(equals(isNotDefined(D_701056236,""),false),or(equals(isNotDefined(D_497260033,""),false),equals(isNotDefined(D_398249766,""),false)))))))))))))] ¿Cuál era la fuente principal del agua que bebía en |displayif=noneExist("D_785588454","D_419659205","D_653181757","D_733619119","D_571926996","D_843680322","D_645589113","D_716343828","D_701056236","D_497260033","D_398249766")|<b> la 4ª dirección que nos dio</b>||displayif=someExist("D_785588454","D_419659205","D_653181757","D_733619119","D_571926996","D_843680322","D_645589113","D_716343828","D_701056236","D_497260033","D_398249766")| <b>{$D_117544868} {$D_868650023} {$D_785588454} {$D_419659205} {$D_653181757} {$D_733619119}{$D_571926996} {$D_843680322}{$D_645589113} {$D_716343828}{$D_701056236} {$D_497260033}{$D_398249766}</b>|? Piense en el agua que usaba para preparar bebidas como el café y el té, y el agua pura que bebía. 
 
-(123108471) Agua de la llave (grifo) o del refrigerador que <b>no</b> se haya |popup|filtrado o potabilizado|Texto de ayuda|Incluya solo agua que no se filtró ni que se potabilizó mediante ósmosis inversa, destilación o filtros que eliminan plomo, cloro, plaguicidas u otras sustancias químicas. Puede incluir agua filtrada con descalcificadores, que son filtros que solo eliminan los sedimentos del agua.|
-(463122075) Agua de un refrigerador que tiene un filtro para agua
-(254061941) Agua que se pasa por un filtro como Brita® o PUR® que se pone en una jarra o en la llave del agua
-(404651070) Agua que se filtra por ósmosis inversa (debajo del fregadero o en toda la casa) 
-(354856090) Agua que se pasa por otro tipo de filtro (debajo del fregadero o en toda la casa) 
-(311981718) Agua embotellada, incluso del dispensador de una tienda o que se entrega a domicilio
-(807835037) Otra fuente: describa  |__|id=D_863092608|
-(178420302) No sé
+(123108471:D_470329758) Agua de la llave (grifo) o del refrigerador que <b>no</b> se haya |popup|filtrado o potabilizado|Texto de ayuda|Incluya solo agua que no se filtró ni que se potabilizó mediante ósmosis inversa, destilación o filtros que eliminan plomo, cloro, plaguicidas u otras sustancias químicas. Puede incluir agua filtrada con descalcificadores, que son filtros que solo eliminan los sedimentos del agua.|
+(463122075:D_470329758) Agua de un refrigerador que tiene un filtro para agua
+(254061941:D_470329758) Agua que se pasa por un filtro como Brita® o PUR® que se pone en una jarra o en la llave del agua
+(404651070:D_470329758) Agua que se filtra por ósmosis inversa (debajo del fregadero o en toda la casa) 
+(354856090:D_470329758) Agua que se pasa por otro tipo de filtro (debajo del fregadero o en toda la casa) 
+(311981718:D_470329758) Agua embotellada, incluso del dispensador de una tienda o que se entrega a domicilio
+(807835037:D_470329758) Otra fuente: describa  |__|id=D_863092608|
+(178420302:D_470329758) No sé
 
 [D_322665488?,displayif=or(equals(D_696017690,353358909),or(equals(D_663869343,171498611),or(equals(isNotDefined(D_275244758,""),false),or(equals(isNotDefined(D_688216428,""),false),or(equals(isNotDefined(D_843674851,""),false),or(equals(isNotDefined(D_570311888,""),false),or(equals(isNotDefined(D_101804763,""),false),or(equals(isNotDefined(D_557852952,""),false),or(equals(isNotDefined(D_502068619,""),false),or(equals(isNotDefined(D_970217879,""),false),or(equals(isNotDefined(D_787391994,""),false),or(equals(isNotDefined(D_452103273,""),false),equals(isNotDefined(D_540340377,""),false)))))))))))))] ¿Cuál era la fuente del agua que usaba en |displayif=noneExist("D_275244758","D_688216428","D_843674851","D_570311888","D_101804763","D_557852952","D_502068619","D_970217879","D_787391994","D_452103273","D_540340377")|<b> la 5ª dirección que nos dio</b>||displayif=someExist("D_275244758","D_688216428","D_843674851","D_570311888","D_101804763","D_557852952","D_502068619","D_970217879","D_787391994","D_452103273","D_540340377")| <b>{$D_677922318} {$D_424347938} {$D_275244758} {$D_688216428} {$D_843674851} {$D_570311888}{$D_101804763} {$D_557852952}{$D_502068619} {$D_970217879}{$D_787391994} {$D_452103273}{$D_540340377}</b>?|
 
-(901693169) Un suministro de agua público o municipal  -> D_953722451
-(519767819) Un sistema de agua rural, un pozo comunitario o un manantial que abastece al menos a 25 personas o 15 hogares  -> D_953722451
-(388690303) Un pozo o un manantial particular -> D_167987013
-(807835037) Otra fuente: describa  |__|id=D_734547775| -> D_953722451
-(178420302) No sé -> D_953722451
+(901693169:D_774917669) Un suministro de agua público o municipal  -> D_953722451
+(519767819:D_774917669) Un sistema de agua rural, un pozo comunitario o un manantial que abastece al menos a 25 personas o 15 hogares  -> D_953722451
+(388690303:D_774917669) Un pozo o un manantial particular -> D_167987013
+(807835037:D_774917669) Otra fuente: describa  |__|id=D_734547775| -> D_953722451
+(178420302:D_774917669) No sé -> D_953722451
 < #NR -> D_953722451>
 
 [D_167987013?,displayif=or(equals(D_696017690,353358909),or(equals(D_663869343,171498611),or(equals(isNotDefined(D_275244758,""),false),or(equals(isNotDefined(D_688216428,""),false),or(equals(isNotDefined(D_843674851,""),false),or(equals(isNotDefined(D_570311888,""),false),or(equals(isNotDefined(D_101804763,""),false),or(equals(isNotDefined(D_557852952,""),false),or(equals(isNotDefined(D_502068619,""),false),or(equals(isNotDefined(D_970217879,""),false),or(equals(isNotDefined(D_787391994,""),false),or(equals(isNotDefined(D_452103273,""),false),equals(isNotDefined(D_540340377,""),false)))))))))))))] ¿Cuál era la profundidad aproximada de su pozo particular?
@@ -1936,22 +1936,22 @@ Gracias por sus respuestas. Introdujo el número máximo de direcciones de vivie
 
 [D_953722451?,displayif=or(equals(D_696017690,353358909),or(equals(D_663869343,171498611),or(equals(isNotDefined(D_275244758,""),false),or(equals(isNotDefined(D_688216428,""),false),or(equals(isNotDefined(D_843674851,""),false),or(equals(isNotDefined(D_570311888,""),false),or(equals(isNotDefined(D_101804763,""),false),or(equals(isNotDefined(D_557852952,""),false),or(equals(isNotDefined(D_502068619,""),false),or(equals(isNotDefined(D_970217879,""),false),or(equals(isNotDefined(D_787391994,""),false),or(equals(isNotDefined(D_452103273,""),false),equals(isNotDefined(D_540340377,""),false)))))))))))))] ¿Cuál era la fuente principal del agua que bebía en |displayif=noneExist("D_275244758","D_688216428","D_843674851","D_570311888","D_101804763","D_557852952","D_502068619","D_970217879","D_787391994","D_452103273","D_540340377")| <b>la 5ª dirección que nos dio</b>||displayif=someExist("D_275244758","D_688216428","D_843674851","D_570311888","D_101804763","D_557852952","D_502068619","D_970217879","D_787391994","D_452103273","D_540340377")| <b>{$D_677922318} {$D_424347938} {$D_275244758} {$D_688216428} {$D_843674851} {$D_570311888}{$D_101804763} {$D_557852952}{$D_502068619} {$D_970217879}{$D_787391994} {$D_452103273}{$D_540340377}</b>|? Piense en el agua que usaba para preparar bebidas como el café y el té, y el agua pura que bebía. 
 
-(123108471) Agua de la llave (grifo) o del refrigerador que <b>no</b> se haya |popup|filtrado o potabilizado|Texto de ayuda|Incluya solo agua que no se filtró ni que se potabilizó mediante ósmosis inversa, destilación o filtros que eliminan plomo, cloro, plaguicidas u otras sustancias químicas. Puede incluir agua filtrada con descalcificadores, que son filtros que solo eliminan los sedimentos del agua.|
-(463122075) Agua de un refrigerador que tiene un filtro para agua
-(254061941) Agua que se pasa por un filtro como Brita® o PUR® que se pone en una jarra o en la llave del agua
-(404651070) Agua que se filtra por ósmosis inversa (debajo del fregadero o en toda la casa) 
-(354856090) Agua que se pasa por otro tipo de filtro (debajo del fregadero o en toda la casa) 
-(311981718) Agua embotellada, incluso del dispensador de una tienda o que se entrega a domicilio
-(807835037) Otra fuente: describa  |__|id=D_103327434|
-(178420302) No sé
+(123108471:D_660421166) Agua de la llave (grifo) o del refrigerador que <b>no</b> se haya |popup|filtrado o potabilizado|Texto de ayuda|Incluya solo agua que no se filtró ni que se potabilizó mediante ósmosis inversa, destilación o filtros que eliminan plomo, cloro, plaguicidas u otras sustancias químicas. Puede incluir agua filtrada con descalcificadores, que son filtros que solo eliminan los sedimentos del agua.|
+(463122075:D_660421166) Agua de un refrigerador que tiene un filtro para agua
+(254061941:D_660421166) Agua que se pasa por un filtro como Brita® o PUR® que se pone en una jarra o en la llave del agua
+(404651070:D_660421166) Agua que se filtra por ósmosis inversa (debajo del fregadero o en toda la casa) 
+(354856090:D_660421166) Agua que se pasa por otro tipo de filtro (debajo del fregadero o en toda la casa) 
+(311981718:D_660421166) Agua embotellada, incluso del dispensador de una tienda o que se entrega a domicilio
+(807835037:D_660421166) Otra fuente: describa  |__|id=D_103327434|
+(178420302:D_660421166) No sé
 
 [D_118738120?,displayif=or(equals(D_424272506,353358909),or(equals(D_275978701,171498611),or(equals(isNotDefined(D_666445636,""),false),or(equals(isNotDefined(D_398622449,""),false),or(equals(isNotDefined(D_521925072,""),false),or(equals(isNotDefined(D_888514303,""),false),or(equals(isNotDefined(D_686611963,""),false),or(equals(isNotDefined(D_905002640,""),false),or(equals(isNotDefined(D_900950849,""),false),or(equals(isNotDefined(D_687407917,""),false),or(equals(isNotDefined(D_103689435,""),false),or(equals(isNotDefined(D_932828568,""),false),equals(isNotDefined(D_659457234,""),false)))))))))))))] ¿Cuál era la fuente del agua que usaba en |displayif=noneExist("D_666445636","D_398622449","D_521925072","D_888514303","D_686611963","D_905002640","D_900950849","D_687407917","D_103689435","D_932828568","D_659457234")|<b> la 6ª dirección que nos dio</b>||displayif=someExist("D_666445636","D_398622449","D_521925072","D_888514303","D_686611963","D_905002640","D_900950849","D_687407917","D_103689435","D_932828568","D_659457234")| <b>{$D_115195973} {$D_706861475} {$D_666445636} {$D_398622449} {$D_521925072} {$D_888514303}{$D_686611963} {$D_905002640}{$D_900950849} {$D_687407917}{$D_103689435} {$D_932828568}{$D_659457234}</b>?|
 
-(901693169) Un suministro de agua público o municipal  -> D_541565665
-(519767819) Un sistema de agua rural, un pozo comunitario o un manantial que abastece al menos a 25 personas o 15 hogares  -> D_541565665
-(388690303) Un pozo o un manantial particular -> D_340877879
-(807835037) Otra fuente: describa  |__|id=D_890134757| -> D_541565665
-(178420302) No sé -> D_541565665
+(901693169:D_781313216) Un suministro de agua público o municipal  -> D_541565665
+(519767819:D_781313216) Un sistema de agua rural, un pozo comunitario o un manantial que abastece al menos a 25 personas o 15 hogares  -> D_541565665
+(388690303:D_781313216) Un pozo o un manantial particular -> D_340877879
+(807835037:D_781313216) Otra fuente: describa  |__|id=D_890134757| -> D_541565665
+(178420302:D_781313216) No sé -> D_541565665
 < #NR -> D_541565665>
 
 [D_340877879?,displayif=or(equals(D_424272506,353358909),or(equals(D_275978701,171498611),or(equals(isNotDefined(D_666445636,""),false),or(equals(isNotDefined(D_398622449,""),false),or(equals(isNotDefined(D_521925072,""),false),or(equals(isNotDefined(D_888514303,""),false),or(equals(isNotDefined(D_686611963,""),false),or(equals(isNotDefined(D_905002640,""),false),or(equals(isNotDefined(D_900950849,""),false),or(equals(isNotDefined(D_687407917,""),false),or(equals(isNotDefined(D_103689435,""),false),or(equals(isNotDefined(D_932828568,""),false),equals(isNotDefined(D_659457234,""),false)))))))))))))] ¿Cuál era la profundidad aproximada de su pozo particular?
@@ -1966,22 +1966,22 @@ Gracias por sus respuestas. Introdujo el número máximo de direcciones de vivie
 
 [D_541565665?,displayif=or(equals(D_424272506,353358909),or(equals(D_275978701,171498611),or(equals(isNotDefined(D_666445636,""),false),or(equals(isNotDefined(D_398622449,""),false),or(equals(isNotDefined(D_521925072,""),false),or(equals(isNotDefined(D_888514303,""),false),or(equals(isNotDefined(D_686611963,""),false),or(equals(isNotDefined(D_905002640,""),false),or(equals(isNotDefined(D_900950849,""),false),or(equals(isNotDefined(D_687407917,""),false),or(equals(isNotDefined(D_103689435,""),false),or(equals(isNotDefined(D_932828568,""),false),equals(isNotDefined(D_659457234,""),false)))))))))))))] ¿Cuál era la fuente principal del agua que bebía en |displayif=noneExist("D_666445636","D_398622449","D_521925072","D_888514303","D_686611963","D_905002640","D_900950849","D_687407917","D_103689435","D_932828568","D_659457234")|<b> la 6ª dirección que nos dio</b>||displayif=someExist("D_666445636","D_398622449","D_521925072","D_888514303","D_686611963","D_905002640","D_900950849","D_687407917","D_103689435","D_932828568","D_659457234")| <b>{$D_115195973} {$D_706861475} {$D_666445636} {$D_398622449} {$D_521925072} {$D_888514303}{$D_686611963} {$D_905002640}{$D_900950849} {$D_687407917}{$D_103689435} {$D_932828568}{$D_659457234}</b>|? Piense en el agua que usaba para preparar bebidas como el café y el té, y el agua pura que bebía. 
 
-(123108471) Agua de la llave (grifo) o del refrigerador que <b>no</b> se haya |popup|filtrado o potabilizado|Texto de ayuda|Incluya solo agua que no se filtró ni que se potabilizó mediante ósmosis inversa, destilación o filtros que eliminan plomo, cloro, plaguicidas u otras sustancias químicas. Puede incluir agua filtrada con descalcificadores, que son filtros que solo eliminan los sedimentos del agua.|
-(463122075) Agua de un refrigerador que tiene un filtro para agua
-(254061941) Agua que se pasa por un filtro como Brita® o PUR® que se pone en una jarra o en la llave del agua
-(404651070) Agua que se filtra por ósmosis inversa (debajo del fregadero o en toda la casa) 
-(354856090) Agua que se pasa por otro tipo de filtro (debajo del fregadero o en toda la casa) 
-(311981718) Agua embotellada, incluso del dispensador de una tienda o que se entrega a domicilio
-(807835037) Otra fuente: describa  |__|id=D_286382158|
-(178420302) No sé
+(123108471:D_725859556) Agua de la llave (grifo) o del refrigerador que <b>no</b> se haya |popup|filtrado o potabilizado|Texto de ayuda|Incluya solo agua que no se filtró ni que se potabilizó mediante ósmosis inversa, destilación o filtros que eliminan plomo, cloro, plaguicidas u otras sustancias químicas. Puede incluir agua filtrada con descalcificadores, que son filtros que solo eliminan los sedimentos del agua.|
+(463122075:D_725859556) Agua de un refrigerador que tiene un filtro para agua
+(254061941:D_725859556) Agua que se pasa por un filtro como Brita® o PUR® que se pone en una jarra o en la llave del agua
+(404651070:D_725859556) Agua que se filtra por ósmosis inversa (debajo del fregadero o en toda la casa) 
+(354856090:D_725859556) Agua que se pasa por otro tipo de filtro (debajo del fregadero o en toda la casa) 
+(311981718:D_725859556) Agua embotellada, incluso del dispensador de una tienda o que se entrega a domicilio
+(807835037:D_725859556) Otra fuente: describa  |__|id=D_286382158|
+(178420302:D_725859556) No sé
 
 [D_728256340?,displayif=or(equals(D_484550481,353358909),or(equals(D_195803565,171498611),or(equals(isNotDefined(D_199489170,""),false),or(equals(isNotDefined(D_605155921,""),false),or(equals(isNotDefined(D_300476868,""),false),or(equals(isNotDefined(D_384403974,""),false),or(equals(isNotDefined(D_860984191,""),false),or(equals(isNotDefined(D_585153023,""),false),or(equals(isNotDefined(D_892150843,""),false),or(equals(isNotDefined(D_248996395,""),false),or(equals(isNotDefined(D_230376384,""),false),or(equals(isNotDefined(D_525778327,""),false),equals(isNotDefined(D_526462982,""),false)))))))))))))] ¿Cuál era la fuente del agua que usaba en |displayif=noneExist("D_199489170","D_605155921","D_300476868","D_384403974","D_860984191","D_585153023","D_892150843","D_248996395","D_230376384","D_525778327","D_526462982")|<b> la 7ª dirección que nos dio</b>||displayif=someExist("D_199489170","D_605155921","D_300476868","D_384403974","D_860984191","D_585153023","D_892150843","D_248996395","D_230376384","D_525778327","D_526462982")| <b>{$D_993557817} {$D_110516520} {$D_199489170} {$D_605155921} {$D_300476868} {$D_384403974}{$D_860984191} {$D_585153023}{$D_892150843} {$D_248996395}{$D_230376384} {$D_525778327}{$D_526462982}</b>?|
 
-(901693169) Un suministro de agua público o municipal  -> D_274257975
-(519767819) Un sistema de agua rural, un pozo comunitario o un manantial que abastece al menos a 25 personas o 15 hogares  -> D_274257975
-(388690303) Un pozo o un manantial particular -> D_976597527
-(807835037) Otra fuente: describa  |__|id=D_727126965| -> D_274257975
-(178420302) No sé -> D_274257975
+(901693169:D_852877446) Un suministro de agua público o municipal  -> D_274257975
+(519767819:D_852877446) Un sistema de agua rural, un pozo comunitario o un manantial que abastece al menos a 25 personas o 15 hogares  -> D_274257975
+(388690303:D_852877446) Un pozo o un manantial particular -> D_976597527
+(807835037:D_852877446) Otra fuente: describa  |__|id=D_727126965| -> D_274257975
+(178420302:D_852877446) No sé -> D_274257975
 < #NR -> D_274257975>
 
 [D_976597527?,displayif=or(equals(D_484550481,353358909),or(equals(D_195803565,171498611),or(equals(isNotDefined(D_199489170,""),false),or(equals(isNotDefined(D_605155921,""),false),or(equals(isNotDefined(D_300476868,""),false),or(equals(isNotDefined(D_384403974,""),false),or(equals(isNotDefined(D_860984191,""),false),or(equals(isNotDefined(D_585153023,""),false),or(equals(isNotDefined(D_892150843,""),false),or(equals(isNotDefined(D_248996395,""),false),or(equals(isNotDefined(D_230376384,""),false),or(equals(isNotDefined(D_525778327,""),false),equals(isNotDefined(D_526462982,""),false)))))))))))))] ¿Cuál era la profundidad aproximada de su pozo particular?
@@ -1996,22 +1996,22 @@ Gracias por sus respuestas. Introdujo el número máximo de direcciones de vivie
 
 [D_274257975?,displayif=or(equals(D_484550481,353358909),or(equals(D_195803565,171498611),or(equals(isNotDefined(D_199489170,""),false),or(equals(isNotDefined(D_605155921,""),false),or(equals(isNotDefined(D_300476868,""),false),or(equals(isNotDefined(D_384403974,""),false),or(equals(isNotDefined(D_860984191,""),false),or(equals(isNotDefined(D_585153023,""),false),or(equals(isNotDefined(D_892150843,""),false),or(equals(isNotDefined(D_248996395,""),false),or(equals(isNotDefined(D_230376384,""),false),or(equals(isNotDefined(D_525778327,""),false),equals(isNotDefined(D_526462982,""),false)))))))))))))] ¿Cuál era la fuente principal del agua que bebía en |displayif=noneExist("D_199489170","D_605155921","D_300476868","D_384403974","D_860984191","D_585153023","D_892150843","D_248996395","D_230376384","D_525778327","D_526462982")|<b> la 7ª dirección que no dio</b>||displayif=someExist("D_199489170","D_605155921","D_300476868","D_384403974","D_860984191","D_585153023","D_892150843","D_248996395","D_230376384","D_525778327","D_526462982")| <b>{$D_993557817} {$D_110516520} {$D_199489170} {$D_605155921} {$D_300476868} {$D_384403974}{$D_860984191} {$D_585153023}{$D_892150843} {$D_248996395}{$D_230376384} {$D_525778327}{$D_526462982}</b>|? Piense en el agua que usaba para preparar bebidas como el café y el té, y el agua pura que bebía. 
 
-(123108471) Agua de la llave (grifo) o del refrigerador que <b>no</b> se haya |popup|filtrado o potabilizado|Texto de ayuda|Incluya solo agua que no se filtró ni que se potabilizó mediante ósmosis inversa, destilación o filtros que eliminan plomo, cloro, plaguicidas u otras sustancias químicas. Puede incluir agua filtrada con descalcificadores, que son filtros que solo eliminan los sedimentos del agua.|
-(463122075) Agua de un refrigerador que tiene un filtro para agua
-(254061941) Agua que se pasa por un filtro como Brita® o PUR® que se pone en una jarra o en la llave del agua
-(404651070) Agua que se filtra por ósmosis inversa (debajo del fregadero o en toda la casa) 
-(354856090) Agua que se pasa por otro tipo de filtro (debajo del fregadero o en toda la casa) 
-(311981718) Agua embotellada, incluso del dispensador de una tienda o que se entrega a domicilio
-(807835037) Otra fuente: describa  |__|id=D_800859736|
-(178420302) No sé
+(123108471:D_718748949) Agua de la llave (grifo) o del refrigerador que <b>no</b> se haya |popup|filtrado o potabilizado|Texto de ayuda|Incluya solo agua que no se filtró ni que se potabilizó mediante ósmosis inversa, destilación o filtros que eliminan plomo, cloro, plaguicidas u otras sustancias químicas. Puede incluir agua filtrada con descalcificadores, que son filtros que solo eliminan los sedimentos del agua.|
+(463122075:D_718748949) Agua de un refrigerador que tiene un filtro para agua
+(254061941:D_718748949) Agua que se pasa por un filtro como Brita® o PUR® que se pone en una jarra o en la llave del agua
+(404651070:D_718748949) Agua que se filtra por ósmosis inversa (debajo del fregadero o en toda la casa) 
+(354856090:D_718748949) Agua que se pasa por otro tipo de filtro (debajo del fregadero o en toda la casa) 
+(311981718:D_718748949) Agua embotellada, incluso del dispensador de una tienda o que se entrega a domicilio
+(807835037:D_718748949) Otra fuente: describa  |__|id=D_800859736|
+(178420302:D_718748949) No sé
 
 [D_603945794?,displayif=or(equals(D_773680071,353358909),or(equals(D_282326355,171498611),or(equals(isNotDefined(D_295693777,""),false),or(equals(isNotDefined(D_646099557,""),false),or(equals(isNotDefined(D_886284650,""),false),or(equals(isNotDefined(D_367684056,""),false),or(equals(isNotDefined(D_599753334,""),false),or(equals(isNotDefined(D_389478638,""),false),or(equals(isNotDefined(D_467126157,""),false),or(equals(isNotDefined(D_949478044,""),false),or(equals(isNotDefined(D_421779583,""),false),or(equals(isNotDefined(D_298170847,""),false),equals(isNotDefined(D_587765197,""),false)))))))))))))] ¿Cuál era la fuente del agua que usaba en |displayif=noneExist("D_295693777","D_646099557","D_886284650","D_367684056","D_599753334","D_389478638","D_467126157","D_949478044","D_421779583","D_298170847","D_587765197")|<b> la 8ª dirección que nos dio</b>||displayif=someExist("D_295693777","D_646099557","D_886284650","D_367684056","D_599753334","D_389478638","D_467126157","D_949478044","D_421779583","D_298170847","D_587765197")| <b>{$D_520630754} {$D_142318726} {$D_295693777} {$D_646099557} {$D_886284650} {$D_367684056}{$D_599753334} {$D_389478638}{$D_467126157} {$D_949478044}{$D_421779583} {$D_298170847}{$D_587765197}</b>?|
 
-(901693169) Un suministro de agua público o municipal  -> D_636020848
-(519767819) Un sistema de agua rural, un pozo comunitario o un manantial que abastece al menos a 25 personas o 15 hogares  -> D_636020848
-(388690303) Un pozo o un manantial particular -> D_277312204
-(807835037) Otra fuente: describa  |__|id=D_940219092| -> D_636020848
-(178420302) No sé -> D_636020848
+(901693169:D_421525963) Un suministro de agua público o municipal  -> D_636020848
+(519767819:D_421525963) Un sistema de agua rural, un pozo comunitario o un manantial que abastece al menos a 25 personas o 15 hogares  -> D_636020848
+(388690303:D_421525963) Un pozo o un manantial particular -> D_277312204
+(807835037:D_421525963) Otra fuente: describa  |__|id=D_940219092| -> D_636020848
+(178420302:D_421525963) No sé -> D_636020848
 < #NR -> D_636020848>
 
 [D_277312204?,displayif=or(equals(D_773680071,353358909),or(equals(D_282326355,171498611),or(equals(isNotDefined(D_295693777,""),false),or(equals(isNotDefined(D_646099557,""),false),or(equals(isNotDefined(D_886284650,""),false),or(equals(isNotDefined(D_367684056,""),false),or(equals(isNotDefined(D_599753334,""),false),or(equals(isNotDefined(D_389478638,""),false),or(equals(isNotDefined(D_467126157,""),false),or(equals(isNotDefined(D_949478044,""),false),or(equals(isNotDefined(D_421779583,""),false),or(equals(isNotDefined(D_298170847,""),false),equals(isNotDefined(D_587765197,""),false)))))))))))))] ¿Cuál era la profundidad aproximada de su pozo particular?
@@ -2026,22 +2026,22 @@ Gracias por sus respuestas. Introdujo el número máximo de direcciones de vivie
 
 [D_636020848?,displayif=or(equals(D_773680071,353358909),or(equals(D_282326355,171498611),or(equals(isNotDefined(D_295693777,""),false),or(equals(isNotDefined(D_646099557,""),false),or(equals(isNotDefined(D_886284650,""),false),or(equals(isNotDefined(D_367684056,""),false),or(equals(isNotDefined(D_599753334,""),false),or(equals(isNotDefined(D_389478638,""),false),or(equals(isNotDefined(D_467126157,""),false),or(equals(isNotDefined(D_949478044,""),false),or(equals(isNotDefined(D_421779583,""),false),or(equals(isNotDefined(D_298170847,""),false),equals(isNotDefined(D_587765197,""),false)))))))))))))] ¿Cuál era la fuente principal del agua que bebía en |displayif=noneExist("D_295693777","D_646099557","D_886284650","D_367684056","D_599753334","D_389478638","D_467126157","D_949478044","D_421779583","D_298170847","D_587765197")|<b> la 8ª dirección que nos dio</b>||displayif=someExist("D_295693777","D_646099557","D_886284650","D_367684056","D_599753334","D_389478638","D_467126157","D_949478044","D_421779583","D_298170847","D_587765197")| <b>{$D_520630754} {$D_142318726} {$D_295693777} {$D_646099557} {$D_886284650} {$D_367684056}{$D_599753334} {$D_389478638}{$D_467126157} {$D_949478044}{$D_421779583} {$D_298170847}{$D_587765197}</b>|? Piense en el agua que usaba para preparar bebidas como el café y el té, y el agua pura que bebía. 
 
-(123108471) Agua de la llave (grifo) o del refrigerador que <b>no</b> se haya |popup|filtrado o potabilizado|Texto de ayuda|Incluya solo agua que no se filtró ni que se potabilizó mediante ósmosis inversa, destilación o filtros que eliminan plomo, cloro, plaguicidas u otras sustancias químicas. Puede incluir agua filtrada con descalcificadores, que son filtros que solo eliminan los sedimentos del agua.|
-(463122075) Agua de un refrigerador que tiene un filtro para agua
-(254061941) Agua que se pasa por un filtro como Brita® o PUR® que se pone en una jarra o en la llave del agua
-(404651070) Agua que se filtra por ósmosis inversa (debajo del fregadero o en toda la casa) 
-(354856090) Agua que se pasa por otro tipo de filtro (debajo del fregadero o en toda la casa) 
-(311981718) Agua embotellada, incluso del dispensador de una tienda o que se entrega a domicilio
-(807835037) Otra fuente: describa  |__|id=D_996493158|
-(178420302) No sé
+(123108471:D_311724055) Agua de la llave (grifo) o del refrigerador que <b>no</b> se haya |popup|filtrado o potabilizado|Texto de ayuda|Incluya solo agua que no se filtró ni que se potabilizó mediante ósmosis inversa, destilación o filtros que eliminan plomo, cloro, plaguicidas u otras sustancias químicas. Puede incluir agua filtrada con descalcificadores, que son filtros que solo eliminan los sedimentos del agua.|
+(463122075:D_311724055) Agua de un refrigerador que tiene un filtro para agua
+(254061941:D_311724055) Agua que se pasa por un filtro como Brita® o PUR® que se pone en una jarra o en la llave del agua
+(404651070:D_311724055) Agua que se filtra por ósmosis inversa (debajo del fregadero o en toda la casa) 
+(354856090:D_311724055) Agua que se pasa por otro tipo de filtro (debajo del fregadero o en toda la casa) 
+(311981718:D_311724055) Agua embotellada, incluso del dispensador de una tienda o que se entrega a domicilio
+(807835037:D_311724055) Otra fuente: describa  |__|id=D_996493158|
+(178420302:D_311724055) No sé
 
 [D_304685106?,displayif=or(equals(D_348817644,353358909),or(equals(D_141249692,171498611),or(equals(isNotDefined(D_143093472,""),false),or(equals(isNotDefined(D_746619983,""),false),or(equals(isNotDefined(D_911964974,""),false),or(equals(isNotDefined(D_711881258,""),false),or(equals(isNotDefined(D_450433102,""),false),or(equals(isNotDefined(D_390941579,""),false),or(equals(isNotDefined(D_181005197,""),false),or(equals(isNotDefined(D_737885885,""),false),or(equals(isNotDefined(D_855530921,""),false),or(equals(isNotDefined(D_603853574,""),false),equals(isNotDefined(D_589689090,""),false)))))))))))))] ¿Cuál era la fuente del agua que usaba en |displayif=noneExist("D_143093472","D_746619983","D_911964974","D_711881258","D_450433102","D_390941579","D_181005197","D_737885885","D_855530921","D_603853574","D_589689090")| <b>la 9ª dirección que nos dio</b>||displayif=someExist("D_143093472","D_746619983","D_911964974","D_711881258","D_450433102","D_390941579","D_181005197","D_737885885","D_855530921","D_603853574","D_589689090")| <b>{$D_872527709} {$D_686647703} {$D_143093472} {$D_746619983} {$D_911964974} {$D_711881258}{$D_450433102} {$D_390941579}{$D_181005197} {$D_737885885}{$D_855530921} {$D_603853574}{$D_589689090}</b>?|
 
-(901693169) Un suministro de agua público o municipal  -> D_296694684
-(519767819) Un sistema de agua rural, un pozo comunitario o un manantial que abastece al menos a 25 personas o 15 hogares  -> D_296694684
-(388690303) Un pozo o un manantial particular -> D_201989756
-(807835037) Otra fuente: describa  |__|id=D_183816760| -> D_296694684
-(178420302) No sé -> D_296694684
+(901693169:D_627243012) Un suministro de agua público o municipal  -> D_296694684
+(519767819:D_627243012) Un sistema de agua rural, un pozo comunitario o un manantial que abastece al menos a 25 personas o 15 hogares  -> D_296694684
+(388690303:D_627243012) Un pozo o un manantial particular -> D_201989756
+(807835037:D_627243012) Otra fuente: describa  |__|id=D_183816760| -> D_296694684
+(178420302:D_627243012) No sé -> D_296694684
 < #NR -> D_296694684>
 
 [D_201989756?,displayif=or(equals(D_348817644,353358909),or(equals(D_141249692,171498611),or(equals(isNotDefined(D_143093472,""),false),or(equals(isNotDefined(D_746619983,""),false),or(equals(isNotDefined(D_911964974,""),false),or(equals(isNotDefined(D_711881258,""),false),or(equals(isNotDefined(D_450433102,""),false),or(equals(isNotDefined(D_390941579,""),false),or(equals(isNotDefined(D_181005197,""),false),or(equals(isNotDefined(D_737885885,""),false),or(equals(isNotDefined(D_855530921,""),false),or(equals(isNotDefined(D_603853574,""),false),equals(isNotDefined(D_589689090,""),false)))))))))))))] ¿Cuál era la profundidad aproximada de su pozo particular?
@@ -2057,22 +2057,22 @@ Gracias por sus respuestas. Introdujo el número máximo de direcciones de vivie
 
 [D_296694684?,displayif=or(equals(D_348817644,353358909),or(equals(D_141249692,171498611),or(equals(isNotDefined(D_143093472,""),false),or(equals(isNotDefined(D_746619983,""),false),or(equals(isNotDefined(D_911964974,""),false),or(equals(isNotDefined(D_711881258,""),false),or(equals(isNotDefined(D_450433102,""),false),or(equals(isNotDefined(D_390941579,""),false),or(equals(isNotDefined(D_181005197,""),false),or(equals(isNotDefined(D_737885885,""),false),or(equals(isNotDefined(D_855530921,""),false),or(equals(isNotDefined(D_603853574,""),false),equals(isNotDefined(D_589689090,""),false)))))))))))))] ¿Cuál era la fuente principal del agua que bebía en |displayif=noneExist("D_143093472","D_746619983","D_911964974","D_711881258","D_450433102","D_390941579","D_181005197","D_737885885","D_855530921","D_603853574","D_589689090")| <b>la 9ª dirección que nos dio</b>||displayif=someExist("D_143093472","D_746619983","D_911964974","D_711881258","D_450433102","D_390941579","D_181005197","D_737885885","D_855530921","D_603853574","D_589689090")| <b>{$D_872527709} {$D_686647703} {$D_143093472} {$D_746619983} {$D_911964974} {$D_711881258}{$D_450433102} {$D_390941579}{$D_181005197} {$D_737885885}{$D_855530921} {$D_603853574}{$D_589689090}</b>|? Piense en el agua que usaba para preparar bebidas como el café y el té, y el agua pura que bebía. 
 
-(123108471) Agua de la llave (grifo) o del refrigerador que <b>no</b> se haya |popup|filtrado o potabilizado|Texto de ayuda|Incluya solo agua que no se filtró ni que se potabilizó mediante ósmosis inversa, destilación o filtros que eliminan plomo, cloro, plaguicidas u otras sustancias químicas. Puede incluir agua filtrada con descalcificadores, que son filtros que solo eliminan los sedimentos del agua.|
-(463122075) Agua de un refrigerador que tiene un filtro para agua
-(254061941) Agua que se pasa por un filtro como Brita® o PUR® que se pone en una jarra o en la llave del agua
-(404651070) Agua que se filtra por ósmosis inversa (debajo del fregadero o en toda la casa) 
-(354856090) Agua que se pasa por otro tipo de filtro (debajo del fregadero o en toda la casa) 
-(311981718) Agua embotellada, incluso del dispensador de una tienda o que se entrega a domicilio
-(807835037) Otra fuente: describa  |__|id=D_562313563|
-(178420302) No sé
+(123108471:D_741541853) Agua de la llave (grifo) o del refrigerador que <b>no</b> se haya |popup|filtrado o potabilizado|Texto de ayuda|Incluya solo agua que no se filtró ni que se potabilizó mediante ósmosis inversa, destilación o filtros que eliminan plomo, cloro, plaguicidas u otras sustancias químicas. Puede incluir agua filtrada con descalcificadores, que son filtros que solo eliminan los sedimentos del agua.|
+(463122075:D_741541853) Agua de un refrigerador que tiene un filtro para agua
+(254061941:D_741541853) Agua que se pasa por un filtro como Brita® o PUR® que se pone en una jarra o en la llave del agua
+(404651070:D_741541853) Agua que se filtra por ósmosis inversa (debajo del fregadero o en toda la casa) 
+(354856090:D_741541853) Agua que se pasa por otro tipo de filtro (debajo del fregadero o en toda la casa) 
+(311981718:D_741541853) Agua embotellada, incluso del dispensador de una tienda o que se entrega a domicilio
+(807835037:D_741541853) Otra fuente: describa  |__|id=D_562313563|
+(178420302:D_741541853) No sé
 
 [D_274780951?,displayif=or(equals(D_800194290,353358909),or(equals(D_494968690,171498611),or(equals(isNotDefined(D_117703279,""),false),or(equals(isNotDefined(D_734790700,""),false),or(equals(isNotDefined(D_278164536,""),false),or(equals(isNotDefined(D_160188014,""),false),or(equals(isNotDefined(D_983038259,""),false),or(equals(isNotDefined(D_596751155,""),false),or(equals(isNotDefined(D_313586037,""),false),or(equals(isNotDefined(D_624226136,""),false),or(equals(isNotDefined(D_158186064,""),false),or(equals(isNotDefined(D_807127029,""),false),equals(isNotDefined(D_274940131,""),false)))))))))))))] ¿Cuál era la fuente del agua que usaba en |displayif=noneExist("D_117703279","D_734790700","D_278164536","D_160188014","D_983038259","D_596751155","D_313586037","D_624226136","D_158186064","D_807127029","D_274940131")| <b>la 10ª dirección que nos dio</b>||displayif=someExist("D_117703279","D_734790700","D_278164536","D_160188014","D_983038259","D_596751155","D_313586037","D_624226136","D_158186064","D_807127029","D_274940131")| <b>{$D_306092529} {$D_258544530} {$D_117703279} {$D_734790700} {$D_278164536} {$D_160188014}{$D_983038259} {$D_596751155}{$D_313586037} {$D_624226136}{$D_158186064} {$D_807127029}{$D_274940131}</b>?|
 
-(901693169) Un suministro de agua público o municipal  -> D_321932473
-(519767819) Un sistema de agua rural, un pozo comunitario o un manantial que abastece al menos a 25 personas o 15 hogares  -> D_321932473
-(388690303) Un pozo o un manantial particular -> D_491337167
-(807835037) Otra fuente: describa  |__|id=D_673667112| -> D_321932473
-(178420302) No sé -> D_321932473
+(901693169:D_561491411) Un suministro de agua público o municipal  -> D_321932473
+(519767819:D_561491411) Un sistema de agua rural, un pozo comunitario o un manantial que abastece al menos a 25 personas o 15 hogares  -> D_321932473
+(388690303:D_561491411) Un pozo o un manantial particular -> D_491337167
+(807835037:D_561491411) Otra fuente: describa  |__|id=D_673667112| -> D_321932473
+(178420302:D_561491411) No sé -> D_321932473
 < #NR -> D_321932473>
 
 [D_491337167?,displayif=or(equals(D_800194290,353358909),or(equals(D_494968690,171498611),or(equals(isNotDefined(D_117703279,""),false),or(equals(isNotDefined(D_734790700,""),false),or(equals(isNotDefined(D_278164536,""),false),or(equals(isNotDefined(D_160188014,""),false),or(equals(isNotDefined(D_983038259,""),false),or(equals(isNotDefined(D_596751155,""),false),or(equals(isNotDefined(D_313586037,""),false),or(equals(isNotDefined(D_624226136,""),false),or(equals(isNotDefined(D_158186064,""),false),or(equals(isNotDefined(D_807127029,""),false),equals(isNotDefined(D_274940131,""),false)))))))))))))] ¿Cuál era la profundidad aproximada de su pozo particular?
@@ -2088,14 +2088,14 @@ Gracias por sus respuestas. Introdujo el número máximo de direcciones de vivie
 
 [D_321932473?,displayif=or(equals(D_800194290,353358909),or(equals(D_494968690,171498611),or(equals(isNotDefined(D_117703279,""),false),or(equals(isNotDefined(D_734790700,""),false),or(equals(isNotDefined(D_278164536,""),false),or(equals(isNotDefined(D_160188014,""),false),or(equals(isNotDefined(D_983038259,""),false),or(equals(isNotDefined(D_596751155,""),false),or(equals(isNotDefined(D_313586037,""),false),or(equals(isNotDefined(D_624226136,""),false),or(equals(isNotDefined(D_158186064,""),false),or(equals(isNotDefined(D_807127029,""),false),equals(isNotDefined(D_274940131,""),false)))))))))))))] ¿Cuál era la fuente principal del agua que bebía en |displayif=noneExist("D_117703279","D_734790700","D_278164536","D_160188014","D_983038259","D_596751155","D_313586037","D_624226136","D_158186064","D_807127029","D_274940131")| <b>la 10ª dirección que nos dio</b>||displayif=someExist("D_117703279","D_734790700","D_278164536","D_160188014","D_983038259","D_596751155","D_313586037","D_624226136","D_158186064","D_807127029","D_274940131")| <b>{$D_306092529} {$D_258544530} {$D_117703279} {$D_734790700} {$D_278164536} {$D_160188014}{$D_983038259} {$D_596751155}{$D_313586037} {$D_624226136}{$D_158186064} {$D_807127029}{$D_274940131}</b>|? Piense en el agua que usaba para preparar bebidas como el café y el té, y el agua pura que bebía.
 
-(123108471) Agua de la llave (grifo) o del refrigerador que <b>no</b> se haya |popup|filtrado o potabilizado|Texto de ayuda|Incluya solo agua que no se filtró ni que se potabilizó mediante ósmosis inversa, destilación o filtros que eliminan plomo, cloro, plaguicidas u otras sustancias químicas. Puede incluir agua filtrada con descalcificadores, que son filtros que solo eliminan los sedimentos del agua.|
-(463122075) Agua de un refrigerador que tiene un filtro para agua
-(254061941) Agua que se pasa por un filtro como Brita® o PUR® que se pone en una jarra o en la llave del agua
-(404651070) Agua que se filtra por ósmosis inversa (debajo del fregadero o en toda la casa) 
-(354856090) Agua que se pasa por otro tipo de filtro (debajo del fregadero o en toda la casa) 
-(311981718) Agua embotellada, incluso del dispensador de una tienda o que se entrega a domicilio
-(807835037) Otra fuente: describa  |__|id=D_641655118|
-(178420302) No sé
+(123108471:D_978628128) Agua de la llave (grifo) o del refrigerador que <b>no</b> se haya |popup|filtrado o potabilizado|Texto de ayuda|Incluya solo agua que no se filtró ni que se potabilizó mediante ósmosis inversa, destilación o filtros que eliminan plomo, cloro, plaguicidas u otras sustancias químicas. Puede incluir agua filtrada con descalcificadores, que son filtros que solo eliminan los sedimentos del agua.|
+(463122075:D_978628128) Agua de un refrigerador que tiene un filtro para agua
+(254061941:D_978628128) Agua que se pasa por un filtro como Brita® o PUR® que se pone en una jarra o en la llave del agua
+(404651070:D_978628128) Agua que se filtra por ósmosis inversa (debajo del fregadero o en toda la casa) 
+(354856090:D_978628128) Agua que se pasa por otro tipo de filtro (debajo del fregadero o en toda la casa) 
+(311981718:D_978628128) Agua embotellada, incluso del dispensador de una tienda o que se entrega a domicilio
+(807835037:D_978628128) Otra fuente: describa  |__|id=D_641655118|
+(178420302:D_978628128) No sé
 
 [INTROCH] <b>Vivienda de la infancia</b>
 
@@ -2233,11 +2233,11 @@ Si esta información <b>no</b> es correcta, haga clic en el botón “Atrás” 
 |displayif=equals(D_720221117,883331099)| <b>{$D_573998459} {$D_760197341} {$D_622968789} {$D_696874548} {$D_450630128} {$D_309461541}{$D_706592013} {$D_789637860}{$D_585473282} {$D_795253129}{$D_814137809} {$D_780298998}{$D_876521406}</b>||displayif=noneExist("D_622968789","D_696874548","D_450630128","D_309461541","D_706592013","D_789637860","D_585473282","D_795253129","D_814137809","D_780298998","D_876521406") and valueEquals("D_720221117",883331099)|<b>la vivienda de su infancia</b>|
 |displayif=not valueIsOneOf("D_720221117",658491312,351928156,510681016,451961786,902342161,928670216,354020985,583113200,458045785,487265825,883331099) and valueEquals("D_277348878",778052314)| <b>la vivienda de su infancia</b>|?
 
-(901693169) Un suministro de agua público o municipal 
-(519767819) Un sistema de agua rural, un pozo comunitario o un manantial que abastece al menos a 25 personas o 15 hogares 
-(388690303) Un pozo o un manantial particular
-(807835037) Otra fuente: describa  |__|id=D_158518077|
-(178420302) No sé
+(901693169:D_418408426) Un suministro de agua público o municipal 
+(519767819:D_418408426) Un sistema de agua rural, un pozo comunitario o un manantial que abastece al menos a 25 personas o 15 hogares 
+(388690303:D_418408426) Un pozo o un manantial particular
+(807835037:D_418408426) Otra fuente: describa  |__|id=D_158518077|
+(178420302:D_418408426) No sé
 
 
 [D_665593888?] ¿Cuál era la fuente del agua que bebía en  |displayif=someExist("D_284547539","D_802585033","D_746533238","D_128827522","D_890792569","D_439447560","D_451394598","D_286781627","D_984908796","D_733929451","D_847327251")|<b>{$D_952124199} {$D_204186397} {$D_284547539} {$D_802585033} {$D_746533238} {$D_128827522}{$D_890792569} {$D_439447560}{$D_451394598} {$D_286781627}{$D_984908796} {$D_733929451}{$D_847327251}</b>||displayif=noneExist("D_284547539","D_802585033","D_746533238","D_128827522","D_890792569","D_439447560","D_451394598","D_286781627","D_984908796","D_733929451","D_847327251") and not valueEquals("D_277348878",778052314)|<b>la vivienda de su infancia</b>|
@@ -2253,14 +2253,14 @@ Si esta información <b>no</b> es correcta, haga clic en el botón “Atrás” 
 |displayif=equals(D_720221117,487265825)| <b>{$D_633590687} {$D_857265979} {$D_264707783} {$D_666011940} {$D_981594981} {$D_282089547}{$D_891573875} {$D_612617245}{$D_862255177} {$D_674024553}{$D_972332937} {$D_886247195}{$D_429200007}</b>||displayif=noneExist("D_264707783","D_666011940","D_981594981","D_282089547","D_891573875","D_612617245","D_862255177","D_674024553","D_972332937","D_886247195","D_429200007") and valueEquals("D_720221117",487265825)|<b>la vivienda de su infancia</b>|
 |displayif=equals(D_720221117,883331099)| <b>{$D_573998459} {$D_760197341} {$D_622968789} {$D_696874548} {$D_450630128} {$D_309461541}{$D_706592013} {$D_789637860}{$D_585473282} {$D_795253129}{$D_814137809} {$D_780298998}{$D_876521406}</b>||displayif=noneExist("D_622968789","D_696874548","D_450630128","D_309461541","D_706592013","D_789637860","D_585473282","D_795253129","D_814137809","D_780298998","D_876521406") and valueEquals("D_720221117",883331099)|<b>la vivienda de su infancia</b>| |displayif=not valueIsOneOf("D_720221117",658491312,351928156,510681016,451961786,902342161,928670216,354020985,583113200,458045785,487265825,883331099) and valueEquals("D_277348878",778052314)| <b>la vivienda de su infancia</b>|? Piense en el agua que usaba para preparar bebidas como el jugo y el té, y el agua pura que bebía. 
 
-(123108471) Agua de la llave (grifo) o del refrigerador que <b>no</b> se haya |popup|filtrado o potabilizado|Texto de ayuda|Incluya solo agua que no se filtró ni que se potabilizó mediante ósmosis inversa, destilación o filtros que eliminan plomo, cloro, plaguicidas u otras sustancias químicas. Puede incluir agua filtrada con descalcificadores, que son filtros que solo eliminan los sedimentos del agua.|
-(463122075) Agua de un refrigerador que tiene un filtro para agua
-(254061941) Agua que se pasa por un filtro como Brita® o PUR® que se pone en una jarra o en la llave del agua
-(404651070) Agua que se filtra por ósmosis inversa (debajo del fregadero o en toda la casa) 
-(354856090) Agua que se pasa por otro tipo de filtro (debajo del fregadero o en toda la casa) 
-(311981718) Agua embotellada, incluso del dispensador de una tienda o que se entrega a domicilio
-(807835037) Otra fuente: describa  |__|id=D_669305975|
-(178420302) No sé
+(123108471:D_465315864) Agua de la llave (grifo) o del refrigerador que <b>no</b> se haya |popup|filtrado o potabilizado|Texto de ayuda|Incluya solo agua que no se filtró ni que se potabilizó mediante ósmosis inversa, destilación o filtros que eliminan plomo, cloro, plaguicidas u otras sustancias químicas. Puede incluir agua filtrada con descalcificadores, que son filtros que solo eliminan los sedimentos del agua.|
+(463122075:D_465315864) Agua de un refrigerador que tiene un filtro para agua
+(254061941:D_465315864) Agua que se pasa por un filtro como Brita® o PUR® que se pone en una jarra o en la llave del agua
+(404651070:D_465315864) Agua que se filtra por ósmosis inversa (debajo del fregadero o en toda la casa) 
+(354856090:D_465315864) Agua que se pasa por otro tipo de filtro (debajo del fregadero o en toda la casa) 
+(311981718:D_465315864) Agua embotellada, incluso del dispensador de una tienda o que se entrega a domicilio
+(807835037:D_465315864) Otra fuente: describa  |__|id=D_669305975|
+(178420302:D_465315864) No sé
 
 
 [TAPWTRINTRO] <b>Consumo y uso del agua de la llave por adultos</b>
@@ -2268,12 +2268,12 @@ Si esta información <b>no</b> es correcta, haga clic en el botón “Atrás” 
 El agua que bebemos y que usamos para ducharnos y bañarnos también puede afectar nuestra salud. En esta sección, le preguntamos sobre la cantidad de agua de la llave que suele beber y la frecuencia con la que se ducha o se baña en casa. Para responder, piense en un día o una semana habitual.
 
 [D_285545471?] En una <b>semana habitual</b>, ¿con qué frecuencia bebe agua de la llave de su casa? Nos interesa toda el agua de la llave, sin importar si se pasa por un filtro o si se potabiliza.
-(706062016) |__|__|id=D_936382173 min=0 max=999| veces al día
-(594557208) De 5 a 6 veces por semana
-(471294296) De 3 a 4 veces por semana
-(198347104) De 1 a 2 veces por semana
-(693256778) Menos de una vez a la semana
-(703370365) Bebo agua de la llave, pero no sé con qué frecuencia
+(706062016:D_124825757) |__|__|id=D_936382173 min=0 max=999| veces al día
+(594557208:D_124825757) De 5 a 6 veces por semana
+(471294296:D_124825757) De 3 a 4 veces por semana
+(198347104:D_124825757) De 1 a 2 veces por semana
+(693256778:D_124825757) Menos de una vez a la semana
+(703370365:D_124825757) Bebo agua de la llave, pero no sé con qué frecuencia
 
 
 [D_831438612?] En una <b>semana habitual</b>, ¿cuál de estas bebidas prepara con agua de la llave de su casa? Nos interesa toda el agua de la llave, sin importar si se pasa por un filtro o si se potabiliza. Seleccione todas las opciones que correspondan.
@@ -2285,48 +2285,48 @@ El agua que bebemos y que usamos para ducharnos y bañarnos también puede afect
 < #NR -> D_302947409>
 
 [D_961178879?,displayif=equals(D_831438612,863839736)]En una <b>semana habitual</b>, ¿con qué frecuencia usa agua de la llave de su casa para preparar una taza de café? Nos interesa toda el agua de la llave, sin importar si se pasa por un filtro o si se potabiliza.
-(706062016) |__|__|id=D_193077021 min=0 max=999| veces al día
-(594557208) De 5 a 6 veces por semana
-(471294296) De 3 a 4 veces por semana
-(198347104) De 1 a 2 veces por semana
-(693256778) Menos de una vez a la semana
-(703370365) Bebo agua de la llave en el café, pero no sé con qué frecuencia
+(706062016:D_259621815) |__|__|id=D_193077021 min=0 max=999| veces al día
+(594557208:D_259621815) De 5 a 6 veces por semana
+(471294296:D_259621815) De 3 a 4 veces por semana
+(198347104:D_259621815) De 1 a 2 veces por semana
+(693256778:D_259621815) Menos de una vez a la semana
+(703370365:D_259621815) Bebo agua de la llave en el café, pero no sé con qué frecuencia
 
 
 [D_138116092?,displayif=equals(D_831438612,531671855)] En una <b>semana habitual</b>, ¿con qué frecuencia usa agua de la llave de su casa para preparar una taza de té caliente? Nos interesa toda el agua de la llave, sin importar si se pasa por un filtro o si se potabiliza.
-(706062016) |__|__|id=D_386624051 min=0 max=999| veces al día
-(594557208) De 5 a 6 veces por semana
-(471294296) De 3 a 4 veces por semana
-(198347104) De 1 a 2 veces por semana
-(693256778) Menos de una vez a la semana
-(703370365) Bebo agua de la llave en el té caliente, pero no sé con qué frecuencia
+(706062016:D_786760753) |__|__|id=D_386624051 min=0 max=999| veces al día
+(594557208:D_786760753) De 5 a 6 veces por semana
+(471294296:D_786760753) De 3 a 4 veces por semana
+(198347104:D_786760753) De 1 a 2 veces por semana
+(693256778:D_786760753) Menos de una vez a la semana
+(703370365:D_786760753) Bebo agua de la llave en el té caliente, pero no sé con qué frecuencia
 
 
 [D_393682471?,displayif=equals(D_831438612,525375987)] En una <b>semana habitual</b>, ¿con qué frecuencia usa agua de la llave de su casa para preparar un vaso de té helado? Nos interesa toda el agua de la llave, sin importar si se pasa por un filtro o si se potabiliza.
-(706062016) |__|__|id=D_165923738 min=0 max=999| veces al día
-(594557208) De 5 a 6 veces por semana
-(471294296) De 3 a 4 veces por semana
-(198347104) De 1 a 2 veces por semana
-(693256778) Menos de una vez a la semana
-(703370365) Bebo agua de la llave en el té helado, pero no sé con qué frecuencia
+(706062016:D_634162640) |__|__|id=D_165923738 min=0 max=999| veces al día
+(594557208:D_634162640) De 5 a 6 veces por semana
+(471294296:D_634162640) De 3 a 4 veces por semana
+(198347104:D_634162640) De 1 a 2 veces por semana
+(693256778:D_634162640) Menos de una vez a la semana
+(703370365:D_634162640) Bebo agua de la llave en el té helado, pero no sé con qué frecuencia
 
 
 [D_364303962?,displayif=equals(D_831438612,995797773)] En una <b>semana habitual</b>, ¿con qué frecuencia usa agua de la llave de su casa para preparar cualquier otra bebida o sopa? Nos interesa toda el agua de la llave, sin importar si se pasa por un filtro o si se potabiliza.
-(706062016) |__|__|id=D_130500844 min=0 max=999| veces al día
-(594557208) De 5 a 6 veces por semana
-(471294296) De 3 a 4 veces por semana
-(198347104) De 1 a 2 veces por semana
-(693256778) Menos de una vez a la semana
-(703370365) Bebo agua de la llave en otras bebidas, pero no sé con qué frecuencia
+(706062016:D_284545617) |__|__|id=D_130500844 min=0 max=999| veces al día
+(594557208:D_284545617) De 5 a 6 veces por semana
+(471294296:D_284545617) De 3 a 4 veces por semana
+(198347104:D_284545617) De 1 a 2 veces por semana
+(693256778:D_284545617) Menos de una vez a la semana
+(703370365:D_284545617) Bebo agua de la llave en otras bebidas, pero no sé con qué frecuencia
 
 
 [D_944517297?,displayif=equals(D_831438612,431441193)] En una <b>semana habitual</b>, ¿con qué frecuencia usa agua de la llave de su casa para preparar |displayif=exists("D_834822910")|<b>{$D_834822910}</b>||displayif=doesNotExist("D_834822910")|otras bebidas|? Nos interesa toda el agua de la llave, sin importar si se pasa por un filtro o si se potabiliza.
-(706062016) |__|__|id=D_258501440 min=0 max=999| veces al día
-(594557208) De 5 a 6 veces por semana
-(471294296) De 3 a 4 veces por semana
-(198347104) De 1 a 2 veces por semana
-(693256778) Menos de una vez a la semana
-(703370365) Bebo agua de la llave en |displayif=exists("D_834822910")|<b>{$D_834822910}</b>||displayif=doesNotExist("D_834822910")|otras bebidas|, pero no sé con qué frecuencia
+(706062016:D_955136492) |__|__|id=D_258501440 min=0 max=999| veces al día
+(594557208:D_955136492) De 5 a 6 veces por semana
+(471294296:D_955136492) De 3 a 4 veces por semana
+(198347104:D_955136492) De 1 a 2 veces por semana
+(693256778:D_955136492) Menos de una vez a la semana
+(703370365:D_955136492) Bebo agua de la llave en |displayif=exists("D_834822910")|<b>{$D_834822910}</b>||displayif=doesNotExist("D_834822910")|otras bebidas|, pero no sé con qué frecuencia
 
 
 [D_302947409?] En una <b>semana habitual</b>, ¿cuántas duchas o baños toma en su casa?

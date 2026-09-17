@@ -31,7 +31,7 @@
 
 //This file was last modified on Thu May 01 03:13:18 2025 -0500 (short timestamp = 2025-05-01-16-45-18)
 
-//{"version":"4.0"}
+//{"version":"4.1"}
 
 {"name":"D_726699695_V2"}
 [INTROM1] ¡Bienvenido, {$u:firstName}! Este cuestionario se divide en secciones. Cada sección incluye preguntas sobre una gran variedad de temas. Nuestro objetivo es recopilar información sobre sus antecedentes médicos, su familia, su trabajo y sus conductas saludables. Puede responder a todas las preguntas de cada sección del cuestionario de una sola vez, o responder a algunas preguntas, tomar un descanso y volver para responder el resto después. Si toma un descanso, sus respuestas se guardarán, y podrá continuar donde se quedó. Se puede saltar cualquier pregunta que no desee responder. 
@@ -2300,15 +2300,15 @@ Tipo(s) de cáncer:  |displayList(valueIsOneOf("D_812370563",939782495),"De ano"
 En las siguientes preguntas, se le pide más información sobre sus antecedentes, incluso sobre su educación y trabajo, así como su empleo <b>actual</b> y el empleo <b>en el que ha trabajado por más tiempo</b>.
 
 [D_367803647?] ¿Cuál es el nivel más alto de educación escolar que completó?
-(978204320) Escuela primaria (grados 1 a 8)
-(935502060) Un poco de educación preparatoria (grados 9 a 11), pero sin diploma
-(404564707) Diploma de preparatoria (bachillerato) o de educación general (GED)
-(432193665) Un poco de educación universitaria, pero sin título
-(890756124) Escuela técnica o de oficios después de la preparatoria (bachillerato)
-(766964355) Título de “Associate” (estudios de categoría universitaria o de formación profesional superior de dos años)
-(875342283) Título universitario de licenciatura
-(598242454) Título de estudios superiores (maestría, doctorado, etc.)
-(807835037) Otro: describa  |__|id=D_940387701|
+(978204320:D_411992398) Escuela primaria (grados 1 a 8)
+(935502060:D_411992398) Un poco de educación preparatoria (grados 9 a 11), pero sin diploma
+(404564707:D_411992398) Diploma de preparatoria (bachillerato) o de educación general (GED)
+(432193665:D_411992398) Un poco de educación universitaria, pero sin título
+(890756124:D_411992398) Escuela técnica o de oficios después de la preparatoria (bachillerato)
+(766964355:D_411992398) Título de “Associate” (estudios de categoría universitaria o de formación profesional superior de dos años)
+(875342283:D_411992398) Título universitario de licenciatura
+(598242454:D_411992398) Título de estudios superiores (maestría, doctorado, etc.)
+(807835037:D_411992398) Otro: describa  |__|id=D_940387701|
 
 [D_784967158?] ¿Está inscrito actualmente en la escuela? 
 (104430631) No

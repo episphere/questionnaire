@@ -30,7 +30,7 @@
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
 //This file was last modified on Tue Feb 18 16:23:58 2025 -0500 (short timestamp = 2025-02-18-21-23-58)
-//{"version":"2.3"}
+//{"version":"2.4"}
 {"name":"D_745268907_V2"}
 [INTROM2] Esta serie de preguntas trata sobre algunos temas que le afectan la salud, los cuales incluyen su consumo actual y pasado de medicamentos, su actividad física (incluso el ejercicio) y sus hábitos de sueño.
 
@@ -469,10 +469,10 @@ O
 
 
 [D_850202336?] Los días en que se inyectó insulina, ¿qué concentración se puso?
-(310201523) 100 unidades por ml
-(290716491) 500 unidades por ml
-(178420302) No sé
-(807835037) Otra: describa |__|id=D_526448646|
+(310201523:D_129284742) 100 unidades por ml
+(290716491:D_129284742) 500 unidades por ml
+(178420302:D_129284742) No sé
+(807835037:D_129284742) Otra: describa |__|id=D_526448646|
 
 
 [D_799903478?] ¿Aproximadamente cuántos años tomó insulina?
@@ -667,14 +667,14 @@ Para empezar, le haremos algunas preguntas sobre su primera menstruación y su p
 
 [D_614145455?,displayif=doesNotEqual(D_496539718,648960871)] Elija la opción que mejor describa por qué <b>no</b> ha tenido una menstruación en los <b>últimos 12 meses</b>:
 
-(582425113) Mis períodos cesaron de forma natural por la menopausia -> PREG 
-(330745988) Mis períodos cesaron porque empecé a tomar hormonas femeninas durante la transición menopáusica (perimenopausia) o la menopausia -> PREG 
-(909774794) Mis períodos cesaron después de una extirpación quirúrgica del útero o ambos ovarios -> D_534920374
-(868504994) Mis períodos cesaron después de la ablación endometrial (extirpación del endometrio, es decir, el revestimiento del útero) -> D_534920374
-(655309065) Utilizo actualmente un medicamento hormonal o un dispositivo (como un dispositivo intrauterino (DIU)) para evitar el embarazo, controlar los síntomas del ciclo menstrual o tratar afecciones como la endometriosis o el síndrome del ovario poliquístico (SOP)  -> D_534920374
-(757609794) Estuve embarazada o lactando durante el último año  -> D_534920374
-(585076356) Mis períodos cesaron después de recibir radioterapia o quimioterapia  -> D_534920374
-(807835037) Mis períodos cesaron por otros motivos: describa |__|id=D_672810476| -> D_534920374
+(582425113:D_384247618) Mis períodos cesaron de forma natural por la menopausia -> PREG 
+(330745988:D_384247618) Mis períodos cesaron porque empecé a tomar hormonas femeninas durante la transición menopáusica (perimenopausia) o la menopausia -> PREG 
+(909774794:D_384247618) Mis períodos cesaron después de una extirpación quirúrgica del útero o ambos ovarios -> D_534920374
+(868504994:D_384247618) Mis períodos cesaron después de la ablación endometrial (extirpación del endometrio, es decir, el revestimiento del útero) -> D_534920374
+(655309065:D_384247618) Utilizo actualmente un medicamento hormonal o un dispositivo (como un dispositivo intrauterino (DIU)) para evitar el embarazo, controlar los síntomas del ciclo menstrual o tratar afecciones como la endometriosis o el síndrome del ovario poliquístico (SOP)  -> D_534920374
+(757609794:D_384247618) Estuve embarazada o lactando durante el último año  -> D_534920374
+(585076356:D_384247618) Mis períodos cesaron después de recibir radioterapia o quimioterapia  -> D_534920374
+(807835037:D_384247618) Mis períodos cesaron por otros motivos: describa |__|id=D_672810476| -> D_534920374
 < #NR-> PREG >
 
 [D_534920374?,displayif=doesNotEqual(D_496539718,648960871)] ¿Qué edad tenía cuando tuvo su <b>última</b> menstruación?

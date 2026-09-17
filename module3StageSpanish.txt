@@ -30,7 +30,7 @@
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
 //This file was last modified on Fri Feb 14 14:20:11 2025 -0500 (short timestamp = 2025-02-14-19-20-11)
-//{"version":"1.6"}
+//{"version":"1.7"}
 {"name":"D_965707586"}
 [INTROM3] Las siguientes preguntas tratan sobre el consumo de tabaco, nicotina, cánnabis (marihuana) y bebidas alcohólicas. En la última sección, le preguntaremos sobre su exposición al sol y el uso de camas de bronceado.
 
@@ -1152,11 +1152,11 @@ Edad en que dejó de fumar todos los días |__|__|min=isDefined(isDefined(D_8899
 
 [D_377064836?,displayif=equals(D_830608495,760521319)] ¿Por qué  |displayif=doesNotExist("D_180308733") or valueEquals("D_180308733",317567178)|fuma||displayif=valueIsOneOf("D_180308733",484055234,802197176)|fumaba| cánnabis? 
 
-(437269318) Como actividad de recreo
-(838317013) Como medicamento
-(585672584) Como actividad de recreo y como medicamento
-(807835037) Otro motivo: describa  |__|id=D_779642303|
-(746038746) Prefiero no responder
+(437269318:D_781288845) Como actividad de recreo
+(838317013:D_781288845) Como medicamento
+(585672584:D_781288845) Como actividad de recreo y como medicamento
+(807835037:D_781288845) Otro motivo: describa  |__|id=D_779642303|
+(746038746:D_781288845) Prefiero no responder
 
 // Same logic as CIGLIFEA-CIGLIFEH just with different variable names
 // 0-17
@@ -1328,11 +1328,11 @@ NÚMERO DE VECES AL DÍA |__|__|min=1 max=99|
 
 [D_755923078?,displayif=equals(D_830608495,158841370)] ¿Por qué  |displayif=doesNotExist("D_444759994") or valueEquals("D_444759994",317567178)|fuma||displayif=valueIsOneOf("D_444759994",484055234,802197176)|fumaba| una combinación de cánnabis con tabaco? 
 
-(437269318) Como actividad de recreo
-(838317013) Como medicamento
-(585672584) Como actividad de recreo y como medicamento
-(807835037) Otro motivo: describa   |__|id=D_459020144|
-(746038746) Prefiero no responder
+(437269318:D_233510215) Como actividad de recreo
+(838317013:D_233510215) Como medicamento
+(585672584:D_233510215) Como actividad de recreo y como medicamento
+(807835037:D_233510215) Otro motivo: describa   |__|id=D_459020144|
+(746038746:D_233510215) Prefiero no responder
 
 // Same logic as CIGLIFEA-CIGLIFEH just with different variable names
 // 0-17
@@ -1475,11 +1475,11 @@ Los días en que vapea|displayif=valueIsOneOf("D_859228803",484055234,802197176)
 
 [D_268240612?,displayif=equals(D_830608495,349034127)] ¿Por qué |displayif=doesNotExist("D_859228803") or valueEquals("D_859228803",317567178)|vapea||displayif=valueIsOneOf("D_859228803",484055234,802197176)|vapeaba| cánnabis?
 
-(437269318) Como actividad de recreo
-(838317013) Como medicamento
-(585672584) Como actividad de recreo y como medicamento
-(807835037) Otro motivo: describa  |__|id=D_531654334|
-(746038746) Prefiero no responder
+(437269318:D_359066098) Como actividad de recreo
+(838317013:D_359066098) Como medicamento
+(585672584:D_359066098) Como actividad de recreo y como medicamento
+(807835037:D_359066098) Otro motivo: describa  |__|id=D_531654334|
+(746038746:D_359066098) Prefiero no responder
 
 // Same logic as CIGLIFEA-CIGLIFEH just with different variable names
 // 0-17
@@ -1655,11 +1655,11 @@ Número de porciones al día  |__|__|__|id=D_810608313 min=1 max=99|
 
 [D_810324917?,displayif=equals(D_830608495,713594719)] ¿Por qué |displayif=doesNotExist("D_921663542") or valueEquals("D_921663542",317567178)|consume||displayif=valueIsOneOf("D_921663542",484055234,802197176)|consumía| comestibles, bebidas o cápsulas de cánnabis en alimentos o bebidas?
 
-(437269318) Como actividad de recreo
-(838317013) Como medicamento
-(585672584) Como actividad de recreo y como medicamento
-(807835037) Otro motivo: describa   |__|id=D_479400169|
-(746038746) Prefiero no responder
+(437269318:D_409356583) Como actividad de recreo
+(838317013:D_409356583) Como medicamento
+(585672584:D_409356583) Como actividad de recreo y como medicamento
+(807835037:D_409356583) Otro motivo: describa   |__|id=D_479400169|
+(746038746:D_409356583) Prefiero no responder
 
 // Same logic as CIGLIFEA-CIGLIFEH just with different variable names
 // 0-17
@@ -1796,11 +1796,11 @@ Número de porciones al día  |__|__|__|id=D_810608313 min=1 max=999|
 
 [D_265469878?,displayif=equals(D_830608495,675129470)] ¿Por qué |displayif=doesNotExist("D_532755074") or valueEquals("D_532755074",317567178)|hace||displayif=valueIsOneOf("D_532755074",484055234,802197176)|hacía| dabbing con concentrados de THC?
 
-(437269318) Como actividad de recreo
-(838317013) Como medicamento
-(585672584) Como actividad de recreo y como medicamento
-(807835037) Otro motivo: describa  |__|id=D_781650542|
-(746038746) Prefiero no responder
+(437269318:D_997708616) Como actividad de recreo
+(838317013:D_997708616) Como medicamento
+(585672584:D_997708616) Como actividad de recreo y como medicamento
+(807835037:D_997708616) Otro motivo: describa  |__|id=D_781650542|
+(746038746:D_997708616) Prefiero no responder
 
 // Same logic as CIGLIFEA-CIGLIFEH just with different variable names
 // 0-17
