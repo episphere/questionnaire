@@ -1372,7 +1372,7 @@ Or, if it is easier to remember the year, enter that here:<br/>
 
 
 [D_317093647?,displayif=equals(D_814510313,596122041)] How old was your mother when they were <b>first</b> told by a doctor or other health professional that they have or had <b>esophageal cancer</b>?<br/>
- |__|__|__| xor=MOMCANC3F id=D_261863326 min=0 max=valueOrDefault("D_378988419","D_807765962",125)| Age at diagnosis
+|__|__|__| xor=MOMCANC3G id=D_206625031 min=0 max=valueOrDefault("D_378988419","D_807765962",125)| Age at diagnosis
 
 Or, if it is easier to remember the year, enter that here:<br/>
 |__|__|__|__| xor=MOMCANC3G id=D_261863326 min=1800 max=#currentYear| Year of diagnosis

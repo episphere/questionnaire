@@ -1434,7 +1434,7 @@ O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
 
 
 [D_317093647?,displayif=equals(D_814510313,596122041)] ¿Qué edad tenía su madre cuando un médico u otro profesional de la salud le dijo <b>por primera vez</b> que tiene o tenía <b>cáncer de esófago</b>?<br/>
- |__|__|__| xor=MOMCANC3F id=D_261863326 min=0 max=valueOrDefault("D_378988419","D_807765962",125)| Edad en el momento del diagnóstico
+|__|__|__| xor=MOMCANC3G id=D_206625031 min=0 max=valueOrDefault("D_378988419","D_807765962",125)| Edad en el momento del diagnóstico
 
 O, si le es más fácil recordar en qué año, anótelo aquí:<br/>
 |__|__|__|__| xor=MOMCANC3G id=D_261863326 min=1800 max=#currentYear| Año del diagnóstico
