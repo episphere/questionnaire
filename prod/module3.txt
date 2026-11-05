@@ -37,7 +37,7 @@
 
 
 //This file was last modified on Wed Feb 12 08:39:35 2025 -0500 (short timestamp = 2025-02-12-13-39-35)
-//{"version":"1.6"}
+//{"version":"1.7"}
 {"name":"D_965707586"}
 
 [INTROM3] The next questions are about your tobacco, nicotine, cannabis (marijuana), and alcohol use. In the last section, we will ask you about your exposure to the sun and use of tanning beds.
@@ -1163,11 +1163,11 @@ Age stopped smoking every day |__|__|min=valueOrDefault("D_889949861","D_2100163
 
 [D_377064836?,displayif=equals(D_830608495,760521319)] Why |displayif=doesNotExist("D_180308733") or valueEquals("D_180308733",317567178)|do||displayif=valueIsOneOf("D_180308733",484055234,802197176)|did| you smoke cannabis?
 
-(437269318) Recreation
-(838317013) As medicine
-(585672584) Recreation and as medicine
-(807835037) Other: Please describe |__|id=D_779642303|
-(746038746) Prefer not to answer
+(437269318:D_781288845) Recreation
+(838317013:D_781288845) As medicine
+(585672584:D_781288845) Recreation and as medicine
+(807835037:D_781288845) Other: Please describe |__|id=D_779642303|
+(746038746:D_781288845) Prefer not to answer
 
 // Same logic as CIGLIFEA-CIGLIFEH just with different variable names
 // 0-17
@@ -1339,11 +1339,11 @@ Age stopped smoking every day |__|__|min=valueOrDefault("D_628818510","D_1408487
 
 [D_755923078?,displayif=equals(D_830608495,158841370)] Why |displayif=doesNotExist("D_444759994") or valueEquals("D_444759994",317567178)|do||displayif=valueIsOneOf("D_444759994",484055234,802197176)|did| you smoke a combination of cannabis with tobacco?
 
-(437269318) Recreation
-(838317013) As medicine
-(585672584) Recreation and as medicine
-(807835037) Other: Please describe |__|id=D_459020144|
-(746038746) Prefer not to answer
+(437269318:D_233510215) Recreation
+(838317013:D_233510215) As medicine
+(585672584:D_233510215) Recreation and as medicine
+(807835037:D_233510215) Other: Please describe |__|id=D_459020144|
+(746038746:D_233510215) Prefer not to answer
 
 // Same logic as CIGLIFEA-CIGLIFEH just with different variable names
 // 0-17
@@ -1483,11 +1483,11 @@ On days that you vape|displayif=valueIsOneOf("D_859228803",484055234,802197176)|
 
 [D_268240612?,displayif=equals(D_830608495,349034127)] Why |displayif=doesNotExist("D_859228803") or valueEquals("D_859228803",317567178)|do||displayif=valueIsOneOf("D_859228803",484055234,802197176)|did| you vape cannabis?
 
-(437269318) Recreation
-(838317013) As medicine
-(585672584) Recreation and as medicine
-(807835037) Other: Please describe |__|id=D_531654334|
-(746038746) Prefer not to answer
+(437269318:D_359066098) Recreation
+(838317013:D_359066098) As medicine
+(585672584:D_359066098) Recreation and as medicine
+(807835037:D_359066098) Other: Please describe |__|id=D_531654334|
+(746038746:D_359066098) Prefer not to answer
 
 // Same logic as CIGLIFEA-CIGLIFEH just with different variable names
 // 0-17
@@ -1663,11 +1663,11 @@ Age stopped consuming cannabis edibles, drinks, or capsules every day |__|__|min
 
 [D_810324917?,displayif=equals(D_830608495,713594719)] Why |displayif=doesNotExist("D_921663542") or valueEquals("D_921663542",317567178)|do||displayif=valueIsOneOf("D_921663542",484055234,802197176)|did| you consume cannabis edibles, drinks, or capsules?
 
-(437269318) Recreation
-(838317013) As medicine
-(585672584) Recreation and as medicine
-(807835037) Other: Please describe |__|id=D_479400169|
-(746038746) Prefer not to answer
+(437269318:D_409356583) Recreation
+(838317013:D_409356583) As medicine
+(585672584:D_409356583) Recreation and as medicine
+(807835037:D_409356583) Other: Please describe |__|id=D_479400169|
+(746038746:D_409356583) Prefer not to answer
 
 // Same logic as CIGLIFEA-CIGLIFEH just with different variable names
 // 0-17
@@ -1803,11 +1803,11 @@ On days that you |displayif=doesNotExist("D_532755074") or valueEquals("D_532755
 
 [D_265469878?,displayif=equals(D_830608495,675129470)] Why |displayif=doesNotExist("D_532755074") or valueEquals("D_532755074",317567178)|do||displayif=valueIsOneOf("D_532755074",484055234,802197176)|did| you dab THC concentrates?
 
-(437269318) Recreation
-(838317013) As medicine
-(585672584) Recreation and as medicine
-(807835037) Other: Please describe |__|id=D_781650542|
-(746038746) Prefer not to answer
+(437269318:D_997708616) Recreation
+(838317013:D_997708616) As medicine
+(585672584:D_997708616) Recreation and as medicine
+(807835037:D_997708616) Other: Please describe |__|id=D_781650542|
+(746038746:D_997708616) Prefer not to answer
 
 // Same logic as CIGLIFEA-CIGLIFEH just with different variable names
 // 0-17
