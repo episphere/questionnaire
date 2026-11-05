@@ -30,7 +30,7 @@
 // JSON WARNING --> Concept ID 970604592 with concept "Years used" is shared between these Textbox codes: [ANYCOMESTYEAR, COMBINEDYEAR, COPIUDYEAR, DEPROPROVYEAR, ESTOTHERYEAR, ESTSKINYEAR, HORCOMPILLYEAR, HORIUDYEAR, HORMEDOTHERYEAR, HORMEDPATCHYEAR, HORMEDRINGYEAR, MINIPILLYEAR, NORPLANTYEAR, ORALESTYEAR, ORALMEDYEAR, PATCHESTYEAR, PRESHOR2YEAR, PROESTYEAR, RINGYEAR, TWOPILLYEAR]
 
 //This file was last modified on Fri Feb 14 14:09:21 2025 -0500 (short timestamp = 2025-02-14-19-09-21)
-//{"version":"2.3"}
+//{"version":"2.4"}
 {"name":"D_745268907_V2"}
 [INTROM2] In this set of questions we ask about a few topics that affect your health. These topics include your current and past use of medications, your physical activity (including exercise), and your sleep habits.
 
@@ -461,10 +461,10 @@ Or
 [178420302*] Don’t know
 
 [D_850202336?] On the days that you took insulin, what concentration did you take?
-(310201523) 100 unit per ml
-(290716491) 500 unit per ml
-(178420302) Don't know
-(807835037) Other: Please describe |__|id=D_526448646|
+(310201523:D_129284742) 100 unit per ml
+(290716491:D_129284742) 500 unit per ml
+(178420302:D_129284742) Don't know
+(807835037:D_129284742) Other: Please describe |__|id=D_526448646|
 
 [D_799903478?] About how many years did you take insulin?
 
@@ -653,14 +653,14 @@ Age |__|__|id=D_969451837 min=0 max=_value("age")|
 < -> PREG>
 
 [D_614145455?,displayif=doesNotEqual(D_496539718,648960871)] Please pick the option that best describes why you have <b>not</b> had a menstrual period in the <b>past 12 months</b>:
-(582425113) My periods stopped naturally due to menopause -> PREG 
-(330745988) My periods stopped because I began taking female hormones during the menopausal transition or menopause (“the change of life”) -> PREG 
-(909774794) My periods stopped after surgery that removed my uterus and/or both ovaries -> D_534920374
-(868504994) My periods stopped after endometrial ablation (removal of the endometrium – lining of the uterus) -> D_534920374
-(655309065) I am currently using a hormonal medication or device (such as an intrauterine device (IUD)) to prevent pregnancy, manage my menstrual cycle symptoms, and/or manage conditions like endometriosis or polycystic ovarian syndrome (PCOS)  -> D_534920374
-(757609794) I was pregnant or breastfeeding during the last year  -> D_534920374
-(585076356) My periods stopped after radiation or chemotherapy  -> D_534920374
-(807835037) My periods stopped for other reasons: Please describe |__|id=D_672810476| -> D_534920374
+(582425113:D_384247618) My periods stopped naturally due to menopause -> PREG 
+(330745988:D_384247618) My periods stopped because I began taking female hormones during the menopausal transition or menopause (“the change of life”) -> PREG 
+(909774794:D_384247618) My periods stopped after surgery that removed my uterus and/or both ovaries -> D_534920374
+(868504994:D_384247618) My periods stopped after endometrial ablation (removal of the endometrium – lining of the uterus) -> D_534920374
+(655309065:D_384247618) I am currently using a hormonal medication or device (such as an intrauterine device (IUD)) to prevent pregnancy, manage my menstrual cycle symptoms, and/or manage conditions like endometriosis or polycystic ovarian syndrome (PCOS)  -> D_534920374
+(757609794:D_384247618) I was pregnant or breastfeeding during the last year  -> D_534920374
+(585076356:D_384247618) My periods stopped after radiation or chemotherapy  -> D_534920374
+(807835037:D_384247618) My periods stopped for other reasons: Please describe |__|id=D_672810476| -> D_534920374
 < #NR-> PREG >
 
 [D_534920374?,displayif=doesNotEqual(D_496539718,648960871)] How old were you when you had your <b>last</b> menstrual period?
